@@ -45,6 +45,7 @@ Why it is built this way, and why step 2 feels awful: **[docs/method.md](docs/me
 | [docs/for-parents.md](docs/for-parents.md) | You. What to do, and what to stay out of. |
 | [docs/command-terms.md](docs/command-terms.md) | Him. Where marks get lost on questions he knew. |
 | [docs/adding-a-course.md](docs/adding-a-course.md) | You. Adding Chemistry, Maths, anything. |
+| [docs/offloading.md](docs/offloading.md) | You. Generating packs elsewhere, and what not to trust. |
 
 ## What is in here
 
@@ -59,6 +60,7 @@ Why it is built this way, and why step 2 feels awful: **[docs/method.md](docs/me
         exam.md            exam questions + mark schemes -> `study exam`
         traps.md           where the marks actually go
     docs/                  the method, and the guides
+    prompts/topic-pack.md  portable pack prompt for any model
     templates/topic-pack/  the skeleton `study new` copies
     tools/study.mjs        the CLI
     study/                 progress state, per course
@@ -86,6 +88,17 @@ Do not write them by hand. In a Claude session in this repo:
 
 `.claude/skills/topic-pack/SKILL.md` defines what a good pack is, so output
 stays consistent across sessions rather than drifting.
+
+To generate them somewhere else — ChatGPT, another model — use
+`prompts/topic-pack.md`. It is self-contained and carries the same contract, so
+output drops in without editing. Then verify the structure:
+
+    node tools/study.mjs check D1.1     # one pack
+    node tools/study.mjs check          # all of them
+
+The checker catches broken card ids, an `exam.md` that will not parse, surviving
+template placeholders and invented video URLs. It cannot tell you whether the
+biology is right — see [docs/offloading.md](docs/offloading.md).
 
 **Then check it against his actual course materials before he studies it.** A
 wrong card gets memorised exactly as efficiently as a correct one. Build packs

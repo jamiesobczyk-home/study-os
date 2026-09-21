@@ -5,6 +5,10 @@ description: Author or improve a topic pack in this study repo — the five file
 
 # Building a topic pack
 
+> A self-contained version of this standard, for a model with no access to this
+> repo, lives in `prompts/topic-pack.md`. If you change the pack format here,
+> change it there too — and in `tools/lib/check.mjs`, which enforces it.
+
 A topic pack turns one syllabus topic into something a struggling student can
 work through in forty minutes. It is five files in
 `courses/<course>/topics/<CODE>-<slug>/`, plus a README.
@@ -181,8 +185,8 @@ then cut, and put the thing you want remembered at the end of the sentence.
 
 ## Before you call it done
 
-- [ ] `node -e "require('./courses/<course>/topics/<dir>/cards.json')"` parses.
-- [ ] Card ids are sequential and unique, and no existing id changed.
+- [ ] `node tools/study.mjs check <CODE>` reports no errors.
+- [ ] No existing card id changed (the checker cannot see this — you must).
 - [ ] `node tools/study.mjs quiz <CODE> --all` runs and shows every card.
 - [ ] `node tools/study.mjs exam <CODE>` reveals a mark scheme correctly.
 - [ ] Every Core and HL bullet in `essentials.md` has at least one card.

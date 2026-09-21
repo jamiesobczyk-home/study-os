@@ -36,6 +36,10 @@ built this way.
   one.
 - **Exam file structure is load-bearing.** `study exam` parses `## ` headings
   and `### Mark scheme` subheadings. Changing the shape breaks the reveal.
+- **Two authoring paths must stay in step.** `.claude/skills/topic-pack/SKILL.md`
+  is for sessions in this repo; `prompts/topic-pack.md` is the self-contained
+  version for a model with no repo access. Change the pack format and you must
+  update both, plus `tools/lib/check.mjs` which enforces it.
 
 ## Tone
 
@@ -47,10 +51,15 @@ works. "Simply" and "just" do not appear in this repo.
 
 There is no test suite. Before calling a change done:
 
+    node tools/study.mjs check          # structural check on every pack
     node tools/study.mjs list
     node tools/study.mjs progress
     node tools/study.mjs quiz <CODE> --all
     node tools/study.mjs exam <CODE>
+
+`check` exits non-zero on structural errors, so it is the one to gate on. It
+validates format, not biology — it cannot tell you a card is wrong, only that
+the quiz will fail to read it.
 
 The quiz is interactive and aborts cleanly on Ctrl-D, saving answers given so
 far. Piped stdin will not exercise it — readline drops queued lines — so test

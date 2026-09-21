@@ -23,6 +23,7 @@ import {
   findTopic, hasPack, listCourses, loadCards, loadCourse, loadSyllabus, readPackFile,
 } from './lib/syllabus.mjs';
 import * as progress from './lib/progress.mjs';
+import { checkPack } from './lib/check.mjs';
 import { bold, dim, blue, green, yellow, red, rule, para, heading } from './lib/ui.mjs';
 
 const DEFAULT_COURSE = 'bio-hl';
@@ -392,6 +393,42 @@ const cmdNew = (ctx, code) => {
   ));
 };
 
+const cmdCheck = (ctx, code) => {
+  const topics = code
+    ? [requireTopic(ctx, code)]
+    : ctx.syllabus.topics.filter((t) => hasPack(ctx.course, t));
+
+  if (!topics.length) {
+    console.log(para('\nNo packs to check yet.\n'));
+    return;
+  }
+
+  console.log(heading(`Checking ${topics.length} pack${topics.length === 1 ? '' : 's'}`));
+  let failed = 0;
+  let warned = 0;
+
+  for (const topic of topics) {
+    const { errors, warns, info } = checkPack(ctx.course, topic);
+    if (errors.length) failed += 1;
+    if (warns.length) warned += 1;
+
+    const tag = errors.length ? red('FAIL') : warns.length ? yellow('warn') : green(' ok ');
+    console.log(`  ${tag}  ${bold(topic.code.padEnd(5))} ${dim(topic.title)}`);
+    for (const e of errors) console.log(para(red(`- ${e}`), '        '));
+    for (const w of warns) console.log(para(yellow(`- ${w}`), '        '));
+    for (const i of info) console.log(para(dim(`- ${i}`), '        '));
+  }
+
+  console.log(rule());
+  if (failed) {
+    console.log(`  ${red(`${failed} pack${failed === 1 ? '' : 's'} with errors`)} — these will not work correctly until fixed.`);
+  } else {
+    console.log(`  ${green('No structural errors.')}${warned ? ` ${warned} with warnings.` : ''}`);
+  }
+  console.log(para(dim('\n  This checks structure only. Whether the biology is correct is a question for the study guide.\n')));
+  if (failed) process.exitCode = 1;
+};
+
 const usage = () => {
   console.log(`
 ${bold('study')} — a video-first study system
@@ -403,6 +440,7 @@ ${bold('study')} — a video-first study system
   ${bold('progress')}           the whole syllabus at a glance
   ${bold('list')}               every topic, and which have packs
   ${bold('new')} <topic>        scaffold a new topic pack
+  ${bold('check')} [topic]      verify pack structure (all packs if omitted)
 
   ${dim('--course <id>')}      pick a course (default: ${DEFAULT_COURSE})
   ${dim('--limit <n>')}        cards per quiz (default: 20)
@@ -429,6 +467,7 @@ const main = async () => {
     case 'quiz': return cmdQuiz(ctx, code, flags);
     case 'exam': return cmdExam(ctx, code);
     case 'new': return cmdNew(ctx, code);
+    case 'check': return cmdCheck(ctx, code);
     default:
       console.error(`Unknown command "${command}".`);
       usage();
