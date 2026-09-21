@@ -1,0 +1,90 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>study-os video style preview</title>
+<style>
+  :root{--paper:#faf7f2;--ink:#1c1c1c;--muted:#6b6b6b;--line:#d8d2c8;
+        --bad:#c0392b;--good:#1e7a43;--accent:#2b6cb0;--pencil:#3a3a3a}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#222;font:16px/1.5 "Segoe UI",system-ui,sans-serif}
+  .frame{width:1920px;height:1080px;background:var(--paper);position:relative;
+         overflow:hidden;transform-origin:top left}
+  .pad{position:absolute;inset:0;padding:110px 130px;display:flex;flex-direction:column}
+  .eyebrow{font-size:30px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:26px}
+  .headline{font-size:76px;line-height:1.12;font-weight:700;color:var(--ink);letter-spacing:-.02em;max-width:22ch}
+  .body{font-size:46px;line-height:1.45;color:var(--ink);max-width:30ch}
+  .quote{font-size:48px;line-height:1.4;max-width:26ch;position:relative;padding-left:34px}
+  .quote::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:7px;border-radius:4px}
+  .quote.bad::before{background:var(--bad)} .quote.good::before{background:var(--good)}
+  .verdict{display:inline-flex;align-items:center;gap:20px;font-size:40px;font-weight:700;margin-bottom:30px}
+  .verdict.bad{color:var(--bad)} .verdict.good{color:var(--good)}
+  .mark{width:74px;height:74px;border-radius:50%;display:grid;place-items:center;
+        color:#fff;font-size:44px;line-height:1}
+  .mark.bad{background:var(--bad)} .mark.good{background:var(--good)}
+  figure{position:absolute;right:120px;bottom:90px}
+  .brand{position:absolute;left:130px;bottom:70px;font-size:28px;color:var(--muted);letter-spacing:.05em}
+  .code{position:absolute;right:130px;top:110px;font-size:30px;font-weight:700;color:var(--muted)}
+  .center{justify-content:center;align-items:center;text-align:center}
+  .center .headline{max-width:26ch;font-size:96px}
+  .sub{font-size:44px;color:var(--muted);margin-top:26px}
+</style></head><body>
+<div class="frame" id="f"></div>
+<script>
+// Stick figures, drawn as SVG so they scale and stay legible at any size.
+function figure(pose){
+  const S = {
+    writing:`<line x1="100" y1="150" x2="100" y2="250"/>
+             <line x1="100" y1="175" x2="55" y2="215"/>
+             <line x1="100" y1="175" x2="152" y2="225"/>
+             <line x1="100" y1="250" x2="70" y2="330"/>
+             <line x1="100" y1="250" x2="130" y2="330"/>
+             <line x1="152" y1="225" x2="182" y2="243" stroke-width="7"/>`,
+    thinking:`<line x1="100" y1="150" x2="100" y2="250"/>
+             <line x1="100" y1="175" x2="58" y2="230"/>
+             <line x1="100" y1="175" x2="140" y2="130"/>
+             <line x1="100" y1="250" x2="70" y2="330"/>
+             <line x1="100" y1="250" x2="130" y2="330"/>`,
+    pleased:`<line x1="100" y1="150" x2="100" y2="250"/>
+             <line x1="100" y1="172" x2="48" y2="130"/>
+             <line x1="100" y1="172" x2="152" y2="130"/>
+             <line x1="100" y1="250" x2="68" y2="330"/>
+             <line x1="100" y1="250" x2="132" y2="330"/>`
+  }[pose];
+  const face = pose==='pleased'
+    ? `<path d="M82 112 Q100 130 118 112" fill="none" stroke-width="7"/>`
+    : `<path d="M82 120 Q100 106 118 120" fill="none" stroke-width="7"/>`;
+  return `<svg width="260" height="360" viewBox="0 0 220 360" fill="none"
+      stroke="var(--pencil)" stroke-width="9" stroke-linecap="round">
+      <circle cx="100" cy="105" r="46" stroke-width="9"/>
+      <circle cx="85" cy="98" r="4.5" fill="var(--pencil)" stroke="none"/>
+      <circle cx="115" cy="98" r="4.5" fill="var(--pencil)" stroke="none"/>
+      ${face}${S}</svg>`;
+}
+const BEATS = {
+  title:{html:`<div class="pad center">
+      <div class="eyebrow">Where the marks go</div>
+      <div class="headline">A1.1 Water</div>
+      <div class="sub">8 ways to lose marks &mdash; and what to write instead</div>
+    </div><div class="brand">study-os</div>`},
+  mistake:{html:`<div class="pad">
+      <div class="eyebrow">Number 5 &mdash; commonly written</div>
+      <div class="verdict bad"><span class="mark bad">&#10007;</span> Scores zero</div>
+      <div class="quote bad">&ldquo;Water pushes lipids away because they are hydrophobic.&rdquo;</div>
+    </div><figure>${figure('writing')}</figure>
+    <div class="code">A1.1</div><div class="brand">study-os</div>`},
+  why:{html:`<div class="pad">
+      <div class="eyebrow">Why it does not score</div>
+      <div class="body">No repulsive force is required. Non-polar lipids lack favorable
+        interactions with water, while water molecules bond preferentially
+        with each other.</div>
+    </div><figure>${figure('thinking')}</figure>
+    <div class="code">A1.1</div><div class="brand">study-os</div>`},
+  fix:{html:`<div class="pad">
+      <div class="eyebrow">What scores instead</div>
+      <div class="verdict good"><span class="mark good">&#10003;</span> Full marks</div>
+      <div class="quote good">&ldquo;Lipids are poorly soluble because they are non-polar and
+        cannot form favorable interactions with water.&rdquo;</div>
+    </div><figure>${figure('pleased')}</figure>
+    <div class="code">A1.1</div><div class="brand">study-os</div>`}
+};
+const beat = new URLSearchParams(location.search).get('beat') || 'title';
+document.getElementById('f').innerHTML = BEATS[beat].html;
+</script></body></html>

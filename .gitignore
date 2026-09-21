@@ -7,3 +7,6 @@ node_modules/
 # The real progress files in progress/ are tracked on purpose — they are his
 # study history, and losing them resets every review interval.
 *.progress.json.broken-*
+
+# Video build output — regenerate with video/build/scenes.mjs
+video/out/
