@@ -40,9 +40,9 @@ by the same topic codes. You will not usually have its text — do not pretend t
 card disagrees with it, the book wins.** Flag anything you are unsure of in
 your reply so it gets checked against that section before he learns it.
 
-Never cite a page number you have not been given. The topic code locates the
-section; `studyGuidePages` in `syllabus.json` holds page ranges when a human
-has filled them in, and `null` means unknown, not "guess".
+Never invent a page number. All 40 are already recorded as `studyGuidePages`
+in `syllabus.json` — read them from there, and use `studyGuideTitle` when the
+book prints a different title from the syllabus (A4.2 and D4.2 do).
 
 **Never invent a URL.** A dead link on a Tuesday night is the thing that makes
 someone close the laptop. Link to channel pages and YouTube *search* URLs,

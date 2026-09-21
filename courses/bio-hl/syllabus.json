@@ -25,7 +25,8 @@
       "hlOnly": false,
       "dir": "A1.1-water",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "1-3",
+      "studyGuideQuestions": 8
     },
     {
       "code": "A1.2",
@@ -37,7 +38,8 @@
       "hlOnly": false,
       "dir": "A1.2-nucleic-acids",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "4-7",
+      "studyGuideQuestions": 8
     },
     {
       "code": "A2.1",
@@ -49,7 +51,8 @@
       "hlOnly": true,
       "dir": "A2.1-origins-of-cells",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "56-58",
+      "studyGuideQuestions": 69
     },
     {
       "code": "A2.2",
@@ -61,7 +64,8 @@
       "hlOnly": false,
       "dir": "A2.2-cell-structure",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "59-66",
+      "studyGuideQuestions": 69
     },
     {
       "code": "A2.3",
@@ -73,7 +77,8 @@
       "hlOnly": true,
       "dir": "A2.3-viruses",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "67-68",
+      "studyGuideQuestions": 69
     },
     {
       "code": "A3.1",
@@ -85,7 +90,8 @@
       "hlOnly": false,
       "dir": "A3.1-diversity-of-organisms",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "105-109",
+      "studyGuideQuestions": 114
     },
     {
       "code": "A3.2",
@@ -97,7 +103,8 @@
       "hlOnly": true,
       "dir": "A3.2-classification-and-cladistics",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "110-113",
+      "studyGuideQuestions": 114
     },
     {
       "code": "A4.1",
@@ -109,7 +116,8 @@
       "hlOnly": false,
       "dir": "A4.1-evolution-and-speciation",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "179-184",
+      "studyGuideQuestions": 189
     },
     {
       "code": "A4.2",
@@ -121,7 +129,9 @@
       "hlOnly": false,
       "dir": "A4.2-conservation-of-biodiversity",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "185-188",
+      "studyGuideQuestions": 189,
+      "studyGuideTitle": "Conservation of biology"
     },
     {
       "code": "B1.1",
@@ -133,7 +143,8 @@
       "hlOnly": false,
       "dir": "B1.1-carbohydrates-and-lipids",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "9-13",
+      "studyGuideQuestions": 18
     },
     {
       "code": "B1.2",
@@ -145,7 +156,8 @@
       "hlOnly": false,
       "dir": "B1.2-proteins",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "14-17",
+      "studyGuideQuestions": 18
     },
     {
       "code": "B2.1",
@@ -157,7 +169,8 @@
       "hlOnly": false,
       "dir": "B2.1-membranes-and-membrane-transport",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "70-74",
+      "studyGuideQuestions": 80
     },
     {
       "code": "B2.2",
@@ -169,7 +182,8 @@
       "hlOnly": false,
       "dir": "B2.2-organelles-and-compartmentalization",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "75-76",
+      "studyGuideQuestions": 80
     },
     {
       "code": "B2.3",
@@ -181,7 +195,8 @@
       "hlOnly": false,
       "dir": "B2.3-cell-specialization",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "77-79",
+      "studyGuideQuestions": 80
     },
     {
       "code": "B3.1",
@@ -193,7 +208,8 @@
       "hlOnly": false,
       "dir": "B3.1-gas-exchange",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "115-120",
+      "studyGuideQuestions": 133
     },
     {
       "code": "B3.2",
@@ -205,7 +221,8 @@
       "hlOnly": false,
       "dir": "B3.2-transport",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "121-128",
+      "studyGuideQuestions": 133
     },
     {
       "code": "B3.3",
@@ -217,7 +234,8 @@
       "hlOnly": true,
       "dir": "B3.3-muscle-and-motility",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "129-132",
+      "studyGuideQuestions": 133
     },
     {
       "code": "B4.1",
@@ -229,7 +247,8 @@
       "hlOnly": false,
       "dir": "B4.1-adaptation-to-environment",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "190-194",
+      "studyGuideQuestions": 199
     },
     {
       "code": "B4.2",
@@ -241,7 +260,8 @@
       "hlOnly": false,
       "dir": "B4.2-ecological-niches",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "195-198",
+      "studyGuideQuestions": 199
     },
     {
       "code": "C1.1",
@@ -253,7 +273,8 @@
       "hlOnly": false,
       "dir": "C1.1-enzymes-and-metabolism",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "19-25",
+      "studyGuideQuestions": 38
     },
     {
       "code": "C1.2",
@@ -265,7 +286,8 @@
       "hlOnly": false,
       "dir": "C1.2-cell-respiration",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "26-31",
+      "studyGuideQuestions": 38
     },
     {
       "code": "C1.3",
@@ -277,7 +299,8 @@
       "hlOnly": false,
       "dir": "C1.3-photosynthesis",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "32-37",
+      "studyGuideQuestions": 38
     },
     {
       "code": "C2.1",
@@ -289,7 +312,8 @@
       "hlOnly": true,
       "dir": "C2.1-chemical-signalling",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "81-85",
+      "studyGuideQuestions": 93
     },
     {
       "code": "C2.2",
@@ -301,7 +325,8 @@
       "hlOnly": false,
       "dir": "C2.2-neural-signalling",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "86-92",
+      "studyGuideQuestions": 93
     },
     {
       "code": "C3.1",
@@ -313,7 +338,8 @@
       "hlOnly": false,
       "dir": "C3.1-integration-of-body-systems",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "134-143",
+      "studyGuideQuestions": 150
     },
     {
       "code": "C3.2",
@@ -325,7 +351,8 @@
       "hlOnly": false,
       "dir": "C3.2-defence-against-disease",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "144-149",
+      "studyGuideQuestions": 150
     },
     {
       "code": "C4.1",
@@ -337,7 +364,8 @@
       "hlOnly": false,
       "dir": "C4.1-populations-and-communities",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "200-207",
+      "studyGuideQuestions": 214
     },
     {
       "code": "C4.2",
@@ -349,7 +377,8 @@
       "hlOnly": false,
       "dir": "C4.2-transfers-of-energy-and-matter",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "208-213",
+      "studyGuideQuestions": 214
     },
     {
       "code": "D1.1",
@@ -361,7 +390,8 @@
       "hlOnly": false,
       "dir": "D1.1-dna-replication",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "39-42",
+      "studyGuideQuestions": 55
     },
     {
       "code": "D1.2",
@@ -373,7 +403,8 @@
       "hlOnly": false,
       "dir": "D1.2-protein-synthesis",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "43-49",
+      "studyGuideQuestions": 55
     },
     {
       "code": "D1.3",
@@ -385,7 +416,8 @@
       "hlOnly": false,
       "dir": "D1.3-mutation-and-gene-editing",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "50-54",
+      "studyGuideQuestions": 55
     },
     {
       "code": "D2.1",
@@ -397,7 +429,8 @@
       "hlOnly": false,
       "dir": "D2.1-cell-and-nuclear-division",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "94-98",
+      "studyGuideQuestions": 104
     },
     {
       "code": "D2.2",
@@ -409,7 +442,8 @@
       "hlOnly": true,
       "dir": "D2.2-gene-expression",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "99-100",
+      "studyGuideQuestions": 104
     },
     {
       "code": "D2.3",
@@ -421,7 +455,8 @@
       "hlOnly": false,
       "dir": "D2.3-water-potential",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "101-103",
+      "studyGuideQuestions": 104
     },
     {
       "code": "D3.1",
@@ -433,7 +468,8 @@
       "hlOnly": false,
       "dir": "D3.1-reproduction",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "151-160",
+      "studyGuideQuestions": 178
     },
     {
       "code": "D3.2",
@@ -445,7 +481,8 @@
       "hlOnly": false,
       "dir": "D3.2-inheritance",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "161-171",
+      "studyGuideQuestions": 178
     },
     {
       "code": "D3.3",
@@ -457,7 +494,8 @@
       "hlOnly": false,
       "dir": "D3.3-homeostasis",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "172-177",
+      "studyGuideQuestions": 178
     },
     {
       "code": "D4.1",
@@ -469,7 +507,8 @@
       "hlOnly": false,
       "dir": "D4.1-natural-selection",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "215-219",
+      "studyGuideQuestions": 233
     },
     {
       "code": "D4.2",
@@ -481,7 +520,9 @@
       "hlOnly": false,
       "dir": "D4.2-stability-and-change",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "220-226",
+      "studyGuideQuestions": 233,
+      "studyGuideTitle": "Sustainability and changes"
     },
     {
       "code": "D4.3",
@@ -493,8 +534,9 @@
       "hlOnly": false,
       "dir": "D4.3-climate-change",
       "status": "not-started",
-      "studyGuidePages": null
+      "studyGuidePages": "227-232",
+      "studyGuideQuestions": 233
     }
   ],
-  "studyGuideNote": "studyGuidePages is the page range for this topic in the Allott Study Guide (2023). Fill it in once from the contents page; `study watch` prints it. null means not yet recorded."
+  "studyGuideNote": "studyGuidePages and studyGuideQuestions are from the contents page of the Allott Study Guide (2023), transcribed 2026-09-21. The book is ordered by level (Molecules, Cells, Organisms, Ecosystems) with themes inside each, not by theme. Page ranges run to the page before the next entry, so the last page of a range may be partly the next section. studyGuideQuestions is the page where that theme-and-level question set starts; answers are online (see course.json). studyGuideTitle appears only where the book prints a different title from the syllabus."
 }

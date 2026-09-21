@@ -28,7 +28,8 @@ You do not have to write them by hand. From a Claude session in this repo:
 `.claude/skills/topic-pack/SKILL.md` tells Claude what a good pack looks like,
 so the output is consistent rather than whatever that session felt like doing.
 
-**Then check it against his Allott study guide before he studies from it.** A
+**Then check it against his Allott study guide before he studies from it.**
+`study watch <topic>` prints the exact page range, so there is no hunting. A
 confidently wrong card gets memorised exactly as efficiently as a correct one,
 and he will not find out until an exam. The study guide is well suited to this:
 it is condensed and organised by the same topic codes, so verifying a pack's
@@ -99,8 +100,5 @@ is sound; the interface is negotiable.
    the mechanics.
 2. Sit with him for one full loop on A1.1 — watch, capture, quiz, exam. Once.
    After that it is his.
-3. Fill in `studyGuidePages` in `courses/bio-hl/syllabus.json` from the study
-   guide's contents page. One sitting, forty topics, and from then on
-   `study watch` tells him exactly which pages to check himself against.
-4. Build the pack for whatever his class is on right now.
-5. Leave it alone for a fortnight, then look at `study progress`.
+3. Build the pack for whatever his class is on right now.
+4. Leave it alone for a fortnight, then look at `study progress`.

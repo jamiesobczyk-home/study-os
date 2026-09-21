@@ -59,8 +59,11 @@
       "isPrimaryTextbook": false,
       "role": "His own copy. Aligned to the 2023 subject guide and organised by the same topic codes, so a pack's code points straight at its section.",
       "howToUse": "Condensed on purpose - roughly six pages per topic - so it is a poor place to meet a topic for the first time and an excellent place to check yourself after. Use it as the diff target for the capture step: brain-dump first, then read the section and mark what you missed. It is also the accuracy reference for checking generated cards before he studies them.",
-      "notFor": "First-encounter learning. That is what the videos are for. Reading it cold will feel like revision and will not be."
+      "notFor": "First-encounter learning. That is what the videos are for. Reading it cold will feel like revision and will not be.",
+      "organisation": "Ordered by level (1 Molecules, 2 Cells, 3 Organisms, 4 Ecosystems) with the four themes inside each level, not by theme. So A1.1 and B1.1 sit near each other, while A1.1 and A2.1 are 55 pages apart. Find a topic by its code, not by flipping to 'the Theme A part'.",
+      "questionSets": "Each theme-and-level group ends with a question set (A1 Questions, B2 Questions, and so on). Answers are published free at https://www.oxfordsecondary.com/ib-science-support \u2014 this is real exam practice at no cost, and `study exam` points at the relevant set.",
+      "answersUrl": "https://www.oxfordsecondary.com/ib-science-support"
     }
   ],
-  "resourcesNote": "Organisation by topic code is inferred from the publisher's description ('fully aligned to the 2023 DP Biology subject guide'), not from the book itself. Confirm against its contents page, then fill in studyGuidePages in syllabus.json."
+  "resourcesNote": "Page ranges and question-set pages were transcribed from the book's contents page on 2026-09-21 and are in syllabus.json. Two topics are printed with different titles from the syllabus - see studyGuideTitle in syllabus.json."
 }

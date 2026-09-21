@@ -116,10 +116,23 @@ also the reference to verify generated packs against: organised by the same
 topic codes, so checking a pack's cards against its section takes ten minutes.
 **Where a card disagrees with the book, the book wins.**
 
-**Worth doing once:** fill in `studyGuidePages` for each topic in
-`courses/bio-hl/syllabus.json` from the book's contents page. `study watch`
-then prints the exact pages to check against. They are `null` until someone
-with the book fills them in — nothing here guesses a page number.
+**Page numbers are in.** All 40 topics carry their page range in
+`courses/bio-hl/syllabus.json`, transcribed from the book's contents page, so
+`study watch` prints exactly which pages to check yourself against.
+
+Note the book is ordered by **level** — 1 Molecules, 2 Cells, 3 Organisms,
+4 Ecosystems — with the four themes inside each. So A1.1 and B1.1 are
+neighbours while A1.1 and A2.1 are 55 pages apart. Find a topic by its code.
+
+**Free exam practice.** Each theme-and-level group ends with a question set
+(A1 Questions p. 8, C1 Questions p. 38, and so on), and the answers are
+published free at <https://www.oxfordsecondary.com/ib-science-support>.
+`study exam` points at the relevant set once the pack's own questions are done.
+
+Two topics are printed under different titles from the syllabus — A4.2
+("Conservation of biology") and D4.2 ("Sustainability and changes"). Recorded
+as `studyGuideTitle`, and `study watch` says so, so it does not look like the
+map is wrong.
 
 ## A caveat on the syllabus
 
@@ -138,6 +151,5 @@ Two things to verify against the school's own course outline:
 
 Teaching order is the school's, not the syllabus's. Follow his class.
 
-That the study guide is organised by topic code is inferred from the
-publisher's description, not from the book itself — worth thirty seconds with
-its contents page to confirm.
+(The study guide's organisation was confirmed against its contents page on
+2026-09-21, so this is no longer an assumption.)

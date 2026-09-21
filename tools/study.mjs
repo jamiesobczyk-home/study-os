@@ -92,7 +92,12 @@ const studyGuideRef = (ctx, topic) => {
   const book = (ctx.meta.resources || []).find((r) => r.kind === 'study-guide');
   if (!book) return null;
   const pages = topic.studyGuidePages ? `pp. ${topic.studyGuidePages}` : 'find it by the topic code';
-  return { book, pages };
+  // The book prints a different title for a couple of topics; say so rather
+  // than let it look like the map is wrong.
+  const alias = topic.studyGuideTitle
+    ? ` The book prints this one as "${topic.studyGuideTitle}".`
+    : '';
+  return { book, pages, alias, questions: topic.studyGuideQuestions || null };
 };
 
 const packMissing = (ctx, topic) => {
@@ -223,7 +228,7 @@ const cmdWatch = (ctx, code) => {
   if (ref) {
     console.log(heading('Then check yourself against the book'));
     console.log(para(
-      `${ref.book.author} — ${ref.book.title} (${ref.book.edition}), section ${topic.code}, ${ref.pages}.\n\n` +
+      `${ref.book.author} — ${ref.book.title}, ${bold(`section ${topic.code}, ${ref.pages}`)}.${ref.alias}\n\n` +
       'Read it only after the capture sheet is written. It is condensed, so it is a fast way to see what you left out — mark every point you missed. Those are the cards to watch for in the quiz.',
       '  '
     ));
@@ -359,7 +364,17 @@ const cmdExam = async (ctx, code) => {
     await rl.question(dim('\npress enter for the mark scheme '));
     console.log(heading('Mark scheme'));
     console.log(picked.scheme || dim('(none recorded)'));
-    console.log(para(dim('\nMark yourself strictly. A point you "basically said" did not score. Where you lost marks, that is the card to go back to.\n')));
+    console.log(para(dim('\nMark yourself strictly. A point you "basically said" did not score. Where you lost marks, that is the card to go back to.')));
+
+    const ref = studyGuideRef(ctx, topic);
+    if (ref && ref.questions) {
+      console.log(para(dim(
+        `\nWant more: the study guide's ${topic.theme}${topic.level} question set starts on p. ${ref.questions}, ` +
+        `and the answers are free at ${ref.book.answersUrl}\n`
+      )));
+    } else {
+      console.log('');
+    }
   } finally {
     rl.close();
   }

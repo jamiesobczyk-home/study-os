@@ -87,6 +87,6 @@ the book while the topic is what he is actually being taught, which is also
 when you are most likely to spot something off. The system only needs the pack
 to exist by the time he needs it.
 
-One exception worth doing in a single sitting: fill in all 40 `studyGuidePages`
-from the contents page. That is twenty minutes, needs no verification, and from
-then on `study watch` tells him exactly which pages to check himself against.
+Verification is already cheaper than it looks: all 40 page ranges are recorded,
+so `study watch <topic>` tells you exactly which pages to read. Checking a
+pack against its section is genuinely a ten-minute job.

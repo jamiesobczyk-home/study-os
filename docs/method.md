@@ -76,6 +76,11 @@ real mark scheme. Write the answer properly, then mark yourself strictly. This
 is where you find out that you understood the biology and still lost two marks
 for writing "describe" when the question said "explain".
 
+When you want more of these, your study guide has a question set at the end of
+each group — `study exam` tells you the page — and the answers are free at
+<https://www.oxfordsecondary.com/ib-science-support>. Those are worth more than
+another video, every time.
+
 ## Why cards come back when they do
 
 Cards you get right move further away — one day, then three, then a week, then
