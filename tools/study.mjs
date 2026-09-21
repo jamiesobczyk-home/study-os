@@ -15,16 +15,17 @@
  */
 import { createInterface } from 'node:readline/promises';
 import { stdin, stdout } from 'node:process';
-import { cpSync, existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { TEMPLATES, topicDir } from './lib/paths.mjs';
+import { ROOT, TEMPLATES, topicDir } from './lib/paths.mjs';
 import {
   findTopic, hasPack, listCourses, loadCards, loadCourse, loadSyllabus, readPackFile,
 } from './lib/syllabus.mjs';
 import * as progress from './lib/progress.mjs';
 import { checkPack } from './lib/check.mjs';
 import { buildPrompt } from './lib/prompt.mjs';
+import { build as buildWeb } from './build-web.mjs';
 import { bold, dim, blue, green, yellow, red, rule, para, heading } from './lib/ui.mjs';
 
 const DEFAULT_COURSE = 'bio-hl';
@@ -436,6 +437,10 @@ const cmdCheck = (ctx, code) => {
   }
 
   console.log(rule());
+  const stale = webBuildStale(ctx);
+  if (stale) {
+    console.log(`  ${yellow('index.html is out of date')} — ${stale}. Run \`study build\`.`);
+  }
   if (failed) {
     console.log(`  ${red(`${failed} pack${failed === 1 ? '' : 's'} with errors`)} — these will not work correctly until fixed.`);
   } else {
@@ -474,6 +479,30 @@ const cmdPrompt = (ctx, code, flags) => {
   console.log(buildPrompt(ctx, topic, { exampleDir: example }));
 };
 
+/** Returns a reason string when index.html is older than the content it bakes in. */
+const webBuildStale = (ctx) => {
+  const out = join(ROOT, 'index.html');
+  if (!existsSync(out)) return 'it has not been built yet';
+  const builtAt = statSync(out).mtimeMs;
+  for (const t of ctx.syllabus.topics) {
+    if (!hasPack(ctx.course, t)) continue;
+    const dir = topicDir(ctx.course, t.dir);
+    for (const f of readdirSync(dir)) {
+      if (statSync(join(dir, f)).mtimeMs > builtAt) return `${t.code} changed since the last build`;
+    }
+  }
+  return null;
+};
+
+const cmdBuild = (ctx) => {
+  const r = buildWeb(ctx.course);
+  console.log(para(
+    `\nBuilt ${r.out.replace(process.cwd() + '/', '')}\n` +
+    `  ${r.packs} pack${r.packs === 1 ? '' : 's'}, ${r.cards} cards, ${(r.bytes / 1024).toFixed(0)} KB, one file, no dependencies.\n\n` +
+    `Open it in any browser, or put it where he can reach it. Rebuild after adding or changing a pack.\n`
+  ));
+};
+
 const usage = () => {
   console.log(`
 ${bold('study')} — a video-first study system
@@ -487,6 +516,7 @@ ${bold('study')} — a video-first study system
   ${bold('new')} <topic>        scaffold a new topic pack
   ${bold('check')} [topic]      verify pack structure (all packs if omitted)
   ${bold('prompt')} <topic>     print a paste-ready pack prompt for another model
+  ${bold('build')}              rebuild index.html, the browser version he studies from
 
   ${dim('--course <id>')}      pick a course (default: ${DEFAULT_COURSE})
   ${dim('--limit <n>')}        cards per quiz (default: 20)
@@ -516,6 +546,7 @@ const main = async () => {
     case 'new': return cmdNew(ctx, code);
     case 'check': return cmdCheck(ctx, code);
     case 'prompt': return cmdPrompt(ctx, code, flags);
+    case 'build': return cmdBuild(ctx);
     default:
       console.error(`Unknown command "${command}".`);
       usage();

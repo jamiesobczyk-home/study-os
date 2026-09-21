@@ -8,7 +8,25 @@ makes it permanent: closing the laptop and trying to produce it from nothing.
 
 First course in it: **Biology HL**.
 
-## Setup
+## Two ways in
+
+**For him — a web page, nothing to install.** `index.html` is a single
+self-contained file holding every topic, card, video link and exam question.
+Open it in any browser, from a URL or straight off the disk. No install, no
+command line, no internet needed. That is the whole student experience, and it
+works on a locked-down school laptop.
+
+See **[docs/for-his-laptop.md](docs/for-his-laptop.md)** for how to get it to
+him — hosted link, OneDrive, or emailed file.
+
+**For you — a command line, to build and check packs.** The rest of this README
+is that. Rebuild the page after changing content:
+
+    study build
+
+---
+
+## Setup (for the authoring side)
 
 You need [Node](https://nodejs.org) 18 or newer — check with `node --version`.
 There is nothing to install beyond that: no dependencies, no build step.
@@ -63,6 +81,7 @@ That prints what is due and what a session looks like.
     study new D1.1        # scaffold a new topic pack
     study check           # verify pack structure
     study prompt D1.1     # a paste-ready pack prompt for another model
+    study build           # rebuild index.html, the page he studies from
 
 ## The loop
 
@@ -88,6 +107,7 @@ Why it is built this way, and why step 2 feels awful: **[docs/method.md](docs/me
 | [docs/command-terms.md](docs/command-terms.md) | Him. Where marks get lost on questions he knew. |
 | [docs/adding-a-course.md](docs/adding-a-course.md) | You. Adding Chemistry, Maths, anything. |
 | [docs/offloading.md](docs/offloading.md) | You. Generating packs elsewhere, and what not to trust. |
+| [docs/for-his-laptop.md](docs/for-his-laptop.md) | You. Getting the page onto his school laptop. |
 
 ## What is in here
 
@@ -101,6 +121,8 @@ Why it is built this way, and why step 2 feels awful: **[docs/method.md](docs/me
         cards.json         retrieval questions -> `study quiz`
         exam.md            exam questions + mark schemes -> `study exam`
         traps.md           where the marks actually go
+    index.html             GENERATED — the browser app he studies from
+    web/                   its source: template, styles, logic
     docs/                  the method, and the guides
     prompts/topic-pack.md  the pack prompt `study prompt` fills in
     study / study.cmd      launcher wrappers (POSIX / Windows)
