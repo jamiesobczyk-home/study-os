@@ -1,75 +1,46 @@
 # B2.1 Membranes and membrane transport — what you have to be able to do
 
-> Each line is a thing you should be able to *do* with the page closed.
+> Tick a line only after you can do it with the page closed and without prompts.
 
 ## Core
 
-- [ ] Describe a **phospholipid**: a hydrophilic phosphate head and two
-      hydrophobic hydrocarbon tails — one molecule that is part polar and part
-      non-polar.
-- [ ] Explain **why a bilayer forms spontaneously in water**: the hydrophilic
-      heads face the water on both sides and the hydrophobic tails are shielded
-      in the middle. Nothing assembles it; it is the lowest-energy arrangement.
-- [ ] Explain why the bilayer is a **barrier to ions and large polar molecules**
-      but not to small non-polar ones: the hydrophobic core repels charge.
-- [ ] Rank what crosses by **simple diffusion** and what cannot: oxygen, carbon
-      dioxide and steroid hormones cross freely; glucose, amino acids and all
-      ions do not.
-- [ ] Distinguish **integral** proteins (embedded in, often spanning, the
-      bilayer) from **peripheral** proteins (attached to one surface).
-- [ ] Explain **facilitated diffusion** through channel proteins: passive, down
-      the concentration gradient, no ATP, but requiring a specific protein.
-- [ ] Explain **osmosis through aquaporins** and why water needs them despite
-      being a small molecule — it is polar, so it crosses the hydrophobic core
-      too slowly for cells such as kidney tubule cells.
-- [ ] Explain **active transport** by pump proteins: against the gradient, using
-      ATP, with the protein changing shape.
-- [ ] Explain what makes membrane permeability **selective**: which proteins are
-      present, not gaps in the bilayer.
-- [ ] Describe **glycoproteins and glycolipids** and their role in cell
-      recognition and adhesion.
-- [ ] Explain the **fluid mosaic model**: fluid because phospholipids move
-      laterally, mosaic because proteins are scattered and varied.
-- [ ] Relate **fatty acid saturation to fluidity** — unsaturated tails have
-      kinks, pack less tightly, and increase fluidity.
-- [ ] Explain **cholesterol's** role in animal membranes: it reduces fluidity at
-      higher temperatures and prevents tight packing at lower ones, so it
-      buffers fluidity in both directions.
+- [ ] Describe a phospholipid as an amphipathic molecule with a hydrophilic phosphate head and two hydrophobic hydrocarbon tails.
+- [ ] Explain why phospholipids form bilayers spontaneously in water, with the heads facing aqueous solutions and the tails sheltered in the centre.
+- [ ] Explain the fluid mosaic model and distinguish integral proteins from peripheral proteins.
+- [ ] Predict whether a substance can cross the phospholipid bilayer directly from its size, charge and polarity.
+- [ ] Compare simple diffusion, facilitated diffusion, osmosis and active transport by route, energy use and direction relative to a gradient.
+- [ ] Explain how aquaporins increase the rate of osmosis without using ATP.
+- [ ] Explain how a pump protein uses ATP and a conformational change to move a substance against its concentration gradient.
+- [ ] Explain how glycoproteins and glycolipids contribute to cell recognition and adhesion.
+- [ ] Explain how temperature and the saturation of fatty acid tails affect membrane fluidity.
+- [ ] Explain how cholesterol buffers the fluidity of animal cell membranes at high and low temperatures.
+- [ ] Use the membrane's structure and its transport proteins together to explain selective permeability.
 
 ## Higher level
 
-- [ ] Explain how membrane fluidity permits **vesicle fusion and fission**, and
-      why that matters for endocytosis, exocytosis and vesicle traffic.
-- [ ] Describe **gated ion channels** — voltage-gated and ligand-gated — and
-      that they open in response to a specific signal rather than continuously.
-- [ ] Explain the **sodium–potassium pump** as an exchange transporter: three
-      Na+ out and two K+ in per ATP hydrolysed, generating both a concentration
-      gradient and a charge difference across the membrane.
-- [ ] Explain **sodium-dependent glucose cotransport** as indirect active
-      transport: glucose moves against its gradient powered by sodium moving
-      down the gradient the pump created — the ATP was spent earlier, elsewhere.
-- [ ] Explain how **cell adhesion** through membrane proteins allows tissues to
-      form.
+- [ ] Explain how membrane fluidity allows vesicles to form by fission and merge by fusion during endocytosis, exocytosis and intracellular transport.
+- [ ] Distinguish voltage-gated from ligand-gated ion channels by the signal that opens each one.
+- [ ] Explain how the sodium–potassium pump moves three Na+ out and two K+ in per ATP hydrolysed, producing ion gradients and a charge difference.
+- [ ] Explain sodium-dependent glucose cotransport as indirect active transport powered by a sodium gradient established using ATP elsewhere.
+- [ ] Explain how cell-adhesion proteins bind cells together so tissues can form.
 
 ## Links to other topics
 
-- **A1.1 Water** — this whole topic is the hydrophilic/hydrophobic split from
-  A1.1 applied at a larger scale. If B2.1 will not stick, the problem is
-  usually back in A1.1.
-- **C2.2 Neural signalling** — the sodium–potassium pump and gated channels are
-  the resting potential and action potential. Learn them properly here.
-- **D2.3 Water potential** — osmosis and aquaporins.
-- **B2.2 Organelles** — compartmentalization only works because membranes are
-  selective.
+- **A1.1 Water** — hydrophilic and hydrophobic interactions explain why phospholipids form a bilayer. Secure that cause and the membrane stops being a diagram to memorise.
+- **B2.2 Organelles and compartmentalization** — membrane-bound compartments work because membranes maintain different conditions on their two sides.
+- **C2.2 Neural signalling** — ion pumps and gated channels create and change membrane potentials. Accurate directions and ion numbers here prevent confusion in action potentials.
+- **D2.3 Water potential** — osmosis is developed into predictions about water movement. Knowing what aquaporins change, and what they do not change, makes that topic easier.
 
 ## Vocabulary that has to be exact
 
 | Term | What it means | What it is not |
 | --- | --- | --- |
-| Simple diffusion | Straight through the bilayer, no protein | Facilitated diffusion |
-| Facilitated diffusion | Through a protein, passive, down the gradient | Active transport — no ATP is used |
-| Active transport | Through a pump, against the gradient, ATP used | Any transport that uses a protein |
-| Osmosis | Movement of water across a partially permeable membrane | Diffusion of solute |
-| Integral protein | Embedded in the bilayer | Necessarily spanning it — some do not |
-| Fluid mosaic | Fluid (lipids move) + mosaic (varied proteins scattered) | A static diagram |
-| Cotransport | One solute's gradient powers another's movement | Direct ATP use at that protein |
+| Amphipathic | Having both hydrophilic and hydrophobic regions | The same as fully polar or fully non-polar |
+| Simple diffusion | Net movement down a concentration gradient directly through the phospholipid bilayer | Movement through a channel or carrier protein |
+| Facilitated diffusion | Passive movement down a gradient through a specific channel or carrier protein | Active transport; it does not use ATP |
+| Osmosis | Net movement of water through a partially permeable membrane from higher to lower water potential | Movement of solute particles |
+| Active transport | Movement against a concentration gradient using energy and a transport protein | Any transport involving a membrane protein |
+| Integral protein | A protein embedded in the bilayer; some span the entire membrane | A protein that must cross the whole membrane |
+| Peripheral protein | A protein attached to a membrane surface rather than embedded in the hydrophobic core | A channel through the bilayer |
+| Selective permeability | Allowing some substances to cross more readily than others because of the bilayer and specific transport proteins | Random leakage through gaps in the membrane |
+| Cotransport | Coupled movement in which one substance moving down its electrochemical gradient drives another substance | ATP hydrolysis at every cotransporter |

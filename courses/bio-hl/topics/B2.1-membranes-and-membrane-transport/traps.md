@@ -1,85 +1,65 @@
 # B2.1 Membranes and membrane transport — where the marks go
 
-## Saying facilitated diffusion "uses energy"
+## Saying the cell assembles the bilayer
 
-**Commonly written:** "Facilitated diffusion uses a protein and energy to move
-glucose into the cell."
+**Commonly written:** “The cell builds phospholipids into a bilayer.”
 
-**Why it does not score:** Facilitated diffusion is passive. The energy comes
-from the concentration gradient that already exists, not from ATP. Writing
-"energy" here reads as a failure to distinguish it from active transport —
-which is exactly what the question is testing.
+**Why it does not score:** This replaces the molecular explanation with an unnamed process. The examiner wants the hydrophilic and hydrophobic regions related to water.
 
-**Scores instead:** "Facilitated diffusion moves substances down their
-concentration gradient through a channel protein, without the use of ATP."
+**Scores instead:** “Phospholipids form a bilayer spontaneously, with hydrophilic heads facing the aqueous solutions and hydrophobic tails sheltered in the centre away from water.”
 
-## Treating "uses a protein" as the definition of active transport
+## Saying the hydrophobic core repels ions
 
-**Commonly written:** "It is active transport because a protein is involved."
+**Commonly written:** “The membrane repels Na+ because the centre is hydrophobic.”
 
-**Why it does not score:** Facilitated diffusion uses proteins too. The two
-things that define active transport are movement **against** the gradient and
-the use of **ATP**.
+**Why it does not score:** “Repels” suggests a force pushing the ion away. The key idea is that transfer of a charged particle from water into a non-polar environment is energetically unfavourable.
 
-**Scores instead:** Name both: against the concentration gradient, and ATP
-hydrolysed by the pump protein.
+**Scores instead:** “Na+ does not cross the phospholipid bilayer directly because moving a charged ion into the non-polar core is energetically unfavourable.”
 
-## Describing the bilayer as assembled
+## Giving facilitated diffusion an ATP cost
 
-**Commonly written:** "The cell builds the phospholipids into a bilayer."
+**Commonly written:** “Facilitated diffusion uses ATP because a transport protein is involved.”
 
-**Why it does not score:** It misses the whole mechanism. The bilayer is the
-arrangement that results from hydrophobic tails being excluded by water — it is
-spontaneous.
+**Why it does not score:** Facilitated diffusion is passive. A protein supplies a selective route, but net movement remains down a concentration or electrochemical gradient.
 
-**Scores instead:** "Phospholipids arrange themselves spontaneously, with the
-hydrophilic heads facing the aqueous solution and the hydrophobic tails facing
-inwards, away from water."
+**Scores instead:** “Facilitated diffusion moves particles down their concentration or electrochemical gradient through a channel or carrier without ATP input.”
 
-## Saying water cannot cross the membrane
+## Defining active transport by protein use
 
-**Commonly written:** "Water needs aquaporins because it cannot pass through
-the bilayer."
+**Commonly written:** “It is active transport because it uses a membrane protein.”
 
-**Why it does not score:** Water does cross, just slowly, because it is small
-even though it is polar. Aquaporins make it fast enough for cells that move a
-lot of water, such as those in the kidney.
+**Why it does not score:** Facilitated diffusion also uses membrane proteins. The defining evidence is movement against a gradient using energy.
 
-**Scores instead:** "Water crosses the bilayer slowly because it is polar;
-aquaporins greatly increase the rate, which matters in cells such as kidney
-tubule cells."
+**Scores instead:** “This is active transport because the pump uses energy to move the substance against its concentration gradient.”
 
-## Getting the sodium–potassium pump's numbers backwards
+## Saying water cannot cross without aquaporins
 
-**Commonly written:** "Two sodium out, three potassium in."
+**Commonly written:** “Water needs aquaporins because it cannot pass through the bilayer.”
 
-**Why it does not score:** It is three Na+ **out** and two K+ **in** per ATP.
-The direction and the imbalance both matter: more positive charge leaves than
-enters, which is why the inside becomes negative — the fact C2.2 is built on.
+**Why it does not score:** Water can cross the bilayer slowly. Aquaporins increase permeability and rate; they do not create the water-potential difference or determine its direction.
 
-**Scores instead:** "Three sodium ions are pumped out and two potassium ions in
-for each ATP hydrolysed, so the inside of the cell becomes more negative."
+**Scores instead:** “Water can cross the bilayer slowly, while aquaporins increase its rate of movement down a water-potential gradient without using ATP.”
 
-## Calling cotransport "active transport" without qualification
+## Giving only one effect of cholesterol
 
-**Commonly written:** "Glucose enters by active transport with sodium."
+**Commonly written:** “Cholesterol makes the membrane less fluid.”
 
-**Why it does not score:** No ATP is hydrolysed at the cotransporter itself.
-Glucose moves against its gradient using the energy stored in the sodium
-gradient — which the pump built earlier using ATP. The examiner wants that
-chain, because it is the whole point of the example.
+**Why it does not score:** The direction of cholesterol's effect depends on temperature, so one flat statement misses the buffering role.
 
-**Scores instead:** "Indirect (secondary) active transport: sodium moving down
-its concentration gradient powers glucose uptake against its own gradient; the
-ATP was used earlier by the sodium–potassium pump to establish that gradient."
+**Scores instead:** “Cholesterol reduces excessive fluidity at higher temperatures and prevents close phospholipid packing at lower temperatures.”
 
-## Saying cholesterol "makes membranes more fluid" (or less)
+## Reversing the sodium–potassium pump
 
-**Commonly written:** Either one, stated flatly.
+**Commonly written:** “The pump moves two sodium ions out and three potassium ions in.”
 
-**Why it does not score:** It does both, depending on temperature. That
-two-directional buffering is the examinable point.
+**Why it does not score:** The numbers and directions are reversed, removing the unequal charge transfer that makes the pump electrogenic.
 
-**Scores instead:** "Cholesterol reduces fluidity at higher temperatures by
-restricting phospholipid movement, and prevents tight packing at lower
-temperatures, so membrane fluidity stays within a workable range."
+**Scores instead:** “For each ATP hydrolysed, the pump moves three Na+ out and two K+ in, making the cell interior relatively more negative.”
+
+## Putting ATP hydrolysis at the cotransporter
+
+**Commonly written:** “The sodium–glucose cotransporter uses ATP to bring glucose into the cell.”
+
+**Why it does not score:** ATP is hydrolysed by the sodium–potassium pump. The cotransporter uses energy stored in the Na+ electrochemical gradient.
+
+**Scores instead:** “The sodium–potassium pump uses ATP to establish a Na+ gradient, and Na+ moving down that gradient through the cotransporter drives glucose uptake against its gradient.”

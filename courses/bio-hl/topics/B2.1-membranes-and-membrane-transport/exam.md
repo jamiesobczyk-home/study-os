@@ -1,85 +1,69 @@
 # B2.1 Membranes and membrane transport — exam practice
 
-> Write the answer out on paper before revealing the mark scheme.
+> Write each answer on paper before revealing the mark scheme.
 
-## Q1. Explain how the structure of phospholipids results in the formation of a bilayer in an aqueous environment. **[4]**
-
-### Mark scheme
-
-- Phospholipids have a hydrophilic (polar) phosphate head and hydrophobic
-  (non-polar) hydrocarbon tails. **[1]**
-- The hydrophilic heads are attracted to / form hydrogen bonds with water. **[1]**
-- The hydrophobic tails are excluded from water / water molecules associate
-  preferentially with each other. **[1]**
-- The result is two layers with heads facing outwards into the aqueous solution
-  on both sides and tails facing inwards. **[1]**
-- Award a mark for stating that this arrangement occurs spontaneously. **[1 max within total]**
-
-_Examiner note: the word "amphipathic" earns nothing by itself. The marks are
-for saying which part goes where and why._
-
-## Q2. Compare and contrast facilitated diffusion and active transport. **[5]**
+## Q1. Explain how phospholipid structure causes a bilayer to form in water. **[4]**
 
 ### Mark scheme
 
-Comparative statements only. Maximum [5]:
+- A phospholipid has a hydrophilic/polar phosphate head and hydrophobic/non-polar hydrocarbon tails. **[1]**
+- The heads interact with / face the aqueous solutions. **[1]**
+- The tails are excluded from water / cluster away from water. **[1]**
+- A bilayer forms spontaneously with heads facing out on both sides and tails facing inward. **[1]**
 
-- Both move substances across the membrane through (integral / transmembrane)
-  proteins. **[1]**
-- Both are specific — each protein transports particular substances. **[1]**
-- Facilitated diffusion is passive whereas active transport requires ATP. **[1]**
-- Facilitated diffusion moves substances down the concentration gradient
-  whereas active transport moves them against it. **[1]**
-- Facilitated diffusion uses channel or carrier proteins whereas active
-  transport uses pump proteins that change shape. **[1]**
-- Active transport can generate a concentration gradient whereas facilitated
-  diffusion dissipates one. **[1]**
+_Examiner note: naming the molecule amphipathic is not the explanation. Full marks require the orientation of both regions and the interaction with water._
 
-_Examiner note: at least one similarity is required. Writing two separate
-descriptions caps you well below full marks however accurate each one is._
-
-## Q3. Explain how glucose is absorbed from the small intestine into an epithelial cell against its concentration gradient. **[4]**
+## Q2. Compare and contrast facilitated diffusion and active transport across a membrane. **[5]**
 
 ### Mark scheme
 
-- The sodium–potassium pump uses ATP to move sodium ions out of the epithelial
-  cell (three Na+ out, two K+ in). **[1]**
-- This maintains a low sodium concentration inside the cell, so a steep sodium
-  concentration gradient exists from the intestinal lumen into the cell. **[1]**
-- A cotransporter protein moves sodium into the cell down that gradient. **[1]**
-- The energy released is used to move glucose into the cell at the same time,
-  against the glucose concentration gradient — indirect / secondary active
-  transport. **[1]**
+- Both use specific integral membrane proteins / carriers can be involved in both. **[1]**
+- Facilitated diffusion is passive, whereas active transport requires an energy source. **[1]**
+- Facilitated diffusion moves substances down a concentration/electrochemical gradient, whereas active transport moves them against one. **[1]**
+- Facilitated diffusion may use channels or carriers, whereas direct active transport uses pumps/carriers that undergo conformational change. **[1]**
+- Facilitated diffusion tends to reduce a gradient, whereas active transport can establish or maintain a gradient. **[1]**
 
-_Examiner note: an answer that says "active transport moves glucose in" scores
-one mark at most. The question is asking for the chain, and the chain is the
-reason this example is in the syllabus._
+_Examiner note: two separate descriptions are not a comparison. Pair each similarity or difference in the same sentence._
 
-## Q4. Outline the role of cholesterol in the membranes of animal cells. **[3]**
+## Q3. Explain sodium-dependent glucose uptake from the intestinal lumen into an epithelial cell. **[5]**
+
+### Mark scheme
+
+- The sodium–potassium pump hydrolyses ATP / uses energy to move Na+ out of the epithelial cell. **[1]**
+- This maintains a low Na+ concentration inside the cell / establishes a Na+ electrochemical gradient. **[1]**
+- Na+ moves into the cell down its electrochemical gradient through a sodium–glucose cotransporter. **[1]**
+- Glucose is carried into the cell at the same time against its concentration gradient. **[1]**
+- This is indirect/secondary active transport because ATP is used by the pump rather than by the cotransporter. **[1]**
+
+_Examiner note: “active transport moves glucose in” misses the causal chain. Full marks connect ATP to the pump, the pump to the Na+ gradient and that gradient to glucose uptake._
+
+## Q4. Outline how cholesterol affects the fluidity of an animal cell membrane. **[3]**
 
 ### Mark scheme
 
 - Cholesterol is positioned between phospholipids in the bilayer. **[1]**
-- At higher temperatures it restricts phospholipid movement, reducing
-  fluidity. **[1]**
-- At lower temperatures it prevents phospholipids packing closely together,
-  so the membrane does not become too rigid. **[1]**
-- Accept: it therefore maintains membrane fluidity across a range of
-  temperatures. **[1 max within total]**
+- At higher temperatures it restricts phospholipid movement / reduces excessive fluidity. **[1]**
+- At lower temperatures it prevents close phospholipid packing / reduces solidification. **[1]**
 
-_Examiner note: one direction only scores one of the two temperature marks. The
-examinable idea is that it works both ways._
+_Examiner note: cholesterol does not move fluidity in one fixed direction. One temperature condition gives an incomplete answer._
 
-## Q5. Distinguish between the movement of oxygen and the movement of sodium ions across a plasma membrane. **[3]**
+## Q5. Distinguish voltage-gated channels from ligand-gated channels. **[3]**
 
 ### Mark scheme
 
-- Oxygen crosses by simple diffusion whereas sodium ions require a transport
-  protein. **[1]**
-- Oxygen is small and non-polar so it passes through the hydrophobic core,
-  whereas sodium ions are charged and are repelled by it. **[1]**
-- Oxygen moves only down its concentration gradient (passive), whereas sodium
-  ions can be moved against their gradient by pumps using ATP. **[1]**
+- Voltage-gated channels respond to a change in membrane potential. **[1]**
+- Ligand-gated channels respond when a specific signalling molecule binds. **[1]**
+- When open, both allow specific ions to move down their electrochemical gradients / neither channel directly hydrolyses ATP for ion movement. **[1]**
 
-_Examiner note: "distinguish" wants the contrast in each sentence. Also note
-that the question says sodium ions, not sodium — the charge is the reason._
+_Examiner note: “both open when stimulated” gains no distinction mark. Name the different stimulus for each channel._
+
+## Q6. Explain how membrane properties allow vesicles to form and fuse. **[4]**
+
+### Mark scheme
+
+- Phospholipids move laterally, making the bilayer fluid/flexible. **[1]**
+- The membrane can bend and undergo fission to enclose material in a vesicle / accept: endocytosis as a named example. **[1]**
+- A vesicle membrane can fuse with another membrane / accept: exocytosis or organelle delivery as a named example. **[1]**
+- The bilayers reseal so hydrophobic tails remain away from water / a closed barrier is maintained. **[1]**
+
+_Examiner note: describing a vesicle moving is not enough. The question asks why the membrane can split, merge and reseal without exposing its hydrophobic tails to water._

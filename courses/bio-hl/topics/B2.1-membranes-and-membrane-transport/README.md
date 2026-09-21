@@ -2,33 +2,26 @@
 
 - **Theme:** B — Form and function
 - **Level:** Cells
-- **Level of study:** SL and HL (with substantial HL-only depth)
+- **Level of study:** SL and HL
 - **Status:** ready
 
 ## The one-sentence version
 
-A membrane is a two-molecule-thick sheet of fat that water-soluble things
-cannot cross, studded with proteins that decide what gets across anyway —
-which is how a cell gets to have an inside that is different from its outside.
+A cell membrane is a fluid phospholipid barrier whose proteins control what crosses, allowing the cell to keep its inside different from its surroundings.
 
-## Why this topic is worth getting right early
+<!-- Keep this heading exactly as written. The web app pulls the sentence
+     beneath it and shows it as the subtitle on the topic screen. Rename the
+     heading and the subtitle silently disappears. -->
 
-This is the one where people first fall behind in HL, and the reason is almost
-always that it is treated as vocabulary — bilayer, aquaporin, facilitated
-diffusion — when it is actually one idea applied repeatedly. The idea came from
-A1.1: polar things and non-polar things do not mix. Every mechanism in this
-topic is a consequence of that, including the ones that look like separate
-facts. Learn it as one idea and the HL material (cotransport, gated channels,
-the sodium-potassium pump) is an extension rather than a new pile.
+## Why this topic is worth getting right
 
-It also underpins C2.2 neural signalling, D2.3 water potential, and D3.3
-homeostasis. Getting it half-right is expensive later.
+This topic becomes hard when the transport mechanisms are learned as separate definitions. Build one comparison from memory instead: what crosses, by which route, in which direction, and whether ATP is used. Then add the HL chain from the sodium–potassium pump to the sodium gradient and from that gradient to glucose uptake. That chain is easier to learn as a drawing than as a paragraph.
+
+The payoff continues through organelles, water potential, neural signalling and homeostasis. If your recall table has gaps, that is useful evidence: correct the gaps before another video turns them back into recognition.
 
 ## In your study guide
 
-Allott, _Biology Study Guide_ (2023), **section B2.1**. Read it *after* the
-capture sheet, never before — it is condensed enough to make a fast check of
-what you left out, and a slow way to meet the topic for the first time.
+Allott, _Biology Study Guide_ (2023), **section B2.1, pp. 70-74**. Read it *after* the capture sheet, never before — it is condensed enough to make a fast check of what you left out, and a slow way to meet the topic for the first time.
 
 ## What's in this pack
 
