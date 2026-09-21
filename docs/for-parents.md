@@ -27,9 +27,13 @@ You do not have to write them by hand. From a Claude session in this repo:
 
 `.claude/skills/topic-pack/SKILL.md` tells Claude what a good pack looks like,
 so the output is consistent rather than whatever that session felt like doing.
-Budget twenty minutes per pack to review what comes back — **check it against
-his actual course materials**, because a confidently wrong card will be
-memorised just as efficiently as a correct one.
+
+**Then check it against his Allott study guide before he studies from it.** A
+confidently wrong card gets memorised exactly as efficiently as a correct one,
+and he will not find out until an exam. The study guide is well suited to this:
+it is condensed and organised by the same topic codes, so verifying a pack's
+15 cards against its section is a ten-minute job, not an evening. If a card
+disagrees with the book, the book wins.
 
 **Stay a little ahead.** Build the pack for what his class is covering this
 week, not the whole syllabus in one weekend. The system is only useful if the
@@ -81,8 +85,8 @@ before he reveals it — that is where it shows.
 
 **Content drifts from his actual course.** The topic list here follows the
 published syllabus, but what his teacher examines and when is the thing that
-matters. Check a new pack against his course outline before he starts learning
-from it.
+matters. Check a new pack against the study guide and his course outline before
+he starts learning from it.
 
 **It becomes another chore with a progress bar.** If it stops being used for
 three weeks, do not rebuild it — ask him what part of it he hated. The method
@@ -95,5 +99,8 @@ is sound; the interface is negotiable.
    the mechanics.
 2. Sit with him for one full loop on A1.1 — watch, capture, quiz, exam. Once.
    After that it is his.
-3. Build the pack for whatever his class is on right now.
-4. Leave it alone for a fortnight, then look at `study progress`.
+3. Fill in `studyGuidePages` in `courses/bio-hl/syllabus.json` from the study
+   guide's contents page. One sitting, forty topics, and from then on
+   `study watch` tells him exactly which pages to check himself against.
+4. Build the pack for whatever his class is on right now.
+5. Leave it alone for a fortnight, then look at `study progress`.

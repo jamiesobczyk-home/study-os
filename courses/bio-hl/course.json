@@ -4,7 +4,10 @@
   "programme": "IB Diploma Programme",
   "syllabusFirstTeaching": 2023,
   "syllabusFirstExams": 2025,
-  "years": ["DP1", "DP2"],
+  "years": [
+    "DP1",
+    "DP2"
+  ],
   "assessment": [
     {
       "id": "p1a",
@@ -41,5 +44,23 @@
   "sources": [
     "https://www.biologyforlife.com/syllabus.html",
     "https://www.biologyforlife.com/external-assessment.html"
-  ]
+  ],
+  "resources": [
+    {
+      "id": "allott-study-guide",
+      "title": "Biology Study Guide",
+      "series": "Oxford Resources for IB Diploma Programme",
+      "author": "Andrew Allott",
+      "publisher": "Oxford University Press",
+      "edition": "2023 edition",
+      "isbn": "9781382016438",
+      "pages": 248,
+      "kind": "study-guide",
+      "isPrimaryTextbook": false,
+      "role": "His own copy. Aligned to the 2023 subject guide and organised by the same topic codes, so a pack's code points straight at its section.",
+      "howToUse": "Condensed on purpose - roughly six pages per topic - so it is a poor place to meet a topic for the first time and an excellent place to check yourself after. Use it as the diff target for the capture step: brain-dump first, then read the section and mark what you missed. It is also the accuracy reference for checking generated cards before he studies them.",
+      "notFor": "First-encounter learning. That is what the videos are for. Reading it cold will feel like revision and will not be."
+    }
+  ],
+  "resourcesNote": "Organisation by topic code is inferred from the publisher's description ('fully aligned to the 2023 DP Biology subject guide'), not from the book itself. Confirm against its contents page, then fill in studyGuidePages in syllabus.json."
 }

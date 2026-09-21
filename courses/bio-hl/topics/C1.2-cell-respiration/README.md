@@ -28,6 +28,12 @@ they will not be the parts you expected.
 Do that once a week for four weeks and this topic is finished. Watch the video
 four times and it will not be.
 
+## In your study guide
+
+Allott, _Biology Study Guide_ (2023), **section C1.2**. Read it *after* the
+capture sheet, never before — it is condensed enough to make a fast check of
+what you left out, and a slow way to meet the topic for the first time.
+
 ## What's in this pack
 
 | File | What it is |

@@ -82,6 +82,18 @@ const requireTopic = (ctx, code) => {
   return topic;
 };
 
+/**
+ * The study guide reference for a topic. The book is organised by the same
+ * topic codes, so the code alone locates the section; page numbers are
+ * optional and filled in from the contents page.
+ */
+const studyGuideRef = (ctx, topic) => {
+  const book = (ctx.meta.resources || []).find((r) => r.kind === 'study-guide');
+  if (!book) return null;
+  const pages = topic.studyGuidePages ? `pp. ${topic.studyGuidePages}` : 'find it by the topic code';
+  return { book, pages };
+};
+
 const packMissing = (ctx, topic) => {
   console.log(heading(`${topic.code} ${topic.title}`));
   console.log(para(
@@ -202,9 +214,19 @@ const cmdWatch = (ctx, code) => {
     'Three things I can now state:\n  1.\n  2.\n  3.\n\n' +
     'One thing I could explain out loud to someone who has not taken the course:\n  -\n\n' +
     'One thing that is still fuzzy:\n  -\n\n' +
-    'Write it on paper. Then run `quiz` and find out which of those three you actually have.',
+    'Write it on paper, from memory, before you open anything.',
     '  '
   ));
+
+  const ref = studyGuideRef(ctx, topic);
+  if (ref) {
+    console.log(heading('Then check yourself against the book'));
+    console.log(para(
+      `${ref.book.author} — ${ref.book.title} (${ref.book.edition}), section ${topic.code}, ${ref.pages}.\n\n` +
+      'Read it only after the capture sheet is written. It is condensed, so it is a fast way to see what you left out — mark every point you missed. Those are the cards to watch for in the quiz.',
+      '  '
+    ));
+  }
   console.log('');
 };
 

@@ -22,6 +22,11 @@ built this way.
   missing one, because it gets memorised just as well and is not discovered
   until an exam. Verify against the syllabus rather than recalling. State your
   uncertainty in your reply so it can be checked against his course materials.
+- **His textbook is the tiebreaker.** Andrew Allott, _Biology Study Guide_,
+  Oxford 2023 (recorded in `courses/bio-hl/course.json`). Where content here
+  disagrees with it, the book wins. Never cite a page number you were not
+  given — `studyGuidePages` is `null` when unknown, and `null` does not mean
+  guess.
 - **Never invent a URL.** Channel pages and search URLs only, unless you have
   verified the link. A dead link is the thing that ends a study session.
 - **Card ids are stable.** Progress in `study/<course>.progress.json` is keyed

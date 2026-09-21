@@ -27,7 +27,8 @@ dependencies, no install step.
 Four steps, about forty minutes:
 
 1. **Watch** one video, holding specific questions from the pack.
-2. **Capture** — laptop closed, write down what you remember. Five minutes.
+2. **Capture** — laptop closed, write down what you remember. Then read the
+   matching section of his Allott study guide and mark what you missed.
 3. **Recall** — quiz yourself, out loud, and grade honestly.
 4. **Check** — one exam question with a real mark scheme, marked strictly.
 
@@ -90,6 +91,23 @@ stays consistent across sessions rather than drifting.
 wrong card gets memorised exactly as efficiently as a correct one. Build packs
 a week ahead of his class, not the whole syllabus in one weekend.
 
+## His textbook
+
+**Andrew Allott, _Biology Study Guide_, Oxford Resources for IB DP, 2023
+edition** (ISBN 9781382016438). Recorded in `courses/bio-hl/course.json`.
+
+248 pages across 40 topics makes it revision-density, not a teaching text —
+which is exactly what this system wants. It is a poor place to meet a topic
+cold, and an excellent place to check yourself after the capture step. It is
+also the reference to verify generated packs against: organised by the same
+topic codes, so checking a pack's cards against its section takes ten minutes.
+**Where a card disagrees with the book, the book wins.**
+
+**Worth doing once:** fill in `studyGuidePages` for each topic in
+`courses/bio-hl/syllabus.json` from the book's contents page. `study watch`
+then prints the exact pages to check against. They are `null` until someone
+with the book fills them in — nothing here guesses a page number.
+
 ## A caveat on the syllabus
 
 The topic map follows the IB Biology syllabus first taught in 2023 (first exams
@@ -106,3 +124,7 @@ Two things to verify against the school's own course outline:
   them for exam strategy.
 
 Teaching order is the school's, not the syllabus's. Follow his class.
+
+That the study guide is organised by topic code is inferred from the
+publisher's description, not from the book itself — worth thirty seconds with
+its contents page to confirm.

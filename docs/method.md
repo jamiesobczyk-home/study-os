@@ -55,6 +55,14 @@ that you are bad at this.** That gap — between what you could follow and what
 you can produce — is the actual state of your knowledge, and every student has
 it. The difference is that most never look at it, so they find out in the exam.
 
+**Then open the Allott study guide** at the same topic code and read the
+section. It is deliberately condensed — a few pages a topic — which makes it a
+fast way to see what you left out. Mark every point you missed. Those are the
+ones to watch for in the quiz.
+
+Do it in that order. The book after the brain-dump is a check. The book before
+it is just reading, and reading is the thing that does not work.
+
 **3. Recall (10 min).** `study quiz`. Say each answer out loud before you reveal
 it. Out loud matters: thinking "yeah, I know this" is exactly the recognition
 feeling that got you here.
@@ -95,5 +103,6 @@ postponing, and it beats zero, which is what usually actually happens.
 
 - Watching is how the idea gets in. Recall is how it stays.
 - The step that feels worst is the step that works.
+- The book comes *after* the brain-dump, never before it.
 - Be honest when you mark yourself. The system is only as good as your grading.
 - Little and often. Always.

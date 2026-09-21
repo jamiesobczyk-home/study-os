@@ -21,6 +21,12 @@ plants (B3.2), membranes (B2.1), water potential (D2.3), kidney function
 questions are cheapest to write. If polarity is solid now, four later topics
 get easier. If it is not, they get harder and you will not know why.
 
+## In your study guide
+
+Allott, _Biology Study Guide_ (2023), **section A1.1**. Read it *after* the
+capture sheet, never before — it is condensed enough to make a fast check of
+what you left out, and a slow way to meet the topic for the first time.
+
 ## What's in this pack
 
 | File | What it is |

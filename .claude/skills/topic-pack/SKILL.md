@@ -29,6 +29,17 @@ Verify against the syllabus rather than recalling from memory, and when
 something is genuinely uncertain, say so in the file rather than smoothing
 over it.
 
+His textbook is **Andrew Allott, _Biology Study Guide_, Oxford, 2023 edition**
+(ISBN 9781382016438), recorded in `courses/bio-hl/course.json`. It is organised
+by the same topic codes. You will not usually have its text — do not pretend to
+— but it is the reference a human will check your pack against, and **where a
+card disagrees with it, the book wins.** Flag anything you are unsure of in
+your reply so it gets checked against that section before he learns it.
+
+Never cite a page number you have not been given. The topic code locates the
+section; `studyGuidePages` in `syllabus.json` holds page ranges when a human
+has filled them in, and `null` means unknown, not "guess".
+
 **Never invent a URL.** A dead link on a Tuesday night is the thing that makes
 someone close the laptop. Link to channel pages and YouTube *search* URLs,
 which do not rot, and leave a "Pinned" section for real URLs once verified.
@@ -177,5 +188,6 @@ then cut, and put the thing you want remembered at the end of the sentence.
 - [ ] Every Core and HL bullet in `essentials.md` has at least one card.
 - [ ] No invented URLs. Channel and search links only, unless verified.
 - [ ] Status set to `ready` in the pack README.
+- [ ] No invented page numbers for the study guide.
 - [ ] You have stated, in your reply, anything you were not certain of — so it
-      can be checked against the school's course materials before he learns it.
+      can be checked against the Allott study guide before he learns it.

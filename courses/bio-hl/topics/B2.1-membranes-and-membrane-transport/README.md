@@ -24,6 +24,12 @@ the sodium-potassium pump) is an extension rather than a new pile.
 It also underpins C2.2 neural signalling, D2.3 water potential, and D3.3
 homeostasis. Getting it half-right is expensive later.
 
+## In your study guide
+
+Allott, _Biology Study Guide_ (2023), **section B2.1**. Read it *after* the
+capture sheet, never before — it is condensed enough to make a fast check of
+what you left out, and a slow way to meet the topic for the first time.
+
 ## What's in this pack
 
 | File | What it is |
