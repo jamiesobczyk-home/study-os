@@ -155,6 +155,11 @@ in an exam, not advice about writing one.
 
 ### `README.md` — the pack's front door
 
+`## The one-sentence version` is load-bearing: `tools/build-web.mjs` extracts
+the sentence under it for the topic subtitle in the browser app. Keep the
+heading verbatim, and write a real sentence — a leftover `_italic placeholder_`
+is treated as empty.
+
 Keep the template's metadata and file table. Replace the placeholder with:
 
 - **The one-sentence version.** What the topic is actually about, in a sentence
@@ -186,6 +191,7 @@ then cut, and put the thing you want remembered at the end of the sentence.
 ## Before you call it done
 
 - [ ] `study check <CODE>` reports no errors.
+- [ ] `study build` run, and the topic viewed in `index.html`.
 - [ ] No existing card id changed (the checker cannot see this — you must).
 - [ ] `study quiz <CODE> --all` runs and shows every card.
 - [ ] `study exam <CODE>` reveals a mark scheme correctly.

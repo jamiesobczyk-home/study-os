@@ -131,6 +131,15 @@ export const checkPack = (course, topic) => {
   if (readme && !/\*\*Status:\*\*\s*ready/i.test(readme)) {
     warns.push('README.md status is not "ready"');
   }
+  if (readme) {
+    // The web app pulls the topic subtitle from under this exact heading.
+    const m = readme.match(/## The one-sentence version\s*\n+([\s\S]*?)(?=\n## |\n?$)/);
+    if (!m) {
+      warns.push('README.md has no "## The one-sentence version" heading — the browser app shows no subtitle for this topic');
+    } else if (/^_[\s\S]*_$/.test(m[1].trim()) || !m[1].trim()) {
+      warns.push('the one-sentence version is still a placeholder — the browser app will show no subtitle');
+    }
+  }
   for (const name of ['README.md', 'videos.md', 'exam.md', 'traps.md']) {
     const body = read(name);
     if (body && /\{\{[A-Z]+\}\}/.test(body)) errors.push(`${name} still contains template placeholders`);

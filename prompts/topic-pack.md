@@ -32,8 +32,14 @@ syllabus, first exams 2025).
    pages and YouTube *search* URLs of the form
    `https://www.youtube.com/results?search_query=...`, which cannot rot.
 3. **Never invent a page number** for any textbook.
-4. **Follow the file formats below exactly.** A command-line tool parses
-   `cards.json` and `exam.md`; deviating breaks it.
+4. **Follow the file formats below exactly.** Your output is not just read by
+   a person — it is parsed and rendered into a web app the student studies
+   from. `cards.json` becomes his flashcards, `exam.md` becomes the
+   reveal-the-mark-scheme screen, and the markdown files are rendered as pages.
+   Deviating from the formats below breaks those screens.
+
+   Write plain, ordinary markdown: headings, lists, tables, bold, italic,
+   links, fenced code blocks. Do not write raw HTML.
 
 ## Output format
 
@@ -177,6 +183,10 @@ of a reason, using a term loosely.
 ## The one-sentence version
 
 <What this topic is actually about, in one sentence he could say to a friend.>
+
+<!-- Keep this heading exactly as written. The web app pulls the sentence
+     beneath it and shows it as the subtitle on the topic screen. Rename the
+     heading and the subtitle silently disappears. -->
 
 ## Why this topic is worth getting right
 

@@ -82,12 +82,38 @@
       out.push('<' + tag + '>' + items.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</' + tag + '>');
     }
 
+    /* Rebuild indentation as real nesting, so sub-points stay sub-points. */
+    function nestList(items, start) {
+      var base = items[start].indent, html = '<ul>', k = start;
+      while (k < items.length) {
+        if (items[k].indent < base) break;
+        if (items[k].indent > base) {
+          var sub = nestList(items, k);
+          html = html.replace(/<\/li>$/, '') + sub.html + '</li>';
+          k = sub.next;
+          continue;
+        }
+        html += '<li>' + items[k].html + '</li>';
+        k++;
+      }
+      return { html: html + '</ul>', next: k };
+    }
+
     while (i < lines.length) {
       var line = lines[i];
 
       if (!line.trim()) { i++; continue; }
 
       if (/^\s*(---|\*\*\*)\s*$/.test(line)) { out.push('<hr>'); i++; continue; }
+
+      if (/^\s*```/.test(line)) {
+        var fence = [];
+        i++;
+        while (i < lines.length && !/^\s*```/.test(lines[i])) { fence.push(lines[i]); i++; }
+        i++; // closing fence
+        out.push('<pre>' + esc(fence.join('\n')) + '</pre>');
+        continue;
+      }
 
       var h = line.match(/^(#{1,6})\s+(.*)$/);
       if (h) {
@@ -118,14 +144,20 @@
       }
 
       if (/^\s*[-*]\s+/.test(line)) {
-        var ul = [];
+        var items = [];
         while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
+          var indent = lines[i].match(/^\s*/)[0].replace(/\t/g, '  ').length;
           var t = lines[i].replace(/^\s*[-*]\s+/, '');
-          t = t.replace(/^\[ \]\s*/, '<span class="box">&#9633;</span> ').replace(/^\[x\]\s*/i, '<span class="box">&#9745;</span> ');
-          ul.push(inline(t));
+          // Escape first, then prepend the checkbox glyph — the other way
+          // round escapes our own markup and shows it as text.
+          var box = '';
+          if (/^\[ \]\s*/.test(t)) { box = '<span class="box">&#9633;</span> '; t = t.replace(/^\[ \]\s*/, ''); }
+          else if (/^\[x\]\s*/i.test(t)) { box = '<span class="box done">&#9745;</span> '; t = t.replace(/^\[x\]\s*/i, ''); }
+          items.push({ indent: indent, html: box + inline(t) });
           i++;
         }
-        flushList('ul', ul); continue;
+        out.push(nestList(items, 0).html);
+        continue;
       }
 
       if (/^\s*\d+\.\s+/.test(line)) {
