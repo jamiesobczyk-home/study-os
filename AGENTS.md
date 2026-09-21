@@ -29,9 +29,9 @@ built this way.
   guess.
 - **Never invent a URL.** Channel pages and search URLs only, unless you have
   verified the link. A dead link is the thing that ends a study session.
-- **Card ids are stable.** Progress in `study/<course>.progress.json` is keyed
+- **Card ids are stable.** Progress in `progress/<course>.progress.json` is keyed
   on them. Add cards at the end; never renumber.
-- **`study/` is his data.** Do not edit progress files by hand, do not reset
+- **`progress/` is his data.** Do not edit progress files by hand, do not reset
   them to make output look tidier, and do not commit a cleared one over a real
   one.
 - **Exam file structure is load-bearing.** `study exam` parses `## ` headings
@@ -53,11 +53,11 @@ works. "Simply" and "just" do not appear in this repo.
 
 There is no test suite. Before calling a change done:
 
-    node tools/study.mjs check          # structural check on every pack
-    node tools/study.mjs list
-    node tools/study.mjs progress
-    node tools/study.mjs quiz <CODE> --all
-    node tools/study.mjs exam <CODE>
+    study check          # structural check on every pack
+    study list
+    study progress
+    study quiz <CODE> --all
+    study exam <CODE>
 
 `check` exits non-zero on structural errors, so it is the one to gate on. It
 validates format, not biology — it cannot tell you a card is wrong, only that

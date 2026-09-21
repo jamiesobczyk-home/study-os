@@ -32,7 +32,7 @@ and where the marks actually are.
 ```
 
 `code` and `dir` are the only fields the tools require. `dir` must match the
-directory name under `topics/`, and `node tools/study.mjs new <code>` creates
+directory name under `topics/`, and `study new <code>` creates
 it for you from the template.
 
 For a course without themes and levels — most of them — set `theme` to a unit
@@ -40,13 +40,13 @@ number or name and leave `level` at 1. The grouping is only used for headings.
 
 **4. Build a topic pack.**
 
-    node tools/study.mjs new S1.1 --course chem-hl
+    ./study new S1.1 --course chem-hl
 
 **5. Use it.**
 
-    node tools/study.mjs today --course chem-hl
+    ./study today --course chem-hl
 
-Progress is stored per course in `study/<course>.progress.json`, so courses
+Progress is stored per course in `progress/<course>.progress.json`, so courses
 never interfere with each other.
 
 ## Getting the syllabus right

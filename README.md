@@ -8,19 +8,61 @@ makes it permanent: closing the laptop and trying to produce it from nothing.
 
 First course in it: **Biology HL**.
 
+## Setup
+
+You need [Node](https://nodejs.org) 18 or newer — check with `node --version`.
+There is nothing to install beyond that: no dependencies, no build step.
+
+Get the repo onto the machine he will study on:
+
+**Windows (PowerShell)**
+
+    cd C:\Github
+    git clone https://github.com/jamiesobczyk-home/study-os.git
+    cd study-os
+    .\study today
+
+**macOS or Linux**
+
+    git clone https://github.com/jamiesobczyk-home/study-os.git
+    cd study-os
+    ./study today
+
+Every command below is run **from inside the `study-os` folder**. If you open a
+fresh terminal, `cd` there first.
+
+### Typing less
+
+`study` is a wrapper around `node tools/study.mjs`, so these are the same thing:
+
+    .\study quiz                      # Windows
+    ./study quiz                      # macOS / Linux
+    node tools/study.mjs quiz         # anywhere, from the repo folder
+
+To run it from any folder without `cd`-ing first, add the repo to your PATH.
+In PowerShell, permanently:
+
+    [Environment]::SetEnvironmentVariable(
+      'Path',
+      [Environment]::GetEnvironmentVariable('Path','User') + ';C:\Github\study-os',
+      'User')
+
+Open a new terminal afterwards, and `study today` works from anywhere.
+
 ## Start here
 
-    node tools/study.mjs today
+    study today
 
-That prints what is due and what a session looks like. Node 18 or newer, no
-dependencies, no install step.
+That prints what is due and what a session looks like.
 
-    node tools/study.mjs watch C1.2      # the video plan, and what to watch for
-    node tools/study.mjs quiz            # retrieval practice on what is due
-    node tools/study.mjs exam C1.2       # one exam question, then its mark scheme
-    node tools/study.mjs progress        # the whole syllabus at a glance
-    node tools/study.mjs list            # every topic, and which have packs
-    node tools/study.mjs new D1.1        # scaffold a new topic pack
+    study watch C1.2      # the video plan, and what to watch for
+    study quiz            # retrieval practice on what is due
+    study exam C1.2       # one exam question, then its mark scheme
+    study progress        # the whole syllabus at a glance
+    study list            # every topic, and which have packs
+    study new D1.1        # scaffold a new topic pack
+    study check           # verify pack structure
+    study prompt D1.1     # a paste-ready pack prompt for another model
 
 ## The loop
 
@@ -61,9 +103,10 @@ Why it is built this way, and why step 2 feels awful: **[docs/method.md](docs/me
         traps.md           where the marks actually go
     docs/                  the method, and the guides
     prompts/topic-pack.md  the pack prompt `study prompt` fills in
+    study / study.cmd      launcher wrappers (POSIX / Windows)
     templates/topic-pack/  the skeleton `study new` copies
     tools/study.mjs        the CLI
-    study/                 progress state, per course
+    progress/              his study history, per course
     .claude/skills/        how Claude should build a topic pack
 
 ## State of the content
@@ -92,16 +135,16 @@ stays consistent across sessions rather than drifting.
 To generate them somewhere else — ChatGPT, another model — print a paste-ready
 prompt:
 
-    node tools/study.mjs prompt D1.1              # copy the output, paste it in
-    node tools/study.mjs prompt D1.1 --example    # also show it a finished pack
+    study prompt D1.1              # copy the output, paste it in
+    study prompt D1.1 --example    # also show it a finished pack
 
 It fills in the topic, theme, level, HL flag and study-guide pages from the
 syllabus, so there is nothing to edit. `--example` appends a completed pack as
 a worked example, which is worth doing the first few times. Then verify the
 structure:
 
-    node tools/study.mjs check D1.1     # one pack
-    node tools/study.mjs check          # all of them
+    study check D1.1     # one pack
+    study check          # all of them
 
 The checker catches broken card ids, an `exam.md` that will not parse, surviving
 template placeholders and invented video URLs. It cannot tell you whether the

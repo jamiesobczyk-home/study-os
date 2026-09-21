@@ -42,6 +42,6 @@ what you left out, and a slow way to meet the topic for the first time.
 
 ## How to work through it
 
-    node tools/study.mjs watch B2.1
-    node tools/study.mjs quiz  B2.1
-    node tools/study.mjs exam  B2.1
+    study watch B2.1
+    study quiz  B2.1
+    study exam  B2.1

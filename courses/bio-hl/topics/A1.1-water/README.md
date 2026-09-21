@@ -39,6 +39,6 @@ what you left out, and a slow way to meet the topic for the first time.
 
 ## How to work through it
 
-    node tools/study.mjs watch A1.1
-    node tools/study.mjs quiz  A1.1
-    node tools/study.mjs exam  A1.1
+    study watch A1.1
+    study quiz  A1.1
+    study exam  A1.1

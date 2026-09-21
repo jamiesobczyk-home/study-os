@@ -1,0 +1,4 @@
+#!/bin/sh
+# Run the study CLI from anywhere: ./study today, ./study quiz B1.2
+# Resolves the repo from this script's own location, not the current directory.
+exec node "$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)/tools/study.mjs" "$@"

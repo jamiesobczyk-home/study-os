@@ -15,7 +15,7 @@ work through in forty minutes. It is five files in
 
 Scaffold it first — this creates the directory with the template filled in:
 
-    node tools/study.mjs new <CODE> --course <course>
+    study new <CODE> --course <course>
 
 Then write the content. Read an existing pack before you start: `A1.1-water`
 is the reference for an easy topic, `C1.2-cell-respiration` for a hard one.
@@ -185,10 +185,10 @@ then cut, and put the thing you want remembered at the end of the sentence.
 
 ## Before you call it done
 
-- [ ] `node tools/study.mjs check <CODE>` reports no errors.
+- [ ] `study check <CODE>` reports no errors.
 - [ ] No existing card id changed (the checker cannot see this — you must).
-- [ ] `node tools/study.mjs quiz <CODE> --all` runs and shows every card.
-- [ ] `node tools/study.mjs exam <CODE>` reveals a mark scheme correctly.
+- [ ] `study quiz <CODE> --all` runs and shows every card.
+- [ ] `study exam <CODE>` reveals a mark scheme correctly.
 - [ ] Every Core and HL bullet in `essentials.md` has at least one card.
 - [ ] No invented URLs. Channel and search links only, unless verified.
 - [ ] Status set to `ready` in the pack README.

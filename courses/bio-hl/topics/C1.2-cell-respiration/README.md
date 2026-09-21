@@ -46,6 +46,6 @@ what you left out, and a slow way to meet the topic for the first time.
 
 ## How to work through it
 
-    node tools/study.mjs watch C1.2
-    node tools/study.mjs quiz  C1.2
-    node tools/study.mjs exam  C1.2
+    study watch C1.2
+    study quiz  C1.2
+    study exam  C1.2

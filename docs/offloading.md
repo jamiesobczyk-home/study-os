@@ -42,21 +42,21 @@ run the checker.
 
 1. Print a paste-ready prompt and copy it:
 
-       node tools/study.mjs prompt B1.2
+       study prompt B1.2
 
    That fills in the topic, theme, level, HL flag and study-guide pages from
    the syllabus, so there is nothing to edit. Add `--example` to append a
    finished pack as a worked example — worth it the first few times, because
    showing a model the standard works better than describing it:
 
-       node tools/study.mjs prompt B1.2 --example
-       node tools/study.mjs prompt B1.2 --example C1.2   # pick which one
+       study prompt B1.2 --example
+       study prompt B1.2 --example C1.2   # pick which one
 2. Paste it in. Save the six returned files into `courses/bio-hl/topics/<CODE>-<slug>/`.
-   `node tools/study.mjs new <CODE>` creates the directory first if you want it
+   `study new <CODE>` creates the directory first if you want it
    scaffolded.
 3. Run the structural check:
 
-       node tools/study.mjs check <CODE>
+       study check <CODE>
 
    It verifies card ids are sequential, `exam.md` will actually parse, no
    template placeholders survived, no invented video URLs, and the counts are

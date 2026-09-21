@@ -22,6 +22,6 @@ Write this last, once the rest of the pack exists._
 
 ## How to work through it
 
-    node tools/study.mjs watch {{CODE}}
-    node tools/study.mjs quiz  {{CODE}}
-    node tools/study.mjs exam  {{CODE}}
+    study watch {{CODE}}
+    study quiz  {{CODE}}
+    study exam  {{CODE}}

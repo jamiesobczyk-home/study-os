@@ -7,7 +7,7 @@ contract, so output drops into the repo without editing.
 When the reply comes back, save the six files into
 `courses/bio-hl/topics/<CODE>-<slug>/` and run:
 
-    node tools/study.mjs check <CODE>
+    study check <CODE>
 
 Fix anything it reports, then check the biology against the study guide before
 he studies from it.
@@ -202,9 +202,9 @@ what you left out, and a slow way to meet the topic for the first time.
 
 ## How to work through it
 
-    node tools/study.mjs watch <CODE>
-    node tools/study.mjs quiz  <CODE>
-    node tools/study.mjs exam  <CODE>
+    study watch <CODE>
+    study quiz  <CODE>
+    study exam  <CODE>
 ```
 
 ## Voice

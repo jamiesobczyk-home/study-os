@@ -63,7 +63,7 @@ thing quietly stops functioning.
 
 ## Reading the progress view
 
-    node tools/study.mjs progress
+    study progress
 
 Bars show **recall strength** — how far cards have climbed through the review
 intervals — not how much he has read. A topic can be fully read and show an

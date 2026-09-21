@@ -4,5 +4,6 @@ node_modules/
 *.log
 
 # Recovered progress files written when a progress file could not be parsed.
-# The real progress files are tracked on purpose — they are his study history.
+# The real progress files in progress/ are tracked on purpose — they are his
+# study history, and losing them resets every review interval.
 *.progress.json.broken-*

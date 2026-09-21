@@ -1,6 +1,6 @@
 # A1.1 Water — exam practice
 
-> `node tools/study.mjs exam A1.1` serves one of these at random and holds the
+> `study exam A1.1` serves one of these at random and holds the
 > mark scheme back until you press enter. Write the answer out on paper first.
 > Marks you "basically had in your head" did not score.
 
