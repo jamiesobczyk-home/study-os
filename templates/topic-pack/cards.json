@@ -1,0 +1,13 @@
+{
+  "topic": "{{CODE}}",
+  "title": "{{TITLE}}",
+  "cards": [
+    {
+      "id": "{{CODE}}-01",
+      "q": "A question that forces recall, not recognition.",
+      "a": "The answer, in the words a mark scheme would accept.",
+      "note": "Optional: why this is the answer, or what people say instead.",
+      "tags": ["core"]
+    }
+  ]
+}

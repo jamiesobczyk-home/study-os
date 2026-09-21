@@ -1,0 +1,45 @@
+{
+  "id": "bio-hl",
+  "title": "Biology HL",
+  "programme": "IB Diploma Programme",
+  "syllabusFirstTeaching": 2023,
+  "syllabusFirstExams": 2025,
+  "years": ["DP1", "DP2"],
+  "assessment": [
+    {
+      "id": "p1a",
+      "name": "Paper 1A",
+      "kind": "external",
+      "format": "Multiple choice",
+      "note": "Core knowledge recall and application. Speed matters; there is no mark-scheme credit for working."
+    },
+    {
+      "id": "p1b",
+      "name": "Paper 1B",
+      "kind": "external",
+      "format": "Data-based questions",
+      "note": "Reads graphs, tables and experimental design. Rewards the Tools and Inquiry skills, not memorised facts."
+    },
+    {
+      "id": "p2",
+      "name": "Paper 2",
+      "kind": "external",
+      "format": "Short answer and extended response",
+      "weightPercent": 44,
+      "note": "The single biggest slice of the grade. Rewards linking ideas across themes, and obeying command terms."
+    },
+    {
+      "id": "ia",
+      "name": "Internal Assessment",
+      "kind": "internal",
+      "format": "Scientific investigation",
+      "weightPercent": 20,
+      "note": "Roughly half the marks sit in Conclusion and Evaluation. Start thinking about it in DP1."
+    }
+  ],
+  "assessmentNote": "Weightings are the published headline figures and are here for prioritisation only. Confirm the exact mark totals and timings against the school's own course outline before trusting them for exam strategy.",
+  "sources": [
+    "https://www.biologyforlife.com/syllabus.html",
+    "https://www.biologyforlife.com/external-assessment.html"
+  ]
+}

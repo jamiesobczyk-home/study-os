@@ -1,0 +1,102 @@
+{
+  "topic": "B2.1",
+  "title": "Membranes and membrane transport",
+  "cards": [
+    {
+      "id": "B2.1-01",
+      "q": "Describe the structure of a phospholipid and explain why that structure makes a bilayer form in water.",
+      "a": "A phospholipid has a hydrophilic phosphate head and two hydrophobic hydrocarbon tails, so one molecule is part polar and part non-polar. In water, the molecules arrange themselves spontaneously into two layers: the hydrophilic heads face the aqueous solution on each side, and the hydrophobic tails point inwards, away from water. Nothing assembles the bilayer — it is the arrangement that results from water molecules bonding preferentially with each other and excluding the tails.",
+      "note": "'Spontaneously' is the word that matters. The bilayer is a consequence, not a construction.",
+      "tags": ["core", "structure"]
+    },
+    {
+      "id": "B2.1-02",
+      "q": "Which substances cross a membrane by simple diffusion, and which cannot? Give the reason.",
+      "a": "Small non-polar molecules cross freely — oxygen, carbon dioxide, and steroid hormones — because they can pass through the hydrophobic core. Ions and large polar molecules such as glucose and amino acids cannot, because the hydrophobic core repels charged and polar particles. Water is the awkward case: it is polar but small enough to cross slowly.",
+      "tags": ["core", "transport"]
+    },
+    {
+      "id": "B2.1-03",
+      "q": "For each of simple diffusion, facilitated diffusion, osmosis and active transport: protein needed? ATP needed? Which direction relative to the gradient?",
+      "a": "Simple diffusion: no protein, no ATP, down the gradient. Facilitated diffusion: channel or carrier protein, no ATP, down the gradient. Osmosis: no protein required but aquaporins speed it up, no ATP, water moves down its own concentration gradient. Active transport: pump protein, ATP required, against the gradient.",
+      "note": "If you can rebuild this table from memory, most of the transport marks in this topic are already yours.",
+      "tags": ["core", "transport", "summary"]
+    },
+    {
+      "id": "B2.1-04",
+      "q": "Water is a small molecule. Why do many cells still need aquaporins?",
+      "a": "Water is polar, so although it is small enough to cross the hydrophobic core, it does so slowly. Aquaporins are channel proteins that let water pass far more rapidly. Cells that move large volumes of water quickly — such as kidney tubule cells and root hair cells — depend on them.",
+      "note": "Do not write that water cannot cross without aquaporins. It can; it is just too slow to be useful.",
+      "tags": ["core", "transport", "misconception"]
+    },
+    {
+      "id": "B2.1-05",
+      "q": "Distinguish between integral and peripheral membrane proteins.",
+      "a": "Integral proteins are embedded within the hydrophobic core of the bilayer, and many (transmembrane proteins) span it completely; they have hydrophobic regions where they contact the tails. Peripheral proteins are attached to one surface of the membrane, often to the surface of an integral protein, and are not embedded in the core.",
+      "tags": ["core", "structure"]
+    },
+    {
+      "id": "B2.1-06",
+      "q": "Explain the fluid mosaic model. What does each of the two words refer to?",
+      "a": "Fluid: the phospholipids are not fixed and move laterally within their layer, so the membrane behaves like a two-dimensional liquid, and proteins can move within it too. Mosaic: the proteins embedded in and attached to the bilayer vary in size, shape and position, and are scattered through it rather than arranged in a pattern.",
+      "tags": ["core", "model"]
+    },
+    {
+      "id": "B2.1-07",
+      "q": "How does the saturation of fatty acid tails affect membrane fluidity, and why?",
+      "a": "Unsaturated fatty acids contain carbon-to-carbon double bonds that put kinks in the hydrocarbon tails. Kinked tails cannot pack together tightly, so the membrane is more fluid. Saturated tails are straight, pack closely, and make the membrane less fluid. Organisms living at low temperatures tend to have a higher proportion of unsaturated fatty acids.",
+      "tags": ["core", "fluidity"]
+    },
+    {
+      "id": "B2.1-08",
+      "q": "What does cholesterol do to membrane fluidity? Be careful — the answer has two halves.",
+      "a": "Cholesterol buffers fluidity in both directions. At higher temperatures it reduces fluidity by restricting the movement of phospholipids. At lower temperatures it prevents the phospholipids from packing tightly together, which stops the membrane becoming too rigid. The net effect is that fluidity stays within a workable range across a range of temperatures.",
+      "note": "Stating only one half is the most common way to lose this mark.",
+      "tags": ["core", "fluidity", "trap"]
+    },
+    {
+      "id": "B2.1-09",
+      "q": "What are glycoproteins and glycolipids, and what do they do?",
+      "a": "They are proteins and lipids with carbohydrate chains attached, projecting from the outer surface of the membrane. They act in cell recognition — acting as markers that allow cells to identify one another, as in the immune system and blood group antigens — and in cell adhesion, helping cells bind together to form tissues.",
+      "tags": ["core", "structure"]
+    },
+    {
+      "id": "B2.1-10",
+      "q": "What makes a membrane selectively permeable? Be precise about the cause.",
+      "a": "Selectivity comes from which transport proteins are present in the membrane, not from holes or gaps in the bilayer. The bilayer itself blocks essentially all ions and large polar molecules; a substance crosses only if there is a channel, carrier or pump specific to it. So a cell controls what enters and leaves by controlling which proteins it puts in its membrane.",
+      "tags": ["core", "concept"]
+    },
+    {
+      "id": "B2.1-11",
+      "q": "Explain how the sodium-potassium pump works, including the numbers.",
+      "a": "It is an integral protein that hydrolyses ATP to change shape. Per ATP used, it moves three sodium ions out of the cell and two potassium ions in, both against their concentration gradients. Because three positive charges leave for every two that enter, the inside of the cell becomes more negative relative to the outside, creating both a concentration gradient and a potential difference.",
+      "note": "HL. Three out, two in. Getting the direction backwards costs marks in C2.2 as well.",
+      "tags": ["hl", "transport"]
+    },
+    {
+      "id": "B2.1-12",
+      "q": "Glucose enters intestinal cells against its concentration gradient, but no ATP is used at the transporter. Explain.",
+      "a": "This is indirect, or secondary, active transport. The sodium-potassium pump uses ATP to keep the sodium concentration inside the cell low. A cotransporter protein then allows sodium to move into the cell down its steep concentration gradient, and couples that movement to carrying glucose in at the same time, against the glucose gradient. The ATP was spent earlier by the pump — the energy is stored in the sodium gradient and spent here.",
+      "note": "HL. The chain is the answer: ATP to the pump, pump to the sodium gradient, sodium gradient to glucose.",
+      "tags": ["hl", "transport"]
+    },
+    {
+      "id": "B2.1-13",
+      "q": "What is a gated ion channel, and what are the two types you need to know?",
+      "a": "A gated ion channel is a channel protein that opens and closes in response to a specific signal, rather than being permanently open. Voltage-gated channels open in response to a change in the membrane potential; ligand-gated channels open when a specific chemical, such as a neurotransmitter, binds to them.",
+      "tags": ["hl", "transport"]
+    },
+    {
+      "id": "B2.1-14",
+      "q": "Why does membrane fluidity matter for vesicles?",
+      "a": "Because the membrane is fluid, it can break and rejoin without losing its structure. This allows vesicles to bud off from a membrane (fission) and to merge with another membrane (fusion), which is what makes endocytosis, exocytosis and transport between organelles possible. A rigid membrane could not do this.",
+      "tags": ["hl", "fluidity"]
+    },
+    {
+      "id": "B2.1-15",
+      "q": "Someone says 'glucose enters the cell by facilitated diffusion, which uses energy from ATP'. What is wrong?",
+      "a": "Facilitated diffusion does not use ATP. It is passive: the substance moves down its own concentration gradient, and the channel or carrier protein simply provides a route through the bilayer for something that could not otherwise cross. The two features that would make it active transport are movement against the gradient and the hydrolysis of ATP, and neither applies here.",
+      "tags": ["core", "misconception"]
+    }
+  ]
+}

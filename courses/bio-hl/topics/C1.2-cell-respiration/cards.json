@@ -1,0 +1,116 @@
+{
+  "topic": "C1.2",
+  "title": "Cell respiration",
+  "cards": [
+    {
+      "id": "C1.2-01",
+      "q": "Define cell respiration in the words a mark scheme would accept.",
+      "a": "Cell respiration is the controlled release of energy from organic compounds in cells to produce ATP.",
+      "note": "Three elements: controlled, from organic compounds, to produce ATP. It is not breathing.",
+      "tags": ["core", "definition"]
+    },
+    {
+      "id": "C1.2-02",
+      "q": "Why is ATP described as the energy currency of the cell rather than an energy store?",
+      "a": "ATP is the form of energy cells actually spend on work, and it is used almost immediately after it is made. Cells hold only a small quantity and regenerate it continuously from ADP and inorganic phosphate. Long-term energy storage is in glycogen and lipids; ATP is the spendable form in between.",
+      "tags": ["core", "atp"]
+    },
+    {
+      "id": "C1.2-03",
+      "q": "Name four processes in a cell that require ATP.",
+      "a": "Active transport across membranes, protein synthesis, muscle contraction, cell division. Also acceptable: transmission of nerve impulses, DNA replication, and movement of cilia or flagella.",
+      "tags": ["core", "atp"]
+    },
+    {
+      "id": "C1.2-04",
+      "q": "Compare aerobic and anaerobic respiration in humans: oxygen, products, and ATP yield.",
+      "a": "Aerobic respiration requires oxygen, fully oxidises glucose to carbon dioxide and water, and yields a large amount of ATP per glucose. Anaerobic respiration occurs without oxygen, converts glucose to lactate, and yields only the net 2 ATP from glycolysis. Anaerobic respiration is faster to start and useful for short bursts of intense activity, but cannot be sustained.",
+      "tags": ["core", "comparison"]
+    },
+    {
+      "id": "C1.2-05",
+      "q": "How does anaerobic respiration in yeast differ from that in humans?",
+      "a": "In yeast, pyruvate is converted to ethanol and carbon dioxide; in humans it is converted to lactate. Both regenerate NAD so glycolysis can continue, and both yield only the 2 ATP from glycolysis. The yeast pathway is the basis of brewing and of the rise in bread dough.",
+      "tags": ["core", "comparison"]
+    },
+    {
+      "id": "C1.2-06",
+      "q": "What is the role of NAD in respiration? Define oxidation and reduction as you answer.",
+      "a": "NAD is a hydrogen carrier. It accepts hydrogen atoms (and so electrons) released when substrates are oxidised, becoming reduced NAD, and carries them to the electron transport chain where it is re-oxidised. Oxidation is the loss of electrons or hydrogen; reduction is the gain of electrons or hydrogen.",
+      "note": "HL. NAD being regenerated is the thread that ties glycolysis, fermentation and the ETC together.",
+      "tags": ["hl", "concept"]
+    },
+    {
+      "id": "C1.2-07",
+      "q": "Glycolysis: where, what in, what out, how much ATP, oxygen needed?",
+      "a": "In the cytoplasm. Glucose (6 carbons) in; two pyruvate (3 carbons each) out. Net gain of 2 ATP by substrate-level phosphorylation, and 2 reduced NAD. No oxygen is required, which is why glycolysis runs in both aerobic and anaerobic conditions.",
+      "note": "Two ATP are invested first and four produced, hence a net of two. The word 'net' is often the mark.",
+      "tags": ["hl", "pathway"]
+    },
+    {
+      "id": "C1.2-08",
+      "q": "In anaerobic conditions, why is pyruvate converted to lactate? Give the reason, not the condition.",
+      "a": "To regenerate NAD. Converting pyruvate to lactate oxidises reduced NAD back to NAD, and glycolysis requires a supply of NAD to continue. Without that regeneration, glycolysis would stop and even the small anaerobic ATP yield would cease.",
+      "note": "'Because there is no oxygen' describes when it happens, not why it helps. This distinction is examined often.",
+      "tags": ["hl", "pathway", "trap"]
+    },
+    {
+      "id": "C1.2-09",
+      "q": "The link reaction: where, what happens, what comes out?",
+      "a": "In the mitochondrial matrix. Each pyruvate is decarboxylated, releasing one carbon dioxide, and oxidised, reducing one NAD. The remaining two-carbon acetyl group binds to coenzyme A to form acetyl CoA, which enters the Krebs cycle. No ATP is produced directly.",
+      "tags": ["hl", "pathway"]
+    },
+    {
+      "id": "C1.2-10",
+      "q": "The Krebs cycle: where, and what are its products per turn?",
+      "a": "In the mitochondrial matrix. Per turn: two carbon dioxide released by decarboxylation, three reduced NAD and one reduced FAD from the oxidations, and one ATP by substrate-level phosphorylation. Acetyl CoA combines with a four-carbon compound to form a six-carbon compound, which is then progressively oxidised and decarboxylated to regenerate the four-carbon acceptor.",
+      "note": "Two turns per glucose, because glycolysis produced two pyruvate.",
+      "tags": ["hl", "pathway"]
+    },
+    {
+      "id": "C1.2-11",
+      "q": "Describe the electron transport chain, including where it is and what it achieves.",
+      "a": "It is a series of electron carriers in the inner mitochondrial membrane. Reduced NAD and reduced FAD deliver electrons to the chain and are re-oxidised. As electrons pass from carrier to carrier they release energy, which is used to pump protons from the matrix into the intermembrane space, creating a proton concentration gradient across the inner membrane.",
+      "tags": ["hl", "pathway"]
+    },
+    {
+      "id": "C1.2-12",
+      "q": "Explain chemiosmosis.",
+      "a": "Protons accumulated in the intermembrane space diffuse back into the matrix down their concentration gradient, and can only do so through ATP synthase. The flow of protons through ATP synthase drives the enzyme, which phosphorylates ADP to produce ATP. So the gradient built by the electron transport chain is what is actually spent to make most of the cell's ATP.",
+      "note": "The chain builds the gradient; chemiosmosis spends it. Keep the two steps separate in your answer.",
+      "tags": ["hl", "pathway"]
+    },
+    {
+      "id": "C1.2-13",
+      "q": "What is the role of oxygen in aerobic respiration, and what happens without it?",
+      "a": "Oxygen is the terminal electron acceptor at the end of the electron transport chain, combining with electrons and hydrogen ions to form water. This removes electrons from the chain so it can keep running. Without oxygen the chain backs up, carriers stay reduced, the proton gradient is not maintained, chemiosmosis stops, and NAD is no longer regenerated — so the Krebs cycle and link reaction halt, leaving only glycolysis.",
+      "tags": ["hl", "pathway"]
+    },
+    {
+      "id": "C1.2-14",
+      "q": "Where does each of the four stages of aerobic respiration take place?",
+      "a": "Glycolysis: cytoplasm. Link reaction: mitochondrial matrix. Krebs cycle: mitochondrial matrix. Electron transport chain and ATP synthase: inner mitochondrial membrane, folded into cristae.",
+      "note": "Free marks, lost constantly. Learn the four as a set.",
+      "tags": ["hl", "pathway", "locations"]
+    },
+    {
+      "id": "C1.2-15",
+      "q": "Why do lipids yield more energy per gram than carbohydrates?",
+      "a": "Lipids are more reduced than carbohydrates — they contain more hydrogen per carbon atom. Oxidising them therefore releases more hydrogen to NAD and FAD, producing more reduced carriers, which deliver more electrons to the electron transport chain and so generate more ATP by chemiosmosis per gram of substrate.",
+      "note": "The mechanism is 'more reduced / more hydrogen per carbon', not 'bigger molecules'.",
+      "tags": ["hl", "substrates", "trap"]
+    },
+    {
+      "id": "C1.2-16",
+      "q": "Give one advantage carbohydrates have over lipids as a respiratory substrate.",
+      "a": "Carbohydrates can be respired anaerobically, since glycolysis does not require oxygen, whereas lipid respiration requires the aerobic pathway. Carbohydrates are also mobilised and oxidised more rapidly, so they suit short bursts of high demand.",
+      "tags": ["hl", "substrates"]
+    },
+    {
+      "id": "C1.2-17",
+      "q": "Name three variables that affect the rate of cell respiration.",
+      "a": "Temperature (affecting enzyme activity, with a rate that falls off after the optimum as enzymes denature), substrate or glucose concentration, and oxygen availability. Rate can be measured with a respirometer, by oxygen consumption or carbon dioxide production.",
+      "tags": ["core", "practical"]
+    }
+  ]
+}

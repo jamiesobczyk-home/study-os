@@ -1,0 +1,84 @@
+{
+  "topic": "A1.1",
+  "title": "Water",
+  "cards": [
+    {
+      "id": "A1.1-01",
+      "q": "Why is a water molecule polar? Give the full reason, not just the label.",
+      "a": "Oxygen is more electronegative than hydrogen, so it attracts the shared electrons in each O-H covalent bond more strongly. This leaves the oxygen with a partial negative charge and each hydrogen with a partial positive charge. Because the molecule is bent rather than linear, these partial charges do not cancel out, so the molecule as a whole has a positive end and a negative end.",
+      "note": "The bent shape is the half most people leave out, and it is a marking point.",
+      "tags": ["core", "structure"]
+    },
+    {
+      "id": "A1.1-02",
+      "q": "What exactly is a hydrogen bond between two water molecules, and how strong is it?",
+      "a": "An attraction between the partially positive hydrogen of one water molecule and the partially negative oxygen of another. It is an intermolecular force, not a covalent bond, and is roughly one twentieth the strength of a covalent bond. Water's properties come from there being very many weak bonds, not a few strong ones.",
+      "tags": ["core", "structure"]
+    },
+    {
+      "id": "A1.1-03",
+      "q": "Define cohesion and adhesion, and say which is which without hesitating.",
+      "a": "Cohesion is water molecules sticking to other water molecules, through hydrogen bonding between them. Adhesion is water sticking to a different material that is polar or charged, through hydrogen bonding to that surface.",
+      "note": "Co-hesion: the same substance together. Ad-hesion: added to something else.",
+      "tags": ["core", "definition"]
+    },
+    {
+      "id": "A1.1-04",
+      "q": "Explain how cohesion and adhesion together move water up a tall tree.",
+      "a": "Water evaporates from mesophyll cells and is lost through the stomata, which puts the water in the xylem under tension. Cohesion between water molecules means the column does not break, so the whole column is pulled up rather than the top pulling away. Adhesion between water and the hydrophilic walls of the narrow xylem vessels helps hold the column against gravity. The result is a continuous transpiration stream from root to leaf.",
+      "note": "Both halves are needed. Cohesion alone does not explain why the column does not simply slide down.",
+      "tags": ["core", "application"]
+    },
+    {
+      "id": "A1.1-05",
+      "q": "Why does sodium chloride dissolve in water, at the level of individual molecules?",
+      "a": "The ionic bond holding Na+ and Cl- together is disrupted because water molecules are attracted to the ions. The partially negative oxygen ends orient towards Na+ and the partially positive hydrogen ends towards Cl-. Each ion becomes surrounded by a shell of water molecules, which keeps the ions apart and in solution.",
+      "tags": ["core", "solvent"]
+    },
+    {
+      "id": "A1.1-06",
+      "q": "Name three biologically important substances that are hydrophilic and three that are hydrophobic.",
+      "a": "Hydrophilic: glucose, amino acids, and ions such as sodium or chloride. Hydrophobic: fats and oils (triglycerides), steroids such as cholesterol, and non-polar amino acid side chains.",
+      "tags": ["core", "solvent"]
+    },
+    {
+      "id": "A1.1-07",
+      "q": "Oxygen and cholesterol are both poorly soluble in water. How does blood transport each of them?",
+      "a": "Oxygen is bound to haemoglobin inside red blood cells rather than being carried dissolved in plasma. Cholesterol and other lipids are carried inside lipoproteins, which have a hydrophilic outer surface and a hydrophobic core, so the lipid is shielded from the water of the plasma.",
+      "note": "The general principle: if it will not dissolve, biology builds a carrier with a water-friendly outside.",
+      "tags": ["core", "transport"]
+    },
+    {
+      "id": "A1.1-08",
+      "q": "Water has a high specific heat capacity. Define that, and give a biological consequence.",
+      "a": "Specific heat capacity is the energy needed to raise the temperature of 1 g of a substance by 1 degree Celsius. Water's is high because much of the energy added goes into breaking hydrogen bonds rather than increasing molecular motion. Consequence: large bodies of water change temperature slowly, so aquatic habitats are thermally stable, and organisms, being mostly water, resist rapid changes in body temperature.",
+      "tags": ["core", "thermal"]
+    },
+    {
+      "id": "A1.1-09",
+      "q": "Water has a high latent heat of vaporization. What does that mean, and which two biological processes exploit it?",
+      "a": "A large amount of energy is needed to convert liquid water to vapour, because many hydrogen bonds must be broken, and this happens without a temperature change. Sweating in animals and transpiration in plants both use it: evaporating a small mass of water removes a large amount of heat, cooling the surface it left.",
+      "tags": ["core", "thermal"]
+    },
+    {
+      "id": "A1.1-10",
+      "q": "Compare buoyancy, viscosity and thermal conductivity in water versus air.",
+      "a": "Water is far denser, so it provides much greater buoyancy — aquatic animals need less skeletal support against gravity. Water is much more viscous, so movement through it meets greater resistance, favouring streamlined body shapes. Water has much higher thermal conductivity, so heat is lost from the body to water far faster than to air, which is why aquatic mammals need insulation such as blubber.",
+      "note": "The examiner wants the comparison and the biological consequence, not just 'water is denser'.",
+      "tags": ["core", "comparison"]
+    },
+    {
+      "id": "A1.1-11",
+      "q": "Why does the search for extraterrestrial life look for liquid water rather than water in any state?",
+      "a": "Every known form of life uses water as the medium for metabolism: as the solvent in which reactions occur and as a transport medium. Only liquid water can act as a solvent and allow substances to move and react. So liquid water marks conditions where life as we understand it is possible, which is why it is used as the indicator in the search.",
+      "note": "Note the honest limit built into the claim: it tests for life like ours, because that is the only kind we can currently recognise.",
+      "tags": ["core", "nos"]
+    },
+    {
+      "id": "A1.1-12",
+      "q": "Someone says 'water is a good solvent because it is charged'. What is wrong with that, and what is the correct version?",
+      "a": "Water is not charged — it is electrically neutral overall. It is polar: the charge is distributed unevenly within the molecule, giving partial charges at each end. It is that polarity, and the bent shape that prevents the partial charges cancelling, that lets water interact with ions and other polar molecules.",
+      "tags": ["core", "misconception"]
+    }
+  ]
+}

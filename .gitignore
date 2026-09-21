@@ -1,0 +1,8 @@
+# Node / editor noise
+node_modules/
+.DS_Store
+*.log
+
+# Recovered progress files written when a progress file could not be parsed.
+# The real progress files are tracked on purpose — they are his study history.
+*.progress.json.broken-*
