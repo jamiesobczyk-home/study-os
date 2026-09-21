@@ -1,71 +1,65 @@
 # A1.1 Water — where the marks go
 
-> Each entry is a near-miss: what gets written, why it does not score, and the
-> version that does.
+## Calling partial charges full charges
 
-## Calling water "charged" instead of "polar"
+**Commonly written:** "The oxygen in water is negative and the hydrogens are positive."
 
-**Commonly written:** "Water dissolves salt because water is charged."
+**Why it does not score:** The atoms carry partial charges because electrons are shared unequally. The molecule remains neutral overall.
 
-**Why it does not score:** Water is electrically neutral. It has partial
-charges unevenly distributed inside it. Examiners read "charged" as a genuine
-misunderstanding of the molecule, not as loose wording.
+**Scores instead:** "Oxygen attracts the shared electrons more strongly, so it has a partial negative charge and each hydrogen has a partial positive charge."
 
-**Scores instead:** "Water is polar: oxygen attracts the shared electrons more
-strongly, giving it a partial negative charge and the hydrogens a partial
-positive charge."
+## Putting hydrogen bonds inside the molecule
 
-## Mixing up hydrogen bonds and covalent bonds
+**Commonly written:** "Hydrogen bonds join oxygen to hydrogen in a water molecule."
 
-**Commonly written:** "The hydrogen bonds in a water molecule hold it together."
+**Why it does not score:** The O–H bonds within one molecule are polar covalent bonds. Hydrogen bonds act between separate molecules.
 
-**Why it does not score:** The bonds *within* a water molecule are polar
-covalent. Hydrogen bonds are *between* molecules. Getting this backwards
-undermines every answer built on top of it.
+**Scores instead:** "Polar covalent bonds join oxygen to hydrogen within each molecule, while hydrogen bonds form between neighbouring water molecules."
 
-**Scores instead:** "Polar covalent bonds hold each molecule together; hydrogen
-bonds form between neighbouring molecules."
+## Saying cohesion causes transpiration pull
 
-## Describing instead of explaining
+**Commonly written:** "Cohesion pulls water from the roots to the leaves."
 
-**Commonly written:** "Water moves up the xylem in a continuous column from
-roots to leaves."
+**Why it does not score:** Cohesion transmits tension through the water column. Evaporation from the leaf creates the tension.
 
-**Why it does not score:** That is what happens. "Explain" asks why it can
-happen. There is no mechanism in that sentence, so there is nothing to credit.
+**Scores instead:** "Transpiration creates tension in the xylem, and cohesion transmits that tension through an unbroken column of water."
 
-**Scores instead:** Name the mechanism — transpiration creates tension,
-cohesion keeps the column unbroken, adhesion holds it to the vessel walls.
+## Treating adhesion and cohesion as interchangeable
 
-## Saying hydrophobic substances are "repelled" by water
+**Commonly written:** "Adhesion keeps water molecules joined together in xylem."
 
-**Commonly written:** "Fats are hydrophobic so water pushes them away."
+**Why it does not score:** Water-to-water attraction is cohesion. Adhesion is attraction between water and the vessel wall.
 
-**Why it does not score:** Nothing pushes. Water molecules are more strongly
-attracted to each other than to the non-polar molecule, so they associate with
-each other and exclude it. The distinction matters because it is the same logic
-that makes a phospholipid bilayer form in B2.1.
+**Scores instead:** "Cohesion keeps water molecules connected, while adhesion helps water cling to the hydrophilic xylem walls."
 
-**Scores instead:** "Non-polar molecules cannot form hydrogen bonds with water,
-so water molecules preferentially bond with each other, excluding them."
+## Saying hydrophobic substances are repelled
 
-## Confusing specific heat capacity with latent heat of vaporization
+**Commonly written:** "Water pushes lipids away because they are hydrophobic."
 
-**Commonly written:** Using "high specific heat capacity" to explain sweating.
+**Why it does not score:** No repulsive force is required. Non-polar lipids lack favorable interactions with water, while water molecules continue hydrogen bonding with one another.
 
-**Why it does not score:** Sweating cools because *evaporation* takes a large
-amount of energy — that is latent heat of vaporization. Specific heat capacity
-is about warming liquid water without a change of state.
+**Scores instead:** "Lipids are poorly soluble because they are non-polar and cannot form favorable electrostatic interactions with water."
 
-**Scores instead:** Sweating and transpiration → latent heat of vaporization.
-Stable habitat and body temperatures → specific heat capacity.
+## Using specific heat capacity to explain sweating
 
-## Answering a comparison without comparing
+**Commonly written:** "Sweat cools the body because water has a high specific heat capacity."
 
-**Commonly written:** "Water is dense. Water is viscous. Air has more oxygen."
+**Why it does not score:** Sweating involves a change from liquid to vapor, so the relevant property is latent heat of vaporization.
 
-**Why it does not score:** "Compare and contrast" requires comparative
-statements. Each of those is a standalone fact about one medium.
+**Scores instead:** "Evaporation of sweat removes a large amount of energy from the skin because water has a high latent heat of vaporization."
 
-**Scores instead:** "Water is denser than air, so it provides greater buoyancy
-and aquatic animals need less skeletal support."
+## Listing facts instead of comparing habitats
+
+**Commonly written:** "Water is dense and viscous. Air contains oxygen."
+
+**Why it does not score:** A compare-and-contrast question requires paired statements that use one medium as the reference for the other.
+
+**Scores instead:** "Water is more viscous than air, so aquatic animals experience greater drag and benefit from streamlined bodies."
+
+## Treating water as proof of extraterrestrial life
+
+**Commonly written:** "Liquid water on a planet means that life exists there."
+
+**Why it does not score:** Water indicates a potentially suitable condition for known life. It does not show that organisms are present.
+
+**Scores instead:** "Liquid water indicates potential habitability for life as we know it, but its presence alone does not demonstrate life."

@@ -1,85 +1,70 @@
 # A1.1 Water — exam practice
 
-> `study exam A1.1` serves one of these at random and holds the
-> mark scheme back until you press enter. Write the answer out on paper first.
-> Marks you "basically had in your head" did not score.
+> Write each answer before revealing the mark scheme. A point that looked familiar after the reveal was not recalled and did not score.
 
-## Q1. Explain how the properties of water allow it to be transported from the roots to the leaves of a tall tree. **[4]**
+## Q1. Explain why a water molecule is polar. **[3]**
 
 ### Mark scheme
 
-- Water molecules are polar / form hydrogen bonds with one another. **[1]**
-- Cohesion between water molecules means the water column in the xylem does
-  not break when placed under tension. **[1]**
-- Evaporation / transpiration from the leaves generates the tension that pulls
-  the column upwards. **[1]**
-- Adhesion between water and the (hydrophilic / cellulose) walls of the xylem
-  helps hold the column against gravity. **[1]**
+- Oxygen is more electronegative than hydrogen / attracts the shared electrons in each O–H bond more strongly. **[1]**
+- Oxygen has a partial negative charge and the hydrogen atoms have partial positive charges. **[1]**
+- Water is bent / the bond dipoles do not cancel, producing separate partially charged regions. **[1]**
 
-_Examiner note: "explain" means give the mechanism, not the outcome. An answer
-saying water travels up the xylem in a continuous column scores nothing on its
-own — it describes what happens without saying why it can. The marks are in the
-words cohesion, adhesion, tension and hydrogen bond._
+_Examiner note: "oxygen is negative" is too loose. Full marks require partial charges and the reason the two bond dipoles do not cancel._
 
-## Q2. Distinguish between cohesion and adhesion, giving one biological example of each. **[4]**
+## Q2. Distinguish cohesion from adhesion and give one biological example of each. **[4]**
 
 ### Mark scheme
 
-- Cohesion is attraction between water molecules and other water molecules. **[1]**
-- Adhesion is attraction between water and other polar or charged
-  materials/surfaces. **[1]**
-- Example of cohesion: an unbroken water column in xylem / surface tension
-  allowing insects such as water striders to move on the water surface. **[1]**
-- Example of adhesion: water clinging to cellulose cell walls / capillary
-  action drawing water into narrow tubes or soil spaces. **[1]**
+- Cohesion is attraction between molecules of the same substance / between water molecules. **[1]**
+- accept: cohesion maintains a continuous water column in xylem / produces surface tension. **[1]**
+- Adhesion is attraction between different substances / between water and a polar or charged surface. **[1]**
+- accept: adhesion allows water to cling to cellulose xylem walls / contributes to capillary movement in narrow spaces. **[1]**
 
-_Examiner note: "distinguish" requires both sides stated against each other. Two
-separate definitions written in two separate paragraphs usually still scores,
-but a single sentence naming only what cohesion is does not — the contrast is
-the command term's demand._
+_Examiner note: examples alone do not distinguish the terms. The answer must identify what is attracted to what on both sides of the comparison._
 
-## Q3. Outline why substances that are insoluble in water can still be transported in blood plasma. **[3]**
+## Q3. Explain how the properties of water contribute to transport from roots to leaves in a tall plant. **[4]**
 
 ### Mark scheme
 
-- Blood plasma is an aqueous medium, so non-polar / hydrophobic substances will
-  not dissolve in it directly. **[1]**
-- Such substances are carried bound to or inside a carrier molecule. **[1]**
-- Named example with its carrier: oxygen bound to haemoglobin; cholesterol or
-  lipids carried within lipoproteins. **[1]**
+- Evaporation from mesophyll cell walls / transpiration through stomata creates tension in xylem. **[1]**
+- Water molecules form hydrogen bonds with one another / are cohesive. **[1]**
+- Cohesion transmits tension through an unbroken column of water. **[1]**
+- Adhesion between water and hydrophilic / cellulose xylem walls helps support the column against gravity. **[1]**
 
-_Examiner note: a named example is doing real work here. "They are carried by
-proteins" is vague enough to lose the third mark._
+_Examiner note: saying that cohesion "pulls water up" loses the source of the force. Transpiration creates the tension, cohesion transmits it, and adhesion supports the column._
 
-## Q4. Compare and contrast the physical properties of water and air as habitats for animals. **[5]**
+## Q4. Compare and contrast water and air as habitats for animals. **[6]**
 
 ### Mark scheme
 
-Award marks for comparative statements. Maximum [5]:
+Award any six:
 
-- Both provide a medium in which animals can move and obtain oxygen. **[1]**
-- Water is far denser than air, so provides greater buoyancy / less skeletal
-  support is needed against gravity. **[1]**
-- Water is more viscous than air, so resistance to movement is greater /
-  streamlining is more important. **[1]**
-- Water has a higher thermal conductivity than air, so body heat is lost more
-  rapidly / insulation such as blubber is needed. **[1]**
-- Water has a higher specific heat capacity than air, so aquatic habitats have
-  more stable temperatures / smaller daily temperature fluctuations. **[1]**
-- Air contains a much higher concentration of oxygen than water does, so gas
-  exchange surfaces in water must be more extensive. **[1]**
+- Both are fluids through which animals can move. **[1]**
+- Water is denser than air and provides greater buoyancy / reduces the need for weight-bearing support. **[1]**
+- Water is more viscous than air and creates greater drag / increases the advantage of streamlining. **[1]**
+- Water has higher thermal conductivity than air and removes body heat more rapidly / increases the need for insulation. **[1]**
+- Water has higher specific heat capacity than air and undergoes smaller or slower temperature changes / provides a more stable thermal environment. **[1]**
+- Oxygen is less available in water than in air / aquatic gas exchange requires adaptations for extracting dissolved oxygen. **[1]**
 
-_Examiner note: "compare and contrast" needs at least one similarity as well as
-differences, and every point must be written comparatively. "Water is dense"
-scores nothing; "water is denser than air, so it provides more buoyancy" scores._
+_Examiner note: every difference must be comparative. "Water is viscous" states a fact, while "water is more viscous than air, so swimming produces greater drag" answers the command term._
 
-## Q5. State one reason why the presence of liquid water is used as an indicator in the search for extraterrestrial life. **[1]**
+## Q5. Explain how evaporation of water cools a human body or a leaf. **[3]**
 
 ### Mark scheme
 
-- Water is the medium in which the metabolism of all known life occurs / acts
-  as the solvent for the reactions of life, so its presence indicates conditions
-  in which life as we know it could exist. **[1]**
+- Water has a high latent heat of vaporization / much energy is required to disrupt hydrogen bonds during evaporation. **[1]**
+- Higher-energy water molecules leave the liquid as vapor. **[1]**
+- Energy is removed from the surface / the mean kinetic energy and temperature of the remaining liquid decrease. **[1]**
 
-_Examiner note: "state" wants one sentence. Do not write a paragraph — you earn
-nothing extra and you spend time you need for Q4._
+_Examiner note: high specific heat capacity does not explain evaporation. The answer must name latent heat of vaporization and show where the energy goes._
+
+## Q6. Suggest why liquid water is used as an indicator of potential habitability when searching for extraterrestrial life. **[3]**
+
+### Mark scheme
+
+- All known life uses liquid water as a solvent / medium for metabolism. **[1]**
+- Liquid water allows dissolved substances to move and react / supports transport and biochemical reactions. **[1]**
+- Its presence indicates that one condition for life as we know it may be met, but does not prove that life is present. **[1]**
+
+_Examiner note: the limiting sentence earns the third mark. Water supports a possibility; it is not direct evidence of organisms._

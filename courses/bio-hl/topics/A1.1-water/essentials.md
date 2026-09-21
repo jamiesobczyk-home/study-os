@@ -1,63 +1,39 @@
 # A1.1 Water — what you have to be able to do
 
-> Each line is a thing you should be able to *do* with the page closed.
-> Tick it only when you have said it out loud without looking.
+> Tick a line only after you can do it with the page closed and without prompts.
 
 ## Core
 
-- [ ] Explain why a water molecule is **polar**: oxygen attracts the shared
-      electrons more strongly than hydrogen does, so the oxygen end carries a
-      partial negative charge and the hydrogen ends a partial positive one.
-      The molecule is bent, so the charges do not cancel.
-- [ ] Explain how **hydrogen bonds** form between water molecules — an
-      attraction between the partially positive hydrogen of one molecule and
-      the partially negative oxygen of another — and state that each bond is
-      weak but that there are very many of them.
-- [ ] Describe **cohesion** (water sticking to water) and give a consequence:
-      the transpiration stream holding an unbroken column of water under
-      tension in xylem; surface tension letting some animals move on water.
-- [ ] Describe **adhesion** (water sticking to polar or charged surfaces) and
-      give a consequence: water clinging to cellulose cell walls, and capillary
-      action drawing water into narrow spaces.
-- [ ] Explain water's **solvent properties**: polar and charged substances
-      (glucose, amino acids, sodium and chloride ions) dissolve because water
-      molecules surround them; non-polar substances (fats, oils, steroids) do
-      not.
-- [ ] State why that matters: metabolism happens in aqueous solution, and
-      transport in blood and sap depends on solutes being dissolved.
-- [ ] Explain how substances that are **not** soluble in water are still
-      transported — oxygen bound to haemoglobin, lipids and cholesterol
-      carried inside lipoproteins.
-- [ ] Compare the physical properties of water with those of air, and relate
-      them to the animals living in each: **buoyancy**, **viscosity**,
-      **thermal conductivity**, **specific heat capacity**.
-- [ ] Explain the consequences of water's **high specific heat capacity**
-      (aquatic habitats change temperature slowly; bodies resist temperature
-      swings) and **high latent heat of vaporization** (sweating and
-      transpiration remove a lot of heat per gram evaporated).
-- [ ] Outline why the **search for extraterrestrial life** looks for liquid
-      water: it is the medium every known metabolism runs in.
+- [ ] Explain why oxygen and hydrogen share electrons unequally in water, and why the molecule's bent shape gives it two differently charged regions.
+- [ ] Distinguish the polar covalent bonds inside a water molecule from the hydrogen bonds between water molecules.
+- [ ] Explain how many individually weak hydrogen bonds produce water's cohesion and surface tension.
+- [ ] Distinguish cohesion from adhesion and connect both properties to the movement of water through xylem.
+- [ ] Explain how water surrounds ions and polar molecules, allowing them to dissolve and move in aqueous solutions.
+- [ ] Predict whether a biological substance will be hydrophilic or hydrophobic from its charge and polarity.
+- [ ] Explain why water is a medium for metabolic reactions and for transport in blood, tissue fluid and plant sap.
+- [ ] Explain how organisms transport poorly soluble substances, using oxygen and lipids as named examples.
+- [ ] Compare water with air in density, buoyancy, viscosity, thermal conductivity and specific heat capacity, then link the differences to animal adaptations.
+- [ ] Explain how high specific heat capacity limits temperature change and how high latent heat of vaporization makes evaporation an effective cooling process.
+- [ ] Outline why the search for extraterrestrial life focuses on liquid water, without claiming that water proves life is present.
 
 ## Links to other topics
 
-- **B2.1 Membranes** — the phospholipid bilayer exists *because* of the
-  hydrophobic/hydrophilic split you learn here. Same idea, one layer up.
-- **B3.2 Transport** — cohesion and adhesion are the whole mechanism of the
-  transpiration stream. You are not learning a new thing there, you are
-  applying this one.
-- **D2.3 Water potential** — osmosis makes sense only once solvent properties do.
-- **D3.3 Homeostasis** — sweating as temperature control is latent heat of
-  vaporization with a biological label on it.
+- **B2.1 Membranes and membrane transport** — polarity explains why phospholipids arrange into bilayers. If hydrophilic and hydrophobic interactions are secure here, membrane structure has a cause rather than becoming another diagram to memorise.
+- **B3.2 Transport** — transpiration applies cohesion, adhesion and evaporation to an entire plant. A1.1 supplies the molecular explanation for the mechanism.
+- **D2.3 Water potential** — osmosis depends on water as a solvent and on differences in the tendency of water to move. Accurate solvent language here prevents confusion later.
+- **D3.3 Homeostasis** — sweating works because evaporation requires energy. The homeostasis question is an application of latent heat of vaporization.
 
 ## Vocabulary that has to be exact
 
 | Term | What it means | What it is not |
 | --- | --- | --- |
-| Polar | Uneven sharing of electrons giving partial charges | Charged. Water is neutral overall |
-| Hydrogen bond | Attraction *between* molecules, at the partial charges | A covalent bond. It is about 1/20 the strength |
-| Cohesion | Water to water | Adhesion |
-| Adhesion | Water to another polar or charged surface | Cohesion |
-| Hydrophilic | Dissolves in / associates with water | "Water loving" as a mechanism — it is polarity |
-| Hydrophobic | Does not dissolve in water | Repelled by water. Nothing pushes it away |
-| Specific heat capacity | Energy to raise 1 g by 1 °C | Latent heat of vaporization |
-| Latent heat of vaporization | Energy to turn liquid to gas at the same temperature | Boiling point |
+| Electronegativity | The tendency of an atom to attract a shared pair of electrons | An atom's overall electrical charge |
+| Polar molecule | A molecule with an uneven distribution of charge and partial positive and negative regions | An ion; water remains neutral overall |
+| Polar covalent bond | A covalent bond in which electrons are shared unequally | A hydrogen bond between molecules |
+| Hydrogen bond | An attraction between a partially positive hydrogen and a partially negative electronegative atom on another molecule | The O–H bond within one water molecule |
+| Cohesion | Attraction between molecules of the same substance, such as water and water | Adhesion to another surface |
+| Adhesion | Attraction between different substances, such as water and cellulose | Cohesion between water molecules |
+| Hydrophilic | Charged or polar and able to interact with water | Any substance found inside an organism |
+| Hydrophobic | Non-polar and poorly soluble in water | A substance pushed away by a repulsive force |
+| Specific heat capacity | Energy needed to raise the temperature of unit mass by one degree | Energy needed for a liquid to evaporate |
+| Latent heat of vaporization | Energy needed to change a liquid to a gas without changing temperature | The temperature at which a substance boils |

@@ -1,59 +1,47 @@
 # A1.1 Water — what to watch
 
-> Watch **one** video, not four. A second video on the same idea feels like
-> progress and is mostly re-recognition — you are enjoying the feeling of
-> following along, which is not the same as being able to produce it. When one
-> video is done, close it and try to reproduce it from memory.
-
-> Links below are channel and search links, which do not rot. When you find the
-> video that actually works, paste its URL under "Pinned" so you can find it
-> again in April.
+Watch **one** main video. Then close it and write what you can produce from memory. Watching another version immediately strengthens recognition, and recognition is the skill that has been hiding the gaps.
 
 ## Main
 
-**Alex Lee — A1.1 Water** (~15 min)
+**Alex Lee Biology — A1.1 Water**
 
 - Channel: <https://www.youtube.com/@AlexLeeBiology>
-- Find it: <https://www.youtube.com/results?search_query=Alex+Lee+IB+Biology+A1.1+Water>
+- Search: <https://www.youtube.com/results?search_query=Alex+Lee+IB+Biology+A1.1+Water>
 
-Alex Lee's series is built against this exact syllabus, topic code by topic
-code, which most biology channels are not. Start here.
+Alex Lee organizes the course by the current IB topic codes, so start with the explanation built for A1.1.
 
-Watch for:
-- **Why** oxygen pulls the electrons harder — not just that it does.
-- The moment cohesion is distinguished from adhesion. If you cannot restate
-  the difference thirty seconds after he says it, rewind once.
-- Every time he says "and this is why" — those are the Paper 2 sentences.
+**Watch for:**
 
-Pause at: the transpiration stream diagram. Before you play on, say out loud
-what is pulling the water up. If the sentence does not come, rewind.
+- Why oxygen attracts the shared electrons more strongly than hydrogen does.
+- Why the two O–H bond dipoles do not cancel in a bent molecule.
+- How the explanation moves from hydrogen bonding to cohesion, adhesion and thermal properties.
+- Which property of water explains each biological example, rather than memorizing the example alone.
+
+**Pause at:** the first labelled water molecule. Hide the labels, draw its shape, add δ− and δ+ in the correct places, and explain aloud why the whole molecule is polar but not charged.
 
 ## If that did not land
 
-**Amoeba Sisters — Water and Hydrogen Bonding**
+**Khan Academy — hydrogen bonding and water**
 
-- Find it: <https://www.youtube.com/results?search_query=Amoeba+Sisters+properties+of+water>
+- Channel: <https://www.youtube.com/@khanacademy>
+- Search: <https://www.youtube.com/results?search_query=Khan+Academy+hydrogen+bonding+water+properties>
 
-Not IB-specific and not enough on its own, but it is a genuinely different
-explanation rather than the same one said again. Worth it if the polarity idea
-is refusing to stick.
+Use this if the chemistry under polarity and hydrogen bonding is the part you cannot yet reproduce.
 
-**Khan Academy — Water as a solvent**
+**Amoeba Sisters — properties of water**
 
-- Find it: <https://www.youtube.com/results?search_query=Khan+Academy+water+solvent+hydrogen+bonding>
+- Channel: <https://www.youtube.com/@AmoebaSisters>
+- Search: <https://www.youtube.com/results?search_query=Amoeba+Sisters+properties+of+water>
 
-Slower and more chemical. Good if the problem is the chemistry underneath
-rather than the biology on top.
+Use this for a shorter biological explanation. When it ends, return to recall instead of opening a third video.
 
 ## Worth it once, not for revision
 
-- Slow-motion footage of water striders on a pond surface. Ninety seconds, and
-  surface tension stops being an abstraction. Search "water strider surface
-  tension slow motion".
+A hydrogen-bond network changes from moment to moment, so an **animation** earns one exception to the one-video rule. Movement shows the bonds forming and breaking more clearly than a static paragraph can.
+
+- Search: <https://www.youtube.com/results?search_query=water+molecules+hydrogen+bonds+animation>
+
+After watching, draw four water molecules. Use solid lines for polar covalent bonds and dotted lines for hydrogen bonds. If the two bond types end up in the same place, watch that segment again.
 
 ## Pinned
-
-_Paste the URL of the video that actually worked, once you have found it._
-
-- Main:
-- Backup:

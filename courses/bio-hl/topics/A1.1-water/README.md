@@ -7,25 +7,15 @@
 
 ## The one-sentence version
 
-Water is a small, bent, lopsided molecule, and almost everything biology does —
-holding a column of sap 100 m up a tree, keeping a body at one temperature,
-dissolving the things a cell needs and refusing to dissolve the things a
-membrane is made of — falls out of that one fact.
+Water's bent, polar structure lets it form hydrogen bonds and dissolve charged or polar substances, which explains its roles in transport, temperature control, habitats and metabolism.
 
-## Why this topic is worth getting right early
+## Why this topic is worth getting right
 
-It looks like the easy first topic and it gets treated as one. But water's
-properties are the explanation underneath a dozen later topics — transport in
-plants (B3.2), membranes (B2.1), water potential (D2.3), kidney function
-(D3.3). Examiners come back to it constantly because it is where "explain why"
-questions are cheapest to write. If polarity is solid now, four later topics
-get easier. If it is not, they get harder and you will not know why.
+A1.1 looks like a list of properties until you learn the chain underneath it: structure, interaction, property, biological consequence. That chain returns in membranes, plant transport, water potential and homeostasis. If you can produce the chain instead of recognising the list, four later topics become easier to explain for marks.
 
 ## In your study guide
 
-Allott, _Biology Study Guide_ (2023), **section A1.1**. Read it *after* the
-capture sheet, never before — it is condensed enough to make a fast check of
-what you left out, and a slow way to meet the topic for the first time.
+Allott, _Biology Study Guide_ (2023), **section A1.1, pp. 1-3**. Read it *after* the capture sheet, never before — it is condensed enough to make a fast check of what you left out, and a slow way to meet the topic for the first time.
 
 ## What's in this pack
 
