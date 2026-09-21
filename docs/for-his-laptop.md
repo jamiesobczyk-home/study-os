@@ -16,20 +16,28 @@ Rebuild it whenever you add or change a pack:
 
 Pick whichever his school allows. They are listed easiest-first.
 
-### 1. A web link (best, if you can)
+### 1. The link (this is what we set up)
 
-Host `index.html` anywhere and send him the URL. He bookmarks it and that is
-the end of his involvement in the setup.
+### https://jamiesobczyk-home.github.io/study-os/
 
-- **GitHub Pages** — free, and the repo is already laid out for it.
-  Settings → Pages → Source: *Deploy from a branch* → `main` / `/ (root)`.
-  The site appears at `https://jamiesobczyk-home.github.io/study-os/`.
-  **This requires the repository to be public, or a paid GitHub plan.**
-  The content is IB Biology revision material and nothing personal — his
-  progress is saved in his browser, never in the repo — so making it public is
-  a reasonable choice, but it is yours to make.
-- **Cloudflare Pages or Netlify** — free tiers, and both work with a private
-  repository. More setup, no visibility trade-off.
+Served by GitHub Pages from this repository. He bookmarks it once and that is
+the end of his involvement in the setup — pushing a new pack updates the page
+automatically, with nothing to re-send.
+
+To enable it, or if it ever stops working:
+
+1. <https://github.com/jamiesobczyk-home/study-os/settings> → **Danger Zone** →
+   *Change visibility* → **Public**. Free GitHub Pages requires this. The repo
+   holds IB Biology revision material and code — no names, no personal data,
+   and his progress is saved in his browser rather than in the repo.
+2. <https://github.com/jamiesobczyk-home/study-os/settings/pages> → Source:
+   **Deploy from a branch** → Branch: **main** / **/ (root)** → Save.
+
+Give it a minute or two on first publish. The Actions tab shows the deploy.
+
+**If you would rather keep the repository private**, Cloudflare Pages and
+Netlify both have free tiers that serve from a private repo and give the same
+always-current link. More setup, no visibility trade-off.
 
 ### 2. OneDrive or Google Drive
 

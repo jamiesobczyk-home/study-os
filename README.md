@@ -10,14 +10,18 @@ First course in it: **Biology HL**.
 
 ## Two ways in
 
-**For him — a web page, nothing to install.** `index.html` is a single
-self-contained file holding every topic, card, video link and exam question.
-Open it in any browser, from a URL or straight off the disk. No install, no
-command line, no internet needed. That is the whole student experience, and it
-works on a locked-down school laptop.
+**For him — a web page, nothing to install.**
 
-See **[docs/for-his-laptop.md](docs/for-his-laptop.md)** for how to get it to
-him — hosted link, OneDrive, or emailed file.
+### https://jamiesobczyk-home.github.io/study-os/
+
+`index.html` is a single self-contained file holding every topic, card, video
+link and exam question. It runs from that link, or from a file on a USB stick,
+with no install, no command line and no internet connection required. That is
+the whole student experience, and it works on a locked-down school laptop.
+
+Pushing a new pack updates that page automatically. If the link is ever
+blocked, **[docs/for-his-laptop.md](docs/for-his-laptop.md)** covers the
+fallbacks — OneDrive or an emailed file, both of which bypass the network.
 
 **For you — a command line, to build and check packs.** The rest of this README
 is that. Rebuild the page after changing content:
