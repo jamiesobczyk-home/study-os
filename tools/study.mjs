@@ -24,6 +24,7 @@ import {
 } from './lib/syllabus.mjs';
 import * as progress from './lib/progress.mjs';
 import { checkPack } from './lib/check.mjs';
+import { buildPrompt } from './lib/prompt.mjs';
 import { bold, dim, blue, green, yellow, red, rule, para, heading } from './lib/ui.mjs';
 
 const DEFAULT_COURSE = 'bio-hl';
@@ -444,6 +445,35 @@ const cmdCheck = (ctx, code) => {
   if (failed) process.exitCode = 1;
 };
 
+const cmdPrompt = (ctx, code, flags) => {
+  const topic = requireTopic(ctx, code);
+  if (hasPack(ctx.course, topic) && !flags.force) {
+    console.error(`${topic.code} already has a pack. Use --force to print the prompt anyway.`);
+    process.exit(1);
+  }
+
+  let example = null;
+  if (flags.example !== undefined && flags.example !== false) {
+    // --example picks a named pack, or the first finished one.
+    const built = ctx.syllabus.topics.filter((t) => hasPack(ctx.course, t));
+    example = typeof flags.example === 'string'
+      ? findTopic(ctx.syllabus, flags.example)
+      : built[0];
+    if (!example) {
+      console.error(`No finished pack to use as an example${typeof flags.example === 'string' ? ` (looked for ${flags.example})` : ''}.`);
+      process.exit(1);
+    }
+    if (!hasPack(ctx.course, example)) {
+      console.error(`${example.code} has no pack, so it cannot be the example.`);
+      process.exit(1);
+    }
+  }
+
+  // Everything below goes to stdout and nothing else does, so the whole
+  // output can be piped or copied straight into another model.
+  console.log(buildPrompt(ctx, topic, { exampleDir: example }));
+};
+
 const usage = () => {
   console.log(`
 ${bold('study')} — a video-first study system
@@ -456,10 +486,12 @@ ${bold('study')} — a video-first study system
   ${bold('list')}               every topic, and which have packs
   ${bold('new')} <topic>        scaffold a new topic pack
   ${bold('check')} [topic]      verify pack structure (all packs if omitted)
+  ${bold('prompt')} <topic>     print a paste-ready pack prompt for another model
 
   ${dim('--course <id>')}      pick a course (default: ${DEFAULT_COURSE})
   ${dim('--limit <n>')}        cards per quiz (default: 20)
   ${dim('--all')}              quiz a whole topic, not just what is due
+  ${dim('--example [topic]')}   with prompt: include a finished pack as a worked example
 
 ${dim('Start here:')}  node tools/study.mjs today
 `);
@@ -483,6 +515,7 @@ const main = async () => {
     case 'exam': return cmdExam(ctx, code);
     case 'new': return cmdNew(ctx, code);
     case 'check': return cmdCheck(ctx, code);
+    case 'prompt': return cmdPrompt(ctx, code, flags);
     default:
       console.error(`Unknown command "${command}".`);
       usage();

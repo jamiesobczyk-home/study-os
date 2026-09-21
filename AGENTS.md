@@ -38,8 +38,10 @@ built this way.
   and `### Mark scheme` subheadings. Changing the shape breaks the reveal.
 - **Two authoring paths must stay in step.** `.claude/skills/topic-pack/SKILL.md`
   is for sessions in this repo; `prompts/topic-pack.md` is the self-contained
-  version for a model with no repo access. Change the pack format and you must
-  update both, plus `tools/lib/check.mjs` which enforces it.
+  version for a model with no repo access, served by `study prompt <CODE>`.
+  Change the pack format and you must update both, plus `tools/lib/check.mjs`
+  which enforces it. `tools/lib/prompt.mjs` substitutes into the prompt by
+  matching exact strings, so edit those lines with care.
 
 ## Tone
 

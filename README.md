@@ -60,7 +60,7 @@ Why it is built this way, and why step 2 feels awful: **[docs/method.md](docs/me
         exam.md            exam questions + mark schemes -> `study exam`
         traps.md           where the marks actually go
     docs/                  the method, and the guides
-    prompts/topic-pack.md  portable pack prompt for any model
+    prompts/topic-pack.md  the pack prompt `study prompt` fills in
     templates/topic-pack/  the skeleton `study new` copies
     tools/study.mjs        the CLI
     study/                 progress state, per course
@@ -89,9 +89,16 @@ Do not write them by hand. In a Claude session in this repo:
 `.claude/skills/topic-pack/SKILL.md` defines what a good pack is, so output
 stays consistent across sessions rather than drifting.
 
-To generate them somewhere else — ChatGPT, another model — use
-`prompts/topic-pack.md`. It is self-contained and carries the same contract, so
-output drops in without editing. Then verify the structure:
+To generate them somewhere else — ChatGPT, another model — print a paste-ready
+prompt:
+
+    node tools/study.mjs prompt D1.1              # copy the output, paste it in
+    node tools/study.mjs prompt D1.1 --example    # also show it a finished pack
+
+It fills in the topic, theme, level, HL flag and study-guide pages from the
+syllabus, so there is nothing to edit. `--example` appends a completed pack as
+a worked example, which is worth doing the first few times. Then verify the
+structure:
 
     node tools/study.mjs check D1.1     # one pack
     node tools/study.mjs check          # all of them
