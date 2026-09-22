@@ -51,6 +51,21 @@ export const buildPrompt = (ctx, topic, { exampleDir = null } = {}) => {
   }
   body = `${body}\n\n## This topic\n\n${facts.join('\n')}\n`;
 
+  // The model cannot verify a URL, so hand it the ones a person already has.
+  // Without this it either omits channel links or invents them — and an
+  // invented handle has already shipped to the student once.
+  const channels = (ctx.meta.resources || []).filter((r) => r.url && r.verified);
+  if (channels.length) {
+    body +=
+      `\n## Verified links you may use\n\n` +
+      `Copy these **verbatim** if you reference the channel. Do not alter them, ` +
+      `and do not invent any other channel or video URL.\n\n` +
+      channels
+        .map((c) => `- **${c.title}** — <${c.url}>\n  ${c.role || ''}`.trimEnd())
+        .join('\n') +
+      `\n`;
+  }
+
   // A worked example is worth more than another paragraph of instruction.
   if (exampleDir) {
     const dir = topicDir(ctx.course, exampleDir.dir);

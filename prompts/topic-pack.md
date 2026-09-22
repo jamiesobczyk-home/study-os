@@ -1,16 +1,24 @@
 # Portable topic-pack prompt
 
-Paste everything below the line into ChatGPT (or any capable model), replacing
-`<CODE>` and `<TITLE>`. It is self-contained — it carries the whole format
-contract, so output drops into the repo without editing.
+**Do not paste this file by hand.** Generate a filled-in copy instead:
+
+    study prompt B1.2              # copy the output, paste into ChatGPT
+    study prompt B1.2 --example    # also show it a finished pack
+
+That substitutes the topic, theme, level, HL flag and study-guide page range
+from the syllabus, and appends the verified channel URLs — none of which this
+raw file contains. Pasting the raw file leaves `<CODE>` placeholders in the
+prompt and gives the model no link it is allowed to use.
 
 When the reply comes back, save the six files into
 `courses/bio-hl/topics/<CODE>-<slug>/` and run:
 
-    study check <CODE>
+    study check <CODE>    # structure, and card ids that shifted
+    study links <CODE>    # every link fetched; dead ones fail
+    study build           # regenerate the page he studies from
 
-Fix anything it reports, then check the biology against the study guide before
-he studies from it.
+Fix anything they report, then check the biology against the study guide before
+he studies from it. The text below is the template those commands fill in.
 
 ---
 
@@ -28,11 +36,12 @@ syllabus, first exams 2025).
    gets memorised just as efficiently and is not discovered until an exam. If
    you are not certain of a fact, leave it out. At the very end, list anything
    you were unsure about under a heading `UNCERTAIN` so a human can check it.
-2. **Never invent a URL.** Outside the `## Pinned` section, the only links you
-   may produce are YouTube *search* URLs of the form
-   `https://www.youtube.com/results?search_query=...`, which cannot rot. **No
-   channel URLs, no `@handles`, no video links** — those go stale or turn out
-   never to have existed, and a dead link is what ends a study session.
+2. **Never invent a URL.** You may produce exactly two kinds of link: YouTube
+   *search* URLs of the form `https://www.youtube.com/results?search_query=...`,
+   which cannot rot, and URLs copied **verbatim** from the verified list at the
+   end of this prompt. **Invent nothing else** — no guessed `@handles`, no video
+   ids. A handle guessed from a channel name once shipped to this student and
+   404'd. A dead link is what ends a study session.
 3. **Never invent a page number** for any textbook.
 4. **Follow the file formats below exactly.** Your output is not just read by
    a person — it is parsed and rendered into a web app the student studies
@@ -76,16 +85,17 @@ being threaded), an **animation** teaches things prose cannot, and you should
 say so.
 
 Under `## Main`, include:
-- Channel link and a search URL (never a video URL).
+- A search URL. Add a channel link **only** if it appears in the verified list
+  at the end of this prompt — those are URLs a person has actually opened.
 - **"Watch for:"** — 2–4 specific questions to hold while watching. This is the
   most important part of the file; it is what turns passive watching into active
   watching.
 - **"Pause at:"** — one moment worth stopping on, and what to do when stopped.
 
-For IB Biology, Alex Lee's series is widely recommended by IB students and is
-reported to follow the 2023 syllabus topic by topic, so it is the default first
-suggestion — **but link to a search for it, never to a channel URL.** Channel
-handles change and cannot be verified from here.
+For IB Biology, Alex Lee's series (channel name "Mister Lee Science") is widely
+recommended by IB students and is reported to follow the 2023 syllabus topic by
+topic, so it is the default first suggestion. Use its verified URL from the list
+at the end of this prompt, and write the search query around the channel name.
 Amoeba Sisters, Khan Academy and Crash Course are useful as *different*
 explanations, not as repeats.
 
@@ -112,6 +122,12 @@ Valid JSON, this shape exactly:
 - **12 to 18 cards.** Fewer does not cover the topic; more stops fitting a
   review session.
 - `id` must be `<CODE>-01`, `<CODE>-02`, … strictly sequential from 01. No gaps.
+- **If you are rebuilding a pack that already exists, ids are not yours to
+  reassign.** A student's review history is keyed on them: how well he knows
+  each card, and when it is next due. Keep every existing id attached to the
+  question it already had, and add new cards at the end. Silently reusing
+  `<CODE>-05` for a different question credits him for a card he never saw and
+  re-tests one he had mastered. This has already happened twice.
 - `q` must be impossible to answer yes/no and must force recall. "Why is water
   polar? Give the full reason, not just the label" beats "What is polarity?".
 - `a` must be a full, scoring answer in sentences — he reads it to judge whether

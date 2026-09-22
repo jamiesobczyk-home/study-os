@@ -110,7 +110,9 @@ The file the quiz reads. Shape:
 ```
 
 - `id` — `<CODE>-NN`, sequential. Stable: **never renumber an existing card**,
-  because progress is keyed on it. Add new cards at the end.
+  and when rebuilding an existing pack, keep every id attached to the question
+  it already had. Progress is keyed on ids, so reusing one for a different
+  question corrupts his review history. `study check` now fails on this.
 - `q` — must force production, not recognition. "Why is water polar? Give the
   full reason, not just the label" beats "What is polarity?". Questions that
   can be answered "yes" are broken.
