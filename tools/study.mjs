@@ -499,7 +499,7 @@ const cmdBuild = (ctx) => {
   const r = buildWeb(ctx.course);
   console.log(para(
     `\nBuilt ${r.out.replace(process.cwd() + '/', '')}\n` +
-    `  ${r.packs} pack${r.packs === 1 ? '' : 's'}, ${r.cards} cards, ${(r.bytes / 1024).toFixed(0)} KB, one file, no dependencies.\n\n` +
+    `  ${r.packs} pack${r.packs === 1 ? '' : 's'}, ${r.cards} cards, ${r.mcq} quiz questions, ${(r.bytes / 1024).toFixed(0)} KB, one file, no dependencies.\n\n` +
     `Open it in any browser, or put it where he can reach it. Rebuild after adding or changing a pack.\n`
   ));
 };

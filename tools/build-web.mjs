@@ -12,6 +12,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT, topicDir } from './lib/paths.mjs';
 import { loadCourse, loadSyllabus, hasPack, loadCards } from './lib/syllabus.mjs';
+import { parseTraps, trapQuestions } from './lib/traps.mjs';
 
 const WEB = join(ROOT, 'web');
 const read = (p) => readFileSync(p, 'utf8');
@@ -69,6 +70,8 @@ export const build = (courseId) => {
         id: c.id, q: c.q, a: c.a, note: c.note || '', marks: c.marks || null,
       })),
       exam: parseExam(file('exam.md')),
+      // Multiple-choice questions derived from the same traps rendered above.
+      mcq: trapQuestions(t.code, parseTraps(file('traps.md'))),
     };
     return row;
   });
@@ -102,13 +105,14 @@ export const build = (courseId) => {
 
   const packs = topics.filter((t) => t.pack).length;
   const cards = topics.reduce((n, t) => n + (t.pack ? t.pack.cards.length : 0), 0);
-  return { out, packs, cards, bytes: Buffer.byteLength(built) };
+  const mcq = topics.reduce((n, t) => n + (t.pack ? t.pack.mcq.length : 0), 0);
+  return { out, packs, cards, mcq, bytes: Buffer.byteLength(built) };
 };
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   const courseId = process.argv[2] || 'bio-hl';
   const r = build(courseId);
   console.log(
-    `Built ${r.out}\n  ${r.packs} packs, ${r.cards} cards, ${(r.bytes / 1024).toFixed(0)} KB`
+    `Built ${r.out}\n  ${r.packs} packs, ${r.cards} cards, ${r.mcq} quiz questions, ${(r.bytes / 1024).toFixed(0)} KB`
   );
 }

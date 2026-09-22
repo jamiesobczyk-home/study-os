@@ -28,6 +28,21 @@ Both surfaces must agree on behaviour. The spaced-repetition intervals and the
 exam-markdown parsing are implemented twice — once in `tools/lib/` for Node,
 once in `web/app.js` for the browser. Change one and you must change the other.
 
+## Two stores, deliberately
+
+`localStorage` holds two separate records, and they must stay separate:
+
+- `study-os:<course>:v1` — the recall schedule. Leitner boxes keyed on card id.
+  Measures whether he can **produce** an answer.
+- `study-os:<course>:mcq:v1` — quiz results, keyed on question id.
+  Measures whether he can **recognise** the right reason from a list.
+
+Multiple choice is the easier task. Letting a lucky guess advance a card to a
+35-day interval would quietly corrupt the only thing measuring real mastery, so
+`views.mcq` and `views.mcqRun` never call `grade()` or touch `state.cards`.
+There is a regression test for this: run an MCQ session and confirm
+`study-os:<course>:v1` is byte identical afterwards.
+
 ## Rules
 
 - **No dependencies.** Bare Node 18+, as with the rest of Jamie's tooling.
@@ -69,6 +84,10 @@ once in `web/app.js` for the browser. Change one and you must change the other.
 - **`progress/` is his data.** Do not edit progress files by hand, do not reset
   them to make output look tidier, and do not commit a cleared one over a real
   one.
+- **The three traps.md labels are load-bearing.** `**Commonly written:**`,
+  `**Why it does not score:**` and `**Scores instead:**` are parsed by
+  `tools/lib/traps.mjs` into quiz questions and video scenes. One parser, used
+  by both — do not write a second. `study check` errors on a missing label.
 - **Exam file structure is load-bearing.** `study exam` parses `## ` headings
   and `### Mark scheme` subheadings. Changing the shape breaks the reveal.
 - **Two authoring paths must stay in step.** `.claude/skills/topic-pack/SKILL.md`

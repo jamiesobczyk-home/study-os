@@ -91,6 +91,12 @@ That prints what is due and what a session looks like.
 
 Four steps, about forty minutes:
 
+There is also a **Quiz** tab: pick any sections by checkbox and it asks why a
+wrong answer fails, drawing on the same common-mistake material. Get one wrong
+and it explains why your choice does not apply, what the real reason is, and
+what would have scored. It is recognition practice and is tracked separately
+from the review schedule on purpose.
+
 1. **Watch** one video, holding specific questions from the pack.
 2. **Capture** — laptop closed, write down what you remember. Then read the
    matching section of his Allott study guide and mark what you missed.

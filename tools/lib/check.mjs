@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { topicDir, progressFile } from './paths.mjs';
 import { driftedCards } from './history.mjs';
 import { loadCourse } from './syllabus.mjs';
+import { parseTraps } from './traps.mjs';
 
 /**
  * Structural checks for a topic pack. These catch the ways generated content
@@ -153,7 +154,7 @@ export const checkPack = (course, topic) => {
     for (const u of unpinned) {
       warns.push(`unverifiable YouTube link outside the Pinned section — use a search link, or move it to Pinned once you have opened it: ${u}`);
     }
-    if (!/youtube\.com\/results\?search_query=/.test(videos) && !direct.length) {
+    if (!/youtube\.com\/results\?search_query=/.test(videos) && !all.length) {
       warns.push('videos.md has no video links at all');
     }
   }
@@ -161,8 +162,23 @@ export const checkPack = (course, topic) => {
   // ---- traps.md ---------------------------------------------------------
   const traps = read('traps.md');
   if (traps) {
-    const entries = (traps.match(/^## /gm) || []).length;
-    if (entries < 3) warns.push(`traps.md has ${entries} entries — aim for 4 to 8`);
+    const parsed = parseTraps(traps);
+    if (parsed.length < 3) warns.push(`traps.md has ${parsed.length} entries — aim for 4 to 8`);
+
+    // The quiz turns each entry into a question, and the video pipeline turns
+    // each into scenes. Both need all three labels.
+    for (const t of parsed) {
+      if (!t.complete) {
+        errors.push(
+          `traps.md "${t.heading.slice(0, 44)}" is missing ${t.missing.map((m) => `**${m}:**`).join(' and ')}` +
+          ' — it produces no quiz question and no video scene'
+        );
+      }
+    }
+    const usable = parsed.filter((t) => t.complete).length;
+    if (usable && usable < 4) {
+      warns.push(`only ${usable} complete trap entries — a quiz question needs 3 others for distractors, so this topic yields weak questions`);
+    }
   }
 
   // ---- README and template residue --------------------------------------

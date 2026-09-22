@@ -38,6 +38,37 @@
   function cardState(id) {
     return state.cards[id] || { box: 0, due: null, reps: 0, lapses: 0 };
   }
+
+  /* Quiz results live in their own store. Multiple choice measures
+     recognition; the review schedule above measures production. Letting a
+     lucky guess push a card out to a 35-day interval would quietly corrupt
+     the thing that actually works, so these never touch state.cards. */
+  var MCQ_KEY = 'study-os:' + DATA.course.id + ':mcq:v1';
+  var mcqState = (function () {
+    try {
+      var raw = localStorage.getItem(MCQ_KEY);
+      if (!raw) return { version: 1, questions: {}, sessions: [], picked: [] };
+      var s = JSON.parse(raw);
+      return {
+        version: 1,
+        questions: s.questions || {},
+        sessions: s.sessions || [],
+        picked: s.picked || []
+      };
+    } catch (e) {
+      return { version: 1, questions: {}, sessions: [], picked: [] };
+    }
+  })();
+
+  function saveMcq() {
+    try { localStorage.setItem(MCQ_KEY, JSON.stringify(mcqState)); }
+    catch (e) { /* blocked storage must never block a quiz */ }
+  }
+
+  /** Topics that actually have quiz questions. */
+  function quizTopics() {
+    return topics.filter(function (t) { return t.pack && t.pack.mcq && t.pack.mcq.length; });
+  }
   function isDue(id, day) {
     var c = cardState(id);
     return c.box === 0 || !c.due || c.due <= (day || today());
@@ -357,6 +388,25 @@
           '<span style="font-size:12px;color:var(--muted);min-width:3.4em;text-align:right">' + s.seen + '/' + s.total + '</span>' +
           '<span class="bar-track"><span class="bar-fill" style="width:' + Math.round(s.strength * 100) + '%"></span></span></button></li>';
       }).join('') + '</ul>' +
+      (function () {
+        // Shown apart from the recall bars on purpose: this measures
+        // recognition, which is a different and easier thing.
+        var qs = Object.keys(mcqState.questions);
+        if (!qs.length) return '';
+        var seen = 0, right = 0;
+        qs.forEach(function (id) {
+          seen += mcqState.questions[id].seen;
+          right += mcqState.questions[id].correct;
+        });
+        return '<h2>Quiz</h2>' +
+          '<div class="card"><div class="stat" style="margin:0 0 10px">' +
+            '<div><b>' + Math.round((right / seen) * 100) + '%</b><span>answered right</span></div>' +
+            '<div><b>' + qs.length + '</b><span>questions tried</span></div>' +
+            '<div><b>' + mcqState.sessions.length + '</b><span>quiz sessions</span></div>' +
+          '</div>' +
+          '<p class="note" style="margin:0">Recognition practice, tracked separately. Picking the right reason from a list ' +
+          'is easier than producing it, so this does not move the bars above.</p></div>';
+      })() +
       '<h2>Moving between devices</h2>' +
       '<div class="card"><p>Progress is saved in <strong>this browser only</strong>. If you study on a school laptop and at home, carry it across with these.</p>' +
       '<div class="row"><button class="btn ghost sm" id="exp">Copy my progress</button>' +
@@ -544,6 +594,183 @@
       this.classList.add('hide');
     };
   };
+
+  // ----------------------------------------------------------------- quiz
+
+  views.mcq = function () {
+    var available = quizTopics();
+    if (!available.length) {
+      return html('<div class="empty"><h1>No quiz questions yet</h1>' +
+        '<p>Questions are built from each topic\u2019s common mistakes. Add a pack and they appear here.</p></div>');
+    }
+
+    var picked = mcqState.picked.filter(function (c) {
+      return available.some(function (t) { return t.code === c; });
+    });
+    if (!picked.length) picked = available.map(function (t) { return t.code; });
+
+    var groups = {};
+    available.forEach(function (t) { (groups[t.theme] = groups[t.theme] || []).push(t); });
+
+    html('<h1>Quiz yourself</h1>' +
+      '<p class="sub">Someone has written an answer that does not score. Your job is to say <strong>why</strong>. ' +
+      'That is the skill the examiner is testing, and it is worth more than knowing the fact.</p>' +
+
+      '<div class="card"><p class="meta" style="margin:0 0 12px">Pick your sections</p>' +
+      Object.keys(groups).sort().map(function (th) {
+        return '<div class="picker-group">' +
+          '<div class="picker-head">' +
+            '<span>Theme ' + th + ' <span style="font-weight:400;color:var(--muted)">' + esc(DATA.themes[th]) + '</span></span>' +
+            '<button class="btn ghost sm" data-theme="' + th + '">All</button>' +
+          '</div>' +
+          groups[th].map(function (t) {
+            var on = picked.indexOf(t.code) !== -1;
+            return '<label class="pick"><input type="checkbox" value="' + t.code + '"' + (on ? ' checked' : '') + '>' +
+              '<span class="code">' + t.code + '</span>' +
+              '<span class="t">' + esc(t.title) + '</span>' +
+              '<span class="pill">' + t.pack.mcq.length + '</span></label>';
+          }).join('') +
+        '</div>';
+      }).join('') +
+      '</div>' +
+
+      '<div class="row" style="align-items:center">' +
+        '<button class="btn" id="start">Start \u2192</button>' +
+        '<span class="sub" id="count" style="margin:0"></span>' +
+      '</div>' +
+      '<p class="sub" style="margin-top:22px">This is recognition practice and it is kept separate from your review schedule ' +
+      'on purpose \u2014 getting one right here does not mean you could write it from memory.</p>'
+    );
+
+    var boxes = function () { return Array.prototype.slice.call(el.querySelectorAll('.pick input')); };
+    var selected = function () {
+      return boxes().filter(function (b) { return b.checked; }).map(function (b) { return b.value; });
+    };
+    var refresh = function () {
+      var codes = selected();
+      var n = codes.reduce(function (sum, c) { return sum + byCode[c].pack.mcq.length; }, 0);
+      document.getElementById('count').textContent =
+        n ? n + ' question' + (n === 1 ? '' : 's') + ' from ' + codes.length + ' topic' + (codes.length === 1 ? '' : 's') : 'Pick at least one section';
+      document.getElementById('start').disabled = !n;
+      mcqState.picked = codes;
+      saveMcq();
+    };
+
+    on('.pick input', 'change', refresh);
+    on('[data-theme]', 'click', function () {
+      var th = this.getAttribute('data-theme');
+      var group = boxes().filter(function (b) { return byCode[b.value].theme === th; });
+      var turnOn = group.some(function (b) { return !b.checked; });
+      group.forEach(function (b) { b.checked = turnOn; });
+      refresh();
+    });
+    document.getElementById('start').onclick = function () {
+      if (selected().length) go('mcqRun');
+    };
+    refresh();
+  };
+
+  var run = null;
+
+  views.mcqRun = function () {
+    var codes = (mcqState.picked || []).filter(function (c) { return byCode[c] && byCode[c].pack; });
+    if (!codes.length) return views.mcq();
+
+    if (!run || run.done) {
+      var pool = [];
+      codes.forEach(function (c) {
+        byCode[c].pack.mcq.forEach(function (q) { pool.push(q); });
+      });
+      if (!pool.length) return views.mcq();
+      run = { deck: shuffle(pool), i: 0, right: 0, wrong: 0, done: false };
+    }
+    renderQuestion();
+  };
+
+  function renderQuestion() {
+    if (run.i >= run.deck.length) return quizFinished();
+    var q = run.deck[run.i];
+
+    // The correct option is this trap's own reason; the others are real
+    // reasons belonging to different mistakes in the same topic. Nothing is
+    // fabricated, and exactly one option can be right.
+    var options = shuffle(
+      [{ why: q.why, correct: true, heading: q.heading }].concat(
+        q.wrong.map(function (w) { return { why: w.why, correct: false, heading: w.heading }; })
+      )
+    );
+
+    var pct = Math.round((run.i / run.deck.length) * 100);
+    html(
+      '<p class="meta">' + q.topic + ' \u00b7 question ' + (run.i + 1) + ' of ' + run.deck.length + '</p>' +
+      '<div class="card">' +
+        '<p class="sub" style="margin-bottom:10px">A student wrote this, and it did not score:</p>' +
+        '<blockquote class="wrote">' + inline(q.stem) + '</blockquote>' +
+        '<p class="q" style="margin:18px 0 12px">Why does it fail?</p>' +
+        '<div class="opts">' + options.map(function (o, i) {
+          return '<button class="opt" data-i="' + i + '">' + inline(o.why) + '</button>';
+        }).join('') + '</div>' +
+        '<div id="verdict"></div>' +
+      '</div>' +
+      '<div class="progress-track"><div style="width:' + pct + '%"></div></div>'
+    );
+
+    on('.opt', 'click', function () {
+      var chosen = options[Number(this.getAttribute('data-i'))];
+      answer(q, chosen, options);
+    });
+  }
+
+  function answer(q, chosen, options) {
+    var rec = mcqState.questions[q.id] || { seen: 0, correct: 0, wrong: 0 };
+    rec.seen += 1;
+    if (chosen.correct) { rec.correct += 1; run.right += 1; }
+    else { rec.wrong += 1; run.wrong += 1; rec.lastWrong = today(); }
+    mcqState.questions[q.id] = rec;
+    saveMcq();
+
+    // Lock the options and mark them up.
+    Array.prototype.forEach.call(el.querySelectorAll('.opt'), function (btn, i) {
+      btn.disabled = true;
+      if (options[i].correct) btn.classList.add('right');
+      else if (options[i] === chosen) btn.classList.add('chosen-wrong');
+    });
+
+    var v = document.getElementById('verdict');
+    v.innerHTML = chosen.correct
+      ? '<div class="verdict-box good"><p><strong>Correct.</strong> That is exactly why it fails.</p>' +
+        '<p class="meta" style="margin:14px 0 6px">What would have scored</p>' +
+        '<p>' + inline(q.fix) + '</p></div>'
+      : '<div class="verdict-box bad">' +
+        '<p><strong>Not this one.</strong> What you picked is a real marking point \u2014 but it explains a different mistake: ' +
+        '<em>' + esc(chosen.heading.toLowerCase()) + '</em>.</p>' +
+        '<p class="meta" style="margin:16px 0 6px">Why this answer actually fails</p>' +
+        '<p>' + inline(q.why) + '</p>' +
+        '<p class="meta" style="margin:16px 0 6px">What would have scored</p>' +
+        '<p>' + inline(q.fix) + '</p></div>';
+
+    v.insertAdjacentHTML('beforeend',
+      '<button class="btn wide" id="next" style="margin-top:16px">' +
+      (run.i + 1 >= run.deck.length ? 'See how you did' : 'Next question') + '</button>');
+    document.getElementById('next').onclick = function () { run.i += 1; renderQuestion(); };
+    document.getElementById('next').focus();
+  }
+
+  function quizFinished() {
+    run.done = true;
+    var total = run.right + run.wrong;
+    mcqState.sessions.push({ date: today(), asked: total, right: run.right, wrong: run.wrong });
+    if (mcqState.sessions.length > 500) mcqState.sessions = mcqState.sessions.slice(-500);
+    saveMcq();
+
+    html('<h1>' + run.right + ' of ' + total + '</h1>' +
+      '<div class="card"><p>' + (run.wrong
+        ? 'The ' + run.wrong + ' you missed are the useful ones. Each was a real marking point attached to the wrong mistake \u2014 that confusion is exactly what costs marks in an exam.'
+        : 'Every one right. Now go and write one of those answers out from memory, which is the harder half.') +
+      '</p></div>' +
+      '<div class="row"><button class="btn" data-go="mcq">Pick sections</button>' +
+      '<button class="btn ghost" data-go="home">Home</button></div>');
+  }
 
   // -------------------------------------------------------------- routing
 

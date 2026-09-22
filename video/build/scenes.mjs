@@ -18,6 +18,7 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT } from '../../tools/lib/paths.mjs';
 import { loadCourse, loadSyllabus, findTopic, hasPack, readPackFile } from '../../tools/lib/syllabus.mjs';
+import { parseTraps as parseTrapsShared } from '../../tools/lib/traps.mjs';
 
 const BEATS = [
   { label: 'Commonly written', kind: 'mistake', lead: 'People write:' },
@@ -25,23 +26,18 @@ const BEATS = [
   { label: 'Scores instead', kind: 'fix', lead: 'What scores instead:' },
 ];
 
-/** Split traps.md into its `## ` entries, dropping the H1 and any lead note. */
+/** Adapter over the shared traps parser, keeping this file's beat shape. */
 export const parseTraps = (markdown) =>
-  markdown
-    .split(/\n(?=## )/)
-    .filter((b) => b.trim().startsWith('## '))
-    .map((block) => {
-      const heading = block.split('\n')[0].replace(/^##\s+/, '').trim();
-      const beats = {};
-      for (const { label } of BEATS) {
-        // Beat bodies wrap across lines and end at the next bold label or heading.
-        const re = new RegExp(`\\*\\*${label}:\\*\\*\\s*([\\s\\S]*?)(?=\\n\\s*\\n\\*\\*|\\n\\s*\\n##|$)`);
-        const m = block.match(re);
-        if (m) beats[label] = m[1].replace(/\s*\n\s*/g, ' ').trim();
-      }
-      return { heading, beats };
-    })
-    .filter((t) => BEATS.every(({ label }) => t.beats[label]));
+  parseTrapsShared(markdown)
+    .filter((t) => t.complete)
+    .map((t) => ({
+      heading: t.heading,
+      beats: {
+        'Commonly written': t.commonlyWritten,
+        'Why it does not score': t.whyItFails,
+        'Scores instead': t.scoresInstead,
+      },
+    }));
 
 /**
  * Turn display text into something a speech engine reads naturally:

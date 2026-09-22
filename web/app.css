@@ -126,3 +126,47 @@ a { color: var(--accent); }
   .wrap { padding: 0 12px 80px; }
 }
 @media print { header, nav, .btn, .grade { display: none !important; } }
+
+/* ---- quiz mode ---------------------------------------------------------- */
+.picker-group { margin-bottom: 18px; }
+.picker-group:last-child { margin-bottom: 0; }
+.picker-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  font-weight: 700; font-size: 14px; padding-bottom: 6px; margin-bottom: 4px;
+  border-bottom: 1px solid var(--line);
+}
+.pick {
+  display: flex; align-items: center; gap: 10px; padding: 9px 2px; cursor: pointer;
+  border-bottom: 1px solid var(--line);
+}
+.pick:last-child { border-bottom: 0; }
+.pick input { width: 19px; height: 19px; accent-color: var(--accent); flex-shrink: 0; cursor: pointer; }
+.pick .t { flex: 1; }
+.pick:hover .code { color: var(--accent); }
+.btn:disabled { opacity: .45; cursor: not-allowed; filter: none; }
+
+blockquote.wrote {
+  margin: 0; padding: 14px 16px; border-left: 4px solid var(--bad);
+  background: var(--bg); border-radius: 0 8px 8px 0; font-size: 18px; line-height: 1.5;
+}
+.opts { display: flex; flex-direction: column; gap: 9px; }
+.opt {
+  text-align: left; font: inherit; line-height: 1.45; color: var(--ink);
+  background: var(--panel); border: 1px solid var(--line); border-radius: 9px;
+  padding: 13px 15px; cursor: pointer;
+}
+.opt:hover:not(:disabled) { border-color: var(--accent); background: var(--bg); }
+.opt:disabled { cursor: default; opacity: .62; }
+.opt.right { border-color: var(--good); background: var(--bg); opacity: 1; }
+.opt.right::after { content: " \2713"; color: var(--good); font-weight: 700; }
+.opt.chosen-wrong { border-color: var(--bad); background: var(--bg); opacity: 1; }
+.opt.chosen-wrong::after { content: " \2717"; color: var(--bad); font-weight: 700; }
+.verdict-box {
+  margin-top: 18px; padding: 16px; border-radius: 9px; background: var(--bg);
+  border: 1px solid var(--line); border-left-width: 4px;
+}
+.verdict-box.good { border-left-color: var(--good); }
+.verdict-box.bad { border-left-color: var(--bad); }
+.verdict-box p { margin: 0 0 10px; }
+.verdict-box p:last-of-type { margin-bottom: 0; }
+@media (max-width: 480px) { .opt { padding: 12px 13px; font-size: 15px; } }
