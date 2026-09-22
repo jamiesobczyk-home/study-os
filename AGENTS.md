@@ -43,8 +43,20 @@ once in `web/app.js` for the browser. Change one and you must change the other.
   guess.
 - **Never invent a URL.** Channel pages and search URLs only, unless you have
   verified the link. A dead link is the thing that ends a study session.
-- **Card ids are stable.** Progress in `progress/<course>.progress.json` is keyed
-  on them. Add cards at the end; never renumber.
+- **Card ids are stable, and this is now enforced.** Progress in
+  `progress/<course>.progress.json` is keyed on them. Add cards at the end;
+  never renumber. `study check` compares each card's question against the last
+  committed version (`tools/lib/history.mjs`, via `git show HEAD:<path>`) and
+  reports any id whose question changed — a warning normally, an **error** once
+  that id appears in the progress file, because at that point his review
+  history is pointing at content he never saw.
+
+  This fires on a wholesale pack rebuild, which reuses ids 01..NN for entirely
+  new questions. It has already happened twice (A1.1 in `c3e2868`, B2.1 in
+  `500e80e`), both times harmlessly only because he had not started studying.
+  `study new` refuses to overwrite an existing pack, but an agent writing files
+  directly bypasses it — hence the check. Rebuilding a pack is fine; reusing an
+  id for a different question is not.
 - **`progress/` is his data.** Do not edit progress files by hand, do not reset
   them to make output look tidier, and do not commit a cleared one over a real
   one.

@@ -1,6 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { topicDir } from './paths.mjs';
+import { topicDir, progressFile } from './paths.mjs';
+import { driftedCards } from './history.mjs';
 
 /**
  * Structural checks for a topic pack. These catch the ways generated content
@@ -59,6 +60,28 @@ export const checkPack = (course, topic) => {
           warns.push(`${where} (${c.id}): question looks answerable with yes/no — rewrite to force recall`);
         }
       });
+
+      // A rebuilt pack reuses ids 01..NN for different questions. Nothing else
+      // catches this, and the damage lands on his review history, not on the files.
+      const drift = driftedCards(join(dir, 'cards.json'), cards);
+      if (drift.length) {
+        let studied = new Set();
+        try {
+          const state = JSON.parse(readFileSync(progressFile(course), 'utf8'));
+          studied = new Set(Object.keys(state.cards || {}));
+        } catch { /* no progress yet — nothing to corrupt */ }
+
+        for (const d of drift) {
+          const line =
+            `${d.id}: the question changed under an existing id ` +
+            `(was "${d.before.slice(0, 48)}…")`;
+          if (studied.has(d.id)) {
+            errors.push(`${line} — and he has already studied this card, so his review history now points at different content`);
+          } else {
+            warns.push(`${line} — safe for now because he has not studied it, but ids must be stable once he starts`);
+          }
+        }
+      }
 
       if (cards.length < 12) warns.push(`${cards.length} cards — the standard is 12 to 18`);
       if (cards.length > 18) warns.push(`${cards.length} cards — over 18 stops fitting a review session`);
