@@ -11,7 +11,7 @@
 - The tails are excluded from water / cluster away from water. **[1]**
 - A bilayer forms spontaneously with heads facing out on both sides and tails facing inward. **[1]**
 
-_Examiner note: naming the molecule amphipathic is not the explanation. Full marks require the orientation of both regions and the interaction with water._
+_Examiner note: naming the molecule amphipathic isn’t the explanation. Full marks require the orientation of both regions and the interaction with water._
 
 ## Q2. Compare and contrast facilitated diffusion and active transport across a membrane. **[5]**
 
@@ -23,7 +23,7 @@ _Examiner note: naming the molecule amphipathic is not the explanation. Full mar
 - Facilitated diffusion may use channels or carriers, whereas direct active transport uses pumps/carriers that undergo conformational change. **[1]**
 - Facilitated diffusion tends to reduce a gradient, whereas active transport can establish or maintain a gradient. **[1]**
 
-_Examiner note: two separate descriptions are not a comparison. Pair each similarity or difference in the same sentence._
+_Examiner note: two separate descriptions aren’t a comparison. Pair each similarity or difference in the same sentence._
 
 ## Q3. Explain sodium-dependent glucose uptake from the intestinal lumen into an epithelial cell. **[5]**
 
@@ -45,7 +45,7 @@ _Examiner note: “active transport moves glucose in” misses the causal chain.
 - At higher temperatures it restricts phospholipid movement / reduces excessive fluidity. **[1]**
 - At lower temperatures it prevents close phospholipid packing / reduces solidification. **[1]**
 
-_Examiner note: cholesterol does not move fluidity in one fixed direction. One temperature condition gives an incomplete answer._
+_Examiner note: cholesterol doesn’t move fluidity in one fixed direction. One temperature condition gives an incomplete answer._
 
 ## Q5. Distinguish voltage-gated channels from ligand-gated channels. **[3]**
 
@@ -66,4 +66,4 @@ _Examiner note: “both open when stimulated” gains no distinction mark. Name 
 - A vesicle membrane can fuse with another membrane / accept: exocytosis or organelle delivery as a named example. **[1]**
 - The bilayers reseal so hydrophobic tails remain away from water / a closed barrier is maintained. **[1]**
 
-_Examiner note: describing a vesicle moving is not enough. The question asks why the membrane can split, merge and reseal without exposing its hydrophobic tails to water._
+_Examiner note: describing a vesicle moving isn’t enough. The question asks why the membrane can split, merge and reseal without exposing its hydrophobic tails to water._

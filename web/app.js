@@ -22,7 +22,7 @@
      boot() instead. This early check only catches a payload that failed to
      parse, which would otherwise throw on the next line. */
   if (!window.__STUDY_DATA__ || !window.__STUDY_DATA__.topics) {
-    showDamaged('Its course data is missing or could not be read.');
+    showDamaged('Its course data is missing, or it couldn’t be read.');
     return;
   }
 
@@ -353,14 +353,14 @@
 
       '<h2>A session looks like this</h2>' +
       '<div class="card"><ol class="steps">' +
-        '<li><b>Watch</b><small>One video, holding the questions from the pack. 15 min.</small></li>' +
-        '<li><b>Capture</b><small>Close the video. Write what you remember. Then check the book. 5 min.</small></li>' +
-        '<li><b>Recall</b><small>Quiz yourself out loud, and grade honestly. 10 min.</small></li>' +
+        '<li><b>Watch</b><small>One video. Keep the questions from the pack in front of you. 15 min.</small></li>' +
+        '<li><b>Capture</b><small>Close the video and write down what you remember. Then check the book. 5 min.</small></li>' +
+        '<li><b>Recall</b><small>Quiz yourself out loud. Be honest when you grade. 10 min.</small></li>' +
         '<li><b>Check</b><small>One exam question, marked strictly. 10 min.</small></li>' +
       '</ol>' +
       '<button class="btn ghost wide sm" data-topic="' + focus.code + '">Start with ' + focus.code + ' ' + esc(focus.title) + '</button>' +
       '</div>' +
-      '<p class="sub">The capture step is the one that does the work, and the one that feels worst. <a href="#" data-go="why">Why that is.</a></p>'
+      '<p class="sub">Step 2 is the one that works, and it’s the one that feels worst. <a href="#" data-go="why">Here’s why.</a></p>'
     );
   };
 
@@ -403,7 +403,7 @@
     var sessions = state.sessions.length;
 
     html('<h1>Progress</h1>' +
-      '<p class="sub">Bars show how well you can <em>recall</em> a topic, not how much you have read.</p>' +
+      '<p class="sub">Bars show how much you can <em>recall</em>, not how much you’ve read.</p>' +
       '<div class="stat">' +
         '<div><b>' + seen + '/' + cards + '</b><span>cards attempted</span></div>' +
         '<div><b>' + due + '</b><span>due now</span></div>' +
@@ -433,10 +433,10 @@
             '<div><b>' + mcqState.sessions.length + '</b><span>quiz sessions</span></div>' +
           '</div>' +
           '<p class="note" style="margin:0">Recognition practice, tracked separately. Picking the right reason from a list ' +
-          'is easier than producing it, so this does not move the bars above.</p></div>';
+          'is easier than producing it, so this doesn\u2019t move the bars above.</p></div>';
       })() +
       '<h2>Moving between devices</h2>' +
-      '<div class="card"><p>Progress is saved in <strong>this browser only</strong>. If you study on a school laptop and at home, carry it across with these.</p>' +
+      '<div class="card"><p>Progress saves in <strong>this browser only</strong>. If you study on a school laptop and at home, use these to carry it across.</p>' +
       '<div class="row"><button class="btn ghost sm" id="exp">Copy my progress</button>' +
       '<button class="btn ghost sm" id="imp">Paste progress in</button>' +
       '<button class="btn ghost sm" id="dl">Download backup</button></div></div>'
@@ -509,12 +509,12 @@
       '<div class="capture">' +
         '<p><strong>From memory, with nothing open:</strong></p>' +
         '<textarea id="cap" placeholder="Three things I can now state:&#10;1.&#10;2.&#10;3.&#10;&#10;One thing I could explain out loud:&#10;-&#10;&#10;One thing still fuzzy:&#10;-"></textarea>' +
-        '<p class="note">This will feel bad. You just watched a clear explanation and can produce almost none of it. That gap is the real state of your knowledge — everyone has it, most people never look.</p>' +
+        '<p class="note">This is going to feel bad. You just watched a clear explanation and you can barely produce any of it. That gap is what you actually know right now. Everyone has it. Most people never look.</p>' +
       '</div>' +
       (book && t.pages
         ? '<div class="card"><h3>Then check yourself</h3><p>' + esc(book.author) + ', <em>' + esc(book.title) + '</em>, <strong>section ' + t.code + ', pp. ' + t.pages + '</strong>.' +
           (t.bookTitle ? ' The book prints this one as &ldquo;' + esc(t.bookTitle) + '&rdquo;.' : '') +
-          '</p><p class="note">Read it only after you have written the box above. Mark every point you missed — those are the ones to watch for in the quiz.</p></div>'
+          '</p><p class="note">Read it only after you’ve filled in the box above, then mark everything you missed. Those are the ones to watch for in the quiz.</p></div>'
         : '') +
       '<button class="btn wide" data-go="quiz" data-code="' + t.code + '">Done — quiz me &rarr;</button>'
     );
@@ -535,7 +535,7 @@
     var pool = dueCards(topic);
     if (!pool.length && topic) pool = topic.pack.cards.map(function (c) { return { card: c, topic: topic }; });
     if (!pool.length) {
-      return html('<div class="empty"><h1>Nothing due</h1><p>Every card you have seen is resting. Start a new topic, or try an exam question.</p>' +
+      return html('<div class="empty"><h1>Nothing due</h1><p>Everything you\u2019ve seen is resting. Start a new topic, or try an exam question.</p>' +
         '<div class="row" style="justify-content:center"><button class="btn ghost" data-go="browse">Browse topics</button></div></div>');
     }
     quiz = { deck: shuffle(pool).slice(0, 20), i: 0, got: 0, shaky: 0, missed: 0, revealed: false };
@@ -591,8 +591,8 @@
         '<div><b style="color:var(--bad)">' + quiz.missed + '</b><span>missed</span></div>' +
       '</div>' +
       '<div class="card"><p>' + (weak
-        ? 'The ' + weak + ' you did not have are the useful ones. They come back within a day or three. <strong>Missing cards is the system working, not you failing.</strong>'
-        : 'Clean run. Those cards now move out to longer intervals.') + '</p></div>' +
+        ? 'The ' + weak + ' you didn\u2019t have are the useful ones. They\u2019ll come back in a day or three. <strong>That\u2019s the whole point \u2014 it finds your gaps.</strong>'
+        : 'Clean run. Those cards move out to longer intervals now.') + '</p></div>' +
       '<div class="row"><button class="btn" data-go="home">Home</button>' +
       '<button class="btn ghost" data-go="quiz">More cards</button></div>');
   }
@@ -605,10 +605,10 @@
     html(
       '<p class="meta">' + t.code + ' &middot; exam practice</p>' +
       '<div class="card">' + md(q.question) +
-        '<p class="note">Write the answer out in full, on paper, before you reveal the mark scheme. Reading one and agreeing with it is worth nothing.</p>' +
+        '<p class="note">Write the answer out in full, on paper, before you reveal the mark scheme. Reading it and nodding along doesn’t count.</p>' +
         '<button class="btn wide" id="reveal">Reveal mark scheme</button>' +
         '<div id="ms" class="hide" style="margin-top:16px"><div class="scheme">' + md(q.scheme) + '</div>' +
-        '<p class="note">Mark yourself strictly. A point you &ldquo;basically said&rdquo; did not score.</p></div>' +
+        '<p class="note">Mark yourself strictly. If you only &ldquo;basically said&rdquo; it, it didn’t score.</p></div>' +
       '</div>' +
       (book && t.questionsPage
         ? '<p class="sub">More: your study guide has a ' + t.theme + t.level + ' question set on p. ' + t.questionsPage +
@@ -629,7 +629,7 @@
     var available = quizTopics();
     if (!available.length) {
       return html('<div class="empty"><h1>No quiz questions yet</h1>' +
-        '<p>Questions are built from each topic\u2019s common mistakes. Add a pack and they appear here.</p></div>');
+        '<p>Questions come from each topic\u2019s common mistakes. Add a pack and they show up here.</p></div>');
     }
 
     var picked = mcqState.picked.filter(function (c) {
@@ -641,8 +641,8 @@
     available.forEach(function (t) { (groups[t.theme] = groups[t.theme] || []).push(t); });
 
     html('<h1>Quiz yourself</h1>' +
-      '<p class="sub">Someone has written an answer that does not score. Your job is to say <strong>why</strong>. ' +
-      'That is the skill the examiner is testing, and it is worth more than knowing the fact.</p>' +
+      '<p class="sub">Someone wrote an answer that didn\u2019t score. Your job is to say <strong>why</strong>. ' +
+      'That\u2019s what the examiner is actually testing.</p>' +
 
       '<div class="card"><p class="meta" style="margin:0 0 12px">Pick your sections</p>' +
       Object.keys(groups).sort().map(function (th) {
@@ -666,8 +666,8 @@
         '<button class="btn" id="start">Start \u2192</button>' +
         '<span class="sub" id="count" style="margin:0"></span>' +
       '</div>' +
-      '<p class="sub" style="margin-top:22px">This is recognition practice and it is kept separate from your review schedule ' +
-      'on purpose \u2014 getting one right here does not mean you could write it from memory.</p>'
+      '<p class="sub" style="margin-top:22px">This is recognition practice, and it’s kept separate from your review schedule ' +
+      'on purpose \u2014 getting one right here doesn’t mean you could write it from memory.</p>'
     );
 
     var boxes = function () { return Array.prototype.slice.call(el.querySelectorAll('.pick input')); };
@@ -732,7 +732,7 @@
     html(
       '<p class="meta">' + q.topic + ' \u00b7 question ' + (run.i + 1) + ' of ' + run.deck.length + '</p>' +
       '<div class="card">' +
-        '<p class="sub" style="margin-bottom:10px">A student wrote this, and it did not score:</p>' +
+        '<p class="sub" style="margin-bottom:10px">A student wrote this. It didn’t score:</p>' +
         '<blockquote class="wrote">' + inline(q.stem) + '</blockquote>' +
         '<p class="q" style="margin:18px 0 12px">Why does it fail?</p>' +
         '<div class="opts">' + options.map(function (o, i) {
@@ -766,11 +766,11 @@
 
     var v = document.getElementById('verdict');
     v.innerHTML = chosen.correct
-      ? '<div class="verdict-box good"><p><strong>Correct.</strong> That is exactly why it fails.</p>' +
+      ? '<div class="verdict-box good"><p><strong>Correct.</strong> That’s exactly why it fails.</p>' +
         '<p class="meta" style="margin:14px 0 6px">What would have scored</p>' +
         '<p>' + inline(q.fix) + '</p></div>'
       : '<div class="verdict-box bad">' +
-        '<p><strong>Not this one.</strong> What you picked is a real marking point \u2014 but it explains a different mistake: ' +
+        '<p><strong>Not this one.</strong> What you picked is a real marking point, but it explains a different mistake: ' +
         '<em>' + esc(chosen.heading.toLowerCase()) + '</em>.</p>' +
         '<p class="meta" style="margin:16px 0 6px">Why this answer actually fails</p>' +
         '<p>' + inline(q.why) + '</p>' +
@@ -793,8 +793,8 @@
 
     html('<h1>' + run.right + ' of ' + total + '</h1>' +
       '<div class="card"><p>' + (run.wrong
-        ? 'The ' + run.wrong + ' you missed are the useful ones. Each was a real marking point attached to the wrong mistake \u2014 that confusion is exactly what costs marks in an exam.'
-        : 'Every one right. Now go and write one of those answers out from memory, which is the harder half.') +
+        ? 'The ' + run.wrong + ' you missed are the useful ones. Each one was a real marking point stuck to the wrong mistake, and that mix-up is what costs marks in an exam.'
+        : 'All correct. Now try writing one of those answers from memory — that part’s harder.') +
       '</p></div>' +
       '<div class="row"><button class="btn" data-go="mcq">Pick sections</button>' +
       '<button class="btn ghost" data-go="home">Home</button></div>');
@@ -826,7 +826,7 @@
 
   function boot() {
     if (markersInDocument()) {
-      return showDamaged('It contains unresolved merge markers, so parts of it are out of date.');
+      return showDamaged('It has unresolved merge markers in it, so parts of it are out of date.');
     }
     window.addEventListener('hashchange', route);
     route();

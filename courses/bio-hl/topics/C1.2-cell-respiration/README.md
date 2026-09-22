@@ -16,29 +16,29 @@ because releasing it all at once would waste most of it as heat.
 
 Cell respiration is where "I watched the video and it made sense" fails most
 reliably. The pathway is long, the names are similar, and following someone
-else's explanation of it is genuinely easy. Reproducing it is not.
+else's explanation of it’s genuinely easy. Reproducing it’s not.
 
-So for this topic the capture step is not optional. After the video, draw the
+So for this topic the capture step isn’t optional. After the video, draw the
 whole pathway from memory on one sheet: glycolysis, the link reaction, the
 Krebs cycle, the electron transport chain. Mark on it, for each stage, **where
 it happens**, **what goes in**, **what comes out**, and **how much ATP**. Then
 compare it to the video. The gaps in your drawing are your revision list — and
-they will not be the parts you expected.
+they won’t be the parts you expected.
 
 Do that once a week for four weeks and this topic is finished. Watch the video
-four times and it will not be.
+four times and it won’t be.
 
 ## In your study guide
 
 Allott, _Biology Study Guide_ (2023), **section C1.2**. Read it *after* the
-capture sheet, never before — it is condensed enough to make a fast check of
+capture sheet, never before — it’s condensed enough to make a fast check of
 what you left out, and a slow way to meet the topic for the first time.
 
 ## What's in this pack
 
-| File | What it is |
+| File | What it’s |
 | --- | --- |
-| `essentials.md` | What you have to be able to do, in plain English |
+| `essentials.md` | What you’ve to be able to do, in plain English |
 | `videos.md` | What to watch, and what to watch *for* |
 | `cards.json` | Retrieval questions — `study quiz C1.2` reads these |
 | `exam.md` | Exam-style questions with real mark schemes |

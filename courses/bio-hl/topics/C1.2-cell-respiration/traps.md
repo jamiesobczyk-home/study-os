@@ -4,9 +4,9 @@
 
 **Commonly written:** "Respiration is how we take in oxygen."
 
-**Why it does not score:** Cell respiration is a chemical process in cells that
+**Why it doesn’t score:** Cell respiration is a chemical process in cells that
 releases energy from organic compounds to make ATP. Breathing is ventilation.
-Examiners treat this as a definitional error, and it is an easy mark to lose on
+Examiners treat this as a definitional error, and it’s an easy mark to lose on
 a one-mark question.
 
 **Scores instead:** "Cell respiration is the controlled release of energy from
@@ -16,7 +16,7 @@ organic compounds to produce ATP."
 
 **Commonly written:** "ATP is where the cell stores its energy."
 
-**Why it does not score:** ATP is the short-term, immediately spendable form —
+**Why it doesn’t score:** ATP is the short-term, immediately spendable form —
 currency, not savings. Cells hold very little of it and regenerate it
 constantly. Glycogen and lipids are the stores.
 
@@ -28,30 +28,30 @@ continually regenerated from ADP and phosphate."
 **Commonly written:** "In anaerobic respiration, glucose is converted to
 lactate and no ATP is made."
 
-**Why it does not score:** Glycolysis runs in both cases and yields a net 2 ATP.
-Anaerobic respiration is not "no ATP", it is "much less ATP".
+**Why it doesn’t score:** Glycolysis runs in both cases and yields a net 2 ATP.
+Anaerobic respiration isn’t "no ATP", it’s "much less ATP".
 
 **Scores instead:** "Glycolysis still occurs, giving a net yield of 2 ATP; the
 pyruvate is then converted to lactate."
 
 ## Not knowing *why* pyruvate becomes lactate
 
-**Commonly written:** "Pyruvate turns into lactate because there is no oxygen."
+**Commonly written:** "Pyruvate turns into lactate because there’s no oxygen."
 
-**Why it does not score:** That is the condition, not the reason. The reason is
-that the conversion oxidises reduced NAD back to NAD, and glycolysis cannot
+**Why it doesn’t score:** That’s the condition, not the reason. The reason is
+that the conversion oxidises reduced NAD back to NAD, and glycolysis can’t
 continue without a supply of NAD. This is a favourite examiner question
-precisely because it separates memorising from understanding.
+precisely because it separates memorizing from understanding.
 
 **Scores instead:** "Converting pyruvate to lactate regenerates NAD from reduced
-NAD, allowing glycolysis — and therefore ATP production — to continue."
+NAD, allowing glycolysis, and therefore ATP production, to continue."
 
 ## Saying oxygen is "used to make ATP"
 
 **Commonly written:** "Oxygen is needed to produce the ATP."
 
-**Why it does not score:** It is too vague to credit, and it hides the actual
-mechanism. Oxygen's job is specific: it is the final electron acceptor at the
+**Why it doesn’t score:** It’s too vague to credit, and it hides the actual
+mechanism. Oxygen's job is specific: it’s the final electron acceptor at the
 end of the electron transport chain, combining with electrons and protons to
 form water. Without it the chain backs up, no proton gradient is maintained,
 and chemiosmosis stops.
@@ -64,7 +64,7 @@ transport chain running so the proton gradient is maintained."
 
 **Commonly written:** Using the two terms as though they are the same step.
 
-**Why it does not score:** They are two linked things. The electron transport
+**Why it doesn’t score:** They are two linked things. The electron transport
 chain moves electrons between carriers and uses the energy released to pump
 protons into the intermembrane space. Chemiosmosis is protons flowing back
 through ATP synthase, and that flow making ATP.
@@ -76,12 +76,12 @@ gradient, chemiosmosis spends it.
 
 **Commonly written:** Glycolysis placed in the mitochondrion.
 
-**Why it does not score:** Glycolysis is in the **cytoplasm**. The link reaction
+**Why it doesn’t score:** Glycolysis is in the **cytoplasm**. The link reaction
 and Krebs cycle are in the **matrix**. The electron transport chain and ATP
 synthase are in the **inner mitochondrial membrane**. Location marks are free
 marks, and they are lost constantly.
 
-**Scores instead:** Learn the four locations as a set — it is four facts and
+**Scores instead:** Learn the four locations as a set. It’s four facts and
 they appear in almost every question on this topic.
 
 ## Saying lipids release more energy "because they are bigger"
@@ -89,8 +89,8 @@ they appear in almost every question on this topic.
 **Commonly written:** "Lipids give more energy per gram because the molecules
 are larger."
 
-**Why it does not score:** Size is not the mechanism. Lipids are more **reduced**
-— they carry more hydrogen per carbon — so they yield more reduced NAD and FAD,
+**Why it doesn’t score:** Size isn’t the mechanism. Lipids are more **reduced**
+— they carry more hydrogen per carbon, so they yield more reduced NAD and FAD,
 and therefore more ATP through chemiosmosis.
 
 **Scores instead:** "Lipids are more reduced than carbohydrates, with more

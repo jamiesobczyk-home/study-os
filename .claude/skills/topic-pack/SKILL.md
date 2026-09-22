@@ -153,7 +153,7 @@ Every question needs:
 ### `traps.md` — where the marks go
 
 Four to eight entries. Each is a heading naming the mistake, then three labelled
-parts: **Commonly written**, **Why it does not score**, **Scores instead**.
+parts: **Commonly written**, **Why it doesn’t score**, **Scores instead**.
 
 Draw on what students actually write: describing when asked to explain, stating
 one half of a two-directional effect, naming a condition instead of a reason,
@@ -180,16 +180,58 @@ Set `**Status:** ready` when the pack is complete.
 
 ## Voice
 
-Direct, plain, and level with him. He is struggling, and he can tell when he is
-being managed.
+The student is 17. If the writing sounds machine-generated he will stop reading
+before he reaches any biology, and that is worth more than any amount of
+polish. This repo has already been called out for exactly that, and the cause
+was measurable: over four thousand words of copy with **zero contractions**.
 
-- Say the uncomfortable thing plainly: the capture step will feel bad, and that
-  is the step that works.
-- Never imply the material is easy. "Simply" and "just" are banned.
-- Be specific about payoff — "four later topics get easier" beats "this is
-  important".
-- Normalise failure without lowering the bar. Missed cards are the system
-  working. Marks are still marks.
+**Write contractions.** "It isn't broken", not "It is not broken". "That's why",
+not "That is why". Long forms outnumbering contractions is the loudest tell
+there is, and `study voice` counts them.
+
+**No closing maxims.** The strongest pattern in the old copy was every
+paragraph landing on a little aphorism. One is a nice line. Thirty in a row is
+a TED talk:
+
+    Don't   Missing cards is the system working, not you failing.
+    Do      Getting them wrong is how it finds your gaps.
+
+    Don't   Reading one and agreeing with it is worth nothing.
+    Do      Reading the mark scheme and nodding along doesn't count.
+
+**One em-dash per few hundred words, not per sentence.** Most are a period or a
+comma doing rhetorical cosplay.
+
+**American idiom and spelling** in anything he reads: *backwards*, not *the
+wrong way round*; *go write*, not *go and write*; *organized*, *synthesized*,
+*analyze*.
+
+**No sentence fragments for effect.** "Nothing pushes." reads as a writer
+admiring their own line.
+
+### The exception that matters
+
+Plain does not mean vague. **Marks come from the terminology, not the
+formality**, so every technical term stays exactly where it was:
+
+    Before  Denaturation is the disruption of a protein's three-dimensional
+            conformation, causing loss of function. Peptide bonds are not
+            broken, so the primary structure remains intact.
+
+    After   Denaturation is when a protein loses its 3D shape and stops
+            working. Peptide bonds aren't broken, so the primary structure
+            stays intact.
+
+Every marking term survives. Only the stiffness goes. Dropping "hydrogen bonds"
+to sound casual would cost him a mark, and that is the one way this can do harm.
+
+The numbered bullets under `### Mark scheme` are the exception to the
+exception: leave those in mark-scheme language. They reproduce an artifact he
+meets in the exam, and he needs to recognize that register on sight. The
+examiner note underneath is prose and follows the rules above.
+
+Also: never imply the material is easy. "Simply" and "just" are banned. Be
+specific about payoff, and normalize failure without lowering the bar.
 
 The repo's prose standards are in `.claude/skills/writing/SKILL.md` in the
 operating-system repo if it is available; the short version is draft first,
@@ -206,5 +248,6 @@ then cut, and put the thing you want remembered at the end of the sentence.
 - [ ] No invented URLs. Channel and search links only, unless verified.
 - [ ] Status set to `ready` in the pack README.
 - [ ] No invented page numbers for the study guide.
+- [ ] `study voice <CODE>` shows contractions present and long forms near zero.
 - [ ] You have stated, in your reply, anything you were not certain of — so it
       can be checked against the Allott study guide before he learns it.

@@ -195,7 +195,7 @@ template placeholders and invented video URLs. It cannot tell you whether the
 biology is right — see [docs/offloading.md](docs/offloading.md).
 
 **Then check it against his actual course materials before he studies it.** A
-wrong card gets memorised exactly as efficiently as a correct one. Build packs
+wrong card gets memorized exactly as efficiently as a correct one. Build packs
 a week ahead of his class, not the whole syllabus in one weekend.
 
 ## His textbook
@@ -206,7 +206,7 @@ edition** (ISBN 9781382016438). Recorded in `courses/bio-hl/course.json`.
 248 pages across 40 topics makes it revision-density, not a teaching text —
 which is exactly what this system wants. It is a poor place to meet a topic
 cold, and an excellent place to check yourself after the capture step. It is
-also the reference to verify generated packs against: organised by the same
+also the reference to verify generated packs against: organized by the same
 topic codes, so checking a pack's cards against its section takes ten minutes.
 **Where a card disagrees with the book, the book wins.**
 
@@ -240,10 +240,10 @@ Two things to verify against the school's own course outline:
   shared with SL still carry extra HL depth inside them, which one flag cannot
   capture.
 - **The assessment weightings** in `course.json` are published headline figures,
-  kept for prioritisation. Confirm exact mark totals and timings before using
+  kept for prioritization. Confirm exact mark totals and timings before using
   them for exam strategy.
 
 Teaching order is the school's, not the syllabus's. Follow his class.
 
-(The study guide's organisation was confirmed against its contents page on
+(The study guide's organization was confirmed against its contents page on
 2026-09-21, so this is no longer an assumption.)

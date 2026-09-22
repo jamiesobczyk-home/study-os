@@ -1,26 +1,26 @@
 # How this works
 
-Read this once. It is short, and it explains why the system asks you to do the
-one thing you will not want to do.
+Read this once. It’s short, and it explains why the system asks you to do the
+one thing you’ll not want to do.
 
 ## The problem with videos
 
-You already know you learn well from videos. That is real, and it is worth
+You already know you learn well from videos. That’s real, and it’s worth
 building on — a good explanation with moving pictures will get an idea into
 your head faster than a textbook page will.
 
-But there is a catch, and it is the reason a topic can feel clear on Sunday and
+But there’s a catch, and it’s the reason a topic can feel clear on Sunday and
 blank on Thursday.
 
 When you watch someone explain cell respiration, you follow along. Each step
 makes sense as it arrives. At the end you feel like you understand it, and that
 feeling is honest — you *did* understand it while it was in front of you. What
-you have built is the ability to **recognise** the explanation. Recognition is
+you’ve built is the ability to **recognize** the explanation. Recognition is
 fast, it feels like knowledge, and it disappears within days.
 
-An exam never asks you to recognise anything. It asks you to **produce** it,
-from nothing, on a blank page, under time pressure. That is a different skill,
-and watching does not train it.
+An exam never asks you to recognize anything. It asks you to **produce** it,
+from nothing, on a blank page, under time pressure. That’s a different skill,
+and watching doesn’t train it.
 
 ## What actually makes things stick
 
@@ -32,8 +32,8 @@ Struggling to remember something and eventually getting it does more for you
 than reading it smoothly ten times. Which means the study method that feels
 most productive is usually the one doing the least.
 
-That is the whole reason this system exists. It is built to take what you get
-from videos — which is genuinely a lot — and force it through the step that
+That’s the whole reason this system exists. It’s built to take what you get
+from videos, which is a lot, and force it through the step that
 makes it permanent.
 
 ## The loop
@@ -47,21 +47,21 @@ television.
 
 **2. Capture (5 min).** Close the laptop. On paper, write down what you
 remember. Three things you can now state, one thing you could explain out loud,
-one thing that is still fuzzy.
+one thing that’s still fuzzy.
 
-This step will feel bad. You will sit there having just watched a clear
-explanation and produce almost nothing. **That is not a sign the video failed or
-that you are bad at this.** That gap — between what you could follow and what
-you can produce — is the actual state of your knowledge, and every student has
+This step will feel bad. You’ll sit there having just watched a clear
+explanation and produce almost nothing. **That’s not a sign the video failed or
+that you’re bad at this.** That gap between what you could follow and what
+you can produce is the actual state of your knowledge, and every student has
 it. The difference is that most never look at it, so they find out in the exam.
 
 **Then open the Allott study guide** at the same topic code and read the
-section. It is deliberately condensed — a few pages a topic — which makes it a
+section. It’s deliberately condensed, a few pages a topic, which makes it a
 fast way to see what you left out. Mark every point you missed. Those are the
 ones to watch for in the quiz.
 
 Do it in that order. The book after the brain-dump is a check. The book before
-it is just reading, and reading is the thing that does not work.
+it’s just reading, and reading is the thing that doesn’t work.
 
 **3. Recall (10 min).** `study quiz`. Say each answer out loud before you reveal
 it. Out loud matters: thinking "yeah, I know this" is exactly the recognition
@@ -86,21 +86,21 @@ another video, every time.
 Cards you get right move further away — one day, then three, then a week, then
 over a month. Cards you miss come straight back tomorrow.
 
-So the deck automatically concentrates on what you do not know, and the stuff
-you have solid stops wasting your time. Twenty minutes on the right twenty
-cards beats two hours re-reading a chapter, and it is not close.
+So the deck automatically concentrates on what you don’t know, and the stuff
+you’ve solid stops wasting your time. Twenty minutes on the right twenty
+cards beats two hours re-reading a chapter, and it’s not close.
 
-You cannot cram this. Six short sessions across two weeks will leave you with
+You can’t cram this. Six short sessions across two weeks will leave you with
 more than one six-hour session, even though the six-hour session feels more
 like work. Spacing is doing something real: every time you retrieve a fact
 after nearly forgetting it, you make it harder to forget next time.
 
 ## What a bad week looks like
 
-You will have weeks where you do nothing. The cards pile up and opening the
+You’ll have weeks where you do nothing. The cards pile up and opening the
 thing feels worse every day.
 
-When that happens, do not try to clear the backlog. Run `study quiz --limit 10`
+When that happens, don’t try to clear the backlog. Run `study quiz --limit 10`
 and do ten cards. Then stop. Ten cards today beats a heroic session you keep
 postponing, and it beats zero, which is what usually actually happens.
 

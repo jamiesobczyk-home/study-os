@@ -5,107 +5,169 @@
     {
       "id": "A1.1-01",
       "q": "Explain fully why a water molecule is polar but has no overall charge.",
-      "a": "Oxygen is more electronegative than hydrogen, so it attracts the shared electrons in each O–H bond more strongly. Oxygen develops a partial negative charge and the hydrogen atoms develop partial positive charges. Water is bent, so the two bond dipoles do not cancel. The molecule is polar even though its total charge remains zero.",
+      "a": "Oxygen is more electronegative than hydrogen, so it attracts the shared electrons in each O–H bond more strongly. Oxygen develops a partial negative charge and the hydrogen atoms develop partial positive charges. Water is bent, so the two bond dipoles don’t cancel. The molecule is polar even though its total charge remains zero.",
       "note": "A complete answer needs unequal sharing, partial charges and the bent shape.",
-      "tags": ["core", "structure"]
+      "tags": [
+        "core",
+        "structure"
+      ]
     },
     {
       "id": "A1.1-02",
       "q": "Distinguish the O–H bonds within one water molecule from the bonds between neighbouring water molecules.",
       "a": "Within one water molecule, oxygen and hydrogen are joined by polar covalent bonds in which electrons are shared unequally. Between neighbouring water molecules, a hydrogen bond forms between a partially positive hydrogen and a partially negative oxygen. A hydrogen bond is an intermolecular attraction and is weaker than a covalent bond.",
       "note": "Putting hydrogen bonds inside the molecule is a common mark-losing error.",
-      "tags": ["core", "structure", "bonds"]
+      "tags": [
+        "core",
+        "structure",
+        "bonds"
+      ]
     },
     {
       "id": "A1.1-03",
       "q": "Explain how many weak hydrogen bonds can give water strong cohesive behavior.",
       "a": "Each hydrogen bond between water molecules is weak and forms or breaks readily. A body of water contains a very large number of these bonds at the same time. Their combined attraction keeps water molecules associated, producing cohesion even though no single hydrogen bond is strong.",
-      "tags": ["core", "hydrogen-bonding", "cohesion"]
+      "tags": [
+        "core",
+        "hydrogen-bonding",
+        "cohesion"
+      ]
     },
     {
       "id": "A1.1-04",
       "q": "Distinguish cohesion from adhesion and give one biological consequence of each.",
       "a": "Cohesion is attraction between water molecules, and it helps an unbroken column of water remain under tension in xylem. Adhesion is attraction between water and another polar surface, and it helps water cling to the cellulose walls of xylem vessels.",
       "note": "State what is attracted to what before giving the example.",
-      "tags": ["core", "cohesion", "adhesion"]
+      "tags": [
+        "core",
+        "cohesion",
+        "adhesion"
+      ]
     },
     {
       "id": "A1.1-05",
       "q": "Explain the complete sequence by which water is pulled from roots toward leaves in xylem.",
-      "a": "Water evaporates from mesophyll cell walls and leaves through stomata, creating tension in the xylem. Cohesion caused by hydrogen bonding transmits the tension through a continuous column of water. Adhesion between water and the hydrophilic xylem walls helps support the column against gravity as it is pulled upward.",
+      "a": "Water evaporates from mesophyll cell walls and leaves through stomata, creating tension in the xylem. Cohesion caused by hydrogen bonding transmits the tension through a continuous column of water. Adhesion between water and the hydrophilic xylem walls helps support the column against gravity as it’s pulled upward.",
       "note": "Transpiration provides the pull. Cohesion transmits it. Adhesion supports the column.",
-      "tags": ["core", "transport", "synthesis"]
+      "tags": [
+        "core",
+        "transport",
+        "synthesis"
+      ]
     },
     {
       "id": "A1.1-06",
       "q": "Explain how cohesion produces surface tension at the surface of water.",
       "a": "Water molecules at the surface form hydrogen bonds with neighbouring molecules beside and below them. The resulting inward cohesive attraction makes the surface resist being stretched or broken. This surface tension can support small organisms at the air–water boundary.",
-      "tags": ["core", "cohesion", "surface-tension"]
+      "tags": [
+        "core",
+        "cohesion",
+        "surface-tension"
+      ]
     },
     {
       "id": "A1.1-07",
       "q": "Explain at the molecular level how water dissolves sodium chloride.",
       "a": "The partially negative oxygen regions of water molecules orient toward Na+ ions, while the partially positive hydrogen regions orient toward Cl− ions. These attractions separate the ions from the crystal and surround each ion with a hydration shell, keeping the ions dispersed in solution.",
-      "tags": ["core", "solvent", "ions"]
+      "tags": [
+        "core",
+        "solvent",
+        "ions"
+      ]
     },
     {
       "id": "A1.1-08",
       "q": "Predict how water interacts differently with polar and non-polar substances, and explain the difference.",
-      "a": "Water forms hydrogen bonds or other electrostatic attractions with polar or charged substances, so many of them dissolve. Non-polar substances cannot form comparable favorable interactions with water, so water continues bonding with itself and excludes them, leaving them poorly soluble.",
-      "note": "Hydrophobic substances are not pushed away by water. They lack favorable interactions with it.",
-      "tags": ["core", "solvent", "hydrophobic"]
+      "a": "Water forms hydrogen bonds or other electrostatic attractions with polar or charged substances, so many of them dissolve. Non-polar substances can’t form comparable favorable interactions with water, so water continues bonding with itself and excludes them, leaving them poorly soluble.",
+      "note": "Hydrophobic substances aren’t pushed away by water. They lack favorable interactions with it.",
+      "tags": [
+        "core",
+        "solvent",
+        "hydrophobic"
+      ]
     },
     {
       "id": "A1.1-09",
       "q": "Explain why water is an effective medium for metabolism and transport in living organisms.",
       "a": "Ions and many polar molecules dissolve in water, allowing reactants to move, collide and undergo enzyme-catalyzed reactions in aqueous cytoplasm. Dissolved substances can also be carried in blood plasma, tissue fluid and plant sap. Water therefore provides both a reaction medium and a transport medium.",
-      "tags": ["core", "metabolism", "transport"]
+      "tags": [
+        "core",
+        "metabolism",
+        "transport"
+      ]
     },
     {
       "id": "A1.1-10",
       "q": "Explain how blood transports oxygen and lipids even though both have limited solubility in water.",
       "a": "Most oxygen is carried bound reversibly to haemoglobin inside red blood cells rather than dissolved in plasma. Hydrophobic lipids are carried in lipoproteins, which have hydrophilic outer surfaces that interact with plasma and hydrophobic interiors that enclose the lipids.",
       "note": "Haemoglobin-bound oxygen is carried in red blood cells, not dissolved in plasma.",
-      "tags": ["core", "transport", "carriers"]
+      "tags": [
+        "core",
+        "transport",
+        "carriers"
+      ]
     },
     {
       "id": "A1.1-11",
       "q": "Compare density and viscosity in water and air, then explain one consequence of each difference for animals.",
       "a": "Water is denser than air and provides greater buoyancy, so aquatic animals require less support against gravity. Water is also more viscous than air and produces greater drag, so streamlined shapes reduce the energy needed for movement through it.",
-      "tags": ["core", "habitats", "comparison"]
+      "tags": [
+        "core",
+        "habitats",
+        "comparison"
+      ]
     },
     {
       "id": "A1.1-12",
       "q": "Compare thermal conductivity in water and air, then explain a consequence for an endothermic animal.",
       "a": "Water has a higher thermal conductivity than air, so it transfers heat away from an animal more rapidly. Endothermic aquatic animals may therefore need insulation such as blubber or a low surface-area-to-volume ratio to reduce heat loss.",
-      "tags": ["core", "habitats", "thermal"]
+      "tags": [
+        "core",
+        "habitats",
+        "thermal"
+      ]
     },
     {
       "id": "A1.1-13",
       "q": "Explain how water's high specific heat capacity affects organisms and aquatic habitats.",
       "a": "A large amount of energy is required to raise the temperature of water because added energy is used in disrupting hydrogen bonds before molecular motion increases greatly. Water-rich organisms and aquatic habitats therefore change temperature slowly, reducing rapid temperature fluctuations.",
-      "tags": ["core", "thermal", "specific-heat-capacity"]
+      "tags": [
+        "core",
+        "thermal",
+        "specific-heat-capacity"
+      ]
     },
     {
       "id": "A1.1-14",
       "q": "Explain how high latent heat of vaporization makes sweating and transpiration effective cooling processes.",
       "a": "A large amount of energy is required for water molecules to escape from the liquid because hydrogen bonds must be disrupted. When water evaporates from skin or a leaf, that energy is taken from the surface and its surroundings, so the remaining surface cools.",
       "note": "Evaporative cooling depends on latent heat of vaporization, not specific heat capacity.",
-      "tags": ["core", "thermal", "evaporation"]
+      "tags": [
+        "core",
+        "thermal",
+        "evaporation"
+      ]
     },
     {
       "id": "A1.1-15",
       "q": "Correct this claim: 'Finding liquid water on another planet proves that life is present.'",
-      "a": "Finding liquid water shows that one condition required by all known life may be present. Liquid water can act as a solvent and medium for metabolic reactions and transport. Its presence therefore indicates potential habitability for life as we know it, but it does not demonstrate that organisms are present.",
-      "note": "This is a limit-of-evidence question. Habitability is not evidence of life by itself.",
-      "tags": ["core", "astrobiology", "misconception"]
+      "a": "Finding liquid water shows that one condition required by all known life may be present. Liquid water can act as a solvent and medium for metabolic reactions and transport. Its presence therefore indicates potential habitability for life as we know it, but it doesn’t demonstrate that organisms are present.",
+      "note": "This is a limit-of-evidence question. Habitability isn’t evidence of life by itself.",
+      "tags": [
+        "core",
+        "astrobiology",
+        "misconception"
+      ]
     },
     {
       "id": "A1.1-16",
       "q": "Construct one causal chain linking water's molecular structure to its major biological roles.",
       "a": "Water's polar covalent bonds and bent shape create partial charges. Those partial charges allow hydrogen bonds between molecules and attractions with ions and other polar substances. Hydrogen bonding produces cohesion and important thermal properties, while polarity makes water an effective solvent. These properties support xylem transport, aqueous metabolism, transport of solutes, stable temperatures and evaporative cooling.",
-      "note": "Do not recite disconnected properties. Move from structure to interaction to property to biological consequence.",
-      "tags": ["core", "synthesis"]
+      "note": "Don’t recite disconnected properties. Move from structure to interaction to property to biological consequence.",
+      "tags": [
+        "core",
+        "synthesis"
+      ]
     }
   ]
 }

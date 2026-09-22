@@ -1,4 +1,4 @@
-# B2.1 Membranes and membrane transport — what you have to be able to do
+# B2.1 Membranes and membrane transport — what you’ve to be able to do
 
 > Tick a line only after you can do it with the page closed and without prompts.
 
@@ -20,24 +20,24 @@
 
 - [ ] Explain how membrane fluidity allows vesicles to form by fission and merge by fusion during endocytosis, exocytosis and intracellular transport.
 - [ ] Distinguish voltage-gated from ligand-gated ion channels by the signal that opens each one.
-- [ ] Explain how the sodium–potassium pump moves three Na+ out and two K+ in per ATP hydrolysed, producing ion gradients and a charge difference.
+- [ ] Explain how the sodium–potassium pump moves three Na+ out and two K+ in per ATP hydrolyzed, producing ion gradients and a charge difference.
 - [ ] Explain sodium-dependent glucose cotransport as indirect active transport powered by a sodium gradient established using ATP elsewhere.
 - [ ] Explain how cell-adhesion proteins bind cells together so tissues can form.
 
 ## Links to other topics
 
-- **A1.1 Water** — hydrophilic and hydrophobic interactions explain why phospholipids form a bilayer. Secure that cause and the membrane stops being a diagram to memorise.
+- **A1.1 Water** — hydrophilic and hydrophobic interactions explain why phospholipids form a bilayer. Secure that cause and the membrane stops being a diagram to memorize.
 - **B2.2 Organelles and compartmentalization** — membrane-bound compartments work because membranes maintain different conditions on their two sides.
 - **C2.2 Neural signalling** — ion pumps and gated channels create and change membrane potentials. Accurate directions and ion numbers here prevent confusion in action potentials.
-- **D2.3 Water potential** — osmosis is developed into predictions about water movement. Knowing what aquaporins change, and what they do not change, makes that topic easier.
+- **D2.3 Water potential** — osmosis is developed into predictions about water movement. Knowing what aquaporins change, and what they don’t change, makes that topic easier.
 
 ## Vocabulary that has to be exact
 
-| Term | What it means | What it is not |
+| Term | What it means | What it’s not |
 | --- | --- | --- |
 | Amphipathic | Having both hydrophilic and hydrophobic regions | The same as fully polar or fully non-polar |
 | Simple diffusion | Net movement down a concentration gradient directly through the phospholipid bilayer | Movement through a channel or carrier protein |
-| Facilitated diffusion | Passive movement down a gradient through a specific channel or carrier protein | Active transport; it does not use ATP |
+| Facilitated diffusion | Passive movement down a gradient through a specific channel or carrier protein | Active transport; it doesn’t use ATP |
 | Osmosis | Net movement of water through a partially permeable membrane from higher to lower water potential | Movement of solute particles |
 | Active transport | Movement against a concentration gradient using energy and a transport protein | Any transport involving a membrane protein |
 | Integral protein | A protein embedded in the bilayer; some span the entire membrane | A protein that must cross the whole membrane |

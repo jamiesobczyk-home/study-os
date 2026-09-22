@@ -6,107 +6,157 @@
       "id": "B2.1-01",
       "q": "Describe a phospholipid and explain why phospholipids form a bilayer spontaneously in water.",
       "a": "A phospholipid is amphipathic: it has a hydrophilic phosphate head and two hydrophobic hydrocarbon tails. In water, the heads face the aqueous solutions on both sides while the tails gather in the centre away from water. Hydrophobic interactions make this bilayer a stable arrangement, so no structure has to assemble each phospholipid into place.",
-      "note": "Name both regions, their orientations and the reason. The word amphipathic alone does not explain bilayer formation.",
-      "tags": ["core", "structure"]
+      "note": "Name both regions, their orientations and the reason. The word amphipathic alone doesn’t explain bilayer formation.",
+      "tags": [
+        "core",
+        "structure"
+      ]
     },
     {
       "id": "B2.1-02",
       "q": "Predict whether O2, Na+ and glucose can cross a phospholipid bilayer directly, and explain each prediction.",
       "a": "O2 is small and non-polar, so it dissolves in the hydrophobic interior and crosses by simple diffusion. Na+ is charged, so entering the non-polar core is energetically unfavourable and it requires a transport protein. Glucose is relatively large and polar, so it also requires a specific transport protein.",
-      "note": "Do not describe the core as repelling charge. The barrier is the energetic cost of moving a charged or polar particle into a non-polar environment.",
-      "tags": ["core", "permeability"]
+      "note": "Don’t describe the core as repelling charge. The barrier is the energetic cost of moving a charged or polar particle into a non-polar environment.",
+      "tags": [
+        "core",
+        "permeability"
+      ]
     },
     {
       "id": "B2.1-03",
       "q": "Rebuild the transport comparison: for simple diffusion, facilitated diffusion, osmosis and active transport, state the route, ATP use and direction of net movement.",
       "a": "Simple diffusion occurs through the phospholipid bilayer, uses no ATP and has net movement down a concentration gradient. Facilitated diffusion occurs through a channel or carrier, uses no ATP and has net movement down a concentration or electrochemical gradient. Osmosis is the net movement of water through a partially permeable membrane from higher to lower water potential; it uses no ATP and may be accelerated by aquaporins. Active transport uses a pump or carrier and energy to move a substance against its concentration or electrochemical gradient.",
       "note": "This is the synthesis card. Produce all four rows before revealing the answer.",
-      "tags": ["core", "transport", "synthesis"]
+      "tags": [
+        "core",
+        "transport",
+        "synthesis"
+      ]
     },
     {
       "id": "B2.1-04",
-      "q": "Explain how aquaporins affect osmosis and correct the claim that water cannot cross a membrane without them.",
-      "a": "Aquaporins are channel proteins that greatly increase membrane permeability to water, so water moves across the membrane more rapidly. Water can also cross the phospholipid bilayer slowly because it is small, even though it is polar. Aquaporins change the rate of osmosis, not its direction, and they do not use ATP.",
+      "q": "Explain how aquaporins affect osmosis and correct the claim that water can’t cross a membrane without them.",
+      "a": "Aquaporins are channel proteins that greatly increase membrane permeability to water, so water moves across the membrane more rapidly. Water can also cross the phospholipid bilayer slowly because it’s small, even though it’s polar. Aquaporins change the rate of osmosis, not its direction, and they don’t use ATP.",
       "note": "The direction still depends on the water-potential difference across the membrane.",
-      "tags": ["core", "osmosis", "misconception"]
+      "tags": [
+        "core",
+        "osmosis",
+        "misconception"
+      ]
     },
     {
       "id": "B2.1-05",
       "q": "Distinguish integral membrane proteins from peripheral membrane proteins and give one possible role of each.",
       "a": "Integral proteins are embedded in the phospholipid bilayer, and transmembrane proteins span it; an integral protein may act as a channel, carrier or pump. Peripheral proteins are attached to one membrane surface rather than embedded in the hydrophobic core; they may anchor the cytoskeleton or participate in signalling.",
-      "note": "Integral does not always mean transmembrane. Some integral proteins are embedded in only one layer.",
-      "tags": ["core", "proteins"]
+      "note": "Integral doesn’t always mean transmembrane. Some integral proteins are embedded in only one layer.",
+      "tags": [
+        "core",
+        "proteins"
+      ]
     },
     {
       "id": "B2.1-06",
       "q": "Explain both words in the fluid mosaic model of membrane structure.",
-      "a": "The membrane is fluid because phospholipids and some proteins can move laterally within the bilayer. It is a mosaic because varied proteins, glycoproteins and other components are distributed through or on the phospholipid bilayer rather than forming one repeated pattern.",
-      "tags": ["core", "model"]
+      "a": "The membrane is fluid because phospholipids and some proteins can move laterally within the bilayer. It’s a mosaic because varied proteins, glycoproteins and other components are distributed through or on the phospholipid bilayer rather than forming one repeated pattern.",
+      "tags": [
+        "core",
+        "model"
+      ]
     },
     {
       "id": "B2.1-07",
       "q": "Explain how temperature and unsaturated fatty acid tails affect membrane fluidity.",
       "a": "Higher temperature increases the kinetic energy and movement of phospholipids, increasing fluidity, while lower temperature reduces their movement. Cis double bonds create kinks in unsaturated tails, preventing close packing, so a greater proportion of unsaturated tails helps a membrane remain fluid at lower temperatures.",
-      "tags": ["core", "fluidity"]
+      "tags": [
+        "core",
+        "fluidity"
+      ]
     },
     {
       "id": "B2.1-08",
       "q": "Explain the two-directional effect of cholesterol on the fluidity of animal cell membranes.",
       "a": "At higher temperatures, cholesterol restrains phospholipid movement and reduces excessive fluidity. At lower temperatures, it prevents phospholipids from packing as closely and reduces solidification. Cholesterol therefore buffers membrane fluidity across a range of temperatures.",
       "note": "An answer giving only one temperature condition is incomplete.",
-      "tags": ["core", "fluidity"]
+      "tags": [
+        "core",
+        "fluidity"
+      ]
     },
     {
       "id": "B2.1-09",
       "q": "Describe glycoproteins and glycolipids and explain how their carbohydrate chains contribute to cell recognition and adhesion.",
       "a": "Glycoproteins are proteins with attached carbohydrate chains, while glycolipids are lipids with attached carbohydrate chains. The chains project from the extracellular surface and can act as specific recognition markers or parts of receptors. Some membrane glycoproteins also bind cells to one another, contributing to adhesion.",
-      "tags": ["core", "cell-recognition"]
+      "tags": [
+        "core",
+        "cell-recognition"
+      ]
     },
     {
       "id": "B2.1-10",
       "q": "Explain selective permeability using both the phospholipid bilayer and membrane transport proteins.",
       "a": "The hydrophobic interior of the bilayer allows small non-polar molecules to cross more readily but restricts ions and most large polar molecules. Channels, carriers and pumps are selective for particular substances, so the set and activity of transport proteins in a membrane control which restricted substances can cross and in which direction.",
-      "note": "Selectivity is not caused by random holes between phospholipids.",
-      "tags": ["core", "permeability"]
+      "note": "Selectivity isn’t caused by random holes between phospholipids.",
+      "tags": [
+        "core",
+        "permeability"
+      ]
     },
     {
       "id": "B2.1-11",
       "q": "Explain one complete cycle of the sodium–potassium pump, including ion numbers, direction and energy source.",
-      "a": "Three Na+ bind on the cytoplasmic side. ATP phosphorylates the pump, causing a conformational change that releases the Na+ outside. Two K+ then bind outside; dephosphorylation returns the protein to its original conformation and releases the K+ inside. One ATP is hydrolysed per cycle, moving three Na+ out and two K+ in against their electrochemical gradients and making the inside relatively more negative.",
+      "a": "Three Na+ bind on the cytoplasmic side. ATP phosphorylates the pump, causing a conformational change that releases the Na+ outside. Two K+ then bind outside; dephosphorylation returns the protein to its original conformation and releases the K+ inside. One ATP is hydrolyzed per cycle, moving three Na+ out and two K+ in against their electrochemical gradients and making the inside relatively more negative.",
       "note": "Three sodium out, two potassium in. The unequal exchange makes the pump electrogenic.",
-      "tags": ["hl", "pump"]
+      "tags": [
+        "hl",
+        "pump"
+      ]
     },
     {
       "id": "B2.1-12",
       "q": "Trace the energy pathway that allows a sodium–glucose cotransporter to move glucose into an intestinal epithelial cell against its gradient.",
       "a": "The sodium–potassium pump hydrolyses ATP and moves Na+ out of the epithelial cell, maintaining a low intracellular Na+ concentration. Na+ then enters from the intestinal lumen down its electrochemical gradient through a sodium–glucose cotransporter. The coupled conformational change carries glucose into the cell against its gradient. This is indirect or secondary active transport because ATP is used by the pump, not by the cotransporter itself.",
       "note": "Keep the causal chain intact: ATP powers the pump, the pump establishes the Na+ gradient, and the Na+ gradient powers glucose uptake.",
-      "tags": ["hl", "cotransport"]
+      "tags": [
+        "hl",
+        "cotransport"
+      ]
     },
     {
       "id": "B2.1-13",
       "q": "Distinguish voltage-gated and ligand-gated ion channels by what opens them, and state what happens after opening.",
-      "a": "A voltage-gated channel opens or closes in response to a change in membrane potential. A ligand-gated channel opens or closes when a specific signalling molecule binds. Once open, ions move through the channel down their electrochemical gradient without ATP being hydrolysed by the channel.",
-      "tags": ["hl", "channels"]
+      "a": "A voltage-gated channel opens or closes in response to a change in membrane potential. A ligand-gated channel opens or closes when a specific signalling molecule binds. Once open, ions move through the channel down their electrochemical gradient without ATP being hydrolyzed by the channel.",
+      "tags": [
+        "hl",
+        "channels"
+      ]
     },
     {
       "id": "B2.1-14",
       "q": "Explain why membrane fluidity is required for vesicle fission and fusion, and connect each process to a named example.",
       "a": "Because phospholipids can move within a fluid bilayer, a membrane can bend, separate and reseal during fission, as when an endocytic vesicle forms. A vesicle membrane can also merge and become continuous with another membrane during fusion, as in exocytosis or delivery to an organelle. Both processes preserve a closed hydrophobic barrier around aqueous contents.",
-      "tags": ["hl", "vesicles"]
+      "tags": [
+        "hl",
+        "vesicles"
+      ]
     },
     {
       "id": "B2.1-15",
       "q": "Correct this misconception: 'Any membrane transport that uses a protein is active transport.'",
-      "a": "Protein use does not make transport active. Facilitated diffusion uses a channel or carrier but remains passive because particles move down their concentration or electrochemical gradient without ATP input. Active transport moves a substance against its gradient using an energy source and a pump or carrier.",
+      "a": "Protein use doesn’t make transport active. Facilitated diffusion uses a channel or carrier but remains passive because particles move down their concentration or electrochemical gradient without ATP input. Active transport moves a substance against its gradient using an energy source and a pump or carrier.",
       "note": "In a comparison, write about both gradient direction and energy source.",
-      "tags": ["core", "misconception"]
+      "tags": [
+        "core",
+        "misconception"
+      ]
     },
     {
       "id": "B2.1-16",
       "q": "Explain how cell-adhesion proteins allow individual cells to form a tissue.",
       "a": "Cell-adhesion proteins in one cell membrane bind to specific proteins on neighbouring cells or to the extracellular matrix. These attachments hold cells in stable positions and connect them mechanically, allowing cells to remain organized as a tissue rather than separating.",
-      "tags": ["hl", "cell-adhesion"]
+      "tags": [
+        "hl",
+        "cell-adhesion"
+      ]
     }
   ]
 }

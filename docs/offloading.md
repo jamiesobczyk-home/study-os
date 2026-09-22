@@ -11,7 +11,7 @@ Read this first, though, because the obvious plan is the wrong one.
 Generating 37 packs is easy. Any capable model will produce plausible IB
 Biology content all day.
 
-**Verifying them is the work**, and it does not parallelise by adding another
+**Verifying them is the work**, and it does not parallelize by adding another
 generator. A second model producing packs creates more to check, not less. The
 question to ask about any offloading plan is not "can it write the pack" but
 "does it reduce the minutes I spend with the book open".
@@ -21,11 +21,11 @@ generated packs for progress. A pack is done when it has been checked.
 
 ## The two failure modes
 
-**Confident wrong content.** The real risk. A wrong card is memorised exactly
+**Confident wrong content.** The real risk. A wrong card is memorized exactly
 as efficiently as a correct one, and he finds out in an exam. Models are
 fluent about IB Biology and fluency is not accuracy.
 
-*Mitigation:* the study guide. It is condensed and organised by topic code, so
+*Mitigation:* the study guide. It is condensed and organized by topic code, so
 checking a pack's 15 cards against its section is a ten-minute job. Where a
 card disagrees with the book, the book wins. The prompt also asks the model to
 end with an `UNCERTAIN` list — read that first, it is where the checking time

@@ -21,7 +21,7 @@
       "name": "Paper 1B",
       "kind": "external",
       "format": "Data-based questions",
-      "note": "Reads graphs, tables and experimental design. Rewards the Tools and Inquiry skills, not memorised facts."
+      "note": "Reads graphs, tables and experimental design. Rewards the Tools and Inquiry skills, not memorized facts."
     },
     {
       "id": "p2",
@@ -57,7 +57,7 @@
       "pages": 248,
       "kind": "study-guide",
       "isPrimaryTextbook": false,
-      "role": "His own copy. Aligned to the 2023 subject guide and organised by the same topic codes, so a pack's code points straight at its section.",
+      "role": "His own copy. Aligned to the 2023 subject guide and organized by the same topic codes, so a pack's code points straight at its section.",
       "howToUse": "Condensed on purpose - roughly six pages per topic - so it is a poor place to meet a topic for the first time and an excellent place to check yourself after. Use it as the diff target for the capture step: brain-dump first, then read the section and mark what you missed. It is also the accuracy reference for checking generated cards before he studies them.",
       "notFor": "First-encounter learning. That is what the videos are for. Reading it cold will feel like revision and will not be.",
       "organisation": "Ordered by level (1 Molecules, 2 Cells, 3 Organisms, 4 Ecosystems) with the four themes inside each level, not by theme. So A1.1 and B1.1 sit near each other, while A1.1 and A2.1 are 55 pages apart. Find a topic by its code, not by flipping to 'the Theme A part'.",
@@ -70,7 +70,7 @@
       "title": "Mister Lee Science (Alex Lee)",
       "url": "https://www.youtube.com/@misterleescience",
       "verified": "2026-09-22, opened and confirmed by Jamie",
-      "role": "IB Biology videos organised by the 2023 syllabus topic codes. The default first suggestion for any topic.",
+      "role": "IB Biology videos organized by the 2023 syllabus topic codes. The default first suggestion for any topic.",
       "note": "A previous handle guessed from the channel name (@AlexLeeBiology) did not exist and 404'd in front of the student. Only URLs recorded here as verified may appear outside a pack's Pinned section."
     },
     {

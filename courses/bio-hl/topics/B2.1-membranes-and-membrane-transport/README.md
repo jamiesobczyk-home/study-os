@@ -17,17 +17,17 @@ A cell membrane is a fluid phospholipid barrier whose proteins control what cros
 
 This topic becomes hard when the transport mechanisms are learned as separate definitions. Build one comparison from memory instead: what crosses, by which route, in which direction, and whether ATP is used. Then add the HL chain from the sodium–potassium pump to the sodium gradient and from that gradient to glucose uptake. That chain is easier to learn as a drawing than as a paragraph.
 
-The payoff continues through organelles, water potential, neural signalling and homeostasis. If your recall table has gaps, that is useful evidence: correct the gaps before another video turns them back into recognition.
+The payoff continues through organelles, water potential, neural signalling and homeostasis. If your recall table has gaps, that’s useful evidence: correct the gaps before another video turns them back into recognition.
 
 ## In your study guide
 
-Allott, _Biology Study Guide_ (2023), **section B2.1, pp. 70-74**. Read it *after* the capture sheet, never before — it is condensed enough to make a fast check of what you left out, and a slow way to meet the topic for the first time.
+Allott, _Biology Study Guide_ (2023), **section B2.1, pp. 70-74**. Read it *after* the capture sheet, never before — it’s condensed enough to make a fast check of what you left out, and a slow way to meet the topic for the first time.
 
 ## What's in this pack
 
-| File | What it is |
+| File | What it’s |
 | --- | --- |
-| `essentials.md` | What you have to be able to do, in plain English |
+| `essentials.md` | What you’ve to be able to do, in plain English |
 | `videos.md` | What to watch, and what to watch *for* |
 | `cards.json` | Retrieval questions — `study quiz B2.1` reads these |
 | `exam.md` | Exam-style questions with real mark schemes |

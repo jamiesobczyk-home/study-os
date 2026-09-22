@@ -3,8 +3,8 @@
 > **Read this before pressing play.** This is the topic where watching feels
 > most like learning and is least like it. The pathway is easy to follow and
 > hard to reproduce, and following is what a video trains. So the rule here is
-> stricter than usual: one video, then the drawing, then the quiz. Do not watch
-> a second video before you have drawn the pathway from memory once.
+> stricter than usual: one video, then the drawing, then the quiz. Don’t watch
+> a second video before you’ve drawn the pathway from memory once.
 
 ## Main
 
@@ -29,7 +29,7 @@ For each stage, get these four answers before moving on:
 - Find it: <https://www.youtube.com/results?search_query=chemiosmosis+ATP+synthase+animation+proton+gradient>
 
 Watch an **animation**. Chemiosmosis is a physical, mechanical idea — protons
-pushed to one side, flowing back through a turbine. Once you have seen it move,
+pushed to one side, flowing back through a turbine. Once you’ve seen it move,
 the phrase "proton gradient drives ATP synthesis" stops being words and starts
 being a picture. This is the highest-value ninety seconds in the topic.
 
@@ -39,7 +39,7 @@ being a picture. This is the highest-value ninety seconds in the topic.
 
 - Find it: <https://www.youtube.com/results?search_query=Crash+Course+Biology+cellular+respiration>
 
-Fast and not IB-specific, so it is no good for detail. But it is genuinely
+Fast and not IB-specific, so it’s no good for detail. But it’s genuinely
 useful *first*, before Alex Lee, to get the overall shape in your head so the
 detailed version has somewhere to attach. Ten minutes, once.
 
@@ -47,7 +47,7 @@ detailed version has somewhere to attach. Ten minutes, once.
 
 - Any good animation of the electron transport chain embedded in the cristae.
   Seeing how much membrane is folded in there makes the surface-area point
-  (B2.2) obvious rather than memorised.
+  (B2.2) obvious rather than memorized.
 
 ## Pinned
 

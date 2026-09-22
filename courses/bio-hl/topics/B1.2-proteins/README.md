@@ -32,14 +32,14 @@ here and three later topics get easier.
 ## In your study guide
 
 Allott, _Biology Study Guide_ (2023), **section B1.2, pp. 14–17**. Read it
-*after* the capture sheet, never before — it is condensed enough to make a fast
+*after* the capture sheet, never before — it’s condensed enough to make a fast
 check of what you left out, and a slow way to meet the topic for the first time.
 
 ## What's in this pack
 
-| File | What it is |
+| File | What it’s |
 | --- | --- |
-| `essentials.md` | What you have to be able to do, in plain English |
+| `essentials.md` | What you’ve to be able to do, in plain English |
 | `videos.md` | What to watch, and what to watch *for* |
 | `cards.json` | Retrieval questions — `study quiz B1.2` reads these |
 | `exam.md` | Exam-style questions with real mark schemes |

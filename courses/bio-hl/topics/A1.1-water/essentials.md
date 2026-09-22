@@ -1,4 +1,4 @@
-# A1.1 Water — what you have to be able to do
+# A1.1 Water — what you’ve to be able to do
 
 > Tick a line only after you can do it with the page closed and without prompts.
 
@@ -18,14 +18,14 @@
 
 ## Links to other topics
 
-- **B2.1 Membranes and membrane transport** — polarity explains why phospholipids arrange into bilayers. If hydrophilic and hydrophobic interactions are secure here, membrane structure has a cause rather than becoming another diagram to memorise.
+- **B2.1 Membranes and membrane transport** — polarity explains why phospholipids arrange into bilayers. If hydrophilic and hydrophobic interactions are secure here, membrane structure has a cause rather than becoming another diagram to memorize.
 - **B3.2 Transport** — transpiration applies cohesion, adhesion and evaporation to an entire plant. A1.1 supplies the molecular explanation for the mechanism.
 - **D2.3 Water potential** — osmosis depends on water as a solvent and on differences in the tendency of water to move. Accurate solvent language here prevents confusion later.
 - **D3.3 Homeostasis** — sweating works because evaporation requires energy. The homeostasis question is an application of latent heat of vaporization.
 
 ## Vocabulary that has to be exact
 
-| Term | What it means | What it is not |
+| Term | What it means | What it’s not |
 | --- | --- | --- |
 | Electronegativity | The tendency of an atom to attract a shared pair of electrons | An atom's overall electrical charge |
 | Polar molecule | A molecule with an uneven distribution of charge and partial positive and negative regions | An ion; water remains neutral overall |

@@ -4,7 +4,7 @@
 > like progress and is mostly re-recognition. When one is done, close it and
 > draw the four levels of structure from memory — that drawing is the point.
 
-> Links below are channel and search links, which do not rot. When you find the
+> Links below are channel and search links, which don’t rot. When you find the
 > video that actually works, paste its URL under "Pinned".
 
 ## Main
@@ -18,20 +18,20 @@ Alex Lee's IB Biology series is widely recommended by IB students and is
 reported to follow the 2023 syllabus topic by topic. Search rather than trusting
 a channel URL — handles change, and a dead link is what ends a study session.
 When you find the channel, paste it under Pinned. Because so much of B1.2 is HL,
-check he covers the higher level material and does not stop at the SL statements.
+check he covers the higher level material and doesn’t stop at the SL statements.
 
 Watch for:
 - **Which bonds hold which level.** This is the whole topic. Secondary is
   hydrogen bonds along the backbone; tertiary is four kinds of interaction
   between R groups. If you take one thing away, take that.
 - The moment denaturation is explained. Listen for whether peptide bonds break.
-  They do not, and that is a marking point.
+  They don’t, and that’s a marking point.
 - Every time an R group is mentioned — R groups are the reason proteins differ.
 
 Pause at: the tertiary structure diagram. Before playing on, name all four
-R group interactions out loud. If the fourth does not come, rewind.
+R group interactions out loud. If the fourth doesn’t come, rewind.
 
-## If that did not land
+## If that didn’t land
 
 **Amoeba Sisters — Biomolecules / Protein structure**
 
@@ -46,7 +46,7 @@ this sorts them out quickly and you can return to Alex Lee for the folding.
 - Find it: <https://www.youtube.com/results?search_query=protein+folding+animation+primary+secondary+tertiary+quaternary>
 
 Watch an **animation** for the folding specifically. Going from a flat chain to
-a three-dimensional shape is a spatial idea, and it is far cheaper to learn
+a three-dimensional shape is a spatial idea, and it’s far cheaper to learn
 from movement than from a paragraph. This is the one place in the topic where a
 second video earns its time.
 
@@ -57,7 +57,7 @@ second video earns its time.
 
 ## Pinned
 
-_Paste the URL of the video that actually worked, once you have found it._
+_Paste the URL of the video that actually worked, once you’ve found it._
 
 - Main:
 - Folding animation:

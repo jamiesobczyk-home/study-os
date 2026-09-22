@@ -63,7 +63,7 @@ There is a regression test for this: run an MCQ session and confirm
 - **No dependencies.** Bare Node 18+, as with the rest of Jamie's tooling.
   No package.json, no install step, no build.
 - **Accuracy over completeness.** A confidently wrong card is worse than a
-  missing one, because it gets memorised just as well and is not discovered
+  missing one, because it gets memorized just as well and is not discovered
   until an exam. Verify against the syllabus rather than recalling. State your
   uncertainty in your reply so it can be checked against his course materials.
 - **His textbook is the tiebreaker.** Andrew Allott, _Biology Study Guide_,
@@ -100,7 +100,7 @@ There is a regression test for this: run an MCQ session and confirm
   them to make output look tidier, and do not commit a cleared one over a real
   one.
 - **The three traps.md labels are load-bearing.** `**Commonly written:**`,
-  `**Why it does not score:**` and `**Scores instead:**` are parsed by
+  `**Why it doesn't score:**` and `**Scores instead:**` are parsed by
   `tools/lib/traps.mjs` into quiz questions and video scenes. One parser, used
   by both — do not write a second. `study check` errors on a missing label.
 - **Exam file structure is load-bearing.** `study exam` parses `## ` headings
@@ -114,9 +114,24 @@ There is a regression test for this: run an MCQ session and confirm
 
 ## Tone
 
-He is struggling with this subject and will notice being managed. Write level
-with him: plain, specific, honest that the uncomfortable step is the one that
-works. "Simply" and "just" do not appear in this repo.
+He is 17. If the writing sounds machine-generated he stops reading before he
+reaches any biology, which costs more than any amount of polish. This repo was
+called out for exactly that, and the cause was measurable: four thousand words
+of copy with **zero contractions**.
+
+Write contractions. No closing maxims (the old copy landed every paragraph on
+a little aphorism). One em-dash per few hundred words, not per sentence.
+American idiom and spelling. No sentence fragments for effect. "Simply" and
+"just" do not appear in this repo.
+
+**Plain is not vague.** Marks come from the terminology, not the formality, so
+every technical term stays exactly where it was. Dropping "hydrogen bonds" to
+sound casual costs him a mark, and that is the one way this can do harm. The
+numbered bullets under `### Mark scheme` keep their formal register on purpose:
+they reproduce an artifact he meets in the exam.
+
+`study voice` counts the tells. The full standard, with before/after pairs,
+lives in `.claude/skills/topic-pack/SKILL.md` and `prompts/topic-pack.md`.
 
 ## Checks
 
@@ -124,6 +139,7 @@ There is no test suite. Before calling a change done:
 
     study check          # structural check on every pack (warns if index.html is stale)
     study links          # fetch every video link; fails on dead ones
+    study voice          # counts the tells that read as machine-written
     study build          # rebuild the browser app
     study list
     study progress

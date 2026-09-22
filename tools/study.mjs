@@ -26,6 +26,7 @@ import * as progress from './lib/progress.mjs';
 import { checkPack, repoIssues } from './lib/check.mjs';
 import { buildPrompt } from './lib/prompt.mjs';
 import { packLinks, checkLink } from './lib/links.mjs';
+import { voiceReport } from './lib/voice.mjs';
 import { build as buildWeb } from './build-web.mjs';
 import { bold, dim, blue, green, yellow, red, rule, para, heading } from './lib/ui.mjs';
 
@@ -546,6 +547,55 @@ const cmdLinks = async (ctx, code) => {
   console.log('');
 };
 
+const cmdVoice = (ctx, code) => {
+  const topics = code
+    ? [requireTopic(ctx, code)]
+    : ctx.syllabus.topics.filter((t) => hasPack(ctx.course, t));
+
+  const reports = [];
+  const add = (label, text) => {
+    const r = voiceReport(label, text);
+    if (r) reports.push(r);
+  };
+
+  if (!code) {
+    add('web/app.js (UI copy)',
+      (readFileSync(join(ROOT, 'web', 'app.js'), 'utf8').match(/'([^']{25,})'/g) || []).join(' '));
+    for (const doc of ['method.md', 'command-terms.md', 'for-parents.md']) {
+      const f = join(ROOT, 'docs', doc);
+      if (existsSync(f)) add(`docs/${doc}`, readFileSync(f, 'utf8'));
+    }
+  }
+
+  for (const t of topics) {
+    const cards = loadCards(ctx.course, t);
+    add(`${t.code} cards`, cards.map((c) => `${c.q} ${c.a} ${c.note || ''}`).join(' '));
+    for (const f of ['traps.md', 'essentials.md', 'exam.md']) {
+      const body = readPackFile(ctx.course, t, f);
+      if (body) add(`${t.code} ${f}`, body);
+    }
+  }
+
+  console.log(heading('How human does the writing read?'));
+  console.log(para(dim('Counts, not judgements. These are the tells that made this repo\u2019s copy read as machine-written.\n')));
+
+  let flagged = 0;
+  for (const r of reports) {
+    const tag = r.notes.length ? yellow('look') : green(' ok ');
+    if (r.notes.length) flagged += 1;
+    console.log(
+      `  ${tag} ${bold(r.label.padEnd(24))} ${String(r.words).padStart(5)}w  ` +
+      dim(`${r.contractions} contractions, ${r.longForms} long forms`)
+    );
+    for (const n of r.notes) console.log(para(yellow(`- ${n}`), '         '));
+  }
+  console.log(rule());
+  console.log(flagged
+    ? `  ${yellow(`${flagged} of ${reports.length}`)} worth a second look.`
+    : `  ${green('Nothing flagged.')}`);
+  console.log('');
+};
+
 const usage = () => {
   console.log(`
 ${bold('study')} — a video-first study system
@@ -559,6 +609,7 @@ ${bold('study')} — a video-first study system
   ${bold('new')} <topic>        scaffold a new topic pack
   ${bold('check')} [topic]      verify pack structure (all packs if omitted)
   ${bold('links')} [topic]      fetch every video link and report dead ones
+  ${bold('voice')} [topic]      measure how machine-written the prose reads
   ${bold('prompt')} <topic>     print a paste-ready pack prompt for another model
   ${bold('build')}              rebuild index.html, the browser version he studies from
 
@@ -590,6 +641,7 @@ const main = async () => {
     case 'new': return cmdNew(ctx, code);
     case 'check': return cmdCheck(ctx, code);
     case 'links': return cmdLinks(ctx, code);
+    case 'voice': return cmdVoice(ctx, code);
     case 'prompt': return cmdPrompt(ctx, code, flags);
     case 'build': return cmdBuild(ctx);
     default:

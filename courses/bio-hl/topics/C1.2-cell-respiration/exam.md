@@ -7,13 +7,13 @@
 ### Mark scheme
 
 - NAD acts as a hydrogen (and electron) carrier. **[1]**
-- It is reduced when it accepts hydrogen released during the oxidation of
+- It’s reduced when it accepts hydrogen released during the oxidation of
   substrates in glycolysis, the link reaction and the Krebs cycle. **[1]**
-- Reduced NAD carries these to the electron transport chain, where it is
-  oxidised back to NAD and the electrons are passed to the carriers. **[1]**
+- Reduced NAD carries these to the electron transport chain, where it’s
+  oxidized back to NAD and the electrons are passed to the carriers. **[1]**
 - Accept: NAD is thereby regenerated for reuse. **[1 max within total]**
 
-_Examiner note: the cycle is the point — reduced somewhere, re-oxidised
+_Examiner note: the cycle is the point — reduced somewhere, re-oxidized
 somewhere else. An answer that only says "NAD carries hydrogen" gets one mark._
 
 ## Q2. Explain why the conversion of pyruvate to lactate allows anaerobic respiration to continue. **[3]**
@@ -21,15 +21,15 @@ somewhere else. An answer that only says "NAD carries hydrogen" gets one mark._
 ### Mark scheme
 
 - The conversion oxidises reduced NAD back to NAD. **[1]**
-- Glycolysis requires a supply of NAD to oxidise its substrate / cannot proceed
+- Glycolysis requires a supply of NAD to oxidize its substrate / can’t proceed
   without NAD. **[1]**
 - Regenerating NAD therefore allows glycolysis, and so the net production of
   2 ATP, to continue in the absence of oxygen. **[1]**
 
-_Examiner note: "because there is no oxygen" states the condition and scores
+_Examiner note: "because there’s no oxygen" states the condition and scores
 nothing. The question is why this particular conversion helps._
 
-## Q3. Explain how ATP is synthesised by chemiosmosis in a mitochondrion. **[5]**
+## Q3. Explain how ATP is synthesized by chemiosmosis in a mitochondrion. **[5]**
 
 ### Mark scheme
 
@@ -48,7 +48,7 @@ nothing. The question is why this particular conversion helps._
 
 _Examiner note: this is a sequence question. Marks are awarded for the steps in
 a workable order — an answer containing all the right nouns in no particular
-order will not score five._
+order won’t score five._
 
 ## Q4. Compare and contrast lipids and carbohydrates as respiratory substrates. **[4]**
 
@@ -56,12 +56,12 @@ order will not score five._
 
 Comparative statements only. Maximum [4]:
 
-- Both can be oxidised in aerobic cell respiration to produce ATP. **[1]**
+- Both can be oxidized in aerobic cell respiration to produce ATP. **[1]**
 - Lipids release more energy per gram than carbohydrates. **[1]**
 - Because lipids are more reduced / contain more hydrogen per carbon atom, so
   more reduced NAD and FAD are produced. **[1]**
 - Carbohydrates can be respired anaerobically whereas lipids cannot. **[1]**
-- Carbohydrates are mobilised / respired more rapidly than lipids. **[1]**
+- Carbohydrates are mobilized / respired more rapidly than lipids. **[1]**
 
 _Examiner note: the "more reduced" mark is the one that separates grades here.
 "Lipids have more energy" restates the first point without explaining it._
@@ -76,7 +76,7 @@ _Examiner note: the "more reduced" mark is the one that separates grades here.
 - Electron transport chain and ATP synthase: inner mitochondrial membrane
   (cristae). **[1]**
 
-_Examiner note: "mitochondrion" alone is not precise enough for the last three.
+_Examiner note: "mitochondrion" alone isn’t precise enough for the last three.
 The question said precise, and matrix versus inner membrane is the distinction
 being tested._
 
@@ -88,7 +88,7 @@ being tested._
   organic compounds to produce ATP, whereas gas exchange is the movement of
   oxygen and carbon dioxide between an organism and its environment. **[1]**
 - Cell respiration occurs in all living cells continuously, whereas gas exchange
-  occurs at a specialised surface. **[1]**
+  occurs at a specialized surface. **[1]**
 
-_Examiner note: a free two marks if you have kept the words separate all year,
-and a guaranteed zero if you have not._
+_Examiner note: a free two marks if you’ve kept the words separate all year,
+and a guaranteed zero if you’ve not._

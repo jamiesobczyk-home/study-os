@@ -180,7 +180,7 @@ labelled parts:
 
 **Commonly written:** <the near-miss answer students actually write.>
 
-**Why it does not score:** <the specific thing the mark scheme wanted.>
+**Why it doesn’t score:** <the specific thing the mark scheme wanted.>
 
 **Scores instead:** <the version that gets the mark.>
 ```
@@ -239,12 +239,56 @@ what you left out, and a slow way to meet the topic for the first time.
 
 ## Voice
 
-Direct and plain. He is struggling and can tell when he is being managed.
+The student is 17. If the writing sounds machine-generated he will stop reading
+before he reaches any biology, and that is worth more than any amount of
+polish. This repo has already been called out for exactly that, and the cause
+was measurable: over four thousand words of copy with **zero contractions**.
 
-- Say the uncomfortable thing plainly rather than softening it.
-- Never imply the material is easy. **The words "simply" and "just" must not
-  appear anywhere in your output.**
-- Be specific about payoff — "this makes four later topics easier" beats "this
-  is important".
-- Normalise failure without lowering the bar: missed cards are the system
-  working, but marks are still marks.
+**Write contractions.** "It isn't broken", not "It is not broken". "That's why",
+not "That is why". Long forms outnumbering contractions is the loudest tell
+there is, and `study voice` counts them.
+
+**No closing maxims.** The strongest pattern in the old copy was every
+paragraph landing on a little aphorism. One is a nice line. Thirty in a row is
+a TED talk:
+
+    Don't   Missing cards is the system working, not you failing.
+    Do      Getting them wrong is how it finds your gaps.
+
+    Don't   Reading one and agreeing with it is worth nothing.
+    Do      Reading the mark scheme and nodding along doesn't count.
+
+**One em-dash per few hundred words, not per sentence.** Most are a period or a
+comma doing rhetorical cosplay.
+
+**American idiom and spelling** in anything he reads: *backwards*, not *the
+wrong way round*; *go write*, not *go and write*; *organized*, *synthesized*,
+*analyze*.
+
+**No sentence fragments for effect.** "Nothing pushes." reads as a writer
+admiring their own line.
+
+### The exception that matters
+
+Plain does not mean vague. **Marks come from the terminology, not the
+formality**, so every technical term stays exactly where it was:
+
+    Before  Denaturation is the disruption of a protein's three-dimensional
+            conformation, causing loss of function. Peptide bonds are not
+            broken, so the primary structure remains intact.
+
+    After   Denaturation is when a protein loses its 3D shape and stops
+            working. Peptide bonds aren't broken, so the primary structure
+            stays intact.
+
+Every marking term survives. Only the stiffness goes. Dropping "hydrogen bonds"
+to sound casual would cost him a mark, and that is the one way this can do harm.
+
+The numbered bullets under `### Mark scheme` are the exception to the
+exception: leave those in mark-scheme language. They reproduce an artifact he
+meets in the exam, and he needs to recognize that register on sight. The
+examiner note underneath is prose and follows the rules above.
+
+Never imply the material is easy. **The words "simply" and "just" must not
+appear anywhere in your output.** Be specific about payoff, and normalize
+failure without lowering the bar.

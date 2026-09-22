@@ -6,113 +6,166 @@
       "id": "B1.2-01",
       "q": "Describe the generalized structure of an amino acid. Name every group attached to the central carbon.",
       "a": "A central carbon atom is bonded to four things: an amine group (NH2), a carboxyl group (COOH), a hydrogen atom, and a variable R group. The first three are identical in every amino acid; only the R group differs.",
-      "note": "Four groups, and three of them are always the same. That is why R groups carry all the diversity.",
-      "tags": ["core", "structure"]
+      "note": "Four groups, and three of them are always the same. That’s why R groups carry all the diversity.",
+      "tags": [
+        "core",
+        "structure"
+      ]
     },
     {
       "id": "B1.2-02",
       "q": "Explain what happens when two amino acids join, naming the reaction, the bond and the by-product.",
       "a": "The reaction is condensation. The amine group of one amino acid reacts with the carboxyl group of the other, forming a covalent peptide bond between them and releasing one molecule of water. The product of two amino acids joining is a dipeptide.",
-      "note": "Condensation releases water. Adding water to break the bond is hydrolysis — getting these the wrong way round is a constant one-mark loss.",
-      "tags": ["core", "structure"]
+      "note": "Condensation releases water. Adding water to break the bond is hydrolysis — getting these backwards is a constant one-mark loss.",
+      "tags": [
+        "core",
+        "structure"
+      ]
     },
     {
       "id": "B1.2-03",
       "q": "A polypeptide contains 150 amino acids. How many peptide bonds does it have, and how many water molecules were released making it?",
       "a": "149 peptide bonds, and 149 water molecules released. Each condensation joins one more amino acid to the chain and releases one water, so a chain of n amino acids has n minus 1 bonds.",
-      "tags": ["core", "application"]
+      "tags": [
+        "core",
+        "application"
+      ]
     },
     {
       "id": "B1.2-04",
       "q": "Distinguish between essential and non-essential amino acids, and say why the distinction matters in a diet.",
-      "a": "Essential amino acids cannot be synthesised by the body and must be obtained from food. Non-essential amino acids can be synthesised from other compounds. The distinction matters because a diet short of any essential amino acid limits protein synthesis, regardless of how much total protein is eaten.",
-      "note": "'Essential' means 'cannot be made', not 'most important'. All twenty are needed.",
-      "tags": ["core", "diet"]
+      "a": "Essential amino acids can’t be synthesized by the body and must be obtained from food. Non-essential amino acids can be synthesized from other compounds. The distinction matters because a diet short of any essential amino acid limits protein synthesis, regardless of how much total protein is eaten.",
+      "note": "'Essential' means 'can’t be made', not 'most important'. All twenty are needed.",
+      "tags": [
+        "core",
+        "diet"
+      ]
     },
     {
       "id": "B1.2-05",
       "q": "Explain why the number of possible polypeptides is effectively unlimited.",
       "a": "Any of the 20 amino acids can occupy any position in the chain, and chains can be any length. For a chain of n amino acids the number of possible sequences is 20 to the power of n, which becomes astronomically large even for short chains.",
-      "tags": ["core", "diversity"]
+      "tags": [
+        "core",
+        "diversity"
+      ]
     },
     {
       "id": "B1.2-06",
-      "q": "Define denaturation, and state precisely what is and is not broken.",
-      "a": "Denaturation is the disruption of a protein's three-dimensional conformation, causing loss of function. The hydrogen bonds, ionic bonds and hydrophobic interactions holding the folded shape are disrupted. Peptide bonds are not broken, so the primary structure remains intact. Denaturation may be reversible or irreversible depending on severity.",
+      "q": "Define denaturation, and state precisely what is and isn’t broken.",
+      "a": "Denaturation is the disruption of a protein's three-dimensional conformation, causing loss of function. The hydrogen bonds, ionic bonds and hydrophobic interactions holding the folded shape are disrupted. Peptide bonds aren’t broken, so the primary structure remains intact. Denaturation may be reversible or irreversible depending on severity.",
       "note": "Three separate marking points hide in here: shape lost, function lost, peptide bonds intact.",
-      "tags": ["core", "denaturation"]
+      "tags": [
+        "core",
+        "denaturation"
+      ]
     },
     {
       "id": "B1.2-07",
       "q": "Explain how a change in pH denatures a protein, at the level of the bonds involved.",
       "a": "A change in pH alters the charges on the R groups of amino acids, because acidic and basic R groups gain or lose hydrogen ions. Ionic bonds between oppositely charged R groups are therefore disrupted, and hydrogen bonding is affected, so the tertiary structure changes and function is lost.",
-      "tags": ["core", "denaturation"]
+      "tags": [
+        "core",
+        "denaturation"
+      ]
     },
     {
       "id": "B1.2-08",
       "q": "Explain how high temperature denatures a protein.",
-      "a": "Increased temperature increases the kinetic energy and vibration of the molecule. This disrupts the relatively weak hydrogen bonds, ionic bonds and hydrophobic interactions holding the tertiary structure, so the protein unfolds and loses its functional shape. The covalent peptide bonds are not broken.",
-      "tags": ["core", "denaturation"]
+      "a": "Increased temperature increases the kinetic energy and vibration of the molecule. This disrupts the relatively weak hydrogen bonds, ionic bonds and hydrophobic interactions holding the tertiary structure, so the protein unfolds and loses its functional shape. The covalent peptide bonds aren’t broken.",
+      "tags": [
+        "core",
+        "denaturation"
+      ]
     },
     {
       "id": "B1.2-09",
       "q": "What is primary structure, and why does it determine everything else about the protein?",
       "a": "Primary structure is the sequence of amino acids in a polypeptide, joined by peptide bonds. It determines the final conformation because the sequence fixes which R groups are present and where they sit relative to one another, and therefore which interactions can form as the chain folds.",
       "note": "HL. 'The sequence determines the shape' is the sentence the whole topic rests on.",
-      "tags": ["hl", "structure"]
+      "tags": [
+        "hl",
+        "structure"
+      ]
     },
     {
       "id": "B1.2-10",
       "q": "Describe secondary structure, naming both forms and the bonds that hold them. Be precise about where those bonds form.",
-      "a": "Secondary structure is regular, repeating folding of the polypeptide into an alpha helix (coiling) or a beta pleated sheet (pleating). Both are stabilised by hydrogen bonds between the carboxyl group of one amino acid and the amine group of another along the polypeptide backbone. R groups are not involved.",
+      "a": "Secondary structure is regular, repeating folding of the polypeptide into an alpha helix (coiling) or a beta pleated sheet (pleating). Both are stabilized by hydrogen bonds between the carboxyl group of one amino acid and the amine group of another along the polypeptide backbone. R groups aren’t involved.",
       "note": "HL. Backbone, not R groups. This is the single most common confusion in the topic.",
-      "tags": ["hl", "structure", "trap"]
+      "tags": [
+        "hl",
+        "structure",
+        "trap"
+      ]
     },
     {
       "id": "B1.2-11",
       "q": "Name all four interactions that hold tertiary structure, and say what they form between.",
       "a": "All four form between R groups: hydrogen bonds between polar R groups; ionic bonds between oppositely charged R groups; disulfide covalent bonds between two cysteine R groups; and hydrophobic interactions between non-polar R groups. Together they fold one polypeptide into its specific three-dimensional shape.",
       "note": "HL. Four of them, all between R groups. If only three come to mind, the missing one is usually disulfide.",
-      "tags": ["hl", "structure"]
+      "tags": [
+        "hl",
+        "structure"
+      ]
     },
     {
       "id": "B1.2-12",
       "q": "Where do polar and non-polar R groups end up in a protein dissolved in water, and why? What changes in a membrane protein?",
       "a": "In an aqueous environment, non-polar R groups are positioned mainly in the interior and polar R groups on the surface. This is because water bonds preferentially with itself and with polar groups, leaving the non-polar ones excluded and clustered inside. In a membrane protein the arrangement is reversed where the protein spans the bilayer: non-polar R groups face outwards into the hydrophobic core.",
       "note": "HL. Nothing pushes the non-polar groups inward — they are excluded. Same mechanism as A1.1.",
-      "tags": ["hl", "structure"]
+      "tags": [
+        "hl",
+        "structure"
+      ]
     },
     {
       "id": "B1.2-13",
       "q": "What is quaternary structure, and what makes a protein conjugated rather than non-conjugated?",
       "a": "Quaternary structure is the association of two or more polypeptides into a single functional protein. A non-conjugated protein consists of polypeptides only. A conjugated protein also contains a non-polypeptide prosthetic group; haemoglobin is the standard example, with four polypeptides and four haem groups.",
       "note": "HL. Not every protein has quaternary structure — only those with more than one chain.",
-      "tags": ["hl", "structure"]
+      "tags": [
+        "hl",
+        "structure"
+      ]
     },
     {
       "id": "B1.2-14",
       "q": "Compare fibrous and globular proteins across shape, solubility, sequence and role, with an example of each.",
       "a": "Fibrous proteins are long and narrow with a repetitive amino acid sequence, are largely insoluble in water, and have structural roles — collagen and keratin. Globular proteins are rounded and compact with an irregular sequence, are soluble in water, and have functional roles such as catalysis or transport — enzymes and haemoglobin.",
-      "tags": ["hl", "comparison"]
+      "tags": [
+        "hl",
+        "comparison"
+      ]
     },
     {
       "id": "B1.2-15",
       "q": "Why can twenty amino acids produce proteins as different as keratin and an enzyme?",
-      "a": "Because the R groups differ chemically — in size, charge, polarity and reactivity. The backbone is identical in every amino acid, so it is the R groups that determine which interactions form during folding, and therefore the shape and properties of the finished protein. Different sequences of R groups give completely different molecules from the same set of building blocks.",
-      "tags": ["hl", "diversity"]
+      "a": "Because the R groups differ chemically — in size, charge, polarity and reactivity. The backbone is identical in every amino acid, so it’s the R groups that determine which interactions form during folding, and therefore the shape and properties of the finished protein. Different sequences of R groups give completely different molecules from the same set of building blocks.",
+      "tags": [
+        "hl",
+        "diversity"
+      ]
     },
     {
       "id": "B1.2-16",
       "q": "Someone writes: 'Boiling an egg denatures the proteins by breaking the peptide bonds.' What is wrong, and what is right?",
-      "a": "Peptide bonds are covalent and are not broken by heat. What heat disrupts are the weaker hydrogen bonds, ionic bonds and hydrophobic interactions holding the tertiary structure. The protein unfolds and loses function, but the primary structure is unchanged. In this case the denaturation happens to be irreversible.",
-      "tags": ["core", "misconception"]
+      "a": "Peptide bonds are covalent and aren’t broken by heat. What heat disrupts are the weaker hydrogen bonds, ionic bonds and hydrophobic interactions holding the tertiary structure. The protein unfolds and loses function, but the primary structure is unchanged. In this case the denaturation happens to be irreversible.",
+      "tags": [
+        "core",
+        "misconception"
+      ]
     },
     {
       "id": "B1.2-17",
       "q": "Build the four levels of protein structure from memory: name each, and name what holds it.",
       "a": "Primary: the sequence of amino acids, joined by peptide bonds. Secondary: alpha helix or beta pleated sheet, held by hydrogen bonds between backbone amine and carboxyl groups. Tertiary: the three-dimensional shape of one polypeptide, held by hydrogen bonds, ionic bonds, disulfide covalent bonds and hydrophobic interactions between R groups. Quaternary: two or more polypeptides associating, held by the same kinds of R group interaction, and present only in multi-chain proteins.",
       "note": "HL. The synthesis card. If you can produce this one cleanly, most of B1.2 is yours.",
-      "tags": ["hl", "structure", "summary"]
+      "tags": [
+        "hl",
+        "structure",
+        "summary"
+      ]
     }
   ]
 }

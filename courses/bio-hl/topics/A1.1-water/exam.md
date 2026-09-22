@@ -1,6 +1,6 @@
 # A1.1 Water — exam practice
 
-> Write each answer before revealing the mark scheme. A point that looked familiar after the reveal was not recalled and did not score.
+> Write each answer before revealing the mark scheme. A point that looked familiar after the reveal wasn’t recalled and didn’t score.
 
 ## Q1. Explain why a water molecule is polar. **[3]**
 
@@ -10,7 +10,7 @@
 - Oxygen has a partial negative charge and the hydrogen atoms have partial positive charges. **[1]**
 - Water is bent / the bond dipoles do not cancel, producing separate partially charged regions. **[1]**
 
-_Examiner note: "oxygen is negative" is too loose. Full marks require partial charges and the reason the two bond dipoles do not cancel._
+_Examiner note: "oxygen is negative" is too loose. Full marks require partial charges and the reason the two bond dipoles don’t cancel._
 
 ## Q2. Distinguish cohesion from adhesion and give one biological example of each. **[4]**
 
@@ -21,7 +21,7 @@ _Examiner note: "oxygen is negative" is too loose. Full marks require partial ch
 - Adhesion is attraction between different substances / between water and a polar or charged surface. **[1]**
 - accept: adhesion allows water to cling to cellulose xylem walls / contributes to capillary movement in narrow spaces. **[1]**
 
-_Examiner note: examples alone do not distinguish the terms. The answer must identify what is attracted to what on both sides of the comparison._
+_Examiner note: examples alone don’t distinguish the terms. The answer must identify what is attracted to what on both sides of the comparison._
 
 ## Q3. Explain how the properties of water contribute to transport from roots to leaves in a tall plant. **[4]**
 
@@ -57,7 +57,7 @@ _Examiner note: every difference must be comparative. "Water is viscous" states 
 - Higher-energy water molecules leave the liquid as vapor. **[1]**
 - Energy is removed from the surface / the mean kinetic energy and temperature of the remaining liquid decrease. **[1]**
 
-_Examiner note: high specific heat capacity does not explain evaporation. The answer must name latent heat of vaporization and show where the energy goes._
+_Examiner note: high specific heat capacity doesn’t explain evaporation. The answer must name latent heat of vaporization and show where the energy goes._
 
 ## Q6. Suggest why liquid water is used as an indicator of potential habitability when searching for extraterrestrial life. **[3]**
 
@@ -67,4 +67,4 @@ _Examiner note: high specific heat capacity does not explain evaporation. The an
 - Liquid water allows dissolved substances to move and react / supports transport and biochemical reactions. **[1]**
 - Its presence indicates that one condition for life as we know it may be met, but does not prove that life is present. **[1]**
 
-_Examiner note: the limiting sentence earns the third mark. Water supports a possibility; it is not direct evidence of organisms._
+_Examiner note: the limiting sentence earns the third mark. Water supports a possibility; it’s not direct evidence of organisms._

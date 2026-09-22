@@ -1,8 +1,8 @@
-# C1.2 Cell respiration — what you have to be able to do
+# C1.2 Cell respiration — what you’ve to be able to do
 
 ## Core
 
-- [ ] Explain **ATP as the energy currency**: it is the molecule cells actually
+- [ ] Explain **ATP as the energy currency**: it’s the molecule cells actually
       spend, it releases usable energy when the terminal phosphate is removed,
       and it can be regenerated from ADP and phosphate.
 - [ ] Give processes ATP supplies: active transport, protein synthesis, muscle
@@ -24,7 +24,7 @@
       gain of 2 ATP, 2 reduced NAD, no oxygen required.
 - [ ] Explain why **pyruvate is converted to lactate** in anaerobic conditions:
       to regenerate NAD so that glycolysis can continue.
-- [ ] Describe the **link reaction**: pyruvate is decarboxylated and oxidised in
+- [ ] Describe the **link reaction**: pyruvate is decarboxylated and oxidized in
       the mitochondrial matrix to form acetyl CoA, releasing CO2 and reducing NAD.
 - [ ] Describe the **Krebs cycle**: in the matrix, a series of oxidations and
       decarboxylations, producing CO2, reduced NAD, reduced FAD, and ATP.
@@ -34,7 +34,7 @@
 - [ ] Explain **chemiosmosis**: the proton gradient drives protons back through
       ATP synthase, and that flow phosphorylates ADP to ATP.
 - [ ] Explain the role of **oxygen as the terminal electron acceptor**, and what
-      happens to the whole chain when it is absent.
+      happens to the whole chain when it’s absent.
 - [ ] Compare **lipids and carbohydrates as respiratory substrates**: lipids
       yield more energy per gram because they are more reduced (more hydrogen
       per carbon), but carbohydrates are released faster and can be respired
@@ -42,7 +42,7 @@
 
 ## Links to other topics
 
-- **C1.1 Enzymes** — every step here is enzyme-catalysed; rate questions pull
+- **C1.1 Enzymes** — every step here is enzyme-catalyzed; rate questions pull
   straight from C1.1.
 - **B2.2 Organelles** — the inner membrane's folding into cristae is surface
   area for the electron transport chain. Structure serving function.
@@ -52,7 +52,7 @@
 
 ## Vocabulary that has to be exact
 
-| Term | What it means | What it is not |
+| Term | What it means | What it’s not |
 | --- | --- | --- |
 | Cell respiration | Releasing energy from organic compounds to make ATP | Breathing / gas exchange |
 | Oxidation | Loss of electrons / loss of hydrogen | Reaction with oxygen only |

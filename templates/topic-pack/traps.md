@@ -6,6 +6,6 @@
 
 **Commonly written:** _the near-miss answer._
 
-**Why it does not score:** _the specific thing the mark scheme wanted._
+**Why it doesn’t score:** _the specific thing the mark scheme wanted._
 
 **Scores instead:** _the version that gets the mark._

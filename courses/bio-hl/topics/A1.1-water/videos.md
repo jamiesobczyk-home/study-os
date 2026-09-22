@@ -14,20 +14,20 @@ Alex Lee organizes the course by the current IB topic codes, so start with the e
 **Watch for:**
 
 - Why oxygen attracts the shared electrons more strongly than hydrogen does.
-- Why the two O–H bond dipoles do not cancel in a bent molecule.
+- Why the two O–H bond dipoles don’t cancel in a bent molecule.
 - How the explanation moves from hydrogen bonding to cohesion, adhesion and thermal properties.
 - Which property of water explains each biological example, rather than memorizing the example alone.
 
 **Pause at:** the first labelled water molecule. Hide the labels, draw its shape, add δ− and δ+ in the correct places, and explain aloud why the whole molecule is polar but not charged.
 
-## If that did not land
+## If that didn’t land
 
 **Khan Academy — hydrogen bonding and water**
 
 - Channel: <https://www.youtube.com/@khanacademy> — verified
 - Search: <https://www.youtube.com/results?search_query=Khan+Academy+hydrogen+bonding+water+properties>
 
-Use this if the chemistry under polarity and hydrogen bonding is the part you cannot yet reproduce.
+Use this if the chemistry under polarity and hydrogen bonding is the part you can’t yet reproduce.
 
 **Amoeba Sisters — properties of water**
 

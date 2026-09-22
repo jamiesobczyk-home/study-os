@@ -1,4 +1,4 @@
-# B1.2 Proteins — what you have to be able to do
+# B1.2 Proteins — what you’ve to be able to do
 
 > Each line is a thing you should be able to *do* with the page closed.
 > Note how short the Core list is and how long the Higher level one is. That
@@ -14,8 +14,8 @@
       and releasing one molecule of water. The product is a dipeptide.
 - [ ] Extend that to **polypeptides**: repeated condensation joins many amino
       acids into a chain, releasing one water per bond formed.
-- [ ] Explain **dietary requirements for amino acids**: some amino acids cannot
-      be synthesised by the body and must be obtained from food (essential);
+- [ ] Explain **dietary requirements for amino acids**: some amino acids can’t
+      be synthesized by the body and must be obtained from food (essential);
       the rest can be made from other compounds (non-essential). A diet short
       of an essential amino acid limits protein synthesis.
 - [ ] Explain why the **variety of possible peptide chains is effectively
@@ -36,13 +36,13 @@
       diversity: R groups differ in size, charge, polarity and reactivity, so
       the same backbone supports enormously different molecules.
 - [ ] Define **primary structure** — the sequence of amino acids in a
-      polypeptide — and explain that it determines the final conformation,
+      polypeptide, and explain that it determines the final conformation,
       because it fixes which R groups can interact and where.
 - [ ] Describe **secondary structure**: the alpha helix (coiling) and beta
-      pleated sheet (pleating), both stabilised by **hydrogen bonds between the
+      pleated sheet (pleating), both stabilized by **hydrogen bonds between the
       amine and carboxyl groups of the backbone**, not between R groups.
 - [ ] Describe **tertiary structure** — the overall three-dimensional shape of
-      one polypeptide — and name the four interactions between **R groups**
+      one polypeptide, and name the four interactions between **R groups**
       that hold it: hydrogen bonds, ionic bonds, disulfide covalent bonds
       (between two cysteines), and hydrophobic interactions.
 - [ ] Explain the **effect of polar and non-polar amino acids** on tertiary
@@ -74,7 +74,7 @@
 
 ## Vocabulary that has to be exact
 
-| Term | What it means | What it is not |
+| Term | What it means | What it’s not |
 | --- | --- | --- |
 | Peptide bond | Covalent bond between amino acids, formed by condensation | A hydrogen bond. It survives denaturation |
 | Primary structure | The **sequence** of amino acids | The shape |
@@ -83,4 +83,4 @@
 | Quaternary structure | **Two or more** polypeptides in one functional protein | Present in every protein |
 | Conjugated protein | Contains a non-polypeptide prosthetic group | Any protein with more than one chain |
 | Denaturation | Loss of 3D conformation and function | Breaking the polypeptide into amino acids |
-| Essential amino acid | Cannot be synthesised; must come from the diet | More important than the others |
+| Essential amino acid | Can’t be synthesized; must come from the diet | More important than the others |

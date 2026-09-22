@@ -41,8 +41,8 @@ Comparative statements. Maximum [4]:
 - Secondary structure is regular repeating folding (alpha helix or beta pleated
   sheet) whereas tertiary structure is the overall three-dimensional shape of
   the whole polypeptide. **[1]**
-- Secondary structure is stabilised by hydrogen bonds between backbone amine
-  and carboxyl groups, whereas tertiary structure is stabilised by interactions
+- Secondary structure is stabilized by hydrogen bonds between backbone amine
+  and carboxyl groups, whereas tertiary structure is stabilized by interactions
   between R groups. **[1]**
 - Tertiary structure involves four types of interaction — hydrogen bonds, ionic
   bonds, disulfide covalent bonds and hydrophobic interactions — whereas
@@ -101,5 +101,5 @@ scores nothing on its own._
 - Example: haemoglobin, which contains haem groups. **[1]**
 
 _Examiner note: "state" wants two sentences at most. A protein with more than
-one chain is not automatically conjugated — that is quaternary structure, which
+one chain isn’t automatically conjugated — that’s quaternary structure, which
 is a different idea._

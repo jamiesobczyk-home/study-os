@@ -1,6 +1,6 @@
 # B1.2 Proteins — where the marks go
 
-> Each entry is a near-miss: what gets written, why it does not score, and the
+> Each entry is a near-miss: what gets written, why it doesn’t score, and the
 > version that does.
 
 ## Saying secondary structure is held by R group interactions
@@ -8,7 +8,7 @@
 **Commonly written:** "The alpha helix is held together by bonds between the R
 groups."
 
-**Why it does not score:** Secondary structure is stabilised by hydrogen bonds
+**Why it doesn’t score:** Secondary structure is stabilized by hydrogen bonds
 between the **amine and carboxyl groups of the backbone**. R group interactions
 are what hold **tertiary** structure. Getting this backwards collapses the two
 levels into one and loses marks in both.
@@ -22,9 +22,9 @@ producing an alpha helix or beta pleated sheet."
 **Commonly written:** "Heating denatures the protein by breaking the bonds
 between the amino acids."
 
-**Why it does not score:** Peptide bonds are covalent and are not broken by
+**Why it doesn’t score:** Peptide bonds are covalent and aren’t broken by
 heat or pH change. What breaks are the weaker interactions holding the folded
-shape. The primary structure survives denaturation intact — which is exactly
+shape. The primary structure survives denaturation intact, which is exactly
 why denaturation is sometimes reversible.
 
 **Scores instead:** "Heat disrupts the hydrogen bonds, ionic bonds and
@@ -35,7 +35,7 @@ conformation. The peptide bonds and primary structure are unaffected."
 
 **Commonly written:** "Denaturation is permanent."
 
-**Why it does not score:** The syllabus says it may be reversible or
+**Why it doesn’t score:** The syllabus says it may be reversible or
 irreversible. A protein denatured mildly can sometimes refold, because the
 primary structure that determines the shape is still there.
 
@@ -47,7 +47,7 @@ on the severity of the change."
 **Commonly written:** "Primary is the sequence, secondary is the helix,
 tertiary is the 3D shape, quaternary is more than one chain."
 
-**Why it does not score:** That is a list of labels. Questions on this topic
+**Why it doesn’t score:** That’s a list of labels. Questions on this topic
 almost always ask what **holds** each level, and a labels-only answer scores at
 the bottom of the band.
 
@@ -59,7 +59,7 @@ R groups for tertiary.
 
 **Commonly written:** "All proteins have four levels of structure."
 
-**Why it does not score:** Quaternary structure exists only where two or more
+**Why it doesn’t score:** Quaternary structure exists only where two or more
 polypeptides associate. A protein made of a single polypeptide has no
 quaternary structure at all.
 
@@ -71,12 +71,12 @@ more than one polypeptide, such as haemoglobin."
 **Commonly written:** "Non-polar R groups are pushed into the centre because
 water repels them."
 
-**Why it does not score:** Nothing pushes. Water molecules bond preferentially
+**Why it doesn’t score:** Nothing pushes. Water molecules bond preferentially
 with each other and with polar R groups, which leaves the non-polar ones
 excluded and therefore clustered inside. This is the same mechanism as in A1.1,
 and examiners treat "repelled" as a misunderstanding rather than loose wording.
 
-**Scores instead:** "Non-polar R groups cannot form hydrogen bonds with water,
+**Scores instead:** "Non-polar R groups can’t form hydrogen bonds with water,
 so water associates with itself and with polar R groups instead, leaving the
 non-polar groups clustered in the interior."
 
@@ -84,18 +84,18 @@ non-polar groups clustered in the interior."
 
 **Commonly written:** "Essential amino acids are the ones the body needs most."
 
-**Why it does not score:** "Essential" is about synthesis, not importance. All
-twenty are needed. Essential ones are simply those the body cannot make, so
+**Why it doesn’t score:** "Essential" is about synthesis, not importance. All
+twenty are needed. Essential ones are simply those the body can’t make, so
 they must come from the diet.
 
-**Scores instead:** "Essential amino acids cannot be synthesised by the body
-and must be obtained from the diet; non-essential ones can be synthesised."
+**Scores instead:** "Essential amino acids can’t be synthesized by the body
+and must be obtained from the diet; non-essential ones can be synthesized."
 
-## Getting condensation and hydrolysis the wrong way round
+## Getting condensation and hydrolysis backwards
 
 **Commonly written:** "Water is added to join two amino acids."
 
-**Why it does not score:** Condensation **releases** water as the bond forms.
+**Why it doesn’t score:** Condensation **releases** water as the bond forms.
 Adding water breaks the bond, which is hydrolysis. One word, one mark, and it
 is lost constantly.
 

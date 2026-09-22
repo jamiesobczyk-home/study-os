@@ -5,7 +5,7 @@
  * labels are load-bearing: the quiz mode turns them into questions, and the
  * video pipeline turns them into scenes. `study check` enforces their presence.
  */
-export const TRAP_LABELS = ['Commonly written', 'Why it does not score', 'Scores instead'];
+export const TRAP_LABELS = ['Commonly written', 'Why it doesn’t score', 'Scores instead'];
 
 /** Collapse the hard wrapping used in some packs into single-line prose. */
 const unwrap = (s) => s.replace(/\s*\n\s*/g, ' ').trim();
@@ -36,7 +36,7 @@ export const parseTraps = (markdown) => {
         index: i + 1,
         heading,
         commonlyWritten: parts['Commonly written'] || '',
-        whyItFails: parts['Why it does not score'] || '',
+        whyItFails: parts['Why it doesn’t score'] || '',
         scoresInstead: parts['Scores instead'] || '',
         complete: missing.length === 0,
         missing,
