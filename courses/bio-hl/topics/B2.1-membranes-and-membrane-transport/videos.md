@@ -24,12 +24,14 @@ Alex Lee organizes Biology around the current IB topic codes, so begin with the 
 
 **Amoeba Sisters — cell membrane and cell transport**
 
+- Channel: <https://www.youtube.com/@AmoebaSisters> — verified
 - Search: <https://www.youtube.com/results?search_query=Amoeba+Sisters+cell+membrane+transport>
 
 Use this if the passive-versus-active distinction is still blurred. When it ends, test recall rather than opening a third explanation.
 
 **Khan Academy — membrane transport**
 
+- Channel: <https://www.youtube.com/@khanacademy> — verified
 - Search: <https://www.youtube.com/results?search_query=Khan+Academy+membrane+transport+diffusion+active+transport>
 
 Use this if you need the concentration-gradient reasoning developed more slowly.

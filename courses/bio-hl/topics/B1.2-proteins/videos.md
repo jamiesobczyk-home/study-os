@@ -35,6 +35,7 @@ R group interactions out loud. If the fourth does not come, rewind.
 
 **Amoeba Sisters — Biomolecules / Protein structure**
 
+- Channel: <https://www.youtube.com/@AmoebaSisters> — verified
 - Find it: <https://www.youtube.com/results?search_query=Amoeba+Sisters+protein+structure+amino+acids>
 
 Not HL depth, but if amino acids and condensation themselves are the problem,

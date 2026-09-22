@@ -24,12 +24,14 @@ Alex Lee organizes the course by the current IB topic codes, so start with the e
 
 **Khan Academy — hydrogen bonding and water**
 
+- Channel: <https://www.youtube.com/@khanacademy> — verified
 - Search: <https://www.youtube.com/results?search_query=Khan+Academy+hydrogen+bonding+water+properties>
 
 Use this if the chemistry under polarity and hydrogen bonding is the part you cannot yet reproduce.
 
 **Amoeba Sisters — properties of water**
 
+- Channel: <https://www.youtube.com/@AmoebaSisters> — verified
 - Search: <https://www.youtube.com/results?search_query=Amoeba+Sisters+properties+of+water>
 
 Use this for a shorter biological explanation. When it ends, return to recall instead of opening a third video.
