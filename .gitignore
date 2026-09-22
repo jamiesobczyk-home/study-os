@@ -10,3 +10,6 @@ node_modules/
 
 # Video build output — regenerate with video/build/scenes.mjs
 video/out/
+
+# Stray screenshots from browser test runs
+/q-*.png
