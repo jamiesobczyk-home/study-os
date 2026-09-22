@@ -141,6 +141,18 @@ Why it is built this way, and why step 2 feels awful: **[docs/method.md](docs/me
     progress/              his study history, per course
     .claude/skills/        how Claude should build a topic pack
 
+## If `index.html` ever conflicts
+
+It is generated, so never resolve it by hand:
+
+    study build
+    git add index.html
+
+Git is told not to merge it (`.gitattributes`), so it will never contain merge
+markers — it just reports the conflict and waits for a rebuild. If a damaged
+copy does reach a browser, the page says so and tells you to rebuild instead of
+looking subtly wrong.
+
 ## State of the content
 
 The **framework is complete**. The **content is three topics of forty.**

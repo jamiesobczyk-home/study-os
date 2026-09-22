@@ -23,7 +23,7 @@ import {
   findTopic, hasPack, listCourses, loadCards, loadCourse, loadSyllabus, readPackFile,
 } from './lib/syllabus.mjs';
 import * as progress from './lib/progress.mjs';
-import { checkPack } from './lib/check.mjs';
+import { checkPack, repoIssues } from './lib/check.mjs';
 import { buildPrompt } from './lib/prompt.mjs';
 import { packLinks, checkLink } from './lib/links.mjs';
 import { build as buildWeb } from './build-web.mjs';
@@ -422,6 +422,15 @@ const cmdCheck = (ctx, code) => {
   }
 
   console.log(heading(`Checking ${topics.length} pack${topics.length === 1 ? '' : 's'}`));
+
+  // Repo-wide problems first: a file with merge markers makes everything below
+  // it untrustworthy.
+  const repo = repoIssues();
+  for (const problem of repo) {
+    console.log(`  ${red('FAIL')}  ${problem}`);
+  }
+  if (repo.length) console.log('');
+
   let failed = 0;
   let warned = 0;
 
@@ -441,6 +450,10 @@ const cmdCheck = (ctx, code) => {
   const stale = webBuildStale(ctx);
   if (stale) {
     console.log(`  ${yellow('index.html is out of date')} — ${stale}. Run \`study build\`.`);
+  }
+  if (repo.length) {
+    console.log(`  ${red(`${repo.length} file${repo.length === 1 ? '' : 's'} with merge markers`)} — fix these first.`);
+    process.exitCode = 1;
   }
   if (failed) {
     console.log(`  ${red(`${failed} pack${failed === 1 ? '' : 's'} with errors`)} — these will not work correctly until fixed.`);

@@ -3,6 +3,34 @@
 (function () {
   'use strict';
 
+  /* A generated file that git has tried to merge looks healthy and is not:
+     one half supplies the code, the other a stale data payload, and a feature
+     quietly renders as empty. Say so plainly instead. */
+  function showDamaged(reason) {
+    document.body.innerHTML =
+      '<main class="wrap"><div class="damaged">' +
+      '<h1>This file is damaged</h1>' +
+      '<p>' + reason + '</p>' +
+      '<p>Rebuild it with <code>study build</code>, or use the live version:</p>' +
+      '<p><a href="https://jamiesobczyk-home.github.io/study-os/">' +
+      'jamiesobczyk-home.github.io/study-os</a></p>' +
+      '</div></main>';
+  }
+
+  /* Merge markers usually land *after* this script in the document, so the
+     scan cannot run now — document.body is still being parsed. It runs at
+     boot() instead. This early check only catches a payload that failed to
+     parse, which would otherwise throw on the next line. */
+  if (!window.__STUDY_DATA__ || !window.__STUDY_DATA__.topics) {
+    showDamaged('Its course data is missing or could not be read.');
+    return;
+  }
+
+  function markersInDocument() {
+    var text = (document.body && document.body.textContent) || '';
+    return /(^|\n)\s*(<{7} |>{7} |={7}\s*$)/.test(text);
+  }
+
   var DATA = window.__STUDY_DATA__;
   var KEY = 'study-os:' + DATA.course.id + ':v1';
   var BOX_DAYS = { 1: 1, 2: 3, 3: 7, 4: 16, 5: 35 };
@@ -796,6 +824,17 @@
     go(t.getAttribute('data-go'), t.getAttribute('data-code') || '');
   });
 
-  window.addEventListener('hashchange', route);
-  route();
+  function boot() {
+    if (markersInDocument()) {
+      return showDamaged('It contains unresolved merge markers, so parts of it are out of date.');
+    }
+    window.addEventListener('hashchange', route);
+    route();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
 })();

@@ -1,9 +1,48 @@
+import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { topicDir, progressFile } from './paths.mjs';
+import { ROOT, topicDir, progressFile } from './paths.mjs';
 import { driftedCards } from './history.mjs';
 import { loadCourse } from './syllabus.mjs';
 import { parseTraps } from './traps.mjs';
+
+const MARKER = /(^|\n)(<{7} |>{7} |={7}\s*$)/;
+
+/**
+ * Repo-wide checks that are not about any one pack.
+ *
+ * Conflict markers are the case worth catching: a spliced generated file looks
+ * healthy and serves stale content, and a spliced pack file corrupts study
+ * material just as quietly.
+ */
+export const repoIssues = () => {
+  const errors = [];
+  let files = [];
+  try {
+    files = execFileSync('git', ['ls-files', '-z'], {
+      cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'],
+    }).split('\0').filter(Boolean);
+  } catch {
+    return errors; // no git, nothing to check against
+  }
+
+  for (const rel of files) {
+    if (/\.(png|jpg|jpeg|gif|ico|woff2?|mp4|pdf)$/i.test(rel)) continue;
+    const abs = join(ROOT, rel);
+    if (!existsSync(abs)) continue;
+    let body;
+    try { body = readFileSync(abs, 'utf8'); } catch { continue; }
+    if (MARKER.test(body)) {
+      errors.push(
+        `${rel} contains unresolved merge markers` +
+        (rel === 'index.html'
+          ? ' — run `study build` to regenerate it, then `git add index.html`'
+          : ' — resolve them before this ships')
+      );
+    }
+  }
+  return errors;
+};
 
 /**
  * Structural checks for a topic pack. These catch the ways generated content

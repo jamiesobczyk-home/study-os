@@ -170,3 +170,13 @@ blockquote.wrote {
 .verdict-box p { margin: 0 0 10px; }
 .verdict-box p:last-of-type { margin-bottom: 0; }
 @media (max-width: 480px) { .opt { padding: 12px 13px; font-size: 15px; } }
+
+/* Shown in place of the app when the file itself is broken. */
+.damaged {
+  max-width: 34rem; margin: 12vh auto 0; padding: 26px;
+  border: 1px solid var(--bad); border-left-width: 5px; border-radius: var(--radius);
+  background: var(--panel);
+}
+.damaged h1 { color: var(--bad); margin-bottom: 14px; }
+.damaged p { margin: 0 0 12px; }
+.damaged p:last-child { margin-bottom: 0; }
