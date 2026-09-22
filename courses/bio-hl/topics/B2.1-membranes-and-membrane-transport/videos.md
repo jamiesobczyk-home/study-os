@@ -6,8 +6,8 @@ Watch **one** main video, close it, and rebuild the membrane and transport table
 
 **Alex Lee Biology — B2.1 Membranes and membrane transport**
 
-- Channel: <https://www.youtube.com/@AlexLeeBiology>
-- Search: <https://www.youtube.com/results?search_query=Alex+Lee+IB+Biology+B2.1+membranes+membrane+transport>
+- Channel: <https://www.youtube.com/@misterleescience> — verified
+- Search: <https://www.youtube.com/results?search_query=Mister+Lee+Science+B2.1+membranes+membrane+transport>
 
 Alex Lee organizes Biology around the current IB topic codes, so begin with the explanation made for B2.1.
 
@@ -24,14 +24,12 @@ Alex Lee organizes Biology around the current IB topic codes, so begin with the 
 
 **Amoeba Sisters — cell membrane and cell transport**
 
-- Channel: <https://www.youtube.com/@AmoebaSisters>
 - Search: <https://www.youtube.com/results?search_query=Amoeba+Sisters+cell+membrane+transport>
 
 Use this if the passive-versus-active distinction is still blurred. When it ends, test recall rather than opening a third explanation.
 
 **Khan Academy — membrane transport**
 
-- Channel: <https://www.youtube.com/@khanacademy>
 - Search: <https://www.youtube.com/results?search_query=Khan+Academy+membrane+transport+diffusion+active+transport>
 
 Use this if you need the concentration-gradient reasoning developed more slowly.

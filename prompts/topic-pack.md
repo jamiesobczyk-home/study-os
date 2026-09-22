@@ -28,9 +28,11 @@ syllabus, first exams 2025).
    gets memorised just as efficiently and is not discovered until an exam. If
    you are not certain of a fact, leave it out. At the very end, list anything
    you were unsure about under a heading `UNCERTAIN` so a human can check it.
-2. **Never invent a URL.** Do not produce a YouTube video link. Use channel
-   pages and YouTube *search* URLs of the form
-   `https://www.youtube.com/results?search_query=...`, which cannot rot.
+2. **Never invent a URL.** Outside the `## Pinned` section, the only links you
+   may produce are YouTube *search* URLs of the form
+   `https://www.youtube.com/results?search_query=...`, which cannot rot. **No
+   channel URLs, no `@handles`, no video links** — those go stale or turn out
+   never to have existed, and a dead link is what ends a study session.
 3. **Never invent a page number** for any textbook.
 4. **Follow the file formats below exactly.** Your output is not just read by
    a person — it is parsed and rendered into a web app the student studies
@@ -80,8 +82,10 @@ Under `## Main`, include:
   watching.
 - **"Pause at:"** — one moment worth stopping on, and what to do when stopped.
 
-For IB Biology, Alex Lee (`https://www.youtube.com/@AlexLeeBiology`) is built
-against this exact syllabus topic by topic and is the default first suggestion.
+For IB Biology, Alex Lee's series is widely recommended by IB students and is
+reported to follow the 2023 syllabus topic by topic, so it is the default first
+suggestion — **but link to a search for it, never to a channel URL.** Channel
+handles change and cannot be verified from here.
 Amoeba Sisters, Khan Academy and Crash Course are useful as *different*
 explanations, not as repeats.
 

@@ -63,6 +63,15 @@
       "organisation": "Ordered by level (1 Molecules, 2 Cells, 3 Organisms, 4 Ecosystems) with the four themes inside each level, not by theme. So A1.1 and B1.1 sit near each other, while A1.1 and A2.1 are 55 pages apart. Find a topic by its code, not by flipping to 'the Theme A part'.",
       "questionSets": "Each theme-and-level group ends with a question set (A1 Questions, B2 Questions, and so on). Answers are published free at https://www.oxfordsecondary.com/ib-science-support \u2014 this is real exam practice at no cost, and `study exam` points at the relevant set.",
       "answersUrl": "https://www.oxfordsecondary.com/ib-science-support"
+    },
+    {
+      "id": "misterleescience",
+      "kind": "video-channel",
+      "title": "Mister Lee Science (Alex Lee)",
+      "url": "https://www.youtube.com/@misterleescience",
+      "verified": "2026-09-22, opened and confirmed by Jamie",
+      "role": "IB Biology videos organised by the 2023 syllabus topic codes. The default first suggestion for any topic.",
+      "note": "A previous handle guessed from the channel name (@AlexLeeBiology) did not exist and 404'd in front of the student. Only URLs recorded here as verified may appear outside a pack's Pinned section."
     }
   ],
   "resourcesNote": "Page ranges and question-set pages were transcribed from the book's contents page on 2026-09-21 and are in syllabus.json. Two topics are printed with different titles from the syllabus - see studyGuideTitle in syllabus.json."

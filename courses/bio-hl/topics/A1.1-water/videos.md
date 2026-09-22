@@ -6,8 +6,8 @@ Watch **one** main video. Then close it and write what you can produce from memo
 
 **Alex Lee Biology — A1.1 Water**
 
-- Channel: <https://www.youtube.com/@AlexLeeBiology>
-- Search: <https://www.youtube.com/results?search_query=Alex+Lee+IB+Biology+A1.1+Water>
+- Channel: <https://www.youtube.com/@misterleescience> — verified
+- Search: <https://www.youtube.com/results?search_query=Mister+Lee+Science+A1.1+Water>
 
 Alex Lee organizes the course by the current IB topic codes, so start with the explanation built for A1.1.
 
@@ -24,14 +24,12 @@ Alex Lee organizes the course by the current IB topic codes, so start with the e
 
 **Khan Academy — hydrogen bonding and water**
 
-- Channel: <https://www.youtube.com/@khanacademy>
 - Search: <https://www.youtube.com/results?search_query=Khan+Academy+hydrogen+bonding+water+properties>
 
 Use this if the chemistry under polarity and hydrogen bonding is the part you cannot yet reproduce.
 
 **Amoeba Sisters — properties of water**
 
-- Channel: <https://www.youtube.com/@AmoebaSisters>
 - Search: <https://www.youtube.com/results?search_query=Amoeba+Sisters+properties+of+water>
 
 Use this for a shorter biological explanation. When it ends, return to recall instead of opening a third video.

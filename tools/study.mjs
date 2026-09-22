@@ -25,6 +25,7 @@ import {
 import * as progress from './lib/progress.mjs';
 import { checkPack } from './lib/check.mjs';
 import { buildPrompt } from './lib/prompt.mjs';
+import { packLinks, checkLink } from './lib/links.mjs';
 import { build as buildWeb } from './build-web.mjs';
 import { bold, dim, blue, green, yellow, red, rule, para, heading } from './lib/ui.mjs';
 
@@ -503,6 +504,35 @@ const cmdBuild = (ctx) => {
   ));
 };
 
+const cmdLinks = async (ctx, code) => {
+  const topics = code
+    ? [requireTopic(ctx, code)]
+    : ctx.syllabus.topics.filter((t) => hasPack(ctx.course, t));
+  if (!topics.length) return console.log(para('\nNo packs to check.\n'));
+
+  console.log(heading('Checking every link in every pack'));
+  let bad = 0;
+  for (const topic of topics) {
+    const urls = packLinks(ctx.course, topic);
+    if (!urls.length) continue;
+    console.log(`\n  ${bold(topic.code)} ${dim(topic.title)}`);
+    const results = await Promise.all(urls.map((u) => checkLink(u)));
+    for (const r of results) {
+      if (!r.ok) bad += 1;
+      const tag = r.ok ? green(' ok ') : red('DEAD');
+      console.log(`    ${tag} ${dim(r.detail.padEnd(14))} ${r.url}`);
+    }
+  }
+  console.log(rule());
+  if (bad) {
+    console.log(`  ${red(`${bad} link${bad === 1 ? '' : 's'} broken`)} — fix before he hits one.`);
+    process.exitCode = 1;
+  } else {
+    console.log(`  ${green('Every link resolves and returns results.')}`);
+  }
+  console.log('');
+};
+
 const usage = () => {
   console.log(`
 ${bold('study')} — a video-first study system
@@ -515,6 +545,7 @@ ${bold('study')} — a video-first study system
   ${bold('list')}               every topic, and which have packs
   ${bold('new')} <topic>        scaffold a new topic pack
   ${bold('check')} [topic]      verify pack structure (all packs if omitted)
+  ${bold('links')} [topic]      fetch every video link and report dead ones
   ${bold('prompt')} <topic>     print a paste-ready pack prompt for another model
   ${bold('build')}              rebuild index.html, the browser version he studies from
 
@@ -545,6 +576,7 @@ const main = async () => {
     case 'exam': return cmdExam(ctx, code);
     case 'new': return cmdNew(ctx, code);
     case 'check': return cmdCheck(ctx, code);
+    case 'links': return cmdLinks(ctx, code);
     case 'prompt': return cmdPrompt(ctx, code, flags);
     case 'build': return cmdBuild(ctx);
     default:

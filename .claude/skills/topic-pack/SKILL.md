@@ -45,9 +45,14 @@ in `syllabus.json` — read them from there, and use `studyGuideTitle` when the
 book prints a different title from the syllabus (A4.2 and D4.2 do).
 
 **Never invent a URL.** A dead link on a Tuesday night is the thing that makes
-someone close the laptop. Link to channel pages and YouTube *search* URLs,
-which do not rot, and leave a "Pinned" section for real URLs once verified.
-Do not guess a video ID, ever.
+someone close the laptop. Outside `## Pinned`, use YouTube **search** URLs only
+(`https://www.youtube.com/results?search_query=...`) — they cannot rot. Do not
+write channel URLs or `@handles`: they change, and you cannot open one to check.
+`## Pinned` is where a human puts a real URL after opening it.
+
+This is not hypothetical. An invented `@AlexLeeBiology` handle shipped to the
+student and 404'd; `study check` now refuses any non-search YouTube link outside
+Pinned.
 
 ## The five files
 

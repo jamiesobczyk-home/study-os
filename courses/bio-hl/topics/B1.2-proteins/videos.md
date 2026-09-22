@@ -11,12 +11,14 @@
 
 **Alex Lee — B1.2 Proteins** (may be split across videos)
 
-- Channel: <https://www.youtube.com/@AlexLeeBiology>
-- Find it: <https://www.youtube.com/results?search_query=Alex+Lee+IB+Biology+B1.2+Proteins>
+- Channel: <https://www.youtube.com/@misterleescience> — verified
+- Find it: <https://www.youtube.com/results?search_query=Mister+Lee+Science+B1.2+Proteins>
 
-Alex Lee's series is built against this exact syllabus, topic code by topic
-code, which most biology channels are not. Because so much of B1.2 is HL, check
-he is covering the higher level material and not stopping at the SL statements.
+Alex Lee's IB Biology series is widely recommended by IB students and is
+reported to follow the 2023 syllabus topic by topic. Search rather than trusting
+a channel URL — handles change, and a dead link is what ends a study session.
+When you find the channel, paste it under Pinned. Because so much of B1.2 is HL,
+check he covers the higher level material and does not stop at the SL statements.
 
 Watch for:
 - **Which bonds hold which level.** This is the whole topic. Secondary is

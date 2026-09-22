@@ -41,8 +41,17 @@ once in `web/app.js` for the browser. Change one and you must change the other.
   disagrees with it, the book wins. Never cite a page number you were not
   given — `studyGuidePages` is `null` when unknown, and `null` does not mean
   guess.
-- **Never invent a URL.** Channel pages and search URLs only, unless you have
-  verified the link. A dead link is the thing that ends a study session.
+- **Never invent a URL, and this is now enforced.** Outside a pack's `## Pinned`
+  section, only two kinds of link are allowed: YouTube **search** URLs, which
+  cannot rot, and URLs recorded as `verified` in `course.json` `resources` by a
+  human who actually opened them. `study check` rejects anything else, and
+  `study links` fetches every link in every pack and fails on a dead one — a
+  search URL that resolves but returns no results counts as dead, because it is
+  a dead end for him either way.
+
+  This is not hypothetical. A handle guessed from a channel name
+  (`@AlexLeeBiology`) shipped and 404'd in front of the student. The real
+  channel is `@misterleescience`, recorded in `course.json`.
 - **Card ids are stable, and this is now enforced.** Progress in
   `progress/<course>.progress.json` is keyed on them. Add cards at the end;
   never renumber. `study check` compares each card's question against the last
@@ -80,6 +89,7 @@ works. "Simply" and "just" do not appear in this repo.
 There is no test suite. Before calling a change done:
 
     study check          # structural check on every pack (warns if index.html is stale)
+    study links          # fetch every video link; fails on dead ones
     study build          # rebuild the browser app
     study list
     study progress

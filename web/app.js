@@ -63,12 +63,25 @@
     return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
   function inline(s) {
-    return esc(s)
-      .replace(/`([^`]+)`/g, '<code>$1</code>')
-      .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
-      .replace(/(^|[\s(])&lt;(https?:\/\/[^&\s]+)&gt;/g, '$1<a href="$2" target="_blank" rel="noopener">$2</a>')
+    // Links are extracted before the emphasis passes run. URLs legitimately
+    // contain underscores (search_query=) and asterisks, and letting the
+    // italic rule loose on them corrupts the href — which shipped, and broke
+    // every video link in every pack.
+    var slots = [];
+    var stash = function (html) { return '\u0000' + (slots.push(html) - 1) + '\u0000'; };
+
+    var out = esc(s)
+      .replace(/`([^`]+)`/g, function (m, c) { return stash('<code>' + c + '</code>'); })
+      .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, function (m, text, url) {
+        return stash('<a href="' + url + '" target="_blank" rel="noopener">' + text + '</a>');
+      })
+      .replace(/(^|[\s(])&lt;(https?:\/\/\S+?)&gt;/g, function (m, pre, url) {
+        return pre + stash('<a href="' + url + '" target="_blank" rel="noopener">' + url + '</a>');
+      })
       .replace(/(^|[^*])\*\*([^*]+)\*\*/g, '$1<strong>$2</strong>')
       .replace(/(^|[^*_])_([^_]+)_/g, '$1<em>$2</em>');
+
+    return out.replace(/\u0000(\d+)\u0000/g, function (m, i) { return slots[Number(i)]; });
   }
 
   /* Renders the markdown subset the packs are written in: headings, lists,

@@ -2,6 +2,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { topicDir, progressFile } from './paths.mjs';
 import { driftedCards } from './history.mjs';
+import { loadCourse } from './syllabus.mjs';
 
 /**
  * Structural checks for a topic pack. These catch the ways generated content
@@ -131,11 +132,26 @@ export const checkPack = (course, topic) => {
   // ---- videos.md: the place invented URLs show up -----------------------
   const videos = read('videos.md');
   if (videos) {
-    const direct = videos.match(/https?:\/\/(?:www\.)?(?:youtube\.com\/watch\?v=|youtu\.be\/)[\w-]+/g) || [];
+    // URLs a human has opened and recorded in course.json are allowed in the
+    // body; anything else outside Pinned must be a search link.
+    const verified = new Set(
+      (loadCourse(course).resources || [])
+        .filter((r) => r.url && r.verified)
+        .map((r) => r.url)
+    );
+    // Outside Pinned, search links only. Channel handles and video ids rot or
+    // turn out never to have existed; a search URL cannot. The earlier rule
+    // only caught watch?v= and youtu.be, which let an invented @handle through.
+    const all = videos.match(/https?:\/\/(?:www\.)?youtu(?:\.be|be\.com)\/[^\s<>)\]]+/g) || [];
     const pinnedSection = videos.split(/^## Pinned/m)[1] || '';
-    const unpinned = direct.filter((u) => !pinnedSection.includes(u));
+    const unpinned = all.filter(
+      (u) =>
+        !pinnedSection.includes(u) &&
+        !u.includes('/results?search_query=') &&
+        !verified.has(u.replace(/[.,)]+$/, ''))
+    );
     for (const u of unpinned) {
-      warns.push(`direct video URL outside the Pinned section — verify it resolves or replace with a search link: ${u}`);
+      warns.push(`unverifiable YouTube link outside the Pinned section — use a search link, or move it to Pinned once you have opened it: ${u}`);
     }
     if (!/youtube\.com\/results\?search_query=/.test(videos) && !direct.length) {
       warns.push('videos.md has no video links at all');

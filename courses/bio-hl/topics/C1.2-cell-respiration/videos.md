@@ -10,8 +10,8 @@
 
 **Alex Lee — C1.2 Cell respiration** (likely split across several videos)
 
-- Channel: <https://www.youtube.com/@AlexLeeBiology>
-- Find it: <https://www.youtube.com/results?search_query=Alex+Lee+IB+Biology+C1.2+cell+respiration>
+- Channel: <https://www.youtube.com/@misterleescience> — verified
+- Find it: <https://www.youtube.com/results?search_query=Mister+Lee+Science+C1.2+cell+respiration>
 
 Watch it in **stages, not in one sitting**. Glycolysis one day, link reaction
 and Krebs the next, electron transport chain and chemiosmosis the third. Each
