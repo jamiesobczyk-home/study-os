@@ -1,0 +1,125 @@
+{
+"topic": "A1.2",
+"questions": [
+{
+"id": "A1.2-q01",
+"stem": "Which three parts make one nucleotide?",
+"options": [
+{ "text": "A phosphate group, a pentose sugar and a nitrogenous base", "correct": true, "why": "Those are the three parts you need to draw and label. The base is attached to the sugar." },
+{ "text": "A phosphate group, an amino acid and a nitrogenous base", "correct": false, "why": "Amino acids build proteins. A nucleotide uses a five-carbon sugar instead." },
+{ "text": "A nitrogenous base, a pentose sugar and a peptide bond", "correct": false, "why": "Peptide bonds link amino acids in proteins. A nucleotide has a phosphate group." },
+{ "text": "Two nitrogenous bases linked by a five-carbon sugar", "correct": false, "why": "A nucleotide has one base, one sugar and a phosphate. Paired bases belong to two DNA strands." }
+]
+},
+{
+"id": "A1.2-q02",
+"stem": "Which linkage builds the backbone along one DNA strand?",
+"options": [
+{ "text": "Hydrogen bonds between A and T bases on neighboring nucleotides", "correct": false, "why": "Hydrogen bonds pair bases between the two DNA strands. They don't join a strand's backbone." },
+{ "text": "Covalent phosphodiester bonds between sugars and phosphate groups", "correct": true, "why": "The alternating sugars and phosphates form a covalent chain. That's one strand's backbone." },
+{ "text": "Ionic attractions between charged bases on the same strand", "correct": false, "why": "The bases aren't linked along a strand by ionic attractions. The backbone links sugar and phosphate." },
+{ "text": "Peptide bonds between adjacent sugars and nitrogenous bases", "correct": false, "why": "Peptide bonds form in proteins. Nucleotide chains use phosphodiester links in the backbone." }
+]
+},
+{
+"id": "A1.2-q03",
+"stem": "A DNA strand reads 5′-ATGC-3′. What is its complementary strand when written left to right?",
+"options": [
+{ "text": "5′-TACG-3′, because matching strands run in the same direction", "correct": false, "why": "The base letters match, but the direction labels don't. DNA strands run antiparallel." },
+{ "text": "3′-TACG-5′, with opposite strand directions", "correct": true, "why": "T pairs with A, A with T, C with G and G with C. The partner runs 3′ to 5′ left to right." },
+{ "text": "3′-UACG-5′, because uracil pairs with adenine in DNA", "correct": false, "why": "Uracil occurs in RNA. In a DNA partner strand, adenine pairs with thymine." },
+{ "text": "5′-ATGC-3′, because each base pairs with an identical base", "correct": false, "why": "A pairs with T, and G pairs with C. Complementary doesn't mean identical." }
+]
+},
+{
+"id": "A1.2-q04",
+"stem": "Which structural difference identifies ribose rather than deoxyribose?",
+"options": [
+{ "text": "It has a phosphate group attached directly to its 2′ carbon", "correct": false, "why": "The 2′ distinction is an OH group, not a phosphate. Phosphate links the sugar backbone." },
+{ "text": "It has an OH group on its 2′ carbon instead of an H", "correct": true, "why": "Ribose keeps a 2′ OH. Deoxyribose lacks that oxygen at the same position." },
+{ "text": "It has five carbon atoms while deoxyribose has six carbon atoms", "correct": false, "why": "Both are five-carbon sugars. They differ in the group on carbon 2′." },
+{ "text": "It contains uracil within its sugar ring rather than thymine", "correct": false, "why": "Uracil and thymine are bases attached to sugars. They aren't atoms within the sugar ring." }
+]
+},
+{
+"id": "A1.2-q05",
+"stem": "Why can one DNA strand specify the base order of a new partner?",
+"options": [
+{ "text": "The repeating phosphates determine the identity of every new base", "correct": false, "why": "Phosphates repeat along the backbone and don't carry a changing base-by-base instruction." },
+{ "text": "Specific A–T and G–C pairing identifies each complementary base", "correct": true, "why": "Each template base limits which base can pair across from it. That's the basis of copying." },
+{ "text": "The strand's histone proteins select bases by matching their shape", "correct": false, "why": "Histones package DNA into nucleosomes. Complementary bases specify the copied sequence." },
+{ "text": "Both strands already contain identical bases at every position", "correct": false, "why": "The two strands are complementary, not usually identical. A faces T, and G faces C." }
+]
+},
+{
+"id": "A1.2-q06",
+"stem": "A DNA segment contains 8 positions. How many different base sequences are possible?",
+"options": [
+{ "text": "32, because each of four bases can occupy eight positions once", "correct": false, "why": "A base can appear more than once. Multiplying four by eight misses the independent choices." },
+{ "text": "256, because four base types are paired across two DNA strands", "correct": false, "why": "Pairing determines the opposite strand. It doesn't reduce eight positions to four choices total." },
+{ "text": "65,536, because each of eight positions has four choices", "correct": true, "why": "That's 4^8. The order of bases, rather than a new backbone for each message, creates the variety." },
+{ "text": "40,320, because every base must occur exactly once in the segment", "correct": false, "why": "Bases can repeat. The calculation isn't a permutation of eight distinct items." }
+]
+},
+{
+"id": "A1.2-q07",
+"stem": "What does the near-universality of the genetic code support?",
+"options": [
+{ "text": "The idea that all species have exactly the same DNA sequences", "correct": false, "why": "Species differ in DNA sequence. The shared feature is the codon-to-amino-acid correspondence." },
+{ "text": "The idea that RNA has replaced DNA as the genetic material of cells", "correct": false, "why": "RNA participates in gene expression, but living cells store hereditary instructions in DNA." },
+{ "text": "The idea that all viruses have DNA and must share a common cell ancestor", "correct": false, "why": "Some viruses have RNA genomes. The claim about living organisms doesn't cover every virus." },
+{ "text": "Shared codon assignments inherited from a common ancestor", "correct": true, "why": "Nearly the same codons specify the same amino acids across life. A shared origin explains that pattern." }
+]
+},
+{
+"id": "A1.2-q08",
+"stem": "A new RNA chain is being extended during transcription. At which end is the next nucleotide added?",
+"options": [
+{ "text": "The 3′ end, leaving the new strand to grow 5′ to 3′", "correct": true, "why": "Nucleotides join to the growing chain's 3′ OH. The template is read in the opposite direction." },
+{ "text": "The 5′ end, leaving the new strand to grow 3′ to 5′", "correct": false, "why": "That's backwards for synthesis. RNA polymerase extends the 3′ end of the new strand." },
+{ "text": "Either end, depending on whether adenine or guanine comes next", "correct": false, "why": "The base identity doesn't set the growth direction. New nucleotides join at the 3′ end." },
+{ "text": "Both ends at once, because the DNA template has two strands", "correct": false, "why": "One RNA strand grows at its 3′ end while a DNA strand acts as the template." }
+]
+},
+{
+"id": "A1.2-q09",
+"stem": "Why do A–T and G–C pairs help keep the DNA helix a consistent width?",
+"options": [
+{ "text": "Each pair contains two purines with the same double-ring structure", "correct": false, "why": "A and G are purines, but T and C are pyrimidines. Two purines would make a wider pair." },
+{ "text": "Each pair contains two pyrimidines that fit between the backbones", "correct": false, "why": "T and C are pyrimidines, but A and G are purines. Two pyrimidines would make a narrower pair." },
+{ "text": "Each pair contains one purine and one pyrimidine", "correct": true, "why": "A–T and G–C occupy similar widths because both pair one purine with one pyrimidine." },
+{ "text": "Each pair has the same number of hydrogen bonds between its bases", "correct": false, "why": "A–T and G–C don't have the same number of hydrogen bonds. Their similar width comes from base sizes." }
+]
+},
+{
+"id": "A1.2-q10",
+"stem": "Which description identifies a nucleosome?",
+"options": [
+{ "text": "An RNA strand folded around a single histone protein", "correct": false, "why": "Nucleosomes package DNA, not RNA, and use an eight-histone core." },
+{ "text": "A DNA strand wound around a core of eight histones", "correct": true, "why": "DNA winds around the histone core. Linker DNA connects the cores along a longer molecule." },
+{ "text": "Two free DNA bases held together by a histone bond", "correct": false, "why": "Bases pair through hydrogen bonds. Histones package DNA at a larger scale." },
+{ "text": "An eight-nucleotide sequence enclosed inside one phosphate group", "correct": false, "why": "Phosphates belong to nucleotide backbones. A nucleosome contains a protein core and wrapped DNA." }
+]
+},
+{
+"id": "A1.2-q11",
+"stem": "In Hershey and Chase's experiment, where was most phosphorus-32 found after blending and centrifugation?",
+"options": [
+{ "text": "In the supernatant with the sulfur-labeled phage coats", "correct": false, "why": "The supernatant held most protein label. Phosphorus labeled DNA and stayed with infected bacteria." },
+{ "text": "In the bacterial pellet, where DNA from the phage had entered", "correct": true, "why": "Phosphorus labeled phage DNA, and most of that label went with the infected bacteria into the pellet." },
+{ "text": "Only in newly made viral protein, because phosphorus labels proteins", "correct": false, "why": "Sulfur was used to label protein. Phosphorus labeled the DNA in the original phages." },
+{ "text": "Equally in the pellet and supernatant, showing both substances entered", "correct": false, "why": "The two labels separated. Most phosphorus was in the pellet, while most sulfur stayed outside." }
+]
+},
+{
+"id": "A1.2-q12",
+"stem": "One species has 30% A and 20% G in double-stranded DNA. Which values fit Chargaff's findings?",
+"options": [
+{ "text": "30% T and 20% C; other species may have different proportions", "correct": true, "why": "A pairs with T and G with C, so their percentages match within this species. Other species can differ." },
+{ "text": "20% T and 30% C, because purines must pair with identical purines", "correct": false, "why": "A pairs with T and G with C. Purines pair with pyrimidines, not identical purines." },
+{ "text": "25% T and 25% C, because all species must have equal base amounts", "correct": false, "why": "The four bases don't have to be equally abundant. That older fixed-proportion idea didn't fit Chargaff's data." },
+{ "text": "30% C and 20% T, because C is the matching base for A", "correct": false, "why": "C pairs with G, while T pairs with A. Swap those partners back to get the paired proportions." }
+]
+}
+]
+}

@@ -1,0 +1,111 @@
+{
+"topic": "A1.2",
+"title": "Nucleic acids",
+"cards": [
+{
+"id": "A1.2-01",
+"q": "What molecule carries hereditary information in living organisms, and how do some viruses differ?",
+"a": "DNA is the genetic material in living organisms. Some viruses use RNA as their genetic material, but viruses aren't classified as living organisms in this syllabus. That exception doesn't change the statement about living organisms.",
+"note": "Don't turn 'all living organisms' into 'every biological entity.'",
+"tags": ["core", "genetic-material"]
+},
+{
+"id": "A1.2-02",
+"q": "Draw a nucleotide and name its three components, stating what the base attaches to.",
+"a": "A nucleotide contains a phosphate group, a five-carbon pentose sugar and a nitrogenous base. The base attaches to the sugar, and the phosphate attaches to the sugar at a different position. A base alone isn't a nucleotide.",
+"tags": ["core", "structure"]
+},
+{
+"id": "A1.2-03",
+"q": "Explain how RNA nucleotides join into a polymer, including the bond and the molecule released.",
+"a": "The 3′ hydroxyl of one nucleotide's ribose joins to the phosphate attached to the next nucleotide's 5′ carbon in a condensation reaction that releases water. The resulting covalent phosphodiester links create an alternating sugar–phosphate backbone with bases projecting from it.",
+"note": "The backbone is covalent. Hydrogen bonds aren't the links along one RNA strand.",
+"tags": ["core", "polymer"]
+},
+{
+"id": "A1.2-04",
+"q": "Name all bases in DNA and RNA, then explain where the stored information lies.",
+"a": "DNA contains adenine, thymine, guanine and cytosine. RNA contains adenine, uracil, guanine and cytosine. The order of bases along a strand carries information; the repeating sugar–phosphate backbone doesn't encode the changing sequence.",
+"tags": ["core", "bases"]
+},
+{
+"id": "A1.2-05",
+"q": "Describe how the two strands of DNA are arranged and held together, including both base-pair rules.",
+"a": "DNA has two antiparallel nucleotide strands in a double helix. Covalent phosphodiester bonds hold each sugar–phosphate backbone together. Hydrogen bonds join complementary bases between strands: adenine pairs with thymine, and guanine pairs with cytosine.",
+"note": "You can draw the paired strands as a ladder; the helical twist isn't required for this diagram.",
+"tags": ["core", "double-helix"]
+},
+{
+"id": "A1.2-06",
+"q": "Compare DNA and RNA by sugar, bases and usual number of strands. What differs on the sugars?",
+"a": "DNA usually has two strands and contains deoxyribose and the bases A, T, G and C. RNA is usually single-stranded and contains ribose and A, U, G and C. Ribose has an OH group at its 2′ carbon, where deoxyribose has H.",
+"note": "RNA can fold back and pair with itself, so 'usually single-stranded' is more accurate than 'never pairs.'",
+"tags": ["core", "comparison"]
+},
+{
+"id": "A1.2-07",
+"q": "Explain how complementary base pairing helps DNA information be copied and expressed.",
+"a": "During DNA replication, each existing strand can act as a template because A pairs with T and G with C, specifying bases on a new strand. During transcription, a DNA template specifies a complementary RNA sequence, with U pairing with A in RNA. Hydrogen bonding provides the base-pair specificity.",
+"tags": ["core", "complementarity"]
+},
+{
+"id": "A1.2-08",
+"q": "Why can a molecule with only four different DNA bases store so much information?",
+"a": "DNA molecules can contain very long sequences, and each position can hold one of four bases. A sequence of n positions therefore has 4^n possible base orders. The base order stores information compactly while the sugar–phosphate backbone remains repetitive.",
+"tags": ["core", "information"]
+},
+{
+"id": "A1.2-09",
+"q": "Explain how the near-universality of the genetic code supports common ancestry. What claim would go too far?",
+"a": "Across almost all living organisms, the same mRNA codons specify the same amino acids, which is evidence that they inherited this translation system from a common ancestor. It doesn't mean their DNA sequences are identical, and there are a few exceptions to the code.",
+"note": "The genetic code maps codons to amino acids. It isn't another name for a genome.",
+"tags": ["core", "common-ancestry"]
+},
+{
+"id": "A1.2-10",
+"q": "Label a nucleic acid strand's 5′ and 3′ ends and explain the direction of a newly synthesized strand.",
+"a": "The 5′ end has a phosphate associated with the sugar's 5′ carbon; the 3′ end has a free hydroxyl on the sugar's 3′ carbon. New nucleotides are added to the 3′ end, so a new DNA or RNA strand is synthesized 5′ to 3′ while its template is read in the opposite direction.",
+"note": "The 5′ and 3′ labels refer to numbered carbons in the sugar, not to a count of bases.",
+"tags": ["hl", "directionality"]
+},
+{
+"id": "A1.2-11",
+"q": "Which bases are purines and pyrimidines, and why do their pairings help keep DNA width consistent?",
+"a": "Adenine and guanine are two-ring purines; cytosine and thymine are one-ring pyrimidines. A–T and G–C each pair one purine with one pyrimidine, giving both pairs the same approximate width. A purine–purine pair would be too wide and a pyrimidine–pyrimidine pair too narrow for the usual DNA helix.",
+"tags": ["hl", "helix"]
+},
+{
+"id": "A1.2-12",
+"q": "Describe one nucleosome, including the core, the DNA and the linker region.",
+"a": "A nucleosome contains DNA wrapped around a core of eight histone proteins. Linker DNA connects neighboring nucleosome cores, and an additional linker histone associates with DNA near the entry and exit and helps stabilize the arrangement. It isn't a single histone with DNA inside it.",
+"tags": ["hl", "nucleosome"]
+},
+{
+"id": "A1.2-13",
+"q": "Trace the labels, separation and results in Hershey and Chase's bacteriophage experiment. What did those results support?",
+"a": "Hershey and Chase labeled phage DNA with radioactive phosphorus-32 in one sample and phage protein with sulfur-35 in another. After infection, blending removed attached phage coats and centrifugation put bacteria in the pellet. Most phosphorus label was in the pellet, while most sulfur label remained in the supernatant. This showed that phage DNA, rather than most of its protein coat, entered the bacteria and supported DNA as the phage's genetic material.",
+"note": "Don't claim that no sulfur entered any cell or that this experiment alone proved DNA is the genetic material of every organism.",
+"tags": ["hl", "evidence"]
+},
+{
+"id": "A1.2-14",
+"q": "What patterns did Chargaff find in DNA base proportions, and what earlier claim did the data undermine?",
+"a": "Within a species' double-stranded DNA, the proportion of adenine is approximately equal to thymine and guanine is approximately equal to cytosine. The relative A+T and G+C proportions differ among species. That variation undermined the tetranucleotide hypothesis that DNA was a monotonous repetition of the four bases in equal amounts.",
+"note": "A≈T and G≈C don't imply A≈G or that all four bases have equal percentages.",
+"tags": ["hl", "evidence"]
+},
+{
+"id": "A1.2-15",
+"q": "Correct this claim: 'Hydrogen bonds make the DNA sugar–phosphate backbone, while covalent bonds join A to T.'",
+"a": "Covalent phosphodiester bonds join sugars and phosphates along each DNA strand. Hydrogen bonds form between the complementary bases on different strands, including A–T and G–C. Reversing those locations confuses the stable backbone with the pairing that allows strands to separate and template copies.",
+"tags": ["core", "misconception"]
+},
+{
+"id": "A1.2-16",
+"q": "Rebuild the path from one nucleotide to a copied and expressed DNA sequence, naming the components, bonds, direction and pairing rules.",
+"a": "Each nucleotide has a phosphate, sugar and base. Covalent phosphodiester bonds join nucleotides 5′ to 3′ into a sugar–phosphate backbone with a variable base sequence. Two DNA strands run antiparallel, with hydrogen-bonded A–T and G–C pairs. Complementarity lets either strand specify a new DNA partner during replication, while a DNA template specifies RNA during transcription, using U opposite A.",
+"note": "This is the synthesis card. Draw both strands and an RNA copy before checking.",
+"tags": ["hl", "synthesis"]
+}
+]
+}
