@@ -693,7 +693,9 @@
       refresh();
     });
     document.getElementById('start').onclick = function () {
-      if (selected().length) go('mcqRun');
+      if (!selected().length) return;
+      run = null; // Start always means a new deck
+      go('mcqRun');
     };
     refresh();
   };
@@ -704,13 +706,17 @@
     var codes = (mcqState.picked || []).filter(function (c) { return byCode[c] && byCode[c].pack; });
     if (!codes.length) return views.mcq();
 
-    if (!run || run.done) {
+    // A deck in progress is only reused for the same sections. Picking
+    // different ones and pressing Start has to build a new deck, or he gets
+    // the old sections until the page is reloaded.
+    var key = codes.slice().sort().join(',');
+    if (!run || run.done || run.key !== key) {
       var pool = [];
       codes.forEach(function (c) {
         byCode[c].pack.mcq.forEach(function (q) { pool.push(q); });
       });
       if (!pool.length) return views.mcq();
-      run = { deck: shuffle(pool), i: 0, right: 0, wrong: 0, done: false };
+      run = { key: key, deck: shuffle(pool), i: 0, right: 0, wrong: 0, done: false };
     }
     renderQuestion();
   };
