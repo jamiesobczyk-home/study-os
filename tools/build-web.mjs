@@ -13,6 +13,7 @@ import { join } from 'node:path';
 import { ROOT, topicDir } from './lib/paths.mjs';
 import { loadCourse, loadSyllabus, hasPack, loadCards } from './lib/syllabus.mjs';
 import { parseTraps, trapQuestions } from './lib/traps.mjs';
+import { normalizeMcq } from './lib/mcq.mjs';
 
 const WEB = join(ROOT, 'web');
 const read = (p) => readFileSync(p, 'utf8');
@@ -26,6 +27,16 @@ const parseExam = (markdown) =>
       const [question, scheme = ''] = block.split(/\n### Mark scheme\s*\n/i);
       return { question: question.trim(), scheme: scheme.trim() };
     });
+
+/** Parse mcq.json into render-shape questions; a broken file yields none. */
+const authoredMcq = (raw, code) => {
+  if (!raw) return [];
+  try {
+    return (JSON.parse(raw).questions || []).map((q) => normalizeMcq(q, code));
+  } catch {
+    return [];
+  }
+};
 
 /** Pull the one-sentence summary out of a pack README, if it has one. */
 const oneLiner = (readme) => {
@@ -71,7 +82,11 @@ export const build = (courseId) => {
       })),
       exam: parseExam(file('exam.md')),
       // Multiple-choice questions derived from the same traps rendered above.
-      mcq: trapQuestions(t.code, parseTraps(file('traps.md'))),
+      // Authored multiple choice plus the why-did-this-fail questions derived
+      // from traps.md, all in one render shape.
+      mcq: authoredMcq(file('mcq.json'), t.code).concat(
+        trapQuestions(t.code, parseTraps(file('traps.md')))
+      ),
     };
     return row;
   });

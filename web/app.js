@@ -719,24 +719,20 @@
     if (run.i >= run.deck.length) return quizFinished();
     var q = run.deck[run.i];
 
-    // The correct option is this trap's own reason; the others are real
-    // reasons belonging to different mistakes in the same topic. Nothing is
-    // fabricated, and exactly one option can be right.
-    var options = shuffle(
-      [{ why: q.why, correct: true, heading: q.heading }].concat(
-        q.wrong.map(function (w) { return { why: w.why, correct: false, heading: w.heading }; })
-      )
-    );
+    // Every question arrives in one shape, whether it was written as a
+    // multiple-choice question or derived from a topic's common mistakes.
+    // Exactly one option is correct, and every option carries its own why.
+    var options = shuffle(q.options.slice());
 
     var pct = Math.round((run.i / run.deck.length) * 100);
     html(
-      '<p class="meta">' + q.topic + ' \u00b7 question ' + (run.i + 1) + ' of ' + run.deck.length + '</p>' +
+      '<p class="meta">' + q.topic + ' · question ' + (run.i + 1) + ' of ' + run.deck.length + '</p>' +
       '<div class="card">' +
-        '<p class="sub" style="margin-bottom:10px">A student wrote this. It didn’t score:</p>' +
-        '<blockquote class="wrote">' + inline(q.stem) + '</blockquote>' +
-        '<p class="q" style="margin:18px 0 12px">Why does it fail?</p>' +
+        (q.lead ? '<p class="sub" style="margin-bottom:10px">' + inline(q.lead) + '</p>' : '') +
+        (q.quote ? '<blockquote class="wrote">' + inline(q.quote) + '</blockquote>' : '') +
+        '<p class="q" style="margin:' + (q.quote ? '18px' : '0') + ' 0 12px">' + inline(q.prompt) + '</p>' +
         '<div class="opts">' + options.map(function (o, i) {
-          return '<button class="opt" data-i="' + i + '">' + inline(o.why) + '</button>';
+          return '<button class="opt" data-i="' + i + '">' + inline(o.text) + '</button>';
         }).join('') + '</div>' +
         '<div id="verdict"></div>' +
       '</div>' +
@@ -744,8 +740,7 @@
     );
 
     on('.opt', 'click', function () {
-      var chosen = options[Number(this.getAttribute('data-i'))];
-      answer(q, chosen, options);
+      answer(q, options[Number(this.getAttribute('data-i'))], options);
     });
   }
 
@@ -757,25 +752,29 @@
     mcqState.questions[q.id] = rec;
     saveMcq();
 
-    // Lock the options and mark them up.
     Array.prototype.forEach.call(el.querySelectorAll('.opt'), function (btn, i) {
       btn.disabled = true;
       if (options[i].correct) btn.classList.add('right');
       else if (options[i] === chosen) btn.classList.add('chosen-wrong');
     });
 
+    var right = options.filter(function (o) { return o.correct; })[0];
+    var after = q.after
+      ? '<p class="meta" style="margin:16px 0 6px">' + esc(q.after.label) + '</p><p>' + inline(q.after.text) + '</p>'
+      : '';
+
+    // Wrong: say why that pick fails first, then the right answer and why.
+    // That order is the whole point of the feature.
     var v = document.getElementById('verdict');
     v.innerHTML = chosen.correct
-      ? '<div class="verdict-box good"><p><strong>Correct.</strong> That’s exactly why it fails.</p>' +
-        '<p class="meta" style="margin:14px 0 6px">What would have scored</p>' +
-        '<p>' + inline(q.fix) + '</p></div>'
+      ? '<div class="verdict-box good"><p><strong>Correct.</strong> ' + inline(chosen.why) + '</p>' + after + '</div>'
       : '<div class="verdict-box bad">' +
-        '<p><strong>Not this one.</strong> What you picked is a real marking point, but it explains a different mistake: ' +
-        '<em>' + esc(chosen.heading.toLowerCase()) + '</em>.</p>' +
-        '<p class="meta" style="margin:16px 0 6px">Why this answer actually fails</p>' +
-        '<p>' + inline(q.why) + '</p>' +
-        '<p class="meta" style="margin:16px 0 6px">What would have scored</p>' +
-        '<p>' + inline(q.fix) + '</p></div>';
+          '<p><strong>Not this one.</strong> ' + inline(chosen.why) + '</p>' +
+          '<p class="meta" style="margin:16px 0 6px">The right answer</p>' +
+          '<p><strong>' + inline(right.text) + '</strong></p>' +
+          (q.kind === 'mcq' ? '<p>' + inline(right.why) + '</p>' : '') +
+          after +
+        '</div>';
 
     v.insertAdjacentHTML('beforeend',
       '<button class="btn wide" id="next" style="margin-top:16px">' +

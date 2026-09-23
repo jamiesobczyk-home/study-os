@@ -1,4 +1,4 @@
-# B1.2 Proteins — what you’ve to be able to do
+# B1.2 Proteins — what you need to be able to do
 
 > Each line is a thing you should be able to *do* with the page closed.
 > Note how short the Core list is and how long the Higher level one is. That

@@ -1,0 +1,173 @@
+{
+  "topic": "A1.1",
+  "questions": [
+    {
+      "id": "A1.1-q01",
+      "stem": "Why is a water molecule polar?",
+      "options": [
+        { "text": "Oxygen attracts the shared electrons more strongly, and the bent shape stops the charges canceling", "correct": true,
+          "why": "Both parts matter. Unequal sharing makes partial charges, and the bent shape means they don't cancel out across the molecule." },
+        { "text": "Oxygen takes electrons completely from hydrogen, so the molecule carries full positive and negative charges", "correct": false,
+          "why": "That's what an ion does. Water's charges are partial because the electrons are still shared, only unevenly." },
+        { "text": "Hydrogen bonds inside the molecule hold oxygen and hydrogen together unevenly", "correct": false,
+          "why": "The bonds inside one water molecule are polar covalent bonds. Hydrogen bonds form between separate molecules." },
+        { "text": "The molecule is linear, so the oxygen end and the hydrogen end carry opposite charges", "correct": false,
+          "why": "Water is bent, not linear. The bend is the reason the partial charges don't cancel." }
+      ]
+    },
+    {
+      "id": "A1.1-q02",
+      "stem": "Where do hydrogen bonds form in liquid water?",
+      "options": [
+        { "text": "Between a partially positive hydrogen on one molecule and a partially negative oxygen on another", "correct": true,
+          "why": "They're attractions between neighboring molecules. Each one is weak, but there are a huge number of them." },
+        { "text": "Between the hydrogen and oxygen atoms inside each water molecule, holding the molecule together", "correct": false,
+          "why": "Those are polar covalent bonds. If you call them hydrogen bonds, the examiner reads it as not knowing the difference." },
+        { "text": "Between two oxygen atoms on neighboring molecules, which share a pair of electrons", "correct": false,
+          "why": "Oxygen atoms on different molecules don't share electrons. The attraction is between a hydrogen on one molecule and an oxygen on another." },
+        { "text": "Between neighboring molecules, and each one is stronger than a covalent bond", "correct": false,
+          "why": "The location's right, but hydrogen bonds are much weaker than covalent bonds. Water's properties come from how many there are." }
+      ]
+    },
+    {
+      "id": "A1.1-q03",
+      "stem": "What generates the tension that pulls water up the xylem?",
+      "options": [
+        { "text": "Cohesion between water molecules in the column", "correct": false,
+          "why": "Cohesion keeps the column from breaking while it's pulled. It doesn't do the pulling." },
+        { "text": "Evaporation of water from the leaves", "correct": true,
+          "why": "Water evaporating from the leaf is what creates the pull. Cohesion and adhesion let that pull reach all the way down the stem." },
+        { "text": "Adhesion of water to the cellulose walls", "correct": false,
+          "why": "Adhesion helps water hold onto the xylem walls, but it doesn't create tension in the column." },
+        { "text": "Root cells pumping water upward using ATP", "correct": false,
+          "why": "The transpiration stream is passive. The energy that drives it comes from evaporation, not from ATP in the roots." }
+      ]
+    },
+    {
+      "id": "A1.1-q04",
+      "stem": "Water molecules are attracted to the cellulose walls of xylem vessels. What is this property called?",
+      "options": [
+        { "text": "Cohesion", "correct": false,
+          "why": "Cohesion is water sticking to water. Water sticking to cellulose is a different substance, so it's adhesion." },
+        { "text": "Adhesion", "correct": true,
+          "why": "Adhesion is attraction between different substances, here water and cellulose." },
+        { "text": "Surface tension", "correct": false,
+          "why": "Surface tension comes from cohesion at a water surface. It isn't about water sticking to a wall." },
+        { "text": "Buoyancy", "correct": false,
+          "why": "Buoyancy is the upward push water gives things floating in it. It has nothing to do with sticking to a wall." }
+      ]
+    },
+    {
+      "id": "A1.1-q05",
+      "stem": "Why does sodium chloride dissolve in water?",
+      "options": [
+        { "text": "Partially charged regions of water molecules attract and surround the separated ions", "correct": true,
+          "why": "The negative oxygen side faces the Na+ and the positive hydrogen side faces the Cl−, so each ion ends up surrounded by water." },
+        { "text": "Water breaks the covalent bonds between the sodium and chlorine atoms", "correct": false,
+          "why": "Sodium chloride is held together by ionic bonds, not covalent ones. Water separates the ions by attracting them." },
+        { "text": "Water molecules form hydrogen bonds with the sodium and chloride ions", "correct": false,
+          "why": "Ions don't form hydrogen bonds. The attraction is between the ions' charges and water's partial charges." },
+        { "text": "Sodium chloride is non-polar, so it mixes evenly with the water", "correct": false,
+          "why": "It's the opposite. Sodium chloride is made of charged ions, and that's exactly why water can dissolve it." }
+      ]
+    },
+    {
+      "id": "A1.1-q06",
+      "stem": "Which of these substances is hydrophobic?",
+      "options": [
+        { "text": "Glucose", "correct": false,
+          "why": "Glucose has lots of polar hydroxyl groups, so it dissolves well in water." },
+        { "text": "Sodium ions", "correct": false,
+          "why": "Ions are charged, and charged particles are hydrophilic." },
+        { "text": "Cholesterol", "correct": true,
+          "why": "Cholesterol is mostly non-polar, so it doesn't interact well with water. That's why blood has to carry it inside lipoproteins." },
+        { "text": "Amino acids", "correct": false,
+          "why": "Amino acids have charged amine and carboxyl groups, so they dissolve in water." }
+      ]
+    },
+    {
+      "id": "A1.1-q07",
+      "stem": "How is cholesterol transported in the blood?",
+      "options": [
+        { "text": "Dissolved directly in the plasma, like glucose", "correct": false,
+          "why": "Cholesterol is non-polar, so it barely dissolves in plasma. It needs a carrier." },
+        { "text": "Bound to haemoglobin inside red blood cells", "correct": false,
+          "why": "Haemoglobin carries oxygen. It's the example for oxygen, not for lipids." },
+        { "text": "Inside lipoproteins with a hydrophilic outer surface", "correct": true,
+          "why": "The lipoprotein's outside faces the water in plasma, and the cholesterol sits inside where it doesn't have to." },
+        { "text": "As free ions after it's broken down in the liver", "correct": false,
+          "why": "Cholesterol isn't broken into ions to be carried. It travels intact inside lipoproteins." }
+      ]
+    },
+    {
+      "id": "A1.1-q08",
+      "stem": "Why do endothermic animals living in water, such as seals, need thick insulation like blubber?",
+      "options": [
+        { "text": "Water conducts heat away from the body much faster than air does", "correct": true,
+          "why": "Water's thermal conductivity is far higher than air's, so a warm body loses heat quickly in it. Blubber slows that down." },
+        { "text": "Water has a lower specific heat capacity than air, so it warms up quickly", "correct": false,
+          "why": "That's backwards. Water's specific heat capacity is much higher than air's, and that isn't the reason for blubber anyway." },
+        { "text": "Water is less dense than air, so the animal needs extra fat to float", "correct": false,
+          "why": "Water is much denser than air. That's why it gives more buoyancy, not less." },
+        { "text": "Water's high viscosity makes swimming slow, so the animal stores more energy", "correct": false,
+          "why": "Viscosity affects movement, not heat loss. Blubber is there because of how quickly water conducts heat." }
+      ]
+    },
+    {
+      "id": "A1.1-q09",
+      "stem": "Which property of water makes sweating an effective way to cool down?",
+      "options": [
+        { "text": "High specific heat capacity", "correct": false,
+          "why": "That's the trap. Specific heat capacity is about changing temperature. Sweating cools you because evaporating the water takes energy." },
+        { "text": "High latent heat of vaporization", "correct": true,
+          "why": "Turning liquid sweat into vapor takes a lot of energy, and that energy comes from the skin as heat." },
+        { "text": "High thermal conductivity", "correct": false,
+          "why": "Conductivity explains heat loss into surrounding water. Sweat cools by evaporating." },
+        { "text": "Strong cohesion between molecules", "correct": false,
+          "why": "Hydrogen bonds are why evaporation takes so much energy, but the property that cools you is latent heat of vaporization." }
+      ]
+    },
+    {
+      "id": "A1.1-q10",
+      "stem": "A lake's temperature changes much more slowly than the air above it. Why?",
+      "options": [
+        { "text": "Water has a high latent heat of vaporization", "correct": false,
+          "why": "That's about evaporation. Here the water isn't changing state, only temperature." },
+        { "text": "Water is a good solvent for dissolved salts", "correct": false,
+          "why": "Being a solvent has nothing to do with how fast the temperature changes." },
+        { "text": "Water has a high specific heat capacity", "correct": true,
+          "why": "It takes a lot of energy to change water's temperature, so a lake stays steadier than the air. That makes it a stable habitat." },
+        { "text": "Water has high cohesion at its surface", "correct": false,
+          "why": "Cohesion and surface tension explain things like pond skaters, not steady temperature." }
+      ]
+    },
+    {
+      "id": "A1.1-q11",
+      "stem": "Why do aquatic animals need less skeletal support than land animals of a similar size?",
+      "options": [
+        { "text": "Water is denser than air, so it gives more buoyancy", "correct": true,
+          "why": "Water pushes up on the body far more than air does, so less of the animal's weight has to be carried by its skeleton." },
+        { "text": "Water is less viscous than air, so moving takes less force", "correct": false,
+          "why": "Water is more viscous than air, not less. And viscosity is about moving through it, not support." },
+        { "text": "Water conducts heat well, so muscles need less energy", "correct": false,
+          "why": "Thermal conductivity is about heat loss. The support comes from buoyancy." },
+        { "text": "Water's cohesion holds the animal's body at the surface", "correct": false,
+          "why": "Surface tension can hold up a tiny insect, but not a fish or a seal. Buoyancy does the supporting." }
+      ]
+    },
+    {
+      "id": "A1.1-q12",
+      "stem": "Why does the search for life on other planets focus on finding liquid water?",
+      "options": [
+        { "text": "Liquid water proves that life must be present on that planet", "correct": false,
+          "why": "Water doesn't prove anything. It only marks a place where life could be possible." },
+        { "text": "Every known organism uses liquid water as the medium for its metabolism", "correct": true,
+          "why": "All life we know depends on water for its reactions, so liquid water marks a planet as possibly habitable. That's all it tells you." },
+        { "text": "Liquid water can only form on planets that already have oxygen", "correct": false,
+          "why": "Liquid water depends on temperature and pressure, not on oxygen being present." },
+        { "text": "Water is the only substance that can dissolve any other molecule", "correct": false,
+          "why": "Water's a very good solvent, but it doesn't dissolve everything. Hydrophobic substances are the obvious exception." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "topic": "B2.1",
+  "questions": [
+    {
+      "id": "B2.1-q01",
+      "stem": "Why do phospholipids form a bilayer when placed in water?",
+      "options": [
+        { "text": "The cell uses ATP to arrange them tail to tail", "correct": false,
+          "why": "No energy is spent building it. The bilayer forms on its own because of how the molecule interacts with water." },
+        { "text": "Hydrophilic heads face water and hydrophobic tails are shielded", "correct": true,
+          "why": "The heads interact with the water on both sides, and the tails end up in the center, away from it." },
+        { "text": "Water pushes the tails together with a repulsive force", "correct": false,
+          "why": "Nothing pushes. Water molecules bond with each other and the heads, and that leaves the tails together." },
+        { "text": "Covalent bonds form between tails in the two layers", "correct": false,
+          "why": "The two layers aren't bonded together. Hydrophobic interactions hold the tails in the middle." }
+      ]
+    },
+    {
+      "id": "B2.1-q02",
+      "stem": "Which of these crosses the phospholipid bilayer by simple diffusion?",
+      "options": [
+        { "text": "Sodium ions", "correct": false,
+          "why": "Ions are charged, so they need a channel or a pump to get through." },
+        { "text": "Glucose", "correct": false,
+          "why": "Glucose is large and polar, so it crosses through a carrier protein." },
+        { "text": "Oxygen", "correct": true,
+          "why": "Oxygen is small and non-polar, so it passes straight through the hydrophobic core." },
+        { "text": "Amino acids", "correct": false,
+          "why": "Amino acids are charged or polar, so they need transport proteins." }
+      ]
+    },
+    {
+      "id": "B2.1-q03",
+      "stem": "Why can't ions cross the phospholipid bilayer directly?",
+      "options": [
+        { "text": "The hydrophobic core repels charged particles", "correct": false,
+          "why": "That's the trap. The core doesn't push ions away. Moving a charge into a non-polar region costs too much energy." },
+        { "text": "Moving a charged ion into the non-polar core is energetically unfavorable", "correct": true,
+          "why": "An ion interacts well with water and not at all with the tails, so it stays out of the core." },
+        { "text": "Ions are too large to fit between the phospholipids", "correct": false,
+          "why": "Many ions are smaller than oxygen or water molecules. Charge is the problem, not size." },
+        { "text": "The phosphate heads bond permanently to any ion", "correct": false,
+          "why": "The heads don't trap ions. The barrier is the hydrophobic core." }
+      ]
+    },
+    {
+      "id": "B2.1-q04",
+      "stem": "Which describes facilitated diffusion?",
+      "options": [
+        { "text": "Through a channel or carrier protein, down the gradient, without ATP", "correct": true,
+          "why": "The protein gives a route through the membrane. The gradient supplies the energy, so no ATP is spent." },
+        { "text": "Through a pump protein, down the gradient, using ATP to speed it up", "correct": false,
+          "why": "Facilitated diffusion never uses ATP. If you give it an ATP cost, the examiner reads it as active transport." },
+        { "text": "Directly through the bilayer, down the gradient, without any proteins", "correct": false,
+          "why": "That's simple diffusion. \"Facilitated\" means a protein helps." },
+        { "text": "Through a channel protein, against the gradient, powered by ATP", "correct": false,
+          "why": "Moving against a gradient needs energy, and that's active transport." }
+      ]
+    },
+    {
+      "id": "B2.1-q05",
+      "stem": "What makes a transport process active?",
+      "options": [
+        { "text": "It moves a substance through a membrane protein", "correct": false,
+          "why": "Facilitated diffusion uses proteins too. Protein use doesn't make it active." },
+        { "text": "It moves a substance against its gradient using energy", "correct": true,
+          "why": "Energy, usually ATP, is spent to move something from low concentration to high." },
+        { "text": "It moves a substance faster than simple diffusion", "correct": false,
+          "why": "Speed doesn't define it. Aquaporins speed up osmosis and that's still passive." },
+        { "text": "It moves water toward a lower water potential", "correct": false,
+          "why": "That's osmosis, which is passive." }
+      ]
+    },
+    {
+      "id": "B2.1-q06",
+      "stem": "What do aquaporins do?",
+      "options": [
+        { "text": "Let water cross a membrane it otherwise couldn't cross", "correct": false,
+          "why": "Water can cross the bilayer without them, only slowly. Aquaporins speed it up." },
+        { "text": "Speed up osmosis without using any ATP", "correct": true,
+          "why": "They're channels that greatly increase permeability to water. They change the rate, not the direction." },
+        { "text": "Pump water against its gradient using ATP", "correct": false,
+          "why": "Aquaporins are channels, not pumps. Water still moves toward the lower water potential." },
+        { "text": "Reverse the direction of osmosis when needed", "correct": false,
+          "why": "Direction is set by the water potential difference. Aquaporins only change how fast it happens." }
+      ]
+    },
+    {
+      "id": "B2.1-q07",
+      "stem": "What does cholesterol do to an animal cell membrane?",
+      "options": [
+        { "text": "Makes the membrane more fluid at every temperature", "correct": false,
+          "why": "It works in both directions. Giving only one effect is a common way to drop the mark." },
+        { "text": "Makes the membrane more rigid at every temperature", "correct": false,
+          "why": "At low temperatures it does the opposite and stops the membrane from becoming too rigid." },
+        { "text": "Carries ions across the membrane by diffusion", "correct": false,
+          "why": "Cholesterol isn't a transport molecule. Its job is fluidity." },
+        { "text": "Limits fluidity when warm and prevents stiffening when cold", "correct": true,
+          "why": "Cholesterol buffers fluidity. It restrains phospholipids when warm and stops them packing tightly when cold." }
+      ]
+    },
+    {
+      "id": "B2.1-q08",
+      "stem": "Why does a higher proportion of unsaturated fatty acid tails keep a membrane fluid at low temperatures?",
+      "options": [
+        { "text": "Kinks from double bonds stop the tails packing closely", "correct": true,
+          "why": "Cis double bonds bend the tails. Bent tails can't line up tightly, so the membrane stays fluid." },
+        { "text": "Unsaturated tails are longer, so they move around more", "correct": false,
+          "why": "Length isn't the point. The double bonds cause kinks, and kinks prevent close packing." },
+        { "text": "Unsaturated tails are hydrophilic, so they attract water", "correct": false,
+          "why": "Unsaturated tails are still hydrophobic. They sit in the core like the saturated ones." },
+        { "text": "Double bonds release heat that warms the membrane", "correct": false,
+          "why": "Double bonds don't generate heat. They change the tails' shape." }
+      ]
+    },
+    {
+      "id": "B2.1-q09",
+      "stem": "In one cycle of the sodium–potassium pump, which ions move and in which direction?",
+      "options": [
+        { "text": "Three Na+ move in and two K+ move out", "correct": false,
+          "why": "That's reversed. Sodium is pumped out of the cell and potassium in." },
+        { "text": "Two Na+ move out and three K+ move in", "correct": false,
+          "why": "The numbers are swapped. It's three sodium out, two potassium in." },
+        { "text": "Three Na+ move out and two K+ move in", "correct": true,
+          "why": "One ATP per cycle moves three sodium out and two potassium in, both against their gradients." },
+        { "text": "Three Na+ and two K+ both move out", "correct": false,
+          "why": "It's an exchange. Sodium goes out and potassium comes in." }
+      ]
+    },
+    {
+      "id": "B2.1-q10",
+      "stem": "In sodium-dependent glucose cotransport, where is ATP hydrolyzed?",
+      "options": [
+        { "text": "At the cotransporter, every time it moves a glucose", "correct": false,
+          "why": "That's the trap. The cotransporter uses no ATP itself. It uses the sodium gradient." },
+        { "text": "At the sodium–potassium pump that builds the Na+ gradient", "correct": true,
+          "why": "The pump spends ATP making the sodium gradient. Sodium flowing back through the cotransporter drags glucose with it." },
+        { "text": "Nowhere, since glucose moves down its own gradient", "correct": false,
+          "why": "Glucose is moved against its gradient here. The energy comes indirectly from ATP used at the pump." },
+        { "text": "Inside the glucose molecule once it's in the cell", "correct": false,
+          "why": "That's respiration, which happens after transport. The transport step is paid for at the pump." }
+      ]
+    },
+    {
+      "id": "B2.1-q11",
+      "stem": "What opens a ligand-gated ion channel?",
+      "options": [
+        { "text": "A change in voltage across the membrane", "correct": false,
+          "why": "That's a voltage-gated channel. The two types are told apart by what opens them." },
+        { "text": "A specific chemical, such as a neurotransmitter, binding", "correct": true,
+          "why": "A ligand is a signaling molecule. When it binds the channel, the channel changes shape and opens." },
+        { "text": "Energy released when ATP is hydrolyzed", "correct": false,
+          "why": "Channels don't use ATP. That's how pumps work." },
+        { "text": "A difference in water potential across the membrane", "correct": false,
+          "why": "Water potential drives osmosis. It doesn't open ion channels." }
+      ]
+    },
+    {
+      "id": "B2.1-q12",
+      "stem": "What is the role of glycoproteins on the outer surface of the membrane?",
+      "options": [
+        { "text": "Pumping ions against their gradients using ATP", "correct": false,
+          "why": "That's pump proteins. Glycoproteins have carbohydrate chains that face outward for recognition." },
+        { "text": "Cell recognition and adhesion between cells", "correct": true,
+          "why": "Their carbohydrate chains act as identity markers other cells can recognize, and they help cells stick together." },
+        { "text": "Controlling membrane fluidity at low temperatures", "correct": false,
+          "why": "That's cholesterol and unsaturated tails." },
+        { "text": "Letting water cross the membrane faster", "correct": false,
+          "why": "That's aquaporins." }
+      ]
+    }
+  ]
+}

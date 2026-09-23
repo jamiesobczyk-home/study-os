@@ -85,6 +85,7 @@ That prints what is due and what a session looks like.
     study new D1.1        # scaffold a new topic pack
     study check           # verify pack structure
     study prompt D1.1     # a paste-ready pack prompt for another model
+    study import D1.1     # check the model's reply and write it into the pack
     study build           # rebuild index.html, the page he studies from
 
 ## The loop
@@ -131,6 +132,7 @@ Why it is built this way, and why step 2 feels awful: **[docs/method.md](docs/me
         cards.json         retrieval questions -> `study quiz`
         exam.md            exam questions + mark schemes -> `study exam`
         traps.md           where the marks actually go
+        mcq.json           multiple-choice questions for the quiz in the app
     index.html             GENERATED — the browser app he studies from
     web/                   its source: template, styles, logic
     docs/                  the method, and the guides
@@ -176,23 +178,18 @@ Do not write them by hand. In a Claude session in this repo:
 `.claude/skills/topic-pack/SKILL.md` defines what a good pack is, so output
 stays consistent across sessions rather than drifting.
 
-To generate them somewhere else — ChatGPT, another model — print a paste-ready
-prompt:
+To generate them somewhere else, like ChatGPT, it's prompt, paste, import:
 
-    study prompt D1.1              # copy the output, paste it in
-    study prompt D1.1 --example    # also show it a finished pack
+    study prompt D1.1 --example --copy   # prompt on the clipboard; paste it in
+    study import D1.1                    # copy the whole reply, then this
 
-It fills in the topic, theme, level, HL flag and study-guide pages from the
-syllabus, so there is nothing to edit. `--example` appends a completed pack as
-a worked example, which is worth doing the first few times. Then verify the
-structure:
+`study prompt B1.2 --rebuild` redoes a pack he's already used without losing
+his progress, and `study prompt B1.2 --quiz` writes only quiz questions, from
+the pack's own checked content. The importer refuses a reply for the wrong
+topic, a rebuild that drops an id, or a pack that fails `study check`, and it
+never commits. The full walkthrough is in [docs/offloading.md](docs/offloading.md).
 
-    study check D1.1     # one pack
-    study check          # all of them
-
-The checker catches broken card ids, an `exam.md` that will not parse, surviving
-template placeholders and invented video URLs. It cannot tell you whether the
-biology is right — see [docs/offloading.md](docs/offloading.md).
+None of that tells you whether the biology is right.
 
 **Then check it against his actual course materials before he studies it.** A
 wrong card gets memorized exactly as efficiently as a correct one. Build packs

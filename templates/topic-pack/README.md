@@ -14,11 +14,12 @@ Write this last, once the rest of the pack exists._
 
 | File | What it is |
 | --- | --- |
-| `essentials.md` | What you have to be able to do, in plain English |
+| `essentials.md` | What you need to be able to do, in plain English |
 | `videos.md` | What to watch, and what to watch *for* |
 | `cards.json` | Retrieval questions — `study quiz {{CODE}}` reads these |
 | `exam.md` | Exam-style questions with real mark schemes |
 | `traps.md` | Where marks get lost on this topic |
+| `mcq.json` | Multiple-choice questions for the quiz in the app |
 
 ## How to work through it
 

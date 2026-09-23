@@ -25,26 +25,29 @@ export const readCommitted = (absPath) => {
 };
 
 /**
- * Card ids that now carry a different question than the committed version did.
- * A rebuilt pack reuses ids 01..NN for entirely new questions, which silently
- * repoints a student's review history at content they never saw.
+ * Items whose text changed under an id that already existed in the committed
+ * version. A rebuilt pack reuses ids 01..NN for different content, which
+ * silently repoints a student's history at something he never saw.
  */
-export const driftedCards = (absCardsPath, currentCards) => {
-  const raw = readCommitted(absCardsPath);
+export const driftedItems = (absPath, current, { listKey, textKey }) => {
+  const raw = readCommitted(absPath);
   if (!raw) return [];
   let before;
   try {
-    before = JSON.parse(raw).cards || [];
+    before = JSON.parse(raw)[listKey] || [];
   } catch {
     return [];
   }
-  const was = new Map(before.map((c) => [c.id, String(c.q || '').trim()]));
+  const was = new Map(before.map((c) => [c.id, String(c[textKey] || '').trim()]));
   const drift = [];
-  for (const card of currentCards) {
-    const old = was.get(card.id);
-    if (old !== undefined && old !== String(card.q || '').trim()) {
-      drift.push({ id: card.id, before: old, after: String(card.q || '').trim() });
-    }
+  for (const item of current) {
+    const old = was.get(item.id);
+    const now = String(item[textKey] || '').trim();
+    if (old !== undefined && old !== now) drift.push({ id: item.id, before: old, after: now });
   }
   return drift;
 };
+
+/** Card ids whose question changed. Kept for existing callers. */
+export const driftedCards = (absCardsPath, currentCards) =>
+  driftedItems(absCardsPath, currentCards, { listKey: 'cards', textKey: 'q' });

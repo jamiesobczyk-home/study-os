@@ -1,0 +1,173 @@
+{
+  "topic": "B1.2",
+  "questions": [
+    {
+      "id": "B1.2-q01",
+      "stem": "Which four groups are bonded to the central carbon of an amino acid?",
+      "options": [
+        { "text": "An amine group, a carboxyl group, a hydrogen atom and an R group", "correct": true,
+          "why": "Every amino acid has the same first three. Only the R group changes from one amino acid to the next." },
+        { "text": "An amine group, a phosphate group, a hydrogen atom and an R group", "correct": false,
+          "why": "Phosphate groups belong in nucleotides and phospholipids. An amino acid has a carboxyl group there." },
+        { "text": "A hydroxyl group, a carboxyl group, a hydrogen atom and an R group", "correct": false,
+          "why": "The \"amino\" in amino acid is the amine group. A hydroxyl group isn't one of the four." },
+        { "text": "An amine group, a carboxyl group, a methyl group and a peptide bond", "correct": false,
+          "why": "A peptide bond only forms when two amino acids join, and the fourth group is a hydrogen atom." }
+      ]
+    },
+    {
+      "id": "B1.2-q02",
+      "stem": "What happens when two amino acids join by condensation?",
+      "options": [
+        { "text": "A water molecule is used up to split them apart", "correct": false,
+          "why": "That's hydrolysis, the reverse reaction. Condensation releases water." },
+        { "text": "A peptide bond forms and water is released", "correct": true,
+          "why": "The amine group of one reacts with the carboxyl group of the other. You get a dipeptide and one molecule of water." },
+        { "text": "A hydrogen bond forms between their R groups", "correct": false,
+          "why": "The link between amino acids in a chain is a peptide bond, which is covalent. R groups aren't involved." },
+        { "text": "A disulfide bond forms and CO2 is released", "correct": false,
+          "why": "Disulfide bonds form between two cysteines in tertiary structure. They don't join amino acids into a chain." }
+      ]
+    },
+    {
+      "id": "B1.2-q03",
+      "stem": "A polypeptide is 150 amino acids long. How many water molecules were released when it was made?",
+      "options": [
+        { "text": "150", "correct": false,
+          "why": "Count the bonds, not the amino acids. A chain of 150 has one fewer bond than it has amino acids." },
+        { "text": "149", "correct": true,
+          "why": "One water comes off for each peptide bond, and a chain of 150 amino acids has 149 bonds." },
+        { "text": "151", "correct": false,
+          "why": "There's one bond fewer than the number of amino acids, not one more." },
+        { "text": "300", "correct": false,
+          "why": "Each condensation releases one water, not two." }
+      ]
+    },
+    {
+      "id": "B1.2-q04",
+      "stem": "What makes an amino acid \"essential\"?",
+      "options": [
+        { "text": "It's needed in larger amounts than the others", "correct": false,
+          "why": "\"Essential\" isn't about amount or importance. It's about where the amino acid has to come from." },
+        { "text": "It's found in every protein the body makes", "correct": false,
+          "why": "Plenty of proteins lack particular amino acids. That isn't what the word means here." },
+        { "text": "The body can't make it, so it must come from food", "correct": true,
+          "why": "Non-essential ones can be made from other compounds. Essential ones can't, so a diet short of one limits protein synthesis." },
+        { "text": "It's the only type that can form peptide bonds", "correct": false,
+          "why": "Every amino acid can form peptide bonds. Essential describes diet, not chemistry." }
+      ]
+    },
+    {
+      "id": "B1.2-q05",
+      "stem": "How many different sequences are possible for a peptide three amino acids long?",
+      "options": [
+        { "text": "60", "correct": false,
+          "why": "That's 20 × 3. Each of the three positions multiplies the choices, so it's 20 × 20 × 20." },
+        { "text": "400", "correct": false,
+          "why": "That's 20 squared, which is the answer for two amino acids, not three." },
+        { "text": "1,140", "correct": false,
+          "why": "That counts combinations where order doesn't matter. In a peptide order matters, so it's 20 to the power of 3." },
+        { "text": "8,000", "correct": true,
+          "why": "Any of 20 amino acids can go in each position, so it's 20 to the power of 3." }
+      ]
+    },
+    {
+      "id": "B1.2-q06",
+      "stem": "An enzyme is heated until it denatures. Which bonds are still intact?",
+      "options": [
+        { "text": "Hydrogen bonds holding the secondary structure", "correct": false,
+          "why": "Those are among the first to break when a protein is heated." },
+        { "text": "Ionic bonds between charged R groups", "correct": false,
+          "why": "Ionic bonds in the tertiary structure are disrupted by denaturation. That's part of why the shape changes." },
+        { "text": "Peptide bonds between the amino acids", "correct": true,
+          "why": "Denaturation changes the shape, not the sequence. The chain is still one piece afterward." },
+        { "text": "Hydrophobic interactions in the interior", "correct": false,
+          "why": "Heat disrupts those too, which is part of why the protein unfolds." }
+      ]
+    },
+    {
+      "id": "B1.2-q07",
+      "stem": "Which statement about denaturation is correct?",
+      "options": [
+        { "text": "It's always permanent once the shape is lost", "correct": false,
+          "why": "Mild denaturation can reverse. Writing \"always permanent\" loses the mark." },
+        { "text": "It can be reversible or irreversible, depending on severity", "correct": true,
+          "why": "Some proteins refold when normal conditions return. Severe heat or extreme pH can make the change permanent." },
+        { "text": "It breaks the protein back down into amino acids", "correct": false,
+          "why": "That would be hydrolysis. Denaturation leaves the chain of amino acids whole." },
+        { "text": "It only happens at temperatures above 100 °C", "correct": false,
+          "why": "Many proteins denature well below boiling, and pH changes can denature them at any temperature." }
+      ]
+    },
+    {
+      "id": "B1.2-q08",
+      "stem": "How does a change in pH denature a protein?",
+      "options": [
+        { "text": "It changes the charges on R groups, disrupting ionic bonds", "correct": true,
+          "why": "Adding or removing H+ changes which R groups are charged, so ionic and hydrogen bonds holding the shape break." },
+        { "text": "It hydrolyzes the peptide bonds along the backbone", "correct": false,
+          "why": "pH changes disrupt the folding, not the peptide bonds. The sequence stays the same." },
+        { "text": "It adds extra amino acids to the end of the chain", "correct": false,
+          "why": "pH can't add amino acids. Only translation builds the chain." },
+        { "text": "It removes water from inside the folded protein", "correct": false,
+          "why": "Losing water isn't the mechanism. pH works by changing the charges on R groups." }
+      ]
+    },
+    {
+      "id": "B1.2-q09",
+      "stem": "Which bonds hold a protein's secondary structure together?",
+      "options": [
+        { "text": "Ionic bonds between oppositely charged R groups", "correct": false,
+          "why": "That's tertiary structure. R-group bonds shape the whole chain, not the helix." },
+        { "text": "Disulfide bonds between pairs of cysteine R groups", "correct": false,
+          "why": "Disulfide bonds are also R-group interactions, so they belong to tertiary structure." },
+        { "text": "Hydrogen bonds between backbone amine and carboxyl groups", "correct": true,
+          "why": "The alpha helix and beta pleated sheet are the backbone folding on itself, so the R groups aren't involved yet." },
+        { "text": "Hydrophobic interactions between non-polar R groups", "correct": false,
+          "why": "Those help fold the whole chain in tertiary structure, not the helix or sheet." }
+      ]
+    },
+    {
+      "id": "B1.2-q10",
+      "stem": "Which interactions hold a protein's tertiary structure together?",
+      "options": [
+        { "text": "Peptide bonds only, between neighboring amino acids along the chain", "correct": false,
+          "why": "Peptide bonds make the primary structure. The tertiary shape is held by R groups interacting." },
+        { "text": "Hydrogen, ionic and disulfide bonds plus hydrophobic interactions between R groups", "correct": true,
+          "why": "Name all four and say they're between R groups. Listing \"bonds\" without naming them doesn't score." },
+        { "text": "Hydrogen bonds between backbone amine and carboxyl groups, and nothing else", "correct": false,
+          "why": "That's secondary structure. Tertiary structure comes from the R groups." },
+        { "text": "Bonds between two or more separate polypeptide chains in one protein", "correct": false,
+          "why": "That's quaternary structure. Tertiary is the shape of one chain." }
+      ]
+    },
+    {
+      "id": "B1.2-q11",
+      "stem": "Which protein is an example of quaternary structure?",
+      "options": [
+        { "text": "Haemoglobin, made of four polypeptide chains", "correct": true,
+          "why": "Quaternary structure means two or more polypeptides in one protein. Haemoglobin also has haem groups, so it's conjugated too." },
+        { "text": "Any enzyme, since every protein has four levels", "correct": false,
+          "why": "Not every protein has quaternary structure. Many are a single polypeptide." },
+        { "text": "A single polypeptide folded into an alpha helix", "correct": false,
+          "why": "One chain can't have quaternary structure, and a helix is secondary structure." },
+        { "text": "Any dipeptide formed from two amino acids", "correct": false,
+          "why": "A dipeptide is two amino acids in one chain. Quaternary structure needs two or more chains." }
+      ]
+    },
+    {
+      "id": "B1.2-q12",
+      "stem": "Which description fits a globular protein?",
+      "options": [
+        { "text": "Long and narrow, insoluble, with a structural role", "correct": false,
+          "why": "That describes fibrous proteins like collagen and keratin." },
+        { "text": "Rounded and soluble, with a functional role", "correct": true,
+          "why": "Enzymes, haemoglobin and insulin all fit. Their shape lets them do a job, not hold something up." },
+        { "text": "Repetitive in sequence, forming strong fibers", "correct": false,
+          "why": "Repetitive sequences are a fibrous-protein feature. Globular proteins have irregular sequences." },
+        { "text": "Always embedded in the phospholipid bilayer", "correct": false,
+          "why": "Some membrane proteins are globular, but most globular proteins, like enzymes, work in solution." }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# {{CODE}} {{TITLE}} — what you have to be able to do
+# {{CODE}} {{TITLE}} — what you need to be able to do
 
 > Each line below is a thing you should be able to *do*, not a thing you should
 > have read. If you cannot do it with the page closed, it is not learned yet.

@@ -37,13 +37,14 @@ check of what you left out, and a slow way to meet the topic for the first time.
 
 ## What's in this pack
 
-| File | What it’s |
+| File | What it is |
 | --- | --- |
-| `essentials.md` | What you’ve to be able to do, in plain English |
+| `essentials.md` | What you need to be able to do, in plain English |
 | `videos.md` | What to watch, and what to watch *for* |
 | `cards.json` | Retrieval questions — `study quiz B1.2` reads these |
 | `exam.md` | Exam-style questions with real mark schemes |
 | `traps.md` | Where marks get lost on this topic |
+| `mcq.json` | Multiple-choice questions for the quiz in the app |
 
 ## How to work through it
 

@@ -2,7 +2,9 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT, topicDir, progressFile } from './paths.mjs';
-import { driftedCards } from './history.mjs';
+import { driftedCards, driftedItems } from './history.mjs';
+import { REQUIRED_FILES } from './pack.mjs';
+import { validateMcq } from './mcq.mjs';
 import { loadCourse } from './syllabus.mjs';
 import { parseTraps } from './traps.mjs';
 
@@ -62,7 +64,7 @@ export const checkPack = (course, topic) => {
 
   if (!existsSync(dir)) return { errors: [`no pack directory at ${dir}`], warns, info };
 
-  for (const name of ['README.md', 'essentials.md', 'videos.md', 'cards.json', 'exam.md', 'traps.md']) {
+  for (const name of REQUIRED_FILES) {
     if (!read(name)) errors.push(`missing ${name}`);
   }
 
@@ -119,7 +121,7 @@ export const checkPack = (course, topic) => {
           if (studied.has(d.id)) {
             errors.push(`${line} — and he has already studied this card, so his review history now points at different content`);
           } else {
-            warns.push(`${line} — safe for now because he has not studied it, but ids must be stable once he starts`);
+            warns.push(`${line}. Fine if it still tests the same idea. The repo can't see progress he's made in the browser, so a moved idea here would repoint his history`);
           }
         }
       }
@@ -134,6 +136,25 @@ export const checkPack = (course, topic) => {
       }
     } catch (err) {
       errors.push(`cards.json does not parse: ${err.message}`);
+    }
+  }
+
+  // ---- mcq.json: authored multiple choice ------------------------------
+  const rawMcq = read('mcq.json');
+  if (!rawMcq) {
+    warns.push('no mcq.json — the quiz only has why-did-this-fail questions for this topic');
+  } else {
+    try {
+      const data = JSON.parse(rawMcq);
+      const v = validateMcq(topic.code, data);
+      errors.push(...v.errors);
+      warns.push(...v.warns);
+      // Same rule as cards: the quiz store is keyed on these ids.
+      for (const d of driftedItems(join(dir, 'mcq.json'), data.questions || [], { listKey: 'questions', textKey: 'stem' })) {
+        warns.push(`${d.id}: the question changed under an existing id (was "${d.before.slice(0, 48)}…"). Fine if it still tests the same idea; if not, his quiz history for it now points at different content`);
+      }
+    } catch (err) {
+      errors.push(`mcq.json does not parse: ${err.message}`);
     }
   }
 

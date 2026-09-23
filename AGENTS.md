@@ -82,25 +82,35 @@ There is a regression test for this: run an MCQ session and confirm
   This is not hypothetical. A handle guessed from a channel name
   (`@AlexLeeBiology`) shipped and 404'd in front of the student. The real
   channel is `@misterleescience`, recorded in `course.json`.
-- **Card ids are stable, and this is now enforced.** Progress in
-  `progress/<course>.progress.json` is keyed on them. Add cards at the end;
-  never renumber. `study check` compares each card's question against the last
+- **Card and quiz ids are stable.** Progress is keyed on them: `<CODE>-NN`
+  for cards, `<CODE>-qNN` for quiz questions. Add at the end; never renumber,
+  never delete. `study check` compares each question against the last
   committed version (`tools/lib/history.mjs`, via `git show HEAD:<path>`) and
-  reports any id whose question changed — a warning normally, an **error** once
-  that id appears in the progress file, because at that point his review
-  history is pointing at content he never saw.
+  reports any id whose question changed: a warning normally, an **error** once
+  that id appears in `progress/<course>.progress.json`.
 
   This fires on a wholesale pack rebuild, which reuses ids 01..NN for entirely
   new questions. It has already happened twice (A1.1 in `c3e2868`, B2.1 in
   `500e80e`), both times harmlessly only because he had not started studying.
-  `study new` refuses to overwrite an existing pack, but an agent writing files
-  directly bypasses it — hence the check. Rebuilding a pack is fine; reusing an
-  id for a different question is not.
+  `study new` and `study import` refuse to overwrite an existing pack without
+  being told to, but an agent writing files directly bypasses both, hence the
+  check. Rebuilding a pack is fine; reusing an id for a different question is
+  not.
+
+  **That escalation almost never fires, and you can't rely on it.** He studies
+  in the browser, so his real progress lives in localStorage on his device and
+  the repo's progress file stays empty. Treat every existing id as studied.
+  That's why `study prompt <CODE> --rebuild` hands the model every current id
+  with its question, and why `study import` refuses a reply that drops any
+  existing id and prints every reworded question beside its old version.
 - **`progress/` is his data.** Do not edit progress files by hand, do not reset
   them to make output look tidier, and do not commit a cleared one over a real
   one.
+- **One definition of a pack.** The seven files and which are required live in
+  `tools/lib/pack.mjs`. The checker, the prompt, the build, the importer and
+  `study new` all read it. Add a file there, not in five places.
 - **The three traps.md labels are load-bearing.** `**Commonly written:**`,
-  `**Why it doesn't score:**` and `**Scores instead:**` are parsed by
+  `**Why it doesn’t score:**` (curly apostrophe) and `**Scores instead:**` are parsed by
   `tools/lib/traps.mjs` into quiz questions and video scenes. One parser, used
   by both — do not write a second. `study check` errors on a missing label.
 - **Exam file structure is load-bearing.** `study exam` parses `## ` headings
@@ -109,8 +119,15 @@ There is a regression test for this: run an MCQ session and confirm
   is for sessions in this repo; `prompts/topic-pack.md` is the self-contained
   version for a model with no repo access, served by `study prompt <CODE>`.
   Change the pack format and you must update both, plus `tools/lib/check.mjs`
-  which enforces it. `tools/lib/prompt.mjs` substitutes into the prompt by
-  matching exact strings, so edit those lines with care.
+  which enforces it and `tools/lib/import.mjs` which gates replies. The prompt
+  is a template: `{{NAME}}` placeholders and `{{#mode}}…{{/mode}}` blocks for
+  the three modes (`new`, `rebuild`, `quiz`), filled by `tools/lib/prompt.mjs`,
+  which fails if the template names a placeholder it doesn't supply.
+- **A model's reply goes in through `study import`, not by hand.** It checks the
+  topic in every file (B2.1 once got rebuilt when B1.2 was meant), id
+  preservation, the quiz rules, then writes, runs the pack check, and puts every
+  file back if the check fails. It never commits; that's Jamie's call after
+  reading the content against the book.
 
 ## Tone
 
@@ -138,6 +155,7 @@ lives in `.claude/skills/topic-pack/SKILL.md` and `prompts/topic-pack.md`.
 There is no test suite. Before calling a change done:
 
     study check          # structural check on every pack (warns if index.html is stale)
+    study prompt <CODE> [--rebuild|--quiz]   # generate all three modes; no "{{" may survive
     study links          # fetch every video link; fails on dead ones
     study voice          # counts the tells that read as machine-written
     study build          # rebuild the browser app

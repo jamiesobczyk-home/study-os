@@ -1,0 +1,173 @@
+{
+  "topic": "C1.2",
+  "questions": [
+    {
+      "id": "C1.2-q01",
+      "stem": "Which is the correct definition of cell respiration?",
+      "options": [
+        { "text": "Taking in oxygen and releasing carbon dioxide from the lungs", "correct": false,
+          "why": "That's breathing, or gas exchange. Mixing them up is the most common way to lose this mark." },
+        { "text": "Controlled release of energy from organic compounds to produce ATP", "correct": true,
+          "why": "Respiration happens in every living cell, and its purpose is making ATP." },
+        { "text": "Converting glucose into ATP so energy can be stored for later", "correct": false,
+          "why": "ATP isn't a long-term store. Cells make it and spend it almost right away." },
+        { "text": "Breaking down glucose in the absence of oxygen to release energy", "correct": false,
+          "why": "That's only anaerobic respiration. The definition has to cover aerobic respiration too." }
+      ]
+    },
+    {
+      "id": "C1.2-q02",
+      "stem": "Why is ATP described as an energy currency rather than an energy store?",
+      "options": [
+        { "text": "It holds more energy per gram than lipids or carbohydrates", "correct": false,
+          "why": "It's the opposite. Lipids and carbohydrates are the long-term stores." },
+        { "text": "It can only be made in the mitochondria of animal cells", "correct": false,
+          "why": "Glycolysis makes ATP in the cytoplasm, and plants make ATP too." },
+        { "text": "It's used almost as soon as it's made, so little is kept", "correct": true,
+          "why": "Cells spend ATP as fast as they regenerate it from ADP and phosphate, like cash rather than savings." },
+        { "text": "It releases energy only when combined with oxygen", "correct": false,
+          "why": "ATP releases energy when its terminal phosphate is removed by hydrolysis. Oxygen isn't involved." }
+      ]
+    },
+    {
+      "id": "C1.2-q03",
+      "stem": "Where does glycolysis happen, and what is its net ATP yield per glucose?",
+      "options": [
+        { "text": "In the cytoplasm, with a net gain of 2 ATP", "correct": true,
+          "why": "Glycolysis splits glucose into two pyruvate in the cytoplasm. It doesn't need oxygen." },
+        { "text": "In the mitochondrial matrix, with a net gain of 2 ATP", "correct": false,
+          "why": "The matrix is where the link reaction and the Krebs cycle happen. Glycolysis is in the cytoplasm." },
+        { "text": "In the cytoplasm, with a net gain of 4 ATP", "correct": false,
+          "why": "Four ATP are made, but two were spent getting started, so the net gain is 2." },
+        { "text": "On the inner mitochondrial membrane, with a net gain of 36 ATP", "correct": false,
+          "why": "That's closer to the whole of aerobic respiration. Glycolysis alone makes a net 2 ATP." }
+      ]
+    },
+    {
+      "id": "C1.2-q04",
+      "stem": "In anaerobic conditions in muscle, why is pyruvate converted to lactate?",
+      "options": [
+        { "text": "Because there's no oxygen available", "correct": false,
+          "why": "That's when it happens, not why. The mark is for the purpose, which is regenerating NAD." },
+        { "text": "To regenerate NAD so glycolysis can continue", "correct": true,
+          "why": "Glycolysis needs NAD to accept hydrogen. Making lactate frees up NAD, so glycolysis keeps producing ATP." },
+        { "text": "To produce more ATP from each pyruvate", "correct": false,
+          "why": "Making lactate produces no ATP. It only keeps glycolysis running." },
+        { "text": "To remove carbon dioxide from the cell", "correct": false,
+          "why": "No CO2 is released when lactate forms in humans. That happens in yeast." }
+      ]
+    },
+    {
+      "id": "C1.2-q05",
+      "stem": "What are the products of anaerobic respiration in yeast?",
+      "options": [
+        { "text": "Lactate only", "correct": false,
+          "why": "Lactate is the product in humans. Yeast makes something different." },
+        { "text": "Ethanol and carbon dioxide", "correct": true,
+          "why": "Yeast converts pyruvate to ethanol and CO2. That's what bread and brewing rely on." },
+        { "text": "Carbon dioxide and water", "correct": false,
+          "why": "Those are the products of aerobic respiration." },
+        { "text": "Lactate and carbon dioxide", "correct": false,
+          "why": "Lactate doesn't come with CO2. Yeast makes ethanol and CO2." }
+      ]
+    },
+    {
+      "id": "C1.2-q06",
+      "stem": "What happens to pyruvate in the link reaction?",
+      "options": [
+        { "text": "It's decarboxylated and oxidized to form acetyl CoA", "correct": true,
+          "why": "A carbon leaves as CO2, hydrogen goes to NAD, and what's left joins coenzyme A. This happens in the matrix." },
+        { "text": "It's reduced to lactate so NAD can be regenerated", "correct": false,
+          "why": "That's what happens in anaerobic conditions in muscle, not in the link reaction." },
+        { "text": "It's split into two molecules of glucose in the matrix", "correct": false,
+          "why": "Pyruvate comes from glucose, not the other way around. It loses a carbon here." },
+        { "text": "It's phosphorylated by ATP synthase to make ATP", "correct": false,
+          "why": "No ATP is made in the link reaction. ATP synthase works in the inner membrane." }
+      ]
+    },
+    {
+      "id": "C1.2-q07",
+      "stem": "Which products does the Krebs cycle release?",
+      "options": [
+        { "text": "Oxygen, glucose and water", "correct": false,
+          "why": "Oxygen is used at the end of the electron transport chain, and glucose isn't made here." },
+        { "text": "Lactate, ethanol and ATP", "correct": false,
+          "why": "Lactate and ethanol are anaerobic products. The Krebs cycle needs aerobic conditions." },
+        { "text": "Pyruvate, NAD and oxygen", "correct": false,
+          "why": "Pyruvate enters the link reaction before the cycle. NAD is reduced here, not released." },
+        { "text": "Reduced NAD, reduced FAD and CO2", "correct": true,
+          "why": "The cycle's oxidations reduce NAD and FAD, and its decarboxylations release CO2. A little ATP is made too." }
+      ]
+    },
+    {
+      "id": "C1.2-q08",
+      "stem": "What does the energy released along the electron transport chain do directly?",
+      "options": [
+        { "text": "Phosphorylates ADP to make ATP", "correct": false,
+          "why": "That's the trap. The chain's energy pumps protons. ATP synthase makes the ATP afterward, in chemiosmosis." },
+        { "text": "Pumps protons into the intermembrane space", "correct": true,
+          "why": "That builds up a proton gradient across the inner membrane, which chemiosmosis then uses." },
+        { "text": "Splits oxygen molecules into atoms", "correct": false,
+          "why": "Oxygen accepts electrons at the end of the chain. The energy isn't used to split it." },
+        { "text": "Breaks glucose down into pyruvate", "correct": false,
+          "why": "That's glycolysis, which happens in the cytoplasm." }
+      ]
+    },
+    {
+      "id": "C1.2-q09",
+      "stem": "Which describes chemiosmosis in mitochondria?",
+      "options": [
+        { "text": "Electrons pass along carriers in the inner membrane", "correct": false,
+          "why": "That's the electron transport chain. Chemiosmosis is what happens to the protons afterward." },
+        { "text": "Protons flow back into the matrix through ATP synthase", "correct": true,
+          "why": "Protons move down their gradient through ATP synthase, and that flow phosphorylates ADP to ATP." },
+        { "text": "Water moves across the inner membrane by osmosis", "correct": false,
+          "why": "Despite the name, chemiosmosis isn't about water. It's the movement of protons." },
+        { "text": "Protons are pumped out of the matrix using ATP", "correct": false,
+          "why": "The pumping is powered by electron transport, not ATP. Chemiosmosis is protons flowing back in." }
+      ]
+    },
+    {
+      "id": "C1.2-q10",
+      "stem": "What is the role of oxygen in aerobic respiration?",
+      "options": [
+        { "text": "It's used by ATP synthase to make ATP", "correct": false,
+          "why": "That's the trap. ATP synthase uses the proton gradient. Oxygen isn't used to make ATP directly." },
+        { "text": "It oxidizes glucose directly in glycolysis", "correct": false,
+          "why": "Glycolysis doesn't need oxygen at all." },
+        { "text": "It accepts electrons at the end of the chain", "correct": true,
+          "why": "Oxygen is the terminal electron acceptor and forms water. Without it, the chain backs up and stops." },
+        { "text": "It's released as a product of the Krebs cycle", "correct": false,
+          "why": "The Krebs cycle releases CO2, not oxygen." }
+      ]
+    },
+    {
+      "id": "C1.2-q11",
+      "stem": "Where is the electron transport chain located?",
+      "options": [
+        { "text": "In the cytoplasm", "correct": false,
+          "why": "Only glycolysis happens in the cytoplasm." },
+        { "text": "In the mitochondrial matrix", "correct": false,
+          "why": "The matrix is for the link reaction and the Krebs cycle." },
+        { "text": "In the inner mitochondrial membrane", "correct": true,
+          "why": "The cristae fold that membrane to give more surface for the chain and ATP synthase." },
+        { "text": "In the outer mitochondrial membrane", "correct": false,
+          "why": "The chain is in the inner membrane, so protons get pumped into the space between the two." }
+      ]
+    },
+    {
+      "id": "C1.2-q12",
+      "stem": "Why do lipids release more energy per gram than carbohydrates when respired?",
+      "options": [
+        { "text": "Lipid molecules are larger than carbohydrate molecules", "correct": false,
+          "why": "Size isn't the reason, and \"because they're bigger\" gets no marks." },
+        { "text": "Lipids can be respired without any oxygen", "correct": false,
+          "why": "It's the reverse. Carbohydrates can be respired anaerobically, and lipids can't." },
+        { "text": "Lipids are more reduced, with more hydrogen per carbon", "correct": true,
+          "why": "More hydrogen means more reduced NAD and FAD, so more ATP from the electron transport chain." },
+        { "text": "Lipids are broken down faster than carbohydrates", "correct": false,
+          "why": "Carbohydrates release their energy faster. Lipids release more of it per gram." }
+      ]
+    }
+  ]
+}

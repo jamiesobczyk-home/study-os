@@ -1,0 +1,19 @@
+{
+  "topic": "{{CODE}}",
+  "questions": [
+    {
+      "id": "{{CODE}}-q01",
+      "stem": "One question, asking one thing.",
+      "options": [
+        { "text": "The correct answer, in exam wording", "correct": true,
+          "why": "Why it's right, in plain words." },
+        { "text": "A real misconception, about the same length", "correct": false,
+          "why": "Why this one fails, and what it actually describes." },
+        { "text": "Another misconception, about the same length", "correct": false,
+          "why": "Why this one fails." },
+        { "text": "A third misconception, about the same length", "correct": false,
+          "why": "Why this one fails." }
+      ]
+    }
+  ]
+}

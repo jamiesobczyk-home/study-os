@@ -25,13 +25,14 @@ Allott, _Biology Study Guide_ (2023), **section B2.1, pp. 70-74**. Read it *afte
 
 ## What's in this pack
 
-| File | What it’s |
+| File | What it is |
 | --- | --- |
-| `essentials.md` | What you’ve to be able to do, in plain English |
+| `essentials.md` | What you need to be able to do, in plain English |
 | `videos.md` | What to watch, and what to watch *for* |
 | `cards.json` | Retrieval questions — `study quiz B2.1` reads these |
 | `exam.md` | Exam-style questions with real mark schemes |
 | `traps.md` | Where marks get lost on this topic |
+| `mcq.json` | Multiple-choice questions for the quiz in the app |
 
 ## How to work through it
 

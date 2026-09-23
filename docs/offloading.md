@@ -40,34 +40,69 @@ run the checker.
 
 ## The workflow
 
-1. Print a paste-ready prompt and copy it:
+Three steps, run from the `study-os` folder in PowerShell (`.\study` on
+Windows, `./study` elsewhere).
 
-       study prompt B1.2
+**1. Put the prompt on the clipboard.**
 
-   That fills in the topic, theme, level, HL flag and study-guide pages from
-   the syllabus, so there is nothing to edit. Add `--example` to append a
-   finished pack as a worked example — worth it the first few times, because
-   showing a model the standard works better than describing it:
+    .\study prompt D1.1 --example --copy
 
-       study prompt B1.2 --example
-       study prompt B1.2 --example C1.2   # pick which one
-2. Paste it in. Save the six returned files into `courses/bio-hl/topics/<CODE>-<slug>/`.
-   `study new <CODE>` creates the directory first if you want it
-   scaffolded.
-3. Run the structural check:
+That fills in the topic, theme, level, HL flag, study-guide pages and the
+verified channel links, so there's nothing to edit. `--example` appends a
+finished pack for the model to match. It makes the prompt long, but showing a
+model the standard works better than describing it. Pick which pack with
+`--example C1.2`.
 
-       study check <CODE>
+There are three kinds of prompt:
 
-   It verifies card ids are sequential, `exam.md` will actually parse, no
-   template placeholders survived, no invented video URLs, and the counts are
-   in range. Errors mean the pack will not work; warnings are usually worth
-   fixing. It exits non-zero on errors, so you can gate on it.
+| Command | Use it for | What the model writes |
+| --- | --- | --- |
+| `.\study prompt D1.1` | a topic with no pack yet | all seven files |
+| `.\study prompt B1.2 --rebuild` | redoing a pack he's already used | all seven files, keeping every card and quiz id on its idea |
+| `.\study prompt B1.2 --quiz` | adding quiz questions to a pack | `mcq.json` only, written from the pack's own checked content |
 
-4. **Check the biology against the study guide.** Read the `UNCERTAIN` list,
-   then the section. Ten minutes.
-5. Set `studyGuidePages` for the topic in `courses/bio-hl/syllabus.json`.
+Use `--rebuild`, never a plain prompt, for a topic that already exists. His
+progress lives in his browser and is keyed on those ids, and the rebuild
+prompt is the only thing that tells the model what they are. `--quiz` is the
+safest way to get more questions: the model writes from content you've
+already checked against the book, not from memory.
 
-Steps 1–3 are offloadable. Step 4 is not, and it is the one that matters.
+**2. Paste it into ChatGPT, then copy the whole reply** with the copy button
+under the answer.
+
+**3. Import it.**
+
+    .\study import D1.1                    # a new topic
+    .\study import B1.2 --replace          # a rebuild
+    .\study import B1.2 --quiz --replace   # quiz questions, if it has some already
+
+With no file named, it reads the clipboard. Don't pipe text in or out with
+`Get-Clipboard` or `Set-Clipboard`: Windows PowerShell 5 turns curly
+apostrophes into `?` on the way through a pipe, which is why `--copy` and the
+importer talk to the clipboard themselves. The importer refuses a reply that's
+been through that damage. If the clipboard doesn't work,
+paste the reply into Notepad, save it as `reply.txt`, and run
+`.\study import D1.1 reply.txt`.
+
+Before it writes anything, it checks that:
+
+- every file is for the topic you named (a B2.1 reply can't land in B1.2);
+- a rebuild keeps every existing card and quiz id, and it shows you each
+  reworded question beside the old one so you can see that the idea didn't
+  move;
+- the quiz questions have four options, one right answer, an explanation on
+  every option, and no length giveaway;
+- the whole pack passes `study check`. If it doesn't, every file goes back to
+  how it was.
+
+Then it rebuilds `index.html` and prints the model's `UNCERTAIN` list with the
+study-guide pages to check it against. It never commits.
+
+**4. Check the biology against the study guide.** Read the `UNCERTAIN` list
+first, then the section. About ten minutes. Then `.\study links D1.1`, and
+commit when you're happy.
+
+Steps 1 to 3 are offloadable. Step 4 isn't, and it's the one that matters.
 
 ## What each tool is actually best at
 

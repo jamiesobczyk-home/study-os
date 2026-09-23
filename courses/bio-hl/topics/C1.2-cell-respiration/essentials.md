@@ -1,4 +1,4 @@
-# C1.2 Cell respiration — what you’ve to be able to do
+# C1.2 Cell respiration — what you need to be able to do
 
 ## Core
 

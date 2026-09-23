@@ -1,6 +1,6 @@
 ---
 name: topic-pack
-description: Author or improve a topic pack in this study repo — the five files that make one syllabus topic studiable (essentials, videos, cards, exam, traps). Use when asked to build, fill in, extend or fix a topic pack, add a topic, or add a course.
+description: Author or improve a topic pack in this study repo — the files that make one syllabus topic studiable (essentials, videos, cards, quiz questions, exam, traps). Use when asked to build, fill in, extend or fix a topic pack, add a topic, or add a course.
 ---
 
 # Building a topic pack
@@ -10,8 +10,10 @@ description: Author or improve a topic pack in this study repo — the five file
 > change it there too — and in `tools/lib/check.mjs`, which enforces it.
 
 A topic pack turns one syllabus topic into something a struggling student can
-work through in forty minutes. It is five files in
-`courses/<course>/topics/<CODE>-<slug>/`, plus a README.
+work through in forty minutes. It is seven files in
+`courses/<course>/topics/<CODE>-<slug>/`: essentials, videos, cards, mcq,
+exam, traps and a README. The list lives in one place, `tools/lib/pack.mjs`,
+and everything else reads it.
 
 Scaffold it first — this creates the directory with the template filled in:
 
@@ -54,7 +56,7 @@ This is not hypothetical. An invented `@AlexLeeBiology` handle shipped to the
 student and 404'd; `study check` now refuses any non-search YouTube link outside
 Pinned.
 
-## The five files
+## The files
 
 ### `essentials.md` — what he must be able to *do*
 
@@ -112,7 +114,10 @@ The file the quiz reads. Shape:
 - `id` — `<CODE>-NN`, sequential. Stable: **never renumber an existing card**,
   and when rebuilding an existing pack, keep every id attached to the question
   it already had. Progress is keyed on ids, so reusing one for a different
-  question corrupts his review history. `study check` now fails on this.
+  question corrupts his review history. His progress lives in his browser,
+  where no check in this repo can see it, so treat every existing id as
+  studied: reword freely, but keep each id on the same idea, add new cards at
+  the end, and never delete one.
 - `q` — must force production, not recognition. "Why is water polar? Give the
   full reason, not just the label" beats "What is polarity?". Questions that
   can be answered "yes" are broken.
@@ -130,6 +135,49 @@ Cover: every Core bullet in `essentials.md`, every HL bullet, and at least one
 card that states a common misconception and corrects it. Include one
 **synthesis card** that forces several facts together — a summary table, a
 full pathway, the four locations as a set.
+
+### `mcq.json` — multiple choice for the quiz
+
+The app's Quiz tab mixes these with questions it derives from `traps.md`.
+
+```json
+{ "topic": "B1.2",
+  "questions": [
+    { "id": "B1.2-q01",
+      "stem": "Which bonds hold a protein's secondary structure together?",
+      "options": [
+        { "text": "Hydrogen bonds between backbone amine and carboxyl groups", "correct": true,
+          "why": "The alpha helix and beta pleated sheet are the backbone folding on itself, so the R groups aren't involved yet." },
+        { "text": "Ionic bonds between oppositely charged R groups", "correct": false,
+          "why": "That's tertiary structure. R-group bonds shape the whole chain, not the helix." }
+      ] } ] }
+```
+
+(Two options shown to keep it short; every question needs four.)
+
+The app shuffles the options. A right pick shows "Correct." and that option's
+`why`; a wrong pick shows "Not this one.", the `why` of what he picked, then
+the right answer and its `why`. The rules follow from that:
+
+- **10 to 14 questions, four options each, exactly one correct, a `why` on
+  every option.** `study check` errors on any of these.
+- **Ids `<CODE>-q01`…, sequential and permanent**, same rule as card ids. The
+  quiz store is keyed on them.
+- **A wrong option's `why` explains why *that* option fails**, and names what
+  it actually describes when it's a real thing in the wrong place. Don't open
+  with "No"/"Incorrect" or "Correct"/"Right"; the app already says it.
+- **Distractors are real misconceptions**, ideally the topic's own traps, and
+  clearly wrong by the pack's content, never arguably right.
+- **No length tell.** The first trap-derived quiz had correct answers twice
+  as long as the wrong ones, which teaches picking the longest. Match
+  distractors in length and detail. `study check` warns when the correct option
+  is the longest in more than 40% of a pack (chance is 25%) or runs 1.5× the
+  average distractor on any one question. The first 48 authored questions sit
+  at exactly 25%.
+- No "all of the above" or "none of the above".
+- **Options in exam register; `why` in the plain voice below.**
+- Test only what the pack itself says. The pack has been checked against the
+  book; a true fact from elsewhere hasn't.
 
 ### `exam.md` — questions with real mark schemes
 
@@ -241,7 +289,9 @@ then cut, and put the thing you want remembered at the end of the sentence.
 
 - [ ] `study check <CODE>` reports no errors.
 - [ ] `study build` run, and the topic viewed in `index.html`.
-- [ ] No existing card id changed (the checker cannot see this — you must).
+- [ ] No existing card or quiz id moved to a different idea. The checker
+      warns on changed wording but can't judge whether the idea moved; you must.
+- [ ] `mcq.json` passes with no length-tell warning.
 - [ ] `study quiz <CODE> --all` runs and shows every card.
 - [ ] `study exam <CODE>` reveals a mark scheme correctly.
 - [ ] Every Core and HL bullet in `essentials.md` has at least one card.

@@ -25,6 +25,8 @@ import {
 import * as progress from './lib/progress.mjs';
 import { checkPack, repoIssues } from './lib/check.mjs';
 import { buildPrompt } from './lib/prompt.mjs';
+import { parseReply, vetReply, writePack } from './lib/import.mjs';
+import { readClipboard, writeClipboard } from './lib/clipboard.mjs';
 import { packLinks, checkLink } from './lib/links.mjs';
 import { voiceReport } from './lib/voice.mjs';
 import { build as buildWeb } from './build-web.mjs';
@@ -34,6 +36,10 @@ const DEFAULT_COURSE = 'bio-hl';
 
 // ---------------------------------------------------------------- arguments
 
+// Flags that never take a value, so `--replace reply.txt` keeps the file name
+// as an argument instead of swallowing it.
+const SWITCHES = new Set(['all', 'help', 'quiz', 'rebuild', 'replace', 'force', 'copy']);
+
 const parseArgs = (argv) => {
   const flags = {};
   const positional = [];
@@ -42,6 +48,7 @@ const parseArgs = (argv) => {
     if (arg.startsWith('--')) {
       const [key, inline] = arg.slice(2).split('=');
       if (inline !== undefined) flags[key] = inline;
+      else if (SWITCHES.has(key)) flags[key] = true;
       else if (argv[i + 1] && !argv[i + 1].startsWith('--')) flags[key] = argv[++i];
       else flags[key] = true;
     } else positional.push(arg);
@@ -467,31 +474,154 @@ const cmdCheck = (ctx, code) => {
 
 const cmdPrompt = (ctx, code, flags) => {
   const topic = requireTopic(ctx, code);
-  if (hasPack(ctx.course, topic) && !flags.force) {
-    console.error(`${topic.code} already has a pack. Use --force to print the prompt anyway.`);
+  const built = hasPack(ctx.course, topic);
+  if (flags.force) {
+    console.error('--force is gone. Use --rebuild to redo a pack (it keeps every id), or --quiz for quiz questions only.');
+    process.exit(1);
+  }
+  if (flags.rebuild && flags.quiz) {
+    console.error('Pick one: --rebuild or --quiz.');
+    process.exit(1);
+  }
+  const mode = flags.rebuild ? 'rebuild' : flags.quiz ? 'quiz' : 'new';
+  if (mode === 'new' && built) {
+    console.error(
+      `${topic.code} already has a pack. Use --rebuild to redo it (the prompt carries every ` +
+      `existing id so his progress survives), or --quiz to add quiz questions.`
+    );
+    process.exit(1);
+  }
+  if (mode !== 'new' && !built) {
+    console.error(`${topic.code} has no pack yet, so there's nothing to ${mode === 'quiz' ? 'write a quiz from' : 'rebuild'}. Drop --${mode}.`);
     process.exit(1);
   }
 
   let example = null;
   if (flags.example !== undefined && flags.example !== false) {
-    // --example picks a named pack, or the first finished one.
-    const built = ctx.syllabus.topics.filter((t) => hasPack(ctx.course, t));
+    // --example picks a named pack, or the first finished one that has a quiz
+    // file and isn't the topic being written.
+    const candidates = ctx.syllabus.topics.filter(
+      (t) => t.code !== topic.code && hasPack(ctx.course, t)
+    );
     example = typeof flags.example === 'string'
       ? findTopic(ctx.syllabus, flags.example)
-      : built[0];
+      : candidates.find((t) => readPackFile(ctx.course, t, 'mcq.json')) || candidates[0];
     if (!example) {
       console.error(`No finished pack to use as an example${typeof flags.example === 'string' ? ` (looked for ${flags.example})` : ''}.`);
       process.exit(1);
     }
+    if (example.code === topic.code) {
+      console.error(`${example.code} can't be its own example.`);
+      process.exit(1);
+    }
     if (!hasPack(ctx.course, example)) {
-      console.error(`${example.code} has no pack, so it cannot be the example.`);
+      console.error(`${example.code} has no pack, so it can't be the example.`);
       process.exit(1);
     }
   }
 
+  const prompt = buildPrompt(ctx, topic, { mode, example });
+  if (flags.copy) {
+    try {
+      writeClipboard(prompt);
+    } catch (err) {
+      console.error(err.message);
+      process.exit(1);
+    }
+    const words = prompt.split(/\s+/).filter(Boolean).length;
+    console.error(
+      `Copied the ${topic.code} ${mode === 'new' ? '' : `${mode} `}prompt (${words.toLocaleString()} words). ` +
+      `Paste it into ChatGPT, copy the whole reply, then run: study import ${topic.code}` +
+      (mode === 'rebuild' ? ' --replace' : mode === 'quiz' ? ` --quiz${readPackFile(ctx.course, topic, 'mcq.json') ? ' --replace' : ''}` : '')
+    );
+    return;
+  }
   // Everything below goes to stdout and nothing else does, so the whole
   // output can be piped or copied straight into another model.
-  console.log(buildPrompt(ctx, topic, { exampleDir: example }));
+  process.stdout.write(prompt);
+};
+
+const readStdin = async () => {
+  if (process.stdin.isTTY) return '';
+  const chunks = [];
+  for await (const chunk of process.stdin) chunks.push(chunk);
+  return Buffer.concat(chunks).toString('utf8');
+};
+
+const cmdImport = async (ctx, code, file, flags) => {
+  const topic = requireTopic(ctx, code);
+  const quiz = Boolean(flags.quiz);
+  const replace = Boolean(flags.replace);
+
+  // A file if one is named, then piped input, then the clipboard.
+  let text;
+  let source;
+  if (file) {
+    if (!existsSync(file)) {
+      console.error(`No file at ${file}.`);
+      process.exit(1);
+    }
+    text = readFileSync(file, 'utf8');
+    source = file;
+  } else {
+    text = await readStdin();
+    source = 'piped input';
+    if (!text.trim()) {
+      try {
+        text = readClipboard();
+        source = 'the clipboard';
+      } catch (err) {
+        console.error(err.message);
+        process.exit(1);
+      }
+    }
+  }
+
+  console.log(heading(`Importing ${topic.code} ${topic.title}${quiz ? ' (quiz only)' : ''} from ${source}`));
+  const parsed = parseReply(text);
+  if (parsed.files.length) console.log(para(dim(`  Found ${parsed.files.map((f) => f.name).join(', ')}`)));
+
+  const vetted = vetReply(ctx.course, topic, parsed, { quiz, replace });
+  const stop = (errors) => {
+    for (const e of errors) console.log(para(red(`- ${e}`), '  '));
+    console.log(para(`\n  ${bold('Nothing was written.')}\n`));
+    process.exit(1);
+  };
+  if (vetted.errors.length) stop(vetted.errors);
+
+  if (vetted.changed.length) {
+    console.log(para(`\n  ${bold(`${vetted.changed.length} existing question${vetted.changed.length === 1 ? '' : 's'} reworded.`)} Each id should still test the same idea:\n`));
+    for (const c of vetted.changed) {
+      console.log(para(`${bold(c.id)}\n${dim('before')} ${c.before}\n${dim('after ')} ${c.after}\n`, '    '));
+    }
+  }
+
+  const result = writePack(ctx.course, topic, vetted.writes);
+  if (result.rolledBack) stop(result.errors.map((e) => `study check: ${e}`));
+
+  const warns = [...vetted.warns, ...result.warns];
+  if (!parsed.sawUncertain) {
+    const last = parsed.files[parsed.files.length - 1];
+    warns.push(`the reply had no UNCERTAIN list. Check the end of ${last.name} for chat text that isn't part of the file.`);
+  }
+  for (const w of warns) console.log(para(yellow(`- ${w}`), '  '));
+
+  const built = buildWeb(ctx.course);
+  console.log(para(
+    `\n  Wrote ${vetted.writes.map((w) => w.name).join(', ')} to courses/${ctx.course}/topics/${topic.dir}\n` +
+    `  Rebuilt index.html: ${built.cards} cards, ${built.mcq} quiz questions.\n`
+  ));
+
+  const pages = topic.studyGuidePages ? `, pp. ${String(topic.studyGuidePages).replace('-', '–')}` : '';
+  if (parsed.uncertain.length) {
+    console.log(para(`  ${bold('The model was unsure about these.')} Check them in Allott, section ${topic.code}${pages}:\n`));
+    for (const u of parsed.uncertain) console.log(para(`- ${u}`, '    '));
+    console.log('');
+  }
+  console.log(para(
+    `  Nothing's committed. Read it against the book, run ${bold(`study links ${topic.code}`)}, ` +
+    `then commit when you're happy with it.\n`
+  ));
 };
 
 /** Returns a reason string when index.html is older than the content it bakes in. */
@@ -570,6 +700,14 @@ const cmdVoice = (ctx, code) => {
   for (const t of topics) {
     const cards = loadCards(ctx.course, t);
     add(`${t.code} cards`, cards.map((c) => `${c.q} ${c.a} ${c.note || ''}`).join(' '));
+    const mcqRaw = readPackFile(ctx.course, t, 'mcq.json');
+    if (mcqRaw) {
+      try {
+        const qs = JSON.parse(mcqRaw).questions || [];
+        // The explanations are the voice text; options stay in exam register.
+        add(`${t.code} quiz why`, qs.flatMap((q) => [q.stem].concat(q.options.map((o) => o.why))).join(' '));
+      } catch { /* study check reports parse errors */ }
+    }
     for (const f of ['traps.md', 'essentials.md', 'exam.md']) {
       const body = readPackFile(ctx.course, t, f);
       if (body) add(`${t.code} ${f}`, body);
@@ -611,12 +749,17 @@ ${bold('study')} — a video-first study system
   ${bold('links')} [topic]      fetch every video link and report dead ones
   ${bold('voice')} [topic]      measure how machine-written the prose reads
   ${bold('prompt')} <topic>     print a paste-ready pack prompt for another model
+  ${bold('import')} <topic> [file]  check a model's reply and write it into the pack
   ${bold('build')}              rebuild index.html, the browser version he studies from
 
   ${dim('--course <id>')}      pick a course (default: ${DEFAULT_COURSE})
   ${dim('--limit <n>')}        cards per quiz (default: 20)
   ${dim('--all')}              quiz a whole topic, not just what is due
+  ${dim('--rebuild')}          with prompt: redo an existing pack, keeping every id
+  ${dim('--quiz')}             with prompt or import: quiz questions (mcq.json) only
   ${dim('--example [topic]')}   with prompt: include a finished pack as a worked example
+  ${dim('--copy')}             with prompt: put it on the clipboard instead of printing it
+  ${dim('--replace')}          with import: allow overwriting files that already exist
 
 ${dim('Start here:')}  node tools/study.mjs today
 `);
@@ -643,6 +786,7 @@ const main = async () => {
     case 'links': return cmdLinks(ctx, code);
     case 'voice': return cmdVoice(ctx, code);
     case 'prompt': return cmdPrompt(ctx, code, flags);
+    case 'import': return cmdImport(ctx, code, positional[2], flags);
     case 'build': return cmdBuild(ctx);
     default:
       console.error(`Unknown command "${command}".`);

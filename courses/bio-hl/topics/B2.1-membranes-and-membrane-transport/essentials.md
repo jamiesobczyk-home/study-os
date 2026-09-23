@@ -1,4 +1,4 @@
-# B2.1 Membranes and membrane transport — what you’ve to be able to do
+# B2.1 Membranes and membrane transport — what you need to be able to do
 
 > Tick a line only after you can do it with the page closed and without prompts.
 

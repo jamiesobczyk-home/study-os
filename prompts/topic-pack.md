@@ -1,149 +1,188 @@
-# Portable topic-pack prompt
+# Topic-pack prompt template
 
-**Do not paste this file by hand.** Generate a filled-in copy instead:
+**Don't paste this file.** Generate a filled-in copy with one of:
 
-    study prompt B1.2              # copy the output, paste into ChatGPT
-    study prompt B1.2 --example    # also show it a finished pack
+    study prompt D1.1                # a new topic: all seven files
+    study prompt B1.2 --rebuild      # redo an existing topic, keeping every id
+    study prompt B1.2 --quiz         # quiz questions only, from the pack's own content
+    ...add --example to show the model a finished pack, --copy to put it
+    on the clipboard
 
-That substitutes the topic, theme, level, HL flag and study-guide page range
-from the syllabus, and appends the verified channel URLs — none of which this
-raw file contains. Pasting the raw file leaves `<CODE>` placeholders in the
-prompt and gives the model no link it is allowed to use.
+Then copy the model's whole reply and run `study import <CODE>` (add
+`--replace` when it overwrites files that exist, `--quiz` for a quiz-only
+reply). The importer checks the reply before writing anything.
 
-When the reply comes back, save the six files into
-`courses/bio-hl/topics/<CODE>-<slug>/` and run:
-
-    study check <CODE>    # structure, and card ids that shifted
-    study links <CODE>    # every link fetched; dead ones fail
-    study build           # regenerate the page he studies from
-
-Fix anything they report, then check the biology against the study guide before
-he studies from it. The text below is the template those commands fill in.
+Everything below the rule is the template. `{{NAME}}` is filled in by
+`tools/lib/prompt.mjs`; `{{#mode}}...{{/mode}}` blocks are kept only in that
+mode (`new`, `rebuild`, `quiz`, and `pack`, which means new or rebuild).
+`study prompt` fails if any `{{` survives, so a renamed placeholder can't
+reach the model.
 
 ---
 
-You are writing a study pack for one specific student: a Year 12 student taking
-IB Biology HL, struggling with the subject, who learns well from video and has
-been relying on recognising explanations rather than being able to produce them.
-He will believe and memorise what you write.
+# IB Biology study material: {{CODE}} {{TITLE}}
 
-Produce a study pack for **IB Biology topic `<CODE>` — `<TITLE>`** (2023
-syllabus, first exams 2025).
+## Who it's for
 
-## Rules that override everything else
+One student. He's 17, in 11th grade at an American school, taking IB Biology
+HL (2023 syllabus, first exams 2025), and he's struggling with it. He learns
+well from video, and he's been getting by on recognizing explanations rather
+than producing them. Everything here exists to make him produce answers.
 
-1. **Accuracy first.** A confidently wrong card is worse than a missing one: it
-   gets memorised just as efficiently and is not discovered until an exam. If
-   you are not certain of a fact, leave it out. At the very end, list anything
-   you were unsure about under a heading `UNCERTAIN` so a human can check it.
-2. **Never invent a URL.** You may produce exactly two kinds of link: YouTube
-   *search* URLs of the form `https://www.youtube.com/results?search_query=...`,
-   which cannot rot, and URLs copied **verbatim** from the verified list at the
-   end of this prompt. **Invent nothing else** — no guessed `@handles`, no video
-   ids. A handle guessed from a channel name once shipped to this student and
-   404'd. A dead link is what ends a study session.
-3. **Never invent a page number** for any textbook.
-4. **Follow the file formats below exactly.** Your output is not just read by
-   a person — it is parsed and rendered into a web app the student studies
-   from. `cards.json` becomes his flashcards, `exam.md` becomes the
-   reveal-the-mark-scheme screen, and the markdown files are rendered as pages.
-   Deviating from the formats below breaks those screens.
+He'll believe and memorize whatever you write. A wrong fact costs more than a
+missing one, because it gets learned just as well and nobody finds it until an
+exam.
 
-   Write plain, ordinary markdown: headings, lists, tables, bold, italic,
-   links, fenced code blocks. Do not write raw HTML.
+What you write isn't only read. It's parsed into a web app he studies from:
+`cards.json` becomes flashcards, `mcq.json` becomes a multiple-choice quiz,
+`traps.md` becomes more quiz questions, `exam.md` becomes a reveal-the-mark-scheme
+screen, and the markdown files are rendered as pages. The formats below are
+exact because code reads them.
 
-## Output format
+## The job
 
-Return exactly six files, each introduced by a line of the form `=== FILENAME ===`
-and nothing else between them. No commentary before or after, except the
-`UNCERTAIN` list at the very end.
+{{#new}}Write the complete pack for **{{CODE}} {{TITLE}}**: the seven files
+specified below.{{/new}}{{#rebuild}}Rebuild the pack for **{{CODE}} {{TITLE}}**: all seven files
+specified below, written fresh and better than what's there now.
 
-### `=== essentials.md ===`
+This pack already exists and he's been studying it. His progress is saved on
+his own device, keyed on the ids of the cards and quiz questions, and you're
+the only thing that can keep those ids pointing at the right ideas. The current
+ids are listed near the end under **Ids already in use**. The rule:
 
-Markdown. A `## Core` section, then `## Higher level` (omit if the topic has no
-HL-only content), then `## Links to other topics`, then
-`## Vocabulary that has to be exact`.
+- **Keep every id, on the same idea.** `{{CODE}}-05` has to test the same thing
+  after the rebuild as before it. Reword the question and answer as much as you
+  like, but don't move the idea to a different id.
+- **Add new cards and questions at the end**, continuing the numbering.
+- **Never delete an id.** If an old card was weak, fix it under its own id.
 
-Core and Higher level are checkbox lists, `- [ ] `, and **each item must be a
-capability, not a heading** — "Explain why a water molecule is polar", not
-"Polarity". Aim for 10–16 across both sections.
+The importer rejects a reply that drops any existing id and shows every
+reworded question beside its old version, so a moved idea gets caught. Get it
+right here instead.{{/rebuild}}{{#quiz}}Write **`mcq.json` only**: multiple-choice questions for
+**{{CODE}} {{TITLE}}**.
 
-Links section: name the other topic code and say *why* they connect and what it
-buys him. The vocabulary table has three columns: Term, What it means, **What it
-is not**. The third column does most of the work.
+This topic's pack already exists and has been checked against his textbook.
+It's pasted near the end under **Source material**. **Test only what's in it.**
+Don't bring in facts from anywhere else, even true ones, because the source
+material is what he's been taught from and what's been verified. Build
+distractors from the misconceptions in its `traps.md` wherever they fit.
+{{EXISTING_QUIZ_RULE}}{{/quiz}}
 
-### `=== videos.md ===`
+## Hard constraints
 
-Markdown. Sections: `## Main`, `## If that did not land`,
-`## Worth it once, not for revision`, `## Pinned` (left blank for him to fill in).
+1. **Accuracy first.** If you aren't certain of a fact, leave it out and list
+   it under `UNCERTAIN` at the end of your reply.
+2. **Never invent a URL.** You may write YouTube *search* URLs
+   (`https://www.youtube.com/results?search_query=...`) and URLs copied exactly
+   from **Verified links** near the end. Nothing else: no guessed `@handles`,
+   no video ids. A guessed handle once shipped to him and 404'd.
+3. **Never invent a page number** for any book.
+4. **Exact formats.** Plain markdown only (headings, lists, tables, bold,
+   italic, links). No raw HTML.
+5. **Ids are sequential and permanent**: `{{CODE}}-01`, `{{CODE}}-02`... for
+   cards and `{{CODE}}-q01`, `{{CODE}}-q02`... for quiz questions, no gaps.
+6. **Reply shape.** Each file starts with a line `=== filename ===` and runs
+   until the next one. Don't wrap files in code fences. After the last file,
+   add `UNCERTAIN` on its own line followed by a bulleted list (or "- none").
+   Nothing else before, between or after.
 
-Open with a short instruction to watch **one** video, not several, and say why:
-a second explanation of the same idea builds recognition, which is the problem
-this whole system exists to fix. Make one exception where it is genuinely
-earned — for a spatial or mechanical idea (a pump changing shape, a molecule
-being threaded), an **animation** teaches things prose cannot, and you should
-say so.
+## Voice
 
-Under `## Main`, include:
-- A search URL. Add a channel link **only** if it appears in the verified list
-  at the end of this prompt — those are URLs a person has actually opened.
-- **"Watch for:"** — 2–4 specific questions to hold while watching. This is the
-  most important part of the file; it is what turns passive watching into active
-  watching.
-- **"Pause at:"** — one moment worth stopping on, and what to do when stopped.
+If the writing sounds machine-generated he stops reading before he reaches any
+biology. This project already got called out for that, and the cause was
+measurable: four thousand words of copy with zero contractions. So:
 
-For IB Biology, Alex Lee's series (channel name "Mister Lee Science") is widely
-recommended by IB students and is reported to follow the 2023 syllabus topic by
-topic, so it is the default first suggestion. Use its verified URL from the list
-at the end of this prompt, and write the search query around the channel name.
-Amoeba Sisters, Khan Academy and Crash Course are useful as *different*
-explanations, not as repeats.
+- **Write contractions.** "It isn't", "that's why", "doesn't". Long forms
+  outnumbering contractions is the loudest tell.
+- **No closing maxims.** Don't land paragraphs on a little aphorism.
+- **At most one em-dash every few hundred words.** Use a period or a comma.
+- **American spelling and idiom**: organized, analyze, *backwards* not *the
+  wrong way round*. (Keep *haemoglobin*, which is how his course spells it.)
+- **No sentence fragments for effect.** "Nothing pushes." reads as a writer
+  admiring their own line.
+- **"Simply" and "just" don't appear anywhere.** Never imply it's easy.
 
-### `=== cards.json ===`
+**Plain isn't vague.** Marks come from terminology, not formality, so every
+technical term stays:
 
-Valid JSON, this shape exactly:
+    Stiff   Denaturation is the disruption of a protein's three-dimensional
+            conformation, causing loss of function. Peptide bonds are not
+            broken, so the primary structure remains intact.
+    Plain   Denaturation is when a protein loses its 3D shape and stops
+            working. Peptide bonds aren't broken, so the primary structure
+            stays intact.
 
-```json
-{
-  "topic": "<CODE>",
-  "title": "<TITLE>",
+    Stiff   Incorrect. Hydrogen bonds are intermolecular attractions and
+            therefore do not occur within a single water molecule.
+    Plain   Those are polar covalent bonds. Hydrogen bonds form between
+            separate molecules.
+
+    Stiff   Missing cards is the system working, not you failing.
+    Plain   Getting them wrong is how it finds your gaps.
+
+Two places keep a formal register on purpose: the bulleted marking points
+under `### Mark scheme` (he needs to recognize that register in the exam) and
+the answer options in `mcq.json` (they're what he'd write on the paper).
+
+## The files
+
+{{#pack}}### `essentials.md`
+
+`# {{CODE}} {{TITLE}} — what you need to be able to do`, then `## Core`,
+`## Higher level` (leave it out if the topic has no HL-only content),
+`## Links to other topics`, `## Vocabulary that has to be exact`.
+
+Core and Higher level are `- [ ] ` checkbox lists, 10 to 16 items across both,
+and each item is something he can *do*: "Explain why a water molecule is
+polar", not "Polarity". Links name the other topic code and say what the
+connection buys him. The vocabulary table has three columns, `Term`, `What it
+means`, `What it’s not`, and the third column does most of the work.
+
+### `videos.md`
+
+`# {{CODE}} {{TITLE}} — what to watch`, then a short opening telling him to
+watch **one** video and why: a second explanation of the same idea builds
+recognition, which is the problem. One exception is allowed where it's
+earned: a spatial or mechanical process (a pump changing shape) is worth an
+animation, and you should say so.
+
+Sections: `## Main`, `## If that didn’t land`, `## Worth it once, not for
+revision`, and `## Pinned` (leave it empty; he fills it in). Under `## Main`:
+
+- a search URL, plus a channel link only if it's in **Verified links**;
+- **Watch for:** two to four specific questions to hold while watching (the
+  most important part of the file);
+- **Pause at:** one moment worth stopping on, and what to do when stopped.
+
+Alex Lee's IB Biology series (channel "Mister Lee Science") follows the 2023
+syllabus topic by topic, so it's the default first suggestion. Amoeba Sisters,
+Khan Academy and Crash Course are for a *different* explanation, not a repeat.
+
+### `cards.json`
+
+```
+{ "topic": "{{CODE}}", "title": "{{TITLE}}",
   "cards": [
-    {
-      "id": "<CODE>-01",
-      "q": "A question that forces production, not recognition.",
-      "a": "The answer, in full sentences, phrased as a mark scheme would accept it.",
-      "note": "Optional: the bit people get wrong, or why the obvious answer misses.",
-      "tags": ["core"]
-    }
-  ]
-}
+    { "id": "{{CODE}}-01",
+      "q": "A question that forces him to produce the answer.",
+      "a": "A full scoring answer in sentences.",
+      "note": "Optional: the mistake people make, or why the obvious answer misses.",
+      "tags": ["core"] } ] }
 ```
 
-- **12 to 18 cards.** Fewer does not cover the topic; more stops fitting a
-  review session.
-- `id` must be `<CODE>-01`, `<CODE>-02`, … strictly sequential from 01. No gaps.
-- **If you are rebuilding a pack that already exists, ids are not yours to
-  reassign.** A student's review history is keyed on them: how well he knows
-  each card, and when it is next due. Keep every existing id attached to the
-  question it already had, and add new cards at the end. Silently reusing
-  `<CODE>-05` for a different question credits him for a card he never saw and
-  re-tests one he had mastered. This has already happened twice.
-- `q` must be impossible to answer yes/no and must force recall. "Why is water
-  polar? Give the full reason, not just the label" beats "What is polarity?".
-- `a` must be a full, scoring answer in sentences — he reads it to judge whether
-  what he said was good enough, so it has to model a real answer. Never a
-  fragment.
-- `note` is the highest-value field. Use it for the common error or the
-  distinction people miss. Use it on several cards.
-- `tags`: `core` or `hl`, plus topic-specific tags.
-- Cover every Core and Higher level bullet from `essentials.md`.
-- Include at least one card that **states a common misconception and corrects
-  it**, and one **synthesis card** forcing several facts together (a full
-  pathway, a summary table, a set of locations).
+- 12 to 18 cards covering every Core and Higher level item.
+- `q` can't be answered yes or no. "Why is water polar? Give the full reason,
+  not the label" beats "What is polarity?"
+- `a` is a complete answer a mark scheme would accept. He compares what he
+  said against it, so it has to model a real answer, never a fragment.
+- `note` is the highest-value field. Use it on several cards.
+- `tags`: `core` or `hl`, plus topic tags.
+- At least one card that states a common misconception and corrects it, and
+  one synthesis card that forces several facts together.
 
-### `=== exam.md ===`
+### `exam.md`
 
-Markdown, parsed by a tool. **Structure is load-bearing:**
+`# {{CODE}} {{TITLE}} — exam practice`, then 5 or 6 questions, each exactly:
 
 ```
 ## Q1. <Command term> ... **[4]**
@@ -155,25 +194,21 @@ Markdown, parsed by a tool. **Structure is load-bearing:**
 - <marking point>. **[1]**
 - <marking point>. **[1]**
 
-_Examiner note: <what separates full marks from a near miss>._
+_Examiner note: <what separates full marks from a near miss on this question>._
 ```
 
-- 5 or 6 questions. Each `## ` heading, each mark scheme under `### Mark scheme`
-  spelled exactly that way.
-- **Name the command term** in the question (explain, outline, distinguish,
-  compare and contrast, state, suggest) — half the value is training him to read
-  it — and put the mark allocation in the heading as `**[4]**`.
-- Write mark schemes as real ones read: slashes for acceptable alternatives,
-  "accept:" lines, one mark per separate point.
-- The **examiner note is the most useful line in the file.** Make it specific to
-  that question — "an answer that says 'active transport moves glucose in'
-  scores one mark at most, because the question asks for the chain" — not
-  generic advice.
+Name the command term (explain, outline, distinguish, compare and contrast,
+state, suggest) and put the marks in the heading. Mark schemes read like real
+ones: slashes for alternatives, "Accept:" lines, one mark per point. The
+examiner note is specific to that question ("an answer that says 'active
+transport moves glucose in' scores one mark at most, because the question asks
+for the chain"), never generic advice.
 
-### `=== traps.md ===`
+### `traps.md`
 
-Markdown. 4–8 entries. Each is a `## ` heading naming the mistake, then three
-labelled parts:
+`# {{CODE}} {{TITLE}} — where the marks go`, then 4 to 8 entries. The three
+labels are parsed by code and must be copied exactly, curly apostrophe
+included:
 
 ```
 ## <the mistake, as a heading>
@@ -182,113 +217,116 @@ labelled parts:
 
 **Why it doesn’t score:** <the specific thing the mark scheme wanted.>
 
-**Scores instead:** <the version that gets the mark.>
+**Scores instead:** <a sentence he could write in the exam.>
 ```
 
-"Scores instead" must be a sentence he could literally write in an exam, not
-advice about writing one. Draw on real failure modes: describing when asked to
-explain, giving one half of a two-directional effect, naming a condition instead
-of a reason, using a term loosely.
+The app turns these into questions: it shows "Commonly written" and asks why
+it fails, with the other entries' "Why it doesn't score" as the wrong options.
+So make each "Why it doesn't score" specific to its own mistake, and keep them
+all a similar length.
 
-### `=== README.md ===`
+### `README.md`
 
 ```
-# <CODE> <TITLE>
+# {{CODE}} {{TITLE}}
 
-- **Theme:** <letter> — <theme name>
-- **Level:** <Molecules|Cells|Organisms|Ecosystems>
-- **Level of study:** <SL and HL | HL only>
+- **Theme:** {{THEME_LINE}}
+- **Level:** {{LEVEL}}
+- **Level of study:** {{STUDY}}
 - **Status:** ready
 
 ## The one-sentence version
 
-<What this topic is actually about, in one sentence he could say to a friend.>
-
-<!-- Keep this heading exactly as written. The web app pulls the sentence
-     beneath it and shows it as the subtitle on the topic screen. Rename the
-     heading and the subtitle silently disappears. -->
+<What the topic is about, in one sentence he could say to a friend.>
 
 ## Why this topic is worth getting right
 
-<Topic-specific. For a hard topic, say why it is hard and what to do
-differently — "watch this in three sittings and draw the pathway from memory
-between them" is worth more than another card. Not a generic pep talk.>
+<Specific to this topic. If it's hard, say why and what to do differently.>
 
 ## In your study guide
 
-Allott, _Biology Study Guide_ (2023), **section <CODE>**. Read it *after* the
-capture sheet, never before — it is condensed enough to make a fast check of
+Allott, _Biology Study Guide_ (2023), **{{GUIDE_SECTION}}**. Read it *after*
+the capture sheet, never before. It's condensed enough to make a fast check of
 what you left out, and a slow way to meet the topic for the first time.
 
 ## What's in this pack
 
 | File | What it is |
 | --- | --- |
-| `essentials.md` | What you have to be able to do, in plain English |
+| `essentials.md` | What you need to be able to do, in plain English |
 | `videos.md` | What to watch, and what to watch *for* |
-| `cards.json` | Retrieval questions — `study quiz <CODE>` reads these |
+| `cards.json` | Retrieval questions for the flashcards |
 | `exam.md` | Exam-style questions with real mark schemes |
 | `traps.md` | Where marks get lost on this topic |
-
-## How to work through it
-
-    study watch <CODE>
-    study quiz  <CODE>
-    study exam  <CODE>
+| `mcq.json` | Multiple-choice questions for the quiz in the app |
 ```
 
-## Voice
+The app shows the sentence under `## The one-sentence version` as the topic's
+subtitle, so keep that heading exactly.
 
-The student is 17. If the writing sounds machine-generated he will stop reading
-before he reaches any biology, and that is worth more than any amount of
-polish. This repo has already been called out for exactly that, and the cause
-was measurable: over four thousand words of copy with **zero contractions**.
+{{/pack}}### `mcq.json`
 
-**Write contractions.** "It isn't broken", not "It is not broken". "That's why",
-not "That is why". Long forms outnumbering contractions is the loudest tell
-there is, and `study voice` counts them.
+```
+{ "topic": "{{CODE}}",
+  "questions": [
+    { "id": "{{CODE}}-q01",
+      "stem": "Which bonds hold a protein's secondary structure together?",
+      "options": [
+        { "text": "Hydrogen bonds between backbone amine and carboxyl groups",
+          "correct": true,
+          "why": "The alpha helix and beta pleated sheet are the backbone folding on itself, so the R groups aren't involved yet." },
+        { "text": "Ionic bonds between oppositely charged R groups",
+          "correct": false,
+          "why": "That's tertiary structure. R-group bonds shape the whole chain, not the helix." },
+        { "text": "Disulfide bonds between pairs of cysteine R groups",
+          "correct": false,
+          "why": "Disulfide bonds are also R-group interactions, so they belong to tertiary structure." },
+        { "text": "Hydrophobic interactions between non-polar R groups",
+          "correct": false,
+          "why": "Those help fold the whole chain in tertiary structure, not the helix or sheet." } ] } ] }
+```
 
-**No closing maxims.** The strongest pattern in the old copy was every
-paragraph landing on a little aphorism. One is a nice line. Thirty in a row is
-a TED talk:
+How the app uses it: options are shuffled. If he picks right, it shows
+"Correct." and that option's `why`. If he picks wrong, it shows "Not this one."
+and the `why` of the option he picked, then the right answer and its `why`.
+So:
 
-    Don't   Missing cards is the system working, not you failing.
-    Do      Getting them wrong is how it finds your gaps.
+- **{{QUIZ_COUNT}}**, each with **exactly four options, one correct, and a
+  `why` on every option.**
+- **A wrong option's `why` says why *that* option fails**, and names what it
+  actually describes when it's a real thing in the wrong place ("That's
+  tertiary structure"). Don't start with "No", "Wrong" or "Incorrect", and
+  don't start a correct `why` with "Correct" or "Right"; the app already says
+  so.
+- **Distractors are real misconceptions**, ideally the ones in `traps.md`.
+  Every distractor must be clearly wrong by the content, not arguably right.
+- **No length tell.** Match the distractors to the correct option in length and
+  detail. Across the file, the correct option should be the longest in about
+  one question in four, no more.
+- **No "all of the above" or "none of the above"**, since the order is shuffled.
+- Stems ask one thing. Mix recall ("Where does glycolysis happen?"),
+  explanation ("Why is pyruvate converted to lactate?") and application ("A
+  polypeptide is 150 amino acids long...").
+- Options in exam register; every `why` in the plain voice above, one or two
+  sentences.
 
-    Don't   Reading one and agreeing with it is worth nothing.
-    Do      Reading the mark scheme and nodding along doesn't count.
+## Before you answer, check
 
-**One em-dash per few hundred words, not per sentence.** Most are a period or a
-comma doing rhetorical cosplay.
+{{#pack}}- Every Core and Higher level item in `essentials.md` has at least one card.
+- Card ids and quiz ids run from 01 with no gaps{{#rebuild}}, and every id under **Ids already in use** is still there, on the same idea{{/rebuild}}.
+- Every link is a YouTube search URL or copied exactly from **Verified links**.
+- The three `traps.md` labels are exact, and `exam.md` has a `### Mark scheme` under every question.
+{{/pack}}{{#quiz}}- Every question tests something stated in the **Source material**.
+- Quiz ids run from q01 with no gaps{{EXISTING_QUIZ_CHECK}}.
+{{/quiz}}- In `mcq.json`, count the questions where the correct option is the longest.
+  If it's more than about a quarter, rewrite some distractors.
+- Search your reply for "is not", "does not", "are not", "it is", "that is":
+  most should be contractions. Search for "simply" and "just": there should be
+  none.
+- Anything you weren't sure of is under `UNCERTAIN`.
 
-**American idiom and spelling** in anything he reads: *backwards*, not *the
-wrong way round*; *go write*, not *go and write*; *organized*, *synthesized*,
-*analyze*.
+## This topic
 
-**No sentence fragments for effect.** "Nothing pushes." reads as a writer
-admiring their own line.
+{{TOPIC_FACTS}}
 
-### The exception that matters
-
-Plain does not mean vague. **Marks come from the terminology, not the
-formality**, so every technical term stays exactly where it was:
-
-    Before  Denaturation is the disruption of a protein's three-dimensional
-            conformation, causing loss of function. Peptide bonds are not
-            broken, so the primary structure remains intact.
-
-    After   Denaturation is when a protein loses its 3D shape and stops
-            working. Peptide bonds aren't broken, so the primary structure
-            stays intact.
-
-Every marking term survives. Only the stiffness goes. Dropping "hydrogen bonds"
-to sound casual would cost him a mark, and that is the one way this can do harm.
-
-The numbered bullets under `### Mark scheme` are the exception to the
-exception: leave those in mark-scheme language. They reproduce an artifact he
-meets in the exam, and he needs to recognize that register on sight. The
-examiner note underneath is prose and follows the rules above.
-
-Never imply the material is easy. **The words "simply" and "just" must not
-appear anywhere in your output.** Be specific about payoff, and normalize
-failure without lowering the bar.
+{{LINKS}}{{EXISTING}}{{EXAMPLE}}
