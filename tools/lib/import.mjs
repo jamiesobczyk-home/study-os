@@ -51,6 +51,37 @@ const jsonBody = (text) => {
   return text.slice(start, end + 1) + '\n';
 };
 
+const LIST_ITEM = /^[ \t]*(?:[-*+•]|\d+[.)])[ \t]+(.*)$/;
+const BOX = /^(?:\\?\[[ \t]*[xX✓✔]?[ \t]*\\?\]|[☐□▢⬜☑✅])[ \t]*/;
+
+/**
+ * Put essentials.md's capability lists back into the one form the checker and
+ * the app read, `- [ ] `. A chat UI copies checkboxes out in several shapes:
+ * escaped (`- \[ \]`), starred, indented, as a ☐ glyph, pre-ticked, or with
+ * the box dropped entirely. Inside `## Core` and `## Higher level` every
+ * list item is a capability, so each one becomes an unticked box. Elsewhere
+ * only lines that already carry some kind of box are touched.
+ * Returns { text, fixed }.
+ */
+export const normalizeCheckboxes = (text) => {
+  let inCaps = false;
+  let fixed = 0;
+  const lines = text.split('\n').map((line) => {
+    if (/^#{1,6}\s/.test(line)) {
+      inCaps = /^##\s+(Core|Higher level)\b/i.test(line);
+      return line;
+    }
+    const item = line.match(LIST_ITEM);
+    if (!item) return line;
+    const hasBox = BOX.test(item[1]);
+    if (!inCaps && !hasBox) return line;
+    const out = `- [ ] ${item[1].replace(BOX, '').trim()}`;
+    if (out !== line) fixed += 1;
+    return out;
+  });
+  return { text: lines.join('\n'), fixed };
+};
+
 /**
  * Split a reply into files. Returns
  *   { files: [{ name, text }], uncertain: [string], sawUncertain, errors }
@@ -195,6 +226,21 @@ export const vetReply = (course, topic, parsed, { quiz = false, replace = false 
       `say${wrong.length === 1 ? 's' : ''} so. Check you copied the right reply, or import it under its own code.`
     );
     return { errors, warns, changed, writes: [] };
+  }
+
+  // Capability checkboxes come back from a chat UI in all sorts of shapes.
+  if (byName.has('essentials.md')) {
+    const { text, fixed } = normalizeCheckboxes(byName.get('essentials.md'));
+    byName.set('essentials.md', text);
+    if (fixed) warns.push(`essentials.md: put ${fixed} capability line${fixed === 1 ? '' : 's'} back into "- [ ] " checkbox form`);
+    if (!/^- \[ \]/m.test(text)) {
+      const core = (text.split(/^##\s+Core.*$/m)[1] || text).split('\n').filter((l) => l.trim()).slice(0, 3);
+      errors.push(
+        `essentials.md has no capability checkboxes, and none of its lines look like list items to repair. ` +
+        `Under "## Core" it has: ${core.length ? core.map((l) => `"${l.trim().slice(0, 70)}"`).join(', ') : '(nothing)'}. ` +
+        `Send this to whoever maintains study-os, or ask ChatGPT to rewrite essentials.md with "- [ ] " lines.`
+      );
+    }
   }
 
   if (json['mcq.json']) {
