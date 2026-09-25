@@ -1,0 +1,317 @@
+{
+  "topic": "B3.1",
+  "questions": [
+    {
+      "id": "B3.1-q01",
+      "stem": "Why does increasing body size make diffusion across an organism’s outer surface less adequate?",
+      "options": [
+        {
+          "text": "Surface area-to-volume ratio decreases and diffusion distances to internal cells increase",
+          "correct": true,
+          "why": "Less exchange surface is available per unit of tissue, while gases also have farther to travel."
+        },
+        {
+          "text": "Surface area and volume both decrease while internal cells consume more oxygen",
+          "correct": false,
+          "why": "Surface area and volume increase as an organism grows. The problem is that volume rises faster than surface area."
+        },
+        {
+          "text": "Surface area-to-volume ratio increases and gases leave the surface too rapidly",
+          "correct": false,
+          "why": "The ratio decreases with size. Large organisms have too little outer surface relative to their volume."
+        },
+        {
+          "text": "Cell membranes become impermeable to oxygen when organisms contain many cells",
+          "correct": false,
+          "why": "Cell membranes remain permeable to oxygen. Distance and available exchange area create the difficulty."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q02",
+      "stem": "Which feature of a gas-exchange surface directly reduces diffusion distance?",
+      "options": [
+        {
+          "text": "A dense capillary network",
+          "correct": false,
+          "why": "Capillary flow helps maintain concentration gradients. It doesn’t make the tissue barrier thinner."
+        },
+        {
+          "text": "A thin tissue layer",
+          "correct": true,
+          "why": "A thin barrier shortens the path gas molecules must cross, increasing the diffusion rate."
+        },
+        {
+          "text": "A moist surface",
+          "correct": false,
+          "why": "Moisture lets gases dissolve before crossing membranes. Its main effect isn’t shortening the path."
+        },
+        {
+          "text": "A large surface area",
+          "correct": false,
+          "why": "A large area lets more molecules cross at once. It doesn’t reduce each molecule’s travel distance."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q03",
+      "stem": "What is the main role of continuous blood flow beside alveoli?",
+      "options": [
+        {
+          "text": "It produces surfactant that prevents alveolar collapse",
+          "correct": false,
+          "why": "Type II pneumocytes produce surfactant. Blood flow has a different role in maintaining gradients."
+        },
+        {
+          "text": "It forces oxygen across the alveolar wall by active transport",
+          "correct": false,
+          "why": "Oxygen crosses by diffusion, not active transport. Blood flow keeps diffusion favorable."
+        },
+        {
+          "text": "It carries exchanged gases away and maintains concentration gradients",
+          "correct": true,
+          "why": "Flow brings oxygen-poor blood and removes oxygenated blood, preventing equilibrium at the surface."
+        },
+        {
+          "text": "It ventilates the alveoli by moving air through bronchioles",
+          "correct": false,
+          "why": "Ventilation moves air through the airways. Blood flow occurs on the other side of the exchange surface."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q04",
+      "stem": "What happens during normal inhalation?",
+      "options": [
+        {
+          "text": "The diaphragm relaxes, thoracic volume decreases and lung pressure falls",
+          "correct": false,
+          "why": "A relaxed diaphragm contributes to exhalation, and decreasing volume raises pressure rather than lowering it."
+        },
+        {
+          "text": "The diaphragm contracts, thoracic volume increases and lung pressure falls",
+          "correct": true,
+          "why": "The pressure falls below atmospheric pressure when thoracic volume increases, so air moves inward."
+        },
+        {
+          "text": "The internal intercostal muscles contract, pulling the ribs downward and outward",
+          "correct": false,
+          "why": "Internal intercostals act mainly in forced exhalation and pull the ribs downward and inward."
+        },
+        {
+          "text": "The abdominal muscles contract, increasing thoracic volume and drawing air inward",
+          "correct": false,
+          "why": "Abdominal muscle contraction assists forced exhalation by pushing the diaphragm upward and reducing thoracic volume."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q05",
+      "stem": "Which statement correctly describes pulmonary surfactant?",
+      "options": [
+        {
+          "text": "It increases surface tension so alveoli recoil during inhalation",
+          "correct": false,
+          "why": "Surfactant reduces surface tension. Increased surface tension would make alveolar collapse more likely."
+        },
+        {
+          "text": "It carries oxygen across the alveolar wall into capillaries",
+          "correct": false,
+          "why": "Oxygen diffuses across the wall without a surfactant carrier. Surfactant stabilizes the alveoli."
+        },
+        {
+          "text": "It is secreted by type I pneumocytes to thicken the exchange surface",
+          "correct": false,
+          "why": "Type II pneumocytes secrete it, and a thicker exchange surface would slow diffusion."
+        },
+        {
+          "text": "It reduces surface tension and helps prevent alveolar collapse",
+          "correct": true,
+          "why": "It acts at the air-water interface in the alveolar lining, helping keep alveoli open."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q06",
+      "stem": "A person exhales as deeply as possible after taking the deepest possible breath. Which volume has been measured?",
+      "options": [
+        {
+          "text": "Tidal volume",
+          "correct": false,
+          "why": "Tidal volume is the air moved during one normal resting breath."
+        },
+        {
+          "text": "Vital capacity",
+          "correct": true,
+          "why": "Vital capacity is the greatest volume exhaled after the deepest possible inhalation."
+        },
+        {
+          "text": "Expiratory reserve",
+          "correct": false,
+          "why": "Expiratory reserve is only the extra volume exhaled after a normal exhalation."
+        },
+        {
+          "text": "Residual volume",
+          "correct": false,
+          "why": "Residual volume remains in the lungs after maximal exhalation and can’t be breathed into the measuring device."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q07",
+      "stem": "Why does opening stomata for carbon dioxide uptake also increase water loss?",
+      "options": [
+        {
+          "text": "Guard cells actively pump water vapor from xylem into the atmosphere",
+          "correct": false,
+          "why": "Water vapor leaves by diffusion. Guard cells regulate pore width rather than pumping vapor."
+        },
+        {
+          "text": "Carbon dioxide reacts with water and converts it directly into vapor",
+          "correct": false,
+          "why": "Carbon dioxide uptake doesn’t convert liquid water into vapor. Evaporation occurs from moist mesophyll walls."
+        },
+        {
+          "text": "Water vapor diffuses out through the same open pores used for gas exchange",
+          "correct": true,
+          "why": "Evaporation fills the leaf air spaces with water vapor, which then diffuses through open stomata."
+        },
+        {
+          "text": "Open stomata remove the waxy cuticle from the entire lower epidermis",
+          "correct": false,
+          "why": "Opening a stoma changes the guard cells around one pore. It doesn’t remove the surrounding cuticle."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q08",
+      "stem": "Which change would generally decrease transpiration while the other conditions remain constant?",
+      "options": [
+        {
+          "text": "An increase in wind speed",
+          "correct": false,
+          "why": "Wind removes the humid boundary layer, maintaining a steeper water-vapor gradient and increasing transpiration."
+        },
+        {
+          "text": "An increase in air humidity",
+          "correct": true,
+          "why": "Humid air reduces the water-vapor concentration gradient between the leaf and its surroundings."
+        },
+        {
+          "text": "An increase in temperature",
+          "correct": false,
+          "why": "Higher temperature generally increases evaporation and steepens the water-vapor gradient."
+        },
+        {
+          "text": "An increase in light intensity",
+          "correct": false,
+          "why": "Greater light commonly promotes stomatal opening for photosynthesis, increasing water loss."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q09",
+      "stem": "A microscope field with an area of 0.20 mm² contains a mean of 16 stomata. What is the stomatal density?",
+      "options": [
+        {
+          "text": "3.2 stomata mm⁻²",
+          "correct": false,
+          "why": "This comes from multiplying count by area. Density requires division by the area examined."
+        },
+        {
+          "text": "16 stomata mm⁻²",
+          "correct": false,
+          "why": "That reports the count as though the field covered one square millimeter, but it covered only 0.20 mm²."
+        },
+        {
+          "text": "80 stomata mm⁻²",
+          "correct": true,
+          "why": "Divide the mean count by field area: 16 ÷ 0.20 mm² gives 80 stomata mm⁻²."
+        },
+        {
+          "text": "320 stomata mm⁻²",
+          "correct": false,
+          "why": "This value divides by 0.05 rather than the stated field area of 0.20 mm²."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q10",
+      "stem": "Why is the haemoglobin oxygen dissociation curve sigmoid?",
+      "options": [
+        {
+          "text": "Each bound oxygen molecule increases affinity for the next through a conformational change",
+          "correct": true,
+          "why": "Cooperative binding produces slow initial binding, a steep middle region and a plateau near saturation."
+        },
+        {
+          "text": "Each haem group binds oxygen independently with the same affinity at every oxygen pressure",
+          "correct": false,
+          "why": "Constant independent affinity would fail to produce the cooperative steepening that gives the curve its sigmoid shape."
+        },
+        {
+          "text": "Haemoglobin binds carbon dioxide at low oxygen pressure and converts it into oxygen",
+          "correct": false,
+          "why": "Haemoglobin can bind carbon dioxide, but it can’t convert carbon dioxide into oxygen."
+        },
+        {
+          "text": "Oxygen binding becomes weaker after every occupied haem group until saturation occurs",
+          "correct": false,
+          "why": "Early oxygen binding increases the affinity of remaining sites. That positive cooperation creates the steep section."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q11",
+      "stem": "How does foetal haemoglobin differ from adult haemoglobin at the same oxygen partial pressure?",
+      "options": [
+        {
+          "text": "It has lower oxygen affinity and a curve farther to the right",
+          "correct": false,
+          "why": "That would make oxygen uptake from maternal blood harder. Foetal haemoglobin has higher affinity."
+        },
+        {
+          "text": "It has higher oxygen affinity and a curve farther to the left",
+          "correct": true,
+          "why": "The higher affinity allows foetal haemoglobin to load oxygen released by maternal haemoglobin at the placenta."
+        },
+        {
+          "text": "It has identical oxygen affinity but contains twice as many haem groups",
+          "correct": false,
+          "why": "Foetal and adult haemoglobin each have four haem-containing subunits. Their affinities differ because their globin structures differ."
+        },
+        {
+          "text": "It binds carbon dioxide instead of oxygen until the moment of birth",
+          "correct": false,
+          "why": "Foetal haemoglobin transports oxygen before birth. Its key difference here is its higher oxygen affinity."
+        }
+      ]
+    },
+    {
+      "id": "B3.1-q12",
+      "stem": "What does a rightward Bohr shift cause in an actively respiring tissue?",
+      "options": [
+        {
+          "text": "Greater haemoglobin affinity and reduced oxygen unloading at a given oxygen pressure",
+          "correct": false,
+          "why": "A right shift means lower affinity, not greater affinity, so oxygen unloading increases."
+        },
+        {
+          "text": "More oxygen binding because carbon dioxide raises the pH of the blood",
+          "correct": false,
+          "why": "Increased carbon dioxide lowers pH and promotes oxygen release rather than additional binding."
+        },
+        {
+          "text": "Reduced oxygen affinity and increased unloading at a given oxygen pressure",
+          "correct": true,
+          "why": "High carbon dioxide and lower pH change haemoglobin’s conformation, delivering more oxygen to active tissue."
+        },
+        {
+          "text": "Permanent denaturation of haemoglobin by carbon dioxide produced during respiration",
+          "correct": false,
+          "why": "The affinity change is reversible and regulatory. Haemoglobin hasn’t been permanently denatured."
+        }
+      ]
+    }
+  ]
+}

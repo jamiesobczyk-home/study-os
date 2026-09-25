@@ -1,0 +1,317 @@
+{
+  "topic": "A4.1",
+  "questions": [
+    {
+      "id": "A4.1-q01",
+      "stem": "Which change meets the biological definition of evolution?",
+      "options": [
+        {
+          "text": "The frequency of a heritable characteristic changes in a population over several generations",
+          "correct": true,
+          "why": "Evolution is change in a population's heritable characteristics across generations."
+        },
+        {
+          "text": "An athlete develops larger muscles after following a demanding training program",
+          "correct": false,
+          "why": "That's an acquired change within one lifetime. It doesn't change the population's inherited characteristics."
+        },
+        {
+          "text": "A plant grows taller after receiving more light and mineral nutrients",
+          "correct": false,
+          "why": "That's an environmental effect on one plant's phenotype. A population hasn't undergone a heritable change."
+        },
+        {
+          "text": "A bird learns a new feeding behavior by watching other members of its group",
+          "correct": false,
+          "why": "That's learned behavior within an organism's lifetime. It isn't evidence that inherited characteristics have changed."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q02",
+      "stem": "Two species have very similar DNA base sequences in the same genes. What is the best conclusion?",
+      "options": [
+        {
+          "text": "They share a relatively recent common ancestor",
+          "correct": true,
+          "why": "Inherited sequences accumulate differences after lineages split, so greater similarity generally supports more recent common ancestry."
+        },
+        {
+          "text": "They must occupy the same ecological niche",
+          "correct": false,
+          "why": "Related species can occupy very different niches. Sequence similarity concerns ancestry, not current resource use."
+        },
+        {
+          "text": "They are members of one interbreeding population",
+          "correct": false,
+          "why": "Different species can have similar sequences while remaining reproductively isolated. Similarity doesn't demonstrate interbreeding."
+        },
+        {
+          "text": "They independently evolved identical sequences under similar selection pressures",
+          "correct": false,
+          "why": "Independent evolution can produce analogous traits, but extensive sequence similarity is stronger evidence of inheritance from a common ancestor."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q03",
+      "stem": "Why does selective breeding provide evidence for evolution?",
+      "options": [
+        {
+          "text": "Repeated selection changes the heritable characteristics of a population across generations",
+          "correct": true,
+          "why": "Selected parents pass alleles for desired characteristics to offspring, changing the population over generations."
+        },
+        {
+          "text": "Domesticated organisms acquire useful characteristics because humans provide better conditions",
+          "correct": false,
+          "why": "Better conditions can alter an individual's phenotype, but selective breeding depends on inherited variation and differential reproduction."
+        },
+        {
+          "text": "Humans create every desired allele when they choose which individuals will reproduce",
+          "correct": false,
+          "why": "Selection acts mainly on heritable variation already present. Choosing parents doesn't create each desired allele."
+        },
+        {
+          "text": "All members of a domesticated species develop the selected characteristic during their lives",
+          "correct": false,
+          "why": "That's an acquired-change explanation. Selective breeding changes the proportion of inherited characteristics across generations."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q04",
+      "stem": "Which observation identifies two structures as homologous?",
+      "options": [
+        {
+          "text": "They share an underlying structural plan inherited from a common ancestor",
+          "correct": true,
+          "why": "Homology is based on common evolutionary origin, even when the structures now perform different functions."
+        },
+        {
+          "text": "They perform the same function with different underlying anatomical structures",
+          "correct": false,
+          "why": "That describes analogous structures produced by convergent evolution, not homologous structures."
+        },
+        {
+          "text": "They occur in organisms exposed to similar environments and selection pressures",
+          "correct": false,
+          "why": "Similar pressures can produce convergence in unrelated lineages. Environment alone doesn't establish shared origin."
+        },
+        {
+          "text": "They have identical external shapes despite belonging to distantly related organisms",
+          "correct": false,
+          "why": "External resemblance can evolve independently. Homology depends on ancestry and underlying structure."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q05",
+      "stem": "Bird wings and insect wings are analogous as structures for flight. Why?",
+      "options": [
+        {
+          "text": "They perform the same function but evolved from different ancestral structures",
+          "correct": true,
+          "why": "Similar selection pressures favored flight structures independently, which is convergent evolution."
+        },
+        {
+          "text": "They have the same arrangement of bones inherited from one winged ancestor",
+          "correct": false,
+          "why": "Insect wings don't contain the tetrapod limb bones found in bird wings. They didn't inherit one wing structure from a recent common ancestor."
+        },
+        {
+          "text": "They perform different functions despite sharing the same evolutionary origin",
+          "correct": false,
+          "why": "That describes divergence of homologous structures. Both examples here perform flight but have different origins."
+        },
+        {
+          "text": "They became structurally identical after the two populations exchanged alleles",
+          "correct": false,
+          "why": "Birds and insects don't exchange alleles. Their flight structures evolved independently."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q06",
+      "stem": "Which event distinguishes speciation from evolutionary change within a single species?",
+      "options": [
+        {
+          "text": "Populations become reproductively isolated",
+          "correct": true,
+          "why": "Reproductive isolation prevents gene flow and marks the formation of separate species."
+        },
+        {
+          "text": "A heritable characteristic becomes more common",
+          "correct": false,
+          "why": "That can occur while every member remains part of one interbreeding species."
+        },
+        {
+          "text": "Natural selection favors one phenotype",
+          "correct": false,
+          "why": "Natural selection can change a single population without splitting it into separate species."
+        },
+        {
+          "text": "Several individuals migrate to another habitat",
+          "correct": false,
+          "why": "Migration alone isn't speciation. Gene flow may continue unless a reproductive barrier develops."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q07",
+      "stem": "What was the first direct effect of the Congo River on the ancestral populations of bonobos and common chimpanzees?",
+      "options": [
+        {
+          "text": "It reduced interbreeding and gene flow between the populations",
+          "correct": true,
+          "why": "The river acted as a geographical barrier. Once gene flow was restricted, the populations could diverge under different selection pressures."
+        },
+        {
+          "text": "It created new alleles for survival on each side of the river",
+          "correct": false,
+          "why": "A river doesn't direct mutations to make useful alleles. Mutation produces variation without regard to what organisms need."
+        },
+        {
+          "text": "It made every individual develop a different set of acquired characteristics",
+          "correct": false,
+          "why": "Acquired characteristics aren't the mechanism. Isolation changed gene flow between populations."
+        },
+        {
+          "text": "It caused immediate sterility in hybrids produced by the two populations",
+          "correct": false,
+          "why": "Geographical isolation came first. Reproductive incompatibilities developed through later divergence."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q08",
+      "stem": "Which example could initiate sympatric speciation?",
+      "options": [
+        {
+          "text": "Two groups in the same area begin breeding in different seasons",
+          "correct": true,
+          "why": "Different breeding times create temporal isolation even though the groups occupy the same geographical area."
+        },
+        {
+          "text": "A mountain range divides a population into eastern and western groups",
+          "correct": false,
+          "why": "A physical barrier creates geographical isolation, so this could initiate allopatric speciation."
+        },
+        {
+          "text": "Individuals move freely between two habitats and mate randomly throughout the population",
+          "correct": false,
+          "why": "Free interbreeding maintains gene flow, which works against divergence into separate species."
+        },
+        {
+          "text": "Two separated populations experience identical conditions and exchange migrants each generation",
+          "correct": false,
+          "why": "Ongoing migration mixes alleles, and identical conditions don't provide the differential selection described here."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q09",
+      "stem": "How does adaptive radiation increase biodiversity?",
+      "options": [
+        {
+          "text": "One ancestral species diversifies into several species adapted to different niches",
+          "correct": true,
+          "why": "Vacant niches create different selection pressures, allowing related species to specialize and coexist with less competition."
+        },
+        {
+          "text": "Several unrelated species independently evolve the same feature in one niche",
+          "correct": false,
+          "why": "That's convergent evolution. Adaptive radiation produces several divergent species from one ancestral species."
+        },
+        {
+          "text": "One species becomes better adapted while continuing to occupy its original niche",
+          "correct": false,
+          "why": "That may be evolution within one species, but it doesn't describe radiation into multiple species."
+        },
+        {
+          "text": "Hybridization combines all local species into one population with a shared gene pool",
+          "correct": false,
+          "why": "Combining gene pools would reduce distinct species. Adaptive radiation involves divergence and reproductive isolation."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q10",
+      "stem": "Courtship signals prevent individuals of two animal species from mating. What type of barrier is this?",
+      "options": [
+        {
+          "text": "A prezygotic behavioral barrier",
+          "correct": true,
+          "why": "The behavioral difference prevents mating before fertilization, so no hybrid zygote forms."
+        },
+        {
+          "text": "A postzygotic sterility barrier",
+          "correct": false,
+          "why": "Postzygotic sterility affects a hybrid after fertilization. Here, mating never occurs."
+        },
+        {
+          "text": "A geographical barrier",
+          "correct": false,
+          "why": "The animals can encounter one another. Their courtship behavior, rather than physical separation, blocks mating."
+        },
+        {
+          "text": "A temporal barrier",
+          "correct": false,
+          "why": "Temporal isolation involves reproduction at different times. This example concerns courtship signals."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q11",
+      "stem": "Why is a mule normally unable to transfer alleles between horse and donkey populations?",
+      "options": [
+        {
+          "text": "Its chromosomes cannot pair and separate normally during meiosis, so it is sterile",
+          "correct": true,
+          "why": "Horse and donkey chromosome sets aren't fully homologous in a mule, which disrupts meiosis and functional gamete production."
+        },
+        {
+          "text": "Its chromosomes replicate by mitosis before any gametes can be produced",
+          "correct": false,
+          "why": "Chromosome replication and mitosis occur in fertile organisms too. The problem is unsuccessful homologous pairing during meiosis."
+        },
+        {
+          "text": "Its parents contribute identical chromosome sets that prevent genetic variation",
+          "correct": false,
+          "why": "The parental chromosome sets differ rather than being identical. Their incompatibility disrupts meiotic pairing."
+        },
+        {
+          "text": "Its courtship behavior prevents the horse and donkey from mating in the first place",
+          "correct": false,
+          "why": "A mule already resulted from mating and fertilization. Its sterility is a postzygotic barrier."
+        }
+      ]
+    },
+    {
+      "id": "A4.1-q12",
+      "stem": "How can chromosome doubling restore fertility in an interspecific plant hybrid?",
+      "options": [
+        {
+          "text": "It gives each chromosome a homologous partner for pairing during meiosis",
+          "correct": true,
+          "why": "Balanced pairing can allow the allopolyploid to produce functional gametes and reproduce with other compatible polyploids."
+        },
+        {
+          "text": "It removes every chromosome inherited from one of the two parent species",
+          "correct": false,
+          "why": "That would remove a parental chromosome set rather than duplicate it. Allopolyploidy retains sets from both species."
+        },
+        {
+          "text": "It converts all chromosome differences into acquired characteristics of the hybrid",
+          "correct": false,
+          "why": "Chromosome doubling is a heritable genomic change. It doesn't turn genetic differences into acquired traits."
+        },
+        {
+          "text": "It allows unrestricted mating with both original diploid parent species",
+          "correct": false,
+          "why": "The new chromosome number usually creates reproductive isolation from the diploid parents, which is why speciation can occur."
+        }
+      ]
+    }
+  ]
+}

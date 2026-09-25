@@ -1,0 +1,369 @@
+{
+  "topic": "A3.1",
+  "questions": [
+    {
+      "id": "A3.1-q01",
+      "stem": "How does variation provide a basis for classifying organisms?",
+      "options": [
+        {
+          "text": "Patterns of shared and differing traits allow organisms to be grouped",
+          "correct": true,
+          "why": "Members of a group share traits while differing from members of other groups. Classification uses those patterns without claiming that every member is identical."
+        },
+        {
+          "text": "Every member of a species has exactly the same observable traits",
+          "correct": false,
+          "why": "Variation occurs within species. Members can differ while still sharing the traits used to place them in the same group."
+        },
+        {
+          "text": "Only differences between species are useful for biological classification",
+          "correct": false,
+          "why": "Biologists also study variation within species. Both within-species and between-species patterns matter."
+        },
+        {
+          "text": "Each individual must be placed in a separate taxonomic group",
+          "correct": false,
+          "why": "Individual variation doesn't make every organism a separate species. Classification groups organisms using shared characteristics."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q02",
+      "stem": "Which scientific name is formatted correctly when typed?",
+      "options": [
+        {
+          "text": "Homo sapiens, with both words italicized",
+          "correct": true,
+          "why": "The genus starts with a capital letter, the specific epithet starts with a lowercase letter, and both words are italicized when typed."
+        },
+        {
+          "text": "Homo Sapiens, with both words italicized",
+          "correct": false,
+          "why": "The specific epithet must begin with a lowercase letter. Capitalizing both words breaks the binomial convention."
+        },
+        {
+          "text": "homo sapiens, with both words italicized",
+          "correct": false,
+          "why": "The genus must begin with a capital letter. The lowercase specific epithet is the only capitalization used for the second word."
+        },
+        {
+          "text": "Homo sapiens, with neither word italicized",
+          "correct": false,
+          "why": "The capitalization is suitable, but typed binomial names require italics. Handwritten names are underlined instead."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q03",
+      "stem": "Which group meets the biological species concept?",
+      "options": [
+        {
+          "text": "Organisms that interbreed and produce fertile offspring",
+          "correct": true,
+          "why": "Reproductive compatibility and fertile offspring are the defining evidence in this species concept."
+        },
+        {
+          "text": "Organisms that share a habitat and produce any hybrid",
+          "correct": false,
+          "why": "Sharing a habitat doesn't define a species, and a sterile hybrid doesn't meet the fertility requirement."
+        },
+        {
+          "text": "Organisms that resemble one another in every visible trait",
+          "correct": false,
+          "why": "That's an overly strict version of morphological classification. Members of one species can show visible variation."
+        },
+        {
+          "text": "Organisms that possess the same diploid chromosome number",
+          "correct": false,
+          "why": "Chromosome number is useful evidence, but unrelated species can share a chromosome number. It can't define a species alone."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q04",
+      "stem": "Why can the boundary between populations and species be unclear during speciation?",
+      "options": [
+        {
+          "text": "Reproductive isolation usually develops gradually",
+          "correct": true,
+          "why": "Diverging populations change over time, so there may be no single moment when the label must change from population to species."
+        },
+        {
+          "text": "Every mutation immediately creates a reproductively isolated species",
+          "correct": false,
+          "why": "One mutation doesn't normally produce a new species. Speciation usually involves accumulated divergence and developing reproductive isolation."
+        },
+        {
+          "text": "Geographic separation immediately prevents all future interbreeding",
+          "correct": false,
+          "why": "Separation reduces gene flow, but the populations may remain reproductively compatible for some time. Isolation evolves gradually."
+        },
+        {
+          "text": "Morphological differences always appear after reproductive isolation is complete",
+          "correct": false,
+          "why": "Visible differences and reproductive isolation don't follow a fixed order. Either can develop while the populations are diverging."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q05",
+      "stem": "Which statement correctly distinguishes a karyogram from a karyotype?",
+      "options": [
+        {
+          "text": "A karyogram is an arranged chromosome image; a karyotype is the number and appearance of the chromosomes",
+          "correct": true,
+          "why": "The image is the karyogram. The chromosome set described by number, size and other visible features is the karyotype."
+        },
+        {
+          "text": "A karyogram is the chromosome number; a karyotype is a complete DNA base sequence",
+          "correct": false,
+          "why": "A karyotype includes chromosome number and appearance, while a karyogram displays the chromosomes. Neither term means a DNA sequence."
+        },
+        {
+          "text": "A karyogram contains only sex chromosomes; a karyotype contains only autosomes",
+          "correct": false,
+          "why": "A complete human karyogram displays both autosomes and sex chromosomes. The karyotype also includes both kinds."
+        },
+        {
+          "text": "A karyogram records inherited alleles; a karyotype records environmental effects on phenotype",
+          "correct": false,
+          "why": "These terms concern chromosomes, not a separation of genetic and environmental influences. An allele list isn't a karyogram."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q06",
+      "stem": "Which three features are used to match homologous chromosomes in a karyogram?",
+      "options": [
+        {
+          "text": "Length, banding pattern and centromere position",
+          "correct": true,
+          "why": "Homologous chromosomes closely match in these three visible features, allowing the images to be paired."
+        },
+        {
+          "text": "Gene expression, nucleotide sequence and mutation rate",
+          "correct": false,
+          "why": "Those require molecular or cellular measurements. They aren't the visible features used to arrange a standard karyogram."
+        },
+        {
+          "text": "Cell size, nuclear volume and chromosome number",
+          "correct": false,
+          "why": "Those describe the cell or chromosome set. They don't identify which individual chromosomes form a homologous pair."
+        },
+        {
+          "text": "DNA mass, allele frequency and protein composition",
+          "correct": false,
+          "why": "Those aren't the three visual criteria available in the chromosome image. Pairing uses chromosome appearance."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q07",
+      "stem": "Which observation most directly marks the proposed fusion site in human chromosome 2?",
+      "options": [
+        {
+          "text": "Telomere-like sequences occur in an internal region",
+          "correct": true,
+          "why": "Telomeres normally occur at chromosome ends. Internal telomere-like repeats fit the place where two ancestral ends fused."
+        },
+        {
+          "text": "Human cells contain 46 chromosomes rather than 48",
+          "correct": false,
+          "why": "The chromosome count is consistent with fusion, but it doesn't locate the fusion site within chromosome 2."
+        },
+        {
+          "text": "Chromosome 2 contains many genes expressed in humans",
+          "correct": false,
+          "why": "A normal chromosome is expected to contain many genes. That observation doesn't distinguish a fused chromosome from any other chromosome."
+        },
+        {
+          "text": "Chimpanzees possess a chromosome with the same number label",
+          "correct": false,
+          "why": "Chromosome labels don't establish homology or fusion. Sequence correspondence and unusual internal structures provide the relevant evidence."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q08",
+      "stem": "What is a single-nucleotide polymorphism?",
+      "options": [
+        {
+          "text": "Variation at one nucleotide position within a population",
+          "correct": true,
+          "why": "An SNP is a common form of genomic variation at one base position. Its effect can be neutral or biologically significant."
+        },
+        {
+          "text": "Loss of one complete chromosome from a diploid nucleus",
+          "correct": false,
+          "why": "That's a chromosome-number abnormality, not a difference at one nucleotide position."
+        },
+        {
+          "text": "Transfer of a plasmid between two bacterial cells",
+          "correct": false,
+          "why": "That's horizontal gene transfer. It moves a DNA molecule rather than defining variation at a single nucleotide."
+        },
+        {
+          "text": "A sequence shared without variation by every known organism",
+          "correct": false,
+          "why": "An SNP is defined by variation within a population. A sequence identical in every organism contains no polymorphism at that position."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q09",
+      "stem": "A lungfish has a much larger genome than a human. Which conclusion is supported?",
+      "options": [
+        {
+          "text": "The lungfish contains more total DNA",
+          "correct": true,
+          "why": "Genome size measures the amount of DNA. It doesn't reveal complexity or gene number without further evidence."
+        },
+        {
+          "text": "The lungfish has more protein-coding genes and greater behavioral complexity",
+          "correct": false,
+          "why": "A larger genome may contain more repetitive or other non-coding DNA. Gene number and behavioral complexity don't follow from total DNA."
+        },
+        {
+          "text": "The lungfish belongs to a species with a higher chromosome number",
+          "correct": false,
+          "why": "Genome size and chromosome number are different measurements. A large amount of DNA can be divided among few or many chromosomes."
+        },
+        {
+          "text": "The lungfish genome contains no introns or repetitive sequences",
+          "correct": false,
+          "why": "Introns and repetitive sequences contribute to eukaryotic genome size. Their absence can't be inferred and would work against this explanation."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q10",
+      "stem": "Which use of whole genome sequencing is part of personalized medicine?",
+      "options": [
+        {
+          "text": "Choosing treatment using a patient’s genetic variants",
+          "correct": true,
+          "why": "Genomic variants can help predict treatment response or disease risk, allowing care to be tailored to the patient."
+        },
+        {
+          "text": "Arranging stained chromosomes into homologous pairs by length",
+          "correct": false,
+          "why": "That's construction of a karyogram. It uses chromosome images rather than the complete nucleotide sequence."
+        },
+        {
+          "text": "Naming a species from its visible structural characteristics",
+          "correct": false,
+          "why": "That's use of the morphological species concept. Whole genome sequencing compares DNA across the entire genome."
+        },
+        {
+          "text": "Measuring environmental effects without collecting genetic information",
+          "correct": false,
+          "why": "Personalized genomics depends on genetic information. A method that excludes it can't be an application of genome sequencing."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q11",
+      "stem": "Why does horizontal gene transfer make bacterial species difficult to define?",
+      "options": [
+        {
+          "text": "DNA can move between separate evolutionary lineages",
+          "correct": true,
+          "why": "A bacterium can acquire genes from a non-parent, sometimes from another species. Its genome may therefore combine DNA from different lineages."
+        },
+        {
+          "text": "Every transferred gene prevents bacteria from reproducing asexually",
+          "correct": false,
+          "why": "Bacteria can continue reproducing after acquiring DNA. The classification problem comes from genes crossing lineage boundaries."
+        },
+        {
+          "text": "Transferred DNA always changes the bacterial chromosome number",
+          "correct": false,
+          "why": "Horizontal transfer concerns movement of DNA sequences. It doesn't have to alter the number of chromosomes."
+        },
+        {
+          "text": "Bacteria produce sterile hybrids after transferring plasmids",
+          "correct": false,
+          "why": "Plasmid transfer isn't mating and doesn't produce hybrid offspring. Fertility language from sexual reproduction doesn't fit this process."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q12",
+      "stem": "Why are mules usually sterile?",
+      "options": [
+        {
+          "text": "Their chromosomes can’t all form homologous pairs during meiosis",
+          "correct": true,
+          "why": "A mule has 63 chromosomes inherited from parents with different chromosome numbers. Irregular pairing makes balanced gamete production unlikely."
+        },
+        {
+          "text": "Their body cells contain no homologous chromosomes at all",
+          "correct": false,
+          "why": "Many mule chromosomes do have related partners. The problem is that the full set can't pair and separate normally."
+        },
+        {
+          "text": "Their chromosomes fail to replicate before every mitotic division",
+          "correct": false,
+          "why": "Mules grow through ordinary mitosis, which requires chromosome replication. Their fertility problem appears during meiosis."
+        },
+        {
+          "text": "Their parents contribute identical haploid chromosome sets",
+          "correct": false,
+          "why": "Horse and donkey chromosome sets differ. If the sets were identical and paired normally, this source of sterility wouldn't occur."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q13",
+      "stem": "Which pair of statements is suitable for one step of a dichotomous key?",
+      "options": [
+        {
+          "text": "Leaves opposite on stem / leaves alternate on stem",
+          "correct": true,
+          "why": "The statements are observable, contrasting alternatives about the same feature. Each specimen can be directed along one route."
+        },
+        {
+          "text": "Flowers attractive / flowers less attractive than average",
+          "correct": false,
+          "why": "Attractiveness is subjective and the alternatives aren't defined consistently. A key needs observable, unambiguous traits."
+        },
+        {
+          "text": "Animal is small / animal has six legs and two antennae",
+          "correct": false,
+          "why": "The statements compare different features and aren't mutually exclusive. A small animal could also have six legs and two antennae."
+        },
+        {
+          "text": "Species evolved recently / species evolved in a different habitat",
+          "correct": false,
+          "why": "Those claims usually can't be observed from the specimen, and both could be true. They won't produce a reliable identification route."
+        }
+      ]
+    },
+    {
+      "id": "A3.1-q14",
+      "stem": "What can a close DNA-barcode match from a lake-water sample establish?",
+      "options": [
+        {
+          "text": "The matched species contributed DNA to the sample",
+          "correct": true,
+          "why": "The sequence match provides evidence that DNA from that species was present in the sampled water."
+        },
+        {
+          "text": "A known number of living individuals occupied the lake",
+          "correct": false,
+          "why": "Environmental DNA can come from dead material and shedding rates vary. A match doesn't provide a dependable count of living individuals."
+        },
+        {
+          "text": "The matched species currently reproduces throughout the entire lake",
+          "correct": false,
+          "why": "One water sample records DNA at its sampling place and time. It doesn't demonstrate reproduction or distribution across the whole lake."
+        },
+        {
+          "text": "The complete genome of every organism in the lake was sequenced",
+          "correct": false,
+          "why": "DNA barcoding targets short identification regions. It isn't whole genome sequencing of every organism present."
+        }
+      ]
+    }
+  ]
+}

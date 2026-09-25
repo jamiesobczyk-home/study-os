@@ -1,0 +1,369 @@
+{
+  "topic": "B4.2",
+  "questions": [
+    {
+      "id": "B4.2-q01",
+      "stem": "Which statement best describes an ecological niche?",
+      "options": [
+        {
+          "text": "The role of a species, including its resource use and interactions with biotic and abiotic factors",
+          "correct": true,
+          "why": "A niche connects the species to resources, conditions and other organisms that affect its growth, survival and reproduction."
+        },
+        {
+          "text": "The geographical place in which every member of a biological community lives",
+          "correct": false,
+          "why": "That describes a habitat or ecosystem location. A niche concerns one species’ role and interactions."
+        },
+        {
+          "text": "The trophic level occupied by a species in one particular food chain",
+          "correct": false,
+          "why": "Trophic level is one part of feeding relationships. A niche also includes other resources, conditions and interactions."
+        },
+        {
+          "text": "The full range of temperatures within which an individual remains alive",
+          "correct": false,
+          "why": "That describes tolerance of one abiotic variable. A niche covers far more than temperature."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q02",
+      "stem": "Which organism could grow both where oxygen is present and where it is absent?",
+      "options": [
+        {
+          "text": "An obligate anaerobe",
+          "correct": false,
+          "why": "An obligate anaerobe can grow only without oxygen and can’t tolerate its presence."
+        },
+        {
+          "text": "A facultative anaerobe",
+          "correct": true,
+          "why": "A facultative anaerobe can grow in either the presence or absence of environmental oxygen."
+        },
+        {
+          "text": "An obligate aerobe",
+          "correct": false,
+          "why": "An obligate aerobe requires oxygen, so it can’t grow where oxygen is absent."
+        },
+        {
+          "text": "An obligate photosynthetic organism",
+          "correct": false,
+          "why": "Photosynthetic nutrition describes how carbon compounds are produced. It doesn’t identify tolerance of oxygen."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q03",
+      "stem": "Which groups include organisms that use photosynthesis as their mode of nutrition?",
+      "options": [
+        {
+          "text": "Plants, animals and all fungi",
+          "correct": false,
+          "why": "Animals and fungi are heterotrophic. They don’t use photosynthesis as their mode of nutrition."
+        },
+        {
+          "text": "Plants, algae and several groups of prokaryotes",
+          "correct": true,
+          "why": "Photosynthetic nutrition occurs in plants and algae, as well as in several prokaryotic groups."
+        },
+        {
+          "text": "Animals, archaea and all bacteria",
+          "correct": false,
+          "why": "Animals are heterotrophic, and bacteria and archaea contain diverse nutritional types rather than one universal mode."
+        },
+        {
+          "text": "Fungi, algae and every group of protists",
+          "correct": false,
+          "why": "Fungi are heterotrophic, and protists have several nutritional modes. Photosynthesis isn’t shared by every protist."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q04",
+      "stem": "Which sequence gives the stages of holozoic nutrition in their correct order?",
+      "options": [
+        {
+          "text": "Ingestion, internal digestion, absorption, assimilation",
+          "correct": true,
+          "why": "Food enters the animal, is digested inside it, crosses into body fluids or cells, and is then used by its tissues."
+        },
+        {
+          "text": "Absorption, ingestion, assimilation, internal digestion",
+          "correct": false,
+          "why": "Food must be ingested and digested before its products can be absorbed and assimilated."
+        },
+        {
+          "text": "External digestion, absorption, ingestion, assimilation",
+          "correct": false,
+          "why": "External digestion followed by absorption describes saprotrophic nutrition. Holozoic digestion occurs after ingestion."
+        },
+        {
+          "text": "Ingestion, assimilation, internal digestion, absorption",
+          "correct": false,
+          "why": "Assimilation uses nutrients that have already been digested and absorbed, so it can’t occur before those stages."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q05",
+      "stem": "Which statement describes a facultative mixotroph?",
+      "options": [
+        {
+          "text": "It can alter its use of autotrophic and heterotrophic nutrition as conditions change",
+          "correct": true,
+          "why": "Facultative mixotrophs have flexibility in nutritional mode, while obligate mixotrophs require both modes."
+        },
+        {
+          "text": "It must use autotrophic and heterotrophic nutrition together throughout its life",
+          "correct": false,
+          "why": "That describes obligate mixotrophy. The organism depends on both nutritional modes."
+        },
+        {
+          "text": "It changes between aerobic and anaerobic respiration when oxygen availability changes",
+          "correct": false,
+          "why": "That concerns facultative anaerobiosis, which is about oxygen tolerance rather than sources of organic carbon."
+        },
+        {
+          "text": "It consumes a varied diet containing both plant and animal material",
+          "correct": false,
+          "why": "That describes omnivory. Mixotrophy combines autotrophic and heterotrophic modes of nutrition."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q06",
+      "stem": "How does a saprotrophic fungus obtain nutrients?",
+      "options": [
+        {
+          "text": "It ingests dead material and digests the material inside a specialized cavity",
+          "correct": false,
+          "why": "Ingestion followed by internal digestion is holozoic nutrition. Fungi don’t feed this way."
+        },
+        {
+          "text": "It secretes enzymes onto dead material and absorbs the soluble digestion products",
+          "correct": true,
+          "why": "Saprotrophic digestion is external. The resulting soluble substances can then cross into the organism."
+        },
+        {
+          "text": "It captures light and uses it to produce organic compounds from carbon dioxide",
+          "correct": false,
+          "why": "That describes photosynthetic nutrition. Fungi are heterotrophs and don’t photosynthesize."
+        },
+        {
+          "text": "It pierces living cells and withdraws nutrients without carrying out digestion",
+          "correct": false,
+          "why": "That resembles feeding by some parasites or herbivores. It doesn’t describe decomposition by a saprotroph."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q07",
+      "stem": "Which statement about archaea matches the required B4.2 understanding?",
+      "options": [
+        {
+          "text": "Archaea form one domain and use varied ways of obtaining energy for ATP production",
+          "correct": true,
+          "why": "Archaea are one of the three domains, and their nutritional strategies are diverse."
+        },
+        {
+          "text": "Archaea form a kingdom of obligate anaerobes that all obtain energy in the same way",
+          "correct": false,
+          "why": "Archaea are a domain, and they aren’t restricted to one oxygen tolerance or one way of obtaining energy."
+        },
+        {
+          "text": "Archaea are photosynthetic bacteria that always release oxygen into their environment",
+          "correct": false,
+          "why": "Archaea aren’t bacteria, and the domain contains diverse nutritional strategies rather than one form of photosynthesis."
+        },
+        {
+          "text": "Archaea are eukaryotic decomposers that digest dead organic matter outside their cells",
+          "correct": false,
+          "why": "Archaea are prokaryotic organisms. External digestion of dead matter describes saprotrophic nutrition in some fungi and bacteria."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q08",
+      "stem": "Which skull evidence best supports an inference that a hominid processed tough plant material?",
+      "options": [
+        {
+          "text": "Large grinding teeth, thick enamel and a robust jaw",
+          "correct": true,
+          "why": "Those features support repeated crushing and grinding under large forces, which fits tough or abrasive plant food."
+        },
+        {
+          "text": "Long pointed canines, cutting teeth and a lightly built jaw",
+          "correct": false,
+          "why": "Pointed cutting teeth suggest tearing rather than extensive grinding of tough plant material."
+        },
+        {
+          "text": "Small uniform teeth, thin enamel and reduced chewing surfaces",
+          "correct": false,
+          "why": "Those features provide little support for powerful, prolonged grinding of tough or abrasive foods."
+        },
+        {
+          "text": "Large eye sockets, a short face and a broad nasal opening",
+          "correct": false,
+          "why": "Those skull features don’t directly show how food was mechanically processed. Dentition and chewing structures provide stronger evidence."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q09",
+      "stem": "A leaf-eating insect can survive a toxin in its food plant that kills related insects. Which adaptation best explains this?",
+      "options": [
+        {
+          "text": "A metabolic pathway that detoxifies the plant compound",
+          "correct": true,
+          "why": "Some herbivores can convert particular plant toxins into less harmful substances, allowing them to feed on defended plants."
+        },
+        {
+          "text": "A larger realized niche created by competitive exclusion",
+          "correct": false,
+          "why": "Competitive exclusion usually removes access to resources or separates competitors. It doesn’t detoxify a chemical."
+        },
+        {
+          "text": "A piercing mouthpart that prevents all chemicals entering",
+          "correct": false,
+          "why": "Piercing mouthparts obtain plant fluids, but they don’t guarantee that dissolved toxins will be excluded."
+        },
+        {
+          "text": "A fundamental niche that contains no biotic interactions",
+          "correct": false,
+          "why": "A fundamental niche describes potential based on adaptations and tolerance limits. It isn’t a mechanism for processing toxins."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q10",
+      "stem": "Which pairing contains a behavioral predator adaptation and a physical prey adaptation?",
+      "options": [
+        {
+          "text": "Venom production by a predator and toxic secretion by its prey",
+          "correct": false,
+          "why": "Both are chemical adaptations. Neither example supplies the requested physical prey adaptation."
+        },
+        {
+          "text": "Ambush hunting by a predator and protective armor on its prey",
+          "correct": true,
+          "why": "Ambush is a behavior, while armor is a body structure that makes capture or consumption harder."
+        },
+        {
+          "text": "Sharp claws on a predator and group vigilance by its prey",
+          "correct": false,
+          "why": "This reverses the requested categories. Claws are physical, while group vigilance is behavioral."
+        },
+        {
+          "text": "Camouflage in a predator and rapid escape by its prey",
+          "correct": false,
+          "why": "Camouflage is physical and escape is behavioral, so the categories again run in the opposite order."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q11",
+      "stem": "How does a liana reach strong light in a forest?",
+      "options": [
+        {
+          "text": "It grows from a tree branch and absorbs nutrients directly from the supporting tree",
+          "correct": false,
+          "why": "That wrongly treats the plant as a parasite. It also fails to describe a liana, which is rooted in the ground."
+        },
+        {
+          "text": "It remains on the forest floor and relies on tolerance of very low light",
+          "correct": false,
+          "why": "That describes the strategy of shade-tolerant shrubs and herbs rather than a climbing liana."
+        },
+        {
+          "text": "It stays rooted in the ground and climbs other plants for physical support",
+          "correct": true,
+          "why": "Climbing lets a liana place leaves in brighter light without building a massive self-supporting trunk."
+        },
+        {
+          "text": "It produces a tall self-supporting trunk that becomes part of the canopy",
+          "correct": false,
+          "why": "That describes a canopy tree. A liana uses another plant for support while remaining rooted in soil."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q12",
+      "stem": "Which statement correctly distinguishes fundamental and realized niches?",
+      "options": [
+        {
+          "text": "The fundamental niche is occupied during competition, whereas the realized niche exists only without competitors",
+          "correct": false,
+          "why": "The relationship is backwards. Competition helps determine the realized niche."
+        },
+        {
+          "text": "The fundamental niche concerns abiotic factors, whereas the realized niche concerns only food resources",
+          "correct": false,
+          "why": "Both concepts can involve resources and environmental conditions. The key distinction is potential versus actual under competition."
+        },
+        {
+          "text": "The fundamental niche is potential, whereas the realized niche is the actual extent under competition",
+          "correct": true,
+          "why": "Adaptations and tolerance limits set the potential niche, while competitors can restrict how much of it is occupied."
+        },
+        {
+          "text": "The fundamental niche belongs to a population, whereas the realized niche belongs to an ecosystem",
+          "correct": false,
+          "why": "Both terms describe the niche of a species. They don’t refer to different levels of biological organization."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q13",
+      "stem": "Two species depend on the same limiting resource in the same place. Which outcome is consistent with competitive exclusion?",
+      "options": [
+        {
+          "text": "Both species keep identical niches indefinitely because competition increases the resource supply",
+          "correct": false,
+          "why": "Competition doesn’t create more of the limiting resource. Identical niches can’t be maintained indefinitely."
+        },
+        {
+          "text": "One species is eliminated locally, or both become restricted to different parts of their fundamental niches",
+          "correct": true,
+          "why": "Competitive exclusion can remove one competitor or produce narrower, more distinct realized niches."
+        },
+        {
+          "text": "Both species expand beyond their tolerance limits and occupy larger fundamental niches",
+          "correct": false,
+          "why": "Competition doesn’t immediately change physiological tolerance limits. It tends to restrict resource access and realized niches."
+        },
+        {
+          "text": "One species becomes a predator and gains energy by consuming the other species",
+          "correct": false,
+          "why": "Competition doesn’t turn a species into a predator. Competitors use the same limited resource."
+        }
+      ]
+    },
+    {
+      "id": "B4.2-q14",
+      "stem": "Species A survives across a wide moisture range when grown alone but only in wet soil when Species B is present. What does the wet-soil range represent for Species A?",
+      "options": [
+        {
+          "text": "Its fundamental niche, because the range shows every moisture condition it can tolerate",
+          "correct": false,
+          "why": "The full range observed without Species B gives better evidence of the fundamental niche."
+        },
+        {
+          "text": "Its realized niche, because competition restricts where it actually occurs",
+          "correct": true,
+          "why": "Species A can tolerate more conditions, but competition with Species B limits its actual range to wet soil."
+        },
+        {
+          "text": "Its habitat, because moisture alone defines the complete place where it lives",
+          "correct": false,
+          "why": "Moisture is one abiotic variable, not a complete habitat. The question concerns potential and actual niche ranges."
+        },
+        {
+          "text": "Its trophic level, because soil moisture determines its position in a food chain",
+          "correct": false,
+          "why": "Trophic level describes feeding position. It doesn’t describe a species’ range along a moisture gradient."
+        }
+      ]
+    }
+  ]
+}

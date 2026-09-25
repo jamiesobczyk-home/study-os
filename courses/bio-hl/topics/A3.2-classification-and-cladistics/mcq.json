@@ -1,0 +1,317 @@
+{
+  "topic": "A3.2",
+  "questions": [
+    {
+      "id": "A3.2-q01",
+      "stem": "Why is biological classification needed?",
+      "options": [
+        {
+          "text": "It organizes immense species diversity so organisms can be identified, compared and studied",
+          "correct": true,
+          "why": "Classification makes a huge range of organisms manageable and supports further research into their similarities, differences and relationships."
+        },
+        {
+          "text": "It ensures that every organism can be assigned to a fixed rank without any uncertainty",
+          "correct": false,
+          "why": "Fixed ranks can conflict with gradual variation and evolutionary branching. Classification still contains hypotheses and uncertain boundaries."
+        },
+        {
+          "text": "It shows that organisms placed in different kingdoms can’t share any evolutionary ancestor",
+          "correct": false,
+          "why": "Organisms in different kingdoms still share more distant ancestors. Classification separates groups without denying common ancestry."
+        },
+        {
+          "text": "It replaces the need to compare characteristics or collect molecular evidence from organisms",
+          "correct": false,
+          "why": "Classification depends on evidence from characteristics and ancestry. It organizes biological evidence rather than replacing it."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q02",
+      "stem": "Which sequence gives the traditional taxonomic ranks from broadest to narrowest?",
+      "options": [
+        {
+          "text": "Kingdom, phylum, class, order, family, genus, species",
+          "correct": true,
+          "why": "This is the traditional seven-rank hierarchy. The three-domain system later added domain above kingdom."
+        },
+        {
+          "text": "Kingdom, class, phylum, family, order, species, genus",
+          "correct": false,
+          "why": "Class belongs below phylum, order belongs above family, and genus belongs above species."
+        },
+        {
+          "text": "Domain, kingdom, order, class, phylum, family, genus",
+          "correct": false,
+          "why": "Domain is a later level above kingdom, and the remaining ranks are also out of sequence."
+        },
+        {
+          "text": "Species, genus, family, order, class, phylum, kingdom",
+          "correct": false,
+          "why": "That sequence runs from narrowest to broadest. The question asks for the opposite direction."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q03",
+      "stem": "Which group meets the biological definition of a clade?",
+      "options": [
+        {
+          "text": "A common ancestor together with every one of its descendants",
+          "correct": true,
+          "why": "A complete clade contains the ancestral lineage and all branches descended from it."
+        },
+        {
+          "text": "Organisms with similar body shapes, even when they evolved those shapes independently",
+          "correct": false,
+          "why": "That grouping may result from convergent evolution. Similar appearance doesn’t establish a shared clade."
+        },
+        {
+          "text": "Several descendants of one ancestor, with any unusually different descendants removed",
+          "correct": false,
+          "why": "Removing a descendant makes the group incomplete. A clade includes all descendants of the ancestor."
+        },
+        {
+          "text": "All organisms assigned to the same traditional rank, regardless of their ancestry",
+          "correct": false,
+          "why": "A shared rank doesn’t guarantee a clade. The group must correspond to common ancestry and include all descendants."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q04",
+      "stem": "Which evidence is the most objective basis for placing organisms in the same clade?",
+      "options": [
+        {
+          "text": "Similar DNA base sequences or protein amino acid sequences",
+          "correct": true,
+          "why": "Sequence comparisons provide quantifiable evidence of inherited molecular similarity and evolutionary relationships."
+        },
+        {
+          "text": "Similar structures used for the same function in the same habitat",
+          "correct": false,
+          "why": "Similar selection pressures can produce analogous structures through convergent evolution, even in distant lineages."
+        },
+        {
+          "text": "The same number of visible organs in adult members of each species",
+          "correct": false,
+          "why": "Organ counts are morphological observations and may omit deeper differences or similarities in ancestry."
+        },
+        {
+          "text": "Placement in neighboring columns of a traditional identification table",
+          "correct": false,
+          "why": "Position in a table is a presentation choice. It doesn’t provide evidence of common descent."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q05",
+      "stem": "Aligned sequences from species P and Q differ at two positions, while those from P and R differ at twelve. What is the best inference from these data alone?",
+      "options": [
+        {
+          "text": "P and Q probably share a more recent common ancestor",
+          "correct": true,
+          "why": "Fewer differences in corresponding sequences generally indicate less time since divergence and a more recent common ancestor."
+        },
+        {
+          "text": "P evolved from Q after Q accumulated exactly two mutations",
+          "correct": false,
+          "why": "Sequence differences don’t show that one living species descended from the other or identify which lineage changed."
+        },
+        {
+          "text": "P and R must have identical morphology despite their sequence differences",
+          "correct": false,
+          "why": "Molecular distance can’t establish identical appearance. Morphology may be influenced by many genes and selection pressures."
+        },
+        {
+          "text": "Q and R belong to different domains because twelve sequence positions differ",
+          "correct": false,
+          "why": "A small difference in one sequence can’t establish domain membership. Domain classification uses broader rRNA evidence."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q06",
+      "stem": "Why does a molecular clock produce an estimated divergence time rather than an exact date?",
+      "options": [
+        {
+          "text": "Rates of sequence change vary among genes, lineages and conditions",
+          "correct": true,
+          "why": "Generation time, population size and selection pressure can affect rates, so a calibrated rate remains an estimate."
+        },
+        {
+          "text": "Mutations occur only when two species first become reproductively isolated",
+          "correct": false,
+          "why": "Mutations occur across generations before and after divergence. They aren’t restricted to the moment isolation begins."
+        },
+        {
+          "text": "Amino acid sequences remain unchanged after lineages separate from their ancestor",
+          "correct": false,
+          "why": "Protein sequences can change when mutations alter codons. Their differences can also be used in molecular comparisons."
+        },
+        {
+          "text": "Every species has a different genetic code for translating the same codon",
+          "correct": false,
+          "why": "The genetic code is nearly universal. Variation in mutation and substitution rates creates the uncertainty."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q07",
+      "stem": "What criterion does parsimony analysis use to choose among possible cladograms?",
+      "options": [
+        {
+          "text": "The smallest number of sequence changes needed to explain the data",
+          "correct": true,
+          "why": "Parsimony favors the branching hypothesis that accounts for the observed variation with the fewest changes."
+        },
+        {
+          "text": "The largest number of named taxonomic ranks between each pair of species",
+          "correct": false,
+          "why": "Parsimony analyzes character or sequence changes. Traditional rank counts aren’t its selection criterion."
+        },
+        {
+          "text": "The greatest visual separation between unrelated species at the terminal branches",
+          "correct": false,
+          "why": "The spacing of terminal branches is a drawing choice and contains no evidence by itself."
+        },
+        {
+          "text": "The branching pattern that matches every morphological classification already in use",
+          "correct": false,
+          "why": "Molecular evidence can conflict with older classifications. Parsimony evaluates the supplied data rather than preserving tradition."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q08",
+      "stem": "What does a node represent on a cladogram?",
+      "options": [
+        {
+          "text": "A hypothetical common ancestor from which descendant lineages diverged",
+          "correct": true,
+          "why": "Each branch point represents an inferred ancestral population shared by the lineages emerging from it."
+        },
+        {
+          "text": "A modern species that changed directly into every species placed above it",
+          "correct": false,
+          "why": "Nodes represent hypothetical ancestral populations, not modern species transforming into several current taxa."
+        },
+        {
+          "text": "A period when mutation stopped in all lineages shown on the diagram",
+          "correct": false,
+          "why": "Lineages continue accumulating changes. A node represents divergence, not a pause in mutation."
+        },
+        {
+          "text": "A fixed taxonomic rank such as family or order within the traditional hierarchy",
+          "correct": false,
+          "why": "A node represents common ancestry. It doesn’t automatically correspond to any particular traditional rank."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q09",
+      "stem": "Two branches of a cladogram are rotated around the same node. What changes?",
+      "options": [
+        {
+          "text": "Only the visual order of the terminal taxa",
+          "correct": true,
+          "why": "The branches still connect to the same node, so the represented ancestry remains unchanged."
+        },
+        {
+          "text": "The identity of the most recent common ancestor shared by the taxa",
+          "correct": false,
+          "why": "Rotation preserves every connection to the node. The common ancestor therefore remains the same."
+        },
+        {
+          "text": "The number of mutations required by the sequence data used to build the tree",
+          "correct": false,
+          "why": "Redrawing connected branches doesn’t alter the sequence data or the changes assigned to the branching pattern."
+        },
+        {
+          "text": "The clade membership of every organism positioned beyond the rotated branch",
+          "correct": false,
+          "why": "The descendants of each node remain the same. Only their positions on the page move."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q10",
+      "stem": "A cladogram has no scale, and one terminal branch is drawn twice as long as another. What can be concluded?",
+      "options": [
+        {
+          "text": "Nothing quantitative about time or amount of evolutionary change",
+          "correct": true,
+          "why": "Without a scale or statement assigning meaning to length, only the branching pattern and sequence of nodes can be interpreted."
+        },
+        {
+          "text": "The organism on the longer branch has existed for twice as long",
+          "correct": false,
+          "why": "An unscaled drawing can use different branch lengths for layout. Length doesn’t measure the age of a living taxon."
+        },
+        {
+          "text": "The longer branch has accumulated exactly twice as many DNA mutations",
+          "correct": false,
+          "why": "Branch length represents molecular change only when the diagram explicitly defines it that way."
+        },
+        {
+          "text": "The organism on the shorter branch is the direct ancestor of the other",
+          "correct": false,
+          "why": "Terminal taxa are separate lineages. Their drawn branch lengths don’t establish direct ancestry."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q11",
+      "stem": "Why might molecular cladistics overturn a classification based on morphology?",
+      "options": [
+        {
+          "text": "Convergent evolution can produce similar features in distantly related lineages",
+          "correct": true,
+          "why": "Analogous features can make unrelated organisms look alike, while sequence evidence reveals a different pattern of ancestry."
+        },
+        {
+          "text": "Every morphological feature disappears when its DNA sequence is examined",
+          "correct": false,
+          "why": "Morphological features remain real observations. The problem is that similar features don’t always share an evolutionary origin."
+        },
+        {
+          "text": "Molecular evidence groups organisms by habitat instead of common ancestry",
+          "correct": false,
+          "why": "Molecular cladistics uses inherited sequence similarities to infer ancestry, not habitat membership."
+        },
+        {
+          "text": "Cladistics requires all members of a group to have identical visible structures",
+          "correct": false,
+          "why": "Members of a clade can differ greatly after divergence. Their grouping depends on ancestry, not identical appearance."
+        }
+      ]
+    },
+    {
+      "id": "A3.2-q12",
+      "stem": "Which statement describes the evidence for the three-domain classification?",
+      "options": [
+        {
+          "text": "Comparisons of rRNA base sequences separated prokaryotes into Bacteria and Archaea, alongside Eukarya",
+          "correct": true,
+          "why": "rRNA evidence revealed two distinct prokaryotic lineages, leading to three domains at a level above kingdom."
+        },
+        {
+          "text": "Comparisons of body shape divided multicellular organisms into plants, animals and fungi",
+          "correct": false,
+          "why": "Those are eukaryotic kingdoms, not the three domains, and body shape wasn’t the decisive molecular evidence."
+        },
+        {
+          "text": "Counts of cell organelles placed all organisms without nuclei into one domain called Prokaryota",
+          "correct": false,
+          "why": "The three-domain system split organisms without nuclei between Bacteria and Archaea rather than retaining one prokaryotic domain."
+        },
+        {
+          "text": "Protein comparisons showed that kingdoms and domains are interchangeable names for the same taxonomic level",
+          "correct": false,
+          "why": "Domain is a level above kingdom. The three-domain proposal was based specifically on comparisons of rRNA sequences."
+        }
+      ]
+    }
+  ]
+}

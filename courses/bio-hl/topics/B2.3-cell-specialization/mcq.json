@@ -1,0 +1,343 @@
+{
+  "topic": "B2.3",
+  "questions": [
+    {
+      "id": "B2.3-q01",
+      "stem": "How can cells in an early embryo develop into different cell types while retaining the same genome?",
+      "options": [
+        {
+          "text": "Morphogen gradients cause different patterns of gene expression in cells at different positions",
+          "correct": true,
+          "why": "Different morphogen concentrations regulate which genes are expressed. The resulting proteins lead cells along different pathways of differentiation."
+        },
+        {
+          "text": "Mitosis distributes different sets of genes to cells in different parts of the embryo",
+          "correct": false,
+          "why": "Mitosis normally preserves the genome in each daughter cell. The cells differ because they express different genes, not because they receive different ones."
+        },
+        {
+          "text": "Each specialized cell removes the genes that are unnecessary for its mature function",
+          "correct": false,
+          "why": "Specialized cells usually retain the organism's genome. Genes can be inactive without being removed from the DNA."
+        },
+        {
+          "text": "Environmental signals alter the genetic code until each cell contains suitable proteins",
+          "correct": false,
+          "why": "Differentiation doesn't require the genetic code to be rewritten. Signals regulate the use of existing genes."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q02",
+      "stem": "Which pair of properties defines a stem cell?",
+      "options": [
+        {
+          "text": "Self-renewal and the capacity to differentiate",
+          "correct": true,
+          "why": "A stem cell can maintain an unspecialized stem-cell population and produce specialized descendants."
+        },
+        {
+          "text": "Unlimited growth and absence of a plasma membrane",
+          "correct": false,
+          "why": "Stem cells have plasma membranes like other cells. Uncontrolled growth describes a feature of tumors, not a defining stem-cell property."
+        },
+        {
+          "text": "Rapid metabolism and the inability to undergo mitosis",
+          "correct": false,
+          "why": "Stem cells must divide for self-renewal and production of differentiating cells. A high metabolic rate isn't part of the definition."
+        },
+        {
+          "text": "A haploid nucleus and the ability to fuse with another cell",
+          "correct": false,
+          "why": "Those features describe gametes involved in fertilization. Stem cells are generally diploid cells in embryos or tissues."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q03",
+      "stem": "What is the function of a stem cell niche in adult tissue?",
+      "options": [
+        {
+          "text": "It maintains stem cells and regulates their proliferation and differentiation",
+          "correct": true,
+          "why": "The niche provides the local cells and signals that preserve a stem-cell pool or activate it when new specialized cells are needed."
+        },
+        {
+          "text": "It converts every adult stem cell into a totipotent embryonic cell",
+          "correct": false,
+          "why": "Adult stem cells are commonly multipotent. A niche regulates their existing behavior rather than turning them all into totipotent cells."
+        },
+        {
+          "text": "It stores mature cells permanently so that they cannot divide or die",
+          "correct": false,
+          "why": "A niche houses and regulates stem cells, not a permanent store of mature cells. Its role includes controlled proliferation and differentiation."
+        },
+        {
+          "text": "It prevents chemical signals from reaching stem cells in the tissue",
+          "correct": false,
+          "why": "Signals within the niche help control stem-cell behavior. Blocking all signaling would remove that regulation."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q04",
+      "stem": "Which statement correctly distinguishes pluripotent from multipotent stem cells?",
+      "options": [
+        {
+          "text": "Pluripotent cells form all three germ layers; multipotent cells form a few related types",
+          "correct": true,
+          "why": "Pluripotent cells have a broader developmental range. Multipotent cells, such as haemopoietic stem cells, are restricted to related lineages."
+        },
+        {
+          "text": "Pluripotent cells form a whole organism, whereas multipotent cells form all body-cell types",
+          "correct": false,
+          "why": "The ability to form a whole organism belongs to totipotent cells. Multipotent cells have the narrower range, not all body-cell types."
+        },
+        {
+          "text": "Pluripotent cells occur only in adults, whereas multipotent cells occur only in early embryos",
+          "correct": false,
+          "why": "This reverses the usual examples. Pluripotent cells occur in the early embryo, while adult bone marrow contains multipotent stem cells."
+        },
+        {
+          "text": "Pluripotent cells cannot differentiate, whereas multipotent cells can produce any specialized cell",
+          "correct": false,
+          "why": "Both types can differentiate. Pluripotent cells have the broader range, while multipotent cells produce a restricted set."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q05",
+      "stem": "A cube-shaped cell has a side length of 4 µm. What is its surface area-to-volume ratio?",
+      "options": [
+        {
+          "text": "1.5:1",
+          "correct": true,
+          "why": "Its surface area is 6 × 4² = 96 µm² and its volume is 4³ = 64 µm³. The ratio 96:64 simplifies to 1.5:1."
+        },
+        {
+          "text": "4:1",
+          "correct": false,
+          "why": "This uses the side length as the ratio without calculating surface area and volume. Both quantities must be calculated first."
+        },
+        {
+          "text": "6:1",
+          "correct": false,
+          "why": "A 1 µm cube has a ratio of 6:1. The ratio falls as the cube's side length increases."
+        },
+        {
+          "text": "16:1",
+          "correct": false,
+          "why": "Sixteen is the area of one face, not the ratio. A cube has six faces and a volume calculated by cubing its side length."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q06",
+      "stem": "Why can a decreasing surface area-to-volume ratio limit cell size?",
+      "options": [
+        {
+          "text": "Exchange capacity rises with membrane area, while metabolic demand rises mainly with cell volume",
+          "correct": true,
+          "why": "Volume increases faster than surface area as a cell grows. The membrane may then be unable to supply or clear the larger volume fast enough."
+        },
+        {
+          "text": "Large cells lose all membrane area and can no longer exchange substances with their surroundings",
+          "correct": false,
+          "why": "Large cells have more total membrane area, not none. They have less membrane area relative to each unit of volume."
+        },
+        {
+          "text": "Metabolic demand depends only on surface area, while exchange depends entirely on cytoplasmic volume",
+          "correct": false,
+          "why": "The relationship is reversed. Exchange occurs across membrane area, while the amount of active cell material is related to volume."
+        },
+        {
+          "text": "Volume increases with length squared, while surface area increases with length cubed",
+          "correct": false,
+          "why": "Surface area scales with length squared and volume with length cubed. That difference makes the ratio decrease."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q07",
+      "stem": "Which adaptation increases the surface area available for selective reabsorption by a proximal convoluted tubule cell?",
+      "options": [
+        {
+          "text": "A brush border of microvilli",
+          "correct": true,
+          "why": "Microvilli are projections of the plasma membrane. They add membrane area for transport during selective reabsorption."
+        },
+        {
+          "text": "A biconcave shape without a nucleus",
+          "correct": false,
+          "why": "That describes an erythrocyte adaptation for oxygen transport and flexibility. It isn't the brush border of a kidney tubule cell."
+        },
+        {
+          "text": "A long axon covered by myelin",
+          "correct": false,
+          "why": "That describes a neuron specialized for rapid signaling over distance. It doesn't increase kidney reabsorption."
+        },
+        {
+          "text": "A tail containing a bending axoneme",
+          "correct": false,
+          "why": "That describes sperm propulsion. An axoneme moves a flagellum rather than increasing absorptive membrane area."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q08",
+      "stem": "Which statement correctly matches an alveolar cell with its adaptation?",
+      "options": [
+        {
+          "text": "Type I pneumocytes are extremely thin, reducing the diffusion distance for respiratory gases",
+          "correct": true,
+          "why": "Type I pneumocytes form most of the thin gas-exchange surface. Their flattened shape shortens the path between alveolar air and blood."
+        },
+        {
+          "text": "Type II pneumocytes are extremely thin, allowing them to transport oxygen with haemoglobin",
+          "correct": false,
+          "why": "Type II pneumocytes secrete surfactant rather than transport oxygen with haemoglobin. Erythrocytes contain haemoglobin."
+        },
+        {
+          "text": "Type I pneumocytes contain lamellar bodies that release surfactant into capillaries",
+          "correct": false,
+          "why": "Lamellar bodies occur in type II pneumocytes and release surfactant into the alveolar lumen, not into capillaries."
+        },
+        {
+          "text": "Type II pneumocytes contain myofibrils that contract and inflate the alveoli",
+          "correct": false,
+          "why": "Myofibrils are contractile structures in muscle. Type II pneumocytes help alveoli remain open by secreting surfactant."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q09",
+      "stem": "Why does alveolar tissue contain both type I and type II pneumocytes?",
+      "options": [
+        {
+          "text": "The tissue needs both a thin diffusion surface and cells specialized for surfactant secretion",
+          "correct": true,
+          "why": "The two jobs need different structures. Extreme thinness favors rapid diffusion, while secretion requires vesicles and more cytoplasm."
+        },
+        {
+          "text": "Type I cells exchange oxygen, while type II cells exchange carbon dioxide through a separate pathway",
+          "correct": false,
+          "why": "Both respiratory gases diffuse across the thin alveolar surface. Type II cells are distinguished by surfactant secretion."
+        },
+        {
+          "text": "Type I cells function during inhalation, while type II cells replace them during exhalation",
+          "correct": false,
+          "why": "The two cell types don't alternate with each breath. They perform different structural and secretory roles in the same tissue."
+        },
+        {
+          "text": "One cell type lines arteries, while the other forms the muscle that ventilates the lungs",
+          "correct": false,
+          "why": "Both are epithelial cells in alveoli. Ventilation depends on respiratory muscles, not pneumocytes becoming muscle."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q10",
+      "stem": "Which comparison between cardiac muscle cells and striated skeletal muscle fibres is accurate?",
+      "options": [
+        {
+          "text": "Cardiac cells are short and branched, while skeletal fibres are long, unbranched and multinucleate",
+          "correct": true,
+          "why": "Cardiac cells form a branching network and usually have one nucleus. Skeletal fibres form through cell fusion and therefore contain many nuclei."
+        },
+        {
+          "text": "Cardiac cells lack myofibrils, while skeletal fibres contain myofibrils for contraction",
+          "correct": false,
+          "why": "Both muscle types contain contractile myofibrils. Their branching, length and number of nuclei differ."
+        },
+        {
+          "text": "Cardiac cells are fused into long multinucleate fibres, while skeletal fibres remain separate",
+          "correct": false,
+          "why": "This reverses the developmental pattern. Skeletal fibres form by fusion, while cardiac muscle contains connected individual cells."
+        },
+        {
+          "text": "Cardiac cells are long and unbranched, while skeletal fibres form a three-dimensional branching network",
+          "correct": false,
+          "why": "This reverses their shapes. Cardiac cells branch, while skeletal muscle fibres run as long unbranched units."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q11",
+      "stem": "What provides the strongest evidence that a striated skeletal muscle fibre differs from a typical single cell?",
+      "options": [
+        {
+          "text": "It forms by fusion of precursor cells and has many nuclei",
+          "correct": true,
+          "why": "Fusion explains its unusual multinucleate condition. The fibre still acts as one unit enclosed by a continuous membrane."
+        },
+        {
+          "text": "It contains myofibrils that generate force during contraction",
+          "correct": false,
+          "why": "Myofibrils explain contraction but don't settle whether the fibre is a typical cell. Cardiac muscle cells contain myofibrils too."
+        },
+        {
+          "text": "It exchanges oxygen and carbon dioxide across its outer surface",
+          "correct": false,
+          "why": "Gas exchange across a membrane is common to cells and doesn't explain the classification problem. Fusion and multiple nuclei do."
+        },
+        {
+          "text": "It expresses genes and synthesizes proteins in its cytoplasm",
+          "correct": false,
+          "why": "Those are ordinary cellular activities. They don't distinguish a muscle fibre from a typical single cell."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q12",
+      "stem": "Which sequence correctly links sperm structures to their functions?",
+      "options": [
+        {
+          "text": "Acrosome enzymes aid penetration, midpiece mitochondria supply ATP, and axoneme bending provides propulsion",
+          "correct": true,
+          "why": "Each region has a different job in reaching and fertilizing the egg. The tail's axoneme produces movement using energy supplied through metabolism."
+        },
+        {
+          "text": "Acrosome mitochondria supply ATP, the midpiece stores DNA, and the tail prevents polyspermy",
+          "correct": false,
+          "why": "The structures have been reassigned. The nucleus stores paternal DNA, midpiece mitochondria support movement, and the egg's cortical response helps prevent polyspermy."
+        },
+        {
+          "text": "The acrosome produces surfactant, the midpiece absorbs nutrients, and the tail carries maternal DNA",
+          "correct": false,
+          "why": "Surfactant belongs to alveoli, and maternal DNA comes from the egg. The sperm head carries paternal DNA."
+        },
+        {
+          "text": "The acrosome forms microvilli, the midpiece releases enzymes, and the tail completes meiosis",
+          "correct": false,
+          "why": "Microvilli are membrane projections in absorptive cells. Acrosome enzymes aid penetration, and tail movement doesn't complete meiosis."
+        }
+      ]
+    },
+    {
+      "id": "B2.3-q13",
+      "stem": "Which feature of the human egg helps prevent fertilization by additional sperm after one sperm has fused?",
+      "options": [
+        {
+          "text": "Release of material from cortical granules",
+          "correct": true,
+          "why": "Cortical granules release their contents after sperm fusion. The resulting changes to the egg's surroundings help block polyspermy."
+        },
+        {
+          "text": "ATP production by midpiece mitochondria",
+          "correct": false,
+          "why": "A mitochondrial midpiece is a sperm adaptation for movement. It isn't part of the egg's block to polyspermy."
+        },
+        {
+          "text": "Contraction of myofibrils beneath the zona pellucida",
+          "correct": false,
+          "why": "Myofibrils are muscle structures. The egg uses a cortical-granule response rather than muscle contraction."
+        },
+        {
+          "text": "Secretion of surfactant from lamellar bodies",
+          "correct": false,
+          "why": "Lamellar bodies release surfactant from type II pneumocytes in alveoli. They aren't responsible for preventing polyspermy."
+        }
+      ]
+    }
+  ]
+}

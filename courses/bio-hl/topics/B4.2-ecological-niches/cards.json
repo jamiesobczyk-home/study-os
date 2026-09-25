@@ -1,0 +1,188 @@
+{
+  "topic": "B4.2",
+  "title": "Ecological niches",
+  "cards": [
+    {
+      "id": "B4.2-01",
+      "q": "Explain what an ecological niche includes, and distinguish it from a habitat.",
+      "a": "An ecological niche is the role of a species in an ecosystem. It includes how the species obtains food and uses other resources, together with the biotic and abiotic interactions that affect its growth, survival and reproduction. A habitat is the place where an organism or population lives, so it’s only one part of the information used to describe a niche.",
+      "note": "A place is a habitat. A niche describes a role and a set of interactions.",
+      "tags": [
+        "core",
+        "niche",
+        "habitat"
+      ]
+    },
+    {
+      "id": "B4.2-02",
+      "q": "Distinguish obligate anaerobes, facultative anaerobes and obligate aerobes by their tolerance of oxygen.",
+      "a": "Obligate anaerobes can grow only in the absence of oxygen and can’t tolerate oxygen in their environment. Facultative anaerobes can grow with or without oxygen. Obligate aerobes require oxygen in their environment.",
+      "note": "This syllabus point concerns tolerance of oxygen, not the detailed biochemical pathways used by each group.",
+      "tags": [
+        "core",
+        "oxygen",
+        "nutrition"
+      ]
+    },
+    {
+      "id": "B4.2-03",
+      "q": "Explain photosynthetic nutrition and identify the groups in which it occurs.",
+      "a": "Photosynthetic organisms use light energy to produce organic carbon compounds from inorganic raw materials. Photosynthesis is the mode of nutrition in plants, algae and several groups of photosynthetic prokaryotes.",
+      "note": "Don’t limit photosynthesis to plants. Details of the different forms of prokaryotic photosynthesis aren’t required here.",
+      "tags": [
+        "core",
+        "photosynthesis",
+        "autotroph"
+      ]
+    },
+    {
+      "id": "B4.2-04",
+      "q": "Describe the four stages of holozoic nutrition in the correct order.",
+      "a": "In holozoic nutrition, an animal ingests food, digests it internally into smaller soluble substances, absorbs the products of digestion and assimilates the absorbed nutrients into its cells and tissues. All animals are heterotrophic.",
+      "note": "Absorption is entry into body fluids or cells. Assimilation is using the absorbed material in the organism.",
+      "tags": [
+        "core",
+        "holozoic",
+        "heterotroph"
+      ]
+    },
+    {
+      "id": "B4.2-05",
+      "q": "Explain what a mixotroph is and distinguish obligate from facultative mixotrophy.",
+      "a": "A mixotroph combines autotrophic and heterotrophic modes of nutrition. An obligate mixotroph requires both modes to grow, whereas a facultative mixotroph can alter its mode of nutrition according to conditions. Euglena is a freshwater example, and many oceanic plankton are also mixotrophic.",
+      "note": "Mixotrophy concerns modes of nutrition, not eating a mixed diet.",
+      "tags": [
+        "core",
+        "mixotroph",
+        "protist"
+      ]
+    },
+    {
+      "id": "B4.2-06",
+      "q": "Explain how a saprotroph obtains nutrients from dead organic matter.",
+      "a": "A saprotroph secretes digestive enzymes onto dead organic matter. Digestion occurs outside the organism, and the soluble products are then absorbed. Some fungi and bacteria use saprotrophic nutrition and act as decomposers.",
+      "note": "Saprotrophs absorb the products of external digestion; they don’t ingest and internally digest the material.",
+      "tags": [
+        "core",
+        "saprotroph",
+        "decomposer"
+      ]
+    },
+    {
+      "id": "B4.2-07",
+      "q": "What must you know about the nutrition of archaea for B4.2?",
+      "a": "Archaea form one of the three domains of life. Members of the domain use a wide variety of ways to obtain energy for ATP production, so archaea shouldn’t be assigned one nutritional mode.",
+      "note": "Named examples and detailed pathways aren’t required by this syllabus statement.",
+      "tags": [
+        "core",
+        "archaea",
+        "nutrition"
+      ]
+    },
+    {
+      "id": "B4.2-08",
+      "q": "How can dentition and related skull features be used to infer whether an extinct hominid had a strongly herbivorous or omnivorous diet?",
+      "a": "Large premolars and molars with broad grinding surfaces, thick enamel, robust jaws and large areas for attachment of chewing muscles support an inference that tough or fibrous plant material formed a large part of the diet. A less specialized dentition containing teeth suited to cutting, tearing and crushing different foods supports an omnivorous diet. The inference should be based on several observed features rather than one tooth.",
+      "note": "Dentition is evidence for a dietary inference. It rarely identifies every food the organism ate.",
+      "tags": [
+        "core",
+        "dentition",
+        "hominids"
+      ]
+    },
+    {
+      "id": "B4.2-09",
+      "q": "Compare piercing and chewing mouthparts as adaptations of leaf-eating insects.",
+      "a": "Piercing mouthparts penetrate plant tissues and allow an insect to withdraw fluids from them. Chewing mouthparts have strong opposing structures that cut and crush pieces of leaves before ingestion. Both are physical adaptations for obtaining plant material, but they exploit it in different forms.",
+      "tags": [
+        "core",
+        "herbivory",
+        "insects"
+      ]
+    },
+    {
+      "id": "B4.2-10",
+      "q": "Explain how plants resist herbivory and how some herbivores overcome chemical defenses.",
+      "a": "Plants can resist herbivory with physical structures such as thorns and with toxic secondary compounds in seeds or leaves. Physical defenses make feeding harder or cause injury, while toxins reduce survival or feeding success. Some herbivores have metabolic adaptations that detoxify particular plant toxins, allowing them to use food that other animals can’t tolerate.",
+      "tags": [
+        "core",
+        "herbivory",
+        "plant-defense"
+      ]
+    },
+    {
+      "id": "B4.2-11",
+      "q": "Give chemical, physical and behavioral adaptations used by predators, and explain how each helps predation.",
+      "a": "Venom is a chemical adaptation that immobilizes or kills prey. Sharp teeth, claws or grasping structures are physical adaptations for catching and killing prey. Stalking, ambush and coordinated hunting are behavioral adaptations that increase the chance of approaching or capturing prey.",
+      "tags": [
+        "core",
+        "predation",
+        "predator"
+      ]
+    },
+    {
+      "id": "B4.2-12",
+      "q": "Give chemical, physical and behavioral adaptations used by prey, and explain how each resists predation.",
+      "a": "Toxic or unpleasant secretions are chemical defenses that harm or deter predators. Armor, spines and camouflage are physical adaptations that reduce detection or make capture and consumption difficult. Hiding, fleeing, vigilance and group behavior are behavioral adaptations that reduce the chance of being caught.",
+      "tags": [
+        "core",
+        "predation",
+        "prey"
+      ]
+    },
+    {
+      "id": "B4.2-13",
+      "q": "Compare the strategies used by canopy trees, lianas and epiphytes to harvest light in a forest.",
+      "a": "Canopy trees invest in tall, self-supporting trunks that raise their leaves into strong light. Lianas are rooted in the ground but climb trees for support, allowing them to reach brighter light with less investment in supportive tissue. Epiphytes grow on tree branches, using the tree for physical support without taking nutrients from it as a parasite would.",
+      "note": "A liana remains rooted in the soil. An epiphyte grows on another plant but isn’t defined as a parasite.",
+      "tags": [
+        "core",
+        "plants",
+        "light"
+      ]
+    },
+    {
+      "id": "B4.2-14",
+      "q": "Explain how strangler epiphytes and shade-tolerant forest-floor plants obtain light.",
+      "a": "A strangler epiphyte begins growing above the ground on a host tree, then sends roots downward and grows around the host as it reaches stronger light. Shade-tolerant shrubs and herbs remain on the forest floor and have adaptations that allow photosynthesis and survival at low light intensity.",
+      "tags": [
+        "core",
+        "plants",
+        "light"
+      ]
+    },
+    {
+      "id": "B4.2-15",
+      "q": "Distinguish a fundamental niche from a realized niche and explain why they can differ.",
+      "a": "A species’ fundamental niche is its potential niche based on its adaptations and tolerance limits. Its realized niche is the actual extent of the niche when it competes with other species. Competition can prevent the species from using part of its fundamental niche, so the realized niche may be narrower.",
+      "note": "Fundamental means potential, not more important. Realized means actually occupied under competition.",
+      "tags": [
+        "core",
+        "fundamental-niche",
+        "realized-niche"
+      ]
+    },
+    {
+      "id": "B4.2-16",
+      "q": "Explain competitive exclusion and give the two outcomes specified for species with strongly overlapping niches.",
+      "a": "Competitive exclusion occurs because two species with the same ecological niche can’t coexist indefinitely. If they compete for the same limiting resources, one species may outcompete and eliminate the other from that location. Alternatively, competition may restrict both species to different parts of their fundamental niches, making their realized niches more distinct.",
+      "note": "Exclusion can mean local elimination, but niche restriction of both species is another specified outcome.",
+      "tags": [
+        "core",
+        "competition",
+        "competitive-exclusion"
+      ]
+    },
+    {
+      "id": "B4.2-17",
+      "q": "Construct a causal explanation linking adaptations, nutrition, interactions and competition to a species’ ecological niche.",
+      "a": "A species’ adaptations and tolerance limits determine the abiotic conditions and resources it could use, forming its fundamental niche. Its nutritional adaptations determine how it obtains matter and energy, while feeding, defense and other interactions affect survival and reproduction. Competition can prevent the species from using some suitable resources or conditions, producing a narrower realized niche. The ecological niche therefore combines potential abilities with the role the species actually performs among other organisms.",
+      "note": "This answer needs a chain. Don’t list adaptations, nutrition and competition as unrelated facts.",
+      "tags": [
+        "core",
+        "niche",
+        "synthesis"
+      ]
+    }
+  ]
+}

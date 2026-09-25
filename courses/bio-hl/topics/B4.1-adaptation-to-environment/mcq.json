@@ -1,0 +1,369 @@
+{
+  "topic": "B4.1",
+  "questions": [
+    {
+      "id": "B4.1-q01",
+      "stem": "Which description identifies an organism’s habitat?",
+      "options": [
+        {
+          "text": "Its function and interactions within a biological community",
+          "correct": false,
+          "why": "That describes its ecological niche. A habitat identifies the place where it lives."
+        },
+        {
+          "text": "The place where it lives, including physical conditions and ecosystem type",
+          "correct": true,
+          "why": "A habitat can be described geographically and physically and by naming the type of ecosystem."
+        },
+        {
+          "text": "Every location where its ancestors occurred during evolutionary history",
+          "correct": false,
+          "why": "An evolutionary history can include past ranges. A habitat describes the place occupied by the organism or group being considered."
+        },
+        {
+          "text": "The full set of inherited characteristics found in its population",
+          "correct": false,
+          "why": "That concerns genetic variation within a population. It doesn’t identify where the organism lives."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q02",
+      "stem": "Which statement correctly explains the origin of an adaptation?",
+      "options": [
+        {
+          "text": "Individuals develop a useful characteristic when environmental conditions require it",
+          "correct": false,
+          "why": "That treats need as the cause of an inherited feature. Natural selection acts on heritable variation already present in a population."
+        },
+        {
+          "text": "Environmental stress produces the same beneficial mutation in every member of a population",
+          "correct": false,
+          "why": "Mutations aren’t directed toward what the population needs, and the same useful mutation doesn’t appear in every individual."
+        },
+        {
+          "text": "Individuals with a heritable advantage leave more offspring, increasing the characteristic’s frequency",
+          "correct": true,
+          "why": "Differential reproductive success causes the associated alleles and characteristic to become more common over generations."
+        },
+        {
+          "text": "Organisms pass characteristics acquired during their lives directly to their offspring",
+          "correct": false,
+          "why": "Most acquired characteristics aren’t encoded in gamete DNA. Inherited variation, selection and differential reproduction explain adaptation."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q03",
+      "stem": "How do rolled leaves help marram grass survive on windy sand dunes?",
+      "options": [
+        {
+          "text": "They expose more stomata to wind and increase carbon dioxide uptake",
+          "correct": false,
+          "why": "Greater exposure to wind would increase water loss. The rolled leaf shelters stomata inside a humid space."
+        },
+        {
+          "text": "They create a humid chamber around stomata and reduce transpiration",
+          "correct": true,
+          "why": "Humid trapped air reduces the water-vapor gradient between the leaf and its surroundings, slowing diffusion of water vapor."
+        },
+        {
+          "text": "They absorb salt from sand and store it inside the leaf",
+          "correct": false,
+          "why": "Salt uptake would make the dune environment harder to tolerate. Rolled leaves mainly reduce water loss."
+        },
+        {
+          "text": "They increase leaf area and collect more water during rainfall",
+          "correct": false,
+          "why": "Rolling reduces the exposed leaf area. Water conservation, rather than rain collection, is the relevant advantage."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q04",
+      "stem": "What is the main function of pneumatophores in black mangrove?",
+      "options": [
+        {
+          "text": "Absorption of oxygen from air above waterlogged mud",
+          "correct": true,
+          "why": "Waterlogged mud contains little oxygen. Upward-growing pneumatophores permit gas exchange with the air."
+        },
+        {
+          "text": "Excretion of concentrated salt crystals through root tips",
+          "correct": false,
+          "why": "Black mangroves can excrete salt through leaf glands. Pneumatophores are specialized for gas exchange."
+        },
+        {
+          "text": "Storage of fresh water during periods of low tide",
+          "correct": false,
+          "why": "Pneumatophores aren’t water-storage organs. Their exposed surfaces help oxygen reach submerged root tissues."
+        },
+        {
+          "text": "Production of new leaves above the level of seawater",
+          "correct": false,
+          "why": "They’re specialized roots, not shoots that produce foliage. Their role is oxygen uptake."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q05",
+      "stem": "A species is abundant at pH 7, rare at pH 5 and absent below pH 4. Which interpretation is best supported?",
+      "options": [
+        {
+          "text": "pH 5 is the lower limit of tolerance because some organisms remain there",
+          "correct": false,
+          "why": "Survival at pH 5 shows that it remains inside the tolerance range. The low abundance suggests physiological stress."
+        },
+        {
+          "text": "pH 7 is near the optimum, while pH 5 lies in a zone of physiological stress",
+          "correct": true,
+          "why": "High abundance indicates favorable conditions near the optimum. Low abundance with continued survival fits a stress zone."
+        },
+        {
+          "text": "The species has equal tolerance at pH 5 and pH 7 because it occurs at both",
+          "correct": false,
+          "why": "Presence alone doesn’t mean equal performance. The large difference in abundance indicates that pH 7 is more favorable."
+        },
+        {
+          "text": "The species will adapt during its lifetime if the pH falls below 4",
+          "correct": false,
+          "why": "Below its tolerance limit, individuals may die or fail to reproduce. Adaptation through natural selection occurs across generations."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q06",
+      "stem": "Which procedure best tests for a correlation between light intensity and plant abundance?",
+      "options": [
+        {
+          "text": "Estimate plant abundance along one transect and obtain regional light data from another location",
+          "correct": false,
+          "why": "The measurements don’t come from matching positions, so they can’t show how local abundance varies with local light."
+        },
+        {
+          "text": "Record every species present, then classify each one as adapted or unadapted to light",
+          "correct": false,
+          "why": "Those categories depend on an assumption about adaptation. The investigation needs measured light intensity and quantitative abundance."
+        },
+        {
+          "text": "Measure plant abundance and light intensity at matching regular intervals along repeated transects",
+          "correct": true,
+          "why": "This produces paired quantitative data across the environmental gradient, and repeated transects improve reliability."
+        },
+        {
+          "text": "Measure light intensity repeatedly at one point and count plants across the entire habitat",
+          "correct": false,
+          "why": "One light measurement can’t represent a gradient across the habitat. Measurements must be paired at corresponding positions."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q07",
+      "stem": "A transect shows that plant abundance rises as soil moisture rises. What can be concluded from these data alone?",
+      "options": [
+        {
+          "text": "Soil moisture is associated with abundance, but the data don’t establish that it causes the pattern",
+          "correct": true,
+          "why": "The transect supports a correlation. Other changing variables or biotic interactions could still explain some or all of the pattern."
+        },
+        {
+          "text": "Higher soil moisture directly causes the increase because both variables change together",
+          "correct": false,
+          "why": "Variables changing together establish correlation, not causation. A third variable may affect both."
+        },
+        {
+          "text": "The plant’s entire tolerance range for moisture has been identified from the transect",
+          "correct": false,
+          "why": "The sampled gradient may not reach either tolerance limit. A distribution pattern alone may show only part of the range."
+        },
+        {
+          "text": "Competition and herbivory have no effect on plant abundance in the sampled habitat",
+          "correct": false,
+          "why": "The transect provides no basis for excluding biotic effects. They may vary along the same gradient."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q08",
+      "stem": "Why does high water clarity favor coral reef formation?",
+      "options": [
+        {
+          "text": "Clear water contains no dissolved ions that could cause osmotic stress",
+          "correct": false,
+          "why": "Clear seawater still contains dissolved salts. Clarity refers mainly to low turbidity and good light penetration."
+        },
+        {
+          "text": "Clear water prevents calcium carbonate skeletons from dissolving at any pH",
+          "correct": false,
+          "why": "Skeleton deposition and dissolution depend strongly on water chemistry, including pH. Clarity can’t cancel that effect."
+        },
+        {
+          "text": "Clear water allows light to reach the coral’s photosynthetic zooxanthellae",
+          "correct": true,
+          "why": "Low turbidity lets light penetrate the water, supporting photosynthesis by the mutualistic algae in coral tissues."
+        },
+        {
+          "text": "Clear water keeps salinity constant by preventing freshwater from entering",
+          "correct": false,
+          "why": "Clarity and salinity are separate variables. Clear water can still undergo changes in salt concentration."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q09",
+      "stem": "Which combination of climate conditions is most likely to produce a tropical forest biome?",
+      "options": [
+        {
+          "text": "Very low temperature, low precipitation and a short growing season",
+          "correct": false,
+          "why": "Those conditions describe tundra, where cold strongly limits plant growth."
+        },
+        {
+          "text": "High temperature, high precipitation and little seasonal temperature change",
+          "correct": true,
+          "why": "Warm, wet conditions throughout the year support continuous plant growth and dense tropical forest."
+        },
+        {
+          "text": "High daytime temperature, very low precipitation and prolonged drought",
+          "correct": false,
+          "why": "Those are hot-desert conditions, where water shortage prevents dense forest growth."
+        },
+        {
+          "text": "Low temperature, moderate precipitation and long cold winters",
+          "correct": false,
+          "why": "Those conditions fit taiga, with cold-tolerant coniferous forest and a short growing season."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q10",
+      "stem": "Why can ecosystems on different continents belong to the same biome?",
+      "options": [
+        {
+          "text": "They contain exactly the same species because organisms migrate freely between continents",
+          "correct": false,
+          "why": "Geographically separated ecosystems usually contain different species. A biome doesn’t require identical species."
+        },
+        {
+          "text": "They share a recent common ancestor that contained the complete modern community",
+          "correct": false,
+          "why": "Whole communities aren’t inherited from one ancestral ecosystem. Similar climates can shape separate communities independently."
+        },
+        {
+          "text": "Similar abiotic conditions favor communities with similar adaptations despite different species",
+          "correct": true,
+          "why": "Temperature and rainfall create comparable selection pressures, so ecosystems can resemble one another in form and function."
+        },
+        {
+          "text": "Biome classification depends on longitude rather than climate or community structure",
+          "correct": false,
+          "why": "Longitude doesn’t define a biome. Climate, especially temperature and rainfall, is the main predictor."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q11",
+      "stem": "Which observation is the best example of convergent evolution?",
+      "options": [
+        {
+          "text": "Cacti and euphorbias independently evolving succulent stems in separate deserts",
+          "correct": true,
+          "why": "The groups are distantly related, but similar water shortages favored similar water-storing forms independently."
+        },
+        {
+          "text": "Two cactus species inheriting spines from their recent common ancestor",
+          "correct": false,
+          "why": "Similarity inherited from a recent common ancestor is homologous similarity, not convergence."
+        },
+        {
+          "text": "A saguaro increasing its water content after a rainstorm",
+          "correct": false,
+          "why": "That’s a physiological change within one organism, not the evolution of a feature in separate lineages."
+        },
+        {
+          "text": "A fennec fox moving into its burrow during the day",
+          "correct": false,
+          "why": "That’s an individual performing an adaptive behavior. It doesn’t compare independently evolved traits in different lineages."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q12",
+      "stem": "Which saguaro cactus feature most directly reduces water loss while carbon dioxide is entering?",
+      "options": [
+        {
+          "text": "A wide root system near the soil surface",
+          "correct": false,
+          "why": "Wide shallow roots increase rapid water uptake after rain. They don’t control when carbon dioxide enters."
+        },
+        {
+          "text": "A pleated stem that expands after rainfall",
+          "correct": false,
+          "why": "Stem pleats allow water storage tissue to expand. They don’t reduce gas-exchange water loss directly."
+        },
+        {
+          "text": "CAM metabolism with stomata opening during the night",
+          "correct": true,
+          "why": "Opening stomata in cooler nighttime conditions reduces transpiration while allowing carbon dioxide uptake."
+        },
+        {
+          "text": "Spines that discourage animals from eating the stem",
+          "correct": false,
+          "why": "Spines provide defense and reduce leaf surface area, but nighttime stomatal opening most directly answers the gas-exchange part."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q13",
+      "stem": "Which pairing correctly links a fennec fox adaptation to its advantage?",
+      "options": [
+        {
+          "text": "Large ears — increased heat transfer from blood to the surroundings",
+          "correct": true,
+          "why": "The ears provide a large, well-supplied surface through which heat can be lost."
+        },
+        {
+          "text": "Pale fur — increased absorption of solar radiation during the day",
+          "correct": false,
+          "why": "Pale fur reflects more incoming radiation. Increased absorption would add to the animal’s heat load."
+        },
+        {
+          "text": "Nocturnal activity — exposure to the highest daytime temperatures",
+          "correct": false,
+          "why": "Nocturnal activity avoids the hottest part of the day rather than increasing exposure to it."
+        },
+        {
+          "text": "Hairy foot pads — increased conduction from hot sand into the body",
+          "correct": false,
+          "why": "Hair on the pads provides insulation, reducing heat transfer from the hot ground."
+        }
+      ]
+    },
+    {
+      "id": "B4.1-q14",
+      "stem": "How do buttress roots benefit a tall yellow meranti tree in a tropical rainforest?",
+      "options": [
+        {
+          "text": "They support the tall trunk where the rainforest soil is relatively shallow",
+          "correct": true,
+          "why": "Wide buttresses stabilize a very tall tree even when deep anchoring roots are limited."
+        },
+        {
+          "text": "They raise every leaf above the canopy to eliminate competition for light",
+          "correct": false,
+          "why": "Tall shoot growth places leaves high in the canopy. Buttress roots support that height but don’t lift individual leaves."
+        },
+        {
+          "text": "They excrete salt absorbed whenever seawater floods the forest floor",
+          "correct": false,
+          "why": "That describes a challenge in saline mangrove habitats. Tropical-rainforest buttress roots mainly provide structural support."
+        },
+        {
+          "text": "They store enough water for survival through years without rainfall",
+          "correct": false,
+          "why": "Long drought is a desert problem. Yellow meranti grows in a high-precipitation environment."
+        }
+      ]
+    }
+  ]
+}

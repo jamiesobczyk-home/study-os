@@ -1,0 +1,194 @@
+{
+  "topic": "B1.1",
+  "title": "Carbohydrates and lipids",
+  "cards": [
+    {
+      "id": "B1.1-01",
+      "q": "Explain how carbon's bonding properties allow living organisms to contain such a wide range of molecules.",
+      "a": "A carbon atom can form four covalent bonds. It can bond to other carbon atoms and to non-metals such as hydrogen, oxygen and nitrogen, using single bonds or combinations of single and double bonds. Carbon atoms can therefore form stable unbranched chains, branched chains and rings with many different functional groups.",
+      "tags": [
+        "core",
+        "carbon",
+        "covalent-bonds"
+      ]
+    },
+    {
+      "id": "B1.1-02",
+      "q": "Compare condensation and hydrolysis, including what happens to the covalent bond and to water in each reaction.",
+      "a": "A condensation reaction joins two molecules by forming a covalent bond and releases a water molecule. A hydrolysis reaction breaks a covalent bond by adding water; the water supplies H and OH to the products. Repeated condensation can build a polymer from monomers, while repeated hydrolysis can digest the polymer into smaller units.",
+      "note": "Hydrolysis uses water. It doesn't mean that the substance has merely dissolved.",
+      "tags": [
+        "core",
+        "condensation",
+        "hydrolysis"
+      ]
+    },
+    {
+      "id": "B1.1-03",
+      "q": "How would you distinguish a pentose from a hexose in a molecular diagram, and what examples could you name?",
+      "a": "Count the carbon atoms rather than counting the sides of the ring. A pentose contains five carbon atoms, as in ribose, while a hexose contains six carbon atoms, as in glucose. One carbon may lie outside the drawn ring, so ring size alone can be misleading.",
+      "note": "A ring drawn as a pentagon doesn't necessarily contain only five carbon atoms.",
+      "tags": [
+        "core",
+        "monosaccharides",
+        "diagrams"
+      ]
+    },
+    {
+      "id": "B1.1-04",
+      "q": "Relate four properties of glucose to the ways cells use or move it.",
+      "a": "Glucose has several hydroxyl groups, making it polar, hydrophilic and soluble in water. Its solubility allows transport in aqueous fluids and cytoplasm. It is stable enough to be transported and used to build polysaccharides, while its oxidation releases energy that can be transferred to ATP.",
+      "tags": [
+        "core",
+        "glucose",
+        "structure-function"
+      ]
+    },
+    {
+      "id": "B1.1-05",
+      "q": "Compare alpha-glucose and beta-glucose and explain why the difference matters biologically.",
+      "a": "Alpha-glucose and beta-glucose have the same molecular formula but differ in the orientation of the hydroxyl group attached to carbon 1. It points below the ring in alpha-glucose and above the ring in beta-glucose in standard Haworth diagrams. Alpha-glucose forms starch and glycogen, whereas beta-glucose forms cellulose, so the small structural difference produces polymers with different shapes and functions.",
+      "tags": [
+        "core",
+        "glucose",
+        "isomers"
+      ]
+    },
+    {
+      "id": "B1.1-06",
+      "q": "Compare the structures of amylose, amylopectin and glycogen, then link their structures to energy storage.",
+      "a": "All three are polymers of alpha-glucose. Amylose is unbranched, has alpha-1,4 glycosidic bonds and coils into a compact helix. Amylopectin has alpha-1,4 bonds within chains and alpha-1,6 bonds at branch points. Glycogen has the same bond types but is more highly branched. Coiling and branching make the molecules compact, while branches provide many ends where glucose can be added or removed.",
+      "note": "Starch is the plant store and contains amylose and amylopectin. Glycogen is the animal store.",
+      "tags": [
+        "core",
+        "starch",
+        "glycogen"
+      ]
+    },
+    {
+      "id": "B1.1-07",
+      "q": "Why are starch and glycogen suitable stores of glucose rather than large collections of free glucose molecules?",
+      "a": "Starch and glycogen are compact and relatively insoluble, so they can be stored without diffusing away or making a large contribution to the cell's osmotic concentration. Their alpha-glucose units can be added by condensation and removed by hydrolysis. Branching also creates multiple ends from which glucose can be mobilized.",
+      "tags": [
+        "core",
+        "polysaccharides",
+        "energy-storage"
+      ]
+    },
+    {
+      "id": "B1.1-08",
+      "q": "Explain the complete chain from beta-glucose structure to the strength of a plant cell wall.",
+      "a": "Cellulose contains beta-glucose monomers joined by beta-1,4 glycosidic bonds, with alternate monomers rotated by 180°. This produces long, straight, unbranched chains. Many parallel chains form hydrogen bonds with one another and group into microfibrils. The microfibrils have high tensile strength, so the wall resists stretching and helps prevent a turgid plant cell from bursting.",
+      "note": "Glycosidic bonds run along each chain. Hydrogen bonds form between neighboring chains.",
+      "tags": [
+        "core",
+        "cellulose",
+        "structure-function"
+      ]
+    },
+    {
+      "id": "B1.1-09",
+      "q": "Explain how cell-surface glycoproteins contribute to cell–cell recognition, using ABO blood groups as an example.",
+      "a": "Carbohydrate chains attached to cell-surface proteins have specific shapes that act as recognition markers. In the ABO system, red blood cells display different surface carbohydrate antigens depending on blood group. The immune system can recognize an unfamiliar antigen as foreign, so incompatible donor cells may bind to antibodies and agglutinate.",
+      "note": "ABO identity depends on the structure of the exposed carbohydrate antigen, not on the blood cell having a different DNA code visible at its surface.",
+      "tags": [
+        "core",
+        "glycoproteins",
+        "cell-recognition"
+      ]
+    },
+    {
+      "id": "B1.1-10",
+      "q": "Explain why most lipids are hydrophobic and name four lipid groups.",
+      "a": "Lipids contain large hydrocarbon regions with non-polar C–H bonds. These regions can't form favorable interactions such as hydrogen bonds with water, so lipids are insoluble or only sparingly soluble in water and dissolve better in non-polar solvents. Lipid groups include fats, oils, waxes and steroids.",
+      "note": "Hydrophobic doesn't mean that water applies a repulsive force to the lipid.",
+      "tags": [
+        "core",
+        "lipids",
+        "hydrophobic"
+      ]
+    },
+    {
+      "id": "B1.1-11",
+      "q": "Describe how a triglyceride forms, including its components, reaction type, bonds and water yield.",
+      "a": "One glycerol molecule reacts with three fatty acids in condensation reactions. Three ester bonds form between glycerol's hydroxyl groups and the fatty acids' carboxyl groups, producing one triglyceride and three water molecules.",
+      "tags": [
+        "core",
+        "triglycerides",
+        "condensation"
+      ]
+    },
+    {
+      "id": "B1.1-12",
+      "q": "Describe the structure and formation of a phospholipid, then identify its hydrophilic and hydrophobic regions.",
+      "a": "A phospholipid contains glycerol joined to two fatty acids and a phosphate-containing group. It forms through condensation reactions. The phosphate-containing head is polar and hydrophilic, while the two hydrocarbon fatty-acid tails are non-polar and hydrophobic, making the molecule amphipathic.",
+      "note": "A phospholipid has two fatty-acid tails. A triglyceride has three fatty acids and no phosphate head.",
+      "tags": [
+        "core",
+        "phospholipids",
+        "condensation"
+      ]
+    },
+    {
+      "id": "B1.1-13",
+      "q": "Distinguish saturated, monounsaturated and polyunsaturated fatty acids by their carbon–carbon bonds.",
+      "a": "A saturated fatty acid has no carbon–carbon double bonds in its hydrocarbon chain and therefore carries the maximum number of hydrogen atoms. A monounsaturated fatty acid has one C=C bond. A polyunsaturated fatty acid has two or more C=C bonds.",
+      "tags": [
+        "core",
+        "fatty-acids",
+        "saturation"
+      ]
+    },
+    {
+      "id": "B1.1-14",
+      "q": "Explain how cis carbon–carbon double bonds affect fatty-acid shape, packing and melting point.",
+      "a": "A cis C=C bond introduces a bend or kink into a fatty-acid chain. Kinked chains can't pack as closely as straight saturated chains, so intermolecular attractions are weaker and less energy is needed to separate the molecules. For fatty acids of comparable length, greater cis unsaturation generally lowers the melting point, which helps explain why many plant oils are liquid at room temperature.",
+      "tags": [
+        "core",
+        "fatty-acids",
+        "melting-point"
+      ]
+    },
+    {
+      "id": "B1.1-15",
+      "q": "Explain why triglycerides in adipose tissue are suitable for both long-term energy storage and thermal insulation.",
+      "a": "Triglycerides release about twice as much energy per gram as carbohydrates when oxidized, and their insolubility means they can be stored without a large osmotic effect. Adipose tissue can therefore hold a compact long-term energy reserve. A thick subcutaneous layer also reduces heat transfer between the body and the environment, helping endotherms maintain body temperature.",
+      "tags": [
+        "core",
+        "triglycerides",
+        "adipose"
+      ]
+    },
+    {
+      "id": "B1.1-16",
+      "q": "Explain why phospholipids spontaneously form a bilayer in water and state the orientation of both regions.",
+      "a": "Phospholipids are amphipathic. Their hydrophilic phosphate-containing heads interact with water, while their hydrophobic hydrocarbon tails avoid contact with water and associate with one another. They therefore form a bilayer with heads facing the aqueous solutions on both sides and tails facing inward toward each other.",
+      "tags": [
+        "core",
+        "phospholipids",
+        "bilayer"
+      ]
+    },
+    {
+      "id": "B1.1-17",
+      "q": "How can you recognize a steroid in a molecular diagram, and why can non-polar steroid hormones cross a cell membrane?",
+      "a": "A steroid has a characteristic skeleton of four fused carbon rings. Non-polar steroid hormones such as testosterone and estradiol can dissolve in the hydrophobic interior of a phospholipid bilayer and diffuse through it. They don't need to pass through a hydrophilic channel.",
+      "tags": [
+        "core",
+        "steroids",
+        "membranes"
+      ]
+    },
+    {
+      "id": "B1.1-18",
+      "q": "Build one comparison showing how molecular structure suits carbohydrates and lipids to different storage roles.",
+      "a": "Starch and glycogen are compact, relatively insoluble polymers whose alpha-glucose units can be added or removed, while branching supplies many accessible ends for rapid mobilization. Triglycerides are hydrophobic, stored without a large osmotic effect and release about twice as much energy per gram as carbohydrates. Carbohydrates therefore suit more readily mobilized glucose storage, while triglycerides suit compact, long-term energy storage.",
+      "note": "A synthesis answer needs structure, property and function for both molecule groups.",
+      "tags": [
+        "core",
+        "synthesis",
+        "energy-storage"
+      ]
+    }
+  ]
+}

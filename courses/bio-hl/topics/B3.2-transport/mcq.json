@@ -1,0 +1,369 @@
+{
+  "topic": "B3.2",
+  "questions": [
+    {
+      "id": "B3.2-q01",
+      "stem": "Which combination best adapts a capillary for exchange?",
+      "options": [
+        {
+          "text": "A one-cell-thick wall, narrow lumen and extensively branched network",
+          "correct": true,
+          "why": "The thin wall shortens diffusion distance, the narrow lumen keeps blood close to it, and branching provides a large exchange area."
+        },
+        {
+          "text": "A thick muscular wall, narrow lumen and abundant elastic fibers",
+          "correct": false,
+          "why": "Those features adapt an artery to withstand and maintain high pressure. They would increase the distance across a capillary wall."
+        },
+        {
+          "text": "A thin flexible wall, wide lumen and regularly spaced pocket valves",
+          "correct": false,
+          "why": "Those are adaptations of veins for low-pressure return to the heart. Exchange vessels need a microscopic lumen and very thin wall."
+        },
+        {
+          "text": "A multilayered wall, wide lumen and complete covering of lignin",
+          "correct": false,
+          "why": "Lignin belongs to xylem vessels, while a multilayered wall would obstruct exchange between blood and tissues."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q02",
+      "stem": "A blood vessel in a micrograph has a thick wall, a relatively narrow lumen and no visible valves. What is it most likely to be?",
+      "options": [
+        {
+          "text": "An artery carrying blood away from the heart",
+          "correct": true,
+          "why": "A thick wall containing muscle and elastin is suited to blood arriving from the heart at high pressure."
+        },
+        {
+          "text": "A vein returning blood to the heart at low pressure",
+          "correct": false,
+          "why": "A vein usually has a thinner wall, a wider lumen and may contain valves. It can also look collapsed in a section."
+        },
+        {
+          "text": "A capillary exchanging materials with surrounding cells",
+          "correct": false,
+          "why": "A capillary has a wall one endothelial cell thick. It doesn't have a thick muscular and elastic wall."
+        },
+        {
+          "text": "A lymph vessel draining excess fluid from tissues",
+          "correct": false,
+          "why": "Lymph vessels are thin-walled, low-pressure vessels with valves. The described wall fits an artery."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q03",
+      "stem": "A student counts 18 radial pulse waves in 15 seconds. What pulse rate should be recorded?",
+      "options": [
+        {
+          "text": "18 beats per minute",
+          "correct": false,
+          "why": "Eighteen is the count for only one quarter of a minute. It must be converted to a full minute."
+        },
+        {
+          "text": "72 beats per minute",
+          "correct": true,
+          "why": "Fifteen seconds fits into one minute four times, so 18 is multiplied by four."
+        },
+        {
+          "text": "270 beats per minute",
+          "correct": false,
+          "why": "Multiplying 18 by 15 uses the counting interval as a factor. The conversion factor is four."
+        },
+        {
+          "text": "1.2 beats per minute",
+          "correct": false,
+          "why": "Dividing by 15 gives beats per second, not beats per minute. The requested unit requires conversion to 60 seconds."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q04",
+      "stem": "What is the most direct consequence of complete occlusion of a coronary artery?",
+      "options": [
+        {
+          "text": "Cardiac muscle supplied by the artery receives less oxygen and may die",
+          "correct": true,
+          "why": "Coronary arteries supply cardiac muscle. A prolonged loss of blood flow can cause a myocardial infarction."
+        },
+        {
+          "text": "Blood can no longer return from the body through the vena cava",
+          "correct": false,
+          "why": "The venae cavae return systemic blood independently of the coronary artery. The blockage affects the heart muscle's own supply."
+        },
+        {
+          "text": "The lungs can no longer oxygenate blood in their capillaries",
+          "correct": false,
+          "why": "Gas exchange in lung capillaries isn't directly blocked. The immediate problem is ischemia in cardiac muscle."
+        },
+        {
+          "text": "The semilunar valves lose their ability to prevent arterial backflow",
+          "correct": false,
+          "why": "Semilunar valves respond to pressure differences. Coronary occlusion first deprives part of the myocardium of oxygen."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q05",
+      "stem": "What generates the negative pressure that pulls water through xylem?",
+      "options": [
+        {
+          "text": "Active pumping of water by root cells",
+          "correct": false,
+          "why": "Root cells can actively transport ions, but water itself moves by osmosis. Transpiration pull doesn't require roots to pump water."
+        },
+        {
+          "text": "Evaporation of water from mesophyll cell walls",
+          "correct": true,
+          "why": "Evaporation draws water from leaf tissues and xylem, creating tension that is transmitted down the water column."
+        },
+        {
+          "text": "Cohesion between water molecules in the vessel",
+          "correct": false,
+          "why": "Cohesion keeps the water column connected and transmits tension. It doesn't create the tension."
+        },
+        {
+          "text": "Lignification of the xylem vessel walls",
+          "correct": false,
+          "why": "Lignin prevents the vessel from collapsing under tension. It isn't the source of transpiration pull."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q06",
+      "stem": "Why are xylem vessel walls lignified?",
+      "options": [
+        {
+          "text": "To prevent collapse under tension and provide mechanical support",
+          "correct": true,
+          "why": "Lignin strengthens the walls, allowing the vessels to remain open while the water inside is under negative pressure."
+        },
+        {
+          "text": "To supply ATP for active transport of water through the lumen",
+          "correct": false,
+          "why": "Lignin is a structural material and mature vessels are dead. Xylem water transport is passive."
+        },
+        {
+          "text": "To form valves that prevent water from flowing toward the roots",
+          "correct": false,
+          "why": "Xylem vessels don't use valves. The transpiration-generated pressure gradient determines the direction of bulk flow."
+        },
+        {
+          "text": "To increase osmosis by lowering the water potential of the wall",
+          "correct": false,
+          "why": "Lignin doesn't act as a dissolved solute. Osmotic water movement depends on water-potential differences across membranes."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q07",
+      "stem": "Which arrangement identifies a transverse section as a young dicotyledonous stem rather than a root?",
+      "options": [
+        {
+          "text": "Vascular bundles in a ring, with phloem outside and xylem inside each bundle",
+          "correct": true,
+          "why": "A young dicot stem has a ring of vascular bundles around the pith, with cambium between outer phloem and inner xylem."
+        },
+        {
+          "text": "Central star-shaped xylem, with phloem located between its projecting arms",
+          "correct": false,
+          "why": "That pattern identifies a young dicot root. Its vascular tissue occupies the central region rather than a ring of separate bundles."
+        },
+        {
+          "text": "Xylem around the outer epidermis, with phloem filling the central pith",
+          "correct": false,
+          "why": "Neither tissue occupies those positions in a normal young dicot stem. The epidermis remains the outer covering."
+        },
+        {
+          "text": "Phloem inside every xylem group, with no cortex outside the vascular tissue",
+          "correct": false,
+          "why": "Phloem is outside the xylem in each stem bundle, and cortex lies between the epidermis and vascular bundles."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q08",
+      "stem": "Why do most plasma proteins remain in a capillary while tissue fluid forms?",
+      "options": [
+        {
+          "text": "They are too large to pass readily through the capillary wall",
+          "correct": true,
+          "why": "Pressure filters water and small solutes out, while most proteins remain in plasma and contribute to its osmotic pull."
+        },
+        {
+          "text": "They are actively transported from tissue fluid back into the capillary",
+          "correct": false,
+          "why": "Their retention is mainly due to the capillary barrier, not continuous active transport from the tissues."
+        },
+        {
+          "text": "They dissolve in red blood cells before reaching the arterial end",
+          "correct": false,
+          "why": "Plasma proteins remain dissolved in plasma. They don't move into red blood cells to avoid filtration."
+        },
+        {
+          "text": "They are converted into glucose as hydrostatic pressure increases",
+          "correct": false,
+          "why": "Hydrostatic pressure drives filtration but doesn't chemically convert proteins into glucose."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q09",
+      "stem": "What happens to excess tissue fluid that doesn't return directly to blood capillaries?",
+      "options": [
+        {
+          "text": "It enters lymph vessels and later returns to veins near the heart",
+          "correct": true,
+          "why": "Lymphatic drainage prevents fluid from accumulating in tissues and eventually returns the fluid to the blood circulation."
+        },
+        {
+          "text": "It enters arteries and returns directly to the left ventricle",
+          "correct": false,
+          "why": "Arteries carry blood away from the heart and aren't open drainage routes for tissue fluid."
+        },
+        {
+          "text": "It remains permanently between cells to maintain hydrostatic pressure",
+          "correct": false,
+          "why": "Permanent accumulation would cause edema and interfere with exchange. Excess fluid must be drained."
+        },
+        {
+          "text": "It diffuses through body cells and leaves through the digestive tract",
+          "correct": false,
+          "why": "Tissue fluid exchanges solutes with cells, but excess bulk fluid is collected by lymphatic vessels."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q10",
+      "stem": "Why can a mammalian double circulation deliver blood to the body at higher pressure than a fish single circulation?",
+      "options": [
+        {
+          "text": "Blood returning from the lungs is pumped again before entering systemic arteries",
+          "correct": true,
+          "why": "The left side of the mammalian heart re-pressurizes blood after pulmonary capillaries before sending it around the body."
+        },
+        {
+          "text": "Mammalian blood avoids capillaries until it has passed through every body organ",
+          "correct": false,
+          "why": "Systemic exchange still occurs through capillaries. Re-pressurization after the pulmonary circuit explains the higher pressure."
+        },
+        {
+          "text": "Fish blood returns to the heart between the gills and every individual organ",
+          "correct": false,
+          "why": "Fish blood travels from gills to body tissues before returning to the heart, which is why pressure isn't restored after the gills."
+        },
+        {
+          "text": "Mammalian veins generate a second pressure wave by contracting their muscular walls",
+          "correct": false,
+          "why": "Veins don't provide the second pump. Ventricular contraction in the heart generates arterial pressure."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q11",
+      "stem": "Which valve state is expected while ventricular pressure exceeds both atrial and arterial pressure?",
+      "options": [
+        {
+          "text": "Atrioventricular valves open and semilunar valves closed",
+          "correct": false,
+          "why": "That arrangement occurs during ventricular filling. High ventricular pressure closes the atrioventricular valves."
+        },
+        {
+          "text": "Atrioventricular valves closed and semilunar valves open",
+          "correct": true,
+          "why": "Pressure above atrial pressure closes the inlet valves, while pressure above arterial pressure opens the outlet valves."
+        },
+        {
+          "text": "Both sets of valves open to maximize ventricular flow",
+          "correct": false,
+          "why": "Opening both sets would allow backward movement into the atria during contraction. The atrioventricular valves must be closed."
+        },
+        {
+          "text": "Both sets of valves closed throughout ventricular ejection",
+          "correct": false,
+          "why": "Both sets close briefly during isovolumetric contraction, but semilunar valves open when ventricular pressure exceeds arterial pressure."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q12",
+      "stem": "Which sequence correctly describes electrical conduction during a normal heartbeat?",
+      "options": [
+        {
+          "text": "Atrioventricular node → atria → sinoatrial node → ventricles",
+          "correct": false,
+          "why": "The sinoatrial node starts the signal. The atrioventricular node receives it only after excitation spreads across the atria."
+        },
+        {
+          "text": "Sinoatrial node → atria → atrioventricular node → ventricular conducting fibers",
+          "correct": true,
+          "why": "The sinoatrial node initiates atrial excitation, and the delayed signal then travels through conducting tissue to the ventricles."
+        },
+        {
+          "text": "Ventricular muscle → semilunar valves → atria → sinoatrial node",
+          "correct": false,
+          "why": "Valves don't conduct electrical signals, and ventricular contraction follows atrial excitation rather than initiating it."
+        },
+        {
+          "text": "Coronary arteries → sinoatrial node → valves → ventricular muscle",
+          "correct": false,
+          "why": "Coronary arteries supply the myocardium but aren't part of its electrical conduction pathway. Valves aren't conducting tissue either."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q13",
+      "stem": "How does active transport of mineral ions lead to root pressure?",
+      "options": [
+        {
+          "text": "It raises xylem water potential, causing water to leave and pull sap upward",
+          "correct": false,
+          "why": "Adding ions lowers xylem water potential. Water then enters rather than leaves."
+        },
+        {
+          "text": "It lowers xylem water potential, so osmosis adds water and creates positive pressure",
+          "correct": true,
+          "why": "Water entering the confined xylem produces positive hydrostatic pressure, especially when transpiration is low."
+        },
+        {
+          "text": "It pumps water molecules through ion channels and into xylem vessels",
+          "correct": false,
+          "why": "Ion pumps transport ions using ATP. Water follows passively by osmosis rather than being pumped through ion channels."
+        },
+        {
+          "text": "It creates negative xylem pressure by increasing evaporation from root cells",
+          "correct": false,
+          "why": "Root pressure is positive and comes from osmotic water entry. Negative pressure is associated with transpiration from leaves."
+        }
+      ]
+    },
+    {
+      "id": "B3.2-q14",
+      "stem": "What directly drives long-distance mass flow of phloem sap from a source toward a sink?",
+      "options": [
+        {
+          "text": "Continuous active transport of each sucrose molecule along the sieve tube",
+          "correct": false,
+          "why": "ATP is involved in loading and unloading, but sucrose isn't pumped from cell to cell for the whole journey."
+        },
+        {
+          "text": "A hydrostatic pressure gradient produced by loading and unloading solutes",
+          "correct": true,
+          "why": "Sucrose loading draws water into phloem and raises pressure at the source, while unloading helps maintain lower pressure at the sink."
+        },
+        {
+          "text": "Transpiration tension transmitted from xylem through every sieve plate",
+          "correct": false,
+          "why": "Transpiration produces negative pressure in xylem. Phloem mass flow uses positive hydrostatic pressure."
+        },
+        {
+          "text": "Contraction of companion cells around each living sieve tube element",
+          "correct": false,
+          "why": "Companion cells support loading and metabolism but don't contract to squeeze sap along the tube."
+        }
+      ]
+    }
+  ]
+}

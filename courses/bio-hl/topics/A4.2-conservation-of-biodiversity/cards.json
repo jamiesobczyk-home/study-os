@@ -1,0 +1,193 @@
+{
+  "topic": "A4.2",
+  "title": "Conservation of biodiversity",
+  "cards": [
+    {
+      "id": "A4.2-01",
+      "q": "Define biodiversity and distinguish its three levels.",
+      "a": "Biodiversity is the variety of life in all its forms, levels and combinations. Genetic diversity is variation in genetic information within a species or population. Species diversity is the variety of species in a community, including species richness and relative abundance. Ecosystem diversity is the variety of ecosystems, habitats and biological communities in an area.",
+      "note": "Biodiversity doesn’t mean species number alone. The definition must include all three levels.",
+      "tags": [
+        "core",
+        "definitions",
+        "levels"
+      ]
+    },
+    {
+      "id": "A4.2-02",
+      "q": "Compare the estimated number of species alive today with past biodiversity, and explain why the comparison has uncertainty.",
+      "a": "Millions of living species have been discovered, named and described, but many more remain undiscovered. Fossil evidence suggests that more species may be alive today than at any previous time. The comparison is uncertain because the fossil record is incomplete, many living species haven’t been identified, and taxonomists may classify the same variation differently.",
+      "note": "High present-day diversity and a current biodiversity crisis can both be true. One describes the number present; the other describes rapid losses and declines.",
+      "tags": [
+        "core",
+        "species-counts",
+        "fossils"
+      ]
+    },
+    {
+      "id": "A4.2-03",
+      "q": "Explain how taxonomic lumpers and splitters can produce different estimates of species richness from the same organisms.",
+      "a": "Splitters interpret differences between groups as evidence that more separate species should be recognized. Lumpers interpret more of the variation as occurring within fewer species. They can therefore classify the same observations differently, with splitters producing a higher species count than lumpers.",
+      "tags": [
+        "core",
+        "classification",
+        "nature-of-science"
+      ]
+    },
+    {
+      "id": "A4.2-04",
+      "q": "Explain how human activity can drive a species from population decline to extinction.",
+      "a": "Overexploitation, habitat loss, pollution, introduced species or disease can increase mortality, reduce reproduction or remove resources. The population then becomes smaller and often fragmented. Small populations have less genetic diversity, fewer potential mates and greater vulnerability to chance events, increasing the risk that every remaining population disappears.",
+      "tags": [
+        "core",
+        "extinction",
+        "causal-chain"
+      ]
+    },
+    {
+      "id": "A4.2-05",
+      "q": "Explain the anthropogenic causes of the extinction of the North Island giant moa.",
+      "a": "After Polynesian settlement of New Zealand, people hunted North Island giant moas for food. People also burned and cleared vegetation, reducing and fragmenting moa habitat. Hunting combined with habitat loss caused populations to fall until the species became extinct.",
+      "note": "Name the human actions. Writing that the moa was poorly adapted to change doesn’t identify the anthropogenic causes.",
+      "tags": [
+        "core",
+        "case-study",
+        "moa"
+      ]
+    },
+    {
+      "id": "A4.2-06",
+      "q": "Explain the anthropogenic causes of the extinction of the Caribbean monk seal.",
+      "a": "Caribbean monk seals were heavily hunted for oil, meat and skins. Fishers also killed seals that they viewed as competitors, while intensive fishing reduced available prey. Continued human exploitation drove the remaining populations to extinction.",
+      "tags": [
+        "core",
+        "case-study",
+        "caribbean-monk-seal"
+      ]
+    },
+    {
+      "id": "A4.2-07",
+      "q": "Explain how human activity caused the extinction of the passenger pigeon.",
+      "a": "Passenger pigeons were killed on a massive scale by commercial hunters, while widespread forest clearance removed feeding and nesting habitat. Their habit of gathering in enormous flocks allowed hunters to take many birds at once. Hunting and habitat loss caused a rapid population collapse that ended in extinction.",
+      "tags": [
+        "core",
+        "case-study",
+        "passenger-pigeon"
+      ]
+    },
+    {
+      "id": "A4.2-08",
+      "q": "Distinguish species extinction from ecosystem loss and explain how the two can be connected.",
+      "a": "Species extinction is the global loss of every member of one species. Ecosystem loss is the destruction or conversion of a whole ecological system, including its habitat, communities and interactions. Losing an ecosystem can remove the habitat of many species at once, causing population declines and increasing extinction risk.",
+      "note": "A species may disappear locally without being globally extinct, while an ecosystem can be severely degraded without every species in it becoming extinct.",
+      "tags": [
+        "core",
+        "ecosystem-loss",
+        "extinction"
+      ]
+    },
+    {
+      "id": "A4.2-09",
+      "q": "Explain the anthropogenic causes of mixed dipterocarp forest loss in Southeast Asia.",
+      "a": "Mixed dipterocarp forests have been opened by commercial logging and road construction. Forest has then been cleared or converted for agriculture and plantations, including oil-palm plantations. Fragmentation and human-caused fires can damage remaining forest, so habitat area and ecological continuity are reduced.",
+      "tags": [
+        "core",
+        "case-study",
+        "dipterocarp-forest"
+      ]
+    },
+    {
+      "id": "A4.2-10",
+      "q": "Explain the major anthropogenic causes of North American tallgrass prairie loss.",
+      "a": "Large areas of tallgrass prairie were plowed and converted to cropland because their soils were productive. Livestock grazing, settlement, roads and urban growth caused further degradation and fragmentation. Fire suppression also altered a system in which periodic fire helped limit woody vegetation and maintain prairie communities.",
+      "tags": [
+        "core",
+        "case-study",
+        "tallgrass-prairie"
+      ]
+    },
+    {
+      "id": "A4.2-11",
+      "q": "Explain how repeated biodiversity surveys can provide evidence for a biodiversity crisis.",
+      "a": "Researchers use consistent methods to survey species richness and evenness in the same habitats at different times. Repeated declines across many taxa, habitats and regions provide evidence of broad biodiversity change rather than a temporary fluctuation at one site. The methods, sampling effort and survey locations must be comparable for the trend to be credible.",
+      "note": "A single species list gives a snapshot. Evidence of change requires comparable measurements made at different times.",
+      "tags": [
+        "core",
+        "evidence",
+        "surveys"
+      ]
+    },
+    {
+      "id": "A4.2-12",
+      "q": "Compare species richness and species evenness as evidence from a biodiversity survey.",
+      "a": "Species richness is the number of species recorded in an area. Species evenness describes how similar their relative abundances are. A community can retain the same richness while becoming less even if one species becomes dominant and others become rare, so monitoring both reveals changes that richness alone would miss.",
+      "tags": [
+        "core",
+        "richness",
+        "evenness"
+      ]
+    },
+    {
+      "id": "A4.2-13",
+      "q": "Evaluate the contributions of expert scientists and citizen scientists to biodiversity monitoring.",
+      "a": "Expert scientists can supply specialist identification, controlled methods and careful analysis. Citizen scientists can collect large amounts of data over wide areas and long periods, but differences in training, identification and sampling effort can introduce bias. Published, peer-reviewed work with methods available for checking makes the evidence more verifiable.",
+      "tags": [
+        "core",
+        "citizen-science",
+        "evidence"
+      ]
+    },
+    {
+      "id": "A4.2-14",
+      "q": "Explain why human population growth is an overarching cause of the current biodiversity crisis rather than the only direct cause.",
+      "a": "Population growth can increase demand for food, land, energy and materials. Meeting those demands can expand agriculture, urbanization, deforestation, hunting, extraction, transport and waste production. The direct pressures include habitat loss, overexploitation, pollution, invasive species and disease, while population growth can intensify several of them.",
+      "note": "Don’t replace the named direct causes with the phrase “too many people.” Show the routes by which demand becomes biological pressure.",
+      "tags": [
+        "core",
+        "population-growth",
+        "biodiversity-crisis"
+      ]
+    },
+    {
+      "id": "A4.2-15",
+      "q": "Compare in situ and ex situ conservation, including one strength and one limitation of each.",
+      "a": "In situ conservation protects species in their natural habitats, allowing ecological interactions, natural selection and adaptation to continue, but it may fail if threats in the habitat can’t be controlled. Ex situ conservation protects organisms outside the natural habitat in zoos, botanic gardens or breeding programs, but small captive populations may lose genetic diversity and don’t preserve the full ecosystem.",
+      "tags": [
+        "core",
+        "in-situ",
+        "ex-situ"
+      ]
+    },
+    {
+      "id": "A4.2-16",
+      "q": "Distinguish rewilding from reclamation and explain how each can support biodiversity.",
+      "a": "Rewilding aims to restore natural ecological processes, often by reducing intensive management or reintroducing missing native species. Reclamation uses active repair, such as restoring soil, vegetation or water conditions, to make a degraded site function as habitat again. Both can increase habitat quality, but they intervene in different ways.",
+      "tags": [
+        "core",
+        "rewilding",
+        "reclamation"
+      ]
+    },
+    {
+      "id": "A4.2-17",
+      "q": "Explain the role and limitation of storing germ plasm in seed or tissue banks.",
+      "a": "Seed and tissue banks store living genetic material under controlled conditions, preserving alleles that might otherwise be lost and providing material for future breeding or reintroduction. Storage doesn’t preserve a functioning habitat, species interactions or ongoing natural selection, and some species can’t be conserved effectively as stored seeds.",
+      "tags": [
+        "core",
+        "germ-plasm",
+        "banks"
+      ]
+    },
+    {
+      "id": "A4.2-18",
+      "q": "Design the reasoning for a conservation priority using EDGE, then explain why the chosen species still needs several conservation approaches.",
+      "a": "The EDGE programme gives priority to species that are both evolutionarily distinct, representing unusually unique evolutionary history, and globally endangered, facing a high risk of extinction. Protecting such a species can retain a disproportionate amount of evolutionary history. A complete plan may combine habitat protection and threat control in situ, captive breeding ex situ, habitat reclamation or rewilding, and germ-plasm storage because no one method preserves every part of the species and its ecosystem.",
+      "note": "This is the synthesis card. EDGE chooses a priority; it doesn’t supply the whole conservation plan.",
+      "tags": [
+        "core",
+        "edge",
+        "synthesis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "topic": "B2.2",
+  "questions": [
+    {
+      "id": "B2.2-q01",
+      "stem": "Which structure is classified as an organelle in this syllabus?",
+      "options": [
+        {
+          "text": "The cytoplasm surrounding the cell components",
+          "correct": false,
+          "why": "Cytoplasm is excluded from the syllabus definition of an organelle. It’s the cell material in which many organelles are located."
+        },
+        {
+          "text": "The cellulose cell wall outside the membrane",
+          "correct": false,
+          "why": "The cell wall is a cell structure, but the syllabus doesn’t classify it as an organelle."
+        },
+        {
+          "text": "A ribosome translating an mRNA molecule",
+          "correct": true,
+          "why": "A ribosome is a discrete subunit adapted for protein synthesis. An organelle doesn’t have to be surrounded by a membrane."
+        },
+        {
+          "text": "The cytoskeleton extending throughout the cytoplasm",
+          "correct": false,
+          "why": "The cytoskeleton has important cellular functions, but it’s excluded from the organelle category used here."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q02",
+      "stem": "What did cell fractionation combined with ultracentrifugation allow researchers to do?",
+      "options": [
+        {
+          "text": "Separate cell components into fractions and test their biochemical activities",
+          "correct": true,
+          "why": "Separating components produces fractions enriched in particular organelles. Researchers can then test what reactions occur in each fraction."
+        },
+        {
+          "text": "Observe living organelles at the resolution of an electron microscope",
+          "correct": false,
+          "why": "Electron microscopy can reveal fine structure, but it doesn’t keep specimens alive. Fractionation is used to isolate components."
+        },
+        {
+          "text": "Separate organelles according to the colors they absorb under visible light",
+          "correct": false,
+          "why": "Centrifugation separates components using physical properties such as size and density, not their visible color."
+        },
+        {
+          "text": "Identify every organelle without breaking the plasma membrane of the cell",
+          "correct": false,
+          "why": "Cell fractionation begins by breaking cells open. It can’t isolate internal structures while every plasma membrane remains intact."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q03",
+      "stem": "What is the main advantage of separating the nucleus from the cytoplasm?",
+      "options": [
+        {
+          "text": "Translation can occur before an RNA transcript has been completed",
+          "correct": false,
+          "why": "That can occur in prokaryotes because there’s no nuclear envelope. Eukaryotic compartmentalization prevents this immediate contact."
+        },
+        {
+          "text": "mRNA can be modified before it encounters cytoplasmic ribosomes",
+          "correct": true,
+          "why": "Transcription and RNA processing occur in the nucleus, while translation occurs outside it. The envelope keeps those stages separate."
+        },
+        {
+          "text": "Ribosomes can enter the nucleus and translate genes beside the DNA",
+          "correct": false,
+          "why": "Translation occurs outside the nucleus. Ribosomal components pass through pores, but active cytoplasmic translation doesn’t move beside the DNA."
+        },
+        {
+          "text": "DNA can leave through nuclear pores and attach directly to rough ER",
+          "correct": false,
+          "why": "DNA is retained in the nucleus. Processed mRNA carries the genetic message through nuclear pores to ribosomes."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q04",
+      "stem": "Why can concentrating enzymes and metabolites in a compartment increase reaction rate?",
+      "options": [
+        {
+          "text": "The compartment permanently lowers the activation energy without an enzyme",
+          "correct": false,
+          "why": "Enzymes lower activation energy. A compartment supports their action by bringing enzymes and substrates together."
+        },
+        {
+          "text": "The membrane converts every reaction in the compartment into active transport",
+          "correct": false,
+          "why": "Active transport moves substances across membranes. It doesn’t describe the metabolic reactions occurring inside a compartment."
+        },
+        {
+          "text": "The concentrated reactants undergo more frequent enzyme-substrate collisions",
+          "correct": true,
+          "why": "Keeping enzymes and substrates in a smaller region raises their local concentrations, so productive collisions can occur more frequently."
+        },
+        {
+          "text": "The enclosed metabolites stop moving and remain attached to enzymes",
+          "correct": false,
+          "why": "Molecules still move within a compartment. Their concentration, rather than a loss of movement, raises the collision frequency."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q05",
+      "stem": "A lysosome fuses with a phagocytic vacuole. What advantage does this provide?",
+      "options": [
+        {
+          "text": "Hydrolytic enzymes digest engulfed material inside an isolated compartment",
+          "correct": true,
+          "why": "Fusion places enzymes and engulfed material together while a membrane separates digestion from the rest of the cytoplasm."
+        },
+        {
+          "text": "Ribosomes translate the engulfed material into proteins for the cell",
+          "correct": false,
+          "why": "Ribosomes translate mRNA, not engulfed particles. The vacuole-lysosome system digests the material with hydrolytic enzymes."
+        },
+        {
+          "text": "The vacuole exposes the entire cytoplasm to hydrolytic enzymes",
+          "correct": false,
+          "why": "That would risk damage to the cell. Compartmentalization keeps the digestive reactions separated from the cytosol."
+        },
+        {
+          "text": "The lysosome converts the vacuole into a site of transcription",
+          "correct": false,
+          "why": "Transcription uses DNA in the nucleus. Lysosomes and phagocytic vacuoles are involved in intracellular digestion."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q06",
+      "stem": "How does the small volume of a mitochondrion's intermembrane space support ATP production?",
+      "options": [
+        {
+          "text": "It allows a given number of pumped protons to produce a steep concentration gradient",
+          "correct": true,
+          "why": "A small volume undergoes a large concentration change when protons enter it. This helps establish the gradient used by ATP synthase."
+        },
+        {
+          "text": "It provides extra room for all enzymes of the Krebs cycle to spread apart",
+          "correct": false,
+          "why": "Krebs cycle enzymes and substrates are compartmentalized in the matrix, not the intermembrane space."
+        },
+        {
+          "text": "It prevents protons from passing through ATP synthase in the inner membrane",
+          "correct": false,
+          "why": "Proton movement through ATP synthase drives ATP production. Preventing that movement would stop chemiosmosis."
+        },
+        {
+          "text": "It stores glucose before glycolysis begins inside the mitochondrion",
+          "correct": false,
+          "why": "Glycolysis occurs in the cytosol. The intermembrane space is important for proton accumulation, not glucose storage."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q07",
+      "stem": "What is the benefit of cristae in a mitochondrion?",
+      "options": [
+        {
+          "text": "They enlarge the matrix so more glycolysis can occur",
+          "correct": false,
+          "why": "Glycolysis occurs in the cytosol, and cristae are inner-membrane folds rather than extensions of the matrix."
+        },
+        {
+          "text": "They increase inner-membrane area for electron transport chains and ATP synthase",
+          "correct": true,
+          "why": "Cristae provide more inner membrane on which oxidative phosphorylation can occur."
+        },
+        {
+          "text": "They separate nuclear transcription from cytoplasmic translation",
+          "correct": false,
+          "why": "That separation is produced by the nuclear envelope. Cristae belong to mitochondria."
+        },
+        {
+          "text": "They contain the enzymes and substrates of the Calvin cycle",
+          "correct": false,
+          "why": "The Calvin cycle occurs in the chloroplast stroma. Cristae support aerobic respiration in mitochondria."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q08",
+      "stem": "Which chloroplast feature directly provides a large area for the light-dependent reactions?",
+      "options": [
+        {
+          "text": "The double membrane around the chloroplast envelope",
+          "correct": false,
+          "why": "The envelope separates the chloroplast from the cytoplasm. The light-dependent machinery is located on thylakoid membranes."
+        },
+        {
+          "text": "The enzyme-containing fluid of the chloroplast stroma",
+          "correct": false,
+          "why": "The stroma contains Calvin cycle enzymes. It isn’t the membrane bearing photosystems and electron carriers."
+        },
+        {
+          "text": "The extensive system of internal thylakoid membranes",
+          "correct": true,
+          "why": "Thylakoid membranes contain photosystems, electron carriers and ATP synthase, so their large area supports the light-dependent reactions."
+        },
+        {
+          "text": "The narrow space between the two envelope membranes",
+          "correct": false,
+          "why": "This space isn’t the thylakoid lumen. Proton accumulation for photosynthesis occurs inside thylakoids."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q09",
+      "stem": "Where are the enzymes and substrates of the Calvin cycle compartmentalized?",
+      "options": [
+        {
+          "text": "In the mitochondrial matrix",
+          "correct": false,
+          "why": "The mitochondrial matrix contains Krebs cycle enzymes and substrates. It belongs to aerobic respiration."
+        },
+        {
+          "text": "In the thylakoid lumen",
+          "correct": false,
+          "why": "The thylakoid lumen is the small compartment where protons accumulate during the light-dependent reactions."
+        },
+        {
+          "text": "In the chloroplast stroma",
+          "correct": true,
+          "why": "The stroma is the enzyme-containing fluid surrounding the thylakoids, and it’s where the Calvin cycle occurs."
+        },
+        {
+          "text": "In the nuclear envelope",
+          "correct": false,
+          "why": "The nuclear envelope separates the nucleus from the cytoplasm. It has no role as the site of the Calvin cycle."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q10",
+      "stem": "Why does the nuclear envelope break down during mitosis and meiosis?",
+      "options": [
+        {
+          "text": "To release DNA for translation by cytoplasmic ribosomes",
+          "correct": false,
+          "why": "Ribosomes translate mRNA, not DNA. Envelope breakdown allows chromosome movement rather than DNA translation."
+        },
+        {
+          "text": "To let lysosomes digest chromosomes before daughter cells form",
+          "correct": false,
+          "why": "Chromosomes must be preserved and separated. Lysosomal digestion would destroy genetic material."
+        },
+        {
+          "text": "To allow spindle microtubules to interact with and move chromosomes",
+          "correct": true,
+          "why": "Removing the nuclear boundary gives the spindle access to the chromosomes during nuclear division."
+        },
+        {
+          "text": "To attach rough ER ribosomes directly to the chromosomes",
+          "correct": false,
+          "why": "Rough ER ribosomes synthesize proteins from mRNA. They don’t need direct contact with chromosomes."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q11",
+      "stem": "Which protein is most likely to be synthesized by a ribosome bound to rough ER?",
+      "options": [
+        {
+          "text": "A cytosolic enzyme retained where it is synthesized",
+          "correct": false,
+          "why": "A protein retained in the cytosol is usually synthesized on a free ribosome."
+        },
+        {
+          "text": "A protein that will be secreted from the cell",
+          "correct": true,
+          "why": "Proteins for secretion enter the rough ER during synthesis and then travel through the endomembrane system."
+        },
+        {
+          "text": "A histone that will remain associated with nuclear DNA",
+          "correct": false,
+          "why": "Histones are made on free ribosomes and then imported into the nucleus."
+        },
+        {
+          "text": "An enzyme that will carry out glycolysis in the cytosol",
+          "correct": false,
+          "why": "Cytosolic enzymes are retained inside the cell and are generally synthesized by free ribosomes."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q12",
+      "stem": "What is the main role of the Golgi apparatus in protein secretion?",
+      "options": [
+        {
+          "text": "It transcribes genes into mRNA and sends the transcripts to ribosomes",
+          "correct": false,
+          "why": "Transcription occurs in the nucleus. The Golgi acts on proteins that have already been synthesized."
+        },
+        {
+          "text": "It produces ATP to power translation on the rough ER",
+          "correct": false,
+          "why": "Mitochondria produce most ATP by aerobic respiration. The Golgi processes and packages proteins."
+        },
+        {
+          "text": "It processes, sorts and packages proteins into vesicles",
+          "correct": true,
+          "why": "Proteins arrive from the rough ER, pass through Golgi cisternae and leave in vesicles for their destinations."
+        },
+        {
+          "text": "It digests engulfed microorganisms using hydrolytic enzymes",
+          "correct": false,
+          "why": "That describes lysosomes acting with phagocytic vacuoles. It isn’t the Golgi’s role in secretion."
+        }
+      ]
+    },
+    {
+      "id": "B2.2-q13",
+      "stem": "What role does clathrin play in vesicle transport?",
+      "options": [
+        {
+          "text": "It coats a membrane region and helps curve it into a budding vesicle",
+          "correct": true,
+          "why": "Clathrin assembles as a coat that helps shape a membrane bud. The coat is removed before the vesicle completes later transport steps."
+        },
+        {
+          "text": "It remains inside every vesicle as the substance being transported",
+          "correct": false,
+          "why": "Clathrin is a temporary coat protein on the cytosolic surface, not the cargo enclosed by every vesicle."
+        },
+        {
+          "text": "It forms nuclear pores that select which mRNA leaves the nucleus",
+          "correct": false,
+          "why": "Nuclear pore complexes control transport through the nuclear envelope. Clathrin helps form coated vesicles."
+        },
+        {
+          "text": "It catalyzes protein synthesis while attached to rough ER membranes",
+          "correct": false,
+          "why": "Ribosomes catalyze protein synthesis. Clathrin acts during the formation of particular vesicles."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "topic": "A3.1",
+  "title": "Diversity of organisms",
+  "cards": [
+    {
+      "id": "A3.1-01",
+      "q": "Explain why variation is both a defining feature of life and a basis for classification.",
+      "a": "No two individual organisms are identical in all their traits. Individuals within a species vary, but they usually share more traits with one another than with members of other species. Biologists use these patterns of similarity and difference to identify, name and classify organisms.",
+      "note": "Variation exists within species as well as between them. Classification depends on patterns, not complete uniformity.",
+      "tags": [
+        "core",
+        "variation",
+        "classification"
+      ]
+    },
+    {
+      "id": "A3.1-02",
+      "q": "Distinguish the morphological and biological species concepts, including one limitation of each.",
+      "a": "The morphological species concept groups organisms by shared observable traits, but members of one species can look different and different species can look similar. The biological species concept groups organisms that can interbreed and produce fertile offspring, but it can’t be tested for fossils, geographically separated populations or organisms that reproduce asexually.",
+      "tags": [
+        "core",
+        "species",
+        "comparison"
+      ]
+    },
+    {
+      "id": "A3.1-03",
+      "q": "Write the scientific name for humans correctly and state all the formatting rules it demonstrates.",
+      "a": "The name is Homo sapiens. It contains the genus followed by the specific epithet. The genus begins with a capital letter, the specific epithet begins with a lowercase letter, and both words are italicized when typed or underlined separately when handwritten.",
+      "note": "The complete binomial is the species name. The second word alone is the specific epithet.",
+      "tags": [
+        "core",
+        "binomial-nomenclature",
+        "taxonomy"
+      ]
+    },
+    {
+      "id": "A3.1-04",
+      "q": "Explain why scientists use binomial names instead of relying on common names.",
+      "a": "A binomial name gives each species a standardized two-part scientific name that can be used internationally. It avoids confusion caused by different languages, regional common names and the same common name being applied to different organisms.",
+      "tags": [
+        "core",
+        "binomial-nomenclature"
+      ]
+    },
+    {
+      "id": "A3.1-05",
+      "q": "Explain why it can be difficult to decide when two diverging populations have become separate species.",
+      "a": "Speciation usually happens gradually. Separated populations accumulate genetic and phenotypic differences while gene flow between them falls, so reproductive isolation develops over time rather than at one precise moment. Intermediate populations may therefore fit either the same-species or separate-species classification, making the chosen boundary partly arbitrary.",
+      "tags": [
+        "core",
+        "species",
+        "speciation"
+      ]
+    },
+    {
+      "id": "A3.1-06",
+      "q": "Explain why diploid chromosome numbers are even, and state the normal chromosome numbers of humans and chimpanzees.",
+      "a": "A diploid nucleus contains two homologous sets of chromosomes, with one member of each pair inherited from each parent, so its chromosomes occur in pairs and the total is even. Humans normally have 46 chromosomes in diploid cells, while chimpanzees have 48.",
+      "note": "A species chromosome number means the typical diploid number. Gametes have the haploid number, and chromosome abnormalities can create exceptions.",
+      "tags": [
+        "core",
+        "chromosomes",
+        "diploid"
+      ]
+    },
+    {
+      "id": "A3.1-07",
+      "q": "Distinguish a karyotype from a karyogram.",
+      "a": "A karyotype is the number and appearance of the chromosomes in a cell or organism, including features such as size and centromere position. A karyogram is an image in which chromosomes are arranged into homologous pairs and usually ordered by decreasing length.",
+      "note": "The karyotype is the chromosome set and its characteristics. The karyogram is the arranged display.",
+      "tags": [
+        "core",
+        "chromosomes",
+        "karyogram"
+      ]
+    },
+    {
+      "id": "A3.1-08",
+      "q": "Describe how chromosomes are paired and arranged in a karyogram, and explain how a human karyogram can indicate sex.",
+      "a": "Homologous chromosomes are matched using their length, banding pattern and centromere position. The pairs are generally arranged from longest to shortest, with the sex chromosomes shown as a designated pair. Two X chromosomes indicate a typical female karyotype, while one X and one Y indicate a typical male karyotype.",
+      "tags": [
+        "core",
+        "chromosomes",
+        "karyogram"
+      ]
+    },
+    {
+      "id": "A3.1-09",
+      "q": "Evaluate the evidence that human chromosome 2 arose by fusion of two ancestral primate chromosomes.",
+      "a": "Humans have 46 chromosomes while chimpanzees and other great apes have 48, which is consistent with two ancestral chromosomes becoming one in the human lineage. The DNA sequence and banding pattern of human chromosome 2 correspond to two separate ape chromosomes placed end to end. Human chromosome 2 also contains telomere-like sequences internally, where fusion would have occurred, and remnants of a second centromere. These independent observations strongly support the fusion hypothesis.",
+      "note": "The fusion occurred in the human lineage after divergence from a shared ancestor. It doesn’t mean humans descended from modern chimpanzees.",
+      "tags": [
+        "core",
+        "chromosomes",
+        "evolution",
+        "evidence"
+      ]
+    },
+    {
+      "id": "A3.1-10",
+      "q": "Explain how members of one species can show both genomic unity and genomic diversity.",
+      "a": "Members of one species share most of their DNA sequences and generally possess the same genes in the same chromosome locations. They can carry different alleles and differ at individual nucleotide positions. These differences, including SNPs, produce genomic diversity within the shared genome of the species.",
+      "tags": [
+        "core",
+        "genome",
+        "variation"
+      ]
+    },
+    {
+      "id": "A3.1-11",
+      "q": "Define a single-nucleotide polymorphism and explain its possible effects.",
+      "a": "A single-nucleotide polymorphism, or SNP, is a variation at one nucleotide position in the genome that occurs within a population. A SNP may have no detectable effect, or it may alter gene expression or a protein’s amino acid sequence and thereby influence a trait or disease risk.",
+      "note": "A difference in one nucleotide doesn’t automatically change a protein or phenotype.",
+      "tags": [
+        "core",
+        "genome",
+        "snp"
+      ]
+    },
+    {
+      "id": "A3.1-12",
+      "q": "Explain why genome size can’t be used as a reliable measure of an organism’s complexity.",
+      "a": "Genome size measures the total amount of DNA, not the number of functional genes or the complexity of the organism. Eukaryotic genomes contain variable amounts of non-coding DNA, including repetitive sequences and introns. A species can therefore have a much larger genome without having more genes or greater structural, physiological or behavioral complexity.",
+      "note": "A larger genome means more DNA. It doesn’t necessarily mean more genes.",
+      "tags": [
+        "core",
+        "genome-size",
+        "data"
+      ]
+    },
+    {
+      "id": "A3.1-13",
+      "q": "Outline two uses of whole genome sequencing and one concern raised by sequencing human genomes.",
+      "a": "Whole genome sequences can be compared to investigate evolutionary relationships, because more similar sequences usually indicate closer common ancestry. Human genome sequences may also support personalized medicine by helping predict disease risks or responses to treatments. Concerns include genetic privacy, unrequested discovery of family relationships and possible discrimination based on genetic information.",
+      "tags": [
+        "core",
+        "sequencing",
+        "ethics"
+      ]
+    },
+    {
+      "id": "A3.1-14",
+      "q": "Correct this claim: “The biological species concept works for bacteria because members of one bacterial species share genes.”",
+      "a": "The biological species concept depends on sexual interbreeding and production of fertile offspring, so it can’t be applied directly to bacteria that reproduce asexually. Horizontal gene transfer also moves DNA between organisms, sometimes across species boundaries, which weakens the idea that genes pass only through a single parent-to-offspring lineage.",
+      "note": "Shared DNA may result from common ancestry or horizontal transfer. It isn’t evidence of interbreeding by itself.",
+      "tags": [
+        "hl",
+        "species",
+        "asexual-reproduction",
+        "horizontal-gene-transfer",
+        "misconception"
+      ]
+    },
+    {
+      "id": "A3.1-15",
+      "q": "Explain how sexual reproduction maintains chromosome number within a species.",
+      "a": "Meiosis halves the diploid chromosome number to produce haploid gametes. During fertilization, two haploid nuclei fuse, restoring the diploid number in the zygote. Repetition of these two processes prevents chromosome number from doubling in every generation.",
+      "tags": [
+        "hl",
+        "chromosomes",
+        "meiosis",
+        "fertilization"
+      ]
+    },
+    {
+      "id": "A3.1-16",
+      "q": "Explain why a horse and donkey can produce a mule but the mule is usually sterile.",
+      "a": "A horse and donkey are closely related enough to mate and produce a viable hybrid, but they have different chromosome numbers. The mule inherits 63 chromosomes, so many chromosomes can’t form homologous pairs during meiosis. Normal balanced gametes are therefore unlikely to form, making the mule usually sterile.",
+      "note": "Producing a living hybrid doesn’t meet the biological species concept. The offspring must be fertile.",
+      "tags": [
+        "hl",
+        "chromosomes",
+        "hybrid",
+        "species"
+      ]
+    },
+    {
+      "id": "A3.1-17",
+      "q": "Describe how to construct and use a reliable dichotomous key.",
+      "a": "At each numbered step, write two mutually exclusive statements based on an observable, stable trait. Each choice must direct the user either to another numbered pair or to an identification. To use the key, compare the specimen with both statements at each step and follow the matching route until a name is reached.",
+      "note": "A dichotomous key identifies specimens. It doesn’t show evolutionary relationships.",
+      "tags": [
+        "hl",
+        "dichotomous-key",
+        "identification"
+      ]
+    },
+    {
+      "id": "A3.1-18",
+      "q": "A biologist wants to identify species in a pond without catching them. Explain the complete environmental DNA barcoding method and what its result can establish.",
+      "a": "The biologist collects water containing DNA released in cells, waste or decaying material. DNA is extracted, selected barcode regions are amplified and sequenced, and the sequences are compared with reference barcodes from identified species in a database. Matches provide evidence that those species contributed DNA to the sample. The method can survey many species without capturing them, but it doesn’t by itself show how many individuals are present or whether the source organisms are still alive.",
+      "note": "This connects sampling, sequencing, database comparison and the limits of the conclusion.",
+      "tags": [
+        "hl",
+        "environmental-dna",
+        "dna-barcoding",
+        "synthesis"
+      ]
+    }
+  ]
+}

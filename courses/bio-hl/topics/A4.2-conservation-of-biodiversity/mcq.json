@@ -1,0 +1,317 @@
+{
+  "topic": "A4.2",
+  "questions": [
+    {
+      "id": "A4.2-q01",
+      "stem": "Which statement gives the most complete definition of biodiversity?",
+      "options": [
+        {
+          "text": "The variety of life at genetic, species and ecosystem levels",
+          "correct": true,
+          "why": "Biodiversity includes variation within species, among species and among ecosystems. Counting species covers only one part."
+        },
+        {
+          "text": "The number of species identified within a defined habitat during a survey",
+          "correct": false,
+          "why": "That describes species richness. It leaves out genetic variation, relative abundance and ecosystem diversity."
+        },
+        {
+          "text": "The genetic differences between individuals belonging to one population",
+          "correct": false,
+          "why": "That describes genetic diversity within a population. Biodiversity also operates at species and ecosystem levels."
+        },
+        {
+          "text": "The number of ecosystems that remain unaffected by human activity",
+          "correct": false,
+          "why": "That narrows ecosystem diversity to undisturbed sites. Modified ecosystems can still differ, and biodiversity includes two other levels."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q02",
+      "stem": "What comparison between present and past species diversity is supported by the syllabus evidence?",
+      "options": [
+        {
+          "text": "Fossils prove that every modern species existed earlier in Earth’s history",
+          "correct": false,
+          "why": "Fossils show past organisms, not that every modern species already existed. Species appear through speciation and disappear through extinction."
+        },
+        {
+          "text": "Current species diversity is known exactly because all major habitats have been surveyed",
+          "correct": false,
+          "why": "Many living species haven’t been discovered or described. Taxonomic decisions also change the number recognized."
+        },
+        {
+          "text": "Fossil evidence suggests more species may live today than at any previous time",
+          "correct": true,
+          "why": "That’s the supported comparison, although the incomplete fossil record and unknown living species make exact counts impossible."
+        },
+        {
+          "text": "Past diversity always exceeded present diversity because five mass extinctions occurred",
+          "correct": false,
+          "why": "Mass extinctions caused major losses, but diversity recovered through later speciation. Their occurrence doesn’t establish a higher past total."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q03",
+      "stem": "Two taxonomists examine the same populations, but the splitter reports more species than the lumper. Why?",
+      "options": [
+        {
+          "text": "The splitter counts every individual as a separate species",
+          "correct": false,
+          "why": "Splitters still classify groups of organisms as species. They don’t turn individual variation into one species per organism."
+        },
+        {
+          "text": "The splitter treats smaller differences as species boundaries",
+          "correct": true,
+          "why": "Splitters divide variation among more species, while lumpers include more of that variation within fewer species."
+        },
+        {
+          "text": "The lumper excludes extinct species from every biodiversity estimate",
+          "correct": false,
+          "why": "Lumping concerns where species boundaries are drawn. It doesn’t mean fossil species are automatically excluded."
+        },
+        {
+          "text": "The lumper measures evenness while the splitter measures richness",
+          "correct": false,
+          "why": "Both are making taxonomic classifications. Richness and evenness are separate measures used in community surveys."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q04",
+      "stem": "Which explanation best describes the anthropogenic extinction of the North Island giant moa?",
+      "options": [
+        {
+          "text": "Introduced seals ate moa eggs while commercial fishing removed the birds’ food",
+          "correct": false,
+          "why": "That mixes unrelated marine pressures into a terrestrial case. Moas were large herbivorous birds hunted by people."
+        },
+        {
+          "text": "Climate cooling alone removed the forests before humans reached New Zealand",
+          "correct": false,
+          "why": "The required case concerns anthropogenic extinction. Human hunting and vegetation clearance were the relevant pressures."
+        },
+        {
+          "text": "Human hunting combined with burning and clearance of the birds’ habitat",
+          "correct": true,
+          "why": "People directly killed moas and also reduced their habitat. Together those pressures drove the populations to extinction."
+        },
+        {
+          "text": "Captive breeding reduced genetic diversity until the wild population disappeared",
+          "correct": false,
+          "why": "Moas weren’t lost through a conservation breeding program. This option reverses the historical situation."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q05",
+      "stem": "Which pressure directly contributed to the extinction of the Caribbean monk seal?",
+      "options": [
+        {
+          "text": "Hunting for oil, meat and skins, combined with conflict with fisheries",
+          "correct": true,
+          "why": "People exploited the seals directly, and fishing added pressure through killing and reduced prey availability."
+        },
+        {
+          "text": "Forest clearance for oil-palm plantations in the seal’s nesting habitat",
+          "correct": false,
+          "why": "Oil-palm conversion is associated with Southeast Asian forest loss. Caribbean monk seals were marine mammals."
+        },
+        {
+          "text": "Commercial collection of seeds from wild seal breeding colonies",
+          "correct": false,
+          "why": "Seeds have no role in this animal extinction. Seed collection and seed banks concern plant material."
+        },
+        {
+          "text": "Suppression of natural fires across the seal’s grassland habitat",
+          "correct": false,
+          "why": "Fire suppression can alter grasslands such as prairie. It doesn’t describe a Caribbean marine habitat."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q06",
+      "stem": "Which observation describes ecosystem loss rather than the extinction of one species?",
+      "options": [
+        {
+          "text": "The final individual of a captive bird species dies",
+          "correct": false,
+          "why": "That’s global species extinction because no living members remain. It says nothing about loss of an entire ecosystem."
+        },
+        {
+          "text": "One frog population disappears, but other populations survive",
+          "correct": false,
+          "why": "That’s a local extinction. The species survives elsewhere, and a whole ecosystem hasn’t necessarily been lost."
+        },
+        {
+          "text": "A forest is cleared for plantations, losing its communities",
+          "correct": true,
+          "why": "Conversion replaces the ecosystem’s physical habitat, biological community and interactions. Many species can be affected together."
+        },
+        {
+          "text": "A rare allele disappears from one isolated mammal population",
+          "correct": false,
+          "why": "That’s a reduction in genetic diversity. It concerns variation within a species rather than ecosystem loss."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q07",
+      "stem": "Which study would provide the strongest evidence that biodiversity has declined over time?",
+      "options": [
+        {
+          "text": "One detailed species list made at a highly diverse site",
+          "correct": false,
+          "why": "A single list describes one time. Without an earlier or later comparable survey, it can’t demonstrate change."
+        },
+        {
+          "text": "Repeated comparable surveys showing declines across many habitats",
+          "correct": true,
+          "why": "Repeated measurements establish change, and agreement across habitats makes a broad crisis more credible than one local result."
+        },
+        {
+          "text": "A record showing that deforestation occurred near one protected reserve",
+          "correct": false,
+          "why": "Deforestation is a potential cause of biodiversity loss. This record doesn’t measure whether richness or evenness changed."
+        },
+        {
+          "text": "An estimate of how many species remain undiscovered worldwide",
+          "correct": false,
+          "why": "That estimate concerns uncertainty in the present total. It doesn’t track a change through time."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q08",
+      "stem": "Why is human population growth described as an overarching cause of the biodiversity crisis?",
+      "options": [
+        {
+          "text": "It changes every ecosystem directly without requiring any human activity",
+          "correct": false,
+          "why": "Population size acts through activities and resource demands. The biological pressure still needs a mechanism."
+        },
+        {
+          "text": "It raises demand that intensifies habitat loss and overexploitation",
+          "correct": true,
+          "why": "Greater demand for land and resources can strengthen several direct pressures at once, which makes population growth overarching."
+        },
+        {
+          "text": "It prevents natural selection from occurring in all managed populations",
+          "correct": false,
+          "why": "Natural selection can continue in managed and wild populations. This doesn’t explain the broad biodiversity pressures."
+        },
+        {
+          "text": "It raises species richness by transporting organisms between continents",
+          "correct": false,
+          "why": "Transport can spread invasive alien species, pests and diseases. A local arrival can disrupt communities rather than conserve biodiversity."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q09",
+      "stem": "A threatened predator can survive only where it hunts natural prey across a large territory. Which approach best preserves those interactions?",
+      "options": [
+        {
+          "text": "Store tissue samples without protecting any living population",
+          "correct": false,
+          "why": "Tissue storage preserves genetic material, not hunting behavior, prey relationships or a functioning population."
+        },
+        {
+          "text": "Keep the entire population permanently in a small zoo enclosure",
+          "correct": false,
+          "why": "That’s ex situ conservation and may prevent immediate extinction, but it can’t preserve the predator’s natural territory and interactions."
+        },
+        {
+          "text": "Protect and manage sufficient connected habitat in situ",
+          "correct": true,
+          "why": "In situ conservation can maintain the predator, its prey, natural behavior and ecological relationships within the habitat."
+        },
+        {
+          "text": "Preserve seeds collected from plant species in its habitat",
+          "correct": false,
+          "why": "A seed bank may protect plant genes, but it doesn’t maintain the predator’s territory, prey population or behavior."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q10",
+      "stem": "What can a seed or tissue bank preserve most directly?",
+      "options": [
+        {
+          "text": "Natural food webs and competition between wild species",
+          "correct": false,
+          "why": "Those interactions require living communities in functioning habitats. Stored material can’t reproduce an active food web by itself."
+        },
+        {
+          "text": "Genetic material for possible future breeding or reintroduction",
+          "correct": true,
+          "why": "Stored germ plasm preserves alleles in seeds, cells or tissues that may later contribute to new organisms."
+        },
+        {
+          "text": "Learned migration routes followed by an animal population",
+          "correct": false,
+          "why": "Migration routes may depend on behavior, learning and habitat. They aren’t stored in a tissue bank."
+        },
+        {
+          "text": "Ongoing natural selection within an intact ecosystem",
+          "correct": false,
+          "why": "Stored material isn’t reproducing in its natural environment. Natural selection and ecological interactions aren’t maintained there."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q11",
+      "stem": "Which action is an example of rewilding rather than reclamation?",
+      "options": [
+        {
+          "text": "Removing pollutants and rebuilding soil on a damaged industrial site",
+          "correct": false,
+          "why": "That’s reclamation because people are actively repairing physical conditions in a degraded site."
+        },
+        {
+          "text": "Collecting seeds from a rare plant for long-term cold storage",
+          "correct": false,
+          "why": "That’s ex situ germ-plasm storage. It preserves genetic material outside the ecosystem."
+        },
+        {
+          "text": "Reintroducing a missing native grazer to restore ecological processes",
+          "correct": true,
+          "why": "Rewilding restores natural processes, and reintroducing a missing native species can allow those processes to resume."
+        },
+        {
+          "text": "Breeding an endangered bird under controlled conditions in a zoo",
+          "correct": false,
+          "why": "That’s ex situ conservation. The organism is managed outside its natural habitat."
+        }
+      ]
+    },
+    {
+      "id": "A4.2-q12",
+      "stem": "Four species face some extinction risk. Which one would receive the highest EDGE priority?",
+      "options": [
+        {
+          "text": "A vulnerable species with many closely related species",
+          "correct": false,
+          "why": "Its extinction risk matters, but many close relatives indicate lower evolutionary distinctness than an isolated lineage."
+        },
+        {
+          "text": "A secure species that is the sole member of an ancient lineage",
+          "correct": false,
+          "why": "It has high evolutionary distinctness, but low global endangerment. EDGE combines both criteria."
+        },
+        {
+          "text": "A critically endangered species from a long, isolated evolutionary branch",
+          "correct": true,
+          "why": "This species combines high global endangerment with high evolutionary distinctness, so its loss would remove unusually unique history."
+        },
+        {
+          "text": "An endangered species selected because it attracts the most public attention",
+          "correct": false,
+          "why": "Public appeal isn’t one of the two EDGE criteria. Priority depends on global endangerment and evolutionary distinctness."
+        }
+      ]
+    }
+  ]
+}

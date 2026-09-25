@@ -1,0 +1,175 @@
+{
+  "topic": "A3.2",
+  "title": "Classification and cladistics",
+  "cards": [
+    {
+      "id": "A3.2-01",
+      "q": "Explain why organisms need to be classified and give two ways classification supports further biological study.",
+      "a": "The immense diversity of species would be difficult to study without an organized system. Classification allows organisms to be identified, compared and studied in groups. It also supports communication between biologists and allows information or characteristics discovered in one member of a group to guide research into related organisms.",
+      "tags": [
+        "hl",
+        "classification"
+      ]
+    },
+    {
+      "id": "A3.2-02",
+      "q": "Give the traditional taxonomic ranks from the broadest named rank to the narrowest, then explain one limitation of this hierarchy.",
+      "a": "The traditional ranks are kingdom, phylum, class, order, family, genus and species. These fixed ranks are human categories and don’t always correspond to the branching patterns or gradation of variation produced by evolution. A lineage may therefore be forced into ranks that misrepresent its evolutionary relationships.",
+      "note": "Domain is placed above kingdom in the three-domain system, but it wasn’t part of the traditional seven-rank sequence named in this syllabus statement.",
+      "tags": [
+        "hl",
+        "classification",
+        "taxonomy"
+      ]
+    },
+    {
+      "id": "A3.2-03",
+      "q": "Explain why a classification based on evolutionary relationships is more useful than one based only on general resemblance.",
+      "a": "An evolutionary classification groups organisms that descended from a common ancestor. Their shared ancestry can explain homologous characteristics and allows other inherited characteristics to be predicted. General resemblance is less reliable because unrelated lineages can independently evolve similar features through convergent evolution.",
+      "tags": [
+        "hl",
+        "classification",
+        "evolution"
+      ]
+    },
+    {
+      "id": "A3.2-04",
+      "q": "Define a clade precisely and explain why a group containing an ancestor but only some of its descendants isn’t a complete clade.",
+      "a": "A clade consists of a common ancestor and all of its descendants. A group that leaves out one or more descendants of that ancestor is incomplete, so it doesn’t meet the definition of a clade.",
+      "note": "Shared appearance alone doesn’t define a clade. The group must follow common descent and include every descendant.",
+      "tags": [
+        "hl",
+        "clades",
+        "definition"
+      ]
+    },
+    {
+      "id": "A3.2-05",
+      "q": "Compare molecular and morphological evidence for assigning organisms to clades.",
+      "a": "Molecular evidence compares DNA or RNA base sequences or the amino acid sequences of proteins. It provides objective, quantifiable differences and is the most objective evidence for placing organisms in a clade. Morphological traits can also show shared ancestry, but similar features may have evolved independently through convergent evolution and can therefore support a misleading classification.",
+      "tags": [
+        "hl",
+        "evidence",
+        "sequences",
+        "morphology"
+      ]
+    },
+    {
+      "id": "A3.2-06",
+      "q": "Explain how DNA base sequences or protein amino acid sequences can be used to infer evolutionary relationships.",
+      "a": "Equivalent genes or proteins from different organisms are sequenced and aligned so corresponding positions can be compared. Mutations have produced differences since the lineages separated. Organisms with fewer sequence differences are generally inferred to share a more recent common ancestor than organisms with more differences.",
+      "note": "The comparison must involve corresponding, homologous sequences. Comparing unrelated genes wouldn’t measure the same evolutionary history.",
+      "tags": [
+        "hl",
+        "sequences",
+        "cladograms"
+      ]
+    },
+    {
+      "id": "A3.2-07",
+      "q": "Explain how parsimony analysis is used when several cladograms could fit the same sequence data.",
+      "a": "For each possible cladogram, scientists determine how many sequence changes would be required to produce the observed differences. Parsimony analysis selects the hypothesis requiring the smallest total number of sequence changes. It identifies the most probable cladogram under that criterion, but it doesn’t prove that the history occurred in exactly that way.",
+      "tags": [
+        "hl",
+        "parsimony",
+        "cladograms"
+      ]
+    },
+    {
+      "id": "A3.2-08",
+      "q": "State what the root, a node and a terminal branch represent on a rooted cladogram.",
+      "a": "The root represents the common ancestral lineage from which all taxa shown are descended. A node is a branch point representing a hypothetical common ancestor where descendant lineages diverged. A terminal branch leads from a node to one of the taxa included in the analysis.",
+      "tags": [
+        "hl",
+        "cladograms",
+        "interpretation"
+      ]
+    },
+    {
+      "id": "A3.2-09",
+      "q": "How do you decide which two taxa on a cladogram are most closely related?",
+      "a": "Trace each taxon’s branch backwards until the branches meet. The pair whose branches meet at the most recent node shares the most recent common ancestor and is inferred to be most closely related. Their positions beside each other on the page aren’t enough to establish this.",
+      "note": "Count neither horizontal distance nor the number of spaces between names. Find the most recent shared node.",
+      "tags": [
+        "hl",
+        "cladograms",
+        "common-ancestry"
+      ]
+    },
+    {
+      "id": "A3.2-10",
+      "q": "Correct this claim: \"Rotating two branches around a node changes which organisms are most closely related.\"",
+      "a": "Rotating branches around a node changes their visual order but doesn’t change which branches connect at that node. The common ancestors and branching pattern remain the same, so the evolutionary relationships represented by the cladogram are unchanged.",
+      "note": "A cladogram can be redrawn in several orientations without becoming a different evolutionary hypothesis.",
+      "tags": [
+        "hl",
+        "cladograms",
+        "misconception"
+      ]
+    },
+    {
+      "id": "A3.2-11",
+      "q": "Explain the reasoning that allows sequence differences to act as a molecular clock.",
+      "a": "Mutations cause sequence differences to accumulate gradually after two lineages diverge from a common ancestor. If the rate of change for the sequence can be estimated, a larger number of differences generally indicates that more time has passed since divergence. The number of differences and the estimated rate can therefore be used to estimate divergence time.",
+      "tags": [
+        "hl",
+        "molecular-clock",
+        "sequences"
+      ]
+    },
+    {
+      "id": "A3.2-12",
+      "q": "Why can a molecular clock give only an estimate of divergence time? Include three named influences on mutation rate.",
+      "a": "A molecular clock assumes an estimated rate of sequence change, but rates aren’t perfectly constant among genes, lineages or periods of time. They can be affected by generation time, population size and the intensity of selection pressure, among other factors. The calculated divergence time is therefore an estimate rather than an exact date.",
+      "tags": [
+        "hl",
+        "molecular-clock",
+        "limitations"
+      ]
+    },
+    {
+      "id": "A3.2-13",
+      "q": "Explain how cladistics can lead biologists to reclassify organisms that were originally grouped by morphology.",
+      "a": "A traditional group may have been based on similar visible features. Molecular sequence analysis can show that some members don’t share the recent common ancestor expected from that classification. If the similarities arose independently through convergent evolution, the old classification is falsified and species can be transferred so the groups correspond more closely to evolutionary relationships.",
+      "note": "The figwort family is a possible case study, but the syllabus doesn’t require its detailed membership to be memorized.",
+      "tags": [
+        "hl",
+        "reclassification",
+        "convergent-evolution"
+      ]
+    },
+    {
+      "id": "A3.2-14",
+      "q": "Outline the evidence and reasoning behind the three-domain classification.",
+      "a": "Scientists compared rRNA base sequences from a wide range of organisms. The sequence differences showed that organisms formerly grouped together as prokaryotes represented two deeply distinct evolutionary groups. Woese and Fox identified the archaea this way in 1977, and in 1990 an additional taxonomic level above kingdom was proposed, dividing all organisms among the domains Bacteria, Archaea and Eukarya.",
+      "tags": [
+        "hl",
+        "domains",
+        "rrna"
+      ]
+    },
+    {
+      "id": "A3.2-15",
+      "q": "Correct this interpretation: \"A taxon at the root of a cladogram is the primitive ancestor that evolved into the modern taxa at the tips.\"",
+      "a": "The root represents a common ancestral lineage, not necessarily a named taxon shown on the diagram. Taxa at the tips are separate descendants of ancestral populations, and one living taxon shouldn’t be treated as the unchanged ancestor of another unless independent evidence establishes that relationship.",
+      "tags": [
+        "hl",
+        "cladograms",
+        "misconception"
+      ]
+    },
+    {
+      "id": "A3.2-16",
+      "q": "Construct the full reasoning chain from sequence data to a revised evolutionary classification.",
+      "a": "Biologists align homologous DNA, RNA or protein sequences and record differences at corresponding positions. They compare possible branching patterns and use parsimony to identify the cladogram requiring the fewest sequence changes. Nodes on that cladogram represent hypotheses about common ancestors, and complete branches define clades containing an ancestor and all descendants. If these clades conflict with traditional groups based on morphology, especially where convergent evolution produced analogous features, the classification can be revised to match the molecular evidence.",
+      "note": "This answer links evidence, method, diagram and classification. Leaving out any stage turns it into a list instead of an explanation.",
+      "tags": [
+        "hl",
+        "synthesis",
+        "sequences",
+        "parsimony",
+        "reclassification"
+      ]
+    }
+  ]
+}

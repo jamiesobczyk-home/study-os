@@ -1,0 +1,201 @@
+{
+  "topic": "A4.1",
+  "title": "Evolution and speciation",
+  "cards": [
+    {
+      "id": "A4.1-01",
+      "q": "Define evolution precisely and explain why a bodybuilder developing larger muscles isn’t an example.",
+      "a": "Evolution is a change in the heritable characteristics of a population over generations. A bodybuilder's larger muscles are acquired during that individual's lifetime and don’t result from a heritable genetic change in the population, so their development isn’t evolution.",
+      "note": "Evolution happens to populations across generations, not to one organism during its lifetime.",
+      "tags": [
+        "core",
+        "evolution",
+        "misconception"
+      ]
+    },
+    {
+      "id": "A4.1-02",
+      "q": "Explain how comparisons of DNA, RNA or amino acid sequences provide evidence for evolution.",
+      "a": "Organisms inherit nucleotide sequences and the amino acid sequences they encode from their ancestors. Mutations cause sequence differences to accumulate after lineages separate. A high degree of sequence similarity therefore supports common ancestry, and fewer differences generally indicate a more recent common ancestor.",
+      "note": "Similarity supports a relationship. It doesn't mean the organisms belong to the same species.",
+      "tags": [
+        "core",
+        "molecular-evidence",
+        "common-ancestry"
+      ]
+    },
+    {
+      "id": "A4.1-03",
+      "q": "Explain how selective breeding provides evidence that evolutionary change can occur.",
+      "a": "Individuals in a population vary in heritable characteristics. Humans select individuals with desired characteristics to reproduce, so alleles contributing to those characteristics become more common over generations. The large differences among domesticated breeds or crop varieties, and between them and their wild ancestors, show that populations can undergo rapid heritable change.",
+      "note": "The evidence comes from change across generations, not from an animal being trained or a crop being given fertilizer.",
+      "tags": [
+        "core",
+        "selective-breeding",
+        "evidence"
+      ]
+    },
+    {
+      "id": "A4.1-04",
+      "q": "Use the pentadactyl limb to explain how homologous structures provide evidence for evolution.",
+      "a": "The forelimbs of tetrapods share the same underlying pentadactyl pattern inherited from a common ancestor, even though their bones have been modified for functions such as walking, swimming or flying. The shared structural plan supports common ancestry, while the modifications show divergent evolution under different selection pressures.",
+      "tags": [
+        "core",
+        "homologous-structures",
+        "pentadactyl-limb"
+      ]
+    },
+    {
+      "id": "A4.1-05",
+      "q": "Explain how convergent evolution produces analogous structures, using one named example.",
+      "a": "Similar selection pressures can favor similar functional solutions in lineages that evolved independently. Bird wings and insect wings both enable flight, but they have different structural and evolutionary origins. They are therefore analogous structures produced by convergent evolution.",
+      "note": "The wings are analogous as flight structures. A bird forelimb is homologous with the forelimbs of other tetrapods.",
+      "tags": [
+        "core",
+        "analogous-structures",
+        "convergent-evolution"
+      ]
+    },
+    {
+      "id": "A4.1-06",
+      "q": "Distinguish homologous structures from analogous structures and link each type to an evolutionary process.",
+      "a": "Homologous structures share an evolutionary origin and underlying structural plan, although their functions may differ; they result from divergent evolution from a common ancestor. Analogous structures have similar functions but different evolutionary origins; they result from convergent evolution under similar selection pressures.",
+      "tags": [
+        "core",
+        "homologous-structures",
+        "analogous-structures",
+        "comparison"
+      ]
+    },
+    {
+      "id": "A4.1-07",
+      "q": "Distinguish speciation from gradual evolutionary change within one species, and state how speciation and extinction affect species number.",
+      "a": "Speciation occurs when a pre-existing species splits and populations diverge until they form separate species. Gradual evolutionary change can alter a population while it remains one species, so it doesn't by itself increase species number. Speciation increases the number of species, while extinction decreases it.",
+      "tags": [
+        "core",
+        "speciation",
+        "biodiversity"
+      ]
+    },
+    {
+      "id": "A4.1-08",
+      "q": "Explain the full sequence by which reproductive isolation and differential selection can produce two species.",
+      "a": "A barrier reduces or prevents interbreeding between populations, stopping gene flow. The isolated populations contain heritable variation and experience different selection pressures. Different alleles are favored, so the populations accumulate genetic and phenotypic differences. Reproductive barriers eventually prevent successful interbreeding even if the populations meet again, leaving two species.",
+      "note": "Isolation stops allele mixing. Differential selection then drives divergence.",
+      "tags": [
+        "core",
+        "reproductive-isolation",
+        "differential-selection",
+        "synthesis"
+      ]
+    },
+    {
+      "id": "A4.1-09",
+      "q": "Apply the process of speciation to bonobos and common chimpanzees separated by the Congo River.",
+      "a": "The Congo River geographically separated populations of their common ancestor and restricted gene flow between them. Conditions and selection pressures differed on the two sides, so different heritable characteristics were favored and allele frequencies diverged. Continued isolation and divergence produced reproductive isolation, resulting in bonobos and common chimpanzees.",
+      "tags": [
+        "core",
+        "allopatric-speciation",
+        "bonobos",
+        "chimpanzees"
+      ]
+    },
+    {
+      "id": "A4.1-10",
+      "q": "Compare allopatric and sympatric speciation.",
+      "a": "Both processes require reproductive isolation, reduced gene flow and divergence of populations from a common ancestor. Allopatric speciation begins with geographical separation, such as a river dividing a population. Sympatric speciation occurs in the same geographical area when another barrier, such as different breeding times, courtship behavior or polyploidy, prevents gene flow.",
+      "tags": [
+        "hl",
+        "allopatric-speciation",
+        "sympatric-speciation",
+        "comparison"
+      ]
+    },
+    {
+      "id": "A4.1-11",
+      "q": "Explain how geographical, behavioral and temporal isolation each reduce gene flow.",
+      "a": "Geographical isolation separates populations with a physical barrier, so individuals don't meet to breed. Behavioral isolation occurs when differences such as courtship signals prevent individuals from recognizing one another as mates. Temporal isolation occurs when populations reproduce at different times, so fertile individuals don't mate with one another.",
+      "tags": [
+        "hl",
+        "reproductive-isolation",
+        "barriers"
+      ]
+    },
+    {
+      "id": "A4.1-12",
+      "q": "Explain how adaptive radiation can increase biodiversity and reduce competition.",
+      "a": "Adaptive radiation occurs when an ancestral species diversifies into multiple species adapted to different ecological niches. Vacant niches expose populations to different selection pressures, causing divergence. The resulting species use different resources or conditions, so they can coexist with less competition and species diversity increases.",
+      "tags": [
+        "hl",
+        "adaptive-radiation",
+        "biodiversity"
+      ]
+    },
+    {
+      "id": "A4.1-13",
+      "q": "Distinguish a prezygotic reproductive barrier from a postzygotic barrier, using the syllabus examples.",
+      "a": "A prezygotic barrier acts before fertilization and prevents a zygote from forming; incompatible courtship behavior can prevent animals of different species from mating. A postzygotic barrier acts after fertilization; a horse and donkey can produce a mule, but the mule is normally sterile and can't pass a mixture of parental alleles into later generations.",
+      "tags": [
+        "hl",
+        "hybridization",
+        "reproductive-barriers"
+      ]
+    },
+    {
+      "id": "A4.1-14",
+      "q": "Explain why a mule is normally sterile and how that sterility maintains species boundaries.",
+      "a": "A mule is an interspecific hybrid produced by a horse and a donkey. Its chromosome sets aren't fully homologous, so chromosomes can't pair and separate normally during meiosis. The mule therefore normally fails to produce functional gametes, preventing continued gene flow between the horse and donkey gene pools.",
+      "tags": [
+        "hl",
+        "mule",
+        "hybrid-sterility",
+        "meiosis"
+      ]
+    },
+    {
+      "id": "A4.1-15",
+      "q": "Explain how autopolyploidy can cause abrupt speciation.",
+      "a": "Autopolyploidy occurs when chromosome sets are duplicated within one species, often because chromosomes fail to separate during cell division. A new polyploid may produce balanced gametes with other polyploids but crosses poorly with diploid members of the parent population because chromosome pairing during meiosis is disrupted. This reproductive isolation can create a new species in one generation.",
+      "tags": [
+        "hl",
+        "autopolyploidy",
+        "abrupt-speciation"
+      ]
+    },
+    {
+      "id": "A4.1-16",
+      "q": "Explain how hybridization followed by chromosome doubling can produce a fertile allopolyploid species.",
+      "a": "Hybridization combines chromosome sets from two species, but the initial hybrid may be sterile because its chromosomes lack matching homologous partners during meiosis. Chromosome doubling can give each chromosome a homologous partner, allowing balanced meiosis and restoring fertility. The allopolyploid is reproductively isolated from both parent species because their chromosome numbers and sets are incompatible.",
+      "note": "Hybridization alone often produces a sterile hybrid. Chromosome doubling is what can restore homologous pairing.",
+      "tags": [
+        "hl",
+        "allopolyploidy",
+        "hybridization",
+        "meiosis"
+      ]
+    },
+    {
+      "id": "A4.1-17",
+      "q": "What example should you use for plant speciation by hybridization and polyploidy, and what does it demonstrate?",
+      "a": "Knotweed or smartweed in the genus Persicaria is the syllabus example. The genus contains many species formed through hybridization and polyploidy, demonstrating that changes in complete chromosome sets can produce abrupt reproductive isolation and new plant species.",
+      "tags": [
+        "hl",
+        "Persicaria",
+        "polyploidy"
+      ]
+    },
+    {
+      "id": "A4.1-18",
+      "q": "Build one causal explanation linking heritable variation, isolation, selection, speciation and biodiversity.",
+      "a": "Heritable variation gives individuals different characteristics. When populations become reproductively isolated, gene flow no longer keeps their gene pools similar. Different selection pressures favor different alleles, so the populations diverge and may become separate species. Repeated speciation, including adaptive radiation into vacant niches, increases biodiversity, while extinction reduces it.",
+      "note": "This is the whole topic as a chain. Every link needs a cause, not a list of vocabulary.",
+      "tags": [
+        "core",
+        "hl",
+        "synthesis",
+        "speciation",
+        "biodiversity"
+      ]
+    }
+  ]
+}

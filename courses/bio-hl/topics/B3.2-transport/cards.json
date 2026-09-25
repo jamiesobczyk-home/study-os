@@ -1,0 +1,201 @@
+{
+  "topic": "B3.2",
+  "title": "Transport",
+  "cards": [
+    {
+      "id": "B3.2-01",
+      "q": "Explain how four structural features of capillaries adapt them for exchange.",
+      "a": "Capillaries branch extensively, producing a large total cross-sectional area and a large surface for exchange. Their narrow lumen keeps blood cells close to the wall. The wall consists of a single layer of endothelial cells, giving a short diffusion distance. Fenestrations or gaps in some capillary walls allow water and small dissolved substances to pass between blood and surrounding tissues.",
+      "note": "The large total cross-sectional area comes from the whole branching network, not from one capillary having a wide lumen.",
+      "tags": [
+        "core",
+        "capillaries",
+        "exchange"
+      ]
+    },
+    {
+      "id": "B3.2-02",
+      "q": "Compare the structures of an artery and a vein, and explain how you would distinguish them in a micrograph.",
+      "a": "An artery has a relatively thick wall containing abundant smooth muscle and elastic fibers, a relatively narrow lumen and no valves along most of its length. A vein has a thinner wall with less muscle and elastin, a wider lumen and pocket valves. In a micrograph, an artery usually keeps a more rounded shape because of its thick wall, while a vein may appear irregular or collapsed.",
+      "note": "Direction defines the vessels: arteries carry blood away from the heart and veins carry it toward the heart.",
+      "tags": [
+        "core",
+        "arteries",
+        "veins",
+        "micrographs"
+      ]
+    },
+    {
+      "id": "B3.2-03",
+      "q": "Explain how an artery's wall and lumen adapt it to transport blood away from the heart at high pressure.",
+      "a": "A thick wall withstands the high pressure produced by ventricular contraction. Collagen adds strength, smooth muscle changes vessel diameter, and elastic fibers stretch during systole and recoil during diastole. This recoil maintains pressure and smooths the pulsating flow between heartbeats. The relatively narrow lumen helps the artery maintain high pressure.",
+      "tags": [
+        "core",
+        "arteries",
+        "pressure"
+      ]
+    },
+    {
+      "id": "B3.2-04",
+      "q": "Explain how blood returns to the heart through veins even though venous pressure is low.",
+      "a": "Veins have thin, flexible walls that can be compressed by contractions of nearby skeletal muscles. Compression pushes blood along the vessel. Pocket valves close if blood begins to move backwards, so repeated muscle contractions produce net movement toward the heart. Breathing-related pressure changes also assist venous return.",
+      "note": "Valves prevent backflow, but they don't provide the force that moves blood.",
+      "tags": [
+        "core",
+        "veins",
+        "valves"
+      ]
+    },
+    {
+      "id": "B3.2-05",
+      "q": "Describe two valid ways to measure pulse rate and explain how the result is calculated.",
+      "a": "A pulse can be detected manually by placing fingers over the radial or carotid artery and counting pressure waves for a measured time. It can also be detected electronically using a pulse sensor or heart-rate monitor. The count is converted to beats per minute; for example, a 15-second count is multiplied by four.",
+      "note": "The pulse is an arterial pressure wave caused by the heartbeat. Don't use a thumb for manual measurement because its own pulse can interfere.",
+      "tags": [
+        "core",
+        "pulse",
+        "measurement"
+      ]
+    },
+    {
+      "id": "B3.2-06",
+      "q": "Explain a possible cause and consequence of coronary artery occlusion, then state why a risk-factor correlation needs careful interpretation.",
+      "a": "Atherosclerotic plaque can narrow a coronary artery, and a blood clot forming at a damaged plaque can occlude it. Blood flow to part of the cardiac muscle then falls or stops, causing oxygen shortage and reduced aerobic respiration. Prolonged ischemia can kill cardiac muscle in a myocardial infarction. Smoking, high LDL cholesterol, hypertension, diabetes, inactivity and obesity are associated with increased risk, but a correlation alone doesn't establish that one variable caused an individual's disease.",
+      "tags": [
+        "core",
+        "coronary-arteries",
+        "health"
+      ]
+    },
+    {
+      "id": "B3.2-07",
+      "q": "Explain the full sequence by which transpiration moves water from roots to leaves.",
+      "a": "Water evaporates from moist mesophyll cell walls and diffuses out through stomata. This loss draws water through the leaf cell walls by capillary action and out of the xylem, producing tension or negative pressure in the xylem. Cohesion between water molecules transmits the tension down a continuous water column, so water is pulled upward from the roots. Adhesion to hydrophilic xylem walls helps stabilize the column. The process is passive and is powered by evaporation.",
+      "note": "Evaporation generates the pull. Cohesion transmits it, and adhesion helps support the column.",
+      "tags": [
+        "core",
+        "xylem",
+        "transpiration",
+        "synthesis"
+      ]
+    },
+    {
+      "id": "B3.2-08",
+      "q": "Explain how the structure of a xylem vessel is adapted for water transport under tension.",
+      "a": "Mature xylem vessel elements are dead and arranged end to end. Loss of their cytoplasm and their absent or perforated end walls create a continuous hollow lumen with little resistance to flow. Lignin thickens and strengthens the walls, preventing collapse under negative pressure and supporting the plant. Pits in the walls allow lateral movement of water between vessels and surrounding tissues.",
+      "tags": [
+        "core",
+        "xylem",
+        "adaptation"
+      ]
+    },
+    {
+      "id": "B3.2-09",
+      "q": "Describe the distribution of tissues in a transverse section of a young dicotyledonous stem.",
+      "a": "The epidermis forms the outer layer, with cortex inside it. Vascular bundles are arranged in a ring around the central pith. Within each bundle, phloem is toward the outside of the stem, xylem is toward the center and cambium lies between them. A plan diagram should show tissue regions without drawing individual cells.",
+      "note": "In a stem bundle, remember the order from outside inward: phloem, cambium, xylem.",
+      "tags": [
+        "core",
+        "stem",
+        "plan-diagram"
+      ]
+    },
+    {
+      "id": "B3.2-10",
+      "q": "Describe the distribution of tissues in a transverse section of a young dicotyledonous root.",
+      "a": "The epidermis surrounds a broad cortex. Vascular tissue occupies the central region. Xylem commonly forms a central star or X shape, with phloem in groups between the arms of the xylem. Unlike the ring of separate vascular bundles in a young dicot stem, the root's vascular tissue forms a central arrangement.",
+      "note": "Don't copy the stem pattern into the root. Central star-shaped xylem is the strongest identification clue.",
+      "tags": [
+        "core",
+        "root",
+        "plan-diagram"
+      ]
+    },
+    {
+      "id": "B3.2-11",
+      "q": "Explain how tissue fluid is released from and taken back into a capillary, and compare its composition with plasma.",
+      "a": "At the arterial end of a capillary, blood hydrostatic pressure is high enough to force water and small dissolved solutes through the capillary wall by pressure filtration. Blood cells and most plasma proteins remain in the capillary. Farther along, hydrostatic pressure falls, while retained plasma proteins create an osmotic pull into the blood. Some water therefore returns by osmosis near the venous end. Tissue fluid resembles plasma but contains far less protein and normally contains no red blood cells.",
+      "note": "Pressure filtration moves fluid out. Plasma proteins aren't filtered out in large amounts, so they contribute to osmotic return.",
+      "tags": [
+        "hl",
+        "capillaries",
+        "tissue-fluid"
+      ]
+    },
+    {
+      "id": "B3.2-12",
+      "q": "Explain how tissue fluid allows exchange between blood and body cells.",
+      "a": "Tissue fluid brings dissolved oxygen and nutrients close to cells without blood leaving the capillaries. Oxygen and many nutrients move from capillary blood into tissue fluid and then into cells down concentration gradients. Carbon dioxide and other metabolic wastes move from cells into tissue fluid and then into the blood. The exact route may involve diffusion, facilitated diffusion or active transport across cell membranes, depending on the substance.",
+      "tags": [
+        "hl",
+        "tissue-fluid",
+        "exchange"
+      ]
+    },
+    {
+      "id": "B3.2-13",
+      "q": "Explain why lymphatic drainage is needed and how lymph returns to the blood.",
+      "a": "More fluid leaves blood capillaries than returns directly, so excess tissue fluid must be removed to prevent swelling and maintain exchange conditions. It enters blind-ended lymph capillaries through overlapping endothelial cells and is then called lymph. Valves prevent backflow, while skeletal muscle contractions and breathing movements help move it through low-pressure lymph vessels. Major lymph ducts return the lymph to veins near the heart.",
+      "tags": [
+        "hl",
+        "lymph",
+        "tissue-fluid"
+      ]
+    },
+    {
+      "id": "B3.2-14",
+      "q": "Compare the single circulation of a bony fish with the double circulation of a mammal, including the pressure consequences.",
+      "a": "In a bony fish, blood travels from the heart to gill capillaries, then to body capillaries and back to the heart, so it passes through the heart once per complete circuit. Pressure falls across the gill capillaries, leaving relatively low pressure for flow to the body. In a mammal, blood travels from the right side of the heart to the lungs, returns to the left side and is pumped to the body before returning to the right side. Passing through the heart twice lets blood be re-pressurized after the lungs, while separate pumps allow lower pulmonary pressure and higher systemic pressure.",
+      "tags": [
+        "hl",
+        "circulation",
+        "comparison"
+      ]
+    },
+    {
+      "id": "B3.2-15",
+      "q": "Explain how the main structures of the mammalian heart adapt it to deliver pressurized blood.",
+      "a": "Cardiac muscle contracts repeatedly without conscious stimulation. Thin-walled atria receive blood and push it into the ventricles, while thicker ventricular walls generate pressure in the arteries. The left ventricle has the thickest wall because it supplies the systemic circulation. Atrioventricular and semilunar valves prevent backflow, and the septum separates oxygenated from deoxygenated blood. Coronary vessels supply the active cardiac muscle with oxygen and nutrients.",
+      "tags": [
+        "hl",
+        "heart",
+        "adaptation"
+      ]
+    },
+    {
+      "id": "B3.2-16",
+      "q": "Trace one cardiac cycle, linking electrical conduction, chamber contractions, valve movements and blood flow.",
+      "a": "Pacemaker cells in the sinoatrial node initiate an electrical signal that spreads across the atria, causing atrial systole. With the atrioventricular valves open, blood enters the ventricles. After a delay at the atrioventricular node, the signal travels through conducting fibers to the ventricles, which contract from the apex upward. Rising ventricular pressure closes the atrioventricular valves and opens the semilunar valves, ejecting blood into the arteries. During diastole the ventricles relax, semilunar valves close, and atrioventricular valves reopen when ventricular pressure falls below atrial pressure.",
+      "note": "Valves open and close because pressure differs across them. They aren't opened by their own muscles.",
+      "tags": [
+        "hl",
+        "cardiac-cycle",
+        "synthesis"
+      ]
+    },
+    {
+      "id": "B3.2-17",
+      "q": "Explain how roots generate positive pressure in xylem when transpiration is low.",
+      "a": "Root cells use active transport to move mineral ions into the xylem. The increased solute concentration lowers the water potential of the xylem, so water enters it from surrounding root tissues by osmosis. Because water continues entering a confined vessel, a positive pressure called root pressure develops and can push xylem sap upward. Root pressure is most important when soil water is available and transpiration is low, such as at night.",
+      "note": "Root pressure can assist transport, but it isn't the main mechanism lifting water through a tall plant during rapid transpiration.",
+      "tags": [
+        "hl",
+        "root-pressure",
+        "active-transport"
+      ]
+    },
+    {
+      "id": "B3.2-18",
+      "q": "Explain how sieve tube elements and companion cells produce translocation from a source to a sink.",
+      "a": "At a source, such as a photosynthesizing leaf, companion cells use ATP to load sucrose into sieve tube elements. Companion cells contain many mitochondria and connect to sieve tubes through plasmodesmata. Loading lowers water potential, so water enters from xylem by osmosis and raises hydrostatic pressure. Sap moves by mass flow through sieve plates toward a sink, where sucrose is unloaded and used or stored. Water can then leave the phloem. Sieve tube elements have rigid walls, little cytoplasm, few organelles and no nucleus, reducing resistance to flow. Phloem transport can occur upward or downward in different sieve tubes according to the locations of sources and sinks.",
+      "note": "Bidirectional doesn't mean one sieve tube carries sap both ways at the same moment.",
+      "tags": [
+        "hl",
+        "phloem",
+        "translocation",
+        "synthesis",
+        "misconception"
+      ]
+    }
+  ]
+}

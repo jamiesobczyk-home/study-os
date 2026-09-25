@@ -1,0 +1,121 @@
+{
+  "topic": "B4.1",
+  "title": "Adaptation to environment",
+  "cards": [
+    {
+      "id": "B4.1-01",
+      "q": "Define habitat, then describe the habitat of a named organism using three kinds of information.",
+      "a": "A habitat is the place where an organism, population, species or community lives. For example, the habitat of black mangrove trees includes tropical and subtropical coastlines as the geographical location, saline waterlogged mud as the physical environment, and mangrove swamp as the ecosystem type.",
+      "note": "A habitat is where a species lives. Its niche includes its role and interactions.",
+      "tags": ["core", "habitat"]
+    },
+    {
+      "id": "B4.1-02",
+      "q": "Explain how an adaptation becomes common in a population, without suggesting that organisms develop traits because they need them.",
+      "a": "Heritable variation already exists in a population. Individuals with a characteristic that improves survival or reproduction under the habitat’s conditions leave more offspring. They pass the associated alleles to those offspring, so over generations the characteristic becomes more frequent through natural selection.",
+      "note": "Individuals don’t evolve needed adaptations during their lifetimes. Allele frequencies change across generations.",
+      "tags": ["core", "adaptation", "natural-selection"]
+    },
+    {
+      "id": "B4.1-03",
+      "q": "Explain how three adaptations of marram grass help it survive on coastal sand dunes.",
+      "a": "Marram grass has rolled leaves and sunken stomata that trap humid air and reduce the water-vapor gradient, lowering transpiration in strong winds. A thick waxy cuticle also reduces water loss. Extensive underground rhizomes and roots anchor the plant in shifting sand, reach water and allow growth when more sand is deposited.",
+      "tags": ["core", "sand-dunes", "plants"]
+    },
+    {
+      "id": "B4.1-04",
+      "q": "Explain how black mangrove trees are adapted to saline, waterlogged and oxygen-poor mud.",
+      "a": "Black mangroves have shallow cable roots with upward-growing pneumatophores that obtain oxygen from the air above the anoxic mud. Their roots exclude much of the salt during water uptake, and salt glands in the leaves excrete salt that enters the plant. Their spreading root system also helps anchor them in soft mud.",
+      "note": "Don’t give every feature to every mangrove species. Pneumatophores and leaf salt glands are appropriate examples for black mangrove.",
+      "tags": ["core", "mangroves", "plants"]
+    },
+    {
+      "id": "B4.1-05",
+      "q": "Name abiotic variables that can affect plant distribution and explain how one of them can set a distribution boundary.",
+      "a": "Plant distribution can be affected by temperature, water availability, light intensity, soil pH, soil salinity and mineral-ion availability. If soil pH moves outside a species’ tolerance range, nutrient uptake or enzyme function may be impaired, so the plant grows or reproduces poorly and can’t maintain a population there.",
+      "tags": ["core", "abiotic-factors", "distribution"]
+    },
+    {
+      "id": "B4.1-06",
+      "q": "Explain how an abiotic variable can limit the distribution of an animal, including a life-cycle example.",
+      "a": "An animal can persist only where abiotic variables remain within its tolerance ranges. A species may also be limited by the requirements of one life stage. Salmon, for example, need suitable freshwater flow, depth, pH and gravel for spawning, so the absence of appropriate spawning sites can exclude them even if adults could survive there.",
+      "tags": ["core", "abiotic-factors", "animals", "distribution"]
+    },
+    {
+      "id": "B4.1-07",
+      "q": "Describe the expected shape of a tolerance curve and explain each region.",
+      "a": "Performance or abundance is highest near the optimum value of the abiotic variable. On either side are zones of physiological stress, where fewer organisms survive or reproduce. At the lower and upper limits of tolerance, performance falls to zero; beyond those limits, the species can’t persist.",
+      "note": "The whole area between the limits is the range of tolerance. It isn’t the same as the optimum.",
+      "tags": ["core", "tolerance", "graphs"]
+    },
+    {
+      "id": "B4.1-08",
+      "q": "Explain why a limiting factor can determine a species’ distribution even when all other conditions are suitable.",
+      "a": "A limiting factor is an environmental factor whose value restricts survival, growth or reproduction. If one abiotic variable lies outside the species’ tolerance range, the species can’t maintain a population there even when other variables are favorable. Its distribution therefore ends where that factor becomes intolerable.",
+      "tags": ["core", "limiting-factors", "distribution"]
+    },
+    {
+      "id": "B4.1-09",
+      "q": "Design a transect investigation that tests whether an abiotic variable is associated with plant distribution.",
+      "a": "Lay a transect across a gradient in the chosen abiotic variable. At regular intervals, use quadrats to measure the abundance or percentage cover of the plant and use a calibrated sensor to measure the variable, such as light intensity or soil pH. Repeat transects, keep quadrat size and sampling intervals constant, graph the two variables and test for a correlation.",
+      "note": "Measure the organism and abiotic variable at matching positions. Otherwise the paired data needed for a correlation are missing.",
+      "tags": ["core", "transect", "sampling", "data"]
+    },
+    {
+      "id": "B4.1-10",
+      "q": "Correct this claim: “A correlation between soil pH and plant abundance proves that pH controls the plant’s distribution.”",
+      "a": "The correlation shows that soil pH and plant abundance vary together, but it doesn’t prove that pH caused the distribution. Another variable could change along the same transect, and interactions such as competition could also affect abundance. A controlled experiment or further evidence would be needed to test causation.",
+      "note": "This is the topic’s main data-handling trap: correlation supports a relationship, not a proven cause.",
+      "tags": ["core", "transect", "correlation", "misconception"]
+    },
+    {
+      "id": "B4.1-11",
+      "q": "Explain why coral reefs form only under a restricted combination of abiotic conditions.",
+      "a": "Hard corals and their mutualistic photosynthetic zooxanthellae have limited tolerance ranges. Reefs need shallow, clear water so enough light reaches the algae for photosynthesis, warm water within a suitable temperature range, suitable salinity to avoid osmotic stress, and a sufficiently high pH for calcium carbonate skeleton deposition. Failure of any one condition can limit reef formation.",
+      "tags": ["core", "coral-reefs", "tolerance"]
+    },
+    {
+      "id": "B4.1-12",
+      "q": "Explain how temperature and rainfall determine which terrestrial biome is likely to develop.",
+      "a": "Mean temperature affects growing-season length, enzyme activity, photosynthesis and water loss, while rainfall determines water availability. Each combination favors organisms with a particular set of adaptations, so one natural ecosystem type is likely to develop. A graph with mean annual temperature and precipitation as its axes can therefore be used to predict the likely biome.",
+      "tags": ["core", "biomes", "climate"]
+    },
+    {
+      "id": "B4.1-13",
+      "q": "Compare the climatic conditions of tropical forest, temperate forest and taiga.",
+      "a": "Tropical forest has high temperatures and high precipitation throughout the year, with little seasonal temperature variation. Temperate forest has moderate temperatures, moderate to high precipitation and marked warm and cold seasons. Taiga has lower temperatures, long cold winters, short cool summers and moderate to low precipitation.",
+      "tags": ["core", "biomes", "climate"]
+    },
+    {
+      "id": "B4.1-14",
+      "q": "Compare the climatic conditions of grassland, tundra and hot desert.",
+      "a": "Grassland generally has moderate precipitation that’s insufficient to support dense forest and has a dry or cold season. Tundra has very low temperatures, low precipitation and a very short growing season. Hot desert has high daytime temperatures, very low and unpredictable rainfall, and large temperature changes between day and night.",
+      "tags": ["core", "biomes", "climate"]
+    },
+    {
+      "id": "B4.1-15",
+      "q": "Explain convergent evolution using cacti in the Americas and euphorbias in Africa.",
+      "a": "American cacti and African euphorbias aren’t closely related, but both experience intense heat and scarce water in hot deserts. Similar selection pressures independently favored features such as succulent water-storing stems, reduced leaves and waxy surfaces. Their resemblance is convergent evolution, not evidence of recent common ancestry for those features.",
+      "tags": ["core", "convergent-evolution", "biomes"]
+    },
+    {
+      "id": "B4.1-16",
+      "q": "Relate adaptations of a saguaro cactus and a fennec fox to hot-desert conditions.",
+      "a": "A saguaro has a wide shallow root system that rapidly absorbs brief rainfall, a water-storing pleated stem, a thick waxy cuticle, leaves reduced to spines and CAM metabolism that permits stomata to open at night. A fennec fox avoids daytime heat by being nocturnal and using a burrow; its large ears radiate heat, pale fur reflects sunlight and hairy foot pads insulate it from hot sand.",
+      "tags": ["core", "hot-desert", "named-species"]
+    },
+    {
+      "id": "B4.1-17",
+      "q": "Relate adaptations of the yellow meranti and Geoffroy’s spider monkey to tropical-rainforest conditions.",
+      "a": "The yellow meranti grows very tall to reach strong light above competing vegetation, has buttress roots that support its trunk in shallow soil, and has pointed leaves that shed heavy rain. Geoffroy’s spider monkey has long limbs, flexible shoulders, hook-like hands and a prehensile tail for climbing and moving through the canopy to obtain food.",
+      "tags": ["core", "tropical-rainforest", "named-species"]
+    },
+    {
+      "id": "B4.1-18",
+      "q": "Construct a causal chain linking rainfall to adaptation, tolerance range, biome and species distribution.",
+      "a": "Rainfall affects water availability and therefore acts as a selection pressure. Across generations, natural selection favors inherited features that improve water uptake, storage or conservation under local conditions. Those adaptations set the species’ range of tolerance for water availability. Species persist only where rainfall remains within that range, while characteristic combinations of rainfall and temperature produce biomes containing species with similar adaptations.",
+      "note": "Move through the links in order. A list of adaptations doesn’t explain why a biome or distribution occurs.",
+      "tags": ["core", "synthesis", "distribution", "biomes"]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "topic": "B3.3",
+  "questions": [
+    {
+      "id": "B3.3-q01",
+      "stem": "Which observation shows that a sessile organism can still produce movement?",
+      "options": [
+        {
+          "text": "A plant shoot grows toward a light source",
+          "correct": true,
+          "why": "The plant remains rooted, but part of it changes position through directional growth. Movement doesn’t require locomotion."
+        },
+        {
+          "text": "A whale swims between its feeding and breeding grounds",
+          "correct": false,
+          "why": "That’s migration by a motile animal. It doesn’t show movement in an organism fixed in one location."
+        },
+        {
+          "text": "A gazelle runs away when it detects a predator",
+          "correct": false,
+          "why": "That’s locomotion used to escape danger. The gazelle changes its whole-body location."
+        },
+        {
+          "text": "A moth flies toward the pheromones released by a mate",
+          "correct": false,
+          "why": "That’s locomotion used to find a mate. The example involves a freely moving animal."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q02",
+      "stem": "Which change occurs when a sarcomere contracts?",
+      "options": [
+        {
+          "text": "The A band shortens as the myosin filaments contract",
+          "correct": false,
+          "why": "The A band marks the length of the thick filaments, which stays constant. Myosin filaments don’t shorten."
+        },
+        {
+          "text": "The Z lines move closer while the I band narrows",
+          "correct": true,
+          "why": "Actin slides farther over myosin, bringing the Z lines closer and reducing the actin-only region."
+        },
+        {
+          "text": "The actin filaments shorten while the H zone stays constant",
+          "correct": false,
+          "why": "Actin keeps the same length, and the H zone narrows as thin filaments move farther toward the center."
+        },
+        {
+          "text": "The Z lines move apart while filament overlap increases",
+          "correct": false,
+          "why": "Increased overlap shortens the sarcomere, so its Z lines move closer rather than farther apart."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q03",
+      "stem": "What directly exposes the myosin-binding sites on actin?",
+      "options": [
+        {
+          "text": "ATP binds to actin and removes troponin",
+          "correct": false,
+          "why": "ATP binds to myosin during the cross-bridge cycle. Troponin remains present and responds to calcium."
+        },
+        {
+          "text": "Calcium binds to troponin, shifting tropomyosin",
+          "correct": true,
+          "why": "The shape change in troponin moves tropomyosin away from the binding sites on actin."
+        },
+        {
+          "text": "Myosin hydrolyzes calcium and releases phosphate",
+          "correct": false,
+          "why": "Myosin hydrolyzes ATP, not calcium. Calcium acts as a signal by binding to troponin."
+        },
+        {
+          "text": "Titin pulls tropomyosin away from the actin filament",
+          "correct": false,
+          "why": "Titin aids elastic recoil and limits stretching. It doesn’t regulate actin’s binding sites."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q04",
+      "stem": "What is the role of ATP after a myosin head has completed a power stroke?",
+      "options": [
+        {
+          "text": "ATP binds to myosin and causes detachment from actin",
+          "correct": true,
+          "why": "Binding of a new ATP molecule breaks the cross-bridge. Its later hydrolysis re-energizes the myosin head."
+        },
+        {
+          "text": "ATP binds to actin and shortens the thin filament",
+          "correct": false,
+          "why": "Thin filaments keep the same length. ATP acts through myosin rather than shortening actin."
+        },
+        {
+          "text": "ATP binds to troponin and exposes the active sites",
+          "correct": false,
+          "why": "Calcium binds to troponin to expose the sites. ATP has a different role in the myosin cycle."
+        },
+        {
+          "text": "ATP binds to titin and stretches the whole sarcomere",
+          "correct": false,
+          "why": "Titin is stretched by opposing forces and stores elastic energy. ATP doesn’t drive that stretching."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q05",
+      "stem": "Which description defines a motor unit?",
+      "options": [
+        {
+          "text": "One motor neuron and every muscle fibre it controls",
+          "correct": true,
+          "why": "Branches of one motor neuron form neuromuscular junctions with all the fibres belonging to its motor unit."
+        },
+        {
+          "text": "One sensory neuron and all receptors connected to it",
+          "correct": false,
+          "why": "That describes sensory input rather than motor control. A motor unit contains a motor neuron and muscle fibres."
+        },
+        {
+          "text": "One muscle fibre and all motor neurons reaching it",
+          "correct": false,
+          "why": "The relationship is backwards. A motor unit is organized around one motor neuron, which may control many fibres."
+        },
+        {
+          "text": "One muscle and every tendon attached across its joint",
+          "correct": false,
+          "why": "Tendons transmit muscle force to bones. They aren’t components of a motor unit."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q06",
+      "stem": "How can the nervous system increase the force produced by a skeletal muscle?",
+      "options": [
+        {
+          "text": "By recruiting additional motor units",
+          "correct": true,
+          "why": "Recruitment activates more muscle fibres, so their combined contraction produces greater force."
+        },
+        {
+          "text": "By lengthening each myosin filament",
+          "correct": false,
+          "why": "Myosin filament length stays constant. Force changes through activation patterns, including motor-unit recruitment."
+        },
+        {
+          "text": "By converting tendons into contractile tissue",
+          "correct": false,
+          "why": "Tendons transmit force but don’t contract. Muscle fibres are the contractile cells."
+        },
+        {
+          "text": "By filling the joint cavity with more cartilage",
+          "correct": false,
+          "why": "Cartilage reduces friction and absorbs compression. It doesn’t control how many fibres contract."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q07",
+      "stem": "Why are antagonistic muscles required to reverse a skeletal movement?",
+      "options": [
+        {
+          "text": "A muscle produces force by contracting and cannot actively push itself longer",
+          "correct": true,
+          "why": "The opposing muscle must contract to pull the bones in the reverse direction while the first muscle lengthens."
+        },
+        {
+          "text": "A muscle can push effectively but cannot pull on a tendon",
+          "correct": false,
+          "why": "Muscles do the opposite: they pull through tendons when they contract and don’t push bones apart."
+        },
+        {
+          "text": "Both muscles must contract equally to move a joint",
+          "correct": false,
+          "why": "Equal opposing forces would resist movement. For a movement, the agonist contracts while its antagonist lengthens."
+        },
+        {
+          "text": "Ligaments contract to return each muscle to its resting length",
+          "correct": false,
+          "why": "Ligaments stabilize joints and aren’t contractile. Opposing muscles and titin contribute to return movement."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q08",
+      "stem": "Which structure connects bone to bone and limits excessive movement at a synovial joint?",
+      "options": [
+        {
+          "text": "Tendon",
+          "correct": false,
+          "why": "A tendon joins muscle to bone and transmits the force of contraction."
+        },
+        {
+          "text": "Ligament",
+          "correct": true,
+          "why": "A ligament joins bone to bone, stabilizing the joint and restricting unsafe movement."
+        },
+        {
+          "text": "Cartilage",
+          "correct": false,
+          "why": "Cartilage covers articulating surfaces, reducing friction and absorbing compression."
+        },
+        {
+          "text": "Synovial fluid",
+          "correct": false,
+          "why": "Synovial fluid lubricates the joint cavity. It doesn’t connect the bones."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q09",
+      "stem": "What is the best method for comparing a hip joint’s range of motion in different dimensions?",
+      "options": [
+        {
+          "text": "Measure joint angles for several movements using consistent anatomical landmarks",
+          "correct": true,
+          "why": "A goniometer or image analysis can measure the angle through which the joint moves in each plane."
+        },
+        {
+          "text": "Count the motor units present in each muscle around the hip",
+          "correct": false,
+          "why": "Motor-unit number affects control and force, not the angle through which the joint can move."
+        },
+        {
+          "text": "Measure the length of the femur in each movement plane",
+          "correct": false,
+          "why": "The femur’s length doesn’t change. Range of motion is measured as an angle at the joint."
+        },
+        {
+          "text": "Record the volume of synovial fluid after each movement",
+          "correct": false,
+          "why": "Synovial fluid provides lubrication, but its volume isn’t a measure of the joint’s movement angle."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q10",
+      "stem": "What happens during forced expiration?",
+      "options": [
+        {
+          "text": "External intercostals contract and lift the ribs up and out",
+          "correct": false,
+          "why": "That action helps inspiration. It increases thoracic volume rather than aiding forced expiration."
+        },
+        {
+          "text": "Internal intercostals contract and move the ribs down and in",
+          "correct": true,
+          "why": "Their fibre orientation lets them pull the ribcage opposite to the external intercostals during forced expiration."
+        },
+        {
+          "text": "Both intercostal layers relax while the ribs rise",
+          "correct": false,
+          "why": "Rising ribs increase thoracic volume. Forced expiration uses active contraction of the internal intercostals."
+        },
+        {
+          "text": "Titin contracts actively and pulls the ribcage downward",
+          "correct": false,
+          "why": "Titin recoils elastically rather than contracting as a motor protein. Muscle fibres generate the active force."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q11",
+      "stem": "Which example pairs a reason for locomotion with an appropriate behavior?",
+      "options": [
+        {
+          "text": "Migration: a whale travels between feeding and breeding grounds",
+          "correct": true,
+          "why": "Migration is sustained movement between regions, often linked to seasonal feeding or reproduction."
+        },
+        {
+          "text": "Escape: a cheetah runs toward prey during a hunt",
+          "correct": false,
+          "why": "The cheetah is foraging for food. Escape locomotion moves an organism away from danger."
+        },
+        {
+          "text": "Finding a mate: a gazelle runs away from a lion",
+          "correct": false,
+          "why": "The gazelle is escaping danger. The movement doesn’t help it locate a reproductive partner."
+        },
+        {
+          "text": "Foraging: a moth flies toward a female’s pheromones",
+          "correct": false,
+          "why": "The moth is locating a mate. Foraging involves movement used to obtain food."
+        }
+      ]
+    },
+    {
+      "id": "B3.3-q12",
+      "stem": "Which feature distinguishes propulsion in a whale from propulsion in a typical fish?",
+      "options": [
+        {
+          "text": "The whale’s horizontal tail flukes move up and down",
+          "correct": true,
+          "why": "Vertical movement of the horizontal flukes provides thrust in whales. A typical fish’s tail moves mainly from side to side."
+        },
+        {
+          "text": "The whale’s forelimbs form gills that extract oxygen",
+          "correct": false,
+          "why": "The forelimbs form flippers used for control. Whales breathe air with lungs rather than extracting oxygen through gills."
+        },
+        {
+          "text": "The whale’s vertical tail fin moves from side to side",
+          "correct": false,
+          "why": "That arrangement describes a typical fish more closely. Whale flukes are horizontal and move up and down."
+        },
+        {
+          "text": "The whale’s hind limbs form paddles for forward thrust",
+          "correct": false,
+          "why": "Whales have greatly reduced external hind limbs. Their tail flukes provide the main propulsive force."
+        }
+      ]
+    }
+  ]
+}

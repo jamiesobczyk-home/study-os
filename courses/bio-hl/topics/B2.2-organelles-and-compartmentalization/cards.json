@@ -1,0 +1,111 @@
+{
+  "topic": "B2.2",
+  "title": "Organelles and compartmentalization",
+  "cards": [
+    {
+      "id": "B2.2-01",
+      "q": "Define an organelle, then classify the cell wall, cytoskeleton, cytoplasm, nucleus, vesicles, ribosomes and plasma membrane using the syllabus definition.",
+      "a": "An organelle is a discrete subunit of a cell adapted to perform a specific function. The nucleus, vesicles, ribosomes and plasma membrane count as organelles in this syllabus. The cell wall, cytoskeleton and cytoplasm don’t.",
+      "note": "Membrane-bound isn’t part of the required definition. Ribosomes count as organelles even though they have no surrounding membrane.",
+      "tags": ["core", "organelles", "classification"]
+    },
+    {
+      "id": "B2.2-02",
+      "q": "Explain how cell fractionation and ultracentrifugation allowed scientists to investigate the functions of individual organelles.",
+      "a": "Cells are broken open to release their components, and the resulting homogenate is centrifuged. Centrifugation separates components into fractions according to properties including size and density, with different speeds allowing different components to form pellets. Scientists can isolate a fraction enriched in a particular organelle and test its biochemical activity.",
+      "note": "A microscope shows structure and location. Fractionation makes it possible to test isolated cell components.",
+      "tags": ["core", "cell-fractionation", "nature-of-science"]
+    },
+    {
+      "id": "B2.2-03",
+      "q": "Explain the advantage of separating the nucleus from the cytoplasm in a eukaryotic cell.",
+      "a": "Transcription occurs in the nucleus, while translation occurs on ribosomes outside the nucleus. The nuclear envelope therefore prevents a new RNA transcript from meeting ribosomes immediately. Post-transcriptional modification of mRNA can occur before the processed mRNA leaves through nuclear pores and reaches ribosomes.",
+      "note": "The key advantage named by the syllabus is separation of transcription and translation, not a vague statement that the nucleus protects DNA.",
+      "tags": ["core", "nucleus", "gene-expression"]
+    },
+    {
+      "id": "B2.2-04",
+      "q": "Explain how compartmentalization can increase the efficiency of a biochemical pathway.",
+      "a": "A membrane-bound compartment can concentrate the pathway’s enzymes and metabolites in a small volume. This increases the likelihood of enzyme-substrate collisions and lets the compartment maintain conditions suited to the reactions. Products can also remain near the enzymes needed for later steps.",
+      "tags": ["core", "compartmentalization", "enzymes"]
+    },
+    {
+      "id": "B2.2-05",
+      "q": "Explain how lysosomes and phagocytic vacuoles show the value of separating incompatible biochemical processes.",
+      "a": "A phagocyte encloses an engulfed particle or microorganism in a phagocytic vacuole. Lysosomes containing hydrolytic enzymes fuse with the vacuole, so digestion occurs inside a membrane-bound compartment. The enzymes and their reactions are separated from the cytosol, reducing damage to the rest of the cell.",
+      "note": "Naming a lysosome earns little unless you explain what is isolated and why that matters.",
+      "tags": ["core", "lysosome", "phagocytic-vacuole"]
+    },
+    {
+      "id": "B2.2-06",
+      "q": "Explain how mitochondrial structure is adapted for ATP production by aerobic respiration.",
+      "a": "The double membrane creates a separate intermembrane space. Its small volume allows protons pumped across the inner membrane to build a steep concentration gradient. Cristae give the inner membrane a large surface area for electron transport chains and ATP synthase. The matrix concentrates the enzymes and substrates of the Krebs cycle.",
+      "tags": ["hl", "mitochondrion", "respiration"]
+    },
+    {
+      "id": "B2.2-07",
+      "q": "Explain why both the small intermembrane space and the cristae of a mitochondrion matter for ATP production.",
+      "a": "Because the intermembrane space has a small volume, pumping a given number of protons into it produces a large change in proton concentration. Cristae increase the area of inner membrane available for electron transport chains and ATP synthase. Together, these features support a proton gradient and ATP production by chemiosmosis.",
+      "note": "Cristae increase membrane surface area. They don’t increase the volume of the matrix.",
+      "tags": ["hl", "mitochondrion", "chemiosmosis"]
+    },
+    {
+      "id": "B2.2-08",
+      "q": "Explain how chloroplast structure is adapted for photosynthesis.",
+      "a": "Thylakoid membranes provide a large surface area for photosystems, electron carriers and ATP synthase in the light-dependent reactions. Each thylakoid has a small internal fluid volume, so protons can accumulate rapidly and form a steep concentration gradient. The stroma concentrates the enzymes and substrates of the Calvin cycle.",
+      "tags": ["hl", "chloroplast", "photosynthesis"]
+    },
+    {
+      "id": "B2.2-09",
+      "q": "Compare the ways mitochondria and chloroplasts use compartmentalization in energy conversion.",
+      "a": "Both organelles use a large internal membrane area containing electron carriers and ATP synthase, a small compartment in which protons accumulate, and a separate fluid region containing enzymes for a metabolic cycle. Mitochondria use cristae, the intermembrane space and the matrix for aerobic respiration. Chloroplasts use thylakoid membranes, thylakoid lumens and the stroma for photosynthesis.",
+      "note": "Match each structure to its counterpart instead of listing the two organelles separately.",
+      "tags": ["hl", "mitochondrion", "chloroplast", "comparison"]
+    },
+    {
+      "id": "B2.2-10",
+      "q": "Explain the functional benefits of the nuclear envelope and why nuclear pores are necessary.",
+      "a": "The nuclear envelope consists of two membranes that separate the nucleoplasm and DNA from the cytoplasm. This separation allows transcription and RNA processing to occur apart from translation. Nuclear pores are necessary because selected materials must cross the envelope, including mRNA leaving the nucleus and proteins entering it.",
+      "tags": ["hl", "nucleus", "nuclear-pores"]
+    },
+    {
+      "id": "B2.2-11",
+      "q": "Explain why the nuclear envelope breaks down during mitosis and meiosis.",
+      "a": "The nuclear envelope breaks into vesicles during mitosis and meiosis, removing the boundary around the chromosomes. This allows spindle microtubules to interact with and move the chromosomes. Nuclear envelopes form around the separated chromosome sets to produce daughter nuclei.",
+      "tags": ["hl", "nucleus", "cell-division"]
+    },
+    {
+      "id": "B2.2-12",
+      "q": "Contrast the destinations of proteins made by free ribosomes and ribosomes bound to rough endoplasmic reticulum.",
+      "a": "Free ribosomes synthesize proteins that are retained for use within the cell, such as proteins used in the cytosol. Ribosomes bound to rough endoplasmic reticulum synthesize proteins that enter the endomembrane system for transport within the cell or secretion. The two groups of ribosomes have the same basic structure; their location reflects the protein being synthesized.",
+      "note": "Free ribosomes don’t make proteins for export and bound ribosomes aren’t a different type of ribosome.",
+      "tags": ["hl", "ribosomes", "rough-er"]
+    },
+    {
+      "id": "B2.2-13",
+      "q": "Describe the structure and function of rough endoplasmic reticulum in protein transport.",
+      "a": "Rough endoplasmic reticulum is a network of membrane cisternae with ribosomes attached to its cytosolic surface. Proteins made by these ribosomes enter the rough ER, where they can begin folding and processing. Transport vesicles bud from the ER and carry the proteins to the Golgi apparatus.",
+      "tags": ["hl", "rough-er", "protein-transport"]
+    },
+    {
+      "id": "B2.2-14",
+      "q": "Describe the structure of the Golgi apparatus and its role in protein secretion.",
+      "a": "The Golgi apparatus is a stack of flattened membrane sacs called cisternae. Vesicles from the rough ER fuse with its receiving side. Proteins are processed as they pass through the Golgi, then sorted and packaged into vesicles at the shipping side for transport or secretion.",
+      "tags": ["hl", "golgi-apparatus", "secretion"]
+    },
+    {
+      "id": "B2.2-15",
+      "q": "Explain how vesicles form and deliver their contents, including the role of clathrin.",
+      "a": "Clathrin proteins assemble into a coat on the cytosolic side of a membrane, helping the membrane curve and form a bud. The resulting vesicle separates from the donor membrane and later loses its clathrin coat. It moves to an appropriate target and fuses with the target membrane, delivering its contents or adding membrane components.",
+      "note": "Clathrin helps form the vesicle. It doesn’t provide the code that chooses every target membrane.",
+      "tags": ["hl", "vesicles", "clathrin"]
+    },
+    {
+      "id": "B2.2-16",
+      "q": "Trace a protein that will be secreted from its synthesis to its release, explaining how compartmentalization helps at each stage.",
+      "a": "A ribosome bound to rough ER translates the mRNA, and the new protein enters the ER. A transport vesicle buds from the ER and carries the protein to the Golgi apparatus. The Golgi processes and sorts the protein, then packages it into a secretory vesicle. That vesicle fuses with the plasma membrane and releases the protein by exocytosis. Separate compartments maintain suitable conditions and keep each stage organized while vesicles transfer the protein between them.",
+      "note": "This pathway is directional: bound ribosome and rough ER, transport vesicle, Golgi apparatus, secretory vesicle, plasma membrane.",
+      "tags": ["hl", "synthesis", "protein-secretion"]
+    }
+  ]
+}

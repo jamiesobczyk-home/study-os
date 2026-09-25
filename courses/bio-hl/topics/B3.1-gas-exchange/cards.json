@@ -1,0 +1,123 @@
+{
+  "topic": "B3.1",
+  "title": "Gas exchange",
+  "cards": [
+    {
+      "id": "B3.1-01",
+      "q": "Explain why a large multicellular organism needs specialized gas-exchange surfaces instead of relying on diffusion across its outer surface.",
+      "a": "As an organism gets larger, its surface area-to-volume ratio decreases, so less external surface is available for exchange per unit of tissue. Its internal cells are also farther from the exterior, increasing diffusion distance. Diffusion across the outer surface alone therefore can’t supply gases or remove them rapidly enough, so specialized exchange surfaces and transport systems are needed.",
+      "note": "Give both problems: lower surface area-to-volume ratio and greater diffusion distance.",
+      "tags": ["core", "size", "diffusion"]
+    },
+    {
+      "id": "B3.1-02",
+      "q": "Explain how the four general properties of a gas-exchange surface increase the rate of diffusion.",
+      "a": "A large surface area allows more gas molecules to cross at the same time. A thin tissue layer gives a short diffusion distance. Permeability allows gases to cross the surface, and moisture lets gases dissolve before they diffuse through cell membranes.",
+      "note": "Moisture doesn’t maintain the gradient. It allows gases to dissolve.",
+      "tags": ["core", "exchange-surfaces", "diffusion"]
+    },
+    {
+      "id": "B3.1-03",
+      "q": "Explain how an animal maintains steep oxygen and carbon dioxide concentration gradients at a gas-exchange surface.",
+      "a": "Ventilation continually replaces air in lungs or water flowing over gills, maintaining high oxygen and low carbon dioxide concentrations on the environmental side. A dense capillary network and continuous blood flow bring carbon dioxide-rich, oxygen-poor blood to the surface and carry exchanged gases away. These processes prevent equilibrium and maintain rapid diffusion.",
+      "tags": ["core", "concentration-gradient", "ventilation", "circulation"]
+    },
+    {
+      "id": "B3.1-04",
+      "q": "Explain how the structure of mammalian lungs makes gas exchange efficient.",
+      "a": "Branching bronchioles distribute ventilated air to many alveoli. The numerous alveoli provide a large surface area, and their thin, moist walls give a short diffusion distance and allow gases to dissolve. Extensive capillary beds provide a large blood-contact area and continuous blood flow. Pulmonary surfactant reduces surface tension in the moist lining, helping prevent alveolar collapse.",
+      "tags": ["core", "lungs", "alveoli"]
+    },
+    {
+      "id": "B3.1-05",
+      "q": "Distinguish the roles of type I and type II pneumocytes in an alveolus.",
+      "a": "Type I pneumocytes are extremely thin, flattened cells that form most of the alveolar exchange surface and reduce diffusion distance. Type II pneumocytes contain secretory vesicles and release pulmonary surfactant into the alveolar lumen. The surfactant reduces surface tension and helps prevent alveolar collapse.",
+      "note": "Surfactant is produced by type II pneumocytes. Type I pneumocytes provide the thin exchange surface.",
+      "tags": ["core", "lungs", "pneumocytes"]
+    },
+    {
+      "id": "B3.1-06",
+      "q": "Explain the complete mechanism of inhalation at rest.",
+      "a": "The diaphragm contracts and flattens, while the external intercostal muscles contract and move the ribs upward and outward. Thoracic volume increases, causing pressure inside the lungs to fall below atmospheric pressure. Air then moves into the lungs down the pressure gradient.",
+      "note": "Muscles change volume, volume changes pressure, and the pressure difference moves air.",
+      "tags": ["core", "ventilation", "inhalation"]
+    },
+    {
+      "id": "B3.1-07",
+      "q": "Explain resting exhalation and then state what changes during forced exhalation.",
+      "a": "During resting exhalation, the diaphragm and external intercostal muscles relax. The diaphragm becomes dome-shaped, the ribs move downward and inward, and elastic recoil reduces thoracic volume. Lung pressure rises above atmospheric pressure, so air moves out. During forced exhalation, internal intercostal muscles and abdominal muscles contract, reducing thoracic volume more strongly.",
+      "tags": ["core", "ventilation", "exhalation"]
+    },
+    {
+      "id": "B3.1-08",
+      "q": "Distinguish tidal volume, inspiratory reserve, expiratory reserve and vital capacity.",
+      "a": "Tidal volume is the volume moved in or out during one normal resting breath. Inspiratory reserve is the additional volume that can be inhaled after a normal inhalation, and expiratory reserve is the additional volume that can be exhaled after a normal exhalation. Vital capacity is the greatest volume exhaled after the deepest possible inhalation and equals tidal volume plus both reserve volumes.",
+      "note": "Vital capacity excludes the residual volume that remains in the lungs.",
+      "tags": ["core", "lung-volumes", "measurement"]
+    },
+    {
+      "id": "B3.1-09",
+      "q": "Explain how the structures of a dicotyledonous leaf allow gas exchange while limiting water loss.",
+      "a": "Stomata provide pores for carbon dioxide, oxygen and water vapor, while guard cells adjust pore width. Spongy mesophyll air spaces create a large moist internal surface and short diffusion paths to cells. The epidermis is thin and transparent, while the waxy cuticle limits evaporation from surfaces away from stomata. Veins supply water and carry products of photosynthesis.",
+      "tags": ["core", "leaf", "stomata"]
+    },
+    {
+      "id": "B3.1-10",
+      "q": "Describe the distribution of tissues that should appear in a plan diagram of a transverse section through a dicotyledonous leaf.",
+      "a": "The upper surface has a waxy cuticle over the upper epidermis. Palisade mesophyll lies beneath it, followed by spongy mesophyll with large air spaces. Vascular bundles occur within the mesophyll, with xylem generally toward the upper side and phloem toward the lower side. The lower epidermis forms the lower surface and commonly contains stomata with guard cells.",
+      "note": "A plan diagram shows the positions and relative proportions of tissues, not detailed drawings of individual cells.",
+      "tags": ["core", "leaf", "plan-diagram"]
+    },
+    {
+      "id": "B3.1-11",
+      "q": "Explain why transpiration is an unavoidable consequence of gas exchange through open stomata.",
+      "a": "Mesophyll cell walls are moist, so water evaporates into the leaf air spaces. When stomata open to let carbon dioxide diffuse into the leaf, water vapor also diffuses out because its concentration is usually higher inside the leaf than in the surrounding air. The same open pathway needed for gas exchange therefore causes water loss.",
+      "tags": ["core", "transpiration", "stomata"]
+    },
+    {
+      "id": "B3.1-12",
+      "q": "Predict how greater light intensity, higher temperature, higher humidity and faster wind generally affect transpiration.",
+      "a": "Greater light intensity usually increases transpiration because stomata open for photosynthesis. Higher temperature increases evaporation and the capacity of air to hold water vapor, so transpiration generally rises. Higher humidity reduces the water-vapor concentration gradient and lowers transpiration. Faster wind removes humid air near the leaf, maintaining the gradient and increasing transpiration.",
+      "note": "These are general predictions for a plant that hasn’t closed its stomata because of severe water stress.",
+      "tags": ["core", "transpiration", "environment"]
+    },
+    {
+      "id": "B3.1-13",
+      "q": "Explain how to determine stomatal density from a leaf sample and improve the reliability of the result.",
+      "a": "Make an epidermal peel or leaf-surface impression and view it with a microscope. Count the stomata in a field of view whose area is known, then divide the count by that area to obtain stomata per unit area. Repeat the count in several randomly selected fields and calculate a mean because stomata aren’t distributed perfectly evenly.",
+      "note": "A stomatal count becomes a density only after division by area.",
+      "tags": ["core", "stomatal-density", "skills"]
+    },
+    {
+      "id": "B3.1-14",
+      "q": "Explain how haemoglobin binds oxygen and why the binding is described as cooperative.",
+      "a": "Haemoglobin has four polypeptide subunits, each containing a haem group that can bind one oxygen molecule reversibly. Binding of the first oxygen molecule causes a conformational change that increases the affinity of the remaining subunits. Each subsequent oxygen molecule therefore binds more readily until haemoglobin approaches saturation.",
+      "tags": ["hl", "haemoglobin", "cooperative-binding"]
+    },
+    {
+      "id": "B3.1-15",
+      "q": "Explain how foetal haemoglobin obtains oxygen from maternal blood at the placenta.",
+      "a": "Foetal haemoglobin has a higher affinity for oxygen than adult haemoglobin at the same oxygen partial pressure because its globin structure differs. Its oxygen dissociation curve lies to the left of the adult curve. Oxygen released by maternal haemoglobin can therefore diffuse across the placenta and bind to foetal haemoglobin without maternal and foetal blood mixing.",
+      "tags": ["hl", "foetal-haemoglobin", "placenta"]
+    },
+    {
+      "id": "B3.1-16",
+      "q": "Explain the Bohr shift and its benefit in an actively respiring tissue.",
+      "a": "Actively respiring cells produce carbon dioxide. Increased carbon dioxide lowers pH, and carbon dioxide can also bind allosterically to haemoglobin away from the haem groups. These effects change haemoglobin’s conformation and reduce its oxygen affinity. Its dissociation curve shifts to the right, so more oxygen is released at a given oxygen partial pressure where respiration creates the greatest demand.",
+      "tags": ["hl", "bohr-shift", "carbon-dioxide"]
+    },
+    {
+      "id": "B3.1-17",
+      "q": "Explain the sigmoid shape of an oxygen dissociation curve and how the curve relates to loading in lungs and unloading in tissues.",
+      "a": "At low oxygen partial pressure, haemoglobin has relatively low oxygen affinity. Binding of each oxygen molecule increases affinity for the next through cooperative binding, producing the steep middle section. As the haem groups become occupied, the curve plateaus near full saturation. High oxygen partial pressure in the lungs favors loading, while lower oxygen partial pressure in tissues favors unloading.",
+      "tags": ["hl", "dissociation-curve", "cooperative-binding"]
+    },
+    {
+      "id": "B3.1-18",
+      "q": "Compare gas exchange in a mammalian alveolus and a leaf, linking structure, gradients and transport in one answer.",
+      "a": "Both systems provide moist, permeable surfaces with large areas and short diffusion distances. In lungs, ventilation and continuous capillary blood flow maintain oxygen and carbon dioxide gradients, and blood transports gases between alveoli and tissues. In leaves, stomata connect the atmosphere to mesophyll air spaces, while photosynthesis and respiration maintain changing gas gradients. Opening stomata permits carbon dioxide uptake but also allows water vapor to escape, so guard cells regulate the compromise between gas exchange and water conservation.",
+      "note": "This is a synthesis answer. Compare the shared diffusion requirements before explaining how each organism maintains them.",
+      "tags": ["core", "synthesis", "lungs", "leaf"]
+    }
+  ]
+}

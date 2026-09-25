@@ -1,0 +1,182 @@
+{
+  "topic": "B3.3",
+  "title": "Muscle and motility",
+  "cards": [
+    {
+      "id": "B3.3-01",
+      "q": "Compare movement in a motile animal with movement in a sessile plant, and explain why movement is broader than locomotion.",
+      "a": "A motile animal can use coordinated muscle contractions to move its whole body from one place to another, which is locomotion. A sessile plant remains rooted but still produces movements, such as a shoot growing toward light or stomata opening and closing. Movement is therefore a feature of both organisms, while locomotion is only movement of the whole organism between places.",
+      "note": "Sessile means fixed in one place. It doesn’t mean incapable of movement.",
+      "tags": [
+        "hl",
+        "movement",
+        "motility"
+      ]
+    },
+    {
+      "id": "B3.3-02",
+      "q": "Describe the arrangement of actin and myosin in a sarcomere and identify its boundaries.",
+      "a": "A sarcomere is the region of a myofibril between two Z lines. Thin actin filaments extend inward from the Z lines, while thick myosin filaments lie around the center. The filaments overlap through part of the sarcomere, allowing myosin heads to form cross-bridges with actin.",
+      "tags": [
+        "hl",
+        "sarcomere",
+        "structure"
+      ]
+    },
+    {
+      "id": "B3.3-03",
+      "q": "Predict how the visible regions of a sarcomere change during contraction, and explain the pattern.",
+      "a": "The Z lines move closer together, so the sarcomere shortens. The I bands and H zone become narrower because overlap between actin and myosin increases. The A band remains the same width because the thick myosin filaments don’t change length.",
+      "note": "The filaments slide past one another. Neither type of filament becomes shorter.",
+      "tags": [
+        "hl",
+        "sarcomere",
+        "bands"
+      ]
+    },
+    {
+      "id": "B3.3-04",
+      "q": "Explain the sliding filament mechanism from calcium release to repeated power strokes.",
+      "a": "Calcium ions bind to troponin, changing its shape and moving tropomyosin away from myosin-binding sites on actin. Energized myosin heads bind to the exposed sites and form cross-bridges. Release of phosphate and then ADP is associated with a power stroke that pulls actin toward the center of the sarcomere. A new ATP binds to myosin, causing it to detach from actin. ATP is hydrolyzed, re-energizing and repositioning the myosin head so the cycle can repeat while calcium and ATP are available.",
+      "note": "ATP binding causes detachment. ATP hydrolysis supplies energy to reset the myosin head.",
+      "tags": [
+        "hl",
+        "sliding-filament",
+        "calcium",
+        "atp"
+      ]
+    },
+    {
+      "id": "B3.3-05",
+      "q": "Correct this claim: “Actin and myosin contract and become shorter during muscle contraction.”",
+      "a": "Actin and myosin filaments keep the same length. Myosin heads repeatedly attach to actin and pull the thin filaments toward the center of each sarcomere. The increased overlap shortens each sarcomere and therefore shortens the myofibrils, muscle fibres and muscle.",
+      "note": "Sliding filament means increasing overlap, not shrinking filaments.",
+      "tags": [
+        "hl",
+        "sliding-filament",
+        "misconception"
+      ]
+    },
+    {
+      "id": "B3.3-06",
+      "q": "Explain the roles of titin and antagonistic muscles when a contracted muscle lengthens again.",
+      "a": "A muscle can exert force by contracting, but it can’t actively push itself longer. Contraction of an antagonistic muscle pulls the bones in the opposite direction and stretches the relaxing muscle. Titin stores elastic potential energy when a sarcomere is stretched, helps it recoil toward its resting length and limits overstretching.",
+      "tags": [
+        "hl",
+        "titin",
+        "antagonistic-muscles",
+        "relaxation"
+      ]
+    },
+    {
+      "id": "B3.3-07",
+      "q": "Describe the structure of a motor unit and what happens when its motor neuron fires.",
+      "a": "A motor unit consists of one motor neuron and all the skeletal muscle fibres it controls. Branches of the neuron form neuromuscular junctions with those fibres. When the motor neuron generates an action potential, it stimulates the fibres in that motor unit to contract together.",
+      "note": "One motor unit can contain many muscle fibres.",
+      "tags": [
+        "hl",
+        "motor-unit",
+        "neuromuscular-junction"
+      ]
+    },
+    {
+      "id": "B3.3-08",
+      "q": "Explain how motor-unit recruitment allows both precise movements and powerful contractions.",
+      "a": "The nervous system increases force by recruiting more motor units. Small motor units contain relatively few muscle fibres and allow small, precise changes in force. Large motor units contain more fibres and produce greater force. Recruiting larger numbers of units, including larger units, produces a stronger contraction.",
+      "tags": [
+        "hl",
+        "motor-unit",
+        "recruitment"
+      ]
+    },
+    {
+      "id": "B3.3-09",
+      "q": "Compare how exoskeletons and endoskeletons allow muscles to cause movement.",
+      "a": "Both provide rigid attachment points for muscles and act as lever systems around joints. Arthropod muscles pull on the internal surface of an external exoskeleton, while vertebrate muscles pull on bones of an internal endoskeleton through tendons. In both cases, muscle contraction applies a force that rotates a rigid skeletal part around a joint.",
+      "tags": [
+        "hl",
+        "skeleton",
+        "levers"
+      ]
+    },
+    {
+      "id": "B3.3-10",
+      "q": "Explain how the structures of the human hip joint permit movement while reducing damage and dislocation.",
+      "a": "The rounded head of the femur fits into a socket in the pelvis, forming a synovial joint. Smooth cartilage covers the articulating surfaces and reduces friction while absorbing compression. Synovial fluid lubricates the joint. Ligaments connect bone to bone and limit excessive movement, while tendons connect muscles to bones and transmit the force that moves the femur.",
+      "note": "Tendons move bones. Ligaments stabilize the connection between bones.",
+      "tags": [
+        "hl",
+        "hip-joint",
+        "synovial-joint"
+      ]
+    },
+    {
+      "id": "B3.3-11",
+      "q": "Describe how to measure and compare a joint’s range of motion in more than one dimension.",
+      "a": "Identify the joint and the movement being measured, place a goniometer’s axis over the joint, align its arms with the adjoining body segments and record the angle between the starting and final positions. Repeat the measurement for movements in different planes, such as flexion, extension or movement to the side, and use the same landmarks and method for each comparison. Joint angles can also be measured from calibrated images.",
+      "tags": [
+        "hl",
+        "range-of-motion",
+        "skills"
+      ]
+    },
+    {
+      "id": "B3.3-12",
+      "q": "Explain how the internal and external intercostal muscles act as an antagonistic pair.",
+      "a": "The two layers have different fibre orientations, so their contractions move the ribcage in opposite directions. During inspiration, the external intercostal muscles contract and help move the ribs up and out while the internal layer relaxes and is stretched. During forced expiration, the internal intercostal muscles contract and help move the ribs down and in while the external layer relaxes and is stretched. Stretching stores elastic potential energy in titin.",
+      "note": "Quiet expiration is largely passive. Internal intercostals are especially important during forced expiration.",
+      "tags": [
+        "hl",
+        "intercostal-muscles",
+        "antagonistic-muscles",
+        "ventilation"
+      ]
+    },
+    {
+      "id": "B3.3-13",
+      "q": "Give one example of locomotion serving each of four functions: foraging, escape, finding a mate and migration.",
+      "a": "A cheetah runs to capture prey while foraging. A gazelle runs from a predator to escape danger. A male moth flies toward a female’s pheromones while searching for a mate. A humpback whale travels between feeding and breeding grounds during migration.",
+      "note": "The example must show locomotion and connect it to the stated benefit.",
+      "tags": [
+        "hl",
+        "locomotion",
+        "behavior"
+      ]
+    },
+    {
+      "id": "B3.3-14",
+      "q": "Explain how four structural features adapt a whale for swimming and periodic breathing.",
+      "a": "A streamlined body reduces drag as the whale moves through water. Forelimbs modified as flippers help control direction and stability. Horizontal tail flukes move up and down to generate propulsion. Nostrils modified as blowholes on top of the head allow rapid breathing at the surface, and their closure prevents water entering during a dive.",
+      "tags": [
+        "hl",
+        "marine-mammals",
+        "adaptation"
+      ]
+    },
+    {
+      "id": "B3.3-15",
+      "q": "Build the complete chain from a motor-neuron signal to movement of the femur at the hip.",
+      "a": "An action potential reaches neuromuscular junctions and activates the muscle fibres in a motor unit. Calcium exposes binding sites on actin, and ATP-powered cross-bridge cycles slide actin past myosin. Sarcomeres shorten, causing muscle fibres and the whole muscle to shorten. The muscle pulls through its tendon on the femur, which acts as a lever and rotates at its synovial joint with the pelvis.",
+      "note": "This answer has to cross four levels: neuron, sarcomere, muscle and joint.",
+      "tags": [
+        "hl",
+        "synthesis",
+        "motor-unit",
+        "sliding-filament",
+        "joint"
+      ]
+    },
+    {
+      "id": "B3.3-16",
+      "q": "Distinguish a tendon from a ligament by both its attachments and its role in movement.",
+      "a": "A tendon connects muscle to bone and transmits the pulling force of a contracting muscle to the skeleton. A ligament connects bone to bone across a joint, helping stabilize the joint and restrict movement beyond its safe range.",
+      "note": "Both are tough connective tissues, but their attachments and jobs differ.",
+      "tags": [
+        "hl",
+        "tendon",
+        "ligament",
+        "joint"
+      ]
+    }
+  ]
+}

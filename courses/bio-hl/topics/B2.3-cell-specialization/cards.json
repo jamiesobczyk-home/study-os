@@ -1,0 +1,178 @@
+{
+  "topic": "B2.3",
+  "title": "Cell specialization",
+  "cards": [
+    {
+      "id": "B2.3-01",
+      "q": "Explain how one fertilized egg can produce cells with different structures and functions even though those cells usually contain the same genome.",
+      "a": "The zygote divides by mitosis to produce unspecialized cells with the same genome. During development, morphogens form concentration gradients across the embryo. Cells in different positions experience different morphogen concentrations, which regulate different patterns of gene expression. Different proteins are produced, causing the cells to differentiate and become specialized.",
+      "note": "Differentiation changes gene expression, not the DNA sequence carried by each cell.",
+      "tags": [
+        "core",
+        "differentiation",
+        "gene-expression"
+      ]
+    },
+    {
+      "id": "B2.3-02",
+      "q": "State and explain the two properties that define a stem cell.",
+      "a": "A stem cell can self-renew, meaning that division can maintain a supply of unspecialized stem cells. It can also differentiate along one or more developmental pathways to produce specialized cell types.",
+      "note": "The ability to divide isn't enough by itself. The answer also needs differentiation.",
+      "tags": [
+        "core",
+        "stem-cells"
+      ]
+    },
+    {
+      "id": "B2.3-03",
+      "q": "Explain what a stem cell niche does, using bone marrow and hair follicles as examples.",
+      "a": "A stem cell niche is the local cellular and chemical environment that maintains a pool of adult stem cells or signals them to proliferate and differentiate. Bone marrow niches contain haemopoietic stem cells that produce blood cells. Hair-follicle niches contain stem cells involved in hair growth and repair of epidermal tissue.",
+      "tags": [
+        "core",
+        "stem-cells",
+        "niches"
+      ]
+    },
+    {
+      "id": "B2.3-04",
+      "q": "Distinguish totipotent, pluripotent and multipotent stem cells, and give a human example of each.",
+      "a": "Totipotent cells can form all embryonic and extraembryonic cell types needed to produce a whole organism; the zygote and very early embryonic cells are examples. Pluripotent cells can form cell types from all three germ layers but can’t form every extraembryonic tissue needed for a whole organism; cells of the inner cell mass are examples. Multipotent cells produce a limited range of related cell types; haemopoietic stem cells in bone marrow produce the different blood-cell lineages.",
+      "note": "Pluripotent means all major body-cell types, not a complete organism.",
+      "tags": [
+        "core",
+        "stem-cells",
+        "potency"
+      ]
+    },
+    {
+      "id": "B2.3-05",
+      "q": "Use named human cells to show why cell size and shape are aspects of specialization.",
+      "a": "A sperm cell is small and streamlined for movement, while an egg is large because it supplies the zygote with cytoplasm and organelles. Erythrocytes are small and flexible enough to pass through narrow capillaries. Some neurons have very long axons for signaling over long distances, and striated skeletal muscle fibres are long so they can shorten along the direction in which they pull.",
+      "note": "There isn't one ideal cell size. Size is useful only when connected to function.",
+      "tags": [
+        "core",
+        "cell-size",
+        "structure-function"
+      ]
+    },
+    {
+      "id": "B2.3-06",
+      "q": "A cubic model cell has sides of 2 µm. Calculate its surface area, volume and surface area-to-volume ratio.",
+      "a": "The surface area is 6 × 2² = 24 µm². The volume is 2³ = 8 µm³. The surface area-to-volume ratio is 24:8, which simplifies to 3:1.",
+      "note": "Surface area uses square units and volume uses cubic units.",
+      "tags": [
+        "core",
+        "surface-area-to-volume",
+        "calculation"
+      ]
+    },
+    {
+      "id": "B2.3-07",
+      "q": "Explain fully why surface area-to-volume ratio constrains the maximum size of a cell.",
+      "a": "As a cell's linear dimensions increase, surface area increases with the square of length while volume increases with the cube. Surface area-to-volume ratio therefore decreases. Exchange of nutrients, gases and wastes across the plasma membrane depends on surface area, while metabolic demand and waste production depend largely on cell volume. In a cell that becomes too large, its membrane may not exchange materials fast enough for its contents.",
+      "note": "Large cells do have more surface area. The problem is that their volume increases faster.",
+      "tags": [
+        "core",
+        "surface-area-to-volume",
+        "exchange"
+      ]
+    },
+    {
+      "id": "B2.3-08",
+      "q": "Explain three structural ways in which a cell can increase its surface area-to-volume ratio without becoming much smaller.",
+      "a": "A cell can become flattened, which places more membrane close to the cell contents. It can form projections such as microvilli, adding membrane surface without a comparable increase in volume. Its membrane can also become invaginated or folded, again increasing the area available for exchange.",
+      "tags": [
+        "hl",
+        "surface-area-to-volume",
+        "adaptations"
+      ]
+    },
+    {
+      "id": "B2.3-09",
+      "q": "Connect the shapes of an erythrocyte and a proximal convoluted tubule cell to their exchange functions.",
+      "a": "An erythrocyte has a flattened biconcave shape, giving it a high surface area-to-volume ratio and a short diffusion distance for oxygen. A proximal convoluted tubule cell has microvilli forming a brush border, which increases membrane area for selective reabsorption from the nephron filtrate.",
+      "note": "A microvillus is part of one cell's membrane. A villus is a larger structure made from many cells.",
+      "tags": [
+        "hl",
+        "erythrocytes",
+        "microvilli",
+        "kidney"
+      ]
+    },
+    {
+      "id": "B2.3-10",
+      "q": "Compare type I and type II pneumocytes by linking the structure of each to its function in an alveolus.",
+      "a": "Type I pneumocytes are extremely thin, flattened cells, so they provide a short diffusion distance for oxygen and carbon dioxide. Type II pneumocytes contain many secretory vesicles called lamellar bodies. These release surfactant into the alveolar lumen, reducing surface tension and helping prevent alveolar collapse.",
+      "note": "Type I cells provide the thin exchange surface. Type II cells secrete surfactant.",
+      "tags": [
+        "hl",
+        "pneumocytes",
+        "gas-exchange"
+      ]
+    },
+    {
+      "id": "B2.3-11",
+      "q": "What structural feature allows both cardiac muscle cells and striated skeletal muscle fibres to contract?",
+      "a": "Both contain many contractile myofibrils. These contain organized protein filaments whose interaction causes shortening and generates force.",
+      "tags": [
+        "hl",
+        "muscle",
+        "myofibrils"
+      ]
+    },
+    {
+      "id": "B2.3-12",
+      "q": "Compare the branching, length and number of nuclei in cardiac muscle cells and striated skeletal muscle fibres, and relate the differences to function or development.",
+      "a": "Cardiac muscle cells are relatively short and branched, usually with one central nucleus. Branching helps form an interconnected network that spreads contraction through heart tissue. Striated skeletal muscle fibres are very long, cylindrical and unbranched. They contain many nuclei because each fibre develops by fusion of precursor cells, and their length lets them contract along one axis to pull on bones.",
+      "tags": [
+        "hl",
+        "muscle",
+        "comparison"
+      ]
+    },
+    {
+      "id": "B2.3-13",
+      "q": "Discuss whether a striated skeletal muscle fibre should be called one cell.",
+      "a": "A mature muscle fibre behaves as one functional unit and is enclosed by one continuous plasma membrane, so it can be described as a single cell. However, it develops through fusion of many precursor cells and contains many nuclei. Its origin and multinucleate structure make it unlike a typical cell, so the classification depends on whether membrane continuity or developmental origin is emphasized.",
+      "note": "A discussion needs evidence on both sides, not only the conclusion that it has many nuclei.",
+      "tags": [
+        "hl",
+        "muscle",
+        "discussion"
+      ]
+    },
+    {
+      "id": "B2.3-14",
+      "q": "Explain how the head, midpiece and tail of a human sperm are adapted for fertilization.",
+      "a": "The head contains a haploid nucleus carrying paternal DNA and an acrosome containing hydrolytic enzymes that help the sperm penetrate the egg's surrounding layers. The midpiece contains many mitochondria that supply ATP for movement. The tail contains a microtubule-based axoneme whose bending propels the sperm.",
+      "tags": [
+        "hl",
+        "gametes",
+        "sperm"
+      ]
+    },
+    {
+      "id": "B2.3-15",
+      "q": "Explain how the size, contents and surrounding structures of a human egg suit its roles in fertilization and early development.",
+      "a": "The egg is large and non-motile, with cytoplasm and organelles that are contributed to the zygote. It is surrounded by the zona pellucida and corona radiata. Cortical granules release their contents after sperm fusion, modifying the egg's surroundings and helping prevent polyspermy. Before fertilization, the secondary oocyte is arrested in metaphase II and completes meiosis only after fertilization begins.",
+      "note": "The sperm contributes more than motion, but the egg supplies nearly all the zygote's cytoplasm and organelles.",
+      "tags": [
+        "hl",
+        "gametes",
+        "egg"
+      ]
+    },
+    {
+      "id": "B2.3-16",
+      "q": "Construct a single explanation connecting differential gene expression, cell structure and division of labor in alveolar tissue.",
+      "a": "Cells in the developing organism receive signals that produce different patterns of gene expression, so they synthesize different proteins and differentiate. In alveolar tissue, this produces extremely thin type I pneumocytes specialized for rapid gas diffusion and secretory type II pneumocytes with lamellar bodies specialized for surfactant release. No one cell design performs both roles as effectively, so specialization creates division of labor within the tissue.",
+      "note": "This is the full chain: signal, gene expression, proteins, structure, function and tissue-level division of labor.",
+      "tags": [
+        "hl",
+        "differentiation",
+        "pneumocytes",
+        "synthesis"
+      ]
+    }
+  ]
+}

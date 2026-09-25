@@ -1,0 +1,317 @@
+{
+  "topic": "B1.1",
+  "questions": [
+    {
+      "id": "B1.1-q01",
+      "stem": "Which property of carbon contributes most directly to the diversity of biological molecules?",
+      "options": [
+        {
+          "text": "It forms four covalent bonds and can produce chains, branches and rings",
+          "correct": true,
+          "why": "Four bonding positions let carbon connect to itself and other elements in many stable arrangements."
+        },
+        {
+          "text": "It forms only ionic bonds with hydrogen, oxygen and nitrogen atoms",
+          "correct": false,
+          "why": "Carbon usually forms covalent bonds in biological molecules. Restricting it to ionic bonds would remove the bonding patterns the question asks about."
+        },
+        {
+          "text": "It can bond to four atoms but cannot form carbon–carbon double bonds",
+          "correct": false,
+          "why": "Carbon can form both single and double bonds. Those alternatives add to the range of structures it can produce."
+        },
+        {
+          "text": "It dissolves readily in water before cells assemble it into polymers",
+          "correct": false,
+          "why": "Solubility of elemental carbon doesn't explain molecular diversity. The important feature is the number and variety of covalent bonds carbon can form."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q02",
+      "stem": "What happens during hydrolysis of a polysaccharide?",
+      "options": [
+        {
+          "text": "Water is added to break glycosidic bonds between sugar units",
+          "correct": true,
+          "why": "The water supplies H and OH to the products as a glycosidic bond is broken."
+        },
+        {
+          "text": "Water is released while glycosidic bonds form between sugar units",
+          "correct": false,
+          "why": "That describes condensation, which builds a larger carbohydrate instead of breaking one down."
+        },
+        {
+          "text": "Hydrogen is removed from every monosaccharide without changing any bonds",
+          "correct": false,
+          "why": "Hydrolysis changes a covalent bond and adds the components of water. It doesn't strip hydrogen from every monomer."
+        },
+        {
+          "text": "The polysaccharide dissolves in water but remains chemically unchanged",
+          "correct": false,
+          "why": "Dissolving is a physical process. Hydrolysis is a chemical reaction that breaks glycosidic bonds."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q03",
+      "stem": "Why is glucose readily transported in aqueous fluids?",
+      "options": [
+        {
+          "text": "Its hydroxyl groups make it polar and able to interact with water",
+          "correct": true,
+          "why": "Glucose can form hydrogen bonds with water, so it dissolves and can travel in aqueous solutions."
+        },
+        {
+          "text": "Its hydrocarbon ring makes the whole molecule strongly non-polar",
+          "correct": false,
+          "why": "The several hydroxyl groups make glucose polar despite its carbon skeleton. A strongly non-polar molecule would be poorly soluble."
+        },
+        {
+          "text": "Its glycosidic bonds give each glucose molecule a full electrical charge",
+          "correct": false,
+          "why": "A free glucose molecule contains no glycosidic bond, and glucose remains neutral overall rather than carrying a full charge."
+        },
+        {
+          "text": "Its six carbon atoms allow it to separate into ions in water",
+          "correct": false,
+          "why": "Glucose dissolves as intact neutral molecules. Its carbon count doesn't cause ionization."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q04",
+      "stem": "Which feature makes glycogen well suited to rapid mobilization of stored glucose?",
+      "options": [
+        {
+          "text": "Its many branches provide numerous ends for glucose removal",
+          "correct": true,
+          "why": "Enzymes can work at many branch ends, allowing glucose units to be mobilized from multiple sites."
+        },
+        {
+          "text": "Its beta-glucose units produce long straight chains for enzyme attachment",
+          "correct": false,
+          "why": "That resembles cellulose structure. Glycogen contains alpha-glucose and is highly branched."
+        },
+        {
+          "text": "Its phosphate groups make the polymer highly soluble in cytoplasm",
+          "correct": false,
+          "why": "Glycogen isn't built from phosphate-containing monomers. Its relative insolubility is useful for storage."
+        },
+        {
+          "text": "Its fatty-acid tails release individual glucose molecules by condensation",
+          "correct": false,
+          "why": "Glycogen has no fatty-acid tails. Glucose is removed from it by hydrolysis, not condensation."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q05",
+      "stem": "Which sequence correctly links cellulose structure to its function?",
+      "options": [
+        {
+          "text": "Alternating beta-glucose units form straight chains; neighboring chains hydrogen-bond into strong microfibrils",
+          "correct": true,
+          "why": "Straight chains align closely, and hydrogen bonding between them produces microfibrils with high tensile strength."
+        },
+        {
+          "text": "Alpha-glucose units form highly branched chains; branch points make the plant cell wall elastic",
+          "correct": false,
+          "why": "Alpha-glucose and branching describe storage polysaccharides. Cellulose contains beta-glucose and forms unbranched chains."
+        },
+        {
+          "text": "Beta-glucose units form coiled chains; ester bonds link the coils into waterproof fibers",
+          "correct": false,
+          "why": "Cellulose chains are straight rather than coiled, and neighboring chains associate through hydrogen bonds rather than ester bonds."
+        },
+        {
+          "text": "Alternating glucose units form separate monomers; ionic bonds attach them directly to the membrane",
+          "correct": false,
+          "why": "Cellulose is a covalently linked polymer in the cell wall. Glycosidic and hydrogen bonds, not ionic attachment to the membrane, explain its strength."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q06",
+      "stem": "What allows a cell-surface glycoprotein to act in cell–cell recognition?",
+      "options": [
+        {
+          "text": "Its exposed carbohydrate chain has a specific recognizable shape",
+          "correct": true,
+          "why": "The arrangement of sugars creates a surface marker that other cells or immune molecules can recognize."
+        },
+        {
+          "text": "Its fatty-acid tails store enough energy to identify neighboring cells",
+          "correct": false,
+          "why": "Fatty-acid tails belong to lipids, not the recognition portion of a glycoprotein. Recognition depends on molecular shape."
+        },
+        {
+          "text": "Its glucose units enter neighboring cells and compare their DNA sequences",
+          "correct": false,
+          "why": "Cell recognition occurs through interactions at the cell surface. Carbohydrate chains don't enter cells to inspect DNA."
+        },
+        {
+          "text": "Its phosphate groups give every cell type the same surface charge",
+          "correct": false,
+          "why": "Identical surface charge wouldn't distinguish cell types. Specific carbohydrate structures provide the identifying differences."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q07",
+      "stem": "Which products result from forming one triglyceride by condensation?",
+      "options": [
+        {
+          "text": "One triglyceride and three water molecules",
+          "correct": true,
+          "why": "Three ester bonds form between one glycerol and three fatty acids, releasing one water for each bond."
+        },
+        {
+          "text": "One phospholipid and one water molecule",
+          "correct": false,
+          "why": "A phospholipid contains phosphate and only two fatty-acid tails. Those aren't the components or water yield of triglyceride formation."
+        },
+        {
+          "text": "Three glycerol molecules and one fatty acid",
+          "correct": false,
+          "why": "The ratio is reversed. A triglyceride contains one glycerol joined to three fatty acids."
+        },
+        {
+          "text": "One polysaccharide and three carbon dioxide molecules",
+          "correct": false,
+          "why": "Polysaccharides form from monosaccharides. Carbon dioxide isn't released when ester bonds form in a triglyceride."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q08",
+      "stem": "A fatty acid contains two C=C bonds. How should it be classified?",
+      "options": [
+        {
+          "text": "Polyunsaturated",
+          "correct": true,
+          "why": "Polyunsaturated fatty acids contain two or more carbon–carbon double bonds."
+        },
+        {
+          "text": "Saturated",
+          "correct": false,
+          "why": "A saturated fatty acid contains no C=C bonds and carries the maximum possible number of hydrogen atoms."
+        },
+        {
+          "text": "Monounsaturated",
+          "correct": false,
+          "why": "A monounsaturated fatty acid contains exactly one C=C bond, not two."
+        },
+        {
+          "text": "Amphipathic",
+          "correct": false,
+          "why": "Amphipathic describes a molecule with hydrophilic and hydrophobic regions. It doesn't classify the number of C=C bonds."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q09",
+      "stem": "Why do lipids rich in cis-unsaturated fatty acids generally have lower melting points?",
+      "options": [
+        {
+          "text": "Cis double bonds kink the chains and prevent close packing",
+          "correct": true,
+          "why": "Poorer packing weakens intermolecular attractions, so less energy is needed to separate the molecules."
+        },
+        {
+          "text": "Cis double bonds add full electrical charges that repel neighboring chains",
+          "correct": false,
+          "why": "Cis double bonds don't create full charges. Their main effect here is changing the chain's shape."
+        },
+        {
+          "text": "Cis double bonds remove every hydrogen atom from the fatty acid",
+          "correct": false,
+          "why": "Unsaturation removes fewer hydrogen atoms than that claim suggests. A fatty acid with a cis double bond still contains many hydrogens."
+        },
+        {
+          "text": "Cis double bonds create hydrogen bonds between adjacent hydrocarbon chains",
+          "correct": false,
+          "why": "Non-polar hydrocarbon chains don't form hydrogen bonds with one another. Kinks reduce their close contact."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q10",
+      "stem": "Why are triglycerides effective long-term energy stores?",
+      "options": [
+        {
+          "text": "They are energy-dense and insoluble, so storage has little osmotic effect",
+          "correct": true,
+          "why": "Triglycerides release about twice as much energy per gram as carbohydrates and can be stored without drawing in large amounts of water."
+        },
+        {
+          "text": "They dissolve rapidly and produce a large osmotic gradient in storage cells",
+          "correct": false,
+          "why": "That would make storage disruptive. Triglycerides are hydrophobic and don't create a large osmotic effect."
+        },
+        {
+          "text": "They contain branched glucose chains with many sites for rapid hydrolysis",
+          "correct": false,
+          "why": "That describes glycogen. Triglycerides contain glycerol and fatty acids rather than glucose chains."
+        },
+        {
+          "text": "They form rigid microfibrils that resist stretching in adipose tissue",
+          "correct": false,
+          "why": "Rigid microfibrils are made from cellulose in plant walls. Adipose tissue stores triglyceride droplets."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q11",
+      "stem": "How are phospholipids oriented in a bilayer surrounded by water?",
+      "options": [
+        {
+          "text": "Hydrophilic heads face water and hydrophobic tails face inward",
+          "correct": true,
+          "why": "This arrangement lets the polar heads interact with water while shielding the non-polar tails."
+        },
+        {
+          "text": "Hydrophobic heads face water and hydrophilic tails face inward",
+          "correct": false,
+          "why": "The properties have been reversed. The phosphate-containing heads are hydrophilic, while the hydrocarbon tails are hydrophobic."
+        },
+        {
+          "text": "Both heads and tails face water because the whole phospholipid is polar",
+          "correct": false,
+          "why": "A phospholipid is amphipathic rather than entirely polar. Its hydrocarbon tails avoid contact with water."
+        },
+        {
+          "text": "Both heads and tails face inward because the whole phospholipid is non-polar",
+          "correct": false,
+          "why": "The phosphate-containing heads are polar and interact with surrounding water, so they face outward."
+        }
+      ]
+    },
+    {
+      "id": "B1.1-q12",
+      "stem": "Why can testosterone diffuse directly through a phospholipid bilayer?",
+      "options": [
+        {
+          "text": "It is largely non-polar and dissolves in the bilayer's hydrophobic core",
+          "correct": true,
+          "why": "Its lipid-soluble structure lets it enter the membrane interior and cross without a channel."
+        },
+        {
+          "text": "It carries a full charge that attracts the hydrophilic fatty-acid tails",
+          "correct": false,
+          "why": "Testosterone doesn't carry a full charge, and fatty-acid tails are hydrophobic rather than hydrophilic."
+        },
+        {
+          "text": "It is a polysaccharide that passes through carbohydrate transport proteins",
+          "correct": false,
+          "why": "Testosterone is a steroid lipid, not a polysaccharide. Its non-polarity allows direct diffusion."
+        },
+        {
+          "text": "It hydrolyzes membrane phospholipids and enters through the resulting gaps",
+          "correct": false,
+          "why": "Steroid diffusion doesn't require membrane damage. Testosterone dissolves in and crosses the intact bilayer."
+        }
+      ]
+    }
+  ]
+}
