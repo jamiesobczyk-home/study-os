@@ -1,0 +1,317 @@
+{
+  "topic": "A2.3",
+  "questions": [
+    {
+      "id": "A2.3-q01",
+      "stem": "Which set of features is shared by all viruses?",
+      "options": [
+        {
+          "text": "A nucleic-acid genome, a protein capsid, no cytoplasm, and few or no enzymes",
+          "correct": true,
+          "why": "These are the shared features in the syllabus. The genome can be DNA or RNA, while the capsid is made of protein."
+        },
+        {
+          "text": "A DNA genome, a protein capsid, ribosomes, and enzymes for independent metabolism",
+          "correct": false,
+          "why": "Some viral genomes are RNA, and viruses lack ribosomes and independent metabolism. Those cellular features would remove their dependence on a host."
+        },
+        {
+          "text": "An RNA genome, a lipid envelope, cytoplasm, and enzymes for protein synthesis",
+          "correct": false,
+          "why": "DNA viruses exist, and many viruses have no envelope. Viruses also lack cytoplasm and don't carry out their own protein synthesis."
+        },
+        {
+          "text": "A nucleic-acid genome, a cell membrane, cytoplasm, and a small number of ribosomes",
+          "correct": false,
+          "why": "That describes a reduced cell more closely than a virus. A viral capsid is universal, but cytoplasm and ribosomes are absent."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q02",
+      "stem": "Why must viruses use host cells to produce new virions?",
+      "options": [
+        {
+          "text": "They lack ribosomes and sufficient metabolic machinery for independent protein synthesis and reproduction",
+          "correct": true,
+          "why": "The host supplies ribosomes, energy, materials and other machinery. Viral genes redirect those resources toward making viral components."
+        },
+        {
+          "text": "Their capsids prevent nucleic acids from being copied until a host digests the protein coat",
+          "correct": false,
+          "why": "A capsid protects the genome during transmission. Host dependence comes from missing cellular machinery, not from the capsid blocking replication."
+        },
+        {
+          "text": "Their genomes contain no genes and therefore provide no instructions for making viral proteins",
+          "correct": false,
+          "why": "Viral genomes do contain genes for viral proteins and replication functions. The missing part is the complete machinery needed to express and copy them independently."
+        },
+        {
+          "text": "They obtain all genetic information from the host chromosome during every infection cycle",
+          "correct": false,
+          "why": "A virus brings its own genetic information into the infection. It uses host resources, but it doesn't obtain its entire genome from the host."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q03",
+      "stem": "Which comparison of bacteriophage lambda, coronaviruses and HIV is accurate?",
+      "options": [
+        {
+          "text": "Lambda has double-stranded DNA, while coronaviruses and HIV have single-stranded RNA",
+          "correct": true,
+          "why": "Lambda is a DNA bacteriophage. Coronaviruses are positive-sense RNA viruses, while HIV is an RNA retrovirus."
+        },
+        {
+          "text": "Lambda and HIV lack envelopes, while coronaviruses obtain envelopes from host cells",
+          "correct": false,
+          "why": "Lambda lacks an envelope, but HIV and coronaviruses are both enveloped. Their envelopes contain viral proteins."
+        },
+        {
+          "text": "Coronaviruses contain reverse transcriptase, while HIV translates its RNA genome directly",
+          "correct": false,
+          "why": "Reverse transcriptase belongs to HIV. Coronaviral positive-sense RNA can function as mRNA after entering a host cell."
+        },
+        {
+          "text": "All three contain double-stranded DNA protected by differently shaped protein capsids",
+          "correct": false,
+          "why": "Only lambda has a double-stranded DNA genome. Coronaviruses and HIV carry single-stranded RNA."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q04",
+      "stem": "What must happen before a negative-sense RNA viral genome can be translated?",
+      "options": [
+        {
+          "text": "It must be copied into complementary positive-sense mRNA",
+          "correct": true,
+          "why": "Ribosomes translate positive-sense mRNA. An RNA-dependent RNA polymerase must make that positive-sense copy first."
+        },
+        {
+          "text": "It must be integrated directly into the host chromosome",
+          "correct": false,
+          "why": "Integration is part of the retroviral route and lysogeny in temperate phages. Negative-sense RNA instead needs a positive-sense RNA copy."
+        },
+        {
+          "text": "It must be converted into protein by reverse transcriptase",
+          "correct": false,
+          "why": "Reverse transcriptase makes DNA from RNA; it doesn't make protein. Ribosomes carry out translation."
+        },
+        {
+          "text": "It must be joined to a capsid protein that acts as a ribosome",
+          "correct": false,
+          "why": "Capsid proteins protect the genome and don't act as ribosomes. Viral proteins are translated by host ribosomes."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q05",
+      "stem": "Which event occurs at the start of bacteriophage lambda’s lytic cycle?",
+      "options": [
+        {
+          "text": "The phage attaches to a receptor and injects its DNA",
+          "correct": true,
+          "why": "The phage recognizes the bacterium through attachment proteins. Its DNA enters while the head and tail remain outside."
+        },
+        {
+          "text": "The entire phage enters the bacterial cytoplasm by endocytosis",
+          "correct": false,
+          "why": "Bacteria don't take lambda in by endocytosis. Lambda remains outside and injects its DNA through the bacterial surface."
+        },
+        {
+          "text": "The bacterial chromosome enters the phage capsid for replication",
+          "correct": false,
+          "why": "The direction is backwards. Phage DNA enters the bacterium and uses host resources to replicate."
+        },
+        {
+          "text": "The phage divides by binary fission beside the bacterial chromosome",
+          "correct": false,
+          "why": "Binary fission is cell division. Viral parts are produced separately inside the host and assembled into virions."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q06",
+      "stem": "What happens to lambda DNA during the lysogenic cycle?",
+      "options": [
+        {
+          "text": "It integrates into the bacterial chromosome as a prophage",
+          "correct": true,
+          "why": "The prophage is copied whenever the host chromosome replicates and can pass to daughter cells without immediate lysis."
+        },
+        {
+          "text": "It is translated into capsid protein before any DNA replication",
+          "correct": false,
+          "why": "DNA isn't translated directly. It must be transcribed into mRNA, and immediate capsid production belongs to lytic replication."
+        },
+        {
+          "text": "It remains inside the external capsid while the bacterium divides",
+          "correct": false,
+          "why": "The viral DNA has been injected into the bacterium. During lysogeny it sits in the host chromosome, not in an external capsid."
+        },
+        {
+          "text": "It destroys the bacterial chromosome and immediately directs host-cell lysis",
+          "correct": false,
+          "why": "That describes destructive lytic infection. During lysogeny, the host chromosome survives and carries the prophage."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q07",
+      "stem": "A bacterial lineage carries lambda DNA for many generations without producing virions. Which event could later begin virion production?",
+      "options": [
+        {
+          "text": "Induction causing the prophage to leave the chromosome and enter the lytic cycle",
+          "correct": true,
+          "why": "A trigger such as DNA damage can cause prophage excision. Viral replication, assembly and lysis can then follow."
+        },
+        {
+          "text": "Conjugation causing the prophage to become a bacterial plasmid and divide independently",
+          "correct": false,
+          "why": "Conjugation transfers bacterial DNA between cells. The switch described here is prophage induction into the lytic cycle."
+        },
+        {
+          "text": "Binary fission causing the prophage capsid to rupture inside each daughter cell",
+          "correct": false,
+          "why": "A prophage is integrated DNA, not a complete capsid. Binary fission copies it without producing virions."
+        },
+        {
+          "text": "Translation causing viral RNA to integrate permanently into the bacterial chromosome",
+          "correct": false,
+          "why": "Translation makes protein from mRNA and doesn't integrate genomes. Lambda’s prophage consists of DNA already integrated in the chromosome."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q08",
+      "stem": "Which observation best supports the idea that viruses have several origins?",
+      "options": [
+        {
+          "text": "Viruses differ greatly in genome type, structure and replication mechanism",
+          "correct": true,
+          "why": "Their extreme diversity fits the idea that different viral groups arose through different evolutionary routes."
+        },
+        {
+          "text": "Every virus contains the same genes arranged in the same order",
+          "correct": false,
+          "why": "Viruses don't share one universal set of genes in one arrangement. Their genetic systems are highly diverse."
+        },
+        {
+          "text": "Every virus has an envelope derived from the same ancestral cell membrane",
+          "correct": false,
+          "why": "Many viruses have no envelope. Enveloped viruses obtain lipid membrane from their current host cells."
+        },
+        {
+          "text": "Viruses reproduce independently by one conserved form of binary fission",
+          "correct": false,
+          "why": "Viruses depend on host cells and don't undergo binary fission. Their replication routes vary widely."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q09",
+      "stem": "What does the progressive hypothesis propose about viral origins?",
+      "options": [
+        {
+          "text": "Cellular genetic elements gained the ability to move between cells and acquired protective structures",
+          "correct": true,
+          "why": "This is also called the escape hypothesis. Mobile genetic material may have become an infectious system."
+        },
+        {
+          "text": "Free-living cells lost structures and functions as they became increasingly dependent on hosts",
+          "correct": false,
+          "why": "That's the regressive or reduction hypothesis. It begins with cellular parasites becoming less complex."
+        },
+        {
+          "text": "Viruses existed before cells and later donated every cellular gene to the first organisms",
+          "correct": false,
+          "why": "That isn't the progressive hypothesis. The progressive route begins with genetic elements from existing cells."
+        },
+        {
+          "text": "Unrelated viruses independently evolved capsids because they faced similar selection pressures",
+          "correct": false,
+          "why": "That's an explanation based on convergent evolution. It explains similarity, not the progressive origin route itself."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q10",
+      "stem": "Why can many RNA viruses evolve rapidly?",
+      "options": [
+        {
+          "text": "Frequent copying errors, large populations and short generation times produce many variants",
+          "correct": true,
+          "why": "Mutation supplies variation quickly, and selection can increase variants favored by immunity, drugs or transmission conditions."
+        },
+        {
+          "text": "Host cells deliberately alter viral RNA so the infection can adapt to antiviral drugs",
+          "correct": false,
+          "why": "Mutations don't arise because adaptation is needed. Copying errors create variants, and drugs select among them."
+        },
+        {
+          "text": "RNA viruses reproduce by accurate binary fission but exchange genes with bacterial plasmids",
+          "correct": false,
+          "why": "Viruses don't reproduce by binary fission. Rapid change often follows error-prone genome copying and intense selection."
+        },
+        {
+          "text": "Every new virion receives genetic material from a different host-cell chromosome",
+          "correct": false,
+          "why": "Virions receive copies of the viral genome, not random host chromosomes. Variation mainly comes from mutation and, in some viruses, recombination or reassortment."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q11",
+      "stem": "Which process causes antigenic shift in influenza viruses?",
+      "options": [
+        {
+          "text": "Reassortment of genome segments from different influenza viruses in one host cell",
+          "correct": true,
+          "why": "Influenza has a segmented genome. Mixing segments can create a major new combination of surface antigens."
+        },
+        {
+          "text": "Gradual accumulation of mutations in genes encoding viral surface antigens",
+          "correct": false,
+          "why": "That's antigenic drift. It produces smaller changes that accumulate over time."
+        },
+        {
+          "text": "Integration of the influenza genome into a bacterial chromosome as a prophage",
+          "correct": false,
+          "why": "That describes lysogeny in a bacteriophage such as lambda. Influenza infects animal cells and doesn't form a bacterial prophage."
+        },
+        {
+          "text": "Reverse transcription of influenza RNA into DNA followed by chromosome integration",
+          "correct": false,
+          "why": "That's the retroviral route used by HIV. Influenza is an RNA virus but not a retrovirus."
+        }
+      ]
+    },
+    {
+      "id": "A2.3-q12",
+      "stem": "Why is a combination of antiretroviral drugs used to treat HIV?",
+      "options": [
+        {
+          "text": "Resistance to several drugs with different targets requires a less probable combination of mutations",
+          "correct": true,
+          "why": "A variant resistant to one drug may still be stopped by the others. This reduces the chance that resistant HIV will reproduce."
+        },
+        {
+          "text": "Each drug increases HIV’s mutation rate until the viral genome becomes unable to function",
+          "correct": false,
+          "why": "Treatment isn't intended to drive harmful mutation. The drugs inhibit different stages of viral replication."
+        },
+        {
+          "text": "Different drugs provide the ribosomes and enzymes that HIV lacks outside a host cell",
+          "correct": false,
+          "why": "Host cells provide the machinery HIV uses. Antiretroviral drugs inhibit viral processes rather than supplying missing structures."
+        },
+        {
+          "text": "One drug prevents antigenic drift while the others prevent influenza-style antigenic shift",
+          "correct": false,
+          "why": "Antigenic shift is associated with reassortment in segmented viruses such as influenza. HIV treatment targets its replication cycle."
+        }
+      ]
+    }
+  ]
+}

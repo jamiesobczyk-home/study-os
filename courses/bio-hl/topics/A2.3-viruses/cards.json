@@ -1,0 +1,125 @@
+{
+  "topic": "A2.3",
+  "title": "Viruses",
+  "cards": [
+    {
+      "id": "A2.3-01",
+      "q": "State the structural features shared by viruses, taking care not to include features found only in some viruses.",
+      "a": "Viruses are small, fixed-size particles containing nucleic acid as genetic material, either DNA or RNA, surrounded by a protein capsid. They have no cytoplasm and possess few or no enzymes.",
+      "note": "An envelope isn't universal, and a virus has DNA or RNA rather than both as its genome.",
+      "tags": ["hl", "structure"]
+    },
+    {
+      "id": "A2.3-02",
+      "q": "Explain why a virus can't reproduce independently even if nutrients are available.",
+      "a": "A virus has no cytoplasm or ribosomes and has little or no independent metabolic machinery. It must enter a suitable host cell and use the host’s energy supply, nutrients, enzymes and ribosomes to copy its genome, produce viral proteins and assemble new virions. Viruses are therefore obligate parasites.",
+      "note": "Nutrients alone aren't enough. The missing cellular machinery is the important point.",
+      "tags": ["hl", "host-dependence"]
+    },
+    {
+      "id": "A2.3-03",
+      "q": "Describe four ways in which the structures of viruses can differ.",
+      "a": "A viral genome may be DNA or RNA, and it may be single-stranded or double-stranded. Capsids vary in shape, including helical, polyhedral and complex forms. Some virions have a host-derived lipid envelope containing viral proteins, while others are non-enveloped.",
+      "tags": ["hl", "structure", "diversity"]
+    },
+    {
+      "id": "A2.3-04",
+      "q": "Compare the structures of bacteriophage lambda, a coronavirus and HIV.",
+      "a": "All three contain a nucleic-acid genome and a protein capsid. Lambda is a non-enveloped bacteriophage with a double-stranded DNA genome, a head and a tail used in infection of bacteria. Coronaviruses are enveloped viruses with a positive-sense single-stranded RNA genome and projecting spike proteins. HIV is an enveloped retrovirus with two copies of positive-sense single-stranded RNA, reverse transcriptase and viral glycoproteins in its envelope.",
+      "note": "The comparison needs a shared feature as well as differences.",
+      "tags": ["hl", "structure", "examples"]
+    },
+    {
+      "id": "A2.3-05",
+      "q": "Distinguish how positive-sense RNA viruses, negative-sense RNA viruses, retroviruses and DNA viruses produce mRNA.",
+      "a": "Positive-sense viral RNA can act as mRNA and be translated by host ribosomes. Negative-sense RNA must first be copied into complementary positive-sense mRNA by an RNA-dependent RNA polymerase. A retrovirus uses reverse transcriptase to make DNA from its RNA, and the integrated viral DNA is then transcribed into mRNA. A DNA virus produces mRNA by transcription from viral DNA.",
+      "note": "HIV has positive-sense RNA, but as a retrovirus it follows the RNA-to-DNA route after infection.",
+      "tags": ["hl", "genomes", "protein-synthesis"]
+    },
+    {
+      "id": "A2.3-06",
+      "q": "Outline the lytic cycle of bacteriophage lambda from attachment to release.",
+      "a": "The phage attaches to specific receptors on a bacterial cell and injects its DNA. Viral genes take control of host-cell processes. Phage DNA is replicated, viral proteins are synthesized by host ribosomes, and the components assemble into new virions. Viral products then cause the bacterium to lyse, releasing the virions.",
+      "note": "The phage injects its DNA into the bacterium; the entire phage particle doesn't enter.",
+      "tags": ["hl", "lytic-cycle", "lambda"]
+    },
+    {
+      "id": "A2.3-07",
+      "q": "Explain which resources a virus obtains from a host cell during a lytic infection.",
+      "a": "The host supplies energy, raw materials such as nucleotides and amino acids, enzymes and other machinery for nucleic-acid synthesis, and ribosomes for protein synthesis. The viral genome directs these resources toward producing viral nucleic acid and proteins, which assemble into new virions.",
+      "tags": ["hl", "lytic-cycle", "host-dependence"]
+    },
+    {
+      "id": "A2.3-08",
+      "q": "Outline the lysogenic cycle of bacteriophage lambda and explain how it can lead to a lytic cycle.",
+      "a": "Lambda attaches to a bacterium and injects its DNA. The phage DNA integrates into the bacterial chromosome and becomes a prophage. Viral lytic genes are repressed, so the bacterium survives and copies the prophage whenever its chromosome replicates. The prophage passes to daughter cells. A trigger such as DNA damage can cause induction, in which the prophage is excised and enters the lytic cycle.",
+      "tags": ["hl", "lysogenic-cycle", "lambda"]
+    },
+    {
+      "id": "A2.3-09",
+      "q": "Compare the lytic and lysogenic cycles of bacteriophage lambda.",
+      "a": "Both cycles begin with attachment and injection of phage DNA into a bacterium. In the lytic cycle, viral DNA is replicated, viral components are produced and assembled, and the host lyses to release virions. In the lysogenic cycle, viral DNA integrates as a prophage, is copied with the host chromosome and passes to daughter cells without immediate virion production or lysis. Induction can switch the prophage into the lytic cycle.",
+      "note": "Lysogenic doesn't mean the virus has permanently stopped. It can later enter the lytic cycle.",
+      "tags": ["hl", "lytic-cycle", "lysogenic-cycle", "comparison"]
+    },
+    {
+      "id": "A2.3-10",
+      "q": "Explain why the evidence favors several viral origins from cellular organisms rather than one established common origin for all viruses.",
+      "a": "Viruses show extreme differences in genome type, genome-replication mechanisms and structure, and no single feature establishes one common viral ancestor. Their complete dependence on cells and their use of the shared genetic code support origins connected to cellular life. Different groups may therefore have arisen independently from cellular genetic elements or reduced cellular parasites.",
+      "note": "Several origins are supported, but the historical origins of viruses can't be observed directly.",
+      "tags": ["hl", "origins", "evidence"]
+    },
+    {
+      "id": "A2.3-11",
+      "q": "Distinguish the progressive and regressive hypotheses for the origin of viruses.",
+      "a": "The progressive, or escape, hypothesis proposes that pieces of cellular genetic material gained the ability to move between cells and later acquired protective capsids. The regressive, or reduction, hypothesis proposes that cellular parasites became increasingly dependent on hosts and lost cellular structures and functions until only a reduced parasitic system remained.",
+      "tags": ["hl", "origins", "hypotheses"]
+    },
+    {
+      "id": "A2.3-12",
+      "q": "Explain how viruses with separate origins could still share a genome, capsid and dependence on host cells.",
+      "a": "Different viral lineages could face similar selection pressures while living as obligate intracellular parasites. Natural selection could independently favor a compact genetic system, a protective protein capsid and use of host-cell machinery. These shared features could therefore result from convergent evolution rather than inheritance from one recent common viral ancestor.",
+      "tags": ["hl", "origins", "convergent-evolution"]
+    },
+    {
+      "id": "A2.3-13",
+      "q": "Explain why some viruses can evolve rapidly.",
+      "a": "Many viruses, especially RNA viruses, have high mutation rates because their genome-copying enzymes make errors and often have limited proofreading. Short generation times and the production of huge numbers of virions generate many variants. Strong selection by host immunity and antiviral drugs then increases the frequency of variants with a survival or transmission advantage. Recombination or reassortment can create further variation in some viruses.",
+      "note": "Mutation creates variation; natural selection changes variant frequencies. Don't call those the same process.",
+      "tags": ["hl", "rapid-evolution", "natural-selection"]
+    },
+    {
+      "id": "A2.3-14",
+      "q": "Distinguish antigenic drift from antigenic shift in influenza viruses and give one consequence of each.",
+      "a": "Antigenic drift is the gradual accumulation of mutations in genes encoding influenza surface antigens. It produces smaller changes that help seasonal influenza escape some existing immunity and contribute to frequent vaccine updates. Antigenic shift is a major change caused when genome segments are reassorted between different influenza viruses infecting the same host cell. Shift can produce a new antigen combination to which human populations have little immunity.",
+      "note": "Shift depends on influenza’s segmented genome. It isn't a large point mutation.",
+      "tags": ["hl", "influenza", "antigenic-change"]
+    },
+    {
+      "id": "A2.3-15",
+      "q": "Explain why HIV evolves rapidly within one infected person and how this affects treatment.",
+      "a": "HIV produces many new virions, and its reverse transcriptase copies RNA into DNA with a high error rate and no proofreading. This creates a genetically varied viral population. An antiretroviral drug selects for any resistant variants, which can then increase in frequency. Combination therapy targets different stages of replication, making it less likely that one virus already carries all the mutations needed for resistance.",
+      "tags": ["hl", "HIV", "drug-resistance"]
+    },
+    {
+      "id": "A2.3-16",
+      "q": "Explain two ways rapid viral evolution changes the prevention or treatment of viral disease.",
+      "a": "Antigenic drift in influenza changes surface antigens, so vaccine strains are reviewed and updated to match viruses expected to circulate. Viral mutations can also produce drug-resistant variants, especially when replication continues during treatment. Using several antiviral drugs with different targets reduces the chance that a resistant virus will survive and reproduce.",
+      "tags": ["hl", "treatment", "vaccination", "evolution"]
+    },
+    {
+      "id": "A2.3-17",
+      "q": "Correct this claim: 'A virus is a tiny cell that grows and divides inside another cell.'",
+      "a": "A virus is acellular: it has no cytoplasm, ribosomes or independent metabolism. Its components are produced using host-cell machinery and then assembled into virions. It doesn't grow and divide by cell division.",
+      "note": "New virions are assembled from separately produced parts rather than formed by binary fission.",
+      "tags": ["hl", "misconception", "structure"]
+    },
+    {
+      "id": "A2.3-18",
+      "q": "Build one causal explanation linking viral structure, host dependence, rapid evolution and difficulty of treatment.",
+      "a": "A virus contains a small nucleic-acid genome and capsid but lacks the cellular machinery needed for independent reproduction, so it uses a host cell to copy its genome and make proteins. Rapid replication produces large viral populations, and inaccurate genome copying in many viruses creates mutations. Host immunity or antiviral drugs select variants that evade recognition or resist treatment. Vaccines may therefore need updating, and several antiviral drugs may be used together to limit resistance.",
+      "note": "The chain is structure, dependence, variation, selection and treatment consequence.",
+      "tags": ["hl", "synthesis", "evolution", "host-dependence"]
+    }
+  ]
+}

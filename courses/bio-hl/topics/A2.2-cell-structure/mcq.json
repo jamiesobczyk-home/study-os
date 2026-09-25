@@ -1,0 +1,317 @@
+{
+  "topic": "A2.2",
+  "questions": [
+    {
+      "id": "A2.2-q01",
+      "stem": "Which prediction follows deductively from cell theory when an organism is newly discovered?",
+      "options": [
+        {
+          "text": "The organism consists of one or more cells",
+          "correct": true,
+          "why": "Cell theory applies to living organisms, so it predicts cellular organization before the new organism is examined."
+        },
+        {
+          "text": "The organism consists entirely of eukaryotic cells",
+          "correct": false,
+          "why": "Cell theory predicts cells, but it doesn't predict their type. The organism could be prokaryotic."
+        },
+        {
+          "text": "Every cell in the organism contains one nucleus",
+          "correct": false,
+          "why": "Prokaryotes lack nuclei, and several eukaryotic cell types have many nuclei or none."
+        },
+        {
+          "text": "Every cell in the organism performs photosynthesis",
+          "correct": false,
+          "why": "Photosynthesis belongs to certain cells and organisms. It isn't part of cell theory."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q02",
+      "stem": "A cell is 25 µm long, while its micrograph is 50 mm long. What is the magnification?",
+      "options": [
+        {
+          "text": "×2",
+          "correct": false,
+          "why": "This comes from dividing 50 by 25 before matching the units. The image length is given in millimeters."
+        },
+        {
+          "text": "×200",
+          "correct": false,
+          "why": "This is ten times too small. Converting 50 mm gives 50,000 µm."
+        },
+        {
+          "text": "×2000",
+          "correct": true,
+          "why": "Convert 50 mm to 50,000 µm, then divide image size by actual size: 50,000 ÷ 25 = 2000."
+        },
+        {
+          "text": "×1,250,000",
+          "correct": false,
+          "why": "The measurements have been multiplied rather than divided. Magnification is image size divided by actual size."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q03",
+      "stem": "Which statement distinguishes resolution from magnification?",
+      "options": [
+        {
+          "text": "Resolution separates nearby points; magnification enlarges the image",
+          "correct": true,
+          "why": "Resolution determines whether fine detail can be distinguished. Magnification only describes how large the image is compared with the specimen."
+        },
+        {
+          "text": "Resolution enlarges organelles; magnification increases image contrast",
+          "correct": false,
+          "why": "Magnification enlarges the image, while contrast concerns differences between light and dark regions. Neither definition given here describes resolution."
+        },
+        {
+          "text": "Resolution measures specimen size; magnification measures field diameter",
+          "correct": false,
+          "why": "Specimen size and field diameter are measurements used in microscopy. They aren't the definitions of resolution and magnification."
+        },
+        {
+          "text": "Resolution stains specimens; magnification focuses the objective lens",
+          "correct": false,
+          "why": "Staining and focusing are preparation and microscope-use techniques. They don't define either quantity."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q04",
+      "stem": "What makes immunofluorescence useful for locating a particular protein in a cell?",
+      "options": [
+        {
+          "text": "Fluorescent antibodies bind specifically to the target antigen",
+          "correct": true,
+          "why": "Antibody specificity connects the fluorescent signal to a particular antigen, usually the protein being located."
+        },
+        {
+          "text": "Electrons cause every membrane in the specimen to fluoresce",
+          "correct": false,
+          "why": "Immunofluorescence is a light-microscopy method. Its selectivity comes from antibodies, not electron illumination."
+        },
+        {
+          "text": "A stain colors every organelle according to its natural pigment",
+          "correct": false,
+          "why": "Most organelles lack diagnostic natural pigments. Labeling every structure would also remove the method's specificity."
+        },
+        {
+          "text": "Freezing separates the two layers of each target protein",
+          "correct": false,
+          "why": "Freezing and splitting a specimen describes freeze fracture. It isn't how antibodies locate a protein."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q05",
+      "stem": "Which combination identifies a typical prokaryotic cell?",
+      "options": [
+        {
+          "text": "Nucleoid DNA, 70S ribosomes and no membrane-bound nucleus",
+          "correct": true,
+          "why": "A prokaryote keeps its DNA in a nucleoid region, uses 70S ribosomes and lacks a membrane-bound nucleus."
+        },
+        {
+          "text": "Nuclear chromosomes, 80S ribosomes and rough endoplasmic reticulum",
+          "correct": false,
+          "why": "A nucleus, cytoplasmic 80S ribosomes and rough ER are features of eukaryotic cells."
+        },
+        {
+          "text": "Nucleoid DNA, 80S ribosomes and a double nuclear membrane",
+          "correct": false,
+          "why": "A nucleoid and a nuclear membrane can't describe the same typical cell. Prokaryotic ribosomes are 70S."
+        },
+        {
+          "text": "Circular DNA, lysosomes and membrane-bound mitochondria",
+          "correct": false,
+          "why": "Lysosomes and mitochondria are membrane-bound eukaryotic organelles. Prokaryotes lack both."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q06",
+      "stem": "Which organelle modifies, sorts and packages proteins into vesicles?",
+      "options": [
+        {
+          "text": "Rough endoplasmic reticulum",
+          "correct": false,
+          "why": "Rough ER synthesizes proteins on attached ribosomes and begins their transport. Later sorting and packaging occur in the Golgi apparatus."
+        },
+        {
+          "text": "Golgi apparatus",
+          "correct": true,
+          "why": "The Golgi apparatus receives cell products, modifies and sorts them, then packages them into vesicles."
+        },
+        {
+          "text": "Smooth endoplasmic reticulum",
+          "correct": false,
+          "why": "Smooth ER is associated with lipid synthesis and other metabolic processes. It lacks attached ribosomes."
+        },
+        {
+          "text": "Lysosome",
+          "correct": false,
+          "why": "A lysosome contains hydrolytic enzymes used in intracellular digestion. It doesn't run the cell's packaging pathway."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q07",
+      "stem": "A micrograph shows a cell wall, a large sap vacuole and no visible chloroplasts. Which conclusion is best supported?",
+      "options": [
+        {
+          "text": "It can't be a plant cell because chloroplasts are absent",
+          "correct": false,
+          "why": "Many plant cells, including root cells, don't contain chloroplasts. Chloroplast absence doesn't exclude a plant cell."
+        },
+        {
+          "text": "It is definitely fungal because all fungi have large sap vacuoles",
+          "correct": false,
+          "why": "Fungal cells can have vacuoles, but a large sap vacuole doesn't prove fungal identity. Wall composition would matter."
+        },
+        {
+          "text": "It may be a non-photosynthetic plant cell",
+          "correct": true,
+          "why": "A cell wall and large sap vacuole support plant identity, while a non-photosynthetic plant cell may lack chloroplasts."
+        },
+        {
+          "text": "It must be animal because chloroplasts are absent",
+          "correct": false,
+          "why": "Animal cells lack cell walls and don't have a large permanent sap vacuole. Chloroplast absence alone isn't enough."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q08",
+      "stem": "Which feature makes a mature mammalian red blood cell atypical among eukaryotic cells?",
+      "options": [
+        {
+          "text": "It contains many nuclei formed by cell fusion",
+          "correct": false,
+          "why": "That describes a skeletal muscle fiber. A mature mammalian red blood cell loses its nucleus."
+        },
+        {
+          "text": "It has naked circular DNA in a nucleoid",
+          "correct": false,
+          "why": "That describes prokaryotic genetic organization. A mature mammalian red blood cell has no nucleoid."
+        },
+        {
+          "text": "It lacks a nucleus after differentiation",
+          "correct": true,
+          "why": "The nucleus is lost as the mammalian red blood cell matures, making it an anucleate eukaryotic cell."
+        },
+        {
+          "text": "It shares one cytoplasm with neighboring cells",
+          "correct": false,
+          "why": "Continuous multinucleate cytoplasm describes an aseptate fungal hypha, not separate red blood cells."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q09",
+      "stem": "Which observation best supports the endosymbiotic origin of mitochondria?",
+      "options": [
+        {
+          "text": "They contain hydrolytic enzymes inside a single membrane",
+          "correct": false,
+          "why": "That describes lysosomes. Hydrolytic enzymes don't provide the required prokaryote-like evidence."
+        },
+        {
+          "text": "They contain 70S ribosomes and naked circular DNA",
+          "correct": true,
+          "why": "These resemble prokaryotic ribosomes and DNA, supporting the origin of mitochondria from an engulfed prokaryote."
+        },
+        {
+          "text": "They are assembled by the Golgi apparatus from vesicles",
+          "correct": false,
+          "why": "Golgi vesicles don't assemble mitochondria. Mitochondria grow and replicate within cells."
+        },
+        {
+          "text": "They contain 80S ribosomes enclosed by a nucleus",
+          "correct": false,
+          "why": "Cytoplasmic 80S ribosomes and a nucleus are eukaryotic features. Mitochondria contain 70S ribosomes and no nucleus."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q10",
+      "stem": "Why can two differentiated cells have different structures even when they contain the same genome?",
+      "options": [
+        {
+          "text": "They express different genes and produce different proteins",
+          "correct": true,
+          "why": "Different patterns of gene expression change which proteins are produced, leading to specialized structures and functions."
+        },
+        {
+          "text": "They replace their DNA with genes taken from nearby tissues",
+          "correct": false,
+          "why": "Differentiation doesn't normally replace the genome. Cells alter which existing genes they express."
+        },
+        {
+          "text": "They translate every gene but destroy different chromosomes afterward",
+          "correct": false,
+          "why": "Cells don't normally express every gene or discard chromosomes to specialize. Regulation occurs at gene expression."
+        },
+        {
+          "text": "They receive different ribosome types during each cell division",
+          "correct": false,
+          "why": "Different cytoplasmic ribosome types don't explain specialization. The important difference is which genes are expressed."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q11",
+      "stem": "Which pair correctly matches an atypical cell structure with its number of nuclei?",
+      "options": [
+        {
+          "text": "Skeletal muscle fiber: no nuclei",
+          "correct": false,
+          "why": "Skeletal muscle fibers are multinucleate because precursor cells fuse during their development."
+        },
+        {
+          "text": "Aseptate fungal hypha: many nuclei",
+          "correct": true,
+          "why": "An aseptate hypha has continuous cytoplasm containing many nuclei without complete cross-walls separating them."
+        },
+        {
+          "text": "Mature sieve tube element: one nucleus",
+          "correct": false,
+          "why": "A mature sieve tube element lacks a nucleus and depends on an associated companion cell."
+        },
+        {
+          "text": "Mature mammalian red blood cell: many nuclei",
+          "correct": false,
+          "why": "A mature mammalian red blood cell has no nucleus. It doesn't become multinucleate."
+        }
+      ]
+    },
+    {
+      "id": "A2.2-q12",
+      "stem": "What is one advantage of multicellularity identified in A2.2?",
+      "options": [
+        {
+          "text": "Every cell can perform every function independently",
+          "correct": false,
+          "why": "That describes the demand placed on a unicellular organism. Multicellular organisms can divide functions among specialized cells."
+        },
+        {
+          "text": "All cells can lose their plasma membranes",
+          "correct": false,
+          "why": "Cells still need plasma membranes to maintain boundaries and regulate exchange. Multicellularity doesn't remove that requirement."
+        },
+        {
+          "text": "Specialized cells can divide biological functions",
+          "correct": true,
+          "why": "Cell specialization permits division of labor, and cooperation among those cells can support a larger body."
+        },
+        {
+          "text": "The organism no longer needs gene expression",
+          "correct": false,
+          "why": "Gene expression is required for cell function and differentiation. Multicellularity makes its regulation especially important."
+        }
+      ]
+    }
+  ]
+}

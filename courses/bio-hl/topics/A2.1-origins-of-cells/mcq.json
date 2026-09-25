@@ -1,0 +1,369 @@
+{
+  "topic": "A2.1",
+  "questions": [
+    {
+      "id": "A2.1-q01",
+      "stem": "Which condition increased ultraviolet radiation at the surface of early Earth?",
+      "options": [
+        {
+          "text": "The absence of free oxygen and therefore of a protective ozone layer",
+          "correct": true,
+          "why": "Atmospheric ozone forms from oxygen. With little free oxygen, early Earth had little ozone to absorb incoming ultraviolet radiation."
+        },
+        {
+          "text": "The accumulation of free oxygen released by the earliest photosynthetic organisms",
+          "correct": false,
+          "why": "Accumulating oxygen would allow an ozone layer to form and reduce ultraviolet penetration. It describes a later change caused by photosynthesis."
+        },
+        {
+          "text": "The removal of methane and carbon dioxide from the early atmosphere",
+          "correct": false,
+          "why": "Methane and carbon dioxide are linked to atmospheric warming in this topic. Removing them doesn’t explain the lack of ultraviolet protection."
+        },
+        {
+          "text": "The presence of an ozone layer composed mainly of carbon dioxide",
+          "correct": false,
+          "why": "Ozone consists of oxygen atoms, not carbon dioxide. An ozone layer absorbs ultraviolet radiation rather than increasing it."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q02",
+      "stem": "Why are viruses classified as non-living in A2.1?",
+      "options": [
+        {
+          "text": "They lack cellular organization and depend on host-cell machinery for replication",
+          "correct": true,
+          "why": "Viruses can’t carry out independent metabolism or reproduce autonomously. They need a living host cell to make their components."
+        },
+        {
+          "text": "They contain no genetic information that can be inherited by descendants",
+          "correct": false,
+          "why": "Viruses contain DNA or RNA, so they do carry genetic information. Their dependence on host-cell machinery is the problem."
+        },
+        {
+          "text": "They are too small to perform any chemical reactions involving biological molecules",
+          "correct": false,
+          "why": "Size doesn’t determine whether something is living. Viruses can participate in chemical interactions but lack an independent cellular metabolism."
+        },
+        {
+          "text": "They reproduce by cell division only when environmental conditions become favorable",
+          "correct": false,
+          "why": "Viruses don’t reproduce by cell division. New viral particles are assembled from components made within an infected host cell."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q03",
+      "stem": "Which result was obtained in the Miller–Urey experiment?",
+      "options": [
+        {
+          "text": "Amino acids and other carbon compounds formed from simpler substances",
+          "correct": true,
+          "why": "The experiment showed that biological building blocks could form abiotically when the chosen gas mixture received an energy input."
+        },
+        {
+          "text": "Self-replicating cells formed after the gases received electrical discharges",
+          "correct": false,
+          "why": "No cells or self-replicating systems formed. Electrical sparks helped produce much less complex carbon compounds."
+        },
+        {
+          "text": "DNA molecules formed and began directing the synthesis of proteins",
+          "correct": false,
+          "why": "The experiment didn’t produce DNA or a system for protein synthesis. It addressed the earlier formation of small carbon compounds."
+        },
+        {
+          "text": "Fatty-acid vesicles evolved by natural selection inside the apparatus",
+          "correct": false,
+          "why": "The reported result concerned abiotic production of carbon compounds. It didn’t demonstrate vesicle evolution or natural selection."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q04",
+      "stem": "What is the strongest valid conclusion from the Miller–Urey experiment?",
+      "options": [
+        {
+          "text": "Abiotic production of carbon compounds is possible under some proposed prebiotic conditions",
+          "correct": true,
+          "why": "That conclusion stays within the evidence. The experiment tested one possible environment and produced carbon compounds without organisms."
+        },
+        {
+          "text": "The experimental gas mixture exactly reproduced the atmosphere of early Earth",
+          "correct": false,
+          "why": "The composition of the early atmosphere remains uncertain. An experimental model isn’t proof that every chosen condition existed."
+        },
+        {
+          "text": "The origin of self-replicating life from non-living matter has been demonstrated",
+          "correct": false,
+          "why": "The apparatus didn’t produce heredity, autonomous replication or cells. It tested one chemical step proposed before life."
+        },
+        {
+          "text": "Lightning was the only energy source capable of producing early organic molecules",
+          "correct": false,
+          "why": "Electrical sparks modeled one possible energy source. Ultraviolet radiation, heat and other energy sources could also drive prebiotic reactions."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q05",
+      "stem": "Why can fatty acids form spherical bilayer vesicles in water?",
+      "options": [
+        {
+          "text": "Their hydrophilic regions face water while hydrophobic regions coalesce inward",
+          "correct": true,
+          "why": "Those interactions drive amphipathic molecules into bilayers. Closing into a sphere prevents hydrophobic regions at a bilayer edge from contacting water."
+        },
+        {
+          "text": "Their hydrophobic regions form hydrogen bonds with the surrounding water molecules",
+          "correct": false,
+          "why": "Hydrophobic regions interact poorly with water. They cluster away from it while the hydrophilic regions remain exposed."
+        },
+        {
+          "text": "Enzymes arrange each fatty acid into its genetically specified membrane position",
+          "correct": false,
+          "why": "This is self-assembly, so a pre-existing enzyme or genetic program isn’t required to position every molecule."
+        },
+        {
+          "text": "Electrical attraction places all hydrophilic regions inside an air-filled compartment",
+          "correct": false,
+          "why": "A vesicle has an aqueous interior, not an air-filled one. Hydrophilic regions face water on both sides of the bilayer."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q06",
+      "stem": "What was the main biological importance of compartmentalization in protocells?",
+      "options": [
+        {
+          "text": "It allowed internal conditions and reactions to differ from the surroundings",
+          "correct": true,
+          "why": "A boundary can retain molecules, concentrate reactants and establish a distinct internal chemical environment."
+        },
+        {
+          "text": "It guaranteed that every membrane-bound structure could reproduce independently",
+          "correct": false,
+          "why": "A membrane doesn’t provide a replication system. Reproduction requires additional molecular processes for copying and inheritance."
+        },
+        {
+          "text": "It converted every molecule inside the compartment into genetic material",
+          "correct": false,
+          "why": "Enclosure doesn’t change all contents into information-carrying molecules. It keeps potentially useful molecules and reactions associated."
+        },
+        {
+          "text": "It prevented all substances and energy from crossing the outer boundary",
+          "correct": false,
+          "why": "A completely sealed compartment couldn’t obtain reactants or exchange energy. Membranes create selective boundaries, not total isolation."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q07",
+      "stem": "Which combination of properties makes RNA a candidate for the first genetic material?",
+      "options": [
+        {
+          "text": "It can store sequence information and some RNA molecules can catalyze reactions",
+          "correct": true,
+          "why": "RNA can contribute to both heredity and catalysis. That combination could reduce the number of different molecular systems required in early life."
+        },
+        {
+          "text": "It is always double stranded and chemically more stable than DNA",
+          "correct": false,
+          "why": "Cellular RNA is usually single stranded and is generally less chemically stable than DNA. Greater stability helps DNA serve as modern long-term storage."
+        },
+        {
+          "text": "It contains amino acids that fold into active sites for metabolism",
+          "correct": false,
+          "why": "Proteins are polymers of amino acids. RNA is made from ribonucleotides, although its folding can still create a catalytic shape."
+        },
+        {
+          "text": "It can reproduce complete cells without templates, catalysts or energy",
+          "correct": false,
+          "why": "RNA replication requires chemical resources and a mechanism for templated copying. The hypothesis doesn’t give RNA unlimited autonomous reproduction."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q08",
+      "stem": "Which observation in modern cells supports an ancient catalytic role for RNA?",
+      "options": [
+        {
+          "text": "Ribosomal RNA catalyzes peptide bond formation during translation",
+          "correct": true,
+          "why": "The ribosome retains RNA at the catalytic center of protein synthesis. This is evidence that RNA can act as a biological catalyst."
+        },
+        {
+          "text": "Messenger RNA permanently stores the complete genome of every cell",
+          "correct": false,
+          "why": "Modern cellular genomes are generally stored as DNA. Messenger RNA carries temporary copies of information for translation."
+        },
+        {
+          "text": "Transfer RNA catalyzes the replication of chromosomal DNA before division",
+          "correct": false,
+          "why": "Transfer RNA carries amino acids during translation. DNA polymerases and other proteins carry out chromosomal DNA replication."
+        },
+        {
+          "text": "Ribosomal proteins alone create every peptide bond during translation",
+          "correct": false,
+          "why": "Proteins support ribosome structure and function, but ribosomal RNA forms the catalytic center responsible for peptide bond formation."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q09",
+      "stem": "Which statement defines LUCA most accurately?",
+      "options": [
+        {
+          "text": "The most recent ancestral population shared by all organisms alive today",
+          "correct": true,
+          "why": "LUCA is defined through the common ancestry of surviving organisms. It may have been a population rather than one individual cell."
+        },
+        {
+          "text": "The first self-replicating molecule that formed anywhere on early Earth",
+          "correct": false,
+          "why": "LUCA came after earlier prebiotic chemistry and probably after earlier living systems. It isn’t the first replicating molecule."
+        },
+        {
+          "text": "The only living lineage that ever evolved from non-living material",
+          "correct": false,
+          "why": "Other origins or early lineages may have occurred and then become extinct. Present evidence traces surviving life back to LUCA."
+        },
+        {
+          "text": "The earliest fossilized organism discovered in a hydrothermal vent deposit",
+          "correct": false,
+          "why": "No fossil has been identified directly as LUCA. LUCA is reconstructed from shared features and genomic comparisons."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q10",
+      "stem": "Which evidence most directly supports common descent from LUCA?",
+      "options": [
+        {
+          "text": "A shared genetic code and conserved genes across cellular organisms",
+          "correct": true,
+          "why": "Extensive agreement in core information processing is expected if modern organisms inherited those features from common ancestry."
+        },
+        {
+          "text": "Different organisms occupying unrelated habitats throughout the modern world",
+          "correct": false,
+          "why": "Habitat diversity shows ecological adaptation, not common ancestry by itself. Molecular features shared across that diversity provide the evidence."
+        },
+        {
+          "text": "The formation of amino acids inside the Miller–Urey apparatus",
+          "correct": false,
+          "why": "Miller–Urey supports abiotic synthesis of building blocks. It doesn’t compare organisms or establish their common descent."
+        },
+        {
+          "text": "The spontaneous assembly of fatty acids into artificial laboratory vesicles",
+          "correct": false,
+          "why": "Vesicle assembly supports a possible step in protocell formation. It doesn’t show that present organisms share one ancestor."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q11",
+      "stem": "What can the age of the oldest accepted biosignature establish?",
+      "options": [
+        {
+          "text": "Life existed by at least that date",
+          "correct": true,
+          "why": "A dated biosignature gives a minimum age for life. The biological system that produced it may have evolved much earlier."
+        },
+        {
+          "text": "Life originated at exactly that date",
+          "correct": false,
+          "why": "The earliest surviving evidence needn’t record the first life. Older evidence may have been destroyed, altered or never preserved."
+        },
+        {
+          "text": "LUCA divided into all modern species on that date",
+          "correct": false,
+          "why": "A biosignature doesn’t record every later divergence. LUCA and the diversification of modern lineages are inferred using additional evidence."
+        },
+        {
+          "text": "Every older carbon compound had a non-biological origin",
+          "correct": false,
+          "why": "An absence of accepted older evidence doesn’t prove an absence of older life. Preservation and interpretation are both limited."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q12",
+      "stem": "How does a molecular clock estimate the time since two lineages diverged?",
+      "options": [
+        {
+          "text": "It relates sequence differences to an estimated rate of molecular change",
+          "correct": true,
+          "why": "Differences accumulate after divergence. A calibrated rate allows scientists to estimate how much time was needed to produce them."
+        },
+        {
+          "text": "It measures the radioactive decay of DNA preserved inside living cells",
+          "correct": false,
+          "why": "Molecular clocks compare inherited sequence changes. Radiometric dating instead measures radioactive isotopes in suitable geological materials."
+        },
+        {
+          "text": "It counts the number of cells produced by each lineage per year",
+          "correct": false,
+          "why": "Generation counts alone don’t reconstruct ancient divergence. The method depends on changes in homologous molecular sequences."
+        },
+        {
+          "text": "It assumes every organism has accumulated an identical number of mutations",
+          "correct": false,
+          "why": "Lineages and genes can change at different rates, which is a limitation. The method needs estimated rates and calibration, not identical totals."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q13",
+      "stem": "Which finding would support the hypothesis that LUCA lived near hydrothermal vents?",
+      "options": [
+        {
+          "text": "Conserved genes indicate anaerobic, hydrogen-dependent metabolism suited to vent conditions",
+          "correct": true,
+          "why": "Genes inferred from shared sequences can reveal likely metabolic traits. Anaerobic use of hydrogen fits the chemistry around hydrothermal vents."
+        },
+        {
+          "text": "Recently evolved genes occur only in animals living near warm surface waters",
+          "correct": false,
+          "why": "Recent animal genes say little about LUCA. The relevant evidence must be ancient, conserved across major domains and tied to vent conditions."
+        },
+        {
+          "text": "Every modern organism requires oxygen for aerobic cellular respiration",
+          "correct": false,
+          "why": "Many organisms are anaerobic, and free oxygen was scarce on early Earth. Universal oxygen dependence isn’t a feature reconstructed for LUCA."
+        },
+        {
+          "text": "Miller–Urey products formed only when exposed to oxygen-rich seawater",
+          "correct": false,
+          "why": "The Miller–Urey atmosphere lacked free oxygen and didn’t test LUCA’s habitat. This option conflicts with both the setup and the evidence asked for."
+        }
+      ]
+    },
+    {
+      "id": "A2.1-q14",
+      "stem": "A student claims that fossil-like structures in ancient vent deposits prove LUCA lived there. What is the best evaluation?",
+      "options": [
+        {
+          "text": "The structures support ancient life near vents but don’t identify it directly as LUCA",
+          "correct": true,
+          "why": "Location and age can support an early vent habitat. Identifying LUCA requires additional comparative genomic evidence and still remains an inference."
+        },
+        {
+          "text": "The structures prove the organisms were LUCA because all fossils preserve complete genomes",
+          "correct": false,
+          "why": "Ancient microscopic structures don’t preserve complete readable genomes. Their identity can’t be established that way."
+        },
+        {
+          "text": "The structures provide no evidence because minerals can never preserve biological material",
+          "correct": false,
+          "why": "Mineral precipitates can preserve biological shapes and chemical signatures. The limitation concerns interpretation, not an absolute lack of evidence."
+        },
+        {
+          "text": "The structures prove that hydrothermal vents created the first carbon compounds",
+          "correct": false,
+          "why": "Evidence of organisms near vents doesn’t establish where the earliest carbon compounds formed. Those are separate claims requiring different evidence."
+        }
+      ]
+    }
+  ]
+}

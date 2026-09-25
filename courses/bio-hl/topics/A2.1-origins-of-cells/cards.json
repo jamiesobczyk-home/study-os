@@ -1,0 +1,201 @@
+{
+  "topic": "A2.1",
+  "title": "Origins of cells",
+  "cards": [
+    {
+      "id": "A2.1-01",
+      "q": "Explain how conditions on early Earth could have promoted the prebiotic formation of carbon compounds.",
+      "a": "Early Earth had little or no free oxygen, so it also lacked an ozone layer. More ultraviolet radiation could reach the surface and provide energy for chemical reactions. Higher concentrations of carbon dioxide and methane contributed to higher temperatures. Under these conditions, carbon compounds could form abiotically through chemical processes that rarely occur under present atmospheric conditions.",
+      "note": "Carbon compounds forming without organisms is evidence for prebiotic chemistry, not the production of life.",
+      "tags": [
+        "hl",
+        "early-earth",
+        "prebiotic-chemistry"
+      ]
+    },
+    {
+      "id": "A2.1-02",
+      "q": "Explain why a cell is considered the smallest unit of self-sustaining life and why a virus doesn’t qualify.",
+      "a": "A cell is the smallest unit that can perform the coordinated processes of life, including metabolism, maintenance and reproduction at the cellular level. A virus has no cellular structure or independent metabolism and can reproduce only by using the molecular machinery of a host cell. Viruses therefore aren’t classified as living cells.",
+      "note": "The key word is independently. Viruses contain genetic material, but genetic material alone doesn’t make a system living.",
+      "tags": [
+        "hl",
+        "cells",
+        "viruses"
+      ]
+    },
+    {
+      "id": "A2.1-03",
+      "q": "Explain why hypotheses about the spontaneous origin of the first cells are unusually difficult to test.",
+      "a": "Modern cells are highly complex and arise by division of pre-existing cells, while the first cells had to develop from non-living material. The exact conditions on prebiotic Earth can’t be reproduced with certainty, and delicate protocells would be unlikely to leave recognizable fossils. Experiments can test whether individual proposed steps are possible, but they can’t recreate or directly observe the full historical event.",
+      "tags": [
+        "hl",
+        "nature-of-science",
+        "abiogenesis"
+      ]
+    },
+    {
+      "id": "A2.1-04",
+      "q": "Explain the roles of catalysis, self-assembly, self-replication and compartmentalization in the evolution of the first cells.",
+      "a": "Catalysis increased the rates of useful chemical reactions. Self-assembly allowed molecules to organize into larger structures without a pre-existing cell directing them. Self-replication allowed information to be copied and inherited, making evolution possible. Compartmentalization enclosed molecules and reactions so an internal chemical environment could differ from the surroundings.",
+      "note": "These are requirements that solve different problems. Listing the four terms without their roles won’t explain cell origins.",
+      "tags": [
+        "hl",
+        "abiogenesis",
+        "synthesis"
+      ]
+    },
+    {
+      "id": "A2.1-05",
+      "q": "Describe the setup and result of the Miller–Urey experiment.",
+      "a": "Miller and Urey heated water and circulated its vapor through gases including methane, ammonia and hydrogen in a closed apparatus without free oxygen. Electrical sparks supplied energy to represent lightning. The gases were then cooled so products condensed and circulated. After several days, the apparatus contained amino acids and other carbon compounds that hadn’t been present at the start.",
+      "note": "The experiment produced organic building blocks, not proteins, cells or life.",
+      "tags": [
+        "hl",
+        "miller-urey",
+        "evidence"
+      ]
+    },
+    {
+      "id": "A2.1-06",
+      "q": "Evaluate what the Miller–Urey experiment does and doesn’t show about the origin of cells.",
+      "a": "The experiment shows that carbon compounds, including amino acids, can form abiotically from simpler substances when an energy source is present. It therefore supports the plausibility of prebiotic synthesis. Its gas mixture and other conditions may not accurately represent every part of early Earth, and the experiment didn’t produce self-replicating systems or cells. It supports one proposed step rather than demonstrating how life began.",
+      "tags": [
+        "hl",
+        "miller-urey",
+        "evaluation"
+      ]
+    },
+    {
+      "id": "A2.1-07",
+      "q": "Explain how fatty acids can spontaneously form spherical bilayer vesicles in water.",
+      "a": "Fatty acids are amphipathic, with hydrophilic regions that interact with water and hydrophobic regions that avoid contact with it. In water, many fatty acids can coalesce into a bilayer with hydrophilic regions facing the aqueous solutions and hydrophobic regions facing inward toward one another. Closing the bilayer into a sphere removes exposed edges and produces a vesicle with an aqueous interior.",
+      "note": "Self-assembly follows from molecular interactions. It doesn’t require genes or enzymes directing every molecule.",
+      "tags": [
+        "hl",
+        "fatty-acids",
+        "vesicles"
+      ]
+    },
+    {
+      "id": "A2.1-08",
+      "q": "Explain why membrane-bound vesicles were an important proposed step toward the first cells.",
+      "a": "A vesicle creates a boundary between an internal aqueous compartment and the external environment. Molecules and reaction products can become concentrated inside it rather than dispersing, and the internal conditions can differ from those outside. This allows interacting reactions and replicating molecules to remain associated, although a membrane alone doesn’t make the vesicle alive.",
+      "tags": [
+        "hl",
+        "compartmentalization",
+        "protocells"
+      ]
+    },
+    {
+      "id": "A2.1-09",
+      "q": "Explain why RNA is presumed to have preceded DNA as genetic material in early living systems.",
+      "a": "The base sequence of RNA can store genetic information, and an RNA strand can serve as a template for production of a complementary strand. Some RNA molecules also fold into shapes that catalyze reactions. RNA could therefore have contributed to both heredity and catalysis before separate DNA genomes and protein enzymes evolved.",
+      "note": "The RNA world is a supported hypothesis, not a directly observed history of the first life.",
+      "tags": [
+        "hl",
+        "rna-world",
+        "genetic-material"
+      ]
+    },
+    {
+      "id": "A2.1-10",
+      "q": "Use a feature of the modern ribosome as evidence for the RNA world hypothesis.",
+      "a": "In the ribosome, ribosomal RNA in the large subunit catalyzes peptide bond formation during protein synthesis. The catalytic center is therefore a ribozyme rather than a protein enzyme. This retained catalytic role is consistent with the hypothesis that RNA performed catalytic functions before proteins became the main cellular catalysts.",
+      "tags": [
+        "hl",
+        "ribozymes",
+        "ribosome"
+      ]
+    },
+    {
+      "id": "A2.1-11",
+      "q": "Define LUCA and distinguish it from the first living cell.",
+      "a": "LUCA is the last universal common ancestor, meaning the most recent ancestral population from which all organisms alive today descended. LUCA wasn’t necessarily the first cell. Earlier cells and other lineages could have existed before or alongside it without leaving living descendants.",
+      "note": "LUCA means last common ancestor of present life, not first life and not necessarily one individual cell.",
+      "tags": [
+        "hl",
+        "luca",
+        "common-ancestry"
+      ]
+    },
+    {
+      "id": "A2.1-12",
+      "q": "Explain how the genetic code and shared genes provide evidence for LUCA.",
+      "a": "Organisms use the same basic genetic code to translate nucleotide sequences into amino acid sequences, and organisms across all domains share conserved genes involved in fundamental cellular processes. Independent origins would be less likely to produce this extensive molecular agreement. The shared features are therefore evidence that modern organisms inherited core biology from a common ancestral population.",
+      "tags": [
+        "hl",
+        "luca",
+        "genetic-code",
+        "conserved-genes"
+      ]
+    },
+    {
+      "id": "A2.1-13",
+      "q": "Explain why evidence for LUCA doesn’t mean that life originated only once.",
+      "a": "LUCA is identified from the shared features of organisms that survive today. Other self-replicating systems or cellular lineages may have evolved independently but later become extinct. Competition from LUCA and its descendants could have removed these lineages, leaving LUCA as the common ancestor of all surviving life.",
+      "tags": [
+        "hl",
+        "luca",
+        "extinction",
+        "misconception"
+      ]
+    },
+    {
+      "id": "A2.1-14",
+      "q": "Explain how fossils and carbon isotope ratios can provide minimum-age estimates for early life.",
+      "a": "Structures such as stromatolites can resemble deposits produced by microbial communities, and radiometric dating of their rock context gives an age for the evidence. Biological carbon fixation tends to favor carbon-12 over carbon-13, so unusually low carbon-13 to carbon-12 ratios in ancient carbon can act as a biosignature. Such evidence gives a minimum age because the organisms that produced it must already have existed, but similar structures or chemical patterns can sometimes have non-biological causes.",
+      "note": "The date of the oldest accepted evidence isn’t necessarily the date life began.",
+      "tags": [
+        "hl",
+        "dating",
+        "fossils",
+        "isotopes"
+      ]
+    },
+    {
+      "id": "A2.1-15",
+      "q": "Explain how a molecular clock estimates the age of LUCA and why the estimate is uncertain.",
+      "a": "Scientists compare homologous DNA, RNA or protein sequences in living organisms and count differences that have accumulated since their lineages diverged. If the rate of sequence change can be estimated and calibrated, the number of differences can be used to estimate divergence time and work backwards toward LUCA. Estimates are uncertain because mutation rates vary among genes, organisms and periods, while horizontal gene transfer and repeated changes at the same position can obscure history.",
+      "tags": [
+        "hl",
+        "molecular-clock",
+        "dating"
+      ]
+    },
+    {
+      "id": "A2.1-16",
+      "q": "Explain how ancient hydrothermal vent precipitates provide evidence about the environment of early life.",
+      "a": "Mineral-rich fluids at seafloor hydrothermal vents form precipitates that can surround, mineralize and preserve biological structures. Ancient vent precipitates contain microscopic structures and chemical signatures interpreted as evidence of early life. Their location supports the hypothesis that some ancient organisms lived near hydrothermal vents, although it doesn’t identify those organisms directly as LUCA.",
+      "note": "Ancient life at vents and LUCA at vents are related claims, but they aren’t identical.",
+      "tags": [
+        "hl",
+        "hydrothermal-vents",
+        "fossils"
+      ]
+    },
+    {
+      "id": "A2.1-17",
+      "q": "Explain how genomic analysis can support the hypothesis that LUCA lived near hydrothermal vents.",
+      "a": "Scientists compare genomes from bacteria and archaea to identify highly conserved sequences likely to have been inherited from their common ancestry. Some reconstructed genes are associated with anaerobic metabolism, high-temperature conditions and the use of hydrogen in energy metabolism. Those inferred traits fit conditions near hydrothermal vents, so genomic evidence supports that habitat without proving an exact location.",
+      "tags": [
+        "hl",
+        "hydrothermal-vents",
+        "genomics",
+        "luca"
+      ]
+    },
+    {
+      "id": "A2.1-18",
+      "q": "Construct a supported sequence from non-living chemistry to the common ancestry of modern cells.",
+      "a": "Energy available on prebiotic Earth could promote abiotic formation of carbon compounds, as laboratory experiments show is chemically possible. Molecular self-assembly could produce larger structures and fatty-acid vesicles, while catalytic and replicating RNA could combine reaction control with heredity. Compartments could retain these molecules and establish distinct internal chemistry, allowing protocells to evolve by selection. Fossils, isotope patterns and molecular comparisons indicate that cellular life then evolved for immense periods, with all surviving organisms tracing their ancestry to LUCA.",
+      "note": "Keep possibility, evidence and conclusion separate. No experiment has reproduced this entire sequence.",
+      "tags": [
+        "hl",
+        "synthesis",
+        "abiogenesis",
+        "luca"
+      ]
+    }
+  ]
+}

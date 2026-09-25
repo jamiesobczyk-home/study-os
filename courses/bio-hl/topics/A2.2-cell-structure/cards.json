@@ -1,0 +1,126 @@
+{
+  "topic": "A2.2",
+  "title": "Cell structure",
+  "cards": [
+    {
+      "id": "A2.2-01",
+      "q": "State the three parts of cell theory, then use the theory to make a prediction about a newly discovered organism.",
+      "a": "Living organisms consist of one or more cells, cells are the smallest units of life, and cells arise from pre-existing cells. Deductive reasoning from this theory predicts that a newly discovered living organism will consist of at least one cell.",
+      "note": "The prediction follows from the theory. Finding one unusual organism wouldn’t let you rewrite the prediction before examining it.",
+      "tags": ["core", "cell-theory", "reasoning"]
+    },
+    {
+      "id": "A2.2-02",
+      "q": "Outline how to prepare and focus a stained temporary mount using a light microscope.",
+      "a": "Place a thin specimen in a drop of water on a slide, add a suitable stain if needed, and lower a coverslip at an angle to reduce trapped air. Begin with the lowest-power objective. Use the coarse focus to locate the specimen, then the fine focus to sharpen the image. At higher power, use fine focus and adjust the illumination.",
+      "note": "Starting at high power gives a small field of view and makes the specimen harder to find.",
+      "tags": ["core", "microscopy", "practical"]
+    },
+    {
+      "id": "A2.2-03",
+      "q": "A cell image is 36 mm long and the cell's actual length is 12 µm. Calculate the magnification and state the unit.",
+      "a": "Convert 36 mm to 36,000 µm, then use magnification = image size ÷ actual size. The magnification is 36,000 µm ÷ 12 µm = 3,000. Magnification has no unit, so the answer is ×3000.",
+      "note": "The measurements must use the same unit before division. Magnification is a ratio, so mm or µm shouldn't remain in the answer.",
+      "tags": ["core", "microscopy", "calculation"]
+    },
+    {
+      "id": "A2.2-04",
+      "q": "Explain the difference between magnification and resolution, then compare light and electron microscopy.",
+      "a": "Magnification is the ratio of image size to actual size. Resolution is the ability to distinguish two nearby points as separate. Electron microscopes have greater resolution than light microscopes and reveal finer ultrastructure. Light microscopes can show living cells and naturally colored or stained specimens, while conventional electron microscopy requires a vacuum and prepared, non-living material.",
+      "note": "A larger blurry image has greater magnification but no extra resolved detail.",
+      "tags": ["core", "microscopy", "resolution"]
+    },
+    {
+      "id": "A2.2-05",
+      "q": "Explain what freeze fracture, cryogenic electron microscopy, fluorescent staining and immunofluorescence each add to microscopy.",
+      "a": "Freeze fracture freezes a specimen and splits membranes through their hydrophobic interior, exposing fracture faces and embedded structures. Cryogenic electron microscopy rapidly freezes specimens so structures can be viewed close to their native state. Fluorescent stains make selected cell components emit visible light. Immunofluorescence uses fluorescently labeled antibodies that bind specific antigens, allowing particular proteins to be located.",
+      "tags": ["core", "microscopy", "techniques"]
+    },
+    {
+      "id": "A2.2-06",
+      "q": "Explain why DNA, cytoplasm, a plasma membrane and ribosomes are needed in typical cells.",
+      "a": "DNA stores genetic information used to control cell activities and inheritance. The water-based cytoplasm is a medium for metabolic reactions. The lipid plasma membrane forms a boundary and regulates exchange with the surroundings. Ribosomes translate genetic information by synthesizing polypeptides.",
+      "tags": ["core", "common-structures", "function"]
+    },
+    {
+      "id": "A2.2-07",
+      "q": "Describe the required structure of a Gram-positive prokaryotic cell.",
+      "a": "A Gram-positive prokaryotic cell has a plasma membrane surrounded by a cell wall, cytoplasm containing 70S ribosomes, and naked DNA in a loop within a nucleoid region. It has no membrane-bound nucleus and no membrane-bound cytoplasmic organelles.",
+      "note": "Prokaryotic cells have DNA and ribosomes. Their defining absence is a membrane-bound nucleus, not all internal structure.",
+      "tags": ["core", "prokaryote", "structure"]
+    },
+    {
+      "id": "A2.2-08",
+      "q": "Compare the genetic material and ribosomes of prokaryotic and eukaryotic cells.",
+      "a": "A prokaryotic cell has naked, usually circular DNA in a nucleoid region and 70S ribosomes in its cytoplasm. A eukaryotic cell has linear DNA associated with histones in chromosomes inside a double-membrane nucleus with pores, and it has 80S ribosomes in its cytoplasm.",
+      "note": "Mitochondria and chloroplasts contain 70S ribosomes, but the eukaryotic cytoplasm contains 80S ribosomes.",
+      "tags": ["core", "prokaryote", "eukaryote", "comparison"]
+    },
+    {
+      "id": "A2.2-09",
+      "q": "Outline the functions of the nucleus, mitochondria, chloroplasts, rough endoplasmic reticulum and smooth endoplasmic reticulum.",
+      "a": "The nucleus contains chromosomes and controls cell activities through gene expression. Mitochondria carry out aerobic respiration and ATP production. Chloroplasts carry out photosynthesis. Rough endoplasmic reticulum has attached ribosomes and synthesizes or transports proteins for secretion or membranes. Smooth endoplasmic reticulum synthesizes lipids and has other metabolic roles.",
+      "tags": ["core", "eukaryote", "organelles"]
+    },
+    {
+      "id": "A2.2-10",
+      "q": "Outline the functions of the Golgi apparatus, vesicles, lysosomes, vacuoles and cytoskeleton.",
+      "a": "The Golgi apparatus modifies, sorts and packages proteins or lipids into vesicles. Vesicles transport or store materials. Lysosomes contain hydrolytic enzymes for intracellular digestion. Vacuoles are membrane-bound compartments used for storage and other functions; a plant sap vacuole also helps maintain turgor. Microtubules and microfilaments form a cytoskeleton that supports cell shape, movement and intracellular transport.",
+      "tags": ["core", "eukaryote", "organelles"]
+    },
+    {
+      "id": "A2.2-11",
+      "q": "Name the eight functions of life and explain how one unicellular organism can carry them out.",
+      "a": "The functions are homeostasis, metabolism, nutrition, movement, excretion, growth, response to stimuli and reproduction. A unicellular organism performs all eight within one cell. For example, a Paramecium takes in food, digests it in food vacuoles, uses cilia for movement, expels wastes, regulates water balance with contractile vacuoles, responds to stimuli, grows and reproduces by cell division.",
+      "note": "A unicellular organism has no specialized tissues to divide these jobs between.",
+      "tags": ["core", "unicellular", "life-functions"]
+    },
+    {
+      "id": "A2.2-12",
+      "q": "Compare animal, fungal and plant cells using cell walls, vacuoles, plastids, centrioles, cilia and flagella.",
+      "a": "Animal cells lack cell walls and plastids and often contain small temporary vacuoles; many animal cells have centrioles, and some have cilia or flagella. Fungal cells have chitin cell walls, lack plastids and may have vacuoles. Plant cells have cellulose cell walls, usually a large permanent sap vacuole, and may contain chloroplasts or other plastids. Most higher-plant cells lack centrioles, cilia and flagella.",
+      "note": "Chloroplasts aren't present in every plant cell. Root cells are the standard counterexample.",
+      "tags": ["core", "animal", "fungus", "plant", "comparison"]
+    },
+    {
+      "id": "A2.2-13",
+      "q": "Correct the claim that every eukaryotic cell contains exactly one nucleus.",
+      "a": "Eukaryotic cells don't all contain exactly one nucleus. Aseptate fungal hyphae contain many nuclei in continuous cytoplasm, and skeletal muscle fibers contain many nuclei because precursor cells fuse. Mature mammalian red blood cells and mature phloem sieve tube elements lack nuclei; sieve tube elements depend on companion cells for many metabolic functions.",
+      "note": "The misconception fails in both directions: some eukaryotic cells have many nuclei, while others lose the nucleus during differentiation.",
+      "tags": ["core", "atypical-cells", "misconception"]
+    },
+    {
+      "id": "A2.2-14",
+      "q": "How can you distinguish prokaryotic, plant and animal cells in micrographs without relying on image color?",
+      "a": "A prokaryotic cell is usually smaller and lacks a nucleus and membrane-bound organelles; its DNA occupies a nucleoid region. A plant cell can be identified by a cell wall and may show chloroplasts or a large sap vacuole. An animal cell lacks a cell wall and chloroplasts but may show a nucleus, mitochondria and other membrane-bound organelles. Identification should use visible structures, scale and more than one feature where possible.",
+      "note": "Electron micrographs aren't naturally colored. Added color isn't evidence for a cell type.",
+      "tags": ["core", "micrographs", "identification"]
+    },
+    {
+      "id": "A2.2-15",
+      "q": "Describe how to make a scoring drawing and annotation from an electron micrograph.",
+      "a": "Draw only structures supported by the micrograph, using clear single lines, accurate proportions and no shading. Keep label lines straight, separate and ending on the intended structure. Include a title and scale information when available. An annotation should name a visible structure and connect an observed feature to its function, rather than listing a function with no link to the image.",
+      "tags": ["core", "micrographs", "drawing"]
+    },
+    {
+      "id": "A2.2-16",
+      "q": "Explain the endosymbiotic origin of mitochondria and chloroplasts and give three pieces of evidence.",
+      "a": "An ancestral eukaryotic cell engulfed an aerobic prokaryote that survived inside it and developed into a mitochondrion. In some later lineages, a photosynthetic prokaryote was engulfed and developed into a chloroplast. Mitochondria and chloroplasts contain 70S ribosomes, naked circular DNA and can replicate within the cell. These prokaryote-like features support endosymbiosis.",
+      "note": "The evidence must be linked to prokaryotes. Listing organelle features without making that link leaves the argument unfinished.",
+      "tags": ["hl", "endosymbiosis", "evolution"]
+    },
+    {
+      "id": "A2.2-17",
+      "q": "Explain how cells with the same genome can differentiate into different specialized cell types.",
+      "a": "Cells generally contain the same genome, but they express different sets of genes. Signals, often produced by changes in the cell's environment, activate or suppress particular genes. The cells therefore produce different proteins, develop different structures and functions, and become differentiated into specialized cell types that form tissues.",
+      "tags": ["hl", "differentiation", "gene-expression"]
+    },
+    {
+      "id": "A2.2-18",
+      "q": "Construct a synthesis answer linking multicellularity, differentiation and specialization.",
+      "a": "Multicellularity evolved repeatedly in eukaryotes, including fungi and algae, while all plants and animals are multicellular. Different patterns of gene expression cause cells to differentiate. The resulting specialized cells divide biological work and cooperate in tissues, allowing efficient performance of different functions and the evolution of larger body size.",
+      "note": "Multicellularity isn't one event inherited by every multicellular lineage. It evolved independently more than once.",
+      "tags": ["hl", "multicellularity", "differentiation", "synthesis"]
+    }
+  ]
+}
