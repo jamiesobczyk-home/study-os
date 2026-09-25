@@ -78,7 +78,8 @@ distractors from the misconceptions in its `traps.md` wherever they fit.
    no video ids. A guessed handle once shipped to him and 404'd.
 3. **Never invent a page number** for any book.
 4. **Exact formats.** Plain markdown only (headings, lists, tables, bold,
-   italic, links). No raw HTML.
+   italic, links). No raw HTML, and no LaTeX: write equations as plain text
+   with Unicode, like p² + 2pq + q² = 1 or √0.09, never `\(...\)`.
 5. **Ids are sequential and permanent**: `{{CODE}}-01`, `{{CODE}}-02`... for
    cards and `{{CODE}}-q01`, `{{CODE}}-q02`... for quiz questions, no gaps.
 6. **Reply shape.** Each file starts with a line `=== filename ===` and runs

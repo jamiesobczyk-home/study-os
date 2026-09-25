@@ -296,6 +296,8 @@ then cut, and put the thing you want remembered at the end of the sentence.
 - [ ] `study exam <CODE>` reveals a mark scheme correctly.
 - [ ] Every Core and HL bullet in `essentials.md` has at least one card.
 - [ ] No invented URLs. Channel and search links only, unless verified.
+- [ ] No LaTeX. Equations are plain text (p² + 2pq + q² = 1); `study check`
+      rejects `\(`, `\sqrt` and the like.
 - [ ] Status set to `ready` in the pack README.
 - [ ] No invented page numbers for the study guide.
 - [ ] `study voice <CODE>` shows contractions present and long forms near zero.

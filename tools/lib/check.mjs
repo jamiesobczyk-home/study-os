@@ -3,7 +3,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { ROOT, topicDir, progressFile } from './paths.mjs';
 import { driftedCards, driftedItems } from './history.mjs';
-import { REQUIRED_FILES } from './pack.mjs';
+import { PACK_FILE_NAMES, REQUIRED_FILES } from './pack.mjs';
 import { validateMcq } from './mcq.mjs';
 import { loadCourse } from './syllabus.mjs';
 import { parseTraps } from './traps.mjs';
@@ -258,6 +258,13 @@ export const checkPack = (course, topic) => {
   for (const name of ['README.md', 'videos.md', 'exam.md', 'traps.md']) {
     const body = read(name);
     if (body && /\{\{[A-Z]+\}\}/.test(body)) errors.push(`${name} still contains template placeholders`);
+  }
+  // The app renders plain markdown, so LaTeX shows up as raw backslashes, and
+  // inside JSON a \( is an invalid escape. D4.1 once came back with both.
+  for (const name of PACK_FILE_NAMES) {
+    const body = read(name);
+    const tex = body && body.match(/\\[()[\]]|\\(?:frac|sqrt|times|cdot|alpha|beta|Delta)\b/);
+    if (tex) errors.push(`${name} contains LaTeX (${tex[0]}); write it as plain text, e.g. p² + 2pq + q² = 1`);
   }
 
   if (!topic.studyGuidePages) {
