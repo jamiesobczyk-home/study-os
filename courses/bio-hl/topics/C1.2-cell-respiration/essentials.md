@@ -10,7 +10,7 @@
 - [ ] Describe the **ATP–ADP cycle**: energy from respiration converts ADP + Pi
       to ATP; hydrolysis of ATP back to ADP + Pi releases it where needed.
 - [ ] Define **cell respiration** as the controlled release of energy from
-      organic compounds to produce ATP — not the same thing as breathing.
+      organic compounds to produce ATP. It isn’t the same thing as breathing.
 - [ ] Compare **aerobic and anaerobic respiration** in humans and in yeast:
       the products, the ATP yield, and whether oxygen is required.
 - [ ] State the variables affecting **rate of respiration** and how each is

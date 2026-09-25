@@ -5,8 +5,8 @@ topic packs ahead of him, keep the sessions short, and stay out of the marking.
 
 ## What this is
 
-A study system that takes the thing he already does well — learning from video
-— and adds the step that makes it stick. He watches, then closes the laptop and
+A study system that takes the thing he already does well, learning from video,
+and adds the step that makes it stick. He watches, then closes the laptop and
 tries to reproduce it, then gets tested on it at increasing intervals.
 
 It’s built around retrieval practice and spaced repetition, which are about
@@ -41,7 +41,7 @@ week, not the whole syllabus in one weekend. The system is only useful if the
 pack exists when he needs it.
 
 **Protect the cadence.** Twenty-five minutes, four or five days a week, beats
-three hours on Sunday — not marginally, but by a lot. If you enforce one thing,
+three hours on Sunday, and not by a small margin. If you enforce one thing,
 enforce that.
 
 ## What you shouldn’t do
@@ -53,8 +53,8 @@ him, he never builds that.
 
 **Don’t ask "did you study today?"** Run `study progress` instead. It shows
 the whole syllabus, how much of each topic he has attempted, and how solid the
-recall is. You’ll know without asking, and he will know you can see it —
-which turns out to be enough.
+recall is. You’ll know without asking, and he will know you can see it.
+That turns out to be enough.
 
 **Don’t treat missed cards as a bad sign.** A session with eight misses did
 more work than a session with none. Misses are the system finding the gaps. If
@@ -65,8 +65,8 @@ thing quietly stops functioning.
 
     study progress
 
-Bars show **recall strength** — how far cards have climbed through the review
-intervals — not how much he has read. A topic can be fully read and show an
+Bars show **recall strength** (how far cards have climbed through the review
+intervals), not how much he has read. A topic can be fully read and show an
 empty bar, and that’s the point: it’s measuring what he can produce.
 
 Watch for a topic whose bar keeps resetting. That means cards are being missed
@@ -82,7 +82,7 @@ nothing without them, and building them is the part that needs an adult.
 **Cards get graded generously.** If everything is marked "got it", the
 intervals stretch, nothing comes back, and it turns into a system that
 congratulates him. If you suspect this, ask him to say an answer out loud
-before he reveals it — that’s where it shows.
+before he reveals it. That’s where it shows.
 
 **Content drifts from his actual course.** The topic list here follows the
 published syllabus, but what his teacher examines and when is the thing that
@@ -90,7 +90,7 @@ matters. Check a new pack against the study guide and his course outline before
 he starts learning from it.
 
 **It becomes another chore with a progress bar.** If it stops being used for
-three weeks, don’t rebuild it — ask him what part of it he hated. The method
+three weeks, don’t rebuild it. Ask him what part of it he hated. The method
 is sound; the interface is negotiable.
 
 ## First week
@@ -98,7 +98,7 @@ is sound; the interface is negotiable.
 1. Read `docs/method.md` yourself, then have him read it. It explains why the
    uncomfortable step is the one that works, and that matters more than any of
    the mechanics.
-2. Sit with him for one full loop on A1.1 — watch, capture, quiz, exam. Once.
+2. Sit with him for one full loop on A1.1: watch, capture, quiz, exam. Once.
    After that it’s his.
 3. Build the pack for whatever his class is on right now.
 4. Leave it alone for a fortnight, then look at `study progress`.

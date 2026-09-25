@@ -29,7 +29,7 @@ _Examiner note: two separate descriptions aren’t a comparison. Pair each simil
 
 ### Mark scheme
 
-- The sodium–potassium pump hydrolyses ATP / uses energy to move Na+ out of the epithelial cell. **[1]**
+- The sodium–potassium pump hydrolyzes ATP / uses energy to move Na+ out of the epithelial cell. **[1]**
 - This maintains a low Na+ concentration inside the cell / establishes a Na+ electrochemical gradient. **[1]**
 - Na+ moves into the cell down its electrochemical gradient through a sodium–glucose cotransporter. **[1]**
 - Glucose is carried into the cell at the same time against its concentration gradient. **[1]**
@@ -53,7 +53,7 @@ _Examiner note: cholesterol doesn’t move fluidity in one fixed direction. One 
 
 - Voltage-gated channels respond to a change in membrane potential. **[1]**
 - Ligand-gated channels respond when a specific signalling molecule binds. **[1]**
-- When open, both allow specific ions to move down their electrochemical gradients / neither channel directly hydrolyses ATP for ion movement. **[1]**
+- When open, both allow specific ions to move down their electrochemical gradients / neither channel directly hydrolyzes ATP for ion movement. **[1]**
 
 _Examiner note: “both open when stimulated” gains no distinction mark. Name the different stimulus for each channel._
 

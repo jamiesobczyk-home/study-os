@@ -43,6 +43,6 @@ The sodium–potassium pump and sodium–glucose cotransporter are mechanical se
 - Pump search: <https://www.youtube.com/results?search_query=sodium+potassium+pump+animation+3+sodium+2+potassium>
 - Cotransport search: <https://www.youtube.com/results?search_query=sodium+glucose+cotransport+animation+secondary+active+transport>
 
-After watching, draw the chain from ATP hydrolysis to the sodium gradient and then to glucose uptake. If the cotransporter itself is shown hydrolysing ATP in your drawing, correct it before moving on.
+After watching, draw the chain from ATP hydrolysis to the sodium gradient and then to glucose uptake. If the cotransporter itself is shown hydrolyzing ATP in your drawing, correct it before moving on.
 
 ## Pinned

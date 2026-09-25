@@ -20,7 +20,7 @@ somewhere else. An answer that only says "NAD carries hydrogen" gets one mark._
 
 ### Mark scheme
 
-- The conversion oxidises reduced NAD back to NAD. **[1]**
+- The conversion oxidizes reduced NAD back to NAD. **[1]**
 - Glycolysis requires a supply of NAD to oxidize its substrate / can’t proceed
   without NAD. **[1]**
 - Regenerating NAD therefore allows glycolysis, and so the net production of

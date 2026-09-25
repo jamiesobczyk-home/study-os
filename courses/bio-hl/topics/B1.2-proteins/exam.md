@@ -29,8 +29,8 @@ drop the water. "They join by a peptide bond" is one mark, not three._
 - Accept: peptide bonds and primary structure are not affected. **[1 max within total]**
 
 _Examiner note: an answer that says "the enzyme denatures and stops working"
-scores one mark at most. "Explain" wants the chain — energy, bonds, shape,
-function — and each link is a separate mark._
+scores one mark at most. "Explain" wants the chain (energy, bonds, shape,
+function), and each link is a separate mark._
 
 ## Q3. Distinguish between the secondary and tertiary structure of a protein. **[4]**
 
@@ -101,5 +101,5 @@ scores nothing on its own._
 - Example: haemoglobin, which contains haem groups. **[1]**
 
 _Examiner note: "state" wants two sentences at most. A protein with more than
-one chain isn’t automatically conjugated — that’s quaternary structure, which
+one chain isn’t automatically conjugated. That’s quaternary structure, which
 is a different idea._

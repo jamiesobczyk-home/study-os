@@ -114,7 +114,7 @@
     {
       "id": "B2.1-12",
       "q": "Trace the energy pathway that allows a sodium–glucose cotransporter to move glucose into an intestinal epithelial cell against its gradient.",
-      "a": "The sodium–potassium pump hydrolyses ATP and moves Na+ out of the epithelial cell, maintaining a low intracellular Na+ concentration. Na+ then enters from the intestinal lumen down its electrochemical gradient through a sodium–glucose cotransporter. The coupled conformational change carries glucose into the cell against its gradient. This is indirect or secondary active transport because ATP is used by the pump, not by the cotransporter itself.",
+      "a": "The sodium–potassium pump hydrolyzes ATP and moves Na+ out of the epithelial cell, maintaining a low intracellular Na+ concentration. Na+ then enters from the intestinal lumen down its electrochemical gradient through a sodium–glucose cotransporter. The coupled conformational change carries glucose into the cell against its gradient. This is indirect or secondary active transport because ATP is used by the pump, not by the cotransporter itself.",
       "note": "Keep the causal chain intact: ATP powers the pump, the pump establishes the Na+ gradient, and the Na+ gradient powers glucose uptake.",
       "tags": [
         "hl",

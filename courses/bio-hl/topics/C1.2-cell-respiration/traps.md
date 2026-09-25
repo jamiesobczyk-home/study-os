@@ -39,7 +39,7 @@ pyruvate is then converted to lactate."
 **Commonly written:** "Pyruvate turns into lactate because there’s no oxygen."
 
 **Why it doesn’t score:** That’s the condition, not the reason. The reason is
-that the conversion oxidises reduced NAD back to NAD, and glycolysis can’t
+that the conversion oxidizes reduced NAD back to NAD, and glycolysis can’t
 continue without a supply of NAD. This is a favourite examiner question
 precisely because it separates memorizing from understanding.
 

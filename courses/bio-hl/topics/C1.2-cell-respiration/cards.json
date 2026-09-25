@@ -33,7 +33,7 @@
     {
       "id": "C1.2-04",
       "q": "Compare aerobic and anaerobic respiration in humans: oxygen, products, and ATP yield.",
-      "a": "Aerobic respiration requires oxygen, fully oxidises glucose to carbon dioxide and water, and yields a large amount of ATP per glucose. Anaerobic respiration occurs without oxygen, converts glucose to lactate, and yields only the net 2 ATP from glycolysis. Anaerobic respiration is faster to start and useful for short bursts of intense activity, but can’t be sustained.",
+      "a": "Aerobic respiration requires oxygen, fully oxidizes glucose to carbon dioxide and water, and yields a large amount of ATP per glucose. Anaerobic respiration occurs without oxygen, converts glucose to lactate, and yields only the net 2 ATP from glycolysis. Anaerobic respiration is faster to start and useful for short bursts of intense activity, but can’t be sustained.",
       "tags": [
         "core",
         "comparison"
@@ -71,7 +71,7 @@
     {
       "id": "C1.2-08",
       "q": "In anaerobic conditions, why is pyruvate converted to lactate? Give the reason, not the condition.",
-      "a": "To regenerate NAD. Converting pyruvate to lactate oxidises reduced NAD back to NAD, and glycolysis requires a supply of NAD to continue. Without that regeneration, glycolysis would stop and even the small anaerobic ATP yield would cease.",
+      "a": "To regenerate NAD. Converting pyruvate to lactate oxidizes reduced NAD back to NAD, and glycolysis requires a supply of NAD to continue. Without that regeneration, glycolysis would stop and even the small anaerobic ATP yield would cease.",
       "note": "'Because there’s no oxygen' describes when it happens, not why it helps. This distinction is examined often.",
       "tags": [
         "hl",

@@ -24,7 +24,7 @@
       20 to the power of *n*.
 - [ ] Explain the **effect of temperature and pH on protein structure**: both
       disrupt the bonds holding the folded shape, changing the conformation and
-      causing loss of function — **denaturation**. It may be reversible or
+      causing loss of function. That’s **denaturation**. It may be reversible or
       irreversible, and it does **not** break peptide bonds.
 
 ## Higher level
@@ -35,13 +35,13 @@
 - [ ] Explain how **chemical diversity in R groups** is the basis of protein
       diversity: R groups differ in size, charge, polarity and reactivity, so
       the same backbone supports enormously different molecules.
-- [ ] Define **primary structure** — the sequence of amino acids in a
+- [ ] Define **primary structure** as the sequence of amino acids in a
       polypeptide, and explain that it determines the final conformation,
       because it fixes which R groups can interact and where.
 - [ ] Describe **secondary structure**: the alpha helix (coiling) and beta
       pleated sheet (pleating), both stabilized by **hydrogen bonds between the
       amine and carboxyl groups of the backbone**, not between R groups.
-- [ ] Describe **tertiary structure** — the overall three-dimensional shape of
+- [ ] Describe **tertiary structure** as the overall three-dimensional shape of
       one polypeptide, and name the four interactions between **R groups**
       that hold it: hydrogen bonds, ionic bonds, disulfide covalent bonds
       (between two cysteines), and hydrophobic interactions.
@@ -53,7 +53,7 @@
 - [ ] Describe **quaternary structure**: two or more polypeptides associating
       into one functional protein. Distinguish **non-conjugated** proteins
       (polypeptides only) from **conjugated** proteins, which include a
-      non-polypeptide prosthetic group — haemoglobin with its haem groups is
+      non-polypeptide prosthetic group. Haemoglobin with its haem groups is
       the standard example.
 - [ ] Compare **fibrous and globular proteins**: fibrous are long, narrow,
       repetitive in sequence, largely insoluble and structural (collagen,
