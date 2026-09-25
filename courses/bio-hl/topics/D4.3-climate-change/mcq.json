@@ -1,0 +1,317 @@
+{
+  "topic": "D4.3",
+  "questions": [
+    {
+      "id": "D4.3-q01",
+      "stem": "Which change is an anthropogenic cause of climate change within the scope of D4.3?",
+      "options": [
+        {
+          "text": "Increased atmospheric carbon dioxide from fossil-fuel combustion",
+          "correct": true,
+          "why": "Combustion transfers carbon from long-term geological stores into the atmosphere as carbon dioxide, strengthening the greenhouse effect."
+        },
+        {
+          "text": "Increased incoming solar radiation caused by methane emissions",
+          "correct": false,
+          "why": "Methane affects the amount of outgoing infrared radiation retained by the atmosphere. It doesn't increase the Sun's energy output."
+        },
+        {
+          "text": "Reduced atmospheric oxygen caused directly by ocean acidification",
+          "correct": false,
+          "why": "Ocean acidification is caused by carbon dioxide dissolving in seawater. It isn't the direct cause of the enhanced greenhouse effect."
+        },
+        {
+          "text": "Increased geothermal heat released by combustion of coal and oil",
+          "correct": false,
+          "why": "Burning fossil fuels releases greenhouse gases. It doesn't cause Earth to release more geothermal energy."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q02",
+      "stem": "Ice-core records show a positive correlation between atmospheric carbon dioxide and global temperature. What can be concluded from that result alone?",
+      "options": [
+        {
+          "text": "Higher carbon dioxide concentrations are associated with higher temperatures, but the data alone don't establish causation",
+          "correct": true,
+          "why": "A positive correlation shows that the variables tend to change together. Other evidence is needed to demonstrate the causal mechanism."
+        },
+        {
+          "text": "Higher carbon dioxide concentrations must be the only cause of every recorded change in global temperature",
+          "correct": false,
+          "why": "A correlation doesn't identify one exclusive cause. Other climate variables can also affect temperature."
+        },
+        {
+          "text": "Higher global temperatures must always cause carbon dioxide concentrations to decrease",
+          "correct": false,
+          "why": "That describes a negative relationship, while the ice-core variables show a positive correlation."
+        },
+        {
+          "text": "Carbon dioxide and temperature have no relationship because both changed before industrialization",
+          "correct": false,
+          "why": "Changes before industrialization don't erase the observed relationship. The records still show that the variables tend to rise and fall together."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q03",
+      "stem": "Which sequence describes the ice–albedo positive feedback?",
+      "options": [
+        {
+          "text": "Warming melts ice, lowering albedo and increasing solar absorption, which causes further warming",
+          "correct": true,
+          "why": "Ice loss exposes darker surfaces that reflect less and absorb more incoming radiation. That added absorption amplifies warming."
+        },
+        {
+          "text": "Warming melts ice, raising albedo and increasing reflection, which causes further warming",
+          "correct": false,
+          "why": "Melting lowers albedo rather than raising it. Greater reflection would oppose warming instead of amplifying it."
+        },
+        {
+          "text": "Warming forms more ice, lowering sea level and increasing absorption, which causes further warming",
+          "correct": false,
+          "why": "Warming generally causes ice loss. Sea-level change isn't the mechanism in the albedo feedback."
+        },
+        {
+          "text": "Warming melts ice, releasing nutrients and increasing photosynthesis, which causes further warming",
+          "correct": false,
+          "why": "That mixes albedo with nutrient cycling. The relevant change is reduced reflection and increased absorption of solar radiation."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q04",
+      "stem": "When has a boreal forest changed from a carbon sink to a carbon source?",
+      "options": [
+        {
+          "text": "When its carbon release exceeds its carbon uptake",
+          "correct": true,
+          "why": "A source has net carbon release. Drought, reduced primary production and fire can push the balance in that direction."
+        },
+        {
+          "text": "When its total stored carbon reaches its highest value",
+          "correct": false,
+          "why": "The size of the carbon store doesn't define the current balance. A large store may be gaining or losing carbon."
+        },
+        {
+          "text": "When photosynthesis exceeds respiration and combustion",
+          "correct": false,
+          "why": "That produces net carbon uptake, which defines a carbon sink rather than a source."
+        },
+        {
+          "text": "When snowfall increases and drought becomes less frequent",
+          "correct": false,
+          "why": "Those conditions don't describe the syllabus tipping-point mechanism. Warming, reduced snowfall and drought promote browning and fire."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q05",
+      "stem": "Why can warmer surface water reduce marine primary production?",
+      "options": [
+        {
+          "text": "It strengthens stratification and reduces nutrient upwelling into the sunlit surface layer",
+          "correct": true,
+          "why": "Reduced vertical mixing leaves more nutrients in deep water. Phytoplankton at the surface then have fewer nutrients for growth."
+        },
+        {
+          "text": "It removes all mineral nutrients from seawater by increasing their rate of evaporation",
+          "correct": false,
+          "why": "Dissolved mineral nutrients don't evaporate with water. The problem is their location below the sunlit surface layer."
+        },
+        {
+          "text": "It increases vertical mixing and carries phytoplankton below the ocean floor",
+          "correct": false,
+          "why": "Surface warming tends to strengthen stratification and reduce mixing. Phytoplankton aren't carried below the ocean floor."
+        },
+        {
+          "text": "It prevents sunlight from entering water by increasing atmospheric carbon dioxide",
+          "correct": false,
+          "why": "The upwelling mechanism concerns nutrient supply, not carbon dioxide blocking sunlight from the ocean."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q06",
+      "stem": "Which climate-change effect is correctly matched with the organism?",
+      "options": [
+        {
+          "text": "Early breakup of Antarctic landfast ice reduces emperor penguin breeding habitat",
+          "correct": true,
+          "why": "Emperor penguins use stable landfast ice for breeding. Early breakup can occur before chicks are ready to survive independently."
+        },
+        {
+          "text": "Loss of Arctic sea ice removes the nesting trees used by emperor penguins",
+          "correct": false,
+          "why": "Emperor penguins breed on Antarctic ice, not in Arctic trees. Sea ice loss in the Arctic is the walrus example."
+        },
+        {
+          "text": "Expansion of Antarctic landfast ice removes the feeding platforms used by walruses",
+          "correct": false,
+          "why": "Walruses live in the Arctic and are threatened by sea ice loss. Antarctic landfast ice is linked to emperor penguin breeding."
+        },
+        {
+          "text": "Ocean acidification melts the coastal ice used by both species for reproduction",
+          "correct": false,
+          "why": "Ice loss is driven mainly by warming, not acidification. The two species also use ice in different regions and ways."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q07",
+      "stem": "What is the best explanation for an upslope range shift?",
+      "options": [
+        {
+          "text": "Conditions within a species' temperature tolerance occur at progressively higher elevations",
+          "correct": true,
+          "why": "As lower elevations warm, cooler suitable conditions may remain higher on the mountain, shifting population distribution upslope."
+        },
+        {
+          "text": "Every organism climbs uphill during its lifetime to avoid increased carbon dioxide",
+          "correct": false,
+          "why": "A range shift is a population-level distribution change. It isn't an identical behavioral response by every individual."
+        },
+        {
+          "text": "High-elevation habitats become warmer than low-elevation habitats during climate change",
+          "correct": false,
+          "why": "Higher elevations generally remain cooler than nearby lower elevations. Species shift upward to remain within suitable conditions."
+        },
+        {
+          "text": "Natural selection immediately changes every individual into a high-altitude species",
+          "correct": false,
+          "why": "Natural selection acts across generations and doesn't transform every organism. Range movement can occur without immediate evolutionary change."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q08",
+      "stem": "Which statement correctly distinguishes ocean acidification from coral bleaching?",
+      "options": [
+        {
+          "text": "Acidification suppresses calcification, whereas high temperature can cause loss of coral symbionts",
+          "correct": true,
+          "why": "Carbon dioxide lowers pH and reduces carbonate availability. Heat stress can cause the loss of photosynthetic symbionts or their pigments."
+        },
+        {
+          "text": "Acidification expels coral symbionts, whereas high temperature increases carbonate ion availability",
+          "correct": false,
+          "why": "This reverses both mechanisms. Heat stress causes bleaching, while acidification reduces carbonate availability."
+        },
+        {
+          "text": "Acidification immediately kills all corals, whereas bleaching always improves coral survival",
+          "correct": false,
+          "why": "Acidification suppresses calcification rather than killing every coral immediately. Bleaching reduces energy supply and can lead to death."
+        },
+        {
+          "text": "Acidification raises ocean pH, whereas bleaching forms carbonic acid inside coral skeletons",
+          "correct": false,
+          "why": "Acidification lowers pH. Bleaching concerns loss of symbionts or pigments, not carbonic acid formation inside the skeleton."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q09",
+      "stem": "Why can restoring a peat-forming wetland sequester carbon?",
+      "options": [
+        {
+          "text": "Waterlogged conditions slow decomposition and allow organic matter to accumulate",
+          "correct": true,
+          "why": "Low oxygen availability limits decomposition, so partially decomposed material and its carbon can accumulate as peat."
+        },
+        {
+          "text": "Dry soil accelerates decomposition and converts carbon dioxide into peat",
+          "correct": false,
+          "why": "Drying exposes peat to oxygen and can increase decomposition. Carbon dioxide isn't directly converted into peat by decomposition."
+        },
+        {
+          "text": "Flooding causes all soil organisms to increase their rates of aerobic respiration",
+          "correct": false,
+          "why": "Waterlogging restricts oxygen diffusion, so aerobic decomposition generally slows instead of increasing."
+        },
+        {
+          "text": "Peat releases methane without storing any carbon in organic matter",
+          "correct": false,
+          "why": "Peat is a store of organic carbon. Methane production can occur, but it doesn't mean that no carbon is stored."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q10",
+      "stem": "Which investigation concerns phenology?",
+      "options": [
+        {
+          "text": "Recording the dates of budburst in the same tree population over many years",
+          "correct": true,
+          "why": "Phenology examines the timing of recurring biological events. A long record can reveal whether budburst timing changes."
+        },
+        {
+          "text": "Measuring the number of tree species found within a forest quadrat",
+          "correct": false,
+          "why": "That measures species richness in a community. It doesn't measure the timing of a recurring biological event."
+        },
+        {
+          "text": "Comparing the nucleotide sequences of two genes in one bird species",
+          "correct": false,
+          "why": "That investigates genetic variation. It doesn't concern seasonal timing such as migration or nesting."
+        },
+        {
+          "text": "Determining the trophic level occupied by caterpillars in a food chain",
+          "correct": false,
+          "why": "That concerns feeding relationships. Phenology would investigate when caterpillar biomass reaches its seasonal peak."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q11",
+      "stem": "How can climate change disrupt phenological synchrony between two interacting populations?",
+      "options": [
+        {
+          "text": "Different environmental cues cause their seasonal events to shift by different amounts",
+          "correct": true,
+          "why": "One event may respond strongly to temperature while another depends more on photoperiod, producing a mismatch in timing."
+        },
+        {
+          "text": "The annual photoperiod cycle becomes longer as atmospheric temperature rises",
+          "correct": false,
+          "why": "Climate warming changes temperature patterns, but it doesn't lengthen the yearly pattern of day length at a location."
+        },
+        {
+          "text": "Every population responds identically because temperature controls all biological events",
+          "correct": false,
+          "why": "Populations can respond to different cues and at different rates. That difference is what allows synchrony to break down."
+        },
+        {
+          "text": "Both populations permanently stop reproducing after one unusually warm day",
+          "correct": false,
+          "why": "Phenological mismatch concerns shifts in relative timing, not an automatic permanent end to reproduction."
+        }
+      ]
+    },
+    {
+      "id": "D4.3-q12",
+      "stem": "Why can reduced snow cover cause evolution in a tawny owl population?",
+      "options": [
+        {
+          "text": "Brown variants gain higher fitness, so associated alleles become more frequent over generations",
+          "correct": true,
+          "why": "Differential survival and reproduction act on heritable color variation. The resulting allele-frequency change is evolution."
+        },
+        {
+          "text": "Gray owls change their feathers permanently to brown during their own lifetimes",
+          "correct": false,
+          "why": "An individual doesn't change its inherited color variant in response to snow. The population changes across generations."
+        },
+        {
+          "text": "Reduced snow creates new brown alleles in every owl at the same time",
+          "correct": false,
+          "why": "The environment selects among heritable variants already present. It doesn't direct the same mutation in every individual."
+        },
+        {
+          "text": "Brown owls survive better, but their reproductive success and allele frequencies remain unchanged",
+          "correct": false,
+          "why": "A survival advantage affects evolution only when it contributes to differential reproductive success and changes heritable frequencies."
+        }
+      ]
+    }
+  ]
+}

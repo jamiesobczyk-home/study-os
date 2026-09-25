@@ -1,0 +1,369 @@
+{
+  "topic": "D4.2",
+  "questions": [
+    {
+      "id": "D4.2-q01",
+      "stem": "Which combination contains all four requirements for long-term ecosystem stability named in D4.2?",
+      "options": [
+        {
+          "text": "Energy supply, nutrient recycling, genetic diversity and climatic variables within tolerance ranges",
+          "correct": true,
+          "why": "Energy must keep entering, matter must be recycled, diversity provides varied responses, and climate must remain tolerable."
+        },
+        {
+          "text": "Constant population sizes, nutrient input, low genetic diversity and an unchanging climate",
+          "correct": false,
+          "why": "Populations can fluctuate in a stable ecosystem, and low genetic diversity reduces the range of responses to change."
+        },
+        {
+          "text": "Energy recycling, continuous fertilizer input, species immigration and constant rainfall",
+          "correct": false,
+          "why": "Energy flows and is lost as heat rather than being recycled. Stability doesn’t require fertilizer input or one fixed rainfall level."
+        },
+        {
+          "text": "Nutrient loss, high productivity, absence of disturbance and identical environmental tolerances",
+          "correct": false,
+          "why": "Nutrient loss undermines long-term function, and stable ecosystems can experience disturbance. Identical tolerances would also make a community vulnerable."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q02",
+      "stem": "Why could extensive Amazon deforestation push the rainforest across a tipping point?",
+      "options": [
+        {
+          "text": "Reduced transpiration can lower rainfall, causing drying and further forest loss",
+          "correct": true,
+          "why": "That’s the positive feedback: forest loss weakens water recycling, and the resulting drying causes more forest loss."
+        },
+        {
+          "text": "Reduced photosynthesis immediately removes all atmospheric oxygen from the region",
+          "correct": false,
+          "why": "Deforestation reduces photosynthesis, but it doesn’t remove all regional oxygen. The tipping-point mechanism centers on water vapor, rainfall and drying."
+        },
+        {
+          "text": "Increased transpiration causes permanent flooding and prevents tree roots from respiring",
+          "correct": false,
+          "why": "Deforestation decreases total forest transpiration. The predicted risk is drying and fire, not increased transpiration and permanent flooding."
+        },
+        {
+          "text": "Nutrient recycling stops because no decomposers can survive outside intact forest",
+          "correct": false,
+          "why": "Decomposers can remain in disturbed areas. The syllabus example concerns the forest’s influence on cooling, air flow and rainfall."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q03",
+      "stem": "Why can a sealed transparent mesocosm remain active for a period of time?",
+      "options": [
+        {
+          "text": "Matter can be recycled internally while light energy enters through the vessel",
+          "correct": true,
+          "why": "A sealed vessel can prevent matter exchange while still receiving light and transferring heat. Producers, consumers and decomposers cycle materials inside it."
+        },
+        {
+          "text": "Both energy and matter are recycled completely within the vessel indefinitely",
+          "correct": false,
+          "why": "Matter can cycle, but energy can’t be recycled. Energy enters as light and eventually leaves as heat."
+        },
+        {
+          "text": "Oxygen enters continuously through the glass while carbon dioxide remains trapped",
+          "correct": false,
+          "why": "Glass doesn’t supply oxygen to a sealed mesocosm. Photosynthesis and respiration change oxygen and carbon dioxide within it."
+        },
+        {
+          "text": "Decomposers manufacture new mineral nutrients without using existing organic matter",
+          "correct": false,
+          "why": "Decomposers release nutrients already present in dead organic material. They don’t create matter from nothing."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q04",
+      "stem": "Which observation provides the strongest evidence that a species is a keystone species?",
+      "options": [
+        {
+          "text": "Its removal causes a disproportionately large change in community structure",
+          "correct": true,
+          "why": "The disproportionate community effect defines a keystone species. Its abundance can be low."
+        },
+        {
+          "text": "It has the greatest biomass of any species in the ecosystem",
+          "correct": false,
+          "why": "High biomass can make a species important, but it doesn’t demonstrate a disproportionate effect relative to abundance."
+        },
+        {
+          "text": "It occupies the highest trophic level in every food chain",
+          "correct": false,
+          "why": "Some apex predators are keystone species, but trophic position alone doesn’t establish a keystone effect."
+        },
+        {
+          "text": "Its population remains constant while all other populations fluctuate",
+          "correct": false,
+          "why": "Keystone status concerns effects on the community, not whether the species has an unusually constant population."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q05",
+      "stem": "Which result most strongly indicates that a fishery is being harvested unsustainably?",
+      "options": [
+        {
+          "text": "Spawning-stock biomass falls over several years while catches continue",
+          "correct": true,
+          "why": "A falling breeding stock shows that replacement isn’t keeping pace with removal, even if catches still look profitable."
+        },
+        {
+          "text": "Annual catch remains below the largest catch recorded in the fishery",
+          "correct": false,
+          "why": "A historical maximum says nothing about the present replacement rate. Even a smaller catch can exceed current population growth."
+        },
+        {
+          "text": "Fishing vessels use less fuel per kilogram of fish landed",
+          "correct": false,
+          "why": "That may reduce the carbon footprint, but it doesn’t show whether the fish population is replacing harvested individuals."
+        },
+        {
+          "text": "The harvested species occurs naturally and is classified as renewable",
+          "correct": false,
+          "why": "Renewable resources can still be depleted when harvesting exceeds replacement. The label doesn’t establish a sustainable rate."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q06",
+      "stem": "Which sequence best explains oxygen depletion during eutrophication?",
+      "options": [
+        {
+          "text": "Nutrient enrichment, producer bloom, death, decomposition, increased biochemical oxygen demand",
+          "correct": true,
+          "why": "Decomposers respire while breaking down the extra dead biomass, so their oxygen demand rises and dissolved oxygen falls."
+        },
+        {
+          "text": "Nutrient enrichment, reduced producer growth, less decomposition, increased dissolved oxygen",
+          "correct": false,
+          "why": "Added nitrates and phosphates usually increase producer growth. The later decomposition lowers oxygen rather than raising it."
+        },
+        {
+          "text": "Fertilizer toxicity, immediate fish death, increased photosynthesis, reduced biochemical oxygen demand",
+          "correct": false,
+          "why": "The main eutrophication chain works through excessive producer growth and decomposition, not immediate fertilizer poisoning."
+        },
+        {
+          "text": "Algal grazing, reduced organic matter, increased respiration, complete nutrient removal",
+          "correct": false,
+          "why": "Eutrophication adds nutrients and commonly increases dead organic matter. Grazing doesn’t account for the characteristic rise in oxygen demand."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q07",
+      "stem": "A persistent pollutant becomes more concentrated from zooplankton to small fish to predatory fish. What process is shown?",
+      "options": [
+        {
+          "text": "Biomagnification",
+          "correct": true,
+          "why": "The concentration is increasing between successive trophic levels, which is biomagnification."
+        },
+        {
+          "text": "Bioaccumulation",
+          "correct": false,
+          "why": "Bioaccumulation is an increase within one organism over time. This example compares concentrations across trophic levels."
+        },
+        {
+          "text": "Eutrophication",
+          "correct": false,
+          "why": "Eutrophication is nutrient enrichment followed by excessive producer growth and possible oxygen depletion."
+        },
+        {
+          "text": "Nutrient cycling",
+          "correct": false,
+          "why": "Nutrient cycling returns essential elements through an ecosystem. It doesn’t describe increasing pollutant concentration up a food chain."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q08",
+      "stem": "Why can fragmentation of marine macroplastic increase the problem caused by microplastics?",
+      "options": [
+        {
+          "text": "It creates persistent particles small enough for more organisms to ingest",
+          "correct": true,
+          "why": "Fragmentation changes the size of the debris without biodegrading it. Smaller particles become available to a wider range of organisms."
+        },
+        {
+          "text": "It converts synthetic polymers into mineral nutrients used by phytoplankton",
+          "correct": false,
+          "why": "Fragmentation doesn’t mineralize plastic or turn it into useful nutrients. The polymer remains in the environment."
+        },
+        {
+          "text": "It makes all plastic dissolve in seawater and enter organisms by osmosis",
+          "correct": false,
+          "why": "Microplastics remain particles rather than dissolving as a solute. Organisms commonly ingest the particles."
+        },
+        {
+          "text": "It prevents plastic from moving between habitats or entering food webs",
+          "correct": false,
+          "why": "Smaller particles can spread widely and enter food webs. Fragmentation doesn’t contain the pollution."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q09",
+      "stem": "Which action is most consistent with rewilding?",
+      "options": [
+        {
+          "text": "Restoring habitat connections and keystone species while reducing repeated human disturbance",
+          "correct": true,
+          "why": "Those actions restore ecological processes and allow more of the system’s organization to arise through natural interactions."
+        },
+        {
+          "text": "Maintaining every population at a fixed size through continuous human control",
+          "correct": false,
+          "why": "Rewilding reduces continuing control and allows populations to fluctuate. It doesn’t aim at fixed population sizes."
+        },
+        {
+          "text": "Replacing a diverse ecosystem with a productive single-species plantation",
+          "correct": false,
+          "why": "A plantation is managed for production and usually simplifies community structure. That isn’t restoration of natural processes."
+        },
+        {
+          "text": "Removing all introduced plants before allowing any native species to establish",
+          "correct": false,
+          "why": "That isn’t always needed. At Hinewai, introduced gorse sheltered native regeneration and was later suppressed by shade."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q10",
+      "stem": "Which example is an abiotic trigger of ecological succession?",
+      "options": [
+        {
+          "text": "New bare rock is exposed after a volcanic eruption",
+          "correct": true,
+          "why": "The eruption changes the physical environment and creates a surface on which primary succession can begin."
+        },
+        {
+          "text": "Grazing animals selectively remove young tree seedlings",
+          "correct": false,
+          "why": "That’s a biotic influence because one group of organisms changes the survival of another."
+        },
+        {
+          "text": "Shrubs shade grasses and alter their competitive success",
+          "correct": false,
+          "why": "That’s a biotic interaction between plant populations, even though it later changes physical conditions near the ground."
+        },
+        {
+          "text": "Birds disperse seeds into a developing plant community",
+          "correct": false,
+          "why": "Seed dispersal by animals is a biotic cause of community change."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q11",
+      "stem": "Which set of changes generally occurs during primary succession?",
+      "options": [
+        {
+          "text": "Greater plant size, primary production, diversity, food-web complexity and nutrient cycling",
+          "correct": true,
+          "why": "Soil development and community replacement generally allow all five features to increase from pioneer stages."
+        },
+        {
+          "text": "Smaller plants, lower production, greater diversity, simpler food webs and less cycling",
+          "correct": false,
+          "why": "That mixes opposing trends. Plants and food webs generally become larger or more complex, and nutrient cycling increases."
+        },
+        {
+          "text": "Greater plant size, lower production, lower diversity, simpler food webs and no decomposition",
+          "correct": false,
+          "why": "Developing communities gain species and trophic interactions. Decomposition and nutrient cycling become more established, not absent."
+        },
+        {
+          "text": "Constant plant size, constant production, fewer species, greater erosion and nutrient loss",
+          "correct": false,
+          "why": "Primary succession involves substantial community and soil change. The listed features don’t remain constant."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q12",
+      "stem": "What distinguishes primary succession from secondary succession?",
+      "options": [
+        {
+          "text": "Primary succession begins where developed soil is absent",
+          "correct": true,
+          "why": "Primary succession begins on a newly exposed surface and includes soil formation. Secondary succession begins where soil remains after disturbance."
+        },
+        {
+          "text": "Primary succession begins with trees rather than pioneer organisms",
+          "correct": false,
+          "why": "Trees generally require soil and enter later. Pioneer organisms colonize the harsh early surface."
+        },
+        {
+          "text": "Primary succession is caused only by changes in living organisms",
+          "correct": false,
+          "why": "It often begins after an abiotic event such as lava flow or glacial retreat exposes a surface without soil."
+        },
+        {
+          "text": "Primary succession always reaches its climax community within one year",
+          "correct": false,
+          "why": "Soil formation and community replacement can take a long time. There’s no one-year requirement."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q13",
+      "stem": "Continued grazing removes tree seedlings and maintains grassland where woodland would otherwise develop. What does this show?",
+      "options": [
+        {
+          "text": "Arrested succession",
+          "correct": true,
+          "why": "Repeated grazing prevents succession from reaching the community expected under those environmental conditions."
+        },
+        {
+          "text": "Primary succession",
+          "correct": false,
+          "why": "Soil and an existing grassland community are already present. The key feature is prevention of further succession."
+        },
+        {
+          "text": "Cyclical succession",
+          "correct": false,
+          "why": "Cyclical succession involves recurring community stages. Continuous grazing holds the system at an earlier stage instead."
+        },
+        {
+          "text": "Biomagnification",
+          "correct": false,
+          "why": "Biomagnification concerns increasing pollutant concentrations across trophic levels, not grazing and community development."
+        }
+      ]
+    },
+    {
+      "id": "D4.2-q14",
+      "stem": "Which observation best illustrates cyclical succession?",
+      "options": [
+        {
+          "text": "Heather patches repeatedly pass through growth, maturity, degeneration and recolonization",
+          "correct": true,
+          "why": "The recurring stages form a cycle, with new heather colonizing gaps left as older stands degenerate."
+        },
+        {
+          "text": "Lichens colonize bare rock and are later replaced as soil develops",
+          "correct": false,
+          "why": "That’s a directional primary succession from a bare surface toward later communities."
+        },
+        {
+          "text": "Livestock continuously prevent tree seedlings from surviving in grassland",
+          "correct": false,
+          "why": "That’s arrested succession because one repeated pressure prevents further community development."
+        },
+        {
+          "text": "A mature woodland remains relatively stable under its prevailing climate",
+          "correct": false,
+          "why": "That describes a climax community. It doesn’t show a recurring sequence of different community stages."
+        }
+      ]
+    }
+  ]
+}

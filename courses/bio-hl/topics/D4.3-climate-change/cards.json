@@ -1,0 +1,189 @@
+{
+  "topic": "D4.3",
+  "title": "Climate change",
+  "cards": [
+    {
+      "id": "D4.3-01",
+      "q": "Explain how human activity increases carbon dioxide and methane concentrations and how this causes warming.",
+      "a": "Combustion of fossil fuels releases carbon dioxide, and deforestation releases stored carbon while reducing carbon dioxide uptake by photosynthesis. Agriculture, waste decomposition and fossil-fuel extraction release methane. Higher concentrations of these greenhouse gases absorb more outgoing long-wave infrared radiation and re-radiate some of it toward Earth's surface, strengthening the greenhouse effect.",
+      "note": "The syllabus limits the anthropogenic causes to increases in carbon dioxide and methane. Don’t turn this into a list of every greenhouse gas.",
+      "tags": [
+        "core",
+        "greenhouse-gases",
+        "anthropogenic-change"
+      ]
+    },
+    {
+      "id": "D4.3-02",
+      "q": "Antarctic ice-core data show that carbon dioxide concentration and global temperature rise and fall together. What does this evidence show, and what can’t it establish by itself?",
+      "a": "The data show a positive correlation because high carbon dioxide concentrations tend to occur with high global temperatures. Correlation alone can’t establish that carbon dioxide caused the temperature changes, because another factor or reverse causation could contribute to the pattern. Evidence about the absorption of infrared radiation and other observations is needed to establish the causal link.",
+      "note": "Correct the common claim that correlation proves causation. The correlation is evidence consistent with causation, but it isn’t sufficient on its own.",
+      "tags": [
+        "core",
+        "nature-of-science",
+        "correlation"
+      ]
+    },
+    {
+      "id": "D4.3-03",
+      "q": "Construct the positive feedback cycle linking global warming, snow and ice loss, albedo and absorption of solar radiation.",
+      "a": "Warming melts reflective snow and ice, exposing darker land or water. The darker surface has a lower albedo, so it reflects less incoming solar radiation and absorbs more. Greater absorption causes further warming, which melts more snow and ice.",
+      "tags": [
+        "core",
+        "positive-feedback",
+        "albedo"
+      ]
+    },
+    {
+      "id": "D4.3-04",
+      "q": "Explain three carbon-based positive feedback processes that can amplify global warming.",
+      "a": "Warmer ocean water can hold less dissolved carbon dioxide, so more carbon dioxide may enter the atmosphere and increase warming. Higher temperatures accelerate decomposition of peat and previously frozen organic matter, releasing carbon dioxide, while thawing permafrost can also release methane. Warming can increase drought and forest fires, which release stored carbon dioxide and reduce future carbon uptake, causing further warming.",
+      "note": "A feedback answer must return to the original change. End each chain by stating that the added greenhouse gas causes further warming.",
+      "tags": [
+        "core",
+        "positive-feedback",
+        "carbon-cycle",
+        "permafrost"
+      ]
+    },
+    {
+      "id": "D4.3-05",
+      "q": "Explain how a boreal forest can cross a tipping point from net carbon accumulation to net carbon loss.",
+      "a": "Warmer conditions and decreased winter snowfall can increase drought in the taiga. Drought reduces primary production and causes forest browning, so less carbon dioxide is fixed and stored. More frequent and intense fires release carbon from vegetation and combust legacy carbon stored in old organic matter and soils. If these losses exceed carbon accumulation, the forest changes from a carbon sink to a carbon source, reinforcing warming.",
+      "note": "A tipping point is a threshold leading to a self-reinforcing change in state, not another name for any temperature increase.",
+      "tags": [
+        "core",
+        "tipping-point",
+        "boreal-forest",
+        "carbon-sink"
+      ]
+    },
+    {
+      "id": "D4.3-06",
+      "q": "Explain how climate change threatens emperor penguins and walruses through two different types of polar ice loss.",
+      "a": "Emperor penguins breed on Antarctic landfast ice. Earlier breakup of this ice can remove the breeding platform before chicks are ready to survive independently. Arctic walruses use sea ice as habitat and as a platform for resting and gaining access to feeding areas, so loss of sea ice reduces suitable habitat.",
+      "note": "Landfast ice is sea ice fixed to the coast or seafloor. It isn’t land ice.",
+      "tags": [
+        "core",
+        "polar-habitats",
+        "sea-ice"
+      ]
+    },
+    {
+      "id": "D4.3-07",
+      "q": "Explain the chain from warmer ocean surface water to reduced energy flow through a marine food chain.",
+      "a": "Warmer surface water is less dense and increases stratification between surface and deeper water. This can reduce vertical mixing and nutrient upwelling from deep water. Fewer nutrients reach phytoplankton in the sunlit surface layer, so primary production decreases. Less biomass and chemical energy are then available to consumers at higher trophic levels.",
+      "note": "Warm surface water doesn’t destroy the nutrients. It can prevent them from reaching the illuminated surface.",
+      "tags": [
+        "core",
+        "upwelling",
+        "primary-production",
+        "food-chains"
+      ]
+    },
+    {
+      "id": "D4.3-08",
+      "q": "Explain why warming causes poleward and upslope range shifts, and give the two syllabus examples.",
+      "a": "As temperatures rise, conditions within a species' tolerance range may occur farther toward the poles or at higher elevations. Populations may colonize these cooler areas while disappearing from warmer parts of their former range. Tropical-zone montane bird species in New Guinea have shifted upslope. North American tree species show northward spread together with contraction in other parts of their ranges.",
+      "note": "A range shift describes population distribution across generations. It doesn’t mean one organism decides to move because it feels warm.",
+      "tags": [
+        "core",
+        "range-shifts",
+        "species-distribution"
+      ]
+    },
+    {
+      "id": "D4.3-09",
+      "q": "Explain how increased atmospheric carbon dioxide causes ocean acidification and suppresses coral calcification.",
+      "a": "More atmospheric carbon dioxide dissolves in seawater and reacts with water to form carbonic acid. Dissociation increases hydrogen ion concentration and lowers pH. Hydrogen ions react with carbonate ions, reducing the carbonate available for corals to produce calcium carbonate skeletons. Calcification is therefore suppressed.",
+      "note": "Ocean acidification and coral bleaching have different immediate causes. Acidification suppresses calcification; heat stress causes bleaching.",
+      "tags": [
+        "core",
+        "ocean-acidification",
+        "corals",
+        "calcification"
+      ]
+    },
+    {
+      "id": "D4.3-10",
+      "q": "Explain how higher ocean temperature can lead from coral bleaching to reef ecosystem collapse.",
+      "a": "Heat stress can cause corals to lose their photosynthetic symbionts or the symbionts' pigments, producing coral bleaching. The corals then receive fewer products of photosynthesis. If stressful conditions continue, coral growth and survival decline and many corals die. Loss of the reef-building corals removes habitat and resources for many other species, so the reef ecosystem can collapse.",
+      "note": "Bleaching isn't the same as immediate coral death. Corals may recover if suitable conditions return before prolonged damage occurs.",
+      "tags": [
+        "core",
+        "coral-bleaching",
+        "ecosystem-collapse"
+      ]
+    },
+    {
+      "id": "D4.3-11",
+      "q": "Explain how afforestation, forest regeneration and peatland restoration can sequester carbon.",
+      "a": "Afforestation establishes forest where there hasn't recently been forest, while forest regeneration allows a damaged or cleared forest to recover. In both cases, photosynthesis removes carbon dioxide and carbon accumulates in biomass and soil. Restoring peat-forming wetlands maintains waterlogged, low-oxygen conditions that slow decomposition, reduce carbon loss and allow partially decomposed organic matter to accumulate as peat.",
+      "note": "Planting trees and rewilding with native species can differ in biodiversity and long-term outcomes, so the best approach is open to scientific debate.",
+      "tags": [
+        "core",
+        "carbon-sequestration",
+        "forests",
+        "peatlands"
+      ]
+    },
+    {
+      "id": "D4.3-12",
+      "q": "Define phenology and explain how temperature and photoperiod can control phenological events.",
+      "a": "Phenology is research into the timing of recurring biological events. Temperature patterns and photoperiod, the duration of light in a day, act as environmental cues. They can influence flowering, budburst and bud set in deciduous trees, as well as bird migration and nesting.",
+      "note": "Phenology means the study of timing. It isn't the event itself and it isn't the study of appearance.",
+      "tags": [
+        "hl",
+        "phenology",
+        "environmental-cues"
+      ]
+    },
+    {
+      "id": "D4.3-13",
+      "q": "Explain how climate change can disrupt phenological synchrony, using one named example.",
+      "a": "Interacting populations may use different cues, such as temperature in one population and photoperiod in another. Climate warming changes temperature patterns without changing the annual photoperiod cycle, so their events may shift by different amounts. For example, spring growth of Arctic mouse-ear chickweed can advance while the arrival of migrating reindeer changes less, reducing food availability when the reindeer arrive.",
+      "note": "Another syllabus example is a mismatch between great tit breeding and peak caterpillar biomass in northern European forests.",
+      "tags": [
+        "hl",
+        "phenology",
+        "synchrony",
+        "reindeer"
+      ]
+    },
+    {
+      "id": "D4.3-14",
+      "q": "Explain why warmer conditions can increase the number of spruce bark beetle life cycles completed in one year.",
+      "a": "Warmer temperatures can speed the development of the spruce bark beetle and lengthen the part of the year suitable for activity and reproduction. A population of Ips typographus may therefore complete more generations within a year. More frequent reproduction can increase beetle abundance and damage to spruce forests.",
+      "tags": [
+        "hl",
+        "insects",
+        "spruce-bark-beetle",
+        "life-cycles"
+      ]
+    },
+    {
+      "id": "D4.3-15",
+      "q": "Correct this claim: 'Tawny owls become browner during their lives when snow cover decreases, so they evolve.'",
+      "a": "Individual tawny owls don't change their inherited color variant in response to reduced snow cover. With less snow, brown variants can have greater survival and reproductive success than gray variants, so they have higher fitness. If color variation is heritable, the alleles associated with the brown variant increase in frequency over generations. That population-level change is evolution by natural selection.",
+      "note": "Evolution is a change in heritable characteristics or allele frequencies of a population, not a change acquired by one owl.",
+      "tags": [
+        "hl",
+        "natural-selection",
+        "tawny-owl",
+        "misconception"
+      ]
+    },
+    {
+      "id": "D4.3-16",
+      "q": "Build one causal explanation linking human activity, positive feedback, ecosystem change and evolution.",
+      "a": "Human activities increase atmospheric carbon dioxide and methane, strengthening the greenhouse effect and raising temperature. Warming triggers positive feedback such as ice loss lowering albedo and permafrost thaw releasing more greenhouse gases. Continued warming changes habitats, primary production, species ranges and the timing of biological events. These environmental changes alter selection pressures, so heritable variants with greater fitness leave more offspring and population allele frequencies can change.",
+      "note": "This answer moves across levels: atmospheric change, feedback, ecosystem effects and evolutionary change.",
+      "tags": [
+        "core",
+        "hl",
+        "synthesis",
+        "climate-effects"
+      ]
+    }
+  ]
+}

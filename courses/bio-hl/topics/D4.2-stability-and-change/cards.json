@@ -1,0 +1,121 @@
+{
+  "topic": "D4.2",
+  "title": "Stability and change",
+  "cards": [
+    {
+      "id": "D4.2-01",
+      "q": "Explain what ecosystem stability means and how long-lived forests or deserts provide evidence for it.",
+      "a": "Ecosystem stability is the ability of an ecosystem to maintain its characteristic structure and processes over time or recover after disturbance. Forest and desert ecosystems that have persisted for very long periods show continuity of their overall communities and ecological processes. Stability doesn’t mean that every population remains constant or that no change occurs.",
+      "note": "Don’t define stability as a lack of change. Stable ecosystems fluctuate and can undergo disturbance.",
+      "tags": ["core", "stability"]
+    },
+    {
+      "id": "D4.2-02",
+      "q": "Explain the four requirements for long-term ecosystem stability.",
+      "a": "A stable ecosystem needs a continuing energy supply, usually sunlight, because energy is lost from food chains as heat. Nutrients must be recycled because matter is finite within the ecosystem. Genetic diversity gives populations a greater chance of containing individuals able to survive change. Climatic variables must remain within the tolerance ranges of the organisms present.",
+      "tags": ["core", "stability", "energy", "diversity"]
+    },
+    {
+      "id": "D4.2-03",
+      "q": "Explain how Amazon deforestation could push the rainforest across a tipping point.",
+      "a": "A large rainforest area releases water vapor by transpiration. This contributes to atmospheric cooling, air flow and rainfall over the region. Deforestation reduces transpiration, so rainfall may decline and the remaining forest may become hotter and drier. Drought, fire and tree death can then reduce forest cover further, creating positive feedback. The minimum forest area needed to maintain these processes is uncertain.",
+      "note": "The tipping point isn't a known, exact percentage. The syllabus expects the mechanism and the uncertainty.",
+      "tags": ["core", "amazon", "tipping-point", "feedback"]
+    },
+    {
+      "id": "D4.2-04",
+      "q": "A forest originally covered 5.0 million km² and now covers 4.1 million km². Calculate the percentage decrease and show the method.",
+      "a": "The decrease is 5.0 − 4.1 = 0.9 million km². Percentage decrease = decrease ÷ original area × 100, so 0.9 ÷ 5.0 × 100 = 18%.",
+      "note": "The denominator is the original area, not the remaining area.",
+      "tags": ["core", "amazon", "calculation"]
+    },
+    {
+      "id": "D4.2-05",
+      "q": "Design a mesocosm experiment to test how nitrate concentration affects the stability of an aquatic ecosystem.",
+      "a": "Set up replicate aquatic mesocosms with the same volume, species, starting population sizes, light, temperature and other conditions. Give different groups defined nitrate concentrations, including a control with no added nitrate. Measure variables such as dissolved oxygen, producer biomass, population sizes and nutrient concentration over time. A sealed transparent vessel can prevent matter from entering or leaving while still allowing energy transfer as light and heat. Compare the size of changes and recovery among treatments.",
+      "note": "Sealed means closed to matter, not to energy. Replicates and a control are needed before nitrate can be treated as the cause.",
+      "tags": ["core", "mesocosm", "experimental-design"]
+    },
+    {
+      "id": "D4.2-06",
+      "q": "Explain what makes a species a keystone species, using sea otters as an example.",
+      "a": "A keystone species has an effect on community structure that is disproportionately large relative to its abundance. Sea otters prey on sea urchins. If otters are removed, urchin populations can increase and overgraze kelp, reducing kelp-forest habitat and changing many other populations. Removing a keystone species can therefore destabilize or collapse a community.",
+      "note": "A keystone species doesn't have to be abundant, and not every top predator is automatically one.",
+      "tags": ["core", "keystone-species", "food-webs"]
+    },
+    {
+      "id": "D4.2-07",
+      "q": "Assess the sustainability of harvesting bigleaf mahogany and Atlantic cod. Include the evidence needed for each.",
+      "a": "Harvesting is sustainable only when removal remains below replacement over the relevant period. For bigleaf mahogany, managers can compare timber removal with growth, seedling recruitment and survival in permanent forest plots, then limit logging and allow enough time for regeneration. For Atlantic cod, surveys, age structure, spawning-stock biomass and catch data can estimate whether reproduction is replacing harvested fish. Quotas, size limits, seasonal closures or protected areas can reduce harvesting when replacement is too slow.",
+      "note": "Calling a resource renewable doesn’t prove that its current harvest rate is sustainable.",
+      "tags": ["core", "sustainability", "harvesting"]
+    },
+    {
+      "id": "D4.2-08",
+      "q": "Explain the factors that must be considered when assessing whether agriculture is sustainable.",
+      "a": "Assessment should include whether soil is being lost by erosion, whether nitrates and phosphates are leaching from the soil, and whether fertilizers, irrigation water, fuel and other inputs can continue to be supplied. It should also include pollution from pesticides and other agrochemicals, effects on surrounding ecosystems, and greenhouse-gas emissions across the system’s carbon footprint.",
+      "tags": ["core", "agriculture", "sustainability"]
+    },
+    {
+      "id": "D4.2-09",
+      "q": "Explain the complete sequence by which fertilizer leaching can kill fish in a lake.",
+      "a": "Nitrate and phosphate fertilizers can leach into water and remove a nutrient limitation on algae or other producers. Rapid growth produces a bloom that can shade submerged plants. Algae and plants die, increasing the organic matter available to decomposers. Aerobic microorganisms use more oxygen while decomposing this material, so biochemical oxygen demand rises and dissolved oxygen falls. Hypoxic or anoxic conditions can then kill fish and other aerobic organisms.",
+      "note": "Fertilizer usually causes the oxygen problem indirectly. The decomposers’ respiration is the step that removes dissolved oxygen.",
+      "tags": ["core", "eutrophication", "bod"]
+    },
+    {
+      "id": "D4.2-10",
+      "q": "Distinguish bioaccumulation from biomagnification and explain why a top predator may contain a high concentration of DDT or mercury.",
+      "a": "Bioaccumulation is the increase of a pollutant within one organism over time because uptake is faster than breakdown or excretion. Biomagnification is an increase in pollutant concentration at successively higher trophic levels. Persistent pollutants such as DDT and mercury remain in tissues. A predator consumes contaminated biomass from many prey, so it can take in the pollutant faster than it eliminates it and reach a high tissue concentration.",
+      "note": "Accumulation is within an organism. Magnification is the pattern across trophic levels.",
+      "tags": ["core", "biomagnification", "pollution"]
+    },
+    {
+      "id": "D4.2-11",
+      "q": "Compare the effects of macroplastics and microplastics on marine life, and explain why plastic pollution persists.",
+      "a": "Macroplastics can entangle marine animals, restrict movement or feeding, and be swallowed, causing injury or blockage of the digestive tract. Microplastics can be ingested by small organisms and transferred through food webs. Plastics are generally non-biodegradable, so they persist rather than being decomposed by organisms. Larger items can fragment into smaller pieces without becoming harmless.",
+      "tags": ["core", "plastics", "pollution"]
+    },
+    {
+      "id": "D4.2-12",
+      "q": "Explain how rewilding can restore natural ecosystem processes, using Hinewai Reserve in New Zealand as an example.",
+      "a": "Rewilding can restore natural processes by reintroducing apex predators or other keystone species, reconnecting habitats across large areas and reducing continuing human disturbance. At Hinewai Reserve, grazing livestock were excluded and intensive clearance of introduced gorse was avoided. Gorse provided cover under which native plants could establish, and native forest regenerated as shade eventually suppressed much of the gorse. Management supported natural succession instead of continually constructing the community.",
+      "note": "Rewilding can involve management. It doesn’t mean that people take no action at all.",
+      "tags": ["core", "rewilding", "hinewai"]
+    },
+    {
+      "id": "D4.2-13",
+      "q": "Define ecological succession and explain how both abiotic and biotic changes can cause it.",
+      "a": "Ecological succession is change in the species composition of a community over time. Abiotic changes such as soil development, altered moisture or fire can change which species can survive. Biotic changes also drive succession when organisms modify conditions, compete, graze, disperse seeds or alter the availability of resources, allowing some populations to replace others.",
+      "note": "Succession is community change, not evolution within one species.",
+      "tags": ["hl", "succession"]
+    },
+    {
+      "id": "D4.2-14",
+      "q": "Describe primary succession from newly exposed rock to a more developed terrestrial community.",
+      "a": "Primary succession starts on a bare surface without developed soil. Pioneer organisms colonize and contribute to rock weathering and the accumulation of organic matter. As soil depth, water retention and nutrient availability increase, grasses and herbs can establish, followed by larger plants such as shrubs and trees where climate permits. Across the succession, plant size, primary production, species diversity, food-web complexity and nutrient cycling generally increase.",
+      "note": "Bare rock with no soil indicates primary succession. Recovery where soil remains is secondary succession.",
+      "tags": ["hl", "primary-succession", "pioneer-species"]
+    },
+    {
+      "id": "D4.2-15",
+      "q": "Explain cyclical succession using a heather community as an example.",
+      "a": "In cyclical succession, communities or stages recur instead of progressing to one permanently unchanged climax community. In a heather community, young plants colonize gaps, grow into dense mature stands and later degenerate. The resulting gaps allow young heather and associated species to establish again, so different patches pass repeatedly through pioneer, building, mature and degenerating stages.",
+      "tags": ["hl", "cyclical-succession", "heathland"]
+    },
+    {
+      "id": "D4.2-16",
+      "q": "Distinguish a climax community from arrested succession, using grazing and wetland drainage as examples.",
+      "a": "A climax community is the relatively stable community toward which succession tends under a particular set of environmental conditions. Arrested succession occurs when repeated disturbance or human influence prevents that community from developing. Continued livestock grazing can remove tree seedlings and maintain grassland, while drainage changes wetland conditions and can prevent the wetland climax community expected without drainage.",
+      "note": "A climax community isn't universal. It depends on the environmental conditions.",
+      "tags": ["hl", "climax-community", "arrested-succession"]
+    },
+    {
+      "id": "D4.2-17",
+      "q": "Construct a causal explanation linking diversity, disturbance, succession and ecosystem stability.",
+      "a": "Genetic and species diversity provide different responses to environmental change, so some organisms or interactions may continue after a disturbance. If disturbance stays within the ecosystem’s capacity to resist or recover, succession and population change can restore characteristic structure and processes. If a keystone species is removed or a tipping point is crossed, feedback can instead move the ecosystem toward a different community. Stability therefore includes controlled change and recovery, not the absence of change.",
+      "note": "This is the synthesis card. Build the explanation as a chain rather than listing four definitions.",
+      "tags": ["core", "hl", "synthesis", "stability"]
+    }
+  ]
+}
