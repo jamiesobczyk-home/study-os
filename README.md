@@ -86,6 +86,7 @@ That prints what is due and what a session looks like.
     study check           # verify pack structure
     study prompt D1.1     # a paste-ready pack prompt for another model
     study import D1.1     # check the model's reply and write it into the pack
+    study generate D1.1   # prompt, Codex and import in one step
     study build           # rebuild index.html, the page he studies from
 
 ## The loop
@@ -182,6 +183,9 @@ To generate them somewhere else, like ChatGPT, it's prompt, paste, import:
 
     study prompt D1.1 --example --copy   # prompt on the clipboard; paste it in
     study import D1.1                    # copy the whole reply, then this
+
+With the Codex CLI logged in, `study generate D1.1` does all three without
+the clipboard.
 
 `study prompt B1.2 --rebuild` redoes a pack he's already used without losing
 his progress, and `study prompt B1.2 --quiz` writes only quiz questions, from

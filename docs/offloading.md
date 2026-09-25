@@ -104,6 +104,28 @@ commit when you're happy.
 
 Steps 1 to 3 are offloadable. Step 4 isn't, and it's the one that matters.
 
+## Skipping the copy and paste
+
+If the [Codex CLI](https://github.com/openai/codex) is installed and logged in
+to your ChatGPT account (`codex login`), one command does steps 1 to 3:
+
+    .\study generate A3.1 A3.2              # new topics, run side by side
+    .\study generate B1.2 --rebuild         # a rebuild
+    .\study generate B1.2 --quiz            # quiz questions only
+
+It runs `study prompt` with a worked example, hands the prompt to Codex, then
+runs `study import` on the reply, so every check above still applies. Codex
+runs read-only in an empty folder. It sees the prompt and nothing else, the
+same as a ChatGPT paste, and can't touch the repo. Pick the model with
+`--model`, or a different example pack with `--example C1.2`.
+
+Each reply is kept in `.replies/`, which git ignores. When an import fails, the
+command prints the exact `study import` line to rerun once you've fixed it.
+
+Step 4 is still yours. Codex answered `UNCERTAIN: none` on all three of the
+first packs it wrote, including A2.1, which is mostly hypotheses. Don't read
+an empty list as a clean bill of health.
+
 ## What each tool is actually best at
 
 **ChatGPT or another model, given the portable prompt.** Bulk pack generation.

@@ -13,3 +13,6 @@ video/out/
 
 # Stray screenshots from browser test runs
 /q-*.png
+
+# Model replies saved by `study generate`, kept so a failed import can be rerun
+.replies/

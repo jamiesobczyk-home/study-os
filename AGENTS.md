@@ -127,7 +127,9 @@ There is a regression test for this: run an MCQ session and confirm
   topic in every file (B2.1 once got rebuilt when B1.2 was meant), id
   preservation, the quiz rules, then writes, runs the pack check, and puts every
   file back if the check fails. It never commits; that's Jamie's call after
-  reading the content against the book.
+  reading the content against the book. `study generate` runs Codex in
+  between, and it calls `study prompt` and `study import` as they are. Keep it
+  that way, so no reply ever gets in by a route that skips the importer.
 
 ## Tone
 

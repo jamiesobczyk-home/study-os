@@ -15,7 +15,9 @@
  */
 import { createInterface } from 'node:readline/promises';
 import { stdin, stdout } from 'node:process';
-import { cpSync, existsSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { spawn, spawnSync } from 'node:child_process';
+import { cpSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
 import { ROOT, TEMPLATES, topicDir } from './lib/paths.mjs';
@@ -624,6 +626,86 @@ const cmdImport = async (ctx, code, file, flags) => {
   ));
 };
 
+/**
+ * prompt, then Codex, then import, for one or more topics. The prompt and
+ * import steps run as `study prompt` and `study import` themselves, so every
+ * guard they have still applies. Codex runs read-only in an empty folder, so
+ * it sees exactly what a ChatGPT paste would and can't touch the repo. The
+ * replies stay in .replies/ so a failed import can be rerun by hand.
+ */
+const cmdGenerate = async (ctx, codes, flags) => {
+  if (!codes.length) {
+    console.error('Name at least one topic: study generate A3.1 [A3.2 ...]');
+    process.exit(1);
+  }
+  const study = (args, opts = {}) => spawnSync(process.execPath, [join(ROOT, 'tools', 'study.mjs'), ...args,
+    '--course', ctx.course], { encoding: 'utf8', maxBuffer: 32 * 1024 * 1024, ...opts });
+
+  const mode = flags.rebuild ? ['--rebuild'] : flags.quiz ? ['--quiz'] : [];
+  // A worked example makes the reply match the other packs, so it's on unless
+  // --example names a different one.
+  const example = ['--example', ...(typeof flags.example === 'string' ? [flags.example] : [])];
+
+  const outDir = join(ROOT, '.replies');
+  mkdirSync(outDir, { recursive: true });
+  const jobs = [];
+  for (const code of codes) {
+    const topic = requireTopic(ctx, code);
+    const r = study(['prompt', topic.code, ...mode, ...example]);
+    if (r.status !== 0) {
+      console.error(`${topic.code}: ${(r.stderr || r.stdout).trim()}`);
+      process.exit(1);
+    }
+    jobs.push({ topic, prompt: r.stdout, reply: join(outDir, `${topic.code}.reply.md`) });
+  }
+
+  console.log(heading(`Sending ${jobs.map((j) => j.topic.code).join(', ')} to Codex`));
+  console.log(para(dim('  Read-only, in an empty folder. A pack usually takes a few minutes.\n')));
+
+  const runCodex = (job) => new Promise((resolve) => {
+    const work = mkdtempSync(join(tmpdir(), 'study-codex-'));
+    const args = ['exec', '--sandbox', 'read-only', '--ephemeral', '--skip-git-repo-check',
+      '--color', 'never', '--cd', work, '--output-last-message', job.reply,
+      ...(typeof flags.model === 'string' ? ['--model', flags.model] : []), '-'];
+    rmSync(job.reply, { force: true });
+    let log = '';
+    const child = spawn('codex', args, { shell: process.platform === 'win32' });
+    child.stdout.on('data', (d) => { log += d; });
+    child.stderr.on('data', (d) => { log += d; });
+    child.on('error', (err) => {
+      rmSync(work, { recursive: true, force: true });
+      resolve({ ...job, error: err.code === 'ENOENT'
+        ? 'the codex command was not found. Install the Codex CLI and run `codex login` first.'
+        : err.message });
+    });
+    child.on('close', (status) => {
+      rmSync(work, { recursive: true, force: true });
+      const ok = status === 0 && existsSync(job.reply) && readFileSync(job.reply, 'utf8').trim();
+      resolve(ok ? job : { ...job, error: `codex exited ${status}. Last output:\n${log.trim().split('\n').slice(-8).join('\n')}` });
+    });
+    child.stdin.on('error', () => {}); // a codex that exits early closes the pipe
+    child.stdin.end(job.prompt);
+  });
+
+  const results = await Promise.all(jobs.map(runCodex));
+  let failed = 0;
+  for (const job of results) {
+    if (job.error) {
+      failed += 1;
+      console.log(para(red(`- ${job.topic.code}: ${job.error}`), '  '));
+      continue;
+    }
+    const importArgs = ['import', job.topic.code, job.reply,
+      ...(flags.quiz ? ['--quiz'] : []), ...(flags.rebuild || flags.quiz ? ['--replace'] : [])];
+    const r = study(importArgs, { stdio: 'inherit' });
+    if (r.status !== 0) {
+      failed += 1;
+      console.log(para(`  The reply is saved at ${job.reply}. Fix it and run ${bold(`study ${importArgs.join(' ')}`)}.\n`));
+    }
+  }
+  if (failed) process.exit(1);
+};
+
 /** Returns a reason string when index.html is older than the content it bakes in. */
 const webBuildStale = (ctx) => {
   const out = join(ROOT, 'index.html');
@@ -750,16 +832,18 @@ ${bold('study')} — a video-first study system
   ${bold('voice')} [topic]      measure how machine-written the prose reads
   ${bold('prompt')} <topic>     print a paste-ready pack prompt for another model
   ${bold('import')} <topic> [file]  check a model's reply and write it into the pack
+  ${bold('generate')} <topic...>  prompt, run it through Codex, and import the reply
   ${bold('build')}              rebuild index.html, the browser version he studies from
 
   ${dim('--course <id>')}      pick a course (default: ${DEFAULT_COURSE})
   ${dim('--limit <n>')}        cards per quiz (default: 20)
   ${dim('--all')}              quiz a whole topic, not just what is due
-  ${dim('--rebuild')}          with prompt: redo an existing pack, keeping every id
-  ${dim('--quiz')}             with prompt or import: quiz questions (mcq.json) only
-  ${dim('--example [topic]')}   with prompt: include a finished pack as a worked example
+  ${dim('--rebuild')}          with prompt or generate: redo an existing pack, keeping every id
+  ${dim('--quiz')}             with prompt, import or generate: quiz questions (mcq.json) only
+  ${dim('--example [topic]')}   with prompt or generate: include a finished pack as a worked example
   ${dim('--copy')}             with prompt: put it on the clipboard instead of printing it
   ${dim('--replace')}          with import: allow overwriting files that already exist
+  ${dim('--model <name>')}     with generate: the Codex model (default: Codex's own)
 
 ${dim('Start here:')}  node tools/study.mjs today
 `);
@@ -787,6 +871,7 @@ const main = async () => {
     case 'voice': return cmdVoice(ctx, code);
     case 'prompt': return cmdPrompt(ctx, code, flags);
     case 'import': return cmdImport(ctx, code, positional[2], flags);
+    case 'generate': return cmdGenerate(ctx, positional.slice(1), flags);
     case 'build': return cmdBuild(ctx);
     default:
       console.error(`Unknown command "${command}".`);
