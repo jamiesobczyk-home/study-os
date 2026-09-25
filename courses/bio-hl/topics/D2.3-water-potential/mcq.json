@@ -1,0 +1,317 @@
+{
+  "topic": "D2.3",
+  "questions": [
+    {
+      "id": "D2.3-q01",
+      "stem": "How do water molecules orient around a sodium ion during solvation?",
+      "options": [
+        {
+          "text": "Their partially negative oxygen regions face the positive sodium ion",
+          "correct": true,
+          "why": "A positive ion attracts the partially negative region of polar water. The surrounding water molecules help keep the ion dispersed."
+        },
+        {
+          "text": "Their partially positive hydrogen regions face the positive sodium ion",
+          "correct": false,
+          "why": "The hydrogen regions also carry partial positive charges, so this orientation doesn't produce the relevant attraction. They face negative ions."
+        },
+        {
+          "text": "Their oxygen atoms form covalent bonds directly with the sodium ion",
+          "correct": false,
+          "why": "Solvation doesn't require new covalent bonds. It uses electrostatic attraction between the ion and water's partial charges."
+        },
+        {
+          "text": "Their hydrogen atoms remove an electron and convert sodium into a neutral atom",
+          "correct": false,
+          "why": "Sodium remains an ion in the solution. Water surrounds and disperses it without neutralizing its charge."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q02",
+      "stem": "A membrane separates a 0.2 mol dm⁻³ sucrose solution from a 0.7 mol dm⁻³ sucrose solution and permits water, but not sucrose, to cross. What is the net movement?",
+      "options": [
+        {
+          "text": "Water moves from the 0.2 mol dm⁻³ solution to the 0.7 mol dm⁻³ solution",
+          "correct": true,
+          "why": "The 0.2 mol dm⁻³ side is hypotonic and the 0.7 mol dm⁻³ side is hypertonic. Net water movement is toward the higher solute concentration."
+        },
+        {
+          "text": "Water moves from the 0.7 mol dm⁻³ solution to the 0.2 mol dm⁻³ solution",
+          "correct": false,
+          "why": "That direction runs from the hypertonic solution toward the hypotonic one. Osmosis produces net water movement in the opposite direction here."
+        },
+        {
+          "text": "Sucrose moves from the 0.7 mol dm⁻³ solution to the 0.2 mol dm⁻³ solution",
+          "correct": false,
+          "why": "That would describe diffusion of sucrose, but the membrane in the question prevents sucrose from crossing. Water is the substance moving."
+        },
+        {
+          "text": "Water and sucrose move together until both sides contain 0.45 mol dm⁻³ sucrose",
+          "correct": false,
+          "why": "Sucrose can't cross this membrane, so both substances don't move together. Only water can redistribute between the sides."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q03",
+      "stem": "What happens to water at isotonic equilibrium across a cell membrane?",
+      "options": [
+        {
+          "text": "Water crosses in both directions at equal rates",
+          "correct": true,
+          "why": "This is dynamic equilibrium. Individual molecules keep moving, but equal rates give no net movement."
+        },
+        {
+          "text": "All movement of water across the membrane stops",
+          "correct": false,
+          "why": "Molecular motion continues at equilibrium. The rates in opposite directions become equal rather than falling to zero."
+        },
+        {
+          "text": "Water enters while solute leaves at the same rate",
+          "correct": false,
+          "why": "Isotonic equilibrium concerns equal water movement in opposite directions. It doesn't require an exchange of water for solute."
+        },
+        {
+          "text": "Water leaves until the cell has no dissolved solutes",
+          "correct": false,
+          "why": "An isotonic environment causes no net loss of water. The cell's solutes remain present."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q04",
+      "stem": "A red blood cell is placed in a strongly hypertonic solution. What happens?",
+      "options": [
+        {
+          "text": "It loses water and becomes crenated",
+          "correct": true,
+          "why": "The surrounding solution has the higher solute concentration, so net water movement is out. The animal cell shrinks and becomes crenated."
+        },
+        {
+          "text": "It gains water and bursts by lysis",
+          "correct": false,
+          "why": "Lysis is expected in a sufficiently hypotonic solution, where net water movement is into a cell lacking a wall."
+        },
+        {
+          "text": "It develops turgor pressure against its wall",
+          "correct": false,
+          "why": "Red blood cells lack cell walls. Turgor pressure develops in walled cells as their contents press outward."
+        },
+        {
+          "text": "It becomes plasmolyzed as its membrane leaves the wall",
+          "correct": false,
+          "why": "Plasmolysis requires a cell wall from which the membrane can separate. A red blood cell becomes crenated instead."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q05",
+      "stem": "Why does a plant cell usually become turgid rather than burst in a hypotonic solution?",
+      "options": [
+        {
+          "text": "Its wall resists expansion as rising pressure opposes further water entry",
+          "correct": true,
+          "why": "Water entry pushes the contents against the wall, producing turgor pressure. Rising pressure potential brings the cell toward water-potential equilibrium."
+        },
+        {
+          "text": "Its wall prevents any water from crossing the cell membrane",
+          "correct": false,
+          "why": "Water still crosses the membrane. The wall limits expansion after water has entered; it isn't an impermeable barrier around the cell."
+        },
+        {
+          "text": "Its chloroplasts use the incoming water during photosynthesis immediately",
+          "correct": false,
+          "why": "Photosynthesis doesn't remove incoming water rapidly enough to explain the stable volume. Mechanical resistance from the wall produces the pressure."
+        },
+        {
+          "text": "Its vacuole pumps every excess water molecule back into the solution",
+          "correct": false,
+          "why": "A plant vacuole helps store water but doesn't expel it like a contractile vacuole. Turgor pressure limits further net entry."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q06",
+      "stem": "Which observation identifies the isotonic concentration in a plant-tissue investigation?",
+      "options": [
+        {
+          "text": "Zero mean percentage change in tissue mass",
+          "correct": true,
+          "why": "Zero change indicates no net water gain or loss. On a graph, this is the concentration at the x-intercept."
+        },
+        {
+          "text": "The greatest final mass among the tissue samples",
+          "correct": false,
+          "why": "The greatest final mass usually indicates substantial water uptake. Isotonic conditions produce no change from the initial mass."
+        },
+        {
+          "text": "The lowest standard deviation among all concentrations",
+          "correct": false,
+          "why": "A low standard deviation shows tightly grouped repeats. It doesn't identify where net water movement was zero."
+        },
+        {
+          "text": "Equal initial masses for every tissue sample",
+          "correct": false,
+          "why": "Equal starting masses improve control but don't reveal the isotonic concentration. The change after treatment provides that evidence."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q07",
+      "stem": "Why do many freshwater unicellular organisms need contractile vacuoles?",
+      "options": [
+        {
+          "text": "Water enters continually by osmosis and must be expelled",
+          "correct": true,
+          "why": "Fresh water is hypotonic relative to the cell contents. The vacuole removes incoming water and reduces the risk of excessive swelling."
+        },
+        {
+          "text": "Solutes enter continually by diffusion and must be digested",
+          "correct": false,
+          "why": "A contractile vacuole regulates excess water rather than digesting solutes. Digestion occurs in other compartments."
+        },
+        {
+          "text": "Water leaves continually, so the vacuole replaces the loss",
+          "correct": false,
+          "why": "In fresh water, the net direction is into the organism. The vacuole expels water rather than supplying it."
+        },
+        {
+          "text": "The cell wall needs pressure generated by repeated contractions",
+          "correct": false,
+          "why": "Many organisms using contractile vacuoles don't rely on a plant-like wall. The contractions remove excess water from the cell."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q08",
+      "stem": "Why should an intravenous fluid be isotonic with blood plasma?",
+      "options": [
+        {
+          "text": "It prevents net osmosis that could shrink or lyse blood cells",
+          "correct": true,
+          "why": "An isotonic fluid maintains cell volume because water moves both ways at equal rates. This avoids harmful swelling or shrinking."
+        },
+        {
+          "text": "It stops every water molecule from crossing blood-cell membranes",
+          "correct": false,
+          "why": "Water continues crossing in both directions. Isotonic conditions prevent net movement, not molecular movement."
+        },
+        {
+          "text": "It causes red blood cells to develop protective turgor pressure",
+          "correct": false,
+          "why": "Red blood cells have no wall and don't become turgid. Isotonic fluid keeps their volume near its normal value."
+        },
+        {
+          "text": "It draws excess water from cells so their metabolism accelerates",
+          "correct": false,
+          "why": "Drawing water out would require a hypertonic fluid and would make cells shrink. That isn't the purpose of an intravenous solution."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q09",
+      "stem": "Which statement defines water potential?",
+      "options": [
+        {
+          "text": "The potential energy of water per unit volume",
+          "correct": true,
+          "why": "Water potential describes the potential energy of water relative to a reference state and is usually measured in kilopascals."
+        },
+        {
+          "text": "The number of water molecules in each unit volume",
+          "correct": false,
+          "why": "That's a description of concentration. Water potential is an energy quantity per unit volume."
+        },
+        {
+          "text": "The pressure needed to stop every water molecule moving",
+          "correct": false,
+          "why": "Water molecules never have to stop moving. Water potential predicts the direction of net movement."
+        },
+        {
+          "text": "The kinetic energy released when water crosses a membrane",
+          "correct": false,
+          "why": "Water potential concerns potential energy, not kinetic energy released during membrane crossing."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q10",
+      "stem": "A cell has Ψs = −1,100 kPa and Ψp = +700 kPa. What is its water potential?",
+      "options": [
+        {
+          "text": "−400 kPa",
+          "correct": true,
+          "why": "Using Ψw = Ψs + Ψp gives −1,100 kPa + 700 kPa = −400 kPa."
+        },
+        {
+          "text": "−1,800 kPa",
+          "correct": false,
+          "why": "This results from subtracting the positive pressure potential. The equation requires the two signed values to be added."
+        },
+        {
+          "text": "+400 kPa",
+          "correct": false,
+          "why": "The magnitude is obtained from the two values, but the negative solute contribution remains larger than the positive pressure contribution."
+        },
+        {
+          "text": "+1,800 kPa",
+          "correct": false,
+          "why": "Adding the magnitudes and making the result positive ignores both signs in the water-potential equation."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q11",
+      "stem": "Two compartments have water potentials of −300 kPa and −850 kPa. What is the direction of net water movement?",
+      "options": [
+        {
+          "text": "From −300 kPa to −850 kPa",
+          "correct": true,
+          "why": "The value −300 kPa is higher because it's less negative. Water moves from higher to lower water potential."
+        },
+        {
+          "text": "From −850 kPa to −300 kPa",
+          "correct": false,
+          "why": "This runs from lower to higher water potential. A larger negative magnitude doesn't mean a higher potential."
+        },
+        {
+          "text": "In neither direction because both values are negative",
+          "correct": false,
+          "why": "Negative values can still form a gradient. Their unequal values predict net movement toward −850 kPa."
+        },
+        {
+          "text": "Equally in both directions because the difference is pressure",
+          "correct": false,
+          "why": "The values given are unequal total water potentials. Equal opposing rates occur only at water-potential equilibrium."
+        }
+      ]
+    },
+    {
+      "id": "D2.3-q12",
+      "stem": "Why can pressure potential in a xylem vessel be negative?",
+      "options": [
+        {
+          "text": "Transpiration places the column of xylem sap under tension",
+          "correct": true,
+          "why": "Evaporation from leaves pulls on the continuous water column. Tension makes the pressure contribution negative."
+        },
+        {
+          "text": "Dissolved mineral ions always make physical pressure negative",
+          "correct": false,
+          "why": "Dissolved particles make solute potential negative. They don't automatically give the sap a negative pressure potential."
+        },
+        {
+          "text": "Xylem walls actively pump water upward using metabolic energy",
+          "correct": false,
+          "why": "Xylem vessels are dead at maturity and don't pump water. Transpiration generates the tension."
+        },
+        {
+          "text": "Gravity removes all potential energy from water inside the vessel",
+          "correct": false,
+          "why": "Negative pressure here comes from tension in the sap. It doesn't mean that the water has lost all potential energy."
+        }
+      ]
+    }
+  ]
+}

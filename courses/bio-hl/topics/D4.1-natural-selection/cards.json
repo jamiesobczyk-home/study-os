@@ -1,0 +1,125 @@
+{
+  "topic": "D4.1",
+  "title": "Natural selection",
+  "cards": [
+    {
+      "id": "D4.1-01",
+      "q": "Explain the complete mechanism of evolution by natural selection, beginning with variation and ending with change in a population.",
+      "a": "Individuals in a population vary, and some of that variation is heritable. More offspring are produced than the environment can support, so individuals compete for limited resources. A selection pressure causes individuals with advantageous heritable traits to survive or reproduce more successfully. They pass the associated alleles to more offspring, so those alleles become more frequent over generations and the population evolves.",
+      "note": "Individuals are selected, but populations evolve. The answer also needs reproduction and inheritance, not survival alone.",
+      "tags": ["core", "natural-selection", "synthesis"]
+    },
+    {
+      "id": "D4.1-02",
+      "q": "Distinguish the roles of mutation and sexual reproduction in producing the variation used by natural selection.",
+      "a": "Mutation changes genetic material and can create new alleles. Sexual reproduction doesn't normally create alleles; meiosis and fertilization produce new combinations of existing alleles. Both processes increase the genetic variation on which natural selection can act.",
+      "note": "Recombination reshuffles alleles. Mutation is the source of new alleles.",
+      "tags": ["core", "variation", "mutation"]
+    },
+    {
+      "id": "D4.1-03",
+      "q": "Explain how overproduction of offspring and carrying capacity lead to natural selection.",
+      "a": "Species tend to produce more offspring than can survive and reproduce. Food, water, space, nesting sites or other resources limit the environment's carrying capacity. Individuals of the same species therefore compete, and those with advantageous heritable traits tend to leave more surviving offspring. Their alleles become more frequent in later generations.",
+      "tags": ["core", "competition", "carrying-capacity"]
+    },
+    {
+      "id": "D4.1-04",
+      "q": "Explain how an abiotic factor can act as a density-independent selection pressure.",
+      "a": "An abiotic factor such as unusually high or low temperature can affect individuals regardless of population density. If individuals differ in a heritable trait that affects tolerance, those with greater tolerance are more likely to survive and reproduce. Alleles associated with tolerance can therefore increase in frequency.",
+      "note": "The temperature doesn't produce a tolerance allele. It changes the reproductive success of variants already present.",
+      "tags": ["core", "abiotic-factors", "selection-pressure"]
+    },
+    {
+      "id": "D4.1-05",
+      "q": "Define biological fitness and explain how it connects adaptation, survival and reproduction.",
+      "a": "Fitness is the reproductive success of an individual or genotype relative to others in the population. An adaptation can increase survival, but it raises fitness only if it helps its bearer contribute more offspring and alleles to the next generation. A long-lived individual that produces no offspring has no direct reproductive fitness.",
+      "note": "Fitness doesn't mean strongest, healthiest or longest-lived.",
+      "tags": ["core", "fitness", "adaptation"]
+    },
+    {
+      "id": "D4.1-06",
+      "q": "Correct this claim: 'An animal that builds stronger muscles passes those stronger muscles to its offspring, so the population evolves.'",
+      "a": "Muscles developed through use are an acquired characteristic and aren't encoded as a change in the base sequence of the animal's genes. The stronger muscles therefore aren't inherited through that mechanism. Natural selection causes evolutionary change only when variation has a heritable basis that can be passed to offspring.",
+      "note": "This corrects Lamarckian reasoning. The environment selects among heritable variants; it doesn't make the required genetic change.",
+      "tags": ["core", "heredity", "misconception"]
+    },
+    {
+      "id": "D4.1-07",
+      "q": "Explain how sexual selection can cause elaborate plumage to evolve in birds of paradise.",
+      "a": "Male birds vary in heritable physical or behavioral traits used in courtship. If females preferentially mate with males whose plumage or displays signal overall fitness, those males produce more offspring. Alleles contributing to the preferred traits are passed on more often, so the traits can become more common over generations.",
+      "tags": ["core", "sexual-selection", "birds-of-paradise"]
+    },
+    {
+      "id": "D4.1-08",
+      "q": "Explain how John Endler's guppy experiments separated the effects of predation and mate choice on male coloration.",
+      "a": "Endler compared guppy populations exposed to controlled predation conditions. Conspicuous males can gain mates through female choice, but they can also be detected more easily by predators. Under strong predation, less conspicuous coloration was favored; where predation was weak or absent, sexual selection favored more conspicuous males. Changing the predator treatment allowed the competing selection pressures to be tested.",
+      "note": "Predation and mate choice can push the same trait in opposite directions.",
+      "tags": ["core", "endler", "data-interpretation"]
+    },
+    {
+      "id": "D4.1-09",
+      "q": "Define a gene pool and explain what an allele frequency measures.",
+      "a": "A gene pool consists of all the genes and their different alleles present in a population. An allele frequency is the proportion of all copies of a particular gene in that population that are one allele. In a diploid population of N individuals, there are 2N copies of an autosomal gene.",
+      "tags": ["hl", "gene-pool", "allele-frequency"]
+    },
+    {
+      "id": "D4.1-10",
+      "q": "A diploid population contains 40 AA individuals, 50 Aa individuals and 10 aa individuals. Calculate the frequencies of A and a.",
+      "a": "The population has 200 allele copies. There are 130 copies of A: 80 from AA individuals and 50 from Aa individuals, so the frequency of A is 130/200 = 0.65. There are 70 copies of a, so its frequency is 70/200 = 0.35.",
+      "note": "Count alleles, not individuals. Each homozygote contributes two copies and each heterozygote contributes one of each.",
+      "tags": ["hl", "gene-pool", "calculation"]
+    },
+    {
+      "id": "D4.1-11",
+      "q": "Explain why geographically isolated populations can develop different allele frequencies, and state how human population data could show this.",
+      "a": "Geographic isolation reduces gene flow between populations. Mutation, genetic drift and different selection pressures can then change allele frequencies independently, so the populations diverge. A database may show, for example, that an allele associated with adult lactase persistence has different frequencies in human populations with different geographic and historical patterns of dairy farming.",
+      "tags": ["hl", "geographic-isolation", "human-variation"]
+    },
+    {
+      "id": "D4.1-12",
+      "q": "Explain natural selection in the genetic language used by neo-Darwinism.",
+      "a": "Individuals differ in heritable traits because they carry different alleles or allele combinations. Selection pressures cause differences in survival and reproductive success among those individuals. Alleles associated with greater reproductive success are transmitted more often, changing their frequencies in the population's gene pool over generations.",
+      "tags": ["hl", "neo-darwinism", "allele-frequency"]
+    },
+    {
+      "id": "D4.1-13",
+      "q": "Distinguish directional, stabilizing and disruptive selection by stating which phenotypes are favored and what happens to the distribution.",
+      "a": "Directional selection favors one extreme phenotype and shifts the population's distribution toward that extreme. Stabilizing selection favors intermediate phenotypes and selects against both extremes, narrowing the distribution around the mean. Disruptive selection favors both extremes and selects against intermediates, tending to produce two peaks.",
+      "note": "All three can change allele frequencies. Stabilizing selection doesn't mean that evolution has stopped.",
+      "tags": ["hl", "selection-patterns", "graphs"]
+    },
+    {
+      "id": "D4.1-14",
+      "q": "State what every term means in the Hardy–Weinberg equations p + q = 1 and p² + 2pq + q² = 1.",
+      "a": "For a gene with two alleles, p and q are the frequencies of the two alleles, so p + q = 1. Under Hardy–Weinberg conditions, p² is the frequency of one homozygous genotype, 2pq is the heterozygous genotype frequency, and q² is the other homozygous genotype frequency. The three genotype frequencies add to 1.",
+      "tags": ["hl", "hardy-weinberg", "equations"]
+    },
+    {
+      "id": "D4.1-15",
+      "q": "In a Hardy–Weinberg population, 9% of individuals show a recessive phenotype controlled by genotype aa. Calculate all allele and genotype frequencies.",
+      "a": "The frequency of aa is q² = 0.09, so q = 0.30. Therefore p = 1 − 0.30 = 0.70. The frequency of AA is p² = 0.49, the frequency of Aa is 2pq = 2 × 0.70 × 0.30 = 0.42, and the frequency of aa is 0.09.",
+      "note": "The observed recessive phenotype gives q², not q.",
+      "tags": ["hl", "hardy-weinberg", "calculation"]
+    },
+    {
+      "id": "D4.1-16",
+      "q": "State the Hardy–Weinberg conditions and explain what a mismatch between observed and predicted genotype frequencies shows.",
+      "a": "The population must be large, mating must be random, and there must be no mutation, migration or gene flow, or natural selection. A large population makes genetic drift negligible. If observed genotype frequencies don't fit the Hardy–Weinberg prediction, at least one condition hasn't been maintained. The mismatch alone doesn't identify which condition failed.",
+      "note": "Non-random mating can alter genotype proportions without necessarily changing allele frequencies, so don't automatically label every mismatch as natural selection.",
+      "tags": ["hl", "hardy-weinberg", "equilibrium"]
+    },
+    {
+      "id": "D4.1-17",
+      "q": "Distinguish artificial selection from the evolution of antibiotic resistance in bacteria.",
+      "a": "In artificial selection, humans deliberately choose which crop plants or domesticated animals reproduce because they have desired heritable traits. Antibiotic resistance evolves by natural selection: treatment creates a selection pressure, resistant bacteria survive and reproduce, and resistance alleles become more frequent. Humans created the pressure but didn't choose individual bacteria as parents.",
+      "tags": ["hl", "artificial-selection", "antibiotic-resistance"]
+    },
+    {
+      "id": "D4.1-18",
+      "q": "A cold period begins in a population containing heritable variation in cold tolerance. Build a causal explanation from the environmental change to a new allele frequency.",
+      "a": "The low temperature acts as an abiotic selection pressure. Individuals with alleles that give greater cold tolerance are more likely to survive, compete successfully and reproduce. Because tolerance is heritable, those individuals pass the associated alleles to a greater proportion of the next generation. Across generations, the frequency of cold-tolerance alleles increases and the population becomes better adapted to the colder conditions.",
+      "note": "The cold selects an existing heritable difference; it doesn't cause a useful mutation because the population needs one.",
+      "tags": ["core", "hl", "synthesis", "abiotic-factors"]
+    }
+  ]
+}

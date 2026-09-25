@@ -1,0 +1,317 @@
+{
+  "topic": "D2.2",
+  "questions": [
+    {
+      "id": "D2.2-q01",
+      "stem": "Which sequence correctly connects a protein-coding gene to phenotype?",
+      "options": [
+        {
+          "text": "DNA replication, transcription, gene duplication, phenotype",
+          "correct": false,
+          "why": "Replication copies DNA before cell division, and gene duplication isn't a normal stage of expression."
+        },
+        {
+          "text": "Transcription, translation, protein function, phenotype",
+          "correct": true,
+          "why": "The gene is transcribed into mRNA, the mRNA is translated, and the protein's function can affect phenotype."
+        },
+        {
+          "text": "Translation, transcription, protein folding, phenotype",
+          "correct": false,
+          "why": "The first two stages are backwards. DNA is transcribed before mRNA can be translated."
+        },
+        {
+          "text": "Transcription, DNA replication, protein function, phenotype",
+          "correct": false,
+          "why": "Replication isn't the step that converts an RNA message into a polypeptide. Translation belongs there."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q02",
+      "stem": "Which statement correctly distinguishes an enhancer from a transcription factor?",
+      "options": [
+        {
+          "text": "An enhancer is regulatory DNA, while a transcription factor is a protein that binds specific DNA",
+          "correct": true,
+          "why": "The enhancer supplies a binding sequence. An activator transcription factor can bind there and increase transcription."
+        },
+        {
+          "text": "An enhancer is a protein, while a transcription factor is the DNA sequence beside a gene",
+          "correct": false,
+          "why": "The molecule types have been reversed. Enhancers are DNA sequences, and transcription factors are proteins."
+        },
+        {
+          "text": "An enhancer produces mRNA, while a transcription factor translates that mRNA at a ribosome",
+          "correct": false,
+          "why": "RNA polymerase produces RNA, and ribosomes perform translation. Those aren't the roles of enhancers or transcription factors."
+        },
+        {
+          "text": "An enhancer copies a gene, while a transcription factor separates DNA strands before cell division",
+          "correct": false,
+          "why": "That describes neither component. Enhancers and transcription factors regulate transcription rather than DNA replication."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q03",
+      "stem": "Two equally abundant mRNAs are translated at the same rate, but one remains intact much longer. What is the expected result?",
+      "options": [
+        {
+          "text": "The longer-lived mRNA produces more protein because it can undergo more rounds of translation",
+          "correct": true,
+          "why": "An mRNA that remains intact stays available to ribosomes for longer, allowing more protein molecules to be produced."
+        },
+        {
+          "text": "The shorter-lived mRNA produces more protein because nucleases release its amino acids more rapidly",
+          "correct": false,
+          "why": "Nucleases break RNA into nucleotides, not amino acids. Rapid degradation also reduces the time available for translation."
+        },
+        {
+          "text": "Both mRNAs produce equal protein because mRNA lifetime has no effect after transcription",
+          "correct": false,
+          "why": "Lifetime matters after transcription because an intact mRNA can be translated repeatedly before nucleases destroy it."
+        },
+        {
+          "text": "The longer-lived mRNA changes the DNA sequence because it remains paired with its gene",
+          "correct": false,
+          "why": "Mature mRNA doesn't stay paired with the gene or rewrite it. Stability changes translation, not the DNA sequence."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q04",
+      "stem": "Why can a neuron and a muscle cell from one person have different proteomes?",
+      "options": [
+        {
+          "text": "Each cell type permanently removes genes that it no longer requires",
+          "correct": false,
+          "why": "Differentiation normally regulates genes rather than deleting them. Both cell types retain largely the same genome."
+        },
+        {
+          "text": "Each cell type expresses a different selection of genes from a largely shared genome",
+          "correct": true,
+          "why": "Different patterns of transcription and translation produce the proteins needed for each cell's specialized function."
+        },
+        {
+          "text": "Each cell type translates every gene but folds the resulting proteins differently",
+          "correct": false,
+          "why": "No cell expresses every gene. Much of the difference begins with selective transcription."
+        },
+        {
+          "text": "Each cell type receives a different genome when the zygote divides by mitosis",
+          "correct": false,
+          "why": "Mitosis normally passes equivalent genomes to daughter cells. Regulation of expression creates the different cell types."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q05",
+      "stem": "Which description correctly compares a cell's transcriptome and proteome?",
+      "options": [
+        {
+          "text": "The transcriptome contains all DNA, while the proteome contains every possible amino acid",
+          "correct": false,
+          "why": "All DNA belongs to the genome. A proteome is a set of proteins, not a collection of free amino acids."
+        },
+        {
+          "text": "The transcriptome contains all RNA present at a time, while the proteome contains all proteins present or produced",
+          "correct": true,
+          "why": "Both reflect gene expression and can change with cell type, developmental stage and environmental conditions."
+        },
+        {
+          "text": "The transcriptome contains only mRNA, while the proteome contains only enzymes used in metabolism",
+          "correct": false,
+          "why": "A transcriptome includes other RNA types as well as mRNA, and a proteome includes structural and regulatory proteins as well as enzymes."
+        },
+        {
+          "text": "The transcriptome and proteome remain constant because the cell's genome remains constant",
+          "correct": false,
+          "why": "A stable genome can produce changing transcriptomes and proteomes when different genes are expressed."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q06",
+      "stem": "What is the expected effect of methylating cytosine in the promoter of a gene?",
+      "options": [
+        {
+          "text": "Increased translation because the methyl groups attract additional ribosomes",
+          "correct": false,
+          "why": "Ribosomes translate mRNA and don't bind DNA promoters. The modification acts at transcription."
+        },
+        {
+          "text": "Repressed transcription and reduced expression of the downstream gene",
+          "correct": true,
+          "why": "Promoter DNA methylation represses transcription, so less of the gene's RNA and protein product is made."
+        },
+        {
+          "text": "Replacement of cytosine by a new base, producing a permanent mutation",
+          "correct": false,
+          "why": "The cytosine remains in the DNA sequence. A methyl tag modifies regulation without replacing the base."
+        },
+        {
+          "text": "Guaranteed activation of the gene because every methyl tag loosens chromatin",
+          "correct": false,
+          "why": "Promoter DNA methylation represses transcription. Histone methylation has more variable effects depending on its location."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q07",
+      "stem": "Which statement about histone methylation is accurate?",
+      "options": [
+        {
+          "text": "It can activate or repress transcription depending on which histone amino acids are modified",
+          "correct": true,
+          "why": "Histone methylation doesn't have one universal effect. Its result depends on the modification site and cellular context."
+        },
+        {
+          "text": "It always represses transcription by changing the nucleotide sequence of nearby genes",
+          "correct": false,
+          "why": "Histone methylation leaves the DNA sequence unchanged and can be associated with activation or repression."
+        },
+        {
+          "text": "It increases translation by adding methylated amino acids to the growing polypeptide",
+          "correct": false,
+          "why": "The modification is added to histone proteins associated with DNA. It regulates transcription rather than building the translated polypeptide."
+        },
+        {
+          "text": "It removes nucleosomes from every active gene and exposes the entire chromosome",
+          "correct": false,
+          "why": "Histone methylation changes regulation at particular chromatin regions. It doesn't strip every nucleosome from a chromosome."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q08",
+      "stem": "How can an epigenetic pattern be inherited by daughter cells after mitosis?",
+      "options": [
+        {
+          "text": "The nucleotide sequence changes before each division to encode the cell's current function",
+          "correct": false,
+          "why": "Stable differentiation doesn't require repeated mutation. The regulatory pattern can persist while the sequence stays unchanged."
+        },
+        {
+          "text": "DNA or histone tags are retained or copied, preserving a pattern of gene expression",
+          "correct": true,
+          "why": "Maintaining epigenetic tags helps daughter cells activate and repress the same genes as the parent cell."
+        },
+        {
+          "text": "Every mRNA molecule enters both daughter cells and remains intact for the organism's lifetime",
+          "correct": false,
+          "why": "mRNAs are eventually degraded, often within minutes or days. Long-term cellular memory depends on maintained regulation."
+        },
+        {
+          "text": "Only expressed genes are replicated, so inactive genes disappear from both daughter cells",
+          "correct": false,
+          "why": "The whole genome is replicated before mitosis. Expression status doesn't decide which DNA regions are copied."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q09",
+      "stem": "Why are monozygotic twins useful for investigating environmental effects on gene expression?",
+      "options": [
+        {
+          "text": "They have nearly identical genomes, reducing genetic variation when differing exposures are compared",
+          "correct": true,
+          "why": "With much of the genetic difference controlled, differences in expression or epigenetic tags can be associated more strongly with environmental exposure."
+        },
+        {
+          "text": "They always experience identical prenatal conditions, so every later difference has one environmental cause",
+          "correct": false,
+          "why": "Prenatal environments can differ, and many later exposures can vary. A difference doesn't identify a single cause automatically."
+        },
+        {
+          "text": "They have identical epigenetic tags throughout life, allowing mutations to be measured directly",
+          "correct": false,
+          "why": "Their epigenetic patterns can diverge with development and exposure. Those differences are often what researchers investigate."
+        },
+        {
+          "text": "They have different genomes but share one environment, isolating the effects of DNA sequence",
+          "correct": false,
+          "why": "That reverses the comparison. Monozygotic twins have nearly identical genomes, while their environments may differ."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q10",
+      "stem": "A liger and a tigon contain genetic material from lions and tigers but commonly differ in size. What best explains this observation?",
+      "options": [
+        {
+          "text": "Parent-of-origin epigenetic tags cause growth-related alleles to be expressed differently in the reciprocal crosses",
+          "correct": true,
+          "why": "Genomic imprinting makes expression depend on whether an allele came from the mother or father. This can produce different growth phenotypes."
+        },
+        {
+          "text": "The two crosses translate the genetic code differently because lions and tigers use different codons",
+          "correct": false,
+          "why": "Lions and tigers use the same genetic code. The difference concerns regulation of inherited alleles, not codon meaning."
+        },
+        {
+          "text": "A liger inherits only lion growth genes, whereas a tigon inherits only tiger growth genes",
+          "correct": false,
+          "why": "Both hybrids inherit genetic material from both species. What differs is which species supplied the maternal and paternal genomes."
+        },
+        {
+          "text": "The parental chromosomes blend after fertilization and create a new DNA base for each hybrid type",
+          "correct": false,
+          "why": "Parental alleles remain distinct, and genomic imprinting doesn't create new bases. Retained tags affect which alleles are expressed."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q11",
+      "stem": "What happens when lactose becomes available to E. coli carrying the lac operon?",
+      "options": [
+        {
+          "text": "A lactose-derived inducer binds the repressor, preventing it from continuing to block the operator",
+          "correct": true,
+          "why": "Removing the repressor's block allows RNA polymerase to transcribe genes needed for lactose uptake and metabolism."
+        },
+        {
+          "text": "Lactose binds directly to the promoter and acts as the RNA polymerase that transcribes the genes",
+          "correct": false,
+          "why": "Lactose isn't a protein enzyme and doesn't transcribe DNA. It acts through the repressor protein."
+        },
+        {
+          "text": "The repressor binds more tightly to the operator, increasing transcription of the lactose-use genes",
+          "correct": false,
+          "why": "An operator-bound repressor blocks transcription. Lactose availability causes that repression to be removed."
+        },
+        {
+          "text": "The bacterium permanently mutates the operator so its descendants can digest lactose without regulation",
+          "correct": false,
+          "why": "The response is reversible regulation of transcription, not a permanent change in the operator's sequence."
+        }
+      ]
+    },
+    {
+      "id": "D2.2-q12",
+      "stem": "How can estrogen alter gene expression in a target cell?",
+      "options": [
+        {
+          "text": "It crosses the membrane, binds an intracellular receptor, and the complex binds regulatory DNA",
+          "correct": true,
+          "why": "The hormone–receptor complex acts as a transcription factor and changes transcription of particular target genes."
+        },
+        {
+          "text": "It binds every cell's DNA directly and replaces bases in genes associated with reproduction",
+          "correct": false,
+          "why": "Estrogen acts through a receptor and doesn't replace DNA bases. Cells without the appropriate receptor won't respond in the same way."
+        },
+        {
+          "text": "It remains outside the cell and translates mRNA into estrogen-responsive proteins at the membrane",
+          "correct": false,
+          "why": "Ribosomes perform translation. Estrogen is lipid-soluble and can cross the membrane to bind an intracellular receptor."
+        },
+        {
+          "text": "It binds a nuclease and prevents degradation of every mRNA molecule produced by the cell",
+          "correct": false,
+          "why": "That would be broad control of mRNA stability. Estrogen regulates selected genes through its receptor and regulatory DNA."
+        }
+      ]
+    }
+  ]
+}

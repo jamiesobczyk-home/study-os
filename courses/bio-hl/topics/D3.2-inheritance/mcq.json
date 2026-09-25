@@ -1,0 +1,317 @@
+{
+  "topic": "D3.2",
+  "questions": [
+    {
+      "id": "D3.2-q01",
+      "stem": "How does sexual reproduction restore the diploid chromosome number?",
+      "options": [
+        {
+          "text": "Two haploid gametes fuse during fertilization to form a diploid zygote",
+          "correct": true,
+          "why": "Each gamete supplies one chromosome from every homologous pair. Their fusion restores two chromosome sets."
+        },
+        {
+          "text": "A diploid gamete divides by mitosis to produce a haploid zygote",
+          "correct": false,
+          "why": "The chromosome numbers are reversed here. Gametes are haploid, while the zygote formed by their fusion is diploid."
+        },
+        {
+          "text": "Homologous chromosomes duplicate during fertilization inside each gamete",
+          "correct": false,
+          "why": "Chromosomes aren't duplicated to restore diploidy. One haploid set arrives in each of the two gametes."
+        },
+        {
+          "text": "Two diploid gametes exchange alleles and produce a diploid zygote",
+          "correct": false,
+          "why": "Gametes produced by meiosis are haploid, not diploid. Fusion of two diploid cells would double the normal chromosome number."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q02",
+      "stem": "Which statement correctly distinguishes genotype from phenotype?",
+      "options": [
+        {
+          "text": "Genotype is an organism’s allele combination, while phenotype is its observable traits",
+          "correct": true,
+          "why": "Genotype names the inherited alleles. Phenotype is the observable result of genotype, environment and their interaction."
+        },
+        {
+          "text": "Genotype is an observable characteristic, while phenotype is the DNA sequence producing it",
+          "correct": false,
+          "why": "Those definitions are backwards. Observable traits are phenotypes, while inherited allele combinations are genotypes."
+        },
+        {
+          "text": "Genotype includes environmental effects, while phenotype contains inherited information only",
+          "correct": false,
+          "why": "Environmental effects contribute to phenotype. They don't become part of the organism’s inherited genotype."
+        },
+        {
+          "text": "Genotype describes dominant alleles, while phenotype describes recessive alleles in an organism",
+          "correct": false,
+          "why": "Both dominant and recessive alleles belong to the genotype. Phenotype describes the traits produced, not one allele category."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q03",
+      "stem": "A genetically identical plant develops broad leaves in shade and narrow leaves in bright light. What best explains this observation?",
+      "options": [
+        {
+          "text": "Environmental conditions altered gene expression without changing the plant’s genotype",
+          "correct": true,
+          "why": "This is phenotypic plasticity. One genotype produces different phenotypes as environmental conditions alter gene expression."
+        },
+        {
+          "text": "Bright light created a targeted mutation for narrow leaves in every plant cell",
+          "correct": false,
+          "why": "Phenotypic plasticity doesn't require a mutation. Environmental effects can change gene expression while the DNA sequence remains unchanged."
+        },
+        {
+          "text": "The plant inherited different alleles after it was moved into bright light",
+          "correct": false,
+          "why": "An individual doesn't inherit a new allele when its environment changes. Inheritance occurred when the zygote formed."
+        },
+        {
+          "text": "A recessive leaf allele became dominant because the light intensity increased",
+          "correct": false,
+          "why": "Dominance relationships don't switch when light changes. The environment affected expression of the existing genotype."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q04",
+      "stem": "Which parental genotypes could produce children with blood groups A, B, AB and O?",
+      "options": [
+        {
+          "text": "I^Ai and I^Bi",
+          "correct": true,
+          "why": "These parents can produce I^AI^B, I^Ai, I^Bi and ii, giving all four blood-group phenotypes."
+        },
+        {
+          "text": "I^AI^A and I^BI^B",
+          "correct": false,
+          "why": "Every child would inherit I^A from one parent and I^B from the other, so every child would have blood group AB."
+        },
+        {
+          "text": "I^AI^B and ii",
+          "correct": false,
+          "why": "This cross produces I^Ai or I^Bi, so the children can have blood group A or B but not AB or O."
+        },
+        {
+          "text": "I^Ai and ii",
+          "correct": false,
+          "why": "This cross produces I^Ai or ii, so only blood groups A and O are possible."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q05",
+      "stem": "Which genotype represents a male with haemophilia?",
+      "options": [
+        {
+          "text": "X^hY",
+          "correct": true,
+          "why": "A male has one X chromosome, so the recessive haemophilia allele on that X is expressed."
+        },
+        {
+          "text": "X^HX^h",
+          "correct": false,
+          "why": "This represents a heterozygous female carrier. The dominant unaffected allele usually masks the recessive haemophilia allele."
+        },
+        {
+          "text": "X^hY^h",
+          "correct": false,
+          "why": "The haemophilia allele is written on the X chromosome. The Y chromosome isn't assigned a corresponding allele."
+        },
+        {
+          "text": "X^HY",
+          "correct": false,
+          "why": "This represents an unaffected male because his X chromosome carries the unaffected allele."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q06",
+      "stem": "Two unaffected parents have a child with a rare autosomal recessive disorder. Which parental genotypes fit this observation?",
+      "options": [
+        {
+          "text": "Both parents are heterozygous carriers",
+          "correct": true,
+          "why": "Each unaffected parent can carry one recessive allele. The affected child can inherit one recessive allele from each."
+        },
+        {
+          "text": "Both parents are homozygous dominant",
+          "correct": false,
+          "why": "Two homozygous dominant parents have no recessive allele to pass to the child."
+        },
+        {
+          "text": "One parent is homozygous dominant and one is heterozygous",
+          "correct": false,
+          "why": "The homozygous dominant parent always supplies a dominant allele, so an affected homozygous recessive child can't result."
+        },
+        {
+          "text": "Both parents are homozygous recessive but show no symptoms",
+          "correct": false,
+          "why": "For the stated inheritance pattern, homozygous recessive individuals are affected rather than unaffected carriers."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q07",
+      "stem": "In a box-and-whisker analysis, Q1 = 12 and Q3 = 20. Which value would be classified as an upper outlier?",
+      "options": [
+        {
+          "text": "33",
+          "correct": true,
+          "why": "The IQR is 8, so the upper fence is 20 + 1.5 × 8 = 32. A value of 33 lies above it."
+        },
+        {
+          "text": "31",
+          "correct": false,
+          "why": "The upper outlier fence is 32. A value of 31 lies below that boundary."
+        },
+        {
+          "text": "24",
+          "correct": false,
+          "why": "A value of 24 is within 1.5 interquartile ranges above Q3, so it isn't an upper outlier."
+        },
+        {
+          "text": "20",
+          "correct": false,
+          "why": "This is Q3 itself, the upper edge of the box, rather than an outlier."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q08",
+      "stem": "Why can alleles of two genes on different chromosomes assort independently?",
+      "options": [
+        {
+          "text": "Each homologous pair can orient independently at metaphase I of meiosis",
+          "correct": true,
+          "why": "The orientation of one homologous pair doesn't determine another pair’s orientation. This creates different chromosome combinations in gametes."
+        },
+        {
+          "text": "Sister chromatids from every chromosome pair separate independently during prophase I",
+          "correct": false,
+          "why": "Sister chromatids normally remain joined during prophase I. Independent orientation concerns homologous pairs at metaphase I."
+        },
+        {
+          "text": "Every allele crosses over to a chromosome from a different homologous pair",
+          "correct": false,
+          "why": "Crossing over occurs between non-sister chromatids of one homologous pair, not between unrelated chromosomes."
+        },
+        {
+          "text": "Each gene mutates independently before homologous chromosomes separate during meiosis",
+          "correct": false,
+          "why": "Independent assortment comes from chromosome orientation and separation, not from mutation."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q09",
+      "stem": "What phenotypic ratio is expected from AaBb × aabb when both genes are unlinked and show complete dominance?",
+      "options": [
+        {
+          "text": "1:1:1:1",
+          "correct": true,
+          "why": "The heterozygote produces four gamete types equally, while the double-recessive parent produces only ab gametes."
+        },
+        {
+          "text": "9:3:3:1",
+          "correct": false,
+          "why": "That ratio is expected from crossing two dihybrid heterozygotes, AaBb × AaBb, under the same assumptions."
+        },
+        {
+          "text": "3:1",
+          "correct": false,
+          "why": "That is the usual phenotypic ratio for a monohybrid cross between two heterozygotes, not this dihybrid test cross."
+        },
+        {
+          "text": "1:2:1",
+          "correct": false,
+          "why": "That is the genotypic ratio at one locus in a heterozygote cross. It doesn't describe the four phenotypes here."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q10",
+      "stem": "Why do two closely linked autosomal genes produce more parental gametes than recombinant gametes?",
+      "options": [
+        {
+          "text": "The loci travel together unless a crossover occurs between them",
+          "correct": true,
+          "why": "Linked alleles stay on the same chromosome unless crossing over separates them. Crossovers between nearby loci occur in only some meioses."
+        },
+        {
+          "text": "Parental gametes survive because recombinant gametes always carry harmful mutations",
+          "correct": false,
+          "why": "Recombinant gametes don't necessarily contain mutations or harmful alleles. Their lower frequency comes from how often crossing over occurs between the loci."
+        },
+        {
+          "text": "Linked genes occupy the same locus and therefore cannot separate during meiosis",
+          "correct": false,
+          "why": "Different linked genes occupy different loci on the same chromosome. A crossover between those loci can separate their allele combinations."
+        },
+        {
+          "text": "The dominant alleles attract each other and enter the same gamete during meiosis",
+          "correct": false,
+          "why": "Dominance affects phenotype, not chromosome movement. Physical positions on a chromosome cause linkage."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q11",
+      "stem": "A heterozygote has linked alleles in the arrangement AB/ab and is crossed with ab/ab. Which offspring are recombinant classes?",
+      "options": [
+        {
+          "text": "Aabb and aaBb",
+          "correct": true,
+          "why": "These offspring reveal Ab and aB gametes from the heterozygote, which differ from its parental AB and ab combinations."
+        },
+        {
+          "text": "AaBb and aabb",
+          "correct": false,
+          "why": "These offspring reveal the parental AB and ab gametes. They retain the combinations present on the heterozygote’s homologs."
+        },
+        {
+          "text": "AABB and aabb",
+          "correct": false,
+          "why": "AABB can't be produced because the tester contributes only ab. The aabb class is possible, but it is parental."
+        },
+        {
+          "text": "AaBB and AAbb",
+          "correct": false,
+          "why": "The ab/ab tester can't supply a B or A allele, so neither genotype can be produced in this cross."
+        }
+      ]
+    },
+    {
+      "id": "D3.2-q12",
+      "stem": "A chi-squared test of four dihybrid phenotype classes gives p = 0.02. What conclusion is appropriate at the 0.05 significance level?",
+      "options": [
+        {
+          "text": "Reject the null hypothesis because the observed difference is statistically significant",
+          "correct": true,
+          "why": "A p value below 0.05 means the observed departure would be unlikely under the null hypothesis. The data may support linkage."
+        },
+        {
+          "text": "Fail to reject the null hypothesis because 0.02 is below the significance level",
+          "correct": false,
+          "why": "A p value below the chosen significance level leads to rejection, not failure to reject."
+        },
+        {
+          "text": "Accept the null hypothesis because some observed and expected values are different",
+          "correct": false,
+          "why": "Observed values normally differ from expected values. The chi-squared result evaluates whether the total difference is larger than chance reasonably explains."
+        },
+        {
+          "text": "Conclude that linkage has been proved because the p value is below 0.05",
+          "correct": false,
+          "why": "The result supports a significant departure from independent assortment, but it doesn't prove that linkage is the only possible cause."
+        }
+      ]
+    }
+  ]
+}

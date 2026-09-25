@@ -1,0 +1,125 @@
+{
+  "topic": "D2.3",
+  "title": "Water potential",
+  "cards": [
+    {
+      "id": "D2.3-01",
+      "q": "Explain how water solvates a polar molecule, a positive ion and a negative ion.",
+      "a": "Water can form hydrogen bonds with suitable polar solutes. Around a positive ion, water molecules orient with their partially negative oxygen regions toward the ion. Around a negative ion, they orient with their partially positive hydrogen regions toward the ion. These attractions surround and disperse the dissolved particles.",
+      "note": "Hydrogen bonds apply to suitable polar molecules. Attractions between ions and water are electrostatic attractions between full and partial charges.",
+      "tags": ["core", "solvation", "polarity"]
+    },
+    {
+      "id": "D2.3-02",
+      "q": "Use hypotonic and hypertonic to describe two solutions, then predict the direction of net water movement between them.",
+      "a": "The hypotonic solution has a lower solute concentration than the hypertonic solution. If a membrane permits water to cross but restricts the relevant solute, water moves in both directions, with net movement from the hypotonic solution to the hypertonic solution.",
+      "note": "Tonicity is comparative. A solution is hypotonic or hypertonic relative to another solution.",
+      "tags": ["core", "tonicity", "osmosis"]
+    },
+    {
+      "id": "D2.3-03",
+      "q": "Define osmosis in a way that includes the membrane, the substance moving and the direction of net movement.",
+      "a": "Osmosis is the net movement of water through a partially permeable membrane from a hypotonic solution, with lower solute concentration, to a hypertonic solution, with higher solute concentration.",
+      "note": "Solute doesn’t move by osmosis. The word net also matters because individual water molecules move both ways.",
+      "tags": ["core", "osmosis", "definition"]
+    },
+    {
+      "id": "D2.3-04",
+      "q": "Explain what happens to water molecules when two solutions separated by a membrane are isotonic.",
+      "a": "Water molecules continue crossing the membrane in both directions. Because the solutions are isotonic, the rates of movement are equal, so there is no net movement of water and no resulting change in volume. This is dynamic equilibrium.",
+      "note": "No net movement doesn’t mean that molecular movement has stopped.",
+      "tags": ["core", "osmosis", "dynamic-equilibrium"]
+    },
+    {
+      "id": "D2.3-05",
+      "q": "Predict how the mass of plant tissue changes in hypotonic, hypertonic and isotonic bathing solutions.",
+      "a": "In a hypotonic solution, net water movement into the cells increases the tissue's mass and may increase its length. In a hypertonic solution, net water movement out decreases its mass and may decrease its length. In an isotonic solution, there is no net water movement, so no overall change in mass or length is expected.",
+      "tags": ["core", "plant-tissue", "investigation"]
+    },
+    {
+      "id": "D2.3-06",
+      "q": "Explain how results from plant tissue placed in several solute concentrations can be used to estimate the isotonic concentration.",
+      "a": "Calculate the percentage change in mass or length for each sample and plot the mean percentage change against solute concentration. The concentration at which the fitted line or curve crosses zero percentage change estimates the isotonic concentration, because the tissue had no net gain or loss of water there.",
+      "note": "Percentage change allows samples with different starting masses or lengths to be compared fairly.",
+      "tags": ["core", "plant-tissue", "data-analysis"]
+    },
+    {
+      "id": "D2.3-07",
+      "q": "How can standard deviation, standard error and error bars help you analyze a plant-tissue osmosis investigation?",
+      "a": "Standard deviation describes the spread of repeated measurements around their mean. Standard error estimates the uncertainty in the calculated mean and can be displayed as error bars. Large spread or large standard-error bars make differences between concentrations less convincing than small values do.",
+      "note": "Standard deviation describes variation among measurements. Standard error describes uncertainty in the mean.",
+      "tags": ["core", "plant-tissue", "statistics"]
+    },
+    {
+      "id": "D2.3-08",
+      "q": "Compare the effects of hypotonic and hypertonic solutions on an animal cell.",
+      "a": "In a hypotonic solution, water enters the animal cell by osmosis, causing it to swell and possibly burst by lysis because it lacks a cell wall. In a hypertonic solution, water leaves by osmosis, causing the cell to shrink; an irregularly shrunken animal cell is described as crenated.",
+      "tags": ["core", "animal-cells", "tonicity"]
+    },
+    {
+      "id": "D2.3-09",
+      "q": "Explain why a freshwater unicellular organism may need a contractile vacuole.",
+      "a": "Fresh water is hypotonic relative to the cell contents, so water continually enters the organism by osmosis. A contractile vacuole collects excess water and expels it from the cell, preventing excessive swelling and possible lysis.",
+      "tags": ["core", "contractile-vacuole", "osmoregulation"]
+    },
+    {
+      "id": "D2.3-10",
+      "q": "Compare the response of a plant cell to hypotonic and hypertonic surroundings.",
+      "a": "In hypotonic surroundings, water enters the plant cell and the contents press the membrane against the cell wall. The wall resists expansion, turgor pressure develops and the cell becomes turgid rather than bursting. In hypertonic surroundings, water leaves, the contents shrink and the membrane can pull away from the wall, causing plasmolysis.",
+      "note": "The wall limits expansion, but it doesn’t prevent water from crossing the cell membrane.",
+      "tags": ["core", "plant-cells", "turgor", "plasmolysis"]
+    },
+    {
+      "id": "D2.3-11",
+      "q": "Explain why isotonic solutions are used for intravenous fluids and for bathing organs before transplantation.",
+      "a": "An isotonic solution has the same solute concentration as the cells or tissues being protected, so there is no net movement of water into or out of them. This prevents animal cells from swelling and lysing or from losing water and shrinking. It also limits damaging changes in the cells of a transplant organ.",
+      "tags": ["core", "medical-applications", "isotonic"]
+    },
+    {
+      "id": "D2.3-12",
+      "q": "Correct this claim: 'Osmosis stops when a cell and its surroundings are isotonic.'",
+      "a": "Water molecules continue crossing the membrane in both directions when the conditions are isotonic. The rates in the two directions are equal, so there is no net movement and no overall volume change. Osmosis has reached dynamic equilibrium rather than all movement stopping.",
+      "note": "This distinction between movement and net movement appears often in mark schemes.",
+      "tags": ["core", "misconception", "dynamic-equilibrium"]
+    },
+    {
+      "id": "D2.3-13",
+      "q": "Define water potential and state the reference conditions, symbol and usual unit.",
+      "a": "Water potential is the potential energy of water per unit volume. Its symbol is Ψw, and values are measured relative to pure water at atmospheric pressure and 20°C, which is assigned a water potential of 0 kPa. Water potential is usually expressed in kilopascals.",
+      "tags": ["hl", "water-potential", "definition"]
+    },
+    {
+      "id": "D2.3-14",
+      "q": "A membrane separates solutions with water potentials of −250 kPa and −700 kPa. Predict the net movement of water and explain the direction.",
+      "a": "Water moves from the solution at −250 kPa to the solution at −700 kPa. The value −250 kPa is higher, or less negative, so water moves down its water-potential gradient from higher potential energy per unit volume to lower potential energy per unit volume.",
+      "note": "With negative numbers, the value closer to zero is the higher water potential.",
+      "tags": ["hl", "water-potential", "gradient"]
+    },
+    {
+      "id": "D2.3-15",
+      "q": "State the equation connecting water, solute and pressure potentials, and explain the sign of each contribution.",
+      "a": "The equation is Ψw = Ψs + Ψp. Pure water has a solute potential of zero, and adding solute makes Ψs negative because it lowers water potential. Pressure inside a walled cell is generally positive, so Ψp raises the total water potential.",
+      "tags": ["hl", "solute-potential", "pressure-potential"]
+    },
+    {
+      "id": "D2.3-16",
+      "q": "A plant cell has a solute potential of −900 kPa and a pressure potential of +500 kPa. Calculate its water potential and predict water movement if the surrounding solution is at −600 kPa.",
+      "a": "Using Ψw = Ψs + Ψp, the cell's water potential is −900 kPa + 500 kPa = −400 kPa. The surrounding solution at −600 kPa has the lower water potential, so net water movement is out of the cell.",
+      "note": "Compare total water potentials after calculating. Comparing solute potentials alone can give the wrong direction.",
+      "tags": ["hl", "calculation", "water-potential"]
+    },
+    {
+      "id": "D2.3-17",
+      "q": "Explain why pressure potential is usually positive in living cells but may be negative in xylem vessels.",
+      "a": "In a walled living cell, water entering the cell causes the contents to press against the wall, producing positive pressure potential. In a transpiring plant, xylem sap is pulled under tension as water evaporates from leaves, so its pressure potential can be negative.",
+      "tags": ["hl", "pressure-potential", "xylem"]
+    },
+    {
+      "id": "D2.3-18",
+      "q": "Construct the full sequence of water-potential changes when plant cells are moved first into a hypotonic solution and then into a strongly hypertonic solution.",
+      "a": "In the hypotonic solution, the external water potential is higher, so water enters the cells. The cell sap becomes diluted, making solute potential less negative, while pressure potential rises as the contents press against the wall. Net entry stops when the total water potentials become equal and the cells are turgid. In the hypertonic solution, external water potential is lower, so water leaves. The cell sap becomes more concentrated, making solute potential more negative, pressure potential falls, and continued loss can pull the membrane away from the wall in plasmolysis.",
+      "note": "This answer connects the gradient, both components of Ψw and the visible condition of the tissue.",
+      "tags": ["hl", "synthesis", "plant-cells", "water-potential"]
+    }
+  ]
+}

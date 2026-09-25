@@ -1,0 +1,369 @@
+{
+  "topic": "D4.1",
+  "questions": [
+    {
+      "id": "D4.1-q01",
+      "stem": "How do mutation and sexual reproduction contribute differently to variation?",
+      "options": [
+        {
+          "text": "Mutation creates new alleles, while sexual reproduction produces new combinations of alleles",
+          "correct": true,
+          "why": "Mutation can add a new allele to the gene pool. Meiosis and fertilization reshuffle alleles that already exist."
+        },
+        {
+          "text": "Mutation reshuffles existing alleles, while sexual reproduction creates new alleles",
+          "correct": false,
+          "why": "The roles are reversed. Mutation can create alleles, while sexual reproduction rearranges them into new combinations."
+        },
+        {
+          "text": "Mutation creates useful traits, while sexual reproduction removes harmful traits",
+          "correct": false,
+          "why": "Mutations aren't produced according to usefulness. Selection, rather than sexual reproduction itself, changes how common alleles become."
+        },
+        {
+          "text": "Mutation changes phenotypes, while sexual reproduction leaves genetic variation unchanged",
+          "correct": false,
+          "why": "Sexual reproduction creates genetic variation among offspring through meiosis and fertilization. It doesn't leave allele combinations unchanged."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q02",
+      "stem": "Which statement correctly identifies what changes during evolution by natural selection?",
+      "options": [
+        {
+          "text": "Individual organisms change their alleles during life",
+          "correct": false,
+          "why": "Individuals don't replace their alleles to match the environment. Selection acts on differences already present among individuals."
+        },
+        {
+          "text": "Populations change in allele frequency across generations",
+          "correct": true,
+          "why": "Individuals with some heritable variants leave more offspring, so the population's allele frequencies change over generations."
+        },
+        {
+          "text": "Ecosystems choose which mutations a species will need",
+          "correct": false,
+          "why": "Environments don't direct mutations. They create conditions in which existing variants differ in survival and reproductive success."
+        },
+        {
+          "text": "Species acquire identical adaptations within one generation",
+          "correct": false,
+          "why": "Evolution occurs across generations and depends on heritable variation. Members of a species don't all acquire the same adaptation together."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q03",
+      "stem": "Which individual has the greatest biological fitness?",
+      "options": [
+        {
+          "text": "The individual that lives longest but produces no offspring",
+          "correct": false,
+          "why": "Longevity alone doesn't pass alleles forward. An individual producing no offspring has no direct reproductive fitness."
+        },
+        {
+          "text": "The individual that is largest and defeats the most competitors",
+          "correct": false,
+          "why": "Size and competitive strength matter only if they increase reproductive success. They aren't definitions of fitness."
+        },
+        {
+          "text": "The individual that contributes the most surviving offspring to the next generation",
+          "correct": true,
+          "why": "Fitness is reproductive success relative to others. The key measure is genetic contribution to later generations."
+        },
+        {
+          "text": "The individual that changes its phenotype most when conditions change",
+          "correct": false,
+          "why": "Phenotypic change during life isn't the definition of fitness. Its effect on reproductive success would have to be known."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q04",
+      "stem": "Why doesn't a suntan normally contribute to evolution by natural selection?",
+      "options": [
+        {
+          "text": "A suntan always reduces the individual's chance of survival",
+          "correct": false,
+          "why": "Its usefulness isn't the issue. The problem is whether the acquired change has a genetic basis that offspring inherit."
+        },
+        {
+          "text": "A suntan develops only after the individual has reproduced",
+          "correct": false,
+          "why": "A tan can develop before reproduction. Timing doesn't explain why the acquired pigmentation isn't genetically transmitted."
+        },
+        {
+          "text": "A suntan is an acquired change rather than an inherited base-sequence change",
+          "correct": true,
+          "why": "Exposure changes pigment production in the individual's skin, but it doesn't encode the tan in the DNA passed through gametes."
+        },
+        {
+          "text": "A suntan occurs in one organism rather than an entire species",
+          "correct": false,
+          "why": "A heritable mutation can begin in one organism and still affect evolution. The missing requirement here is inheritance."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q05",
+      "stem": "How can female preference for elaborate male plumage change a bird population?",
+      "options": [
+        {
+          "text": "Preferred males reproduce more, increasing alleles associated with the plumage",
+          "correct": true,
+          "why": "Mate choice creates differential reproductive success. If the plumage is heritable, its associated alleles can increase in frequency."
+        },
+        {
+          "text": "Preferred males survive longer, preventing mutation in their offspring",
+          "correct": false,
+          "why": "Sexual selection concerns mating success, and it doesn't prevent mutation. Elaborate plumage may even carry a survival cost."
+        },
+        {
+          "text": "Females transfer their preference directly into the males' genes",
+          "correct": false,
+          "why": "Mate choice doesn't rewrite a male's genes. It changes which males contribute alleles to the next generation."
+        },
+        {
+          "text": "Males develop brighter feathers after observing the female preference",
+          "correct": false,
+          "why": "That describes an acquired response to need. Evolution requires heritable variation in plumage and differential reproduction."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q06",
+      "stem": "What outcome is expected for conspicuous male guppies under strong predation?",
+      "options": [
+        {
+          "text": "They gain both greater mating success and greater survival",
+          "correct": false,
+          "why": "Conspicuousness may attract females, but it can also attract predators. The two effects can oppose one another."
+        },
+        {
+          "text": "They are detected more easily, favoring less conspicuous males",
+          "correct": true,
+          "why": "Strong predation raises the survival cost of conspicuous coloration, so less visible males may leave more offspring overall."
+        },
+        {
+          "text": "They mutate into duller forms after predators detect them",
+          "correct": false,
+          "why": "Individuals don't mutate their coloration in response to detection. Selection changes the frequencies of heritable variants over generations."
+        },
+        {
+          "text": "They eliminate sexual selection from every later generation",
+          "correct": false,
+          "why": "Female choice can still operate under predation. The outcome depends on the balance between mating advantage and survival cost."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q07",
+      "stem": "What is included in a population's gene pool?",
+      "options": [
+        {
+          "text": "All genes and their different alleles in the population",
+          "correct": true,
+          "why": "The gene pool includes the genetic variants carried across the whole population, not those from one individual."
+        },
+        {
+          "text": "Only alleles that improve survival in the current environment",
+          "correct": false,
+          "why": "Disadvantageous and neutral alleles remain part of the gene pool while they are present in the population."
+        },
+        {
+          "text": "Only genes carried by individuals that produce offspring",
+          "correct": false,
+          "why": "The gene pool describes the whole population at a given time, including individuals that may not reproduce."
+        },
+        {
+          "text": "All acquired characteristics shared by members of the population",
+          "correct": false,
+          "why": "Acquired characteristics aren't genes or alleles. A gene pool refers to genetic information in the population."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q08",
+      "stem": "Why can geographically isolated populations develop different allele frequencies?",
+      "options": [
+        {
+          "text": "Isolation forces both populations to acquire the same mutations",
+          "correct": false,
+          "why": "Mutations aren't directed by isolation, and separate populations needn't receive the same mutations."
+        },
+        {
+          "text": "Isolation stops every form of selection within either population",
+          "correct": false,
+          "why": "Selection continues within isolated populations. Different environments can expose them to different selection pressures."
+        },
+        {
+          "text": "Reduced gene flow lets selection and genetic drift act independently",
+          "correct": true,
+          "why": "With little exchange of alleles, separate mutations, chance events and selection pressures can make the populations diverge."
+        },
+        {
+          "text": "Reduced competition makes every allele equally successful in reproduction",
+          "correct": false,
+          "why": "Isolation doesn't remove competition or equalize reproductive success. Selection can remain strong in either population."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q09",
+      "stem": "A selection pressure favors both extreme phenotypes and acts against intermediate phenotypes. Which pattern is this?",
+      "options": [
+        {
+          "text": "Directional selection",
+          "correct": false,
+          "why": "Directional selection favors one extreme and shifts the distribution toward that side."
+        },
+        {
+          "text": "Stabilizing selection",
+          "correct": false,
+          "why": "Stabilizing selection favors intermediate phenotypes and acts against both extremes."
+        },
+        {
+          "text": "Disruptive selection",
+          "correct": true,
+          "why": "Disruptive selection favors both extremes, so the phenotype distribution tends to develop two peaks."
+        },
+        {
+          "text": "Artificial selection",
+          "correct": false,
+          "why": "Artificial selection describes deliberate human choice of breeding individuals, not this pattern of phenotypic selection."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q10",
+      "stem": "In the Hardy–Weinberg equation, what does 2pq represent?",
+      "options": [
+        {
+          "text": "The frequency of the dominant allele",
+          "correct": false,
+          "why": "One allele frequency is represented by p. Dominance doesn't determine which letter must be used."
+        },
+        {
+          "text": "The frequency of the recessive allele",
+          "correct": false,
+          "why": "One allele frequency is represented by q. The term 2pq combines both allele frequencies."
+        },
+        {
+          "text": "The frequency of the heterozygous genotype",
+          "correct": true,
+          "why": "A heterozygote can receive either allele from either parent, giving the combined expected frequency 2pq."
+        },
+        {
+          "text": "The frequency of both homozygous genotypes",
+          "correct": false,
+          "why": "The homozygous genotype frequencies are p² and q². Their sum isn't represented by 2pq."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q11",
+      "stem": "In a Hardy–Weinberg population, 16% of individuals have genotype aa. What is the frequency of allele A?",
+      "options": [
+        {
+          "text": "0.16",
+          "correct": false,
+          "why": "The value 0.16 is q², the frequency of genotype aa. It isn't an allele frequency."
+        },
+        {
+          "text": "0.40",
+          "correct": false,
+          "why": "Taking the square root gives q = 0.40, which is the frequency of allele a."
+        },
+        {
+          "text": "0.60",
+          "correct": true,
+          "why": "Because q² = 0.16, q = 0.40. Therefore p, the frequency of A, equals 1 − 0.40 = 0.60."
+        },
+        {
+          "text": "0.84",
+          "correct": false,
+          "why": "Subtracting q² directly from 1 mixes genotype and allele frequencies. You must find q before calculating p."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q12",
+      "stem": "Which set contains only Hardy–Weinberg conditions?",
+      "options": [
+        {
+          "text": "Large population, random mating, no mutation, no migration and no natural selection",
+          "correct": true,
+          "why": "Together these conditions prevent systematic or chance changes from disturbing the expected allele and genotype frequencies."
+        },
+        {
+          "text": "Small population, random mating, frequent mutation, no migration and stabilizing selection",
+          "correct": false,
+          "why": "A small population permits genetic drift, while mutation and selection violate the equilibrium conditions."
+        },
+        {
+          "text": "Large population, selective mating, no mutation, frequent migration and no competition",
+          "correct": false,
+          "why": "Selective mating violates random mating, and migration introduces or removes alleles through gene flow."
+        },
+        {
+          "text": "Stable population size, sexual reproduction, no predators, no disease and unlimited food",
+          "correct": false,
+          "why": "Those ecological conditions aren't the Hardy–Weinberg assumptions. They omit mutation, migration and random mating."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q13",
+      "stem": "Why is antibiotic resistance classified as natural selection rather than artificial selection?",
+      "options": [
+        {
+          "text": "Bacteria deliberately choose resistance when an antibiotic appears",
+          "correct": false,
+          "why": "Bacteria don't choose genetic changes. Resistant variants survive the selection pressure more successfully."
+        },
+        {
+          "text": "Humans select individual resistant bacteria and breed them together",
+          "correct": false,
+          "why": "That would resemble artificial selection, but antibiotic treatment doesn't involve choosing bacterial parents."
+        },
+        {
+          "text": "Antibiotics create resistance alleles in every exposed bacterium",
+          "correct": false,
+          "why": "Antibiotics don't direct the required mutation. They reduce susceptible bacteria and favor resistant variants."
+        },
+        {
+          "text": "Antibiotics favor resistant variants without deliberate choice of breeders",
+          "correct": true,
+          "why": "Humans create the selection pressure, but differential survival and reproduction determine which bacterial alleles spread."
+        }
+      ]
+    },
+    {
+      "id": "D4.1-q14",
+      "stem": "A drought begins, and plants with a heritable water-conserving trait produce more seeds. What is the expected long-term outcome?",
+      "options": [
+        {
+          "text": "Every plant develops the trait because water has become scarce",
+          "correct": false,
+          "why": "Need doesn't make every individual acquire a heritable trait. Variation must already arise through genetic processes."
+        },
+        {
+          "text": "The drought creates the same beneficial mutation in every seed",
+          "correct": false,
+          "why": "Mutation isn't directed toward the population's needs. The drought acts as a selection pressure on variation."
+        },
+        {
+          "text": "The water-conserving allele increases in frequency across generations",
+          "correct": true,
+          "why": "Plants carrying the heritable trait leave more offspring, so their associated allele contributes more copies to later generations."
+        },
+        {
+          "text": "The population reaches Hardy–Weinberg equilibrium through natural selection",
+          "correct": false,
+          "why": "Natural selection violates a Hardy–Weinberg condition. Selection is expected to change allele frequencies rather than maintain equilibrium."
+        }
+      ]
+    }
+  ]
+}

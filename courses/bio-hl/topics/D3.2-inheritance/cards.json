@@ -1,0 +1,127 @@
+{
+  "topic": "D3.2",
+  "title": "Inheritance",
+  "cards": [
+    {
+      "id": "D3.2-01",
+      "q": "Explain how meiosis and fertilization allow a diploid offspring to inherit alleles from both parents.",
+      "a": "Meiosis separates homologous chromosomes and produces haploid gametes containing one copy of each autosomal gene. At fertilization, two haploid gametes fuse to form a diploid zygote. The zygote therefore has two copies of each autosomal gene, with one inherited from each parent.",
+      "note": "Meiosis halves the chromosome number. Fertilization restores it.",
+      "tags": ["core", "gametes", "fertilization"]
+    },
+    {
+      "id": "D3.2-02",
+      "q": "Outline how a controlled genetic cross can be carried out in flowering plants, using the correct generation names.",
+      "a": "Chosen plants form the P generation. Pollen containing male gametes is transferred from one selected parent to the stigma of the other, whose female gametes are in ovules in the ovary. Self-pollination can be prevented by removing immature anthers and excluding unwanted pollen. The offspring are the F1 generation. F1 plants can be crossed or self-pollinated to produce the F2 generation, and a Punnett grid predicts possible offspring.",
+      "note": "Pollination transfers pollen. Fertilization happens later when male and female gametes fuse.",
+      "tags": ["core", "plants", "genetic-crosses"]
+    },
+    {
+      "id": "D3.2-03",
+      "q": "In a cross Aa × Aa, define the key genetic terms and predict the genotypic and phenotypic ratios if A is completely dominant.",
+      "a": "A and a are alleles of the same gene. AA is homozygous dominant, Aa is heterozygous and aa is homozygous recessive. Each parent produces A and a gametes in equal proportions, giving a 1 AA:2 Aa:1 aa genotypic ratio. Because one A allele produces the dominant phenotype in a heterozygote, the phenotypic ratio is 3 dominant:1 recessive.",
+      "note": "Dominant describes expression in a heterozygote. It doesn’t mean common, stronger or beneficial.",
+      "tags": ["core", "genotype", "dominance", "punnett-grid"]
+    },
+    {
+      "id": "D3.2-04",
+      "q": "Explain how the same genotype can produce different phenotypes in different environments.",
+      "a": "Phenotype results from genotype, environmental factors and interactions between them. In phenotypic plasticity, environmental conditions alter patterns of gene expression, so one genotype can develop different traits suited to the conditions experienced. The genotype hasn’t changed, and some resulting phenotypic changes can be reversed during the individual’s lifetime.",
+      "note": "Phenotypic plasticity changes gene expression, not the DNA base sequence.",
+      "tags": ["core", "phenotype", "environment", "plasticity"]
+    },
+    {
+      "id": "D3.2-05",
+      "q": "Explain the inheritance and biochemical cause of phenylketonuria.",
+      "a": "Phenylketonuria is caused by a recessive allele of an autosomal gene that codes for the enzyme needed to convert phenylalanine to tyrosine. An affected person inherits two recessive alleles and has insufficient functional enzyme, so phenylalanine accumulates. Without early dietary management, this can damage the developing nervous system.",
+      "note": "A heterozygous carrier can pass on the allele without having the condition.",
+      "tags": ["core", "pku", "recessive", "metabolism"]
+    },
+    {
+      "id": "D3.2-06",
+      "q": "Distinguish a single-nucleotide polymorphism from multiple alleles, and explain how many alleles one diploid person can carry.",
+      "a": "A single-nucleotide polymorphism is variation at one nucleotide position among individuals. Such sequence differences can contribute to alternative forms of a gene called alleles. A population’s gene pool can contain many alleles of one gene, but a diploid individual has only two copies of an autosomal gene and can therefore carry no more than two of its alleles.",
+      "tags": ["core", "snp", "multiple-alleles", "gene-pool"]
+    },
+    {
+      "id": "D3.2-07",
+      "q": "Explain the inheritance of ABO blood groups and give every genotype for the four phenotypes.",
+      "a": "The ABO gene has three alleles: I^A, I^B and i. I^A and I^B are codominant with each other, and both are dominant to i. Blood group A can be I^AI^A or I^Ai, group B can be I^BI^B or I^Bi, group AB is I^AI^B, and group O is ii.",
+      "note": "A population has three ABO alleles, but each person inherits only two.",
+      "tags": ["core", "abo", "codominance", "multiple-alleles"]
+    },
+    {
+      "id": "D3.2-08",
+      "q": "Distinguish complete dominance, incomplete dominance and codominance by describing the heterozygous phenotype.",
+      "a": "With complete dominance, the heterozygote has the same phenotype as the homozygous dominant individual. With incomplete dominance, the heterozygote has an intermediate phenotype, as in pink flowers produced by red and white alleles in four o’clock plants. With codominance, both alleles have distinct effects in the heterozygote, as in the I^AI^B genotype producing blood group AB.",
+      "tags": ["core", "dominance", "incomplete-dominance", "codominance"]
+    },
+    {
+      "id": "D3.2-09",
+      "q": "Explain human sex determination and predict the children of a carrier mother and an unaffected father for X-linked haemophilia.",
+      "a": "Eggs carry an X chromosome, while sperm carry either X or Y, so the sperm determines whether the zygote is XX or XY. For haemophilia, let X^H be the unaffected allele and X^h the recessive haemophilia allele. The cross X^HX^h × X^HY predicts X^HX^H, X^HX^h, X^HY and X^hY in equal proportions. Therefore half the sons are predicted to have haemophilia, no daughters are predicted to have it, and half the daughters are predicted to be carriers.",
+      "note": "A father gives his Y chromosome to a son, so an X-linked allele isn’t passed from father to son.",
+      "tags": ["core", "sex-linkage", "haemophilia", "punnett-grid"]
+    },
+    {
+      "id": "D3.2-10",
+      "q": "How can a pedigree support autosomal recessive inheritance, and why does reproduction between close relatives increase risk?",
+      "a": "An autosomal recessive condition can appear in a child whose two parents are unaffected heterozygous carriers, so the trait may skip generations and affect any sex. Genotypes can be tested against every parent-offspring relationship in the pedigree. Close relatives share more alleles inherited from recent common ancestors, so they have a higher probability of carrying the same rare recessive allele and producing a homozygous affected child.",
+      "note": "One feature rarely proves a pattern. Test the proposed genotypes across the whole pedigree.",
+      "tags": ["core", "pedigree", "recessive", "consanguinity"]
+    },
+    {
+      "id": "D3.2-11",
+      "q": "Explain why human skin color shows continuous variation, and distinguish it from ABO blood group.",
+      "a": "Human skin color is influenced by multiple genes and environmental factors such as exposure to sunlight. Many possible combinations of contributing alleles and environmental effects produce a continuous range of phenotypes. ABO blood group is a discrete variable because each person belongs to one of four separate phenotype categories.",
+      "note": "Polygenic means many genes influence one characteristic. It doesn’t mean one gene has many alleles.",
+      "tags": ["core", "continuous-variation", "polygenic", "environment"]
+    },
+    {
+      "id": "D3.2-12",
+      "q": "Describe how to construct and interpret a box-and-whisker plot, including how outliers are identified.",
+      "a": "Order the data and determine the median, first quartile and third quartile. The box runs from the first to the third quartile, with a line at the median. The interquartile range is Q3 minus Q1. Values below Q1 − 1.5 × IQR or above Q3 + 1.5 × IQR are plotted as outliers, while whiskers extend to the most extreme values that aren’t outliers. The plot displays the center, spread, skew and possible outliers in continuous data.",
+      "tags": ["core", "box-plot", "data-analysis", "variation"]
+    },
+    {
+      "id": "D3.2-13",
+      "q": "Connect segregation and independent assortment to chromosome movements during meiosis.",
+      "a": "The two alleles of a gene segregate because homologous chromosomes separate in anaphase I, so each gamete receives one homolog and therefore one allele. Different homologous pairs orient independently at metaphase I. Their maternal and paternal homologs consequently separate into gametes in different combinations, causing independent assortment of genes on different chromosomes.",
+      "note": "Independent assortment applies to different homologous pairs. Closely linked genes are an exception.",
+      "tags": ["hl", "meiosis", "segregation", "independent-assortment"]
+    },
+    {
+      "id": "D3.2-14",
+      "q": "Derive the expected phenotypic ratios for AaBb × AaBb and AaBb × aabb when the genes are unlinked and show complete dominance.",
+      "a": "An AaBb individual produces AB, Ab, aB and ab gametes in equal proportions because the genes assort independently. In AaBb × AaBb, combining four gamete types from each parent gives 9 A_B_:3 A_bb:3 aaB_:1 aabb. In the test cross AaBb × aabb, the recessive parent produces only ab gametes, giving the four phenotypes in a 1:1:1:1 ratio.",
+      "note": "The ratios assume unlinked genes, complete dominance and equal survival of the offspring classes.",
+      "tags": ["hl", "dihybrid-cross", "punnett-grid", "ratios"]
+    },
+    {
+      "id": "D3.2-15",
+      "q": "What information should you extract from a human gene database when investigating whether two genes could be linked?",
+      "a": "For each gene, identify its chromosome, precise locus and polypeptide product. Genes on different chromosomes are unlinked and can assort independently. Genes with loci close together on the same chromosome may be linked and tend to be inherited together. Database evidence locates the genes, while offspring data can test whether their alleles assort independently.",
+      "tags": ["hl", "database", "locus", "polypeptide"]
+    },
+    {
+      "id": "D3.2-16",
+      "q": "Explain autosomal gene linkage, including why crossing over produces fewer recombinant than parental gametes.",
+      "a": "Autosomal linkage occurs when genes are close together on the same autosome. Their alleles occupy the same chromosome and tend to move into a gamete together, so they don’t assort independently. A crossover between the loci in prophase I can exchange corresponding DNA between non-sister chromatids and create recombinant allele combinations. Because crossing over between nearby loci occurs in fewer meioses, parental gametes are more frequent than recombinant gametes.",
+      "note": "For a linked heterozygote, show alleles beside two vertical lines representing the homologous chromosomes so the parental combinations are visible.",
+      "tags": ["hl", "linkage", "crossing-over", "recombination"]
+    },
+    {
+      "id": "D3.2-17",
+      "q": "A heterozygote has linked alleles AB on one homolog and ab on the other. Explain how a test cross identifies parental and recombinant offspring.",
+      "a": "The arrangement is written AB/ab, with each allele pair shown on one of two homologous chromosomes. Cross AB/ab with ab/ab. The tester always contributes ab, so each offspring phenotype reveals the gamete produced by the heterozygote. AB and ab gametes give the parental classes, while Ab and aB gametes give recombinant classes produced by crossing over. With linkage, the two parental classes should be more frequent than the two recombinant classes.",
+      "tags": ["hl", "test-cross", "linkage", "recombinants"]
+    },
+    {
+      "id": "D3.2-18",
+      "q": "Explain the complete use of a chi-squared test to investigate whether two genes assort independently.",
+      "a": "State a null hypothesis that there’s no significant difference between observed offspring numbers and those expected if the genes assort independently. Calculate each expected number from the predicted ratio, then calculate χ² = Σ((observed − expected)²/expected). Use the appropriate degrees of freedom and the p = 0.05 critical value. If χ² exceeds the critical value, p is below 0.05 and the null hypothesis is rejected; the difference is statistically significant and may indicate linkage. Otherwise, fail to reject the null hypothesis because chance could explain the difference.",
+      "note": "A significant result can support linkage, but it doesn’t prove that linkage is the only possible cause.",
+      "tags": ["hl", "chi-squared", "statistics", "linkage", "synthesis"]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "topic": "D3.3",
+  "title": "Homeostasis",
+  "cards": [
+    {
+      "id": "D3.3-01",
+      "q": "Define homeostasis and name four homeostatic variables in humans.",
+      "a": "Homeostasis is the maintenance of an organism’s internal environment within preset limits despite internal or external changes. Human homeostatic variables include core body temperature, blood pH, blood glucose concentration and blood osmotic concentration.",
+      "note": "Homeostasis allows limited fluctuation around a set point. It doesn’t mean that conditions never change.",
+      "tags": ["core", "homeostasis"]
+    },
+    {
+      "id": "D3.3-02",
+      "q": "Explain how a negative-feedback loop returns a variable toward its set point.",
+      "a": "A receptor detects that a regulated variable has moved away from its set point. A control center processes that information and activates effectors. Their responses oppose the original change, reducing the deviation. As the variable returns toward the set point, the stimulus for the corrective response decreases.",
+      "tags": ["core", "negative-feedback"]
+    },
+    {
+      "id": "D3.3-03",
+      "q": "Explain the response to a rise in blood glucose concentration after a carbohydrate-rich meal.",
+      "a": "Pancreatic beta cells detect the rise and secrete insulin into the blood. Insulin binds to receptors on target cells. It increases glucose uptake in tissues including skeletal muscle and adipose tissue and promotes glycogenesis in the liver and skeletal muscle. These responses lower blood glucose concentration toward its set point, reducing insulin secretion.",
+      "note": "Insulin doesn’t convert glucose into glycogen itself. It signals target cells to change their activity.",
+      "tags": ["core", "blood-glucose", "insulin"]
+    },
+    {
+      "id": "D3.3-04",
+      "q": "Explain the response to a fall in blood glucose concentration between meals or during exercise.",
+      "a": "Pancreatic alpha cells detect the fall and secrete glucagon into the blood. Glucagon binds to receptors on liver cells, stimulating glycogenolysis and glucose production by gluconeogenesis. The liver releases glucose into the blood, raising its concentration toward the set point and reducing glucagon secretion.",
+      "note": "Glucagon’s main target in this feedback loop is the liver. Skeletal muscle glycogen doesn’t directly supply free glucose to the blood.",
+      "tags": ["core", "blood-glucose", "glucagon"]
+    },
+    {
+      "id": "D3.3-05",
+      "q": "Compare type 1 and type 2 diabetes in cause, risk factors, prevention and treatment.",
+      "a": "Type 1 diabetes results from autoimmune destruction of pancreatic beta cells, so little or no insulin is produced. Genetic susceptibility and environmental triggers can contribute, but there’s no established way to prevent it; treatment requires insulin replacement, blood-glucose monitoring and management of food and activity. Type 2 diabetes begins with reduced responsiveness of target cells to insulin and may later involve reduced insulin secretion. Risk is increased by genetic susceptibility, excess body fat, physical inactivity, age and an unhealthy diet. Risk can be reduced through physical activity, a healthy diet and maintaining a healthy body mass. Treatment can include these lifestyle changes, glucose-lowering medicines and sometimes insulin.",
+      "note": "Type 2 diabetes isn’t a complete absence of insulin. The defining early problem is insulin resistance.",
+      "tags": ["core", "diabetes", "comparison"]
+    },
+    {
+      "id": "D3.3-06",
+      "q": "Explain how thermoreceptors, the hypothalamus, pituitary gland and thyroxin take part in thermoregulation.",
+      "a": "Peripheral thermoreceptors in the skin detect external temperature changes, while the hypothalamus monitors the temperature of the blood and integrates temperature information. If more heat production is needed, the hypothalamus can stimulate the pituitary gland to release thyroid-stimulating hormone. This stimulates the thyroid gland to release thyroxin, which raises metabolic rate and therefore heat production. Reduced stimulation lowers thyroxin release when less heat production is needed.",
+      "tags": ["core", "thermoregulation", "hormones"]
+    },
+    {
+      "id": "D3.3-07",
+      "q": "Explain how vasodilation and sweating lower body temperature.",
+      "a": "During vasodilation, arterioles supplying skin capillaries widen, so more warm blood flows near the body surface and heat transfer to the surroundings increases. Sweat glands secrete sweat onto the skin. Its evaporation requires energy, which is taken from the skin as heat, cooling the body.",
+      "note": "Sweating cools only when sweat evaporates. Sweat that drips off hasn’t removed as much heat.",
+      "tags": ["core", "thermoregulation", "heat-loss"]
+    },
+    {
+      "id": "D3.3-08",
+      "q": "Explain four physiological responses to a fall in core body temperature.",
+      "a": "Skin arterioles constrict, reducing blood flow near the surface and limiting heat loss. Skeletal muscles shiver, increasing respiration and heat production. Arrector pili muscles contract so hairs stand up; in furry mammals this traps an insulating layer of air, although the effect is small in humans. Brown adipose tissue carries out uncoupled respiration, releasing energy as heat instead of capturing as much of it in ATP.",
+      "tags": ["core", "thermoregulation", "cold-response"]
+    },
+    {
+      "id": "D3.3-09",
+      "q": "Distinguish physiological and behavioral thermoregulation, with human examples.",
+      "a": "Physiological thermoregulation uses internal body processes controlled without conscious choice, such as sweating, shivering and changing skin blood flow. Behavioral thermoregulation uses actions, such as moving into shade, adding clothing, reducing activity or curling up. Birds and mammals use both types of response.",
+      "tags": ["core", "thermoregulation", "behavior"]
+    },
+    {
+      "id": "D3.3-10",
+      "q": "Distinguish excretion from osmoregulation and state how the kidneys contribute to each.",
+      "a": "Excretion is the removal from the body of waste products made by metabolism, such as urea. The kidneys excrete these wastes in urine. Osmoregulation is the regulation of the osmotic concentration of body fluids, measured in osmol L−1. The kidneys regulate it by varying how much water and dissolved ions remain in the urine.",
+      "note": "Egestion is the loss of undigested material in feces. It isn’t excretion because that material wasn’t produced by metabolism.",
+      "tags": ["hl", "kidney", "excretion", "osmoregulation"]
+    },
+    {
+      "id": "D3.3-11",
+      "q": "Explain how ultrafiltration produces glomerular filtrate in Bowman’s capsule.",
+      "a": "The afferent arteriole is wider than the efferent arteriole, helping maintain high hydrostatic pressure in the glomerulus. This pressure forces water and small solutes through pores in the capillary endothelium, across the basement membrane and through filtration slits between podocytes into Bowman’s capsule. The basement membrane prevents blood cells and most large plasma proteins from entering the filtrate.",
+      "note": "Ultrafiltration separates mainly by particle size under pressure. It doesn’t select substances because they’re useful or harmful.",
+      "tags": ["hl", "kidney", "ultrafiltration"]
+    },
+    {
+      "id": "D3.3-12",
+      "q": "Explain how the proximal convoluted tubule is adapted for selective reabsorption.",
+      "a": "Its epithelial cells have microvilli that increase surface area and many mitochondria that supply ATP for active transport. Sodium ions are pumped from the cells into tissue fluid, maintaining a sodium gradient from the filtrate into the cells. Sodium-glucose cotransporters use that gradient to move glucose into the cells, and glucose then enters the blood. Amino acids and useful ions are also reabsorbed, while water follows solutes by osmosis.",
+      "tags": ["hl", "kidney", "selective-reabsorption"]
+    },
+    {
+      "id": "D3.3-13",
+      "q": "Explain the role of the loop of Henle in conserving water.",
+      "a": "Cells in the ascending limb actively transport sodium ions out of the filtrate into the medulla. This maintains a high osmotic concentration and low water potential in the medullary tissue. As collecting ducts pass through this region, the gradient can draw water from their filtrate by osmosis, allowing water to be returned to the blood.",
+      "note": "The loop establishes the medullary gradient. ADH controls how readily water can leave the collecting duct.",
+      "tags": ["hl", "kidney", "loop-of-Henle"]
+    },
+    {
+      "id": "D3.3-14",
+      "q": "Explain the complete ADH response when blood becomes too concentrated after water loss.",
+      "a": "Osmoreceptors in the hypothalamus detect an increase in blood osmotic concentration. The posterior pituitary releases more antidiuretic hormone into the blood. ADH binds to receptors on collecting-duct cells and causes vesicles containing aquaporins to fuse with their cell-surface membranes. Water permeability rises, so more water leaves the filtrate by osmosis and returns to the blood. A smaller volume of more concentrated urine is produced, and the original change is reduced.",
+      "tags": ["hl", "osmoregulation", "ADH", "negative-feedback"]
+    },
+    {
+      "id": "D3.3-15",
+      "q": "Explain what happens to collecting ducts and urine when blood osmotic concentration falls.",
+      "a": "Osmoreceptors detect the lower osmotic concentration, and less ADH is released from the posterior pituitary. Aquaporins are removed from collecting-duct cell membranes into intracellular vesicles, reducing water permeability. Less water is reabsorbed, so a larger volume of more dilute urine is produced.",
+      "note": "ADH changes membrane permeability by changing aquaporin location. It doesn’t pump water across the membrane.",
+      "tags": ["hl", "osmoregulation", "ADH"]
+    },
+    {
+      "id": "D3.3-16",
+      "q": "Compare blood supply to skeletal muscles, the gut, kidneys and brain during vigorous exercise and wakeful rest.",
+      "a": "During vigorous exercise, cardiac output and blood flow to active skeletal muscles rise greatly. Arterioles supplying the gut and kidneys constrict, reducing their share of the cardiac output. During wakeful rest, skeletal-muscle demand is lower and the gut and kidneys receive moderate blood flow. Cerebral blood flow remains relatively stable because the brain needs a continuous supply of oxygen and glucose.",
+      "tags": ["hl", "blood-supply", "exercise"]
+    },
+    {
+      "id": "D3.3-17",
+      "q": "Describe the broad pattern of organ blood supply during sleep and explain why it can’t be summarized as the whole body receiving less blood.",
+      "a": "During sleep, blood flow to inactive skeletal muscles is low. The gut and kidneys continue receiving blood for digestion, filtration and regulation, although their flow varies with conditions. The brain remains supplied, and flow in particular brain regions can rise during active sleep stages such as REM. Blood distribution therefore changes among organs rather than falling equally everywhere.",
+      "tags": ["hl", "blood-supply", "sleep"]
+    },
+    {
+      "id": "D3.3-18",
+      "q": "A person exercises vigorously in hot conditions and becomes dehydrated. Connect thermoregulation, blood-supply control and osmoregulation in one explanation.",
+      "a": "Exercise increases heat production and the oxygen demand of skeletal muscle, so blood flow to active muscles rises. Increased skin blood flow and sweating promote heat loss, while blood flow to the gut and kidneys is reduced. Sweating removes water, increasing blood osmotic concentration. Hypothalamic osmoreceptors detect this change, causing more ADH to be released. More aquaporins enter collecting-duct membranes, more water is reabsorbed and a smaller volume of concentrated urine is produced.",
+      "note": "This answer has three linked controls. Keep the regulated variables separate: temperature, organ blood flow and blood osmotic concentration.",
+      "tags": ["hl", "synthesis", "thermoregulation", "osmoregulation"]
+    }
+  ]
+}

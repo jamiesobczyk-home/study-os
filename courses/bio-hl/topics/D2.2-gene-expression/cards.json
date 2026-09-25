@@ -1,0 +1,178 @@
+{
+  "topic": "D2.2",
+  "title": "Gene expression",
+  "cards": [
+    {
+      "id": "D2.2-01",
+      "q": "Explain the complete chain by which information in a protein-coding gene can affect phenotype.",
+      "a": "The gene’s DNA base sequence is transcribed into mRNA. Ribosomes translate the mRNA base sequence into the amino acid sequence of a polypeptide. The polypeptide folds and may be modified to become a functional protein. The protein’s activity, such as catalysis by an enzyme, changes cell structure or function and therefore contributes to phenotype.",
+      "note": "A complete answer continues beyond protein synthesis. It states what the protein does and connects that function to phenotype.",
+      "tags": [
+        "hl",
+        "gene-expression",
+        "phenotype"
+      ]
+    },
+    {
+      "id": "D2.2-02",
+      "q": "Explain how promoters, enhancers and transcription factors regulate transcription.",
+      "a": "A promoter is a DNA sequence where transcription machinery assembles to begin transcription. Transcription factors bind specific DNA sequences. Activators can bind enhancers and increase the assembly or activity of transcription machinery at the promoter, while repressors reduce or block transcription. The transcription factors present in a cell therefore help determine which genes are expressed and at what rate.",
+      "note": "Promoters and enhancers are DNA sequences. Transcription factors are proteins.",
+      "tags": [
+        "hl",
+        "transcription",
+        "regulation"
+      ]
+    },
+    {
+      "id": "D2.2-03",
+      "q": "Explain how changing the rate of mRNA degradation regulates protein production.",
+      "a": "Nucleases break down mRNA after periods that can range from minutes to days in human cells. An mRNA that persists longer can be translated more times, so more of its protein can be produced. Rapid degradation shortens the time available for translation and reduces protein production without changing transcription of the gene.",
+      "tags": [
+        "hl",
+        "mRNA",
+        "translation"
+      ]
+    },
+    {
+      "id": "D2.2-04",
+      "q": "Explain epigenesis and how it produces differentiated cells.",
+      "a": "Epigenesis is the development of patterns of differentiation among the cells of a multicellular organism. Different cells activate and repress different genes, producing different transcriptomes and proteomes. The resulting proteins give the cells different structures and functions even though their DNA base sequences generally remain the same.",
+      "note": "Differentiation normally changes which genes are expressed, not which genes the cell contains.",
+      "tags": [
+        "hl",
+        "epigenesis",
+        "differentiation"
+      ]
+    },
+    {
+      "id": "D2.2-05",
+      "q": "Distinguish the genome, transcriptome and proteome of a cell, including how they vary.",
+      "a": "The genome is the cell’s complete genetic information and is generally the same in different nucleated cells of one organism. The transcriptome is all RNA transcripts present at a particular time, and the proteome is all proteins present or produced at a particular time. Transcriptomes and proteomes vary between cell types and change in response to development and the environment.",
+      "tags": [
+        "hl",
+        "genome",
+        "transcriptome",
+        "proteome"
+      ]
+    },
+    {
+      "id": "D2.2-06",
+      "q": "Explain how methylation of promoter DNA and methylation of histones can affect gene expression.",
+      "a": "Methylation of cytosine in a gene’s promoter represses transcription and therefore reduces expression of the downstream gene. Methyl groups can also be added to amino acids in histone proteins. Histone methylation can repress or activate transcription, depending on which histone amino acids are modified.",
+      "note": "Don’t claim that every type of methylation switches genes off. Promoter DNA methylation represses transcription, while histone methylation can repress or activate it.",
+      "tags": [
+        "hl",
+        "methylation",
+        "epigenetics"
+      ]
+    },
+    {
+      "id": "D2.2-07",
+      "q": "Correct this misconception: 'An epigenetic change is a mutation that alters a gene’s base sequence.'",
+      "a": "An epigenetic change alters gene expression without changing the DNA nucleotide sequence. Chemical tags on DNA or histones can change access to a gene or the activity of transcription machinery. The phenotype may change because different amounts of a gene product are made, while the genotype’s base sequence remains unchanged.",
+      "note": "This is the central boundary in the topic: changed expression isn’t changed sequence.",
+      "tags": [
+        "hl",
+        "misconception",
+        "epigenetics"
+      ]
+    },
+    {
+      "id": "D2.2-08",
+      "q": "Explain how epigenetic inheritance through mitosis can preserve a cell’s differentiated state.",
+      "a": "During cell division, epigenetic patterns can be copied or retained as DNA is replicated and chromosomes are passed to daughter cells. The daughter cells then activate and repress many of the same genes as the parent cell. This preserves a differentiated cell type’s transcriptome, proteome and function through repeated mitosis without altering its DNA sequence.",
+      "tags": [
+        "hl",
+        "mitosis",
+        "epigenetic-inheritance"
+      ]
+    },
+    {
+      "id": "D2.2-09",
+      "q": "Explain how an epigenetically influenced phenotype could pass to offspring without a DNA mutation.",
+      "a": "Some epigenetic tags can persist during gamete formation and escape removal after fertilization. If a retained tag changes expression of an inherited allele in the offspring, it can affect the offspring’s phenotype even though the allele’s nucleotide sequence hasn’t changed. This is epigenetic inheritance rather than inheritance of a mutation.",
+      "tags": [
+        "hl",
+        "meiosis",
+        "epigenetic-inheritance"
+      ]
+    },
+    {
+      "id": "D2.2-10",
+      "q": "Outline how air pollution can affect gene expression through an epigenetic mechanism.",
+      "a": "Exposure to air pollutants can alter the pattern of methyl tags on DNA in cells. Changed methylation can increase or decrease transcription of affected genes, including genes involved in immune responses. The environment can therefore alter the pattern of gene expression without changing the DNA base sequence.",
+      "note": "State the intermediate step. Pollution affects methylation, which affects transcription, which affects gene expression.",
+      "tags": [
+        "hl",
+        "environment",
+        "air-pollution"
+      ]
+    },
+    {
+      "id": "D2.2-11",
+      "q": "Explain the consequences of removing most, but not all, epigenetic tags carried by the ovum and sperm.",
+      "a": "Removal of most parental epigenetic tags resets much of the genome so the early embryo can establish new patterns of gene expression during differentiation. Some tags escape removal, so expression of particular alleles can still depend on whether they came from the mother or father. This parent-of-origin effect is genomic imprinting.",
+      "tags": [
+        "hl",
+        "reprogramming",
+        "genomic-imprinting"
+      ]
+    },
+    {
+      "id": "D2.2-12",
+      "q": "Use ligers and tigons to explain how genomic imprinting can affect phenotype.",
+      "a": "A liger has a male lion and a female tiger as parents, whereas a tigon has a male tiger and a female lion. Ligers commonly show an overgrowth phenotype, while tigons are generally closer to the size of their parent species. The reciprocal crosses contain genetic material from the same two species, but parent-of-origin epigenetic differences cause imprinted growth genes to be expressed differently. Their different sizes therefore illustrate an epigenetic effect on phenotype.",
+      "note": "The exact genetic mechanism in these hybrids hasn’t been established. The scoring idea is parent of origin, retained tags and different expression of growth genes.",
+      "tags": [
+        "hl",
+        "genomic-imprinting",
+        "hybrids"
+      ]
+    },
+    {
+      "id": "D2.2-13",
+      "q": "Explain why monozygotic twins are useful for studying environmental effects on gene expression, and state a limitation.",
+      "a": "Monozygotic twins develop from one zygote and have nearly identical genomes, so genetic variation is largely controlled when their gene expression, epigenetic tags or phenotypes are compared. Differences associated with different environments can therefore provide evidence of environmental effects. A difference doesn’t by itself identify one environmental cause, and the twins may also have experienced different conditions before birth.",
+      "note": "A twin study reduces genetic variation. It doesn’t make every other variable identical or prove causation.",
+      "tags": [
+        "hl",
+        "twins",
+        "environment"
+      ]
+    },
+    {
+      "id": "D2.2-14",
+      "q": "Explain how the presence or absence of lactose regulates expression of the lac operon in E. coli.",
+      "a": "When lactose is absent, an active repressor binds the operator and blocks transcription of the lac genes. When lactose is present, a lactose-derived inducer binds the repressor and changes its shape, so the repressor can’t remain bound to the operator. RNA polymerase can then transcribe genes whose products allow the bacterium to take up and metabolize lactose.",
+      "note": "Lactose doesn’t switch the genes on by binding directly to DNA. It prevents the repressor from blocking transcription.",
+      "tags": [
+        "hl",
+        "lac-operon",
+        "bacteria"
+      ]
+    },
+    {
+      "id": "D2.2-15",
+      "q": "Explain how estrogen can change gene expression in a target cell.",
+      "a": "Estrogen is lipid-soluble and can cross the plasma membrane of a target cell. It binds an intracellular receptor, changing the receptor’s shape. The hormone–receptor complex acts as a transcription factor by binding a specific regulatory DNA sequence and altering transcription of target genes. The resulting proteins can change the cell’s structure or activity.",
+      "note": "Only cells with the appropriate receptor respond to the hormone.",
+      "tags": [
+        "hl",
+        "estrogen",
+        "hormone"
+      ]
+    },
+    {
+      "id": "D2.2-16",
+      "q": "Construct a causal chain showing how an environmental signal can produce a stable change in cell phenotype without changing DNA sequence.",
+      "a": "An environmental signal can activate a receptor or alter enzymes that place epigenetic tags. Transcription factors or altered DNA and histone tags then change access to specific genes and change their transcription. This changes the amounts of particular mRNAs, which changes translation and the cell’s proteome. Changed protein activity produces a changed phenotype. If the epigenetic pattern is retained through mitosis, daughter cells can maintain that phenotype without a change in DNA sequence.",
+      "note": "The chain needs a regulator, altered transcription, altered protein production and a phenotypic consequence.",
+      "tags": [
+        "hl",
+        "synthesis",
+        "phenotype"
+      ]
+    }
+  ]
+}

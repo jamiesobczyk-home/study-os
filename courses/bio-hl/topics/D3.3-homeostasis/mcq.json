@@ -1,0 +1,369 @@
+{
+  "topic": "D3.3",
+  "questions": [
+    {
+      "id": "D3.3-q01",
+      "stem": "Which statement best describes homeostasis?",
+      "options": [
+        {
+          "text": "Maintenance of internal conditions within preset limits despite change",
+          "correct": true,
+          "why": "Homeostatic variables can fluctuate around set points. The control systems keep those fluctuations within tolerable limits."
+        },
+        {
+          "text": "Prevention of every change in the internal environment",
+          "correct": false,
+          "why": "Internal conditions do change. Preventing every fluctuation would be impossible and isn’t what homeostasis means."
+        },
+        {
+          "text": "Amplification of internal changes until a process finishes",
+          "correct": false,
+          "why": "That describes positive feedback, such as the amplification involved in childbirth. Homeostasis mainly uses negative feedback."
+        },
+        {
+          "text": "Maintenance of external conditions at one constant value",
+          "correct": false,
+          "why": "Homeostasis regulates the internal environment. It allows organisms to function despite changes outside the body."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q02",
+      "stem": "What makes a feedback loop negative?",
+      "options": [
+        {
+          "text": "The response reduces the original deviation from the set point",
+          "correct": true,
+          "why": "The response opposes the change, so the regulated variable moves back toward its target range."
+        },
+        {
+          "text": "The response amplifies the original deviation from the set point",
+          "correct": false,
+          "why": "That describes positive feedback. Amplification moves the system farther from its starting condition until something else stops it."
+        },
+        {
+          "text": "The receptor prevents the regulated variable from changing",
+          "correct": false,
+          "why": "A receptor detects a change; it doesn’t prevent one. Effectors produce the corrective response."
+        },
+        {
+          "text": "The effector establishes a new set point after each change",
+          "correct": false,
+          "why": "An effector acts on the regulated variable. It normally returns the variable toward the existing set point."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q03",
+      "stem": "Which response follows a rise in blood glucose concentration?",
+      "options": [
+        {
+          "text": "Beta cells release insulin, promoting glucose uptake and glycogenesis",
+          "correct": true,
+          "why": "Insulin signals target tissues to remove glucose from the blood and store some of it as glycogen."
+        },
+        {
+          "text": "Alpha cells release insulin, promoting glycogenolysis in the liver",
+          "correct": false,
+          "why": "Alpha cells release glucagon, not insulin. Glycogenolysis would raise blood glucose rather than lower it."
+        },
+        {
+          "text": "Beta cells release glucagon, promoting glucose release by the liver",
+          "correct": false,
+          "why": "Beta cells release insulin. Glucagon comes from alpha cells when blood glucose has fallen."
+        },
+        {
+          "text": "Liver cells release insulin, promoting glucose uptake by the pancreas",
+          "correct": false,
+          "why": "Pancreatic endocrine cells release insulin. The liver is a major target organ, not the source of this hormone."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q04",
+      "stem": "Which change is the physiological basis of type 1 diabetes?",
+      "options": [
+        {
+          "text": "Autoimmune destruction of pancreatic beta cells",
+          "correct": true,
+          "why": "Loss of beta cells causes little or no insulin production, so insulin must be replaced."
+        },
+        {
+          "text": "Reduced sensitivity of target cells to insulin",
+          "correct": false,
+          "why": "That is insulin resistance, the characteristic early defect in type 2 diabetes."
+        },
+        {
+          "text": "Excessive secretion of glucagon after every meal",
+          "correct": false,
+          "why": "Glucagon regulation may be abnormal in diabetes, but this isn’t the defining cause of type 1 diabetes."
+        },
+        {
+          "text": "Failure of liver cells to store any glycogen",
+          "correct": false,
+          "why": "Poor glucose regulation affects glycogen storage, but type 1 diabetes starts with destruction of insulin-producing beta cells."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q05",
+      "stem": "How does sweating lower core body temperature?",
+      "options": [
+        {
+          "text": "Evaporation transfers energy from the skin to water vapor",
+          "correct": true,
+          "why": "Water requires energy to evaporate. Taking that energy from the skin removes heat from the body."
+        },
+        {
+          "text": "Sweat conducts heat into the body’s deeper tissues",
+          "correct": false,
+          "why": "Moving heat deeper wouldn’t cool the body effectively. Cooling occurs when evaporating water carries energy away."
+        },
+        {
+          "text": "Sweat lowers the set point detected by thermoreceptors",
+          "correct": false,
+          "why": "Sweat changes heat loss, not the set point. Thermoreceptors then detect the resulting temperature change."
+        },
+        {
+          "text": "Evaporation stops blood from reaching skin capillaries",
+          "correct": false,
+          "why": "Sweating doesn’t stop skin blood flow. Vasodilation commonly increases that flow during heat stress."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q06",
+      "stem": "How does uncoupled respiration in brown adipose tissue warm the body?",
+      "options": [
+        {
+          "text": "Energy from respiration is released as heat instead of being captured in as much ATP",
+          "correct": true,
+          "why": "Uncoupling proteins let the mitochondrial proton gradient dissipate, so more respiratory energy appears as heat."
+        },
+        {
+          "text": "ATP synthesis accelerates until ATP molecules raise the temperature of the blood",
+          "correct": false,
+          "why": "Uncoupling reduces the amount of ATP made from the proton gradient. The released energy becomes heat."
+        },
+        {
+          "text": "Stored lipids insulate mitochondria and prevent heat from leaving their membranes",
+          "correct": false,
+          "why": "Brown fat generates heat metabolically. Insulation is mainly a property of larger stores of white subcutaneous fat."
+        },
+        {
+          "text": "Brown fat contracts repeatedly in the same manner as shivering skeletal muscle",
+          "correct": false,
+          "why": "Shivering uses skeletal-muscle contractions. Brown adipose tissue produces heat through mitochondrial respiration without contracting."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q07",
+      "stem": "Which statement correctly distinguishes excretion from osmoregulation?",
+      "options": [
+        {
+          "text": "Excretion removes metabolic wastes; osmoregulation controls body-fluid osmotic concentration",
+          "correct": true,
+          "why": "The kidney performs both jobs, but waste removal and regulation of water and solute balance are different functions."
+        },
+        {
+          "text": "Excretion removes feces; osmoregulation removes urea from the blood",
+          "correct": false,
+          "why": "Loss of feces is egestion. Urea removal is an example of excretion, not the definition of osmoregulation."
+        },
+        {
+          "text": "Excretion controls blood water content; osmoregulation removes metabolic wastes",
+          "correct": false,
+          "why": "The definitions have been reversed. Water balance belongs to osmoregulation, while waste removal belongs to excretion."
+        },
+        {
+          "text": "Excretion occurs in nephrons; osmoregulation occurs only in the hypothalamus",
+          "correct": false,
+          "why": "The hypothalamus detects osmotic changes, but the kidneys alter water loss. Both processes involve the nephrons."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q08",
+      "stem": "Why do blood cells normally remain in glomerular blood during ultrafiltration?",
+      "options": [
+        {
+          "text": "They are too large to cross the filtration barrier",
+          "correct": true,
+          "why": "The basement membrane and associated filtration structures allow water and small solutes through but retain cells and most large proteins."
+        },
+        {
+          "text": "They are actively transported back from Bowman’s capsule",
+          "correct": false,
+          "why": "Blood cells shouldn’t enter Bowman’s capsule in the first place. Their size prevents them from crossing the filtration barrier."
+        },
+        {
+          "text": "They have no metabolic value to proximal tubule cells",
+          "correct": false,
+          "why": "Ultrafiltration doesn’t sort substances by metabolic value. Size and pressure determine what crosses the barrier."
+        },
+        {
+          "text": "They move against the hydrostatic pressure in the glomerulus",
+          "correct": false,
+          "why": "Cells don’t actively swim against glomerular pressure. They remain because the filtration barrier excludes them."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q09",
+      "stem": "Where is most filtered glucose normally reabsorbed?",
+      "options": [
+        {
+          "text": "The proximal convoluted tubule",
+          "correct": true,
+          "why": "Sodium-glucose cotransport in the proximal convoluted tubule normally recovers the filtered glucose."
+        },
+        {
+          "text": "The Bowman’s capsule",
+          "correct": false,
+          "why": "Bowman’s capsule receives glomerular filtrate. It isn’t the main site of selective glucose reabsorption."
+        },
+        {
+          "text": "The ascending limb of the loop of Henle",
+          "correct": false,
+          "why": "The ascending limb transports sodium ions and helps establish the medullary gradient. It isn’t the main glucose-recovery site."
+        },
+        {
+          "text": "The collecting duct",
+          "correct": false,
+          "why": "The collecting duct adjusts water reabsorption under ADH control. Glucose should have been recovered much earlier."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q10",
+      "stem": "What is the relevant role of the ascending limb of the loop of Henle in this topic?",
+      "options": [
+        {
+          "text": "It actively transports sodium ions to maintain a high medullary osmotic concentration",
+          "correct": true,
+          "why": "The resulting medullary gradient later favors water movement out of collecting ducts."
+        },
+        {
+          "text": "It selectively reabsorbs all glucose by sodium-glucose cotransport",
+          "correct": false,
+          "why": "That mainly occurs in the proximal convoluted tubule. The ascending limb’s relevant role is establishing the medullary salt gradient."
+        },
+        {
+          "text": "It filters plasma proteins from blood into the nephron",
+          "correct": false,
+          "why": "Ultrafiltration occurs at the glomerulus, and most plasma proteins remain in the blood."
+        },
+        {
+          "text": "It inserts aquaporins into collecting-duct cell membranes",
+          "correct": false,
+          "why": "ADH triggers aquaporin insertion in collecting-duct cells. The loop of Henle establishes the osmotic gradient."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q11",
+      "stem": "A dehydrated person has an increased blood osmotic concentration. Which response follows?",
+      "options": [
+        {
+          "text": "More ADH is released, increasing collecting-duct aquaporins and water reabsorption",
+          "correct": true,
+          "why": "More aquaporins make the collecting duct more permeable, so water moves out of the filtrate by osmosis."
+        },
+        {
+          "text": "Less ADH is released, increasing urine volume and lowering water reabsorption",
+          "correct": false,
+          "why": "That response would remove more water and worsen dehydration. Low ADH is appropriate when the blood is too dilute."
+        },
+        {
+          "text": "More insulin is released, causing water to enter liver cells",
+          "correct": false,
+          "why": "Insulin regulates blood glucose, not collecting-duct water permeability. ADH is the relevant hormone here."
+        },
+        {
+          "text": "Less glucagon is released, causing aquaporins to leave intracellular vesicles",
+          "correct": false,
+          "why": "Glucagon regulates blood glucose and doesn’t control collecting-duct aquaporins. ADH controls their membrane location."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q12",
+      "stem": "What urine would be expected when ADH concentration is low?",
+      "options": [
+        {
+          "text": "A large volume of dilute urine",
+          "correct": true,
+          "why": "Fewer aquaporins remain in collecting-duct membranes, so less water is reabsorbed and more stays in the urine."
+        },
+        {
+          "text": "A small volume of concentrated urine",
+          "correct": false,
+          "why": "That is produced when ADH is high and collecting ducts reabsorb more water."
+        },
+        {
+          "text": "Urine containing many plasma proteins",
+          "correct": false,
+          "why": "ADH changes water reabsorption. Plasma proteins are normally excluded earlier by the glomerular filtration barrier."
+        },
+        {
+          "text": "Urine containing no urea or ions",
+          "correct": false,
+          "why": "Low ADH changes urine water content, not the need to excrete urea and some dissolved ions."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q13",
+      "stem": "Which blood-flow pattern is expected during vigorous exercise?",
+      "options": [
+        {
+          "text": "Increased flow to skeletal muscle, reduced flow to gut and kidneys, stable cerebral flow",
+          "correct": true,
+          "why": "Blood is redirected toward active muscle while brain supply is protected and less urgent digestive and renal activity receives a smaller share."
+        },
+        {
+          "text": "Reduced flow to skeletal muscle, increased flow to gut and kidneys, stable cerebral flow",
+          "correct": false,
+          "why": "That pattern conflicts with the high oxygen demand of active muscle. Gut and renal flow commonly decrease during vigorous exercise."
+        },
+        {
+          "text": "Increased flow to every organ because cardiac output rises uniformly",
+          "correct": false,
+          "why": "Higher cardiac output doesn’t mean equal increases everywhere. Arteriole diameter redistributes the available blood."
+        },
+        {
+          "text": "Increased flow only to the brain because it controls skeletal-muscle contraction",
+          "correct": false,
+          "why": "The brain remains supplied, but active muscles need a large increase in oxygen and respiratory substrates."
+        }
+      ]
+    },
+    {
+      "id": "D3.3-q14",
+      "stem": "A substance is present in blood plasma and glomerular filtrate but is normally absent from urine. Which substance fits this pattern?",
+      "options": [
+        {
+          "text": "Glucose",
+          "correct": true,
+          "why": "Glucose is small enough to be ultrafiltered, but it’s normally reabsorbed in the proximal convoluted tubule."
+        },
+        {
+          "text": "A red blood cell",
+          "correct": false,
+          "why": "Red blood cells are too large to cross the filtration barrier, so they’re absent from both normal filtrate and urine."
+        },
+        {
+          "text": "A large plasma protein",
+          "correct": false,
+          "why": "Most large plasma proteins remain in the blood because the glomerular filtration barrier excludes them."
+        },
+        {
+          "text": "Urea",
+          "correct": false,
+          "why": "Urea enters the filtrate and some remains for excretion, so it’s normally present in urine."
+        }
+      ]
+    }
+  ]
+}

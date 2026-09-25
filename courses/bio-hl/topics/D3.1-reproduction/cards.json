@@ -1,0 +1,205 @@
+{
+  "topic": "D3.1",
+  "title": "Reproduction",
+  "cards": [
+    {
+      "id": "D3.1-01",
+      "q": "Compare sexual and asexual reproduction, including their genetic consequences and relative advantages.",
+      "a": "Asexual reproduction involves one parent, no fusion of gametes and usually mitosis, so it rapidly produces genetically identical offspring that may already be adapted to a stable environment. Sexual reproduction involves meiosis and fertilization. Meiosis breaks up parental allele combinations, and fusion of gametes creates new combinations, producing variation that can help a population adapt when conditions change.",
+      "note": "Sexual reproduction doesn't guarantee that an individual will be better adapted. It generates variation on which selection can act.",
+      "tags": [
+        "core",
+        "life-cycles",
+        "variation"
+      ]
+    },
+    {
+      "id": "D3.1-02",
+      "q": "Explain the separate roles of meiosis and fertilization in a sexual life cycle.",
+      "a": "Meiosis reduces the chromosome number from diploid to haploid and produces gametes with new combinations of alleles. Fertilization fuses two haploid gametes, restores the diploid chromosome number and combines genetic material from the two gametes in one zygote.",
+      "note": "Meiosis creates haploid cells; fertilization restores diploidy. Neither process is mitosis.",
+      "tags": [
+        "core",
+        "meiosis",
+        "fertilization"
+      ]
+    },
+    {
+      "id": "D3.1-03",
+      "q": "Compare typical male and female gametes and explain why their differences matter for reproductive strategy.",
+      "a": "Male gametes travel to female gametes, so they are typically small, motile, produced in large numbers and contain little food reserve. Female gametes are larger, non-motile and produced in smaller numbers, with more cytoplasm and food reserves. Producing many small male gametes increases the chance that one reaches an egg, while greater investment in each female gamete supports early development.",
+      "tags": [
+        "core",
+        "gametes",
+        "reproductive-strategy"
+      ]
+    },
+    {
+      "id": "D3.1-04",
+      "q": "Trace the route of sperm through the male reproductive system and state the functions of the structures encountered.",
+      "a": "Sperm are produced in the testes, which also secrete testosterone. They mature and are stored in the epididymis, then travel through the sperm duct. The seminal vesicles and prostate add fluids that help form semen. Semen passes through the urethra and leaves through the penis. The scrotum holds the testes outside the body at a temperature suitable for sperm production.",
+      "note": "The seminal vesicles and prostate produce parts of semen, not sperm cells.",
+      "tags": [
+        "core",
+        "human-reproduction",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "D3.1-05",
+      "q": "Trace an egg and a possible embryo through the female reproductive system, stating the functions of the main structures.",
+      "a": "The ovaries produce eggs and secrete oestradiol and progesterone. After ovulation, an egg enters an oviduct, where fertilization usually occurs. The resulting embryo moves to the uterus and may implant in its endometrium. The cervix is the muscular opening between the uterus and vagina. The vagina receives the penis and semen and forms part of the birth canal, while the vulva consists of the external genital structures.",
+      "tags": [
+        "core",
+        "human-reproduction",
+        "anatomy"
+      ]
+    },
+    {
+      "id": "D3.1-06",
+      "q": "Explain the menstrual cycle from follicle development to menstruation, including hormone sources, targets and feedback.",
+      "a": "FSH from the anterior pituitary stimulates growth of ovarian follicles and secretion of oestradiol. Oestradiol rebuilds the endometrium and, at low or moderate concentrations, inhibits FSH by negative feedback. Sustained high oestradiol causes positive feedback that produces an LH surge. LH triggers ovulation and formation of the corpus luteum. The corpus luteum secretes progesterone, which maintains the endometrium and inhibits FSH and LH. If pregnancy doesn't occur, the corpus luteum degenerates, progesterone and oestradiol fall, and menstruation begins.",
+      "note": "The ovarian cycle concerns follicles, ovulation and the corpus luteum. The uterine cycle concerns changes in the endometrium. Together they form the menstrual cycle.",
+      "tags": [
+        "core",
+        "hormones",
+        "menstrual-cycle",
+        "synthesis"
+      ]
+    },
+    {
+      "id": "D3.1-07",
+      "q": "Sequence the cellular events of fertilization in humans through the first mitotic division.",
+      "a": "A sperm cell membrane fuses with the egg cell membrane. The sperm nucleus enters the egg, while the sperm tail and mitochondria are destroyed. The nuclear membranes of the sperm and egg nuclei dissolve. Their condensed chromosomes participate together in mitosis, producing two diploid nuclei in the first division of the zygote.",
+      "note": "The paternal mitochondria don't become the embryo's mitochondrial population.",
+      "tags": [
+        "core",
+        "fertilization",
+        "human-reproduction"
+      ]
+    },
+    {
+      "id": "D3.1-08",
+      "q": "Explain how hormones are used in IVF and why this increases the number of eggs available.",
+      "a": "In IVF treatment, the person's normal reproductive hormone secretion is first suspended or controlled. Artificial doses of fertility hormones, including FSH activity, stimulate several follicles to mature at the same time. This superovulation provides several eggs for collection. The eggs are fertilized with sperm outside the body, and one or more resulting embryos can be transferred to the uterus.",
+      "note": "IVF means fertilization occurs outside the body. Implantation still has to occur in the uterus.",
+      "tags": [
+        "core",
+        "ivf",
+        "hormones"
+      ]
+    },
+    {
+      "id": "D3.1-09",
+      "q": "Explain sexual reproduction in a flowering plant from gamete production to formation of an embryo.",
+      "a": "Male gametes develop within pollen grains in the anthers, while a female gamete develops inside an ovule in the ovary. Pollination transfers pollen from an anther to a compatible stigma. The pollen grain develops a pollen tube that grows through the style toward an ovule. Male nuclei travel through the tube, and a male gamete fuses with the female gamete during fertilization. The resulting zygote develops into an embryo within a seed.",
+      "note": "A hermaphroditic flower still reproduces sexually because male and female gametes fuse.",
+      "tags": [
+        "core",
+        "plants",
+        "fertilization"
+      ]
+    },
+    {
+      "id": "D3.1-10",
+      "q": "Describe the reproductive structures and pollination adaptations of a typical insect-pollinated flower.",
+      "a": "The anther produces pollen and is supported by a filament; together they form a stamen. The stigma receives pollen, the style supports it and provides a route for pollen-tube growth, and the ovary contains ovules. Petals may be brightly colored or scented, and nectaries provide a reward that attracts insects. The anthers and sticky stigma are positioned to contact visiting insects, while the pollen grains are relatively large, sticky or spiny so they attach to an insect.",
+      "tags": [
+        "core",
+        "plants",
+        "flower-structure",
+        "pollination"
+      ]
+    },
+    {
+      "id": "D3.1-11",
+      "q": "Explain three ways flowering plants promote cross-pollination and how self-incompatibility adds another barrier to self-fertilization.",
+      "a": "Cross-pollination can be promoted when anthers and stigmas mature at different times, when separate male and female flowers occur on one plant, or when male and female flowers occur on different plants. Wind or animals can then transfer pollen between plants. In self-incompatibility, genetically controlled recognition at the stigma or style prevents self-pollen from germinating or completing pollen-tube growth. This reduces inbreeding and helps maintain genetic diversity and vigor.",
+      "tags": [
+        "core",
+        "plants",
+        "cross-pollination",
+        "variation"
+      ]
+    },
+    {
+      "id": "D3.1-12",
+      "q": "Distinguish pollination, seed dispersal and germination, then explain what happens during germination.",
+      "a": "Pollination is the transfer of pollen from an anther to a stigma before fertilization. Seed dispersal is the movement of seeds away from the parent plant after seeds have formed. Germination is the resumption of growth by the embryo. Water rehydrates the seed, stored food reserves are mobilized, respiration supplies ATP, and the embryo grows using these reserves until the seedling can photosynthesize effectively.",
+      "note": "Pollination moves pollen. Dispersal moves seeds. Germination is growth, not movement.",
+      "tags": [
+        "core",
+        "plants",
+        "seeds",
+        "germination"
+      ]
+    },
+    {
+      "id": "D3.1-13",
+      "q": "Explain the hormonal sequence that starts puberty.",
+      "a": "Increased secretion of gonadotropin-releasing hormone, or GnRH, by the hypothalamus stimulates the anterior pituitary to release more FSH and LH. These hormones act on the gonads. The gonads increase production of steroid sex hormones, including testosterone and oestradiol, which cause the developmental changes and secondary sexual characteristics associated with puberty.",
+      "tags": [
+        "hl",
+        "puberty",
+        "hormones"
+      ]
+    },
+    {
+      "id": "D3.1-14",
+      "q": "Compare spermatogenesis and oogenesis from precursor-cell division to the functional gametes produced.",
+      "a": "Both processes include mitosis of diploid precursor cells, cell growth, two meiotic divisions and differentiation to produce haploid gametes. In spermatogenesis, cytokinesis is approximately equal, so one primary spermatocyte produces four small spermatids that differentiate into sperm. In oogenesis, cytokinesis is unequal, so most cytoplasm enters one large functional egg while the other haploid products become small polar bodies. Spermatogenesis therefore produces more functional gametes with less cytoplasm per gamete.",
+      "note": "Meiosis produces four haploid products in both processes, but oogenesis usually yields one large functional gamete.",
+      "tags": [
+        "hl",
+        "gametogenesis",
+        "meiosis"
+      ]
+    },
+    {
+      "id": "D3.1-15",
+      "q": "Explain how the acrosome and cortical reactions have opposite roles in fertilization.",
+      "a": "When a sperm reaches the egg, the acrosome reaction releases enzymes that help the sperm penetrate the zona pellucida. After the first sperm membrane fuses with the egg membrane, cortical granules release their contents. The cortical reaction modifies and hardens the zona pellucida so additional sperm can't pass through, preventing polyspermy.",
+      "note": "The acrosome reaction gets one sperm through. The cortical reaction blocks the others.",
+      "tags": [
+        "hl",
+        "fertilization",
+        "polyspermy"
+      ]
+    },
+    {
+      "id": "D3.1-16",
+      "q": "Explain how a blastocyst forms and implants after fertilization.",
+      "a": "The diploid zygote undergoes repeated mitotic divisions as it travels toward the uterus. A hollow blastocyst forms, with an inner cell mass that develops into the embryo and an outer cell layer that contributes to implantation and placental tissues. The blastocyst attaches to and embeds in the endometrium, establishing implantation.",
+      "tags": [
+        "hl",
+        "blastocyst",
+        "implantation"
+      ]
+    },
+    {
+      "id": "D3.1-17",
+      "q": "Explain how a pregnancy test detects pregnancy and how the placenta supports fetal development.",
+      "a": "The embryo or developing placenta secretes human chorionic gonadotropin, or hCG. A pregnancy test contains monoclonal antibodies that bind specifically to hCG, producing a visible test line when enough hormone is present in urine. In the placenta, villi provide a large surface area for exchange. Oxygen and nutrients pass from maternal blood toward fetal blood, while carbon dioxide and urea pass in the opposite direction. The two blood supplies normally remain separate, and the placenta also secretes hormones that help maintain pregnancy.",
+      "tags": [
+        "hl",
+        "hcg",
+        "placenta",
+        "pregnancy"
+      ]
+    },
+    {
+      "id": "D3.1-18",
+      "q": "Connect the hormonal control of pregnancy and childbirth, then explain what HRT research teaches about correlation and causation.",
+      "a": "Progesterone from the corpus luteum initially maintains the endometrium and pregnancy; the placenta later becomes the main source. Near childbirth, a fall in progesterone permits increased uterine activity and oxytocin secretion. Contractions stretch the cervix, causing more oxytocin release and stronger contractions by positive feedback. Separately, early observational studies associated HRT with lower coronary heart disease rates, but HRT users tended to have higher socioeconomic status, which was a confounding variable. Randomized controlled trials instead found a small increase in coronary heart disease risk, showing that the earlier correlation didn't establish that HRT caused protection.",
+      "note": "This card combines two different syllabus ideas. Don't imply that HRT is part of childbirth.",
+      "tags": [
+        "hl",
+        "pregnancy",
+        "childbirth",
+        "hrt",
+        "evidence",
+        "synthesis"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "topic": "D3.1",
+  "questions": [
+    {
+      "id": "D3.1-q01",
+      "stem": "Why can sexual reproduction help a population adapt to environmental change?",
+      "options": [
+        {
+          "text": "Meiosis and fertilization produce offspring with new combinations of alleles",
+          "correct": true,
+          "why": "Meiosis breaks up parental allele combinations, and fertilization combines genetic material from two gametes. The resulting variation can be acted on by natural selection."
+        },
+        {
+          "text": "Mitosis produces mutations in every offspring when environmental conditions change",
+          "correct": false,
+          "why": "Mitosis normally copies existing genetic information. Environmental change doesn't make every offspring acquire useful mutations."
+        },
+        {
+          "text": "Fertilization allows each offspring to inherit every allele from both parents",
+          "correct": false,
+          "why": "Each haploid gamete contains one allele from each parental pair, not every allele. Fertilization combines two haploid sets."
+        },
+        {
+          "text": "Sexual reproduction ensures that every offspring is better adapted than its parents",
+          "correct": false,
+          "why": "Variation includes neutral, harmful and beneficial combinations. Sexual reproduction doesn't guarantee improved adaptation in each offspring."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q02",
+      "stem": "Which statement correctly compares typical male and female gametes?",
+      "options": [
+        {
+          "text": "Male gametes are larger because they need energy to travel to the egg",
+          "correct": false,
+          "why": "Male gametes are usually small with limited reserves. Their small size allows many to be produced."
+        },
+        {
+          "text": "Female gametes are smaller because the embryo receives food only after implantation",
+          "correct": false,
+          "why": "Female gametes are usually larger and contain more cytoplasm and reserves. Early development begins before implantation."
+        },
+        {
+          "text": "Male gametes are numerous and motile, while female gametes are larger with more reserves",
+          "correct": true,
+          "why": "Many small, motile male gametes increase the chance of reaching an egg. A larger female gamete supplies cytoplasm and reserves for early development."
+        },
+        {
+          "text": "Male and female gametes have equal size because both contain one chromosome set",
+          "correct": false,
+          "why": "Both are haploid, but chromosome number doesn't determine the amount of cytoplasm. Their sizes and reserves differ greatly."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q03",
+      "stem": "Which sequence gives the route taken by sperm from production to ejaculation?",
+      "options": [
+        {
+          "text": "Testis, epididymis, sperm duct, urethra",
+          "correct": true,
+          "why": "Sperm are produced in the testis, mature and are stored in the epididymis, then pass through the sperm duct and urethra."
+        },
+        {
+          "text": "Testis, prostate gland, epididymis, urethra",
+          "correct": false,
+          "why": "The epididymis comes directly after the testis. The prostate adds fluid later, near where the sperm duct meets the urethra."
+        },
+        {
+          "text": "Epididymis, testis, seminal vesicle, sperm duct",
+          "correct": false,
+          "why": "Sperm are produced before entering the epididymis. They don't pass through the seminal vesicle."
+        },
+        {
+          "text": "Testis, urethra, sperm duct, epididymis",
+          "correct": false,
+          "why": "This order runs backwards after the testis. The urethra is near the end of the route."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q04",
+      "stem": "What directly triggers ovulation during the menstrual cycle?",
+      "options": [
+        {
+          "text": "A fall in progesterone caused by degeneration of the corpus luteum",
+          "correct": false,
+          "why": "That fall occurs after ovulation and leads toward menstruation. It doesn't release the egg."
+        },
+        {
+          "text": "A surge in LH following positive feedback from high oestradiol",
+          "correct": true,
+          "why": "Sustained high oestradiol stimulates an LH surge, and the LH surge causes the mature follicle to release the egg."
+        },
+        {
+          "text": "A rise in FSH following negative feedback from the endometrium",
+          "correct": false,
+          "why": "FSH supports follicle development, and the endometrium doesn't provide this feedback. The immediate trigger is the LH surge."
+        },
+        {
+          "text": "A rise in progesterone produced by the developing ovarian follicle",
+          "correct": false,
+          "why": "Progesterone rises mainly after ovulation because it is secreted by the corpus luteum. It maintains the endometrium."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q05",
+      "stem": "A person doesn't become pregnant during a menstrual cycle. What most directly causes menstruation?",
+      "options": [
+        {
+          "text": "The corpus luteum degenerates, causing progesterone and oestradiol concentrations to fall",
+          "correct": true,
+          "why": "Without continued hormonal support, the endometrium breaks down and part of it is shed during menstruation."
+        },
+        {
+          "text": "The anterior pituitary stops producing all FSH and LH for the rest of the cycle",
+          "correct": false,
+          "why": "FSH and LH aren't permanently stopped. Their concentrations change through feedback, and FSH begins supporting another cycle."
+        },
+        {
+          "text": "The follicle releases an egg, physically removing the endometrium from the uterus",
+          "correct": false,
+          "why": "Ovulation occurs in an ovary and doesn't remove the uterine lining. Menstruation follows falling ovarian hormone concentrations."
+        },
+        {
+          "text": "The egg enters the uterus and digests the lining after failing to undergo fertilization",
+          "correct": false,
+          "why": "An unfertilized egg doesn't digest the endometrium. Hormone withdrawal causes the lining to break down."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q06",
+      "stem": "Why are fertility hormones used to induce superovulation during IVF?",
+      "options": [
+        {
+          "text": "To make several follicles mature so several eggs can be collected",
+          "correct": true,
+          "why": "Artificial hormone treatment stimulates multiple follicles, providing several eggs that can be fertilized outside the body."
+        },
+        {
+          "text": "To make fertilization occur naturally in both oviducts at the same time",
+          "correct": false,
+          "why": "In IVF, fertilization occurs outside the body. The aim is to collect multiple eggs, not fertilize them in the oviducts."
+        },
+        {
+          "text": "To make every transferred embryo implant successfully in the endometrium",
+          "correct": false,
+          "why": "Hormone treatment can't guarantee implantation. Embryos still have to attach and develop successfully after transfer."
+        },
+        {
+          "text": "To convert diploid ovarian cells directly into embryos without sperm",
+          "correct": false,
+          "why": "IVF still involves eggs and sperm. Hormones stimulate follicle development rather than replacing fertilization."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q07",
+      "stem": "Which event is pollination in a flowering plant?",
+      "options": [
+        {
+          "text": "Fusion of a male gamete with a female gamete inside an ovule",
+          "correct": false,
+          "why": "That's fertilization. It occurs after pollen has reached a compatible stigma and a pollen tube has grown."
+        },
+        {
+          "text": "Transfer of pollen from an anther to a stigma",
+          "correct": true,
+          "why": "Pollination is a transfer event. Gamete fusion occurs later inside an ovule."
+        },
+        {
+          "text": "Growth of an embryo using reserves stored inside a seed",
+          "correct": false,
+          "why": "That's germination and early seedling growth. It occurs after fertilization, seed formation and dispersal."
+        },
+        {
+          "text": "Movement of a mature seed away from its parent plant",
+          "correct": false,
+          "why": "That's seed dispersal. Pollen is moved before fertilization, while seeds move afterward."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q08",
+      "stem": "How can different maturation times of anthers and stigmas promote cross-pollination?",
+      "options": [
+        {
+          "text": "They prevent pollen from ever reaching a stigma on the same species",
+          "correct": false,
+          "why": "Pollen still needs to reach a compatible stigma of the same species. The timing reduces transfer within the same flower or plant."
+        },
+        {
+          "text": "They make pollen genetically diploid before it leaves the anther",
+          "correct": false,
+          "why": "Maturation time doesn't change pollen ploidy. Its effect is on when pollen release and stigma receptivity overlap."
+        },
+        {
+          "text": "They reduce overlap between pollen release and stigma receptivity on the same plant",
+          "correct": true,
+          "why": "If the male and female structures mature at different times, self-pollination becomes less likely and pollen transfer between plants is favored."
+        },
+        {
+          "text": "They cause the stigma to accept pollen only after a seed has formed",
+          "correct": false,
+          "why": "The stigma must receive pollen before fertilization and seed formation. Delaying it until afterward would prevent reproduction."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q09",
+      "stem": "What happens during self-incompatibility in many flowering plants?",
+      "options": [
+        {
+          "text": "Genetic recognition prevents self-pollen from completing fertilization",
+          "correct": true,
+          "why": "The stigma or style rejects genetically incompatible self-pollen, reducing inbreeding and helping maintain variation."
+        },
+        {
+          "text": "Petals close permanently whenever pollen from another plant arrives",
+          "correct": false,
+          "why": "Cross-pollen is the pollen these mechanisms favor. Closing against it would reduce cross-fertilization."
+        },
+        {
+          "text": "The embryo rejects every allele inherited from the pollen parent",
+          "correct": false,
+          "why": "Recognition occurs before fertilization, not after an embryo forms. It affects pollen germination or pollen-tube growth."
+        },
+        {
+          "text": "A seed fails to germinate because it remains beside the parent plant",
+          "correct": false,
+          "why": "That's a possible consequence of poor seed dispersal. Self-incompatibility acts at the pollination and fertilization stage."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q10",
+      "stem": "Why does oogenesis normally produce one large functional egg rather than four equal gametes?",
+      "options": [
+        {
+          "text": "Only one of the two meiotic divisions occurs in an ovarian cell",
+          "correct": false,
+          "why": "Oogenesis includes two meiotic divisions. The unequal outcome comes from cytokinesis, not from omitting meiosis."
+        },
+        {
+          "text": "Unequal cytokinesis gives most of the cytoplasm to one cell",
+          "correct": true,
+          "why": "The other haploid products become small polar bodies, while one egg retains the cytoplasm and reserves needed for early development."
+        },
+        {
+          "text": "Three haploid products fuse together before the egg is released",
+          "correct": false,
+          "why": "The products don't fuse. The smaller cells are polar bodies produced by unequal divisions."
+        },
+        {
+          "text": "The primary oocyte destroys three chromosome sets during meiosis",
+          "correct": false,
+          "why": "Chromosomes are separated into haploid products rather than destroyed. Cytoplasm is distributed unequally."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q11",
+      "stem": "Which pairing correctly states the roles of the acrosome and cortical reactions?",
+      "options": [
+        {
+          "text": "The acrosome reaction blocks sperm, while the cortical reaction attracts another sperm",
+          "correct": false,
+          "why": "The roles run in the opposite direction. The acrosome helps the first sperm enter, and the cortical reaction blocks others."
+        },
+        {
+          "text": "The acrosome reaction starts implantation, while the cortical reaction forms the placenta",
+          "correct": false,
+          "why": "Both reactions occur at fertilization around the egg. Implantation and placental development happen later in the uterus."
+        },
+        {
+          "text": "The acrosome reaction digests the egg membrane, while the cortical reaction destroys the sperm nucleus",
+          "correct": false,
+          "why": "Acrosomal enzymes help penetrate the zona pellucida, not the egg membrane itself. The cortical reaction doesn't destroy the sperm nucleus."
+        },
+        {
+          "text": "The acrosome reaction permits zona penetration, while the cortical reaction prevents polyspermy",
+          "correct": true,
+          "why": "Acrosomal enzymes help one sperm cross the zona pellucida. Cortical granules then modify the zona so additional sperm can't enter."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q12",
+      "stem": "What does a positive home pregnancy test detect?",
+      "options": [
+        {
+          "text": "Progesterone released into urine by the corpus luteum",
+          "correct": false,
+          "why": "Standard tests detect hCG rather than progesterone. Progesterone can be present during non-pregnant menstrual cycles."
+        },
+        {
+          "text": "A fetal blood cell that has crossed directly into the urine",
+          "correct": false,
+          "why": "Pregnancy tests detect a soluble hormone, not fetal cells. Fetal and maternal blood normally remain separate."
+        },
+        {
+          "text": "hCG bound by specific monoclonal antibodies in the test",
+          "correct": true,
+          "why": "The embryo or developing placenta secretes hCG. Antibodies in the test bind it and produce a visible test line."
+        },
+        {
+          "text": "LH remaining in the blood after the ovulation surge",
+          "correct": false,
+          "why": "LH triggers ovulation but isn't the pregnancy marker measured by the test. The marker is hCG."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q13",
+      "stem": "Which exchange normally occurs across the placenta?",
+      "options": [
+        {
+          "text": "Maternal red blood cells enter fetal capillaries to deliver oxygen",
+          "correct": false,
+          "why": "Whole maternal red blood cells normally remain in the maternal circulation. Oxygen crosses between the two blood supplies."
+        },
+        {
+          "text": "Fetal urea enters maternal blood, while oxygen enters fetal blood",
+          "correct": true,
+          "why": "The fetus transfers nitrogenous waste toward the mother and receives oxygen. Placental villi provide a large exchange surface."
+        },
+        {
+          "text": "Fetal carbon dioxide enters the uterus and leaves through the cervix",
+          "correct": false,
+          "why": "Carbon dioxide crosses into maternal blood and is removed by the mother's lungs. It doesn't leave through the cervix."
+        },
+        {
+          "text": "Maternal and fetal blood mix freely inside the placental villi",
+          "correct": false,
+          "why": "The two circulations normally remain separate. Materials cross the placental barrier between them."
+        }
+      ]
+    },
+    {
+      "id": "D3.1-q14",
+      "stem": "Why did randomized controlled trials change the conclusion that HRT protects against coronary heart disease?",
+      "options": [
+        {
+          "text": "They showed that every person taking HRT developed coronary heart disease",
+          "correct": false,
+          "why": "The trials found a small increase in risk, not disease in every participant. Risk describes a probability."
+        },
+        {
+          "text": "They removed all biological variation between every treatment and control participant",
+          "correct": false,
+          "why": "Randomization balances confounding variables between groups on average. It doesn't make individual participants biologically identical."
+        },
+        {
+          "text": "They proved socioeconomic status has no relationship with coronary heart disease",
+          "correct": false,
+          "why": "Socioeconomic status was an important confounder in the earlier studies. The trials didn't show that its relationship disappeared."
+        },
+        {
+          "text": "Random allocation reduced confounding and revealed a small increase in risk with HRT",
+          "correct": true,
+          "why": "Earlier HRT users tended to have higher socioeconomic status, which was associated with lower disease risk. Randomized evidence didn't support a protective causal effect."
+        }
+      ]
+    }
+  ]
+}
