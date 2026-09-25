@@ -1,0 +1,317 @@
+{
+  "topic": "C4.1",
+  "questions": [
+    {
+      "id": "C4.1-q01",
+      "stem": "Which group is a population?",
+      "options": [
+        {
+          "text": "All gray wolves living and interacting in Yellowstone National Park",
+          "correct": true,
+          "why": "They’re members of one species living and interacting in the same area, so they form a population."
+        },
+        {
+          "text": "All animals living in Yellowstone National Park",
+          "correct": false,
+          "why": "That includes many species. It’s part of a community rather than one population."
+        },
+        {
+          "text": "All organisms and abiotic conditions in Yellowstone National Park",
+          "correct": false,
+          "why": "That describes an ecosystem because it includes organisms and their abiotic environment."
+        },
+        {
+          "text": "All gray wolves living in separate habitats throughout the world",
+          "correct": false,
+          "why": "Members scattered across isolated areas don’t form one interacting, interbreeding group."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q02",
+      "stem": "Why should quadrat locations be selected randomly?",
+      "options": [
+        {
+          "text": "To reduce systematic bias toward particular parts of the habitat",
+          "correct": true,
+          "why": "Random selection gives every possible location an equal chance and reduces the sampler’s influence on the result."
+        },
+        {
+          "text": "To guarantee that the estimate equals the true population size",
+          "correct": false,
+          "why": "Random sampling still produces sampling error. It reduces bias but can’t guarantee the exact value."
+        },
+        {
+          "text": "To ensure that every quadrat contains some members of the species",
+          "correct": false,
+          "why": "Empty quadrats are valid data. Avoiding them would bias the estimate toward areas where the species occurs."
+        },
+        {
+          "text": "To remove natural variation in abundance across the study area",
+          "correct": false,
+          "why": "Random sampling measures variation rather than removing it. Patchy distributions can still produce widely different counts."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q03",
+      "stem": "Twenty-five 1 m² quadrats contain a mean of 8 plants. The habitat covers 500 m². What is the estimated population size?",
+      "options": [
+        {
+          "text": "4,000 plants",
+          "correct": true,
+          "why": "The estimated density is 8 plants per square meter, so 8 × 500 gives 4,000 plants."
+        },
+        {
+          "text": "200 plants",
+          "correct": false,
+          "why": "That multiplies the mean by the number of sampled quadrats. It estimates only the sampled area, not the 500 m² habitat."
+        },
+        {
+          "text": "1,600 plants",
+          "correct": false,
+          "why": "That uses the habitat area divided by the sample count but fails to apply the mean density across the full area."
+        },
+        {
+          "text": "62.5 plants",
+          "correct": false,
+          "why": "Dividing habitat area by mean count doesn’t scale population density to the size of the habitat."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q04",
+      "stem": "Which conditions support a valid capture–mark–release–recapture estimate?",
+      "options": [
+        {
+          "text": "Marks persist, marked animals mix fully, and marking doesn’t alter capture probability",
+          "correct": true,
+          "why": "These conditions allow the proportion marked in the second sample to represent the proportion marked in the population."
+        },
+        {
+          "text": "Marks fade, marked animals remain together, and both samples have equal sizes",
+          "correct": false,
+          "why": "Faded marks and incomplete mixing reduce marked recaptures. The two sample sizes don’t need to be equal."
+        },
+        {
+          "text": "Immigration increases, marked animals avoid traps, and sampling occurs once",
+          "correct": false,
+          "why": "Immigration and trap avoidance break the assumptions, and the method requires an initial capture followed by recapture."
+        },
+        {
+          "text": "Births occur, marking improves survival, and marked animals stay near release sites",
+          "correct": false,
+          "why": "Population change, altered survival and incomplete mixing all make marked animals unrepresentative of the population."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q05",
+      "stem": "Which factor is most clearly density-dependent?",
+      "options": [
+        {
+          "text": "Faster pathogen transmission in a crowded colony",
+          "correct": true,
+          "why": "Close contact becomes more frequent as density rises, so the pathogen’s effect changes with population density."
+        },
+        {
+          "text": "A volcanic eruption covering the colony in ash",
+          "correct": false,
+          "why": "The eruption can affect organisms regardless of how crowded the population was, so it’s density-independent."
+        },
+        {
+          "text": "An unusually severe winter freezing the colony",
+          "correct": false,
+          "why": "Low temperature can kill individuals at high or low population density, making it density-independent."
+        },
+        {
+          "text": "A flood removing the colony’s entire habitat",
+          "correct": false,
+          "why": "Habitat loss from the flood doesn’t become stronger because individuals are more crowded."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q06",
+      "stem": "What pattern indicates exponential growth when population size is plotted on a logarithmic vertical axis against time?",
+      "options": [
+        {
+          "text": "An approximately straight rising line",
+          "correct": true,
+          "why": "Equal proportional increases occupy equal distances on a logarithmic axis, turning exponential growth into a straight-line pattern."
+        },
+        {
+          "text": "A horizontal line at carrying capacity",
+          "correct": false,
+          "why": "A horizontal line shows no net population growth, which fits a stable population rather than exponential increase."
+        },
+        {
+          "text": "An S-shaped curve that gradually levels off",
+          "correct": false,
+          "why": "That describes sigmoid growth on ordinary axes as density-dependent limits become stronger."
+        },
+        {
+          "text": "A repeating cycle with equally spaced peaks",
+          "correct": false,
+          "why": "Cycles can arise from changing interactions or conditions, but they aren’t the expected pattern for exponential growth."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q07",
+      "stem": "Which statement correctly distinguishes a community from an ecosystem?",
+      "options": [
+        {
+          "text": "A community contains interacting organisms, while an ecosystem also includes abiotic conditions",
+          "correct": true,
+          "why": "The community is the living component. An ecosystem includes that community and its physical environment."
+        },
+        {
+          "text": "A community contains one species, while an ecosystem contains several species",
+          "correct": false,
+          "why": "One species in an area forms a population. A community already contains interacting organisms from multiple species."
+        },
+        {
+          "text": "A community contains producers, while an ecosystem contains consumers and decomposers",
+          "correct": false,
+          "why": "Producers, consumers and decomposers can all belong to the same community."
+        },
+        {
+          "text": "A community occupies one habitat, while an ecosystem always contains several habitats",
+          "correct": false,
+          "why": "The distinction concerns living and abiotic components, not a required number of habitats."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q08",
+      "stem": "Which exchange occurs in the mutualism between hard corals and zooxanthellae?",
+      "options": [
+        {
+          "text": "Zooxanthellae provide photosynthetic products; corals provide carbon dioxide, nutrients and shelter",
+          "correct": true,
+          "why": "Each partner gains resources. The algae receive a protected habitat and raw materials, while the coral receives organic products."
+        },
+        {
+          "text": "Corals provide prey; zooxanthellae protect the corals by producing antibiotics",
+          "correct": false,
+          "why": "That describes neither partner’s main role. Zooxanthellae are photosynthetic and transfer organic products to the coral."
+        },
+        {
+          "text": "Zooxanthellae fix nitrogen; corals supply glucose inside root nodules",
+          "correct": false,
+          "why": "That mixes the coral relationship with nitrogen-fixing bacteria in legume root nodules."
+        },
+        {
+          "text": "Corals digest zooxanthellae; zooxanthellae gain transport to new habitats",
+          "correct": false,
+          "why": "Routine digestion would benefit the coral while harming the algae, so it wouldn’t describe their mutualism."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q09",
+      "stem": "One plant grows better after a neighboring species is removed from a field plot. What can be concluded?",
+      "options": [
+        {
+          "text": "The result supports interspecific competition but doesn’t prove it by itself",
+          "correct": true,
+          "why": "Removing the neighbor and measuring a response provides evidence for competition, but the removal may also change other conditions."
+        },
+        {
+          "text": "The result proves that both species occupy identical ecological niches",
+          "correct": false,
+          "why": "Competition can involve one shared resource without the species having identical niches."
+        },
+        {
+          "text": "The result proves that the removed species was an invasive species",
+          "correct": false,
+          "why": "Competitive effects don’t establish whether a species was introduced, invasive or endemic."
+        },
+        {
+          "text": "The result shows that the two species have a mutualistic relationship",
+          "correct": false,
+          "why": "If one species improves after the other is removed, the observation fits competition better than mutualism."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q10",
+      "stem": "A chi-squared test finds a significant association between the presence of two species. Which interpretation is valid?",
+      "options": [
+        {
+          "text": "Their distributions aren’t independent, but the cause requires further investigation",
+          "correct": true,
+          "why": "The test supports an association. It can’t identify competition or another biological mechanism as the cause."
+        },
+        {
+          "text": "The two species compete for the same resource at every sampling site",
+          "correct": false,
+          "why": "A statistical association doesn’t identify a shared resource or show that competition occurs at every site."
+        },
+        {
+          "text": "One species directly causes the distribution observed in the other species",
+          "correct": false,
+          "why": "Association alone doesn’t establish causation. Abiotic conditions or additional species may affect both distributions."
+        },
+        {
+          "text": "The observed and expected frequencies are effectively the same",
+          "correct": false,
+          "why": "A significant result means the difference between observed and expected frequencies is unlikely under the null hypothesis."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q11",
+      "stem": "Which example shows top-down control?",
+      "options": [
+        {
+          "text": "More wolves reduce elk abundance, allowing browsed plants to increase",
+          "correct": true,
+          "why": "The change begins with a higher-trophic-level consumer and moves down through lower trophic levels."
+        },
+        {
+          "text": "More mineral nutrients increase grass growth and then herbivore abundance",
+          "correct": false,
+          "why": "The change begins with resource supply at the base of the food chain, so it’s bottom-up control."
+        },
+        {
+          "text": "A drought reduces plant growth and then lowers herbivore abundance",
+          "correct": false,
+          "why": "The effect begins with reduced producer resources and passes upward, making it bottom-up control."
+        },
+        {
+          "text": "More phytoplankton supports larger zooplankton and fish populations",
+          "correct": false,
+          "why": "Greater food supply at a lower trophic level supports consumers above it, which is bottom-up control."
+        }
+      ]
+    },
+    {
+      "id": "C4.1-q12",
+      "stem": "How are allelopathy and antibiotic secretion similar?",
+      "options": [
+        {
+          "text": "Both release chemicals that inhibit potential competitors",
+          "correct": true,
+          "why": "Plants can release allelopathic chemicals, while microorganisms can secrete antibiotics. Both interfere chemically with competitors."
+        },
+        {
+          "text": "Both involve consumers killing prey for food",
+          "correct": false,
+          "why": "That describes predation. Chemical inhibition can occur without the competitor being eaten."
+        },
+        {
+          "text": "Both benefit the affected organism and the chemical producer",
+          "correct": false,
+          "why": "That would be mutualism. The affected competitor is inhibited rather than helped."
+        },
+        {
+          "text": "Both increase competition by adding resources to the environment",
+          "correct": false,
+          "why": "The chemicals deter or inhibit competitors; they don’t work by increasing shared resource supplies."
+        }
+      ]
+    }
+  ]
+}

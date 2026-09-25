@@ -1,0 +1,122 @@
+{
+  "topic": "C4.1",
+  "title": "Populations and communities",
+  "cards": [
+    {
+      "id": "C4.1-01",
+      "q": "Distinguish a population from a community, including the role of breeding and reproductive isolation.",
+      "a": "A population is an interacting group of organisms of the same species living in an area. Its members normally breed with one another. Reproductive isolation, such as geographical separation that prevents breeding between groups, can be used to distinguish separate populations. A community consists of all the interacting organisms and populations in an ecosystem.",
+      "note": "A community contains many species. Abiotic factors are part of the ecosystem, not the community.",
+      "tags": ["core", "population", "community"]
+    },
+    {
+      "id": "C4.1-02",
+      "q": "Explain why ecologists use random samples to estimate population size and what sampling error means.",
+      "a": "Counting every individual may be impractical because the area is large, organisms are numerous or hidden, and counting may be costly or disruptive. Random sampling gives each possible location an equal chance of selection and reduces systematic bias. Sampling error is the difference between the estimate obtained from a sample and the true value for the whole population.",
+      "note": "Random sampling reduces bias, but it can’t remove sampling error.",
+      "tags": ["core", "sampling", "randomness"]
+    },
+    {
+      "id": "C4.1-03",
+      "q": "Describe how random quadrat sampling can be used to estimate the population size of a sessile species.",
+      "a": "Mark out the habitat and generate random coordinates for many quadrat positions. Count individuals of the sessile species in each quadrat using a consistent rule for organisms on boundaries. Calculate the mean number per quadrat, then multiply it by the total habitat area divided by the quadrat area. More randomly placed quadrats usually make the estimate more reliable.",
+      "tags": ["core", "sampling", "quadrats"]
+    },
+    {
+      "id": "C4.1-04",
+      "q": "What does the standard deviation of counts from several quadrats tell you about a population’s distribution?",
+      "a": "Standard deviation measures how much the quadrat counts vary around their mean. A small standard deviation means the counts are relatively similar among quadrats and suggests a more even distribution. A large standard deviation means counts differ greatly and suggests a patchier distribution.",
+      "note": "Standard deviation describes variation among samples. It doesn’t tell you the size of the sampling error.",
+      "tags": ["core", "sampling", "standard-deviation"]
+    },
+    {
+      "id": "C4.1-05",
+      "q": "Explain capture–mark–release–recapture and show how the Lincoln index estimates population size.",
+      "a": "Capture a first sample, mark the individuals harmlessly and release them so they mix back into the population. Capture a second sample and record how many are marked. If M is the number marked initially, N is the total in the second sample and R is the marked number recaptured, the estimate is M × N ÷ R. A low proportion of marked recaptures indicates a larger population.",
+      "tags": ["core", "sampling", "lincoln-index"]
+    },
+    {
+      "id": "C4.1-06",
+      "q": "State the assumptions needed for a valid capture–mark–release–recapture estimate.",
+      "a": "The population should remain effectively closed, with negligible births, deaths, immigration and emigration between samples. Marks must remain visible and mustn’t affect survival, behavior or probability of capture. Marked individuals must mix fully back into the population, and each individual should have an equal chance of capture in the second sample.",
+      "note": "The calculation can be accurate while the estimate is invalid because an assumption failed.",
+      "tags": ["core", "sampling", "lincoln-index", "assumptions"]
+    },
+    {
+      "id": "C4.1-07",
+      "q": "Define carrying capacity and explain how competition for resources keeps a population near it.",
+      "a": "Carrying capacity is the population size that an environment can support sustainably under its current conditions. As population density rises, resources such as food, water, light, mineral ions, space or nesting sites become more limited per individual. Competition increases, reducing survival or reproduction, so population growth slows near carrying capacity.",
+      "note": "Carrying capacity can change when environmental conditions or resource supplies change.",
+      "tags": ["core", "carrying-capacity", "competition"]
+    },
+    {
+      "id": "C4.1-08",
+      "q": "Distinguish density-dependent from density-independent limiting factors and explain the negative feedback involved.",
+      "a": "The effect of a density-dependent factor changes with population density. Competition, pathogen transmission and often predation become stronger in dense populations, lowering survival or reproduction and pushing population size back toward carrying capacity. A density-independent factor, such as a severe freeze, drought or fire, affects populations regardless of their density and doesn’t consistently return them toward carrying capacity.",
+      "tags": ["core", "density-dependence", "negative-feedback"]
+    },
+    {
+      "id": "C4.1-09",
+      "q": "Compare exponential and sigmoid population growth and explain the biological cause of each shape.",
+      "a": "Exponential growth occurs when resources are abundant and limiting factors have little effect, so a roughly constant rate of increase per individual produces a J-shaped curve on ordinary axes. Sigmoid growth initially resembles exponential growth, but density-dependent limiting factors intensify as density rises. Growth therefore slows near carrying capacity, producing an S-shaped curve.",
+      "note": "The current syllabus doesn’t require a lag phase as part of the sigmoid model.",
+      "tags": ["core", "population-growth", "models"]
+    },
+    {
+      "id": "C4.1-10",
+      "q": "How can a graph test whether a population is growing exponentially, and what are the limits of the model?",
+      "a": "Plot population size on a logarithmic vertical axis and time on a non-logarithmic horizontal axis. Exponential growth produces an approximately straight line because equal proportional increases occupy equal distances on the logarithmic axis. The model is useful for identifying a pattern, but natural populations fluctuate because conditions, interactions and carrying capacity change.",
+      "tags": ["core", "population-growth", "logarithmic-scale", "models"]
+    },
+    {
+      "id": "C4.1-11",
+      "q": "Compare intraspecific competition with intraspecific cooperation, including effects on survival and reproduction.",
+      "a": "Intraspecific competition occurs when members of one species seek the same limited resources, territories or mates, so some individuals survive or reproduce less successfully. Cooperation can increase success through group hunting, shared defense, cooperative care of young or warning signals. The same population can show both competition and cooperation.",
+      "tags": ["core", "intraspecific", "competition", "cooperation"]
+    },
+    {
+      "id": "C4.1-12",
+      "q": "Classify the six interspecific relationships in this topic by their effects on the species involved.",
+      "a": "In herbivory and predation, one species gains food while the consumed species is harmed. In parasitism, the parasite benefits while its host is harmed, usually without being killed immediately. In pathogenicity, a pathogen benefits through resources and reproduction while causing disease in its host. In interspecific competition, both species are negatively affected by sharing a limited resource. In mutualism, both species benefit.",
+      "tags": ["core", "interspecific", "relationships"]
+    },
+    {
+      "id": "C4.1-13",
+      "q": "For each required mutualism, explain what both partners gain: legume root nodules, orchid mycorrhizae and hard corals with zooxanthellae.",
+      "a": "In legume root nodules, nitrogen-fixing bacteria supply the plant with usable nitrogen compounds, while the plant supplies organic compounds and a protected habitat. Mycorrhizal fungi help orchids obtain water and mineral ions and can supply carbon needed during seed germination, while photosynthetic orchids can provide the fungus with organic compounds. Zooxanthellae supply hard corals with products of photosynthesis, while the coral provides a protected position plus carbon dioxide and mineral nutrients.",
+      "tags": ["core", "mutualism", "examples"]
+    },
+    {
+      "id": "C4.1-14",
+      "q": "Explain how competition for resources can turn an introduced species into an invasive species.",
+      "a": "An introduced species may acquire a limited resource such as light, food, space or mineral nutrients more effectively than endemic species. Its survival and reproduction then increase while resource availability and population growth decline for the endemic competitors. If the introduced population spreads and causes ecological harm, it’s described as invasive. For example, invasive kudzu can overgrow other plants and reduce their access to light.",
+      "tags": ["core", "invasive-species", "competition"]
+    },
+    {
+      "id": "C4.1-15",
+      "q": "Compare three approaches used to test for interspecific competition and state what their results can establish.",
+      "a": "A laboratory experiment can grow each species alone and together under controlled conditions. Random field observations can test whether the species occur together less often than expected. A field-removal experiment can remove one species and measure the response of the other. Greater success in the competitor’s absence supports competition, but an observed distribution alone indicates competition without proving it.",
+      "tags": ["core", "competition", "experimental-design"]
+    },
+    {
+      "id": "C4.1-16",
+      "q": "Describe how to use and interpret a chi-squared test for association between the presence of two species.",
+      "a": "Record the presence or absence of both species at many sampling sites and place the observations in a contingency table. The null hypothesis states that their distributions are independent. Calculate expected frequencies from the row and column totals, then calculate chi-squared as the sum of (observed minus expected) squared divided by expected. A significant result rejects independence and supports an association, but it doesn’t establish competition as the cause.",
+      "note": "Association could also result from different habitat preferences, mutualism or another unmeasured factor.",
+      "tags": ["core", "chi-squared", "association"]
+    },
+    {
+      "id": "C4.1-17",
+      "q": "Explain the linked changes in snowshoe hare and Canadian lynx populations as density-dependent control.",
+      "a": "When hare numbers rise, food becomes more abundant for lynx, so lynx survival and reproduction can increase after a delay. Increased lynx numbers raise predation pressure on hares, contributing to a fall in the hare population. With fewer hares available, lynx numbers later fall, reducing predation pressure. Food supply and other factors also affect the cycle, so predation isn’t its only cause.",
+      "tags": ["core", "predator-prey", "density-dependence"]
+    },
+    {
+      "id": "C4.1-18",
+      "q": "Connect top-down control, bottom-up control, allelopathy and antibiotic secretion in one explanation of community regulation.",
+      "a": "Top-down control occurs when consumers at higher trophic levels regulate populations below them, such as predators limiting herbivores. Bottom-up control occurs when the supply of resources at lower trophic levels limits consumers above them. Competition can also involve chemical interference: black walnut releases juglone, which inhibits some nearby plants, while Penicillium fungi secrete penicillin, which inhibits susceptible bacteria. Both chemicals reduce potential competitors.",
+      "note": "Allelopathy is associated with plant-released chemicals. Antibiotics act against microorganisms.",
+      "tags": ["core", "synthesis", "community-control", "chemical-competition"]
+    }
+  ]
+}

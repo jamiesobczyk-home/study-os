@@ -1,0 +1,172 @@
+{
+  "topic": "D1.3",
+  "title": "Mutation and gene editing",
+  "cards": [
+    {
+      "id": "D1.3-01",
+      "q": "Distinguish substitution, insertion and deletion mutations at the molecular level.",
+      "a": "A substitution replaces one nucleotide with another. An insertion adds one or more nucleotides to a DNA sequence. A deletion removes one or more nucleotides from a DNA sequence. All three are structural changes to DNA.",
+      "note": "Describe what happens to the nucleotide sequence. Terms such as swap, add and remove are more precise than saying that the DNA becomes damaged.",
+      "tags": [
+        "core",
+        "mutation-types"
+      ]
+    },
+    {
+      "id": "D1.3-02",
+      "q": "Explain the three possible effects that a base substitution in a coding sequence can have on translation.",
+      "a": "Because the genetic code is degenerate, the altered codon may still specify the same amino acid, producing a synonymous mutation. It may specify a different amino acid, producing a missense mutation, or it may become a stop codon, producing a nonsense mutation and premature termination of translation.",
+      "note": "A substitution doesn’t shift the reading frame. Its direct effect is limited to the codon containing the changed base, although the resulting protein effect can be large.",
+      "tags": [
+        "core",
+        "substitution",
+        "genetic-code"
+      ]
+    },
+    {
+      "id": "D1.3-03",
+      "q": "Explain why some insertions and deletions cause frameshifts while others don’t.",
+      "a": "Codons are read as groups of three nucleotides. An insertion or deletion of a number of nucleotides that isn’t divisible by three changes the grouping of all downstream codons and causes a frameshift. An insertion or deletion divisible by three stays in frame but adds or removes one or more amino acids.",
+      "note": "An insertion or deletion doesn’t automatically cause a frameshift. Check whether the number of affected bases is divisible by three.",
+      "tags": [
+        "core",
+        "frameshift",
+        "genetic-code"
+      ]
+    },
+    {
+      "id": "D1.3-04",
+      "q": "Explain why a one-base deletion is often more disruptive than a one-base substitution in a coding sequence.",
+      "a": "A one-base substitution changes one codon and may leave the amino acid unchanged because the code is degenerate. A one-base deletion shifts the reading frame, changing every downstream codon and often introducing a premature stop codon. The altered polypeptide is therefore likely to lose its function.",
+      "tags": [
+        "core",
+        "frameshift",
+        "comparison"
+      ]
+    },
+    {
+      "id": "D1.3-05",
+      "q": "Outline the causes of gene mutation and give named examples of mutagens.",
+      "a": "Gene mutations can arise from errors during DNA replication or from errors in DNA repair. Mutagens increase the mutation rate. Examples include ultraviolet radiation, ionizing radiation such as X-rays, and chemical mutagens such as benzopyrene in tobacco smoke.",
+      "note": "A mutagen increases the probability of mutation. It doesn’t determine a useful mutation in a particular gene.",
+      "tags": [
+        "core",
+        "mutagens",
+        "causes"
+      ]
+    },
+    {
+      "id": "D1.3-06",
+      "q": "What does it mean to say that mutations are random, and how can mutation hotspots still exist?",
+      "a": "Mutations are random with respect to an organism’s needs: no known natural mechanism deliberately changes a chosen base to produce a needed trait. Mutations can occur anywhere in a genome, but the probabilities aren’t uniform. DNA sequence, exposure and other molecular factors can make some bases mutate more often than others.",
+      "note": "Random doesn’t mean that every base has an equal mutation probability.",
+      "tags": [
+        "core",
+        "randomness",
+        "misconception"
+      ]
+    },
+    {
+      "id": "D1.3-07",
+      "q": "Compare the possible consequences of the same mutation occurring in a germ cell and in a somatic cell.",
+      "a": "If a mutation occurs in a germ cell or its precursor and enters a gamete, it can be inherited by an offspring and contribute a new allele to the population. A somatic mutation is passed to descendant cells by mitosis but normally isn’t inherited by offspring. Somatic mutations affecting genes that control cell division can contribute to cancer.",
+      "note": "A germline mutation is heritable only if it enters a gamete that contributes to a zygote.",
+      "tags": [
+        "core",
+        "germline",
+        "somatic",
+        "cancer"
+      ]
+    },
+    {
+      "id": "D1.3-08",
+      "q": "Explain why mutation is required for evolution even though most mutations are neutral or harmful to an individual.",
+      "a": "Mutation creates new DNA sequences and is the original source of new alleles. Recombination and sexual reproduction rearrange existing alleles but don’t create their original sequences. Natural selection can increase the frequency of a beneficial heritable allele, so mutation supplies the variation on which evolution acts.",
+      "note": "Mutations don’t occur because they would be beneficial. Their effects are judged after they occur in a particular environment.",
+      "tags": [
+        "core",
+        "variation",
+        "evolution"
+      ]
+    },
+    {
+      "id": "D1.3-09",
+      "q": "Why can’t a result from a commercial genetic test be treated as a certain prediction of future disease?",
+      "a": "A tested variant may change the probability of disease without determining the outcome. Other genes, environmental factors, lifestyle and incomplete scientific evidence can alter the risk. The result therefore needs expert interpretation and should be treated as information about probability, not as a diagnosis or certainty.",
+      "tags": [
+        "core",
+        "genetic-testing",
+        "risk"
+      ]
+    },
+    {
+      "id": "D1.3-10",
+      "q": "Explain how a gene knockout can be used to investigate the function of a gene.",
+      "a": "Researchers make a selected gene inoperative and compare the knockout organism or cells with an otherwise similar control. A consistent phenotypic or biochemical difference provides evidence that the gene contributes to the affected process. The result may not identify a single function because genes can have several effects and other genes may compensate.",
+      "note": "The changed phenotype supports an inference about function. It doesn’t prove that the gene acts alone.",
+      "tags": [
+        "hl",
+        "gene-knockout",
+        "evidence"
+      ]
+    },
+    {
+      "id": "D1.3-11",
+      "q": "Outline how guide RNA and Cas9 are used to edit a selected DNA sequence.",
+      "a": "A guide RNA is designed with a sequence complementary to the target DNA. The guide RNA binds Cas9 and directs it to the matching DNA region. Cas9 acts as a nuclease and cuts the DNA. Cellular DNA-repair processes then rejoin the cut, which can disrupt the target sequence or, when a suitable repair template is supplied, produce a selected sequence change.",
+      "note": "The guide RNA provides sequence specificity. Cas9 performs the cutting.",
+      "tags": [
+        "hl",
+        "crispr",
+        "cas9",
+        "gene-editing"
+      ]
+    },
+    {
+      "id": "D1.3-12",
+      "q": "Describe a successful medical use of CRISPR-Cas9 for sickle-cell disease.",
+      "a": "Blood-forming stem cells can be removed from a patient and edited outside the body with CRISPR-Cas9. Editing an erythroid regulatory region of the BCL11A gene reduces its suppression of fetal haemoglobin. The edited stem cells are returned to the patient, and increased fetal haemoglobin can reduce sickling and severe disease episodes.",
+      "note": "The treatment doesn’t directly replace the sickle-cell allele. It changes regulation so that more fetal haemoglobin is produced.",
+      "tags": [
+        "hl",
+        "crispr",
+        "sickle-cell-disease",
+        "application"
+      ]
+    },
+    {
+      "id": "D1.3-13",
+      "q": "Explain why heritable CRISPR editing raises greater ethical and regulatory concerns than editing a patient’s somatic cells.",
+      "a": "A somatic edit affects the treated person and normally isn’t passed to offspring. An edit in an embryo or germline could enter future generations, whose members can’t consent, and unintended changes could spread through a family line. Countries regulate these risks differently, creating a need for international discussion and efforts to harmonize regulation.",
+      "tags": [
+        "hl",
+        "crispr",
+        "ethics",
+        "regulation"
+      ]
+    },
+    {
+      "id": "D1.3-14",
+      "q": "Give two hypotheses that could explain why a gene sequence is highly conserved across long periods of evolution.",
+      "a": "One hypothesis is functional constraint: changes to the sequence reduce fitness, so purifying selection removes many altered versions and the functional sequence persists. A second hypothesis is that the sequence has a relatively low mutation rate, so variants arise less often.",
+      "note": "Conservation doesn’t mean mutations never occur. Similarity can persist because variants are removed or because they arise slowly.",
+      "tags": [
+        "hl",
+        "conserved-sequences",
+        "evolution"
+      ]
+    },
+    {
+      "id": "D1.3-15",
+      "q": "Build a complete causal chain from a random DNA mutation to evolutionary change in a population.",
+      "a": "A random mutation changes a DNA sequence and may create a new allele. If the mutation occurs in the germline, it can be inherited. The allele may alter a polypeptide or gene regulation and therefore affect phenotype. If that phenotype increases reproductive success in the current environment, natural selection can increase the allele’s frequency over generations, producing evolutionary change.",
+      "note": "Keep mutation and selection separate. Mutation generates variation without regard to need; selection changes allele frequencies according to their effects.",
+      "tags": [
+        "core",
+        "synthesis",
+        "variation",
+        "natural-selection"
+      ]
+    }
+  ]
+}

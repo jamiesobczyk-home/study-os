@@ -1,0 +1,123 @@
+{
+  "topic": "C4.2",
+  "title": "Transfers of energy and matter",
+  "cards": [
+    {
+      "id": "C4.2-01",
+      "q": "Distinguish an open system from a closed system, then classify a typical ecosystem.",
+      "a": "An open system exchanges both energy and matter with its surroundings. A closed system can exchange energy but doesn’t exchange matter. A typical ecosystem is open because light and heat cross its boundary and organisms, water, gases and nutrients can enter or leave.",
+      "note": "Closed doesn’t mean that energy is trapped. It means matter doesn’t cross the boundary.",
+      "tags": ["core", "systems"]
+    },
+    {
+      "id": "C4.2-02",
+      "q": "Explain how energy enters most ecosystems and give an exception.",
+      "a": "Sunlight is the principal energy source for most ecosystems. Photoautotrophs absorb light and use its energy to synthesize carbon compounds from simple inorganic substances. In ecosystems without sufficient light, such as deep-ocean communities below the level of light penetration, chemoautotrophs can use energy released by oxidation reactions.",
+      "tags": ["core", "energy-source", "autotrophs"]
+    },
+    {
+      "id": "C4.2-03",
+      "q": "Construct the verbal food chain grass → grasshopper → frog → snake, naming every trophic level and explaining the arrows.",
+      "a": "Grass is the producer, the grasshopper is the primary consumer, the frog is the secondary consumer and the snake is the tertiary consumer. Each arrow points from the organism being eaten to the consumer because it shows the direction in which energy and biomass are transferred.",
+      "note": "The arrow doesn’t mean “eats.” It points in the direction of the transfer.",
+      "tags": ["core", "food-chains", "trophic-levels"]
+    },
+    {
+      "id": "C4.2-04",
+      "q": "Explain why one species can occupy different trophic levels in the same food web.",
+      "a": "A trophic level describes a feeding position in a particular food chain, not a permanent property of a species. An omnivore can be a primary consumer when it eats a producer and a secondary or higher consumer when it eats another consumer.",
+      "tags": ["core", "food-webs", "trophic-levels"]
+    },
+    {
+      "id": "C4.2-05",
+      "q": "Explain how dead organic matter supplies energy to detritivores and decomposers, and distinguish how the two feed.",
+      "a": "Dead organisms, dead body parts and feces contain carbon compounds with chemical energy. Detritivores ingest this material and digest it internally. Decomposers such as many fungi and bacteria secrete digestive enzymes onto dead organic matter, digest it externally and absorb the soluble products.",
+      "note": "Decomposers and detritivores both use dead organic matter, but their methods of digestion differ.",
+      "tags": ["core", "decomposition", "detritivores"]
+    },
+    {
+      "id": "C4.2-06",
+      "q": "Distinguish autotrophs from heterotrophs by their carbon sources and explain what happens to the compounds they obtain or make.",
+      "a": "Autotrophs use an external energy source to synthesize carbon compounds from simple inorganic substances such as carbon dioxide. Heterotrophs obtain carbon compounds from other organisms. Heterotrophs digest complex compounds and assimilate the products by building the proteins, nucleic acids and other carbon compounds they require.",
+      "tags": ["core", "autotrophs", "heterotrophs", "assimilation"]
+    },
+    {
+      "id": "C4.2-07",
+      "q": "Distinguish photoautotrophs from chemoautotrophs and give the required chemoautotroph example.",
+      "a": "Photoautotrophs use light as their external energy source. Chemoautotrophs obtain energy from oxidation reactions involving inorganic substances and use it to synthesize carbon compounds. Iron-oxidizing bacteria are an example of chemoautotrophs.",
+      "note": "Chemoautotrophs make their own carbon compounds. They aren’t decomposers feeding on dead organisms.",
+      "tags": ["core", "photoautotrophs", "chemoautotrophs"]
+    },
+    {
+      "id": "C4.2-08",
+      "q": "Explain why both autotrophs and heterotrophs carry out cell respiration.",
+      "a": "Both groups require usable energy for cellular processes. They oxidize carbon compounds during cell respiration, transferring some of the chemical energy to ATP. Autotrophs can respire carbon compounds they made themselves, while heterotrophs respire compounds ultimately obtained from other organisms.",
+      "note": "Photosynthesis doesn’t replace respiration. Autotrophs carry out both processes.",
+      "tags": ["core", "respiration", "energy"]
+    },
+    {
+      "id": "C4.2-09",
+      "q": "What information belongs in a pyramid of energy, and why must its bars become narrower at higher trophic levels?",
+      "a": "A pyramid of energy shows energy transferred or available at successive trophic levels per unit area per unit time, commonly in kJ m−2 yr−1. Its bars become narrower because only part of the energy at one trophic level becomes biomass that can be transferred to the next.",
+      "tags": ["core", "energy-pyramids", "data"]
+    },
+    {
+      "id": "C4.2-10",
+      "q": "A producer level contains 18,000 kJ m−2 yr−1 and its primary consumers receive 1,440 kJ m−2 yr−1. Calculate the transfer efficiency.",
+      "a": "Transfer efficiency equals energy received by the higher trophic level divided by energy available at the preceding level, multiplied by 100. The efficiency is (1,440 ÷ 18,000) × 100 = 8.0%.",
+      "tags": ["core", "energy-pyramids", "calculation"]
+    },
+    {
+      "id": "C4.2-11",
+      "q": "Account for the reduction in energy available to the next trophic level.",
+      "a": "Some organisms or body parts aren’t eaten. Some ingested material is egested in feces rather than assimilated, and carbon compounds may also enter waste. Organisms oxidize assimilated carbon compounds in cell respiration, and energy becomes dispersed as heat when ATP is produced and used. Energy in uneaten material and waste can pass to detritivores and decomposers, but it’s unavailable to the next consumer level in that food chain.",
+      "tags": ["core", "energy-loss", "respiration"]
+    },
+    {
+      "id": "C4.2-12",
+      "q": "Correct this claim: “There is less energy at higher trophic levels because each gram of biomass contains less energy.”",
+      "a": "Higher trophic levels usually contain less total biomass and therefore less total available energy because energy is lost between transfers. The energy content per unit mass of biomass isn’t necessarily reduced. There may instead be fewer organisms or smaller organisms at each successive level.",
+      "note": "The decrease concerns total biomass and total available energy, not a required decrease in energy per gram.",
+      "tags": ["core", "energy-loss", "misconception"]
+    },
+    {
+      "id": "C4.2-13",
+      "q": "Explain why most food chains contain only a limited number of trophic levels.",
+      "a": "Large energy losses occur at every transfer, so progressively less energy is available to form biomass at higher trophic levels. Eventually too little energy and biomass remain to support another viable consumer population, which restricts the number of trophic levels.",
+      "tags": ["core", "food-chains", "energy-loss"]
+    },
+    {
+      "id": "C4.2-14",
+      "q": "Distinguish primary production from secondary production and state suitable units for each rate.",
+      "a": "Primary production is the accumulation of carbon compounds in the biomass of autotrophs. Secondary production is the accumulation of carbon compounds in the biomass of heterotrophs. Both can be expressed as mass of carbon per unit area per unit time, commonly g C m−2 yr−1.",
+      "note": "Secondary production means production by all heterotrophs, not production by secondary consumers.",
+      "tags": ["core", "primary-production", "secondary-production"]
+    },
+    {
+      "id": "C4.2-15",
+      "q": "Explain why secondary production is lower than primary production across an ecosystem.",
+      "a": "Heterotrophs receive only part of the biomass produced by autotrophs because some material isn’t eaten or assimilated. Heterotrophs also oxidize carbon compounds in cell respiration, releasing carbon dioxide and water and transferring energy as heat. Only the carbon compounds retained in new heterotroph biomass count as secondary production.",
+      "tags": ["core", "production", "energy-loss"]
+    },
+    {
+      "id": "C4.2-16",
+      "q": "Describe a carbon cycle that includes photosynthesis, feeding, respiration, decomposition and combustion.",
+      "a": "Photosynthesis transfers carbon from atmospheric or dissolved carbon dioxide into organic compounds in autotroph biomass. Feeding transfers organic carbon to heterotrophs. Respiration by autotrophs, heterotrophs and decomposers returns carbon dioxide to the environment. Dead material and feces transfer carbon to detritivores and decomposers. Combustion of biomass, peat and fossil fuels also releases carbon dioxide.",
+      "tags": ["core", "carbon-cycle", "synthesis"]
+    },
+    {
+      "id": "C4.2-17",
+      "q": "Use photosynthesis and respiration to distinguish a carbon sink from a carbon source.",
+      "a": "An ecosystem is a carbon sink during a measured period if photosynthesis removes more carbon dioxide than respiration and other processes release, producing net carbon uptake. It’s a carbon source if respiration and other releases exceed photosynthetic uptake, producing net carbon release.",
+      "note": "A store of carbon isn’t automatically a sink. Sink and source describe the balance of fluxes over time.",
+      "tags": ["core", "carbon-sinks", "carbon-sources"]
+    },
+    {
+      "id": "C4.2-18",
+      "q": "Explain both patterns in the Keeling Curve, then connect them to the recycling of matter and the one-way flow of energy.",
+      "a": "The annual oscillation occurs because seasonal changes alter the balance between photosynthesis and respiration or decomposition, especially across the land-rich Northern Hemisphere. Atmospheric carbon dioxide generally falls during the Northern Hemisphere growing season and rises during fall and winter. The long-term rise shows that releases, particularly from increased combustion of coal, oil, natural gas and biomass, exceed global uptake. Carbon atoms are recycled through photosynthesis, feeding, respiration, decomposition and combustion, as are all chemical elements required by organisms. Energy instead enters mainly as sunlight, passes through organisms as chemical energy and ultimately becomes dispersed as heat.",
+      "note": "This answer links a graph, the carbon cycle and the central energy-versus-matter contrast.",
+      "tags": ["core", "keeling-curve", "nutrient-cycling", "synthesis"]
+    }
+  ]
+}

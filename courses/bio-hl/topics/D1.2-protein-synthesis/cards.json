@@ -1,0 +1,198 @@
+{
+  "topic": "D1.2",
+  "title": "Protein synthesis",
+  "cards": [
+    {
+      "id": "D1.2-01",
+      "q": "Explain how RNA polymerase uses DNA to synthesize an RNA transcript.",
+      "a": "RNA polymerase binds near the gene, separates the DNA strands and uses one strand as a template. Free RNA nucleotides pair with exposed DNA bases by complementary base pairing: RNA adenine pairs with DNA thymine, RNA uracil with DNA adenine, and cytosine with guanine. RNA polymerase joins the RNA nucleotides into a strand that is complementary to the template.",
+      "note": "RNA contains uracil, but the DNA template still contains thymine.",
+      "tags": [
+        "core",
+        "transcription",
+        "complementary-base-pairing"
+      ]
+    },
+    {
+      "id": "D1.2-02",
+      "q": "Explain why a DNA template can be transcribed repeatedly without its base sequence being changed.",
+      "a": "Transcription temporarily breaks hydrogen bonds between complementary DNA bases over a short region. RNA polymerase reads the bases without removing or replacing them, and the covalent sugar–phosphate backbones remain intact. After the polymerase passes, complementary DNA bases pair again, so the original DNA sequence is retained.",
+      "note": "The RNA is a newly assembled copy. It isn't made by cutting bases out of DNA.",
+      "tags": [
+        "core",
+        "transcription",
+        "dna-stability"
+      ]
+    },
+    {
+      "id": "D1.2-03",
+      "q": "Explain why transcription is a key control point in gene expression.",
+      "a": "A gene must be transcribed before its information can be used to produce an RNA or, after translation, a polypeptide. Cells don't express every gene at the same time. By allowing or preventing transcription of a particular gene, a cell can switch production of its RNA and protein product on or off.",
+      "tags": [
+        "core",
+        "transcription",
+        "gene-expression"
+      ]
+    },
+    {
+      "id": "D1.2-04",
+      "q": "Explain the separate roles of mRNA, ribosomes and tRNA in translation.",
+      "a": "mRNA carries a sequence of codons copied from a gene. The ribosome binds the mRNA, holds the components in position and catalyzes peptide-bond formation. Each tRNA carries a particular amino acid and has an anticodon that pairs with a complementary mRNA codon, placing that amino acid in the sequence specified by the mRNA.",
+      "note": "The ribosome reads mRNA, not DNA. The tRNA delivers an amino acid; it doesn't carry a codon.",
+      "tags": [
+        "core",
+        "translation",
+        "rna"
+      ]
+    },
+    {
+      "id": "D1.2-05",
+      "q": "An mRNA codon is written 5′-AUG-3′. State the matching tRNA anticodon with its direction and explain the pairing.",
+      "a": "The anticodon is 3′-UAC-5′ when aligned with the codon 5′-AUG-3′. A pairs with U and G pairs with C through hydrogen bonding. The codon and anticodon bind antiparallel, so their 5′ and 3′ directions run oppositely.",
+      "note": "Writing UAC without directions hides whether you understand antiparallel pairing.",
+      "tags": [
+        "core",
+        "translation",
+        "codon-anticodon"
+      ]
+    },
+    {
+      "id": "D1.2-06",
+      "q": "Describe the triplet, degenerate and nearly universal features of the genetic code.",
+      "a": "The code is triplet because each codon contains three RNA bases. It is degenerate because most amino acids are specified by more than one codon. It is nearly universal because a particular codon specifies the same amino acid in almost all organisms, with a small number of exceptions.",
+      "note": "Degenerate doesn't mean ambiguous. Each codon specifies only one amino acid or a stop signal.",
+      "tags": [
+        "core",
+        "genetic-code"
+      ]
+    },
+    {
+      "id": "D1.2-07",
+      "q": "Describe how to use an mRNA codon table to deduce a polypeptide sequence accurately.",
+      "a": "Read the mRNA in the 5′ to 3′ direction, begin at the start codon AUG and divide the sequence into consecutive groups of three bases. Look up each mRNA codon in the table and record its amino acid in order. End translation when a stop codon enters the reading frame; the stop codon doesn't add an amino acid.",
+      "note": "Codon tables use mRNA codons. Convert a DNA sequence before using the table.",
+      "tags": [
+        "core",
+        "genetic-code",
+        "application"
+      ]
+    },
+    {
+      "id": "D1.2-08",
+      "q": "Explain the repeated steps that elongate a polypeptide during translation.",
+      "a": "A charged tRNA with an anticodon complementary to the next mRNA codon binds at the ribosome. The ribosome catalyzes a peptide bond, transferring the growing polypeptide to the amino acid on the newly arrived tRNA. The ribosome moves one codon toward the mRNA's 3′ end, the empty tRNA leaves, and another complementary tRNA can enter. Repetition lengthens the polypeptide.",
+      "tags": [
+        "core",
+        "translation",
+        "elongation"
+      ]
+    },
+    {
+      "id": "D1.2-09",
+      "q": "Correct this claim: “A point mutation always changes the protein made from a gene.”",
+      "a": "A point mutation changes one nucleotide pair, but it doesn't always change the protein. The altered codon may specify the same amino acid because the genetic code is degenerate, or the changed DNA may be outside the translated sequence. A mutation within a translated codon can instead change one amino acid or create a stop codon, which may alter protein folding and function.",
+      "note": "The effect depends on the new sequence and its location. A base change isn't automatically a protein change.",
+      "tags": [
+        "core",
+        "mutation",
+        "misconception"
+      ]
+    },
+    {
+      "id": "D1.2-10",
+      "q": "Explain how the sickle-cell point mutation changes haemoglobin structure and can change red blood cell shape.",
+      "a": "A point mutation in the coding sequence of the beta-globin gene changes an mRNA codon from GAG to GUG. Valine replaces glutamic acid in the beta-globin polypeptide. This substitution creates a hydrophobic region on haemoglobin, so deoxygenated haemoglobin molecules can associate into fibers. The fibers distort red blood cells into a sickle shape.",
+      "tags": [
+        "core",
+        "mutation",
+        "haemoglobin"
+      ]
+    },
+    {
+      "id": "D1.2-11",
+      "q": "State the direction of transcription and translation, including which way the DNA template is read.",
+      "a": "RNA polymerase reads the DNA template strand in the 3′ to 5′ direction and synthesizes RNA in the 5′ to 3′ direction by adding nucleotides to the RNA's 3′ end. During translation, the ribosome moves along the mRNA from its 5′ end toward its 3′ end.",
+      "tags": [
+        "hl",
+        "directionality",
+        "transcription",
+        "translation"
+      ]
+    },
+    {
+      "id": "D1.2-12",
+      "q": "Explain how transcription begins at a promoter and why the promoter isn't the same as a start codon.",
+      "a": "A promoter is a non-coding DNA sequence near the start of a gene. Transcription factors bind to the promoter and help position RNA polymerase, allowing the DNA to unwind and transcription to begin at the correct site. A promoter initiates transcription at the DNA level, whereas a start codon such as AUG is on mRNA and establishes where translation begins.",
+      "note": "Promoter and start codon control different stages and occur on different nucleic acids.",
+      "tags": [
+        "hl",
+        "promoter",
+        "transcription-initiation"
+      ]
+    },
+    {
+      "id": "D1.2-13",
+      "q": "Explain why describing all non-coding DNA as useless or untranscribed is wrong.",
+      "a": "Non-coding DNA doesn't specify a polypeptide, but it can still have a function. Examples include regulatory sequences that control gene expression, introns, telomeres and genes transcribed to produce functional rRNA or tRNA. Some non-coding sequences are transcribed even though their RNA isn't translated.",
+      "tags": [
+        "hl",
+        "non-coding-dna",
+        "gene-expression"
+      ]
+    },
+    {
+      "id": "D1.2-14",
+      "q": "Explain how eukaryotic pre-mRNA is modified to form mature mRNA.",
+      "a": "Introns are removed from the pre-mRNA, and the remaining exons are spliced together. A 5′ cap is added to the 5′ end, and a poly-A tail is added to the 3′ end. The cap and poly-A tail help stabilize the transcript, producing mature mRNA that can be used in translation.",
+      "note": "Introns are removed from RNA after transcription. They aren't cut out of the cell's DNA.",
+      "tags": [
+        "hl",
+        "rna-processing",
+        "splicing"
+      ]
+    },
+    {
+      "id": "D1.2-15",
+      "q": "Explain how alternative splicing lets one gene produce different polypeptides.",
+      "a": "The same pre-mRNA can be processed by retaining different combinations of exons in the mature mRNA. These mature mRNAs contain different codon sequences, so translation produces different polypeptides from the same gene. Alternative splicing therefore increases protein diversity without changing the gene's DNA sequence.",
+      "tags": [
+        "hl",
+        "alternative-splicing",
+        "protein-diversity"
+      ]
+    },
+    {
+      "id": "D1.2-16",
+      "q": "Outline translation initiation and the roles of the ribosome's A, P and E sites during elongation.",
+      "a": "The small ribosomal subunit attaches near the mRNA's 5′ end and moves to the AUG start codon. The initiator tRNA pairs with AUG, the large subunit attaches, and another charged tRNA binds. During elongation, incoming charged tRNA binds at the A site, the tRNA holding the growing chain occupies the P site, and an empty tRNA passes through the E site and leaves.",
+      "note": "A, P and E describe tRNA positions in the ribosome, not sections of the mRNA.",
+      "tags": [
+        "hl",
+        "translation-initiation",
+        "ribosome"
+      ]
+    },
+    {
+      "id": "D1.2-17",
+      "q": "Explain the two-stage processing of preproinsulin into functional insulin.",
+      "a": "Preproinsulin is first converted to proinsulin by removal of its signal peptide. Proinsulin folds and forms disulfide bonds between the regions that will become the A and B chains. The connecting C-peptide is then removed, leaving the A and B chains linked by disulfide bonds as functional insulin.",
+      "tags": [
+        "hl",
+        "protein-modification",
+        "insulin"
+      ]
+    },
+    {
+      "id": "D1.2-18",
+      "q": "Connect transcription, RNA processing, translation, protein modification and protein breakdown in one account of a cell's proteome.",
+      "a": "Transcription produces RNA from selected genes, and eukaryotic RNA processing can produce different mature mRNAs through splicing. Ribosomes translate those mRNAs into polypeptides, which may need folding, cleavage or other modifications before becoming functional proteins. Damaged, misfolded or unneeded proteins are broken down by proteasomes, enabling amino acids to be recycled. Changing protein production and breakdown changes the cell's proteome over time.",
+      "note": "This answer follows the whole pathway. A proteome is dynamic because proteins are continually produced, modified and removed.",
+      "tags": [
+        "hl",
+        "synthesis",
+        "proteome",
+        "proteasome"
+      ]
+    }
+  ]
+}

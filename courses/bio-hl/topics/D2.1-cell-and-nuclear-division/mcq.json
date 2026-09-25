@@ -1,0 +1,317 @@
+{
+  "topic": "D2.1",
+  "questions": [
+    {
+      "id": "D2.1-q01",
+      "stem": "Which process divides the cytoplasm of an animal cell?",
+      "options": [
+        {
+          "text": "An actin and myosin ring contracts, producing a cleavage furrow",
+          "correct": true,
+          "why": "The contractile ring pulls the plasma membrane inward until the cytoplasm is divided."
+        },
+        {
+          "text": "Vesicles fuse at the equator and grow outward to form a cell plate",
+          "correct": false,
+          "why": "That describes cytokinesis in a plant cell. Its rigid wall prevents the membrane from being pinched inward."
+        },
+        {
+          "text": "Spindle microtubules shorten and divide the cytoplasm between the nuclei",
+          "correct": false,
+          "why": "Spindle microtubules move chromosomes during nuclear division. They don't divide the animal cell's cytoplasm."
+        },
+        {
+          "text": "The nuclear envelope constricts around the equator and separates the whole cell",
+          "correct": false,
+          "why": "The nuclear envelope encloses a nucleus. Cytokinesis depends on a contractile ring beneath the plasma membrane."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q02",
+      "stem": "Why is cytokinesis unequal during human oogenesis?",
+      "options": [
+        {
+          "text": "One cell retains most of the cytoplasm and organelles needed for early development",
+          "correct": true,
+          "why": "The future ovum receives most of the resources, while much smaller polar bodies receive little cytoplasm."
+        },
+        {
+          "text": "Every meiotic product needs an equal chromosome number but a different number of genes",
+          "correct": false,
+          "why": "The cells receive haploid chromosome sets, and unequal cytokinesis doesn't give them different numbers of genes."
+        },
+        {
+          "text": "One nucleus remains diploid while the other nuclei become haploid polar bodies",
+          "correct": false,
+          "why": "Meiosis produces haploid nuclei. The inequality concerns the amount of cytoplasm, not retention of a diploid nucleus."
+        },
+        {
+          "text": "The spindle transfers every mitochondrion into the cell that becomes the ovum",
+          "correct": false,
+          "why": "Most cytoplasm and organelles enter the ovum, but the spindle separates chromosomes rather than transferring every mitochondrion."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q03",
+      "stem": "What has happened to a chromosome immediately after DNA replication?",
+      "options": [
+        {
+          "text": "It consists of two sister chromatids joined at the centromere",
+          "correct": true,
+          "why": "Each chromatid contains one replicated DNA molecule. They remain joined until their scheduled separation."
+        },
+        {
+          "text": "It has paired with its homologous chromosome to form a permanent bivalent",
+          "correct": false,
+          "why": "Homologues associate as bivalents during meiosis I, not as a direct result of DNA replication."
+        },
+        {
+          "text": "Its chromosome number has doubled because each DNA molecule is counted separately",
+          "correct": false,
+          "why": "Joined sister chromatids count as one chromosome. DNA content has doubled, but chromosome number hasn't."
+        },
+        {
+          "text": "Its sister chromatids have already separated and moved into different daughter nuclei",
+          "correct": false,
+          "why": "Chromatid separation occurs later, during anaphase of mitosis or anaphase II of meiosis."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q04",
+      "stem": "A micrograph shows two groups of sister chromatids moving toward opposite poles. Which phase is shown?",
+      "options": [
+        {
+          "text": "Prophase",
+          "correct": false,
+          "why": "In prophase, chromosomes condense but haven't separated into two groups."
+        },
+        {
+          "text": "Metaphase",
+          "correct": false,
+          "why": "In metaphase, duplicated chromosomes are aligned at the equator rather than moving apart."
+        },
+        {
+          "text": "Anaphase",
+          "correct": true,
+          "why": "Anaphase is identified by sister chromatids separating and moving toward opposite poles."
+        },
+        {
+          "text": "Telophase",
+          "correct": false,
+          "why": "In telophase, chromosomes have reached the poles and new nuclear envelopes are forming."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q05",
+      "stem": "Which event makes meiosis I a reduction division?",
+      "options": [
+        {
+          "text": "Homologous chromosomes separate into different nuclei",
+          "correct": true,
+          "why": "Separating each homologous pair gives each nucleus one chromosome from the pair, changing diploid nuclei into haploid nuclei."
+        },
+        {
+          "text": "Sister chromatids separate after their centromeres divide during the first meiotic division",
+          "correct": false,
+          "why": "Sister chromatids normally remain joined during meiosis I and separate in meiosis II."
+        },
+        {
+          "text": "DNA replication produces half as many chromatids as the parent nucleus originally contained",
+          "correct": false,
+          "why": "Replication increases DNA content. Reduction happens later through segregation of homologous chromosomes."
+        },
+        {
+          "text": "Cytokinesis removes one chromosome from every homologous pair in each new cell",
+          "correct": false,
+          "why": "Nuclear division segregates the chromosomes. Cytokinesis divides cytoplasm rather than selecting chromosomes."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q06",
+      "stem": "Which event directly produces recombinant chromatids during meiosis?",
+      "options": [
+        {
+          "text": "Exchange of corresponding DNA segments between non-sister chromatids",
+          "correct": true,
+          "why": "Crossing over between homologues combines maternal and paternal DNA within individual chromatids."
+        },
+        {
+          "text": "Independent orientation of every bivalent at the metaphase I equator",
+          "correct": false,
+          "why": "Random orientation changes combinations of whole maternal and paternal chromosomes. It doesn't exchange DNA between chromatids."
+        },
+        {
+          "text": "Random fusion of two genetically different haploid gametes during fertilization",
+          "correct": false,
+          "why": "Random fertilization adds variation to offspring, but it occurs after meiosis and doesn't create recombinant chromatids."
+        },
+        {
+          "text": "Separation of sister chromatids toward opposite poles during anaphase II",
+          "correct": false,
+          "why": "Anaphase II distributes chromatids that already exist. It doesn't exchange DNA between them."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q07",
+      "stem": "Which event can produce a zygote with trisomy 21?",
+      "options": [
+        {
+          "text": "Non-disjunction produces a gamete with two copies of chromosome 21",
+          "correct": true,
+          "why": "Fusion with a normal gamete adds one more copy, giving the zygote three copies of chromosome 21."
+        },
+        {
+          "text": "Crossing over exchanges equal chromosome 21 segments between homologous chromosomes",
+          "correct": false,
+          "why": "Normal crossing over exchanges DNA segments without adding a whole chromosome to the gamete."
+        },
+        {
+          "text": "DNA replication creates sister chromatids of chromosome 21 before normal segregation",
+          "correct": false,
+          "why": "Replication before meiosis is normal. Trisomy can result when the replicated chromosomes fail to segregate correctly."
+        },
+        {
+          "text": "Cytokinesis gives one gamete more cytoplasm than the other meiotic products",
+          "correct": false,
+          "why": "Unequal cytoplasm doesn't alter chromosome number. Trisomy follows an error in chromosome segregation."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q08",
+      "stem": "Which sequence gives the correct order of the eukaryotic cell cycle?",
+      "options": [
+        {
+          "text": "G1, S, G2, mitosis, cytokinesis",
+          "correct": true,
+          "why": "The cell grows in G1, replicates DNA in S, continues preparation in G2, divides its nucleus and then divides its cytoplasm."
+        },
+        {
+          "text": "S, G1, mitosis, G2, cytokinesis",
+          "correct": false,
+          "why": "DNA replication doesn't precede initial cell growth, and G2 occurs before mitosis rather than after it."
+        },
+        {
+          "text": "G1, G2, S, cytokinesis, mitosis",
+          "correct": false,
+          "why": "S phase belongs between G1 and G2, and nuclear division normally precedes completion of cytokinesis."
+        },
+        {
+          "text": "Mitosis, G1, cytokinesis, S, G2",
+          "correct": false,
+          "why": "This places cytoplasmic division after a new growth phase. Cytokinesis follows mitosis before the next cycle begins."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q09",
+      "stem": "Which observation best shows that interphase is metabolically active?",
+      "options": [
+        {
+          "text": "The cell synthesizes proteins, replicates DNA and increases its organelles",
+          "correct": true,
+          "why": "Interphase includes growth and biosynthesis, with DNA replication occurring specifically during S phase."
+        },
+        {
+          "text": "The chromosomes remain condensed while metabolism stops before nuclear division",
+          "correct": false,
+          "why": "Chromosomes are generally decondensed during interphase, and the cell remains metabolically active."
+        },
+        {
+          "text": "The cytoplasm divides repeatedly without any increase in cellular components",
+          "correct": false,
+          "why": "Cytokinesis isn't interphase. Cells must produce components before repeated divisions can continue."
+        },
+        {
+          "text": "The spindle moves homologous chromosomes while mitochondria remain unable to divide",
+          "correct": false,
+          "why": "Spindle movement occurs during nuclear division. Mitochondria can grow and divide during interphase."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q10",
+      "stem": "How do cyclins control progression through the cell cycle at the level required for D2.1?",
+      "options": [
+        {
+          "text": "Different cyclin concentrations rise and fall, and a threshold permits passage through each checkpoint",
+          "correct": true,
+          "why": "Changing cyclin levels make cell-cycle events occur in sequence. The required threshold must be reached before a checkpoint is passed."
+        },
+        {
+          "text": "One cyclin remains at a constant high concentration and drives every stage continuously",
+          "correct": false,
+          "why": "Different cyclin concentrations change during the cycle. Constant stimulation would fail to provide ordered checkpoint control."
+        },
+        {
+          "text": "Cyclins attach to spindle microtubules and pull each chromatid through a checkpoint",
+          "correct": false,
+          "why": "Spindle machinery moves chromosomes. Cyclins regulate progression through checkpoints rather than physically moving chromatids."
+        },
+        {
+          "text": "Cyclins replicate DNA and repair every mutation before the cell enters interphase",
+          "correct": false,
+          "why": "Cyclins are regulatory proteins. They don't copy DNA, and interphase occurs before mitosis rather than after checkpoint completion."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q11",
+      "stem": "Which change can promote uncontrolled cell division?",
+      "options": [
+        {
+          "text": "A proto-oncogene becomes an overactive oncogene",
+          "correct": true,
+          "why": "A proto-oncogene normally promotes division under control. Its oncogenic form can stimulate cell-cycle progression excessively."
+        },
+        {
+          "text": "A tumour suppressor gene becomes more effective at stopping damaged cells",
+          "correct": false,
+          "why": "Greater tumour suppressor activity would strengthen restraint. Loss-of-function mutations are the dangerous change."
+        },
+        {
+          "text": "Every checkpoint gains a higher cyclin threshold and becomes harder to pass",
+          "correct": false,
+          "why": "Harder checkpoint passage would tend to slow division. Cancer develops when controls that restrain proliferation are lost or bypassed."
+        },
+        {
+          "text": "An oncogene changes back into a normally regulated proto-oncogene in the cell",
+          "correct": false,
+          "why": "Returning to normal regulation would remove excessive stimulation rather than promote uncontrolled division."
+        }
+      ]
+    },
+    {
+      "id": "D2.1-q12",
+      "stem": "A tumour has a high mitotic index and its cells invade neighboring tissue. Which conclusion is best supported?",
+      "options": [
+        {
+          "text": "It is a rapidly dividing malignant tumour",
+          "correct": true,
+          "why": "The high mitotic index indicates frequent division, while invasion identifies malignant behavior."
+        },
+        {
+          "text": "It is benign because rapid division prevents cells from leaving the original tissue",
+          "correct": false,
+          "why": "Invasion rules out a benign classification. Benign tumours remain localized and don't invade neighboring tissue."
+        },
+        {
+          "text": "It has already formed a secondary tumour because its mitotic index is high",
+          "correct": false,
+          "why": "A high mitotic index measures division, not spread. A secondary tumour requires evidence that cells established growth elsewhere."
+        },
+        {
+          "text": "It must have arisen in another organ and returned to its primary location",
+          "correct": false,
+          "why": "Nothing here identifies where the tumour began. A primary tumour is the original growth, while secondary tumours form after metastasis."
+        }
+      ]
+    }
+  ]
+}

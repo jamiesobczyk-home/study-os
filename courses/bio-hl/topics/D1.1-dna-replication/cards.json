@@ -1,0 +1,167 @@
+{
+  "topic": "D1.1",
+  "title": "DNA replication",
+  "cards": [
+    {
+      "id": "D1.1-01",
+      "q": "Explain why organisms need DNA replication and state what an accurate copy preserves.",
+      "a": "DNA replication produces DNA molecules with base sequences identical to the original molecule. It is needed before cell division for growth and tissue replacement in multicellular organisms and for reproduction. Accurate copying preserves genetic information between cells and generations.",
+      "tags": [
+        "core",
+        "purpose"
+      ]
+    },
+    {
+      "id": "D1.1-02",
+      "q": "Explain why DNA replication is semi-conservative and how complementary base pairing supports accurate copying.",
+      "a": "The two parental DNA strands separate, and each acts as a template for a new strand. Adenine pairs with thymine, and cytosine pairs with guanine, so the template determines the sequence added to it. Each product molecule contains one parental strand and one newly synthesized strand, making replication semi-conservative.",
+      "note": "Semi-conservative refers to the origin of the two strands. It doesn't mean that each product receives only half of the genetic information.",
+      "tags": [
+        "core",
+        "semi-conservative",
+        "base-pairing"
+      ]
+    },
+    {
+      "id": "D1.1-03",
+      "q": "Distinguish the roles of helicase and DNA polymerase during DNA replication.",
+      "a": "Helicase unwinds the DNA double helix and breaks the hydrogen bonds between complementary bases, separating the two parental strands. DNA polymerase uses each parental strand as a template and adds complementary DNA nucleotides to a growing new strand.",
+      "note": "Helicase separates strands. DNA polymerase builds strands.",
+      "tags": [
+        "core",
+        "enzymes"
+      ]
+    },
+    {
+      "id": "D1.1-04",
+      "q": "Describe one complete PCR cycle in the correct order.",
+      "a": "During denaturation, heating separates the two DNA strands by disrupting hydrogen bonds. During annealing, cooling allows primers to bind to complementary sequences flanking the target region. During extension, Taq DNA polymerase adds DNA nucleotides from the primers, producing new complementary strands.",
+      "tags": [
+        "core",
+        "pcr"
+      ]
+    },
+    {
+      "id": "D1.1-05",
+      "q": "Explain how PCR selectively produces many copies of a chosen DNA region.",
+      "a": "Two primers have sequences complementary to sites on opposite strands at the boundaries of the target region. They provide starting points for Taq DNA polymerase, which remains functional after repeated heating. Repeating denaturation, annealing and extension increases the number of target DNA molecules approximately exponentially.",
+      "note": "Heating separates the strands. Taq DNA polymerase extends them; it doesn't unzip the DNA.",
+      "tags": [
+        "core",
+        "pcr",
+        "primers"
+      ]
+    },
+    {
+      "id": "D1.1-06",
+      "q": "Explain how gel electrophoresis separates DNA fragments.",
+      "a": "DNA fragments are placed in wells in a gel, and an electric field is applied. Because DNA is negatively charged, the fragments move toward the positive electrode. Smaller fragments pass through the gel matrix more easily and move farther than larger fragments in the same time, producing separated bands.",
+      "tags": [
+        "core",
+        "gel-electrophoresis"
+      ]
+    },
+    {
+      "id": "D1.1-07",
+      "q": "Explain how PCR and gel electrophoresis can be combined in DNA profiling.",
+      "a": "PCR amplifies selected variable DNA regions from samples that may contain little DNA. Gel electrophoresis separates the resulting fragments by length, producing band patterns that can be compared. Matching patterns at tested markers can support forensic identification or paternity analysis, although a match isn't proof by itself.",
+      "tags": [
+        "core",
+        "dna-profiling",
+        "applications"
+      ]
+    },
+    {
+      "id": "D1.1-08",
+      "q": "Explain why testing more independent genetic markers increases the reliability of a DNA profile match.",
+      "a": "Two unrelated people might share a result at one marker by chance. Matching at a larger number of independent, variable markers makes a coincidental match progressively less probable, so the evidence that the samples came from the same person or related people becomes stronger.",
+      "tags": [
+        "core",
+        "dna-profiling",
+        "reliability"
+      ]
+    },
+    {
+      "id": "D1.1-09",
+      "q": "Use 5′ and 3′ terminology to explain the direction in which DNA polymerases synthesize DNA.",
+      "a": "DNA polymerases add the 5′ phosphate of an incoming DNA nucleotide to the free 3′ end of the growing strand. The new strand therefore grows only in the 5′ to 3′ direction, while its template is read in the 3′ to 5′ direction.",
+      "note": "A polymerase moves along the template 3′ to 5′, but the strand it produces grows 5′ to 3′.",
+      "tags": [
+        "hl",
+        "directionality"
+      ]
+    },
+    {
+      "id": "D1.1-10",
+      "q": "Compare synthesis of the leading and lagging strands at a replication fork.",
+      "a": "Both new strands are synthesized 5′ to 3′ using complementary base pairing. The leading strand is synthesized continuously toward the advancing replication fork and needs one RNA primer. The lagging strand is synthesized discontinuously away from the advancing fork as Okazaki fragments and needs a new RNA primer for each fragment.",
+      "tags": [
+        "hl",
+        "leading-strand",
+        "lagging-strand"
+      ]
+    },
+    {
+      "id": "D1.1-11",
+      "q": "Correct this claim: 'The lagging strand is produced in the 3′ to 5′ direction.'",
+      "a": "Both the leading and lagging strands are produced in the 5′ to 3′ direction. The lagging strand appears to grow away from the replication fork because it is made discontinuously as separate Okazaki fragments, each synthesized 5′ to 3′.",
+      "note": "This is a common diagram-reading error. Discontinuous synthesis solves the direction problem without reversing DNA polymerase.",
+      "tags": [
+        "hl",
+        "directionality",
+        "misconception"
+      ]
+    },
+    {
+      "id": "D1.1-12",
+      "q": "State the role of DNA primase and explain why DNA polymerase III needs its product.",
+      "a": "DNA primase synthesizes a short RNA primer complementary to the DNA template. The primer provides a free 3′ end from which DNA polymerase III can add DNA nucleotides. One primer is needed on the leading strand, while each Okazaki fragment on the lagging strand needs its own primer.",
+      "tags": [
+        "hl",
+        "primase",
+        "primers"
+      ]
+    },
+    {
+      "id": "D1.1-13",
+      "q": "Describe the roles of DNA polymerase III during prokaryotic DNA replication.",
+      "a": "DNA polymerase III extends RNA primers by adding complementary DNA nucleotides to the 3′ end, so each new strand grows 5′ to 3′. It synthesizes the leading strand continuously and the lagging strand as Okazaki fragments. It also proofreads the newly added nucleotides.",
+      "tags": [
+        "hl",
+        "dna-polymerase-iii"
+      ]
+    },
+    {
+      "id": "D1.1-14",
+      "q": "Distinguish the roles of DNA polymerase I and DNA ligase in prokaryotic replication.",
+      "a": "DNA polymerase I removes the RNA primers and replaces them with DNA nucleotides. DNA ligase then seals the remaining nicks between adjacent DNA sections by forming phosphodiester bonds in the sugar–phosphate backbone, producing a continuous strand.",
+      "note": "Ligase doesn't replace primers or add a long sequence of complementary nucleotides.",
+      "tags": [
+        "hl",
+        "dna-polymerase-i",
+        "dna-ligase"
+      ]
+    },
+    {
+      "id": "D1.1-15",
+      "q": "Explain how DNA polymerase III proofreads a newly synthesized strand.",
+      "a": "If the nucleotide at the 3′ end of the growing strand is mismatched with the template, DNA polymerase III removes that nucleotide. It then inserts the correctly matched nucleotide and continues synthesis. This lowers the frequency of replication errors.",
+      "note": "Proofreading greatly increases accuracy, but it doesn't guarantee that every error is corrected.",
+      "tags": [
+        "hl",
+        "proofreading"
+      ]
+    },
+    {
+      "id": "D1.1-16",
+      "q": "Construct a complete account of prokaryotic replication at one fork, from strand separation to two continuous product strands.",
+      "a": "Helicase unwinds the DNA and separates the parental strands by breaking hydrogen bonds. Primase makes RNA primers, and DNA polymerase III extends them 5′ to 3′ while proofreading. The leading strand is synthesized continuously toward the fork, while the lagging strand is synthesized away from it as Okazaki fragments. DNA polymerase I removes each RNA primer and replaces it with DNA, and DNA ligase seals the remaining nicks. Each product DNA molecule contains one parental strand and one new strand.",
+      "note": "This answer has to connect directionality, strand differences and enzyme functions rather than list them separately.",
+      "tags": [
+        "hl",
+        "synthesis",
+        "enzymes"
+      ]
+    }
+  ]
+}

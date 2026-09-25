@@ -1,0 +1,317 @@
+{
+  "topic": "C4.2",
+  "questions": [
+    {
+      "id": "C4.2-q01",
+      "stem": "Which statement correctly distinguishes an open ecosystem from a closed system?",
+      "options": [
+        {
+          "text": "An open ecosystem exchanges energy and matter, while a closed system exchanges energy but not matter",
+          "correct": true,
+          "why": "The distinction concerns what crosses the boundary. Most ecosystems receive and release both energy and matter."
+        },
+        {
+          "text": "An open ecosystem exchanges matter but retains energy, while a closed system releases energy as heat",
+          "correct": false,
+          "why": "Open ecosystems exchange energy as well as matter. Light can enter and heat can leave."
+        },
+        {
+          "text": "An open ecosystem exchanges energy only, while a closed system exchanges matter only",
+          "correct": false,
+          "why": "Those categories are reversed and split in a way the definitions don’t support. Closed systems can exchange energy but not matter."
+        },
+        {
+          "text": "An open ecosystem has unlimited inputs, while a closed system has no inputs of any kind",
+          "correct": false,
+          "why": "Open doesn’t mean unlimited. A closed system can still receive or release energy."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q02",
+      "stem": "Which process can provide the external energy source for an ecosystem below the level of light penetration?",
+      "options": [
+        {
+          "text": "Oxidation of inorganic substances by chemoautotrophs",
+          "correct": true,
+          "why": "Chemoautotrophs capture energy released by oxidation reactions. That allows carbon fixation without sunlight."
+        },
+        {
+          "text": "Absorption of heat by heterotrophs from deep water",
+          "correct": false,
+          "why": "Heterotrophs obtain carbon compounds from other organisms. Environmental heat isn’t their energy source for building biomass."
+        },
+        {
+          "text": "Digestion of dead organisms by photoautotrophs",
+          "correct": false,
+          "why": "Photoautotrophs use light and inorganic carbon. Digestion of dead material describes heterotrophic feeding."
+        },
+        {
+          "text": "Conversion of carbon dioxide into light by decomposers",
+          "correct": false,
+          "why": "Decomposers obtain carbon and energy from organic matter. They don’t convert carbon dioxide into light."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q03",
+      "stem": "In the food chain grass → vole → owl, what does the arrow from the vole to the owl represent?",
+      "options": [
+        {
+          "text": "Transfer of energy and biomass from the vole to the owl",
+          "correct": true,
+          "why": "Food-chain arrows point from food to consumer. Energy and organic matter pass to the owl when it eats the vole."
+        },
+        {
+          "text": "Movement of the owl toward the vole during hunting",
+          "correct": false,
+          "why": "Arrows don’t show physical movement. They show the direction of energy and biomass transfer."
+        },
+        {
+          "text": "Transfer of respiratory heat from the owl to the vole",
+          "correct": false,
+          "why": "Respiratory heat passes to the environment. It isn’t transferred backwards to the prey."
+        },
+        {
+          "text": "Cycling of energy from the owl back into the vole population",
+          "correct": false,
+          "why": "Energy doesn’t cycle back to earlier trophic levels. It flows through the chain and becomes dispersed as heat."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q04",
+      "stem": "Which feeding process identifies an organism as a decomposer rather than a detritivore?",
+      "options": [
+        {
+          "text": "Secreting enzymes onto dead organic matter and absorbing soluble products",
+          "correct": true,
+          "why": "Decomposers digest organic matter externally and then absorb the products. Many fungi and bacteria feed this way."
+        },
+        {
+          "text": "Ingesting fragments of dead organic matter and digesting them internally",
+          "correct": false,
+          "why": "That describes a detritivore. Its digestion occurs after the dead material has been ingested."
+        },
+        {
+          "text": "Capturing living prey and digesting the tissues inside a gut",
+          "correct": false,
+          "why": "That describes predatory heterotrophic feeding. The food is living prey rather than dead organic matter."
+        },
+        {
+          "text": "Using light energy to synthesize carbon compounds from carbon dioxide",
+          "correct": false,
+          "why": "That describes photoautotrophy. Decomposers obtain organic carbon from dead material."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q05",
+      "stem": "Why do autotrophs carry out cell respiration?",
+      "options": [
+        {
+          "text": "To transfer energy from carbon compounds to ATP for cellular work",
+          "correct": true,
+          "why": "Autotrophs need ATP for their cellular processes. They can respire carbon compounds that they synthesized themselves."
+        },
+        {
+          "text": "To obtain all of their carbon compounds by consuming heterotrophs",
+          "correct": false,
+          "why": "Obtaining organic compounds from other organisms defines heterotrophy. Autotrophs build carbon compounds from inorganic substances."
+        },
+        {
+          "text": "To convert heat from the environment directly into chemical energy",
+          "correct": false,
+          "why": "Cells don’t use environmental heat as a direct energy source for ATP production. Respiration oxidizes carbon compounds."
+        },
+        {
+          "text": "To replace photosynthesis whenever sufficient light energy is available",
+          "correct": false,
+          "why": "Respiration and photosynthesis have different roles and can occur during the same period. Respiration doesn’t replace photosynthesis."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q06",
+      "stem": "Primary consumers receive 360 kJ m−2 yr−1 from producers containing 4,500 kJ m−2 yr−1. What is the transfer efficiency?",
+      "options": [
+        {
+          "text": "8%",
+          "correct": true,
+          "why": "The calculation is 360 divided by 4,500, multiplied by 100. That gives 8%."
+        },
+        {
+          "text": "12.5%",
+          "correct": false,
+          "why": "This comes from dividing the larger value by the smaller one without using the transfer-efficiency formula. The received energy must be the numerator."
+        },
+        {
+          "text": "80%",
+          "correct": false,
+          "why": "A decimal-place error produces this value. The fraction transferred is 0.08, which becomes 8%."
+        },
+        {
+          "text": "4,140%",
+          "correct": false,
+          "why": "Subtracting the values finds an energy difference, not a percentage efficiency. A ratio between adjacent levels is required."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q07",
+      "stem": "Which event makes chemical energy unavailable to the next consumer trophic level while transferring it to the environment as heat?",
+      "options": [
+        {
+          "text": "Oxidation of carbon compounds during cell respiration",
+          "correct": true,
+          "why": "Respiration transfers some chemical energy to ATP, and energy becomes dispersed as heat when ATP is produced and used."
+        },
+        {
+          "text": "Storage of carbon compounds in newly formed consumer biomass",
+          "correct": false,
+          "why": "Energy retained in new biomass can remain available to a consumer at the next trophic level."
+        },
+        {
+          "text": "Movement of a consumer from one habitat into another",
+          "correct": false,
+          "why": "Movement can transport biomass between places, but it doesn’t by itself explain conversion of chemical energy to heat."
+        },
+        {
+          "text": "Assimilation of digested molecules into new body tissues",
+          "correct": false,
+          "why": "Assimilation stores matter and chemical energy in biomass. That biomass may later be eaten."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q08",
+      "stem": "Which label and unit are appropriate for a pyramid of energy?",
+      "options": [
+        {
+          "text": "Energy transferred per trophic level, measured in kJ m−2 yr−1",
+          "correct": true,
+          "why": "An energy pyramid represents energy per unit area per unit time. Its bars therefore always narrow toward the top."
+        },
+        {
+          "text": "Standing biomass at each trophic level, measured in grams at one time",
+          "correct": false,
+          "why": "That would describe a biomass measurement. It lacks the energy unit and time component needed for an energy pyramid."
+        },
+        {
+          "text": "Population size at each trophic level, measured as organisms per year",
+          "correct": false,
+          "why": "Population size belongs in a pyramid of numbers. Counting organisms doesn’t measure their energy transfer."
+        },
+        {
+          "text": "Energy density of individual organisms, measured in kJ g−1 yr−1",
+          "correct": false,
+          "why": "An energy pyramid shows total transfer across an area, not the energy content of each gram of an organism."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q09",
+      "stem": "Which statement correctly describes secondary production?",
+      "options": [
+        {
+          "text": "It is the accumulation of carbon compounds in heterotroph biomass",
+          "correct": true,
+          "why": "Secondary production includes biomass accumulated by heterotrophs at any consumer level."
+        },
+        {
+          "text": "It is the biomass accumulated only by organisms classified as secondary consumers",
+          "correct": false,
+          "why": "The word “secondary” doesn’t name a trophic level here. Primary, secondary and tertiary consumers can all contribute."
+        },
+        {
+          "text": "It is the total carbon dioxide released by heterotrophs during cell respiration",
+          "correct": false,
+          "why": "Respired carbon has left biomass. Production counts carbon compounds accumulated in new biomass."
+        },
+        {
+          "text": "It is the carbon fixed from inorganic substances by photoautotrophs and chemoautotrophs",
+          "correct": false,
+          "why": "Accumulation by autotrophs is primary production. Secondary production belongs to heterotrophs."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q10",
+      "stem": "During one year, photosynthesis in a forest removes more carbon dioxide than respiration and combustion release. How should the forest be classified for that year?",
+      "options": [
+        {
+          "text": "A carbon sink, because it has net carbon uptake",
+          "correct": true,
+          "why": "Uptake exceeds release during the measured period, so carbon accumulates in the system."
+        },
+        {
+          "text": "A carbon source, because every organism in the forest respires",
+          "correct": false,
+          "why": "Respiration releases carbon dioxide, but classification depends on the net balance. Here photosynthetic uptake is greater."
+        },
+        {
+          "text": "A closed system, because its carbon remains inside its boundary",
+          "correct": false,
+          "why": "Carbon dioxide crosses the forest boundary, so the forest remains open. Net uptake doesn’t make a system closed."
+        },
+        {
+          "text": "A chemoautotrophic system, because carbon compounds accumulate in biomass",
+          "correct": false,
+          "why": "Chemoautotrophy describes an organism’s energy source. It doesn’t describe the net carbon balance of a forest."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q11",
+      "stem": "What best explains the annual oscillation in the Keeling Curve?",
+      "options": [
+        {
+          "text": "Seasonal changes in the balance between photosynthesis and respiration, especially in the Northern Hemisphere",
+          "correct": true,
+          "why": "Carbon dioxide generally falls during the Northern Hemisphere growing season and rises when photosynthesis declines relative to respiration and decomposition."
+        },
+        {
+          "text": "A yearly reversal in which combustion removes carbon dioxide during summer and releases it during winter",
+          "correct": false,
+          "why": "Combustion releases carbon dioxide in every season. It doesn’t reverse direction during summer."
+        },
+        {
+          "text": "Seasonal conversion of atmospheric carbon dioxide into oxygen by animal cell respiration",
+          "correct": false,
+          "why": "Animal respiration consumes oxygen and releases carbon dioxide. Photosynthesis is the process that removes carbon dioxide."
+        },
+        {
+          "text": "A yearly change in the amount of carbon stored permanently in coal and oil deposits",
+          "correct": false,
+          "why": "Fossil-fuel stores don’t expand and contract enough each year to cause the oscillation. Seasonal biological activity does."
+        }
+      ]
+    },
+    {
+      "id": "C4.2-q12",
+      "stem": "Which statement correctly compares the movement of energy and chemical elements through an ecosystem?",
+      "options": [
+        {
+          "text": "Energy flows through and becomes dispersed as heat, while chemical elements are recycled",
+          "correct": true,
+          "why": "Energy requires a continuing external supply, usually sunlight. Atoms can return to the environment and be used again."
+        },
+        {
+          "text": "Energy and chemical elements both cycle back to producers after each feeding transfer",
+          "correct": false,
+          "why": "Elements can cycle back to producers, but energy can’t. Much of it becomes dispersed as heat."
+        },
+        {
+          "text": "Energy is recycled by decomposers, while chemical elements leave permanently in respiratory heat",
+          "correct": false,
+          "why": "Heat is an energy transfer, not a chemical element. Decomposers recycle elements but don’t recycle energy."
+        },
+        {
+          "text": "Energy remains stored in ecosystems, while only carbon must be continually replaced",
+          "correct": false,
+          "why": "Ecosystems need continuing energy input. Carbon and other required chemical elements are recycled."
+        }
+      ]
+    }
+  ]
+}

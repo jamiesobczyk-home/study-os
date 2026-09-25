@@ -1,0 +1,126 @@
+{
+  "topic": "D2.1",
+  "title": "Cell and nuclear division",
+  "cards": [
+    {
+      "id": "D2.1-01",
+      "q": "Compare cytokinesis in an animal cell with cytokinesis in a plant cell.",
+      "a": "In an animal cell, a contractile ring of actin and myosin constricts the cell membrane, producing a cleavage furrow that pinches the cytoplasm into two cells. In a plant cell, vesicles fuse at the center to form a cell plate. The plate grows outward and contributes new plasma membranes and cell wall material between the daughter cells.",
+      "note": "A plant cell can’t be pinched in by a cleavage furrow because its existing cell wall is rigid.",
+      "tags": ["core", "cytokinesis"]
+    },
+    {
+      "id": "D2.1-02",
+      "q": "Explain equal and unequal cytokinesis, using human oogenesis and yeast budding as examples.",
+      "a": "Cytokinesis commonly divides the cytoplasm approximately equally, but it can be unequal. In human oogenesis, one cell retains most of the cytoplasm and organelles while much smaller polar bodies form. In yeast budding, a smaller daughter cell grows as a bud from the parent. Each viable daughter cell must receive mitochondria and any other organelles that can arise only by division of pre-existing organelles.",
+      "tags": ["core", "cytokinesis", "oogenesis"]
+    },
+    {
+      "id": "D2.1-03",
+      "q": "Compare the biological roles and outcomes of mitosis and meiosis.",
+      "a": "Mitosis maintains chromosome number and the genome, usually producing two genetically identical nuclei for growth, cell replacement, tissue repair or asexual reproduction. Meiosis halves chromosome number and produces four genetically varied haploid nuclei for sexual reproduction. Nuclear division before cytokinesis prevents daughter cells from being produced without nuclei.",
+      "note": "Mitosis and meiosis are nuclear divisions. Cytokinesis divides the cell.",
+      "tags": ["core", "mitosis", "meiosis", "comparison"]
+    },
+    {
+      "id": "D2.1-04",
+      "q": "Explain why DNA replication must occur before mitosis or meiosis, and describe a chromosome immediately after replication.",
+      "a": "DNA must replicate so that chromosome copies are available for segregation into new nuclei. Immediately after replication, each chromosome consists of two DNA molecules called sister chromatids. The sister chromatids remain joined at the centromere until they separate during anaphase of mitosis or anaphase II of meiosis.",
+      "note": "Replication doubles the amount of DNA, but it doesn’t double the chromosome number while sister chromatids remain joined.",
+      "tags": ["core", "dna-replication", "chromosomes"]
+    },
+    {
+      "id": "D2.1-05",
+      "q": "Explain how chromosomes become compact and move during mitosis and meiosis.",
+      "a": "DNA is associated with histone proteins and becomes increasingly supercoiled and condensed, producing compact chromosomes that can be moved without extensive tangling. Spindle microtubules attach to chromosomes, and microtubule motors together with changes in microtubule length move the chromosomes during nuclear division.",
+      "tags": ["core", "chromosomes", "spindle"]
+    },
+    {
+      "id": "D2.1-06",
+      "q": "Describe chromosome behavior during prophase, metaphase, anaphase and telophase of mitosis.",
+      "a": "In prophase, chromosomes condense, the spindle develops and the nuclear envelope breaks down. In metaphase, duplicated chromosomes align at the cell equator with spindle microtubules attached. In anaphase, sister chromatids separate and move to opposite poles. In telophase, chromosomes reach the poles, decondense and become enclosed by new nuclear envelopes.",
+      "tags": ["core", "mitosis", "phases"]
+    },
+    {
+      "id": "D2.1-07",
+      "q": "How can you identify each phase of mitosis in a micrograph without relying on the cell’s shape?",
+      "a": "A prophase cell has condensed chromosomes that aren’t aligned at the equator. A metaphase cell has chromosomes aligned across the equator. An anaphase cell has two separating groups of chromatids moving toward opposite poles. A telophase cell has chromosome groups at the poles, often with two reforming nuclei and signs of cytokinesis.",
+      "note": "Identify the phase from chromosome position and behavior. Cell outline alone is unreliable.",
+      "tags": ["core", "mitosis", "identification"]
+    },
+    {
+      "id": "D2.1-08",
+      "q": "Explain why meiosis is called a reduction division, including both rounds of segregation.",
+      "a": "One diploid nucleus undergoes one round of DNA replication followed by two nuclear divisions. In meiosis I, homologous chromosomes pair as bivalents and then segregate into different nuclei, reducing the chromosome number from diploid to haploid. In meiosis II, sister chromatids segregate. The process produces four haploid nuclei.",
+      "note": "Chromosome number is reduced in meiosis I because homologous chromosomes separate. Meiosis II separates chromatids.",
+      "tags": ["core", "meiosis", "reduction-division"]
+    },
+    {
+      "id": "D2.1-09",
+      "q": "Explain how crossing over and random orientation of bivalents generate variation during meiosis.",
+      "a": "During prophase I, non-sister chromatids of homologous chromosomes exchange corresponding DNA segments by crossing over, producing recombinant chromatids. During metaphase I, each bivalent’s orientation is random and independent of the others. The maternal or paternal homologue that enters a daughter nucleus therefore varies, producing many chromosome combinations in gametes.",
+      "tags": ["core", "meiosis", "variation"]
+    },
+    {
+      "id": "D2.1-10",
+      "q": "Explain how meiotic non-disjunction can lead to Down syndrome.",
+      "a": "Non-disjunction occurs when homologous chromosomes fail to separate in anaphase I or sister chromatids fail to separate in anaphase II. This can produce a gamete with two copies of chromosome 21. If it fuses with a normal gamete containing one copy, the zygote has three copies of chromosome 21. This trisomy 21 causes Down syndrome.",
+      "note": "The error is failed chromosome separation, not crossing over.",
+      "tags": ["core", "meiosis", "non-disjunction"]
+    },
+    {
+      "id": "D2.1-11",
+      "q": "Explain why organisms need cell proliferation and give named examples.",
+      "a": "Cell proliferation increases cell number. It allows growth in plant meristems and early animal embryos, replaces routinely lost cells such as skin cells, and repairs damaged tissue by producing cells during wound healing.",
+      "tags": ["hl", "cell-proliferation"]
+    },
+    {
+      "id": "D2.1-12",
+      "q": "State the sequence of the cell cycle and explain what happens in each part.",
+      "a": "Interphase consists of G1, S and G2. During G1 the cell grows and carries out biosynthesis. During S phase DNA replicates. During G2 the cell continues growing and prepares for division. Mitosis then divides the nucleus, and cytokinesis divides the cytoplasm to form daughter cells.",
+      "note": "Interphase isn’t a resting stage, and it isn’t part of mitosis.",
+      "tags": ["hl", "cell-cycle", "interphase"]
+    },
+    {
+      "id": "D2.1-13",
+      "q": "Explain why interphase is described as metabolically active.",
+      "a": "During interphase, the cell carries out active metabolism and biosynthesizes cell components. It produces proteins, replicates DNA during S phase and increases its cytoplasm. Mitochondria and, in photosynthetic cells, chloroplasts grow and divide so that enough organelles can be distributed to the daughter cells.",
+      "tags": ["hl", "interphase", "growth"]
+    },
+    {
+      "id": "D2.1-14",
+      "q": "Explain how cyclin concentrations control progression through the cell cycle.",
+      "a": "The concentrations of different cyclins rise and fall at particular stages of the cell cycle. A cell passes a checkpoint when the concentration of the required cyclin reaches its threshold level. Cyclin concentrations later fall, helping ensure that cell-cycle events occur in the correct sequence.",
+      "note": "For D2.1, you don’t need to memorize the roles of individually named cyclins.",
+      "tags": ["hl", "cyclins", "checkpoints"]
+    },
+    {
+      "id": "D2.1-15",
+      "q": "Explain how mutations in proto-oncogenes and tumour suppressor genes can cause uncontrolled cell division.",
+      "a": "Proto-oncogenes normally produce proteins that promote growth or cell-cycle progression when appropriate. A mutation or increased expression can convert a proto-oncogene into an oncogene that overstimulates division. Tumour suppressor genes normally restrain the cell cycle or promote responses such as apoptosis. Loss-of-function mutations in these genes remove those restraints, allowing uncontrolled cell proliferation.",
+      "note": "A proto-oncogene has a normal function. It becomes an oncogene after a change that makes its activity excessive.",
+      "tags": ["hl", "cancer", "genes"]
+    },
+    {
+      "id": "D2.1-16",
+      "q": "Distinguish benign, malignant, primary and secondary tumours.",
+      "a": "A benign tumour remains localized and doesn’t invade neighboring tissue or metastasize. A malignant tumour invades surrounding tissue and can spread, so it causes cancer. The primary tumour is the original tumour. Metastasis occurs when malignant cells spread to another location and establish a secondary tumour.",
+      "note": "Fast growth alone doesn’t define malignancy. Invasion and the capacity to metastasize are decisive differences.",
+      "tags": ["hl", "tumours", "metastasis"]
+    },
+    {
+      "id": "D2.1-17",
+      "q": "A tissue sample contains 240 cells, of which 36 are in mitosis. Calculate its mitotic index and explain what the result can indicate.",
+      "a": "The mitotic index is the number of cells in mitosis divided by the total number of observed cells. For this sample, it is 36 divided by 240, which equals 0.15 or 15%. A higher mitotic index than in comparable normal tissue indicates a greater rate of cell division and may support evidence that a tumour is growing rapidly.",
+      "note": "A high mitotic index can support a diagnosis or comparison, but it doesn’t by itself show whether cells can invade or metastasize.",
+      "tags": ["hl", "mitotic-index", "calculation"]
+    },
+    {
+      "id": "D2.1-18",
+      "q": "Build a causal explanation from DNA replication to either normal daughter cells or tumour formation.",
+      "a": "During S phase, DNA replication produces sister chromatids. Cyclin thresholds regulate progression through checkpoints, and mitosis segregates the chromatids into genetically equivalent nuclei before cytokinesis forms daughter cells. This controlled cycle supports growth, replacement and repair. Mutations that activate oncogenes or disable tumour suppressor genes can remove cell-cycle control, causing uncontrolled proliferation and tumour formation.",
+      "note": "This answer connects chromosome copying, cell-cycle control, division and disease instead of treating them as separate lists.",
+      "tags": ["hl", "synthesis", "cell-cycle", "cancer"]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "topic": "D1.3",
+  "questions": [
+    {
+      "id": "D1.3-q01",
+      "stem": "Which change is a substitution mutation?",
+      "options": [
+        {
+          "text": "One nucleotide is replaced by another nucleotide",
+          "correct": true,
+          "why": "A substitution exchanges one nucleotide for another without changing the number of nucleotides."
+        },
+        {
+          "text": "One nucleotide is added between two existing nucleotides",
+          "correct": false,
+          "why": "That describes an insertion. The DNA sequence gains a nucleotide."
+        },
+        {
+          "text": "One nucleotide is removed from the DNA sequence",
+          "correct": false,
+          "why": "That describes a deletion. The DNA sequence loses a nucleotide."
+        },
+        {
+          "text": "One chromosome fails to separate during cell division",
+          "correct": false,
+          "why": "That describes nondisjunction, a chromosome-separation error rather than a base substitution."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q02",
+      "stem": "Why can a base substitution in a coding sequence leave the polypeptide unchanged?",
+      "options": [
+        {
+          "text": "Several codons can specify the same amino acid",
+          "correct": true,
+          "why": "The genetic code is degenerate, so the changed codon may still specify the original amino acid."
+        },
+        {
+          "text": "Ribosomes replace any altered nucleotide during translation",
+          "correct": false,
+          "why": "Ribosomes read mRNA codons; they don’t repair altered DNA or replace nucleotides."
+        },
+        {
+          "text": "Every amino acid is specified by one unique codon",
+          "correct": false,
+          "why": "That contradicts degeneracy. Most amino acids are specified by more than one codon."
+        },
+        {
+          "text": "Substitutions always occur outside protein-coding sequences",
+          "correct": false,
+          "why": "Substitutions can occur within coding or non-coding DNA. Their location affects their possible consequences."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q03",
+      "stem": "Three consecutive nucleotides are deleted from the middle of a coding sequence. What is the most direct consequence?",
+      "options": [
+        {
+          "text": "One amino acid is removed without shifting the downstream reading frame",
+          "correct": true,
+          "why": "Three nucleotides make one codon, so their deletion stays in frame while removing an amino acid."
+        },
+        {
+          "text": "Every downstream codon is regrouped because the reading frame shifts",
+          "correct": false,
+          "why": "A deletion of three bases is divisible by three, so it doesn’t shift the downstream reading frame."
+        },
+        {
+          "text": "One nucleotide is exchanged and may produce a synonymous mutation",
+          "correct": false,
+          "why": "That describes a substitution. This sequence has lost three nucleotides."
+        },
+        {
+          "text": "Translation always stops at the exact position of the deletion",
+          "correct": false,
+          "why": "An in-frame deletion doesn’t automatically create a stop codon. Translation can continue with an altered polypeptide."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q04",
+      "stem": "Why can a one-base deletion near the start of a coding sequence have a large effect?",
+      "options": [
+        {
+          "text": "It changes the grouping of many downstream codons",
+          "correct": true,
+          "why": "The one-base deletion causes a frameshift, so codons downstream are read in a different grouping."
+        },
+        {
+          "text": "It replaces every base in the gene with another base",
+          "correct": false,
+          "why": "The bases remain present apart from the deleted one. Their grouping into codons changes."
+        },
+        {
+          "text": "It prevents the DNA molecule from being replicated anywhere",
+          "correct": false,
+          "why": "A small deletion doesn’t automatically stop replication of the whole DNA molecule."
+        },
+        {
+          "text": "It removes one chromosome from every cell in the organism",
+          "correct": false,
+          "why": "That describes a chromosome-number change, not a one-base deletion within a gene."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q05",
+      "stem": "Which statement correctly describes a mutagen?",
+      "options": [
+        {
+          "text": "It increases the rate at which mutations occur",
+          "correct": true,
+          "why": "A mutagen raises mutation probability. Ultraviolet radiation and some chemicals are examples."
+        },
+        {
+          "text": "It directs a beneficial mutation to a required gene",
+          "correct": false,
+          "why": "Mutagens don’t choose changes according to an organism’s needs. They increase the chance of mutation."
+        },
+        {
+          "text": "It repairs errors produced during DNA replication",
+          "correct": false,
+          "why": "DNA-repair systems correct some errors. A mutagen increases DNA change or damage instead."
+        },
+        {
+          "text": "It guarantees that every exposed cell becomes cancerous",
+          "correct": false,
+          "why": "Mutagen exposure raises mutation risk but doesn’t guarantee cancer in every exposed cell."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q06",
+      "stem": "What does the randomness of mutation mean?",
+      "options": [
+        {
+          "text": "Mutations don’t arise purposefully in response to an organism’s needs",
+          "correct": true,
+          "why": "Mutation isn’t directed toward producing an advantageous trait. Selection acts on variants after they arise."
+        },
+        {
+          "text": "Every nucleotide in every genome has an identical mutation probability",
+          "correct": false,
+          "why": "Mutation probabilities can differ among bases and regions. Randomness doesn’t require equal probabilities."
+        },
+        {
+          "text": "Environmental mutagens cannot affect the mutation rate",
+          "correct": false,
+          "why": "Radiation and chemical mutagens can increase mutation rates without directing a particular useful change."
+        },
+        {
+          "text": "Every mutation produces an unpredictable amino acid sequence",
+          "correct": false,
+          "why": "Some mutations occur outside coding regions, and synonymous substitutions don’t change the amino acid sequence."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q07",
+      "stem": "A mutation occurs in a skin cell and promotes uncontrolled cell division. Which outcome is most likely?",
+      "options": [
+        {
+          "text": "A clone of mutant somatic cells may contribute to cancer",
+          "correct": true,
+          "why": "The mutation can pass to descendant skin cells by mitosis and promote growth of a mutant cell clone."
+        },
+        {
+          "text": "Every offspring will inherit the mutation through the gametes",
+          "correct": false,
+          "why": "A skin cell is somatic and doesn’t produce gametes, so its mutation normally isn’t inherited."
+        },
+        {
+          "text": "The mutation will immediately enter every cell in the body",
+          "correct": false,
+          "why": "A somatic mutation remains in that cell lineage. It doesn’t spread into all other body cells."
+        },
+        {
+          "text": "Natural selection will remove the mutation before the cell divides",
+          "correct": false,
+          "why": "There’s no guarantee that the cell will be removed. Mutant cells can survive and produce a clone."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q08",
+      "stem": "Why is mutation the original source of genetic variation?",
+      "options": [
+        {
+          "text": "It creates new DNA sequences and therefore new alleles",
+          "correct": true,
+          "why": "Mutation produces new sequence variants. Other processes can then rearrange or alter the frequencies of those variants."
+        },
+        {
+          "text": "It sorts existing alleles into different gamete combinations",
+          "correct": false,
+          "why": "That describes independent assortment and recombination during sexual reproduction, which rearrange existing alleles."
+        },
+        {
+          "text": "It increases beneficial allele frequencies in every environment",
+          "correct": false,
+          "why": "Natural selection can change allele frequencies. Mutation creates alleles without guaranteeing that they’re beneficial."
+        },
+        {
+          "text": "It causes each organism to acquire traits during its lifetime",
+          "correct": false,
+          "why": "Acquired traits aren’t the source of inherited sequence variation. Heritable mutation must affect the germline."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q09",
+      "stem": "What conclusion can be drawn when a gene-knockout organism differs from an otherwise similar control?",
+      "options": [
+        {
+          "text": "The inactivated gene probably contributes to the altered process",
+          "correct": true,
+          "why": "The controlled difference provides evidence that the gene has a role in the affected phenotype or process."
+        },
+        {
+          "text": "The inactivated gene is the only gene involved in the process",
+          "correct": false,
+          "why": "Other genes and indirect effects may contribute. A knockout doesn’t show that one gene acts alone."
+        },
+        {
+          "text": "Every nucleotide in the inactivated gene has been deleted",
+          "correct": false,
+          "why": "A knockout only requires the gene to become inoperative. The entire sequence doesn’t have to be removed."
+        },
+        {
+          "text": "The altered phenotype must be beneficial in natural environments",
+          "correct": false,
+          "why": "A knockout identifies a functional effect, not whether that effect improves reproductive success."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q10",
+      "stem": "Which pairing correctly identifies the roles of guide RNA and Cas9?",
+      "options": [
+        {
+          "text": "Guide RNA binds complementary target DNA; Cas9 cuts the DNA",
+          "correct": true,
+          "why": "Complementary base pairing directs the complex to the target, and Cas9 acts as the nuclease."
+        },
+        {
+          "text": "Guide RNA cuts the DNA; Cas9 supplies a replacement chromosome",
+          "correct": false,
+          "why": "Guide RNA isn’t a nuclease, and Cas9 doesn’t provide a chromosome. Cas9 performs the cut."
+        },
+        {
+          "text": "Guide RNA repairs the DNA; Cas9 translates the edited gene",
+          "correct": false,
+          "why": "Cellular enzymes repair the cut, while ribosomes perform translation. Neither role is described here accurately."
+        },
+        {
+          "text": "Guide RNA copies the gene; Cas9 carries amino acids to ribosomes",
+          "correct": false,
+          "why": "DNA replication enzymes copy DNA, and tRNAs carry amino acids. CRISPR-Cas9 targets and cuts DNA."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q11",
+      "stem": "Why does editing an embryo or germline raise a concern that somatic editing usually doesn’t?",
+      "options": [
+        {
+          "text": "The edit could be inherited by future generations",
+          "correct": true,
+          "why": "A germline edit can enter gametes and descendants, affecting people who couldn’t consent to the original procedure."
+        },
+        {
+          "text": "The edit cannot change any DNA sequence in the treated cells",
+          "correct": false,
+          "why": "Both germline and somatic editing can change DNA. The difference here is potential inheritance."
+        },
+        {
+          "text": "The edit always causes cancer in the treated organism",
+          "correct": false,
+          "why": "Gene editing can have risks, but cancer isn’t an unavoidable outcome of every edit."
+        },
+        {
+          "text": "The edit affects proteins but leaves all genes unchanged",
+          "correct": false,
+          "why": "Gene editing alters DNA, which may then change gene expression or the protein produced."
+        }
+      ]
+    },
+    {
+      "id": "D1.3-q12",
+      "stem": "Which observation best supports functional constraint as an explanation for a highly conserved sequence?",
+      "options": [
+        {
+          "text": "Sequence changes reduce function and are removed by selection",
+          "correct": true,
+          "why": "If variants reduce fitness, purifying selection removes them and preserves the functional sequence over time."
+        },
+        {
+          "text": "The sequence accumulates neutral substitutions faster than surrounding DNA",
+          "correct": false,
+          "why": "Rapid accumulation would produce divergence rather than strong conservation."
+        },
+        {
+          "text": "The sequence is copied without any possibility of mutation",
+          "correct": false,
+          "why": "Conserved sequences can mutate. Their variants may arise slowly or be removed by selection."
+        },
+        {
+          "text": "The sequence occurs only in one recently formed population",
+          "correct": false,
+          "why": "High conservation is similarity maintained over long evolutionary periods, often across species."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "topic": "D1.2",
+  "questions": [
+    {
+      "id": "D1.2-q01",
+      "stem": "Which statement describes transcription?",
+      "options": [
+        {
+          "text": "RNA polymerase synthesizes RNA complementary to a DNA template strand",
+          "correct": true,
+          "why": "RNA polymerase reads one DNA strand and joins complementary RNA nucleotides. Uracil pairs with adenine in the DNA template."
+        },
+        {
+          "text": "A ribosome synthesizes mRNA complementary to a DNA coding strand",
+          "correct": false,
+          "why": "Ribosomes translate mRNA into polypeptides. RNA polymerase, rather than a ribosome, produces the RNA transcript."
+        },
+        {
+          "text": "RNA polymerase synthesizes DNA complementary to an mRNA template strand",
+          "correct": false,
+          "why": "That describes reverse transcription, which isn't the usual gene-to-protein pathway. D1.2 transcription uses DNA as the template for RNA."
+        },
+        {
+          "text": "A ribosome synthesizes a polypeptide complementary to a DNA template strand",
+          "correct": false,
+          "why": "A ribosome uses mRNA, not DNA, during translation. Amino acids also don't form a complementary base sequence."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q02",
+      "stem": "Why can the same DNA sequence be transcribed repeatedly?",
+      "options": [
+        {
+          "text": "The DNA bases are copied without being removed, and the separated strands pair again",
+          "correct": true,
+          "why": "Only the hydrogen bonds between the strands are temporarily disrupted. The base sequence and covalent backbones remain intact."
+        },
+        {
+          "text": "A replacement DNA strand is synthesized each time the original strand becomes mRNA",
+          "correct": false,
+          "why": "The DNA strand never becomes RNA. Free RNA nucleotides are assembled into a separate complementary transcript."
+        },
+        {
+          "text": "RNA polymerase replaces every DNA base immediately after using it in the transcript",
+          "correct": false,
+          "why": "RNA polymerase reads DNA bases without removing them. There aren't missing DNA nucleotides to replace after transcription."
+        },
+        {
+          "text": "Both DNA strands stay hydrogen-bonded while RNA polymerase reads through the double helix",
+          "correct": false,
+          "why": "The strands must separate locally so the template bases are exposed. They pair again after the polymerase passes."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q03",
+      "stem": "Why is transcription a major control point in gene expression?",
+      "options": [
+        {
+          "text": "Preventing transcription stops production of the gene's RNA and any polypeptide translated from it",
+          "correct": true,
+          "why": "Transcription is the first stage needed to express a protein-coding gene. Controlling it determines whether the RNA message becomes available."
+        },
+        {
+          "text": "Preventing transcription changes the gene's DNA sequence so it can no longer be inherited",
+          "correct": false,
+          "why": "Regulating transcription doesn't rewrite the gene. The DNA sequence remains available for later expression and inheritance."
+        },
+        {
+          "text": "Preventing transcription blocks replication of that gene while the rest of the genome is copied",
+          "correct": false,
+          "why": "DNA replication copies the genome and is separate from transcription. A gene can be transcriptionally inactive while its DNA still replicates."
+        },
+        {
+          "text": "Preventing transcription destroys ribosomes that would otherwise translate every gene in the cell",
+          "correct": false,
+          "why": "Transcriptional control limits particular RNA transcripts. It doesn't destroy the cell's ribosomes or stop every gene being expressed."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q04",
+      "stem": "Which combination gives the roles of mRNA, tRNA and the ribosome during translation?",
+      "options": [
+        {
+          "text": "mRNA carries codons, tRNA carries amino acids, and the ribosome catalyzes peptide-bond formation",
+          "correct": true,
+          "why": "These three roles connect a nucleotide sequence to an amino acid sequence. Anticodon pairing places each tRNA's amino acid correctly."
+        },
+        {
+          "text": "mRNA carries anticodons, tRNA carries codons, and the ribosome copies the DNA template",
+          "correct": false,
+          "why": "The codons are on mRNA and the anticodons are on tRNA. Copying DNA into RNA is transcription by RNA polymerase."
+        },
+        {
+          "text": "mRNA carries amino acids, tRNA forms peptide bonds, and the ribosome supplies the codon sequence",
+          "correct": false,
+          "why": "tRNA carries amino acids, while the mRNA supplies codons. The ribosome holds the components and catalyzes peptide-bond formation."
+        },
+        {
+          "text": "mRNA forms the ribosome, tRNA copies the gene, and DNA delivers amino acids for assembly",
+          "correct": false,
+          "why": "Ribosomes contain rRNA and protein, but mRNA acts as the translated message. Neither tRNA nor DNA performs the stated roles."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q05",
+      "stem": "What does it mean that the genetic code is degenerate?",
+      "options": [
+        {
+          "text": "More than one codon can specify the same amino acid",
+          "correct": true,
+          "why": "Most amino acids have several codons. This is why some base substitutions don't alter the amino acid sequence."
+        },
+        {
+          "text": "One codon can specify several amino acids in the same cell",
+          "correct": false,
+          "why": "That would make the code ambiguous. A codon specifies one amino acid or a stop signal in a given genetic code."
+        },
+        {
+          "text": "Codons change their meaning whenever a different protein is translated",
+          "correct": false,
+          "why": "Codon meanings remain consistent across genes. Different proteins result from different codon sequences, not changing definitions."
+        },
+        {
+          "text": "Every organism uses a completely different set of codon meanings",
+          "correct": false,
+          "why": "That conflicts with the code's near universality. Codon meanings are shared by almost all organisms, with limited exceptions."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q06",
+      "stem": "An mRNA sequence is 5′-CCU-AUG-GAA-UGG-UAA-AAA-3′. Which peptide is produced?",
+      "options": [
+        {
+          "text": "Methionine–glutamic acid–tryptophan",
+          "correct": true,
+          "why": "Translation begins at AUG, continues through GAA and UGG, and ends at UAA. Bases outside those signals don't add amino acids."
+        },
+        {
+          "text": "Proline–methionine–glutamic acid–tryptophan",
+          "correct": false,
+          "why": "CCU occurs before the AUG start codon, so it isn't translated in this reading frame. Translation begins with methionine."
+        },
+        {
+          "text": "Methionine–glutamic acid–tryptophan–lysine",
+          "correct": false,
+          "why": "UAA is a stop codon, so translation ends before AAA can add lysine. A stop codon contributes no amino acid."
+        },
+        {
+          "text": "Proline–methionine–glutamic acid–tryptophan–lysine",
+          "correct": false,
+          "why": "This ignores both control signals. CCU lies before the start codon, and AAA lies after the stop codon."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q07",
+      "stem": "How can a single base substitution leave a polypeptide's amino acid sequence unchanged?",
+      "options": [
+        {
+          "text": "The altered codon can specify the same amino acid because the code is degenerate",
+          "correct": true,
+          "why": "Several codons can specify the same amino acid. A substitution that creates one of those synonymous codons is silent at the protein level."
+        },
+        {
+          "text": "The ribosome repairs every changed codon before translating the mRNA",
+          "correct": false,
+          "why": "Ribosomes read the mRNA presented to them; they don't repair its sequence. Any correction would require a separate repair process."
+        },
+        {
+          "text": "The tRNA changes its attached amino acid whenever the mRNA sequence mutates",
+          "correct": false,
+          "why": "A tRNA remains associated with its particular amino acid. A mutation changes which tRNA can pair with the codon."
+        },
+        {
+          "text": "The mutation replaces one DNA nucleotide with an identical nucleotide",
+          "correct": false,
+          "why": "Replacing a nucleotide with the same nucleotide wouldn't be a substitution. A silent substitution changes the codon but not its amino acid meaning."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q08",
+      "stem": "Which direction statement is accurate?",
+      "options": [
+        {
+          "text": "RNA is synthesized 5′ to 3′, and the ribosome moves along mRNA 5′ to 3′",
+          "correct": true,
+          "why": "RNA polymerase adds nucleotides at the RNA's 3′ end. The ribosome also reads successive mRNA codons toward the 3′ end."
+        },
+        {
+          "text": "RNA is synthesized 3′ to 5′, and the ribosome moves along mRNA 5′ to 3′",
+          "correct": false,
+          "why": "The translation direction is accurate, but RNA synthesis isn't. RNA polymerase produces the transcript in the 5′ to 3′ direction."
+        },
+        {
+          "text": "RNA is synthesized 5′ to 3′, and the ribosome moves along mRNA 3′ to 5′",
+          "correct": false,
+          "why": "The transcription direction is accurate, but ribosome movement isn't. Translation proceeds along the mRNA toward its 3′ end."
+        },
+        {
+          "text": "RNA and its DNA template are both read from 5′ to 3′ during transcription",
+          "correct": false,
+          "why": "The two strands are antiparallel. RNA polymerase reads the DNA template 3′ to 5′ while synthesizing RNA 5′ to 3′."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q09",
+      "stem": "What is the function of a promoter in transcription?",
+      "options": [
+        {
+          "text": "It provides a DNA region where transcription factors and RNA polymerase assemble to begin transcription",
+          "correct": true,
+          "why": "The promoter positions the transcription machinery at the gene. Its role comes before synthesis of the RNA transcript."
+        },
+        {
+          "text": "It provides an mRNA codon where the initiator tRNA attaches to begin translation",
+          "correct": false,
+          "why": "That describes the AUG start codon on mRNA. A promoter is a DNA sequence involved in transcription."
+        },
+        {
+          "text": "It provides a tRNA site where an amino acid attaches before entering the ribosome",
+          "correct": false,
+          "why": "Amino acids attach to tRNAs through enzymes outside the ribosome. A promoter instead helps initiate transcription on DNA."
+        },
+        {
+          "text": "It provides a protein sequence that directs a completed polypeptide into the endoplasmic reticulum",
+          "correct": false,
+          "why": "That describes a signal peptide within a polypeptide. A promoter is a non-coding regulatory region of DNA."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q10",
+      "stem": "Which change occurs during eukaryotic post-transcriptional modification?",
+      "options": [
+        {
+          "text": "Introns are removed from pre-mRNA and exons are spliced together",
+          "correct": true,
+          "why": "Splicing converts the initial transcript toward mature mRNA. A 5′ cap and 3′ poly-A tail are also added."
+        },
+        {
+          "text": "Introns are removed from DNA and the gene's exons are permanently joined",
+          "correct": false,
+          "why": "RNA processing changes the transcript, not the genome. The introns remain present in the cell's DNA."
+        },
+        {
+          "text": "Exons are removed from pre-mRNA and introns are translated by ribosomes",
+          "correct": false,
+          "why": "That reverses the usual outcome. Introns are removed, while joined exons remain in mature mRNA."
+        },
+        {
+          "text": "A promoter and a start codon are attached to both ends of the transcript",
+          "correct": false,
+          "why": "The promoter stays in DNA, and the start codon is already encoded in the transcript. Processing adds a cap and poly-A tail."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q11",
+      "stem": "How can one eukaryotic gene produce different polypeptides without a DNA mutation?",
+      "options": [
+        {
+          "text": "Different combinations of exons can be joined during alternative splicing",
+          "correct": true,
+          "why": "The resulting mature mRNAs have different codon sequences. Their translation therefore produces different polypeptides from the same gene."
+        },
+        {
+          "text": "The ribosome can assign a different amino acid meaning to every codon",
+          "correct": false,
+          "why": "Ribosomes don't redefine the genetic code. Different products arise from different exon combinations in the mature mRNA."
+        },
+        {
+          "text": "RNA polymerase can reverse the template strand's sequence during each transcription",
+          "correct": false,
+          "why": "RNA polymerase follows complementary base pairing and doesn't rearrange the template. The variation is introduced during RNA splicing."
+        },
+        {
+          "text": "Proteasomes can assemble the same amino acids into several unrelated sequences",
+          "correct": false,
+          "why": "Proteasomes break proteins down rather than assembling them. Ribosomes synthesize the polypeptides encoded by alternatively spliced mRNAs."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q12",
+      "stem": "During elongation, what happens to a tRNA as it passes through the ribosome?",
+      "options": [
+        {
+          "text": "It enters the A site, shifts to the P site and leaves through the E site",
+          "correct": true,
+          "why": "The A site accepts the charged tRNA, the P site holds the tRNA associated with the growing chain, and the empty tRNA exits through E."
+        },
+        {
+          "text": "It enters the P site, shifts to the E site and receives an amino acid in the A site",
+          "correct": false,
+          "why": "A charged tRNA normally enters at A, not P. It has already received its amino acid before reaching the ribosome."
+        },
+        {
+          "text": "It enters the E site, copies a codon and leaves through the P site",
+          "correct": false,
+          "why": "E is the exit site, and tRNA doesn't copy codons. Its anticodon pairs temporarily with the existing mRNA codon."
+        },
+        {
+          "text": "It remains in the A site while the mRNA and ribosome move away permanently",
+          "correct": false,
+          "why": "Translocation shifts the tRNA through the ribosome. It doesn't remain fixed in the A site after peptide-bond formation."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q13",
+      "stem": "Which event converts proinsulin into functional insulin?",
+      "options": [
+        {
+          "text": "Removal of the C-peptide leaves A and B chains linked by disulfide bonds",
+          "correct": true,
+          "why": "Proinsulin has already lost the signal peptide and folded. Removing the connecting C-peptide produces the mature two-chain insulin molecule."
+        },
+        {
+          "text": "Addition of a signal peptide joins the A and B chains by peptide bonds",
+          "correct": false,
+          "why": "The signal peptide is removed when preproinsulin becomes proinsulin. It doesn't join the two chains of mature insulin."
+        },
+        {
+          "text": "Removal of all disulfide bonds allows the two chains to function separately",
+          "correct": false,
+          "why": "Disulfide bonds hold insulin's A and B chains together and support its functional shape. They aren't all removed."
+        },
+        {
+          "text": "Addition of the C-peptide creates the final binding site of mature insulin",
+          "correct": false,
+          "why": "C-peptide is removed during insulin maturation. It isn't part of the final functional insulin molecule."
+        }
+      ]
+    },
+    {
+      "id": "D1.2-q14",
+      "stem": "What is the role of proteasomes in maintaining a cell's proteome?",
+      "options": [
+        {
+          "text": "They break down damaged or unneeded proteins, enabling amino acids to be recycled",
+          "correct": true,
+          "why": "Cells continually replace proteins as needs and conditions change. Protein degradation makes their amino acids available for later synthesis."
+        },
+        {
+          "text": "They translate mature mRNA and join amino acids into replacement polypeptides",
+          "correct": false,
+          "why": "That is the ribosome's role. Proteasomes work in the opposite direction by breaking existing proteins down."
+        },
+        {
+          "text": "They remove introns and join exons to produce mature mRNA transcripts",
+          "correct": false,
+          "why": "That is RNA splicing in the nucleus. Proteasomes act on proteins rather than editing RNA transcripts."
+        },
+        {
+          "text": "They copy protein sequences into DNA so useful proteins can be inherited",
+          "correct": false,
+          "why": "Cells don't copy amino acid sequences back into inherited DNA this way. Proteasomes degrade proteins and support amino-acid recycling."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "topic": "D1.1",
+  "questions": [
+    {
+      "id": "D1.1-q01",
+      "stem": "Why is DNA replication described as semi-conservative?",
+      "options": [
+        {
+          "text": "Each product DNA molecule contains one parental strand and one newly synthesized strand",
+          "correct": true,
+          "why": "The two original strands separate and each becomes part of a product molecule alongside a new complementary strand."
+        },
+        {
+          "text": "Each product DNA molecule contains half of the original base sequence and half of a new sequence",
+          "correct": false,
+          "why": "Each product contains the full base sequence. The old and new halves are whole strands, not halves of the genetic information."
+        },
+        {
+          "text": "One product DNA molecule contains both parental strands while the other contains two newly synthesized strands",
+          "correct": false,
+          "why": "That describes conservative replication. In semi-conservative replication, both products receive one parental strand."
+        },
+        {
+          "text": "Both product DNA molecules contain alternating sections of parental DNA and newly synthesized DNA",
+          "correct": false,
+          "why": "That describes a dispersive model. Replication conserves each parental strand as one continuous template strand."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q02",
+      "stem": "What does helicase do during DNA replication?",
+      "options": [
+        {
+          "text": "It separates the parental strands by unwinding DNA and breaking hydrogen bonds",
+          "correct": true,
+          "why": "Helicase opens the double helix so each parental strand can act as a template."
+        },
+        {
+          "text": "It adds complementary DNA nucleotides to the 3′ end of each new strand",
+          "correct": false,
+          "why": "That's the role of DNA polymerase. Helicase opens the parental DNA instead of building a new strand."
+        },
+        {
+          "text": "It joins adjacent Okazaki fragments by forming phosphodiester bonds between them",
+          "correct": false,
+          "why": "That's the role of DNA ligase. Helicase acts earlier by separating the template strands."
+        },
+        {
+          "text": "It removes RNA primers and replaces them with complementary DNA nucleotides",
+          "correct": false,
+          "why": "That's the role of DNA polymerase I in the prokaryotic system. Helicase doesn't replace primers."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q03",
+      "stem": "Which sequence gives the stages of one PCR cycle in the correct order?",
+      "options": [
+        {
+          "text": "Denaturation, primer annealing, extension",
+          "correct": true,
+          "why": "Heat separates the strands, cooling lets primers bind, and Taq DNA polymerase then extends those primers."
+        },
+        {
+          "text": "Primer annealing, extension, denaturation",
+          "correct": false,
+          "why": "Primers can't anneal to their target sites until denaturation has separated the two DNA strands."
+        },
+        {
+          "text": "Extension, denaturation, primer annealing",
+          "correct": false,
+          "why": "Extension needs primers already attached to separated templates, so it can't occur first."
+        },
+        {
+          "text": "Denaturation, extension, primer annealing",
+          "correct": false,
+          "why": "Taq DNA polymerase needs an annealed primer before extension can begin. Annealing must come before extension."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q04",
+      "stem": "What determines the boundaries of the DNA region amplified by PCR?",
+      "options": [
+        {
+          "text": "The complementary sequences of the two primers",
+          "correct": true,
+          "why": "The primers bind on opposite strands at sites bordering the target region, so extension copies the DNA between them."
+        },
+        {
+          "text": "The positions at which Taq DNA polymerase denatures",
+          "correct": false,
+          "why": "Taq DNA polymerase doesn't define the target or denature DNA. Heating separates the strands."
+        },
+        {
+          "text": "The distance traveled by fragments through the gel",
+          "correct": false,
+          "why": "That distance reveals fragment length during gel electrophoresis. It doesn't choose what PCR amplifies."
+        },
+        {
+          "text": "The number of hydrogen bonds in the target DNA",
+          "correct": false,
+          "why": "Hydrogen bonds affect strand separation, but they don't set the endpoints of the amplified region."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q05",
+      "stem": "Why is Taq DNA polymerase used in PCR?",
+      "options": [
+        {
+          "text": "It remains functional after the repeated high temperatures used to separate DNA strands",
+          "correct": true,
+          "why": "Taq DNA polymerase is heat-stable, so it can extend primers through many PCR cycles without being replaced after every heating stage."
+        },
+        {
+          "text": "It breaks the hydrogen bonds between DNA strands at a low temperature",
+          "correct": false,
+          "why": "High temperature separates PCR strands. Taq DNA polymerase adds nucleotides during extension."
+        },
+        {
+          "text": "It produces the RNA primers needed before every extension stage",
+          "correct": false,
+          "why": "Synthetic DNA primers are added to the PCR mixture. Taq DNA polymerase extends them but doesn't produce them."
+        },
+        {
+          "text": "It moves amplified DNA fragments toward the positive electrode",
+          "correct": false,
+          "why": "An electric field moves DNA during gel electrophoresis. Taq DNA polymerase works during PCR."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q06",
+      "stem": "Why do smaller DNA fragments move farther than larger fragments during gel electrophoresis?",
+      "options": [
+        {
+          "text": "They pass more easily through spaces in the gel matrix",
+          "correct": true,
+          "why": "The gel acts as a molecular sieve. Smaller fragments face less resistance and travel farther in the same time."
+        },
+        {
+          "text": "They carry a positive charge that attracts them toward the negative electrode",
+          "correct": false,
+          "why": "DNA is negatively charged and moves toward the positive electrode. Fragment size affects movement through the gel."
+        },
+        {
+          "text": "They contain more base pairs and therefore receive a stronger electrical force",
+          "correct": false,
+          "why": "Smaller fragments contain fewer base pairs. Their advantage comes from passing through the gel more easily."
+        },
+        {
+          "text": "They are copied more rapidly by Taq DNA polymerase while moving through the gel",
+          "correct": false,
+          "why": "DNA isn't copied during gel electrophoresis. Taq DNA polymerase acts earlier if PCR is used."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q07",
+      "stem": "Why does comparing more independent markers strengthen a DNA profile match?",
+      "options": [
+        {
+          "text": "It reduces the probability that an unrelated person matches every marker by chance",
+          "correct": true,
+          "why": "A chance match at one marker is possible. Requiring matches at many independent markers makes that explanation less probable."
+        },
+        {
+          "text": "It causes every DNA fragment from one person to become the same length",
+          "correct": false,
+          "why": "A DNA profile contains fragments of different lengths. More markers provide more points of comparison."
+        },
+        {
+          "text": "It proves that laboratory contamination couldn't have occurred during the analysis",
+          "correct": false,
+          "why": "Extra markers improve discrimination, but they can't rule out contamination or every other source of error."
+        },
+        {
+          "text": "It converts a pattern of DNA bands into the person's complete genome sequence",
+          "correct": false,
+          "why": "A DNA profile tests selected variable regions. It isn't a complete genome sequence."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q08",
+      "stem": "In which direction does a new DNA strand grow?",
+      "options": [
+        {
+          "text": "From 5′ to 3′, by addition to its 3′ end",
+          "correct": true,
+          "why": "DNA polymerases add each incoming nucleotide to the free 3′ end, so the new strand grows 5′ to 3′."
+        },
+        {
+          "text": "From 3′ to 5′, by addition to its 5′ end",
+          "correct": false,
+          "why": "DNA polymerases don't extend the 5′ end. They synthesize new DNA only by adding to the 3′ end."
+        },
+        {
+          "text": "From 5′ to 3′ on the leading strand but 3′ to 5′ on the lagging strand",
+          "correct": false,
+          "why": "Both strands grow 5′ to 3′. The lagging strand is made in fragments instead of reversing direction."
+        },
+        {
+          "text": "In either direction, depending on the orientation of its template strand",
+          "correct": false,
+          "why": "Template orientation changes whether synthesis is continuous or discontinuous. It doesn't change the direction of polymerization."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q09",
+      "stem": "Which feature is unique to lagging-strand synthesis?",
+      "options": [
+        {
+          "text": "Production as multiple Okazaki fragments initiated by repeated RNA primers",
+          "correct": true,
+          "why": "The lagging strand is synthesized discontinuously, so primase must provide a new primer for each Okazaki fragment."
+        },
+        {
+          "text": "Addition of complementary DNA nucleotides by DNA polymerase III",
+          "correct": false,
+          "why": "DNA polymerase III adds complementary nucleotides on both the leading and lagging strands."
+        },
+        {
+          "text": "Synthesis of new DNA in the 5′ to 3′ direction",
+          "correct": false,
+          "why": "Both new strands are synthesized 5′ to 3′. Direction alone doesn't identify the lagging strand."
+        },
+        {
+          "text": "Use of a parental DNA strand as a template for complementary base pairing",
+          "correct": false,
+          "why": "Both new strands use parental templates and complementary base pairing."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q10",
+      "stem": "Which enzyme removes RNA primers and replaces them with DNA in prokaryotic replication?",
+      "options": [
+        {
+          "text": "DNA polymerase I",
+          "correct": true,
+          "why": "DNA polymerase I removes each RNA primer and fills the resulting region with DNA nucleotides."
+        },
+        {
+          "text": "DNA polymerase III",
+          "correct": false,
+          "why": "DNA polymerase III performs most strand extension and proofreading. It doesn't replace the RNA primers in this model."
+        },
+        {
+          "text": "DNA ligase",
+          "correct": false,
+          "why": "DNA ligase seals nicks after primer replacement. It doesn't remove RNA or fill the region with DNA."
+        },
+        {
+          "text": "DNA primase",
+          "correct": false,
+          "why": "DNA primase makes the RNA primers. It doesn't remove them after strand synthesis."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q11",
+      "stem": "What happens when DNA polymerase III detects a mismatched nucleotide at the 3′ end of a growing strand?",
+      "options": [
+        {
+          "text": "It removes the mismatched nucleotide and replaces it with a correctly matched nucleotide",
+          "correct": true,
+          "why": "This proofreading action corrects the terminal mismatch before synthesis continues, lowering the replication error rate."
+        },
+        {
+          "text": "It leaves the mismatch for DNA ligase to remove after replication finishes",
+          "correct": false,
+          "why": "DNA ligase seals nicks in the backbone. It doesn't identify or remove mismatched terminal nucleotides."
+        },
+        {
+          "text": "It separates both new strands and begins the entire replication process again",
+          "correct": false,
+          "why": "Proofreading corrects the individual terminal nucleotide. The completed parts of the strands aren't discarded."
+        },
+        {
+          "text": "It adds another nucleotide until complementary base pairing is restored automatically",
+          "correct": false,
+          "why": "Adding another nucleotide wouldn't correct the existing mismatch. The mismatched nucleotide must first be removed."
+        }
+      ]
+    },
+    {
+      "id": "D1.1-q12",
+      "stem": "A DNA template has the sequence 3′-ACGTTA-5′. Which sequence is synthesized from it?",
+      "options": [
+        {
+          "text": "5′-TGCAAT-3′",
+          "correct": true,
+          "why": "Complementary bases are added antiparallel to the template, giving T opposite A, G opposite C, C opposite G and A opposite T."
+        },
+        {
+          "text": "3′-TGCAAT-5′",
+          "correct": false,
+          "why": "The bases are complementary, but the direction is written backwards. The new strand beside this template runs 5′ to 3′."
+        },
+        {
+          "text": "5′-ACGTTA-3′",
+          "correct": false,
+          "why": "That repeats the template's base order instead of using complementary base pairing."
+        },
+        {
+          "text": "5′-UGCAAU-3′",
+          "correct": false,
+          "why": "That is an RNA sequence because it contains uracil. DNA replication uses thymine-containing DNA nucleotides."
+        }
+      ]
+    }
+  ]
+}
