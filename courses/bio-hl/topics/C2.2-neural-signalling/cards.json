@@ -1,0 +1,130 @@
+{
+  "topic": "C2.2",
+  "title": "Neural signalling",
+  "cards": [
+    {
+      "id": "C2.2-01",
+      "q": "Describe the structure of a neuron and relate the cell body, dendrites and axon to their functions.",
+      "a": "The cell body contains the nucleus, cytoplasm and organelles that maintain the neuron. Multiple short dendrites receive signals and conduct electrical changes toward the cell body. A single long axon conducts action potentials away from the cell body toward other neurons or effector cells.",
+      "note": "An axon and a dendrite are nerve fibres, not separate cells.",
+      "tags": ["core", "neuron-structure"]
+    },
+    {
+      "id": "C2.2-02",
+      "q": "Explain how a neuron establishes and maintains a negative resting potential.",
+      "a": "The sodium-potassium pump uses ATP to move three Na+ ions out of the neuron for every two K+ ions moved in, establishing a high Na+ concentration outside and a high K+ concentration inside. The resting membrane is more permeable to K+ than to Na+, so K+ diffuses out through leak channels more readily than Na+ diffuses in. Large negatively charged substances remain inside, leaving the inside negative relative to the outside.",
+      "note": "The neuron isn't inactive at rest. Pumps and leak channels continue moving ions.",
+      "tags": ["core", "resting-potential", "membrane-transport"]
+    },
+    {
+      "id": "C2.2-03",
+      "q": "Correct this claim: 'A nerve impulse is a stream of electrons traveling through the axon like current in a metal wire.'",
+      "a": "A nerve impulse is a propagated action potential, which is a rapid change in membrane potential. It’s electrical because positively charged ions move across the axon membrane through channels. Electrons don’t travel along the axon from one end to the other.",
+      "note": "The moving charges are ions crossing the membrane, not electrons traveling down a wire.",
+      "tags": ["core", "action-potential", "misconception"]
+    },
+    {
+      "id": "C2.2-04",
+      "q": "Explain two structural factors that increase nerve-impulse conduction speed, and state how correlation data could support one relationship.",
+      "a": "A larger axon diameter increases conduction speed because it lowers resistance to local current inside the axon. Myelination also increases speed because current spreads beneath the insulating myelin and action potentials are regenerated only at nodes of Ranvier. A positive correlation coefficient for axon diameter and speed would support their association; its magnitude shows the strength, while R² gives the proportion of variation in speed explained by variation in diameter in the fitted model.",
+      "note": "Correlation supports an association but doesn’t prove that one variable caused the other.",
+      "tags": ["core", "conduction-speed", "data-analysis"]
+    },
+    {
+      "id": "C2.2-05",
+      "q": "Describe the parts of a chemical synapse and explain why transmission across a typical synapse is one-way.",
+      "a": "A chemical synapse includes the presynaptic terminal, the synaptic cleft and the postsynaptic membrane of another neuron or an effector cell. Neurotransmitter-containing vesicles and their release machinery are in the presynaptic terminal, while the matching receptors are on the postsynaptic membrane. This asymmetrical arrangement makes transmission one-way.",
+      "note": "The synapse is the whole junction, not only the gap.",
+      "tags": ["core", "synapse", "direction"]
+    },
+    {
+      "id": "C2.2-06",
+      "q": "Explain the complete sequence from depolarization of a presynaptic terminal to release of neurotransmitter.",
+      "a": "When an action potential depolarizes the presynaptic membrane, voltage-gated calcium channels open. Ca2+ enters the terminal down its electrochemical gradient and acts as an intracellular signal. It causes synaptic vesicles to fuse with the presynaptic membrane, releasing neurotransmitter into the synaptic cleft by exocytosis.",
+      "note": "Calcium enters the presynaptic terminal. It isn't the neurotransmitter crossing the cleft.",
+      "tags": ["core", "synapse", "calcium", "exocytosis"]
+    },
+    {
+      "id": "C2.2-07",
+      "q": "Explain how acetylcholine generates an excitatory postsynaptic potential.",
+      "a": "Acetylcholine diffuses across the synaptic cleft and binds to specific transmembrane receptors on the postsynaptic membrane. Receptor binding opens ligand-gated cation channels, producing a net entry of positive ions, including Na+. The membrane depolarizes, generating an excitatory postsynaptic potential that makes threshold more likely to be reached.",
+      "note": "An EPSP is graded and may be too small to reach threshold. It isn't automatically an action potential.",
+      "tags": ["core", "acetylcholine", "epsp"]
+    },
+    {
+      "id": "C2.2-08",
+      "q": "Explain depolarization and repolarization during an action potential, beginning at threshold.",
+      "a": "When threshold is reached, voltage-gated Na+ channels open and Na+ enters, causing rapid depolarization. The Na+ channels then inactivate while voltage-gated K+ channels open. K+ leaves the axon, causing repolarization and often a brief hyperpolarization because K+ channels close slowly. The channels then return to their resting states, while the sodium-potassium pump maintains the ion gradients over time.",
+      "note": "The pump maintains the gradients, but rapid depolarization and repolarization are caused by gated channels.",
+      "tags": ["hl", "action-potential", "ion-channels"]
+    },
+    {
+      "id": "C2.2-09",
+      "q": "Explain how local currents propagate an action potential from one region of an axon to the next.",
+      "a": "Na+ entering during an action potential creates a region of positive charge inside the axon. Na+ diffuses sideways inside the axon toward the adjacent resting region, while current is completed by ion movement outside the axon. This local current depolarizes the next region to threshold, opening its voltage-gated Na+ channels and generating a new action potential there.",
+      "note": "The action potential is regenerated along the membrane. One unchanged pulse doesn't slide down the axon.",
+      "tags": ["hl", "propagation", "local-currents"]
+    },
+    {
+      "id": "C2.2-10",
+      "q": "How would you interpret an oscilloscope trace showing resting potential, threshold, depolarization and repolarization, and how would you find impulse frequency?",
+      "a": "A stable negative voltage is the resting potential. Crossing threshold is followed by the steep rising phase caused by Na+ entry, while the falling phase is repolarization caused mainly by K+ exit. A dip below resting potential is hyperpolarization. Impulse frequency is the number of complete action potentials divided by the measured time interval, usually reported in hertz.",
+      "note": "Stronger stimulation usually changes impulse frequency, not the size of each all-or-nothing action potential.",
+      "tags": ["hl", "oscilloscope", "data-analysis"]
+    },
+    {
+      "id": "C2.2-11",
+      "q": "Explain why saltatory conduction is faster than conduction in an unmyelinated axon.",
+      "a": "Myelin insulates the axon and reduces ion movement across the membrane between nodes of Ranvier. Local current therefore spreads rapidly beneath the myelin, while pumps and voltage-gated channels are concentrated at the nodes. Action potentials are regenerated from node to node rather than continuously along every part of the membrane, increasing conduction speed.",
+      "note": "The current spreads under the myelin; action potentials are regenerated at the nodes.",
+      "tags": ["hl", "myelin", "saltatory-conduction"]
+    },
+    {
+      "id": "C2.2-12",
+      "q": "Compare how neonicotinoids and cocaine affect synaptic transmission.",
+      "a": "Neonicotinoid pesticides bind to acetylcholine receptors in insect synapses and disrupt normal cholinergic transmission, leading to paralysis and death. Cocaine blocks reuptake of dopamine into the presynaptic neuron, so dopamine remains in the synaptic cleft and stimulates postsynaptic receptors for longer. Both are exogenous chemicals, but they act on different proteins and stages of transmission.",
+      "tags": ["hl", "exogenous-chemicals", "synapse"]
+    },
+    {
+      "id": "C2.2-13",
+      "q": "Explain how an inhibitory neurotransmitter generates an inhibitory postsynaptic potential.",
+      "a": "An inhibitory neurotransmitter binds to receptors on the postsynaptic membrane and opens ion channels that make the inside more negative, such as channels allowing Cl− to enter. This hyperpolarization is an inhibitory postsynaptic potential. It moves the membrane potential farther from threshold, making an action potential less likely.",
+      "note": "Inhibition doesn't mean every ion channel closes. It means the membrane moves farther from threshold.",
+      "tags": ["hl", "ipsp", "hyperpolarization"]
+    },
+    {
+      "id": "C2.2-14",
+      "q": "Explain how summation determines whether a postsynaptic neuron produces an action potential.",
+      "a": "A postsynaptic neuron receives graded excitatory and inhibitory postsynaptic potentials from presynaptic neurons. Their effects combine at the postsynaptic neuron: EPSPs move the membrane toward threshold, while IPSPs move it away. If the net depolarization reaches threshold, an all-or-nothing action potential begins; if it doesn’t, no action potential begins.",
+      "note": "Summation changes whether threshold is reached. It doesn't produce a larger action potential.",
+      "tags": ["hl", "summation", "epsp", "ipsp"]
+    },
+    {
+      "id": "C2.2-15",
+      "q": "Explain the sequence from capsaicin stimulating a free nerve ending in the skin to conscious perception of pain.",
+      "a": "Capsaicin stimulates receptor channels in a free sensory nerve ending, causing channels for positively charged ions to open. Positive ions enter and depolarize the membrane. If threshold is reached, action potentials travel through neurons to the brain, where activity in interacting neural circuits produces the conscious perception of pain.",
+      "note": "The stimulus occurs at the nerve ending, but pain is perceived in the brain.",
+      "tags": ["hl", "pain", "sensory-receptor"]
+    },
+    {
+      "id": "C2.2-16",
+      "q": "Explain what it means to call consciousness an emergent property of the brain.",
+      "a": "Consciousness arises from the organized interactions of many neurons and neural networks in the brain. An individual neuron can generate and transmit signals, but it isn't conscious by itself. The property appears at the higher level of the interacting system and can’t be assigned to one neuron alone.",
+      "tags": ["hl", "consciousness", "emergent-property"]
+    },
+    {
+      "id": "C2.2-17",
+      "q": "Construct a causal chain from an action potential arriving at one neuron's terminal to an action potential beginning in the next neuron.",
+      "a": "The arriving action potential depolarizes the presynaptic terminal and opens voltage-gated Ca2+ channels. Ca2+ enters and triggers vesicle fusion and neurotransmitter exocytosis. The neurotransmitter diffuses across the cleft, binds to postsynaptic receptors and produces EPSPs. If these EPSPs, after summation with other inputs, depolarize the postsynaptic membrane to threshold, voltage-gated Na+ channels open and a new action potential begins.",
+      "note": "This chain crosses from electrical signalling to chemical signalling and back to electrical signalling.",
+      "tags": ["core", "hl", "synthesis", "synapse"]
+    },
+    {
+      "id": "C2.2-18",
+      "q": "A stimulus becomes stronger but each recorded action potential stays the same height. Explain how the nervous system can still signal greater stimulus intensity.",
+      "a": "Action potentials are all-or-nothing, so once threshold is reached their amplitude doesn’t increase with stimulus strength. A stronger stimulus can produce action potentials at a higher frequency and may activate more sensory neurons. The nervous system can therefore encode intensity through firing frequency and recruitment rather than taller action potentials.",
+      "note": "Don’t use action-potential amplitude as the code for stimulus strength.",
+      "tags": ["hl", "action-potential", "frequency", "application"]
+    }
+  ]
+}

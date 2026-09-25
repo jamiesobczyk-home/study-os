@@ -1,0 +1,123 @@
+{
+  "topic": "C1.1",
+  "title": "Enzymes and metabolism",
+  "cards": [
+    {
+      "id": "C1.1-01",
+      "q": "Explain what an enzyme does and why enzymes allow cells to control metabolism.",
+      "a": "An enzyme is a biological catalyst that increases the rate of a chemical reaction without being used up. Metabolism is the network of interdependent chemical reactions in an organism. Different reactions require enzymes with suitable active sites, so changing an enzyme’s activity can alter the rate of a particular reaction or pathway.",
+      "note": "An enzyme changes reaction rate. It doesn’t supply energy or change into the product.",
+      "tags": ["core", "catalysis", "metabolism"]
+    },
+    {
+      "id": "C1.1-02",
+      "q": "Distinguish anabolism from catabolism and give two named examples of each.",
+      "a": "Anabolism builds larger or more complex molecules and usually requires an energy input. Protein synthesis, glycogen formation and photosynthesis are anabolic examples. Catabolism breaks down or oxidizes molecules and often releases usable energy. Digestion and cell respiration are catabolic examples.",
+      "note": "Anabolism and catabolism describe chemical reactions, not whether an organism is growing or shrinking.",
+      "tags": ["core", "anabolism", "catabolism"]
+    },
+    {
+      "id": "C1.1-03",
+      "q": "Explain how the structure of a globular enzyme produces a functional active site.",
+      "a": "Interactions among amino-acid R groups fold the polypeptide into a specific globular 3D conformation. Amino acids that may be far apart in the primary structure are brought together to form the active site. The shape and chemical properties of these few active-site amino acids allow suitable substrates to bind and the reaction to be catalyzed.",
+      "tags": ["core", "structure", "active-site"]
+    },
+    {
+      "id": "C1.1-04",
+      "q": "Describe a complete enzyme-catalyzed reaction using the induced-fit model.",
+      "a": "A substrate collides with and binds to a compatible active site. Interactions between them cause conformational changes in both the enzyme and substrate, producing an induced fit that positions catalytic groups and strains or weakens substrate bonds. The reaction occurs, the products leave because they no longer fit in the same way, and the enzyme can catalyze another reaction.",
+      "note": "Induced fit means binding changes both partners. The active site isn’t a completely rigid mold.",
+      "tags": ["core", "induced-fit", "catalysis"]
+    },
+    {
+      "id": "C1.1-05",
+      "q": "Explain how random molecular motion leads to successful enzyme–substrate collisions.",
+      "a": "Enzymes and substrates in fluids undergo continuous random molecular motion. A reaction can occur when a substrate collides with the active site in a suitable orientation and the interacting molecules have enough energy. Increasing collision frequency raises the rate only while active sites and functional enzymes remain available.",
+      "tags": ["core", "collision-theory", "molecular-motion"]
+    },
+    {
+      "id": "C1.1-06",
+      "q": "How can catalysis occur when an enzyme or a large substrate is immobilized?",
+      "a": "Both molecules don’t need to move freely. If an enzyme is fixed in a membrane or on a solid support, substrates can move toward and collide with its active site. If a large substrate is immobilized, freely moving enzyme molecules can collide with accessible regions of that substrate.",
+      "tags": ["core", "molecular-motion", "immobilization"]
+    },
+    {
+      "id": "C1.1-07",
+      "q": "Explain enzyme specificity, including why specificity isn’t always limited to one substrate molecule.",
+      "a": "Specificity results from the active site’s 3D shape and chemical properties, including charge and polarity. Only a substrate or related group of substrates capable of forming suitable interactions can bind in a productive orientation. Some enzymes act on one substrate, while others act on several structurally related substrates.",
+      "tags": ["core", "specificity", "active-site"]
+    },
+    {
+      "id": "C1.1-08",
+      "q": "Correct this claim: 'Denaturation breaks the enzyme into separate amino acids.'",
+      "a": "Denaturation disrupts the interactions that maintain the enzyme’s 3D conformation, so the active site changes and catalysis decreases or stops. Peptide bonds usually remain intact, so the enzyme’s primary structure isn’t broken into separate amino acids.",
+      "note": "Loss of tertiary structure, rather than hydrolysis of the polypeptide, is the scoring distinction.",
+      "tags": ["core", "denaturation", "misconception"]
+    },
+    {
+      "id": "C1.1-09",
+      "q": "Explain the shape of a graph showing enzyme activity against temperature.",
+      "a": "At low temperatures, molecules have less kinetic energy, so successful enzyme–substrate collisions occur less frequently and the rate is low. Increasing temperature raises molecular motion and the rate up to an optimum. Above the optimum, heat disrupts interactions maintaining the enzyme’s conformation, active sites lose their functional shape, and activity falls steeply as enzymes denature.",
+      "note": "Low temperature normally slows activity without denaturing the enzyme.",
+      "tags": ["core", "temperature", "graphs"]
+    },
+    {
+      "id": "C1.1-10",
+      "q": "Explain how pH affects enzyme activity.",
+      "a": "Changing pH changes the protonation and charge of amino-acid R groups. This can disrupt ionic and hydrogen-bond interactions within the enzyme or alter the charges needed for substrate binding and catalysis. Each enzyme therefore has an optimum pH, and extreme pH can denature it by changing its 3D conformation.",
+      "tags": ["core", "pH", "denaturation"]
+    },
+    {
+      "id": "C1.1-11",
+      "q": "Explain why increasing substrate concentration eventually stops increasing the rate of an enzyme-catalyzed reaction.",
+      "a": "At low substrate concentration, adding substrate increases the frequency of collisions with available active sites, so the rate rises. At high substrate concentration, nearly all active sites are occupied as often as possible. Enzyme concentration then limits the rate, producing a plateau even if more substrate is added.",
+      "note": "The plateau is active-site saturation, not enzyme denaturation.",
+      "tags": ["core", "substrate-concentration", "saturation"]
+    },
+    {
+      "id": "C1.1-12",
+      "q": "Describe how to determine the initial rate of an enzyme-catalyzed reaction from experimental data.",
+      "a": "Measure product formation or substrate disappearance at several times while controlling variables such as temperature, pH and enzyme concentration. Plot the measured quantity against time. Determine the initial rate from the gradient near time zero, using change in product or substrate divided by change in time, with units such as cm3 s−1 or mol dm−3 s−1.",
+      "tags": ["core", "investigation", "reaction-rate"]
+    },
+    {
+      "id": "C1.1-13",
+      "q": "Explain what an energy-profile graph shows about enzyme action.",
+      "a": "Activation energy is the minimum energy barrier that reactants must overcome for a reaction to occur. An enzyme provides an alternative reaction pathway with lower activation energy, so a larger proportion of collisions can lead to reaction at the same temperature. The enzyme doesn’t change the energy difference between reactants and products and isn’t used up.",
+      "tags": ["core", "activation-energy", "graphs"]
+    },
+    {
+      "id": "C1.1-14",
+      "q": "Distinguish intracellular from extracellular enzyme-catalyzed reactions using named examples.",
+      "a": "Intracellular reactions occur inside cells, such as glycolysis in the cytoplasm and Krebs-cycle reactions in the mitochondrial matrix. Extracellular reactions occur outside cells after enzymes have been secreted, such as the digestion of starch, proteins and lipids in the gut by amylase, proteases and lipases.",
+      "note": "Extracellular enzymes are synthesized inside cells before secretion.",
+      "tags": ["hl", "intracellular", "extracellular"]
+    },
+    {
+      "id": "C1.1-15",
+      "q": "Explain why metabolism generates heat and how this benefits mammals and birds.",
+      "a": "Energy transfers in metabolic reactions aren’t completely efficient, so some chemical energy is dispersed as heat. Mammals and birds use this metabolic heat to help maintain a body temperature above the environment. Increased respiration during muscle contraction, including shivering, raises heat production when the body is cold.",
+      "tags": ["hl", "metabolic-heat", "thermoregulation"]
+    },
+    {
+      "id": "C1.1-16",
+      "q": "Distinguish linear and cyclical metabolic pathways and name the syllabus examples.",
+      "a": "In a linear pathway, an initial substrate is converted through a sequence of intermediates into a different final product; glycolysis is an example. In a cyclical pathway, a starting acceptor molecule is regenerated after a sequence of reactions, allowing the cycle to continue; the Krebs cycle and Calvin cycle are examples.",
+      "tags": ["hl", "metabolic-pathways", "cycles"]
+    },
+    {
+      "id": "C1.1-17",
+      "q": "Compare competitive and non-competitive inhibition, including the effect of increasing substrate concentration.",
+      "a": "A competitive inhibitor binds reversibly to the active site and blocks substrate binding. Increasing substrate concentration makes substrate binding more likely and can restore the maximum rate; statins competitively inhibit HMG-CoA reductase in cholesterol synthesis. A non-competitive inhibitor binds reversibly to a specific allosteric site, changes the active site’s conformation and lowers the amount of functional enzyme. Extra substrate can’t restore the original maximum rate.",
+      "note": "The syllabus uses reversible allosteric binding for non-competitive inhibition.",
+      "tags": ["hl", "inhibition", "statins"]
+    },
+    {
+      "id": "C1.1-18",
+      "q": "Connect feedback inhibition and mechanism-based inhibition in one comparison, using the required named examples.",
+      "a": "Both processes reduce enzyme activity, but feedback inhibition regulates a pathway reversibly: accumulated isoleucine binds allosterically to threonine deaminase, inhibiting the first step of its own synthesis until isoleucine concentration falls. In mechanism-based inhibition, penicillin binds at the active site of bacterial transpeptidase and forms an irreversible covalent attachment, preventing peptidoglycan cross-linking. A genetically altered transpeptidase with reduced affinity for penicillin can confer resistance while retaining its catalytic function.",
+      "note": "This synthesis answer separates reversible regulation from irreversible chemical inactivation.",
+      "tags": ["hl", "feedback-inhibition", "mechanism-based-inhibition", "synthesis"]
+    }
+  ]
+}

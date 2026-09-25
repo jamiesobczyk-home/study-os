@@ -1,0 +1,125 @@
+{
+  "topic": "C3.1",
+  "title": "Integration of body systems",
+  "cards": [
+    {
+      "id": "C3.1-01",
+      "q": "Explain why system integration is necessary in a multicellular organism, using the hierarchy of organization and an emergent property.",
+      "a": "Specialized cells cooperate in tissues, tissues form organs, and organs interact in body systems. Nervous signals, hormones and transported materials coordinate these subsystems so the organism can perform functions that no component could perform alone. These whole-organism abilities are emergent properties. For example, effective pursuit by a cheetah emerges from coordinated sensory, nervous, muscular, respiratory and circulatory activity.",
+      "note": "An emergent property comes from interactions among parts. It isn’t another level in the hierarchy.",
+      "tags": ["core", "integration", "hierarchy", "synthesis"]
+    },
+    {
+      "id": "C3.1-02",
+      "q": "Compare nervous and hormonal signaling, including the signal, route, speed, duration and range of targets.",
+      "a": "Nervous signaling uses electrical impulses along neurons and neurotransmitters across synapses. It’s usually rapid, brief and directed to specific effectors connected by neurons. Hormonal signaling uses chemical messengers secreted into the blood. It’s generally slower and longer-lasting, and a hormone can reach many tissues, although only cells with the matching receptor respond.",
+      "note": "Hormones don’t affect every cell they reach. Target cells need the appropriate receptor.",
+      "tags": ["core", "nervous-system", "endocrine-system"]
+    },
+    {
+      "id": "C3.1-03",
+      "q": "Explain how the blood system contributes to integration between organs.",
+      "a": "Blood transports materials and energy between organs, including oxygen from lungs, nutrients from the digestive system, hormones from endocrine glands and chemical energy in molecules such as glucose. It also carries carbon dioxide and other wastes away from tissues. This transport lets organs exchange resources and chemical signals rather than operating independently.",
+      "tags": ["core", "blood", "integration"]
+    },
+    {
+      "id": "C3.1-04",
+      "q": "Distinguish the integration roles of the brain and spinal cord, including conscious and unconscious processing.",
+      "a": "The brain combines information from several inputs and supports conscious perception, learning and memory. The cerebral hemispheres can generate motor output for voluntary movement. The spinal cord carries information between the body and brain and can integrate unconscious responses, including withdrawal reflexes, without waiting for conscious processing.",
+      "note": "The brain can receive information about a painful stimulus, but the spinal cord can initiate withdrawal before conscious awareness.",
+      "tags": ["core", "brain", "spinal-cord"]
+    },
+    {
+      "id": "C3.1-05",
+      "q": "Trace information from a receptor to the central nervous system and then from the cerebral hemispheres to a skeletal muscle.",
+      "a": "A receptor detects a stimulus and the associated sensory neuron carries nerve impulses toward the spinal cord and cerebral hemispheres. After integration in the central nervous system, motor output from the cerebral hemispheres travels through motor neurons to skeletal muscle. The motor signal stimulates the muscle to contract.",
+      "tags": ["core", "sensory-neuron", "motor-neuron"]
+    },
+    {
+      "id": "C3.1-06",
+      "q": "Describe what a transverse section of a nerve can show, and correct the claim that a nerve is one neuron.",
+      "a": "A nerve is a bundle of nerve fibres enclosed by a protective connective-tissue sheath, not one neuron. A transverse section can show bundles containing myelinated fibres, which have visible myelin around them, and unmyelinated fibres. A nerve may contain sensory fibres, motor fibres or both.",
+      "note": "A nerve fibre is usually an axon. A nerve is the larger bundle containing many fibres.",
+      "tags": ["core", "nerve", "structure", "misconception"]
+    },
+    {
+      "id": "C3.1-07",
+      "q": "Trace the complete pain withdrawal reflex from a harmful stimulus at the hand to contraction of skeletal muscle.",
+      "a": "A harmful stimulus activates a free sensory nerve ending in the hand. A sensory neuron carries impulses into the spinal cord, where it communicates through a synapse with a single interneuron in the grey matter. The interneuron communicates with a motor neuron, which carries impulses to a skeletal muscle. The muscle contracts and withdraws the hand in a rapid, involuntary response.",
+      "note": "Keep the order: receptor, sensory neuron, interneuron, motor neuron, effector.",
+      "tags": ["core", "reflex", "spinal-cord"]
+    },
+    {
+      "id": "C3.1-08",
+      "q": "Explain the cerebellum’s role in movement and balance.",
+      "a": "The cerebellum receives information relevant to body position and intended movement, then helps coordinate the timing and force of skeletal muscle contractions. Its output makes movements smooth and coordinated and helps maintain posture and balance. It coordinates movement rather than directly initiating the pain withdrawal reflex.",
+      "tags": ["core", "cerebellum", "movement"]
+    },
+    {
+      "id": "C3.1-09",
+      "q": "Explain how melatonin secretion helps establish a circadian sleep–wake cycle.",
+      "a": "Melatonin is secreted by the pineal gland as part of a circadian rhythm. Secretion normally rises during darkness and falls during daylight. Higher melatonin levels promote preparation for sleep, so the daily pattern helps establish a repeating cycle of sleeping and waking.",
+      "note": "Melatonin modulates the timing of sleep. It doesn’t act as an on–off switch that guarantees sleep.",
+      "tags": ["core", "melatonin", "circadian-rhythm"]
+    },
+    {
+      "id": "C3.1-10",
+      "q": "Explain how epinephrine prepares the body for vigorous activity by coordinating several organs.",
+      "a": "The adrenal glands secrete epinephrine into the blood. It increases heart rate and cardiac output, increases ventilation and dilates the bronchi and bronchioles. It promotes the release of glucose from energy stores and redirects blood flow toward skeletal muscles. Together, these effects increase the delivery of oxygen and respiratory substrates needed for intense muscle contraction.",
+      "tags": ["core", "epinephrine", "endocrine-system", "synthesis"]
+    },
+    {
+      "id": "C3.1-11",
+      "q": "Outline how the hypothalamus and pituitary gland link nervous information to endocrine control.",
+      "a": "The hypothalamus receives and integrates information about internal and external conditions. It controls secretion from the pituitary gland through neural or chemical signals. The pituitary releases hormones that regulate other endocrine glands or target organs, allowing the hypothalamus to coordinate endocrine responses with information processed by the nervous system.",
+      "note": "C3.1 requires the general control relationship, not the different mechanisms of the anterior and posterior pituitary.",
+      "tags": ["core", "hypothalamus", "pituitary"]
+    },
+    {
+      "id": "C3.1-12",
+      "q": "Explain feedback control of heart rate after baroreceptors or chemoreceptors detect a change.",
+      "a": "Baroreceptors in the carotid arteries and aortic arch detect changes in blood pressure. Chemoreceptors in the carotid and aortic bodies and brainstem detect chemical conditions including blood pH and carbon dioxide or oxygen concentration. Sensory input reaches the medulla, which integrates it and changes autonomic nerve signals to the heart. These signals alter heart rate and the force of contraction, changing cardiac output and stroke volume as required.",
+      "tags": ["core", "heart-rate", "feedback", "receptors"]
+    },
+    {
+      "id": "C3.1-13",
+      "q": "Explain the feedback loop that increases ventilation during vigorous exercise, including the cause of the blood pH change.",
+      "a": "Vigorous exercise increases cellular respiration and carbon dioxide production. Carbon dioxide reacts with water in the blood, increasing hydrogen ion concentration and lowering pH. Chemoreceptors detect the changed blood chemistry and send information to the brainstem. The medulla increases motor signals to the diaphragm and intercostal muscles, raising ventilation rate and removing carbon dioxide more rapidly.",
+      "note": "The chemoreceptors respond strongly to carbon dioxide-related pH change. Saying that low oxygen alone causes the response misses the main chain.",
+      "tags": ["core", "ventilation", "feedback", "chemoreceptors"]
+    },
+    {
+      "id": "C3.1-14",
+      "q": "Distinguish voluntary and involuntary control of material moving into, through and out of the digestive system.",
+      "a": "The central nervous system provides voluntary control over the initiation of swallowing and the egestion of faeces. Between these endpoints, the enteric nervous system provides involuntary control of coordinated peristaltic contractions. These waves move material through the gut in the correct direction.",
+      "tags": ["core", "peristalsis", "enteric-nervous-system"]
+    },
+    {
+      "id": "C3.1-15",
+      "q": "Explain positive phototropism and describe how observations of it can be recorded.",
+      "a": "Positive phototropism is directional growth of a plant shoot toward lateral light. A qualitative record could use labeled diagrams or descriptions of the shoot’s curvature. A quantitative record could measure the angle of curvature over time. Repeated measurements, controlled conditions and a consistent method improve reliability and precision.",
+      "tags": ["hl", "phototropism", "data"]
+    },
+    {
+      "id": "C3.1-16",
+      "q": "Explain how auxin efflux carriers can produce a concentration gradient of auxin through plant tissue.",
+      "a": "Auxin can enter plant cells, but its exit depends on auxin efflux carriers in the cell membrane. When cells coordinate placement of these carriers on the same side, auxin leaves each cell in a consistent direction. Repeated transport from cell to cell moves auxin through the tissue and can concentrate it in one region, maintaining a concentration gradient.",
+      "note": "The gradient depends on asymmetric carrier placement across many coordinated cells.",
+      "tags": ["hl", "auxin", "membrane-transport"]
+    },
+    {
+      "id": "C3.1-17",
+      "q": "Explain how auxin causes a shoot to bend toward lateral light, from the auxin gradient to unequal cell elongation.",
+      "a": "Lateral light results in a higher auxin concentration on the shaded side of the shoot. Auxin promotes active secretion of hydrogen ions into the apoplast, lowering the pH of the cell wall. Acidification loosens cross-links between cellulose components, allowing the wall to extend as water enters and turgor pressure acts on it. Cells on the shaded side elongate more, so the shoot curves toward the light.",
+      "note": "Auxin doesn’t make cells migrate toward light. Unequal elongation produces the bend.",
+      "tags": ["hl", "auxin", "phototropism", "cell-elongation"]
+    },
+    {
+      "id": "C3.1-18",
+      "q": "Explain how auxin, cytokinin and ethylene provide two different examples of integration in plants.",
+      "a": "Shoot tips produce auxin, which is transported toward roots, while root tips produce cytokinin, which is transported toward shoots. Interactions between these phytohormones coordinate root and shoot growth. In ripening fruit, ethylene promotes ripening changes, and ripening increases ethylene production. That positive feedback spreads and amplifies the response, producing rapid, synchronized ripening.",
+      "note": "The auxin–cytokinin example coordinates different plant regions. The ethylene example amplifies one process through positive feedback.",
+      "tags": ["hl", "phytohormones", "ethylene", "positive-feedback", "synthesis"]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "topic": "C1.3",
+  "title": "Photosynthesis",
+  "cards": [
+    {
+      "id": "C1.3-01",
+      "q": "Explain how photosynthesis transforms energy rather than creating it.",
+      "a": "Photosynthetic pigments absorb light energy. That energy drives reactions that produce ATP and reduced NADP, which are used to convert carbon dioxide into carbon compounds. Energy from light is therefore transformed into chemical energy stored in the bonds of carbon compounds.",
+      "note": "Matter is rearranged and energy is transformed. Neither one is created.",
+      "tags": ["core", "energy", "overview"]
+    },
+    {
+      "id": "C1.3-02",
+      "q": "State the sources of the carbon, hydrogen and released oxygen in oxygenic photosynthesis, then explain the common misconception.",
+      "a": "The carbon in glucose comes from carbon dioxide. Hydrogen used to reduce carbon compounds comes from water. The oxygen gas released by plants, algae and cyanobacteria comes from the photolysis of water, not from splitting carbon dioxide.",
+      "note": "The oxygen atoms in released O2 come from water. Carbon dioxide supplies carbon for carbohydrate production.",
+      "tags": ["core", "reactants", "misconception"]
+    },
+    {
+      "id": "C1.3-03",
+      "q": "Explain why a leaf appears green and why red and blue light usually support faster photosynthesis than green light.",
+      "a": "Chlorophyll absorbs red and blue wavelengths strongly but absorbs green wavelengths less strongly. Much of the green light is reflected or transmitted, so the leaf appears green. Since more red and blue light is absorbed, those wavelengths usually provide more energy for photosynthesis.",
+      "tags": ["core", "pigments", "wavelength"]
+    },
+    {
+      "id": "C1.3-04",
+      "q": "Distinguish an absorption spectrum from an action spectrum and explain why their peaks tend to correspond.",
+      "a": "An absorption spectrum shows the proportion of different wavelengths absorbed by a pigment. An action spectrum shows the rate of photosynthesis at different wavelengths. Their peaks tend to correspond because wavelengths absorbed by photosynthetic pigments can supply energy for photosynthesis, although the action spectrum reflects the combined effects of several pigments.",
+      "note": "One graph measures light absorption. The other measures a biological rate.",
+      "tags": ["core", "spectra", "data"]
+    },
+    {
+      "id": "C1.3-05",
+      "q": "Describe how to separate leaf pigments by chromatography and calculate an Rf value.",
+      "a": "A concentrated pigment extract is placed on a pencil baseline. The chromatogram is placed in solvent with the spot above the solvent level. As the solvent moves, pigments travel different distances because they differ in solubility in the mobile phase and attraction to the stationary phase. For each pigment, Rf equals the distance from the baseline to the center of the pigment band divided by the distance from the baseline to the solvent front.",
+      "note": "Both distances must be measured from the same baseline. The solvent front should be marked before it evaporates.",
+      "tags": ["core", "chromatography", "practical"]
+    },
+    {
+      "id": "C1.3-06",
+      "q": "Explain how an unknown photosynthetic pigment can be identified from a chromatogram without relying on its color alone.",
+      "a": "Its Rf value is calculated and compared with reference values from known pigments run under the same conditions. A matching Rf value and band color can support identification, but Rf values depend on the solvent, stationary phase and other conditions.",
+      "tags": ["core", "chromatography", "data"]
+    },
+    {
+      "id": "C1.3-07",
+      "q": "Design an investigation into the effect of light intensity on the rate of photosynthesis in an aquatic plant.",
+      "a": "Use the same length and species of aquatic plant in a fixed volume and concentration of carbon dioxide solution. Change light intensity with a lamp or neutral-density filters and measure the actual intensity with a light meter. Measure photosynthetic rate from oxygen production with a gas syringe or oxygen sensor over a fixed time. Keep temperature, wavelength, carbon dioxide concentration and plant surface area controlled, repeat each intensity and calculate a mean.",
+      "note": "Moving a lamp can change temperature as well as light intensity, so monitor or control temperature.",
+      "tags": ["core", "limiting-factors", "practical"]
+    },
+    {
+      "id": "C1.3-08",
+      "q": "A graph of photosynthetic rate against light intensity rises and then reaches a plateau. Explain both parts of the graph.",
+      "a": "At low light intensity, light limits photosynthesis, so increasing it raises the rate. At the plateau, light is no longer limiting and another factor, such as carbon dioxide concentration or temperature, restricts the rate. Increasing light further therefore produces little or no increase.",
+      "note": "A plateau doesn’t mean photosynthesis has reached an absolute maximum under every condition.",
+      "tags": ["core", "limiting-factors", "graphs"]
+    },
+    {
+      "id": "C1.3-09",
+      "q": "Explain how carbon dioxide enrichment experiments can inform predictions about future plant growth, and give one limitation.",
+      "a": "Researchers grow plants at different carbon dioxide concentrations while measuring photosynthesis, biomass or yield. If carbon dioxide is limiting, enrichment can increase photosynthetic rate and growth, but the response may level off when light, temperature, water or mineral nutrients become limiting. Predictions remain uncertain because controlled chambers may alter growing conditions and short experiments may not reproduce long-term ecosystem responses.",
+      "tags": ["core", "carbon-dioxide", "evaluation"]
+    },
+    {
+      "id": "C1.3-10",
+      "q": "Explain how a photosystem causes the emission of an excited electron.",
+      "a": "A photosystem is an organized array of pigment molecules and proteins in a membrane. Pigments absorb photons and transfer excitation energy between neighboring pigments toward a reaction-center chlorophyll. The reaction-center chlorophyll becomes excited and transfers a high-energy electron to an electron acceptor.",
+      "tags": ["hl", "photosystems", "light-dependent"]
+    },
+    {
+      "id": "C1.3-11",
+      "q": "Explain the advantages of having several pigment types arranged in a photosystem.",
+      "a": "Different pigments absorb different ranges of wavelengths, so together they capture more of the available light spectrum than one pigment could. Their organized positions allow excitation energy to pass toward the reaction center efficiently, increasing the chance that absorbed energy drives electron emission rather than being lost.",
+      "tags": ["hl", "photosystems", "pigments"]
+    },
+    {
+      "id": "C1.3-12",
+      "q": "Describe photolysis in photosystem II and give the destination or role of each product.",
+      "a": "Light energy drives the splitting of water into electrons, protons and oxygen. The electrons replace those emitted from the reaction-center chlorophyll of photosystem II. The protons contribute to the proton concentration in the thylakoid lumen, and oxygen is released as a by-product.",
+      "note": "Photolysis replaces electrons in photosystem II. It doesn't replace electrons lost from photosystem I directly.",
+      "tags": ["hl", "photolysis", "photosystem-ii"]
+    },
+    {
+      "id": "C1.3-13",
+      "q": "Explain ATP production by chemiosmosis in a chloroplast, including both sides of the thylakoid membrane.",
+      "a": "Excited electrons from photosystem II pass through an electron transport chain in the thylakoid membrane. Energy released during electron transfer is used to move protons from the stroma into the thylakoid lumen, and photolysis adds protons to the lumen. The resulting electrochemical gradient drives protons back into the stroma through ATP synthase. ATP synthase uses this flow to phosphorylate ADP, producing ATP.",
+      "note": "Electron transfer builds the gradient. Proton flow through ATP synthase produces ATP.",
+      "tags": ["hl", "chemiosmosis", "atp"]
+    },
+    {
+      "id": "C1.3-14",
+      "q": "Explain how photosystem I leads to the production of reduced NADP.",
+      "a": "Electrons arriving from the electron transport chain replace electrons emitted by photosystem I. Light excites the reaction-center chlorophyll of photosystem I, and high-energy electrons are transferred to an acceptor. These electrons, together with protons, are used to reduce NADP to reduced NADP, often written NADPH.",
+      "tags": ["hl", "photosystem-i", "reduced-nadp"]
+    },
+    {
+      "id": "C1.3-15",
+      "q": "Explain why thylakoids are effective systems for carrying out the light-dependent reactions.",
+      "a": "The thylakoid membrane holds photosystems, electron carriers and ATP synthase in an organized arrangement. It separates the thylakoid lumen from the stroma, allowing a proton gradient to develop across the membrane. Its extensive surface provides space for many light-absorbing and ATP-producing complexes.",
+      "tags": ["hl", "thylakoids", "structure-function"]
+    },
+    {
+      "id": "C1.3-16",
+      "q": "Explain carbon fixation and the formation of glycerate 3-phosphate in the Calvin cycle.",
+      "a": "Rubisco catalyzes the reaction of carbon dioxide with the five-carbon compound RuBP. The resulting six-carbon intermediate is unstable and splits into two molecules of the three-carbon compound glycerate 3-phosphate.",
+      "note": "Rubisco is the enzyme. RuBP is the carbon dioxide acceptor.",
+      "tags": ["hl", "calvin-cycle", "carbon-fixation"]
+    },
+    {
+      "id": "C1.3-17",
+      "q": "Explain what happens to glycerate 3-phosphate and triose phosphate during the rest of the Calvin cycle.",
+      "a": "Glycerate 3-phosphate is converted to triose phosphate using ATP and reducing power from reduced NADP. Some triose phosphate leaves the cycle and is used to produce carbohydrates and other carbon compounds. Most remains in the cycle and is rearranged, using ATP, to regenerate RuBP so carbon fixation can continue.",
+      "tags": ["hl", "calvin-cycle", "triose-phosphate"]
+    },
+    {
+      "id": "C1.3-18",
+      "q": "Construct a complete explanation of how the light-dependent reactions and Calvin cycle depend on each other and support synthesis of different carbon compounds.",
+      "a": "The light-dependent reactions use light and water to produce ATP and reduced NADP, releasing oxygen. The Calvin cycle uses ATP and reduced NADP to fix carbon dioxide, reduce glycerate 3-phosphate to triose phosphate and regenerate RuBP. It returns ADP, inorganic phosphate and NADP to the light-dependent reactions. Triose phosphate can be used to make carbohydrates, while mineral nutrients supply elements such as nitrogen needed to make amino acids and other compounds.",
+      "note": "ATP supplies energy, while reduced NADP supplies reducing power. They aren't interchangeable.",
+      "tags": ["hl", "synthesis", "interdependence"]
+    }
+  ]
+}

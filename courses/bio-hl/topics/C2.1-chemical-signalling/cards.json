@@ -1,0 +1,110 @@
+{
+  "topic": "C2.1",
+  "title": "Chemical signalling",
+  "cards": [
+    {
+      "id": "C2.1-01",
+      "q": "Explain why one signalling chemical affects some cells but leaves other cells without a response.",
+      "a": "A signalling chemical acts as a ligand and binds to a receptor with a complementary binding site. Only target cells expressing that receptor can detect the ligand and begin the relevant signal transduction pathway. Other cells may be exposed to the ligand but lack the receptor, so they don’t produce that response.",
+      "note": "A hormone reaching a cell isn’t enough. The cell must have the matching receptor.",
+      "tags": ["core", "ligand", "receptor"]
+    },
+    {
+      "id": "C2.1-02",
+      "q": "Explain how quorum sensing makes bioluminescence depend on population density in Vibrio fischeri.",
+      "a": "Each bacterium releases a signalling molecule called an autoinducer. At low population density, the molecules diffuse away and remain below the concentration needed to activate their receptors. As the population becomes denser, the autoinducer concentration rises. When it reaches a threshold, receptor activation changes gene expression and the bacteria produce enzymes for bioluminescence.",
+      "note": "The bacteria respond to autoinducer concentration, which provides information about population density.",
+      "tags": ["core", "quorum-sensing", "bacteria"]
+    },
+    {
+      "id": "C2.1-03",
+      "q": "Distinguish hormones, neurotransmitters, cytokines and calcium ions as signalling chemicals in animals.",
+      "a": "Hormones are released into the blood and act on target cells that may be distant. Neurotransmitters are released by neurons and diffuse across a narrow synaptic gap to nearby cells. Cytokines are signalling proteins or peptides released by cells and often act locally in immune or inflammatory responses. A change in cytoplasmic Ca²⁺ concentration can act inside a cell as a second messenger.",
+      "tags": ["core", "signal-types"]
+    },
+    {
+      "id": "C2.1-04",
+      "q": "Describe the chemical diversity of hormones and neurotransmitters and explain why one chemical type can’t serve every signalling role.",
+      "a": "Hormones include amines, proteins and steroids. Neurotransmitters include amino acids, peptides, amines and gases such as nitric oxide. Different chemical properties affect solubility, transport, ability to cross membranes, receptor location and how quickly a signal is removed. This allows signalling systems to operate over different distances and timescales and to produce different responses.",
+      "tags": ["core", "chemical-diversity"]
+    },
+    {
+      "id": "C2.1-05",
+      "q": "Contrast the distance and route involved in hormonal and neurotransmitter signalling.",
+      "a": "An endocrine cell releases a hormone into the blood, which transports it throughout the body. Only cells with the corresponding receptor respond, and these targets may be distant from the source. A neuron releases a neurotransmitter into a synaptic gap, across which it diffuses over a very short distance to receptors on a nearby postsynaptic cell.",
+      "note": "Hormones may also affect nearby targets. The key contrast is blood transport versus diffusion across a synaptic gap.",
+      "tags": ["core", "hormones", "neurotransmitters"]
+    },
+    {
+      "id": "C2.1-06",
+      "q": "Compare the locations and structures of transmembrane and intracellular receptors, including the ligands that reach them.",
+      "a": "A transmembrane receptor spans the plasma membrane. Hydrophobic amino acid side chains face the non-polar interior of the bilayer, while hydrophilic regions face the extracellular fluid and cytoplasm. It binds a hydrophilic ligand that remains outside the cell and transfers the signal across the membrane. An intracellular receptor is in the cytoplasm or nucleus and binds a hydrophobic ligand, such as a steroid, that can diffuse through the bilayer.",
+      "note": "The ligand doesn’t need to enter through a transmembrane receptor. Receptor activation carries the information across.",
+      "tags": ["core", "receptors", "membranes"]
+    },
+    {
+      "id": "C2.1-07",
+      "q": "Explain what happens between a ligand binding to a receptor and the target cell producing a response.",
+      "a": "The ligand binds specifically to the receptor and changes the receptor’s conformation. The activated receptor begins a sequence of intracellular events called a signal transduction pathway. Relay proteins, second messengers or phosphorylation reactions can pass on and amplify the signal, eventually changing ion movement, enzyme activity, vesicle position or gene expression.",
+      "tags": ["hl", "signal-transduction"]
+    },
+    {
+      "id": "C2.1-08",
+      "q": "Explain how acetylcholine changes the membrane potential of a postsynaptic cell.",
+      "a": "Acetylcholine diffuses across the synaptic gap and binds to a transmembrane acetylcholine receptor on the postsynaptic membrane. The receptor changes shape and opens its ligand-gated ion channel. Positively charged ions diffuse into the cell down their electrochemical gradient, making the inside less negative and changing the membrane potential.",
+      "note": "Acetylcholine doesn’t enter the postsynaptic cell. It opens a channel within the receptor.",
+      "tags": ["hl", "acetylcholine", "ion-channel"]
+    },
+    {
+      "id": "C2.1-09",
+      "q": "Outline how ligand binding to a G protein-coupled receptor activates proteins inside a cell.",
+      "a": "A ligand binds to the extracellular region of a G protein-coupled receptor and changes its conformation. The receptor activates a G protein on the cytoplasmic side of the membrane by promoting replacement of GDP with GTP. Part of the activated G protein interacts with an effector protein, starting an intracellular response. Hydrolysis of GTP to GDP helps return the G protein to its inactive state.",
+      "tags": ["hl", "gpcr", "g-protein"]
+    },
+    {
+      "id": "C2.1-10",
+      "q": "Explain the signalling pathway from epinephrine binding at the plasma membrane to a response inside the cell.",
+      "a": "Epinephrine binds to a G protein-coupled receptor but remains outside the cell. The activated receptor activates a G protein, which activates adenylyl cyclase in the membrane. Adenylyl cyclase converts ATP to cAMP. cAMP acts as a second messenger and activates an intracellular enzyme cascade, producing responses such as increased glycogen breakdown.",
+      "note": "Epinephrine is the first messenger. cAMP is the second messenger inside the cell.",
+      "tags": ["hl", "epinephrine", "camp", "gpcr"]
+    },
+    {
+      "id": "C2.1-11",
+      "q": "Explain how insulin signalling increases glucose uptake by a target cell.",
+      "a": "Insulin binds to its transmembrane receptor and activates tyrosine kinase activity on the cytoplasmic side. Tyrosine residues are phosphorylated, beginning a sequence of intracellular reactions. The pathway causes vesicles containing glucose transporters to move to and fuse with the plasma membrane. The increased number of transporters allows more glucose to enter by facilitated diffusion.",
+      "note": "Insulin doesn’t transport glucose. It increases the number of glucose transport proteins in the membrane.",
+      "tags": ["hl", "insulin", "tyrosine-kinase", "glucose"]
+    },
+    {
+      "id": "C2.1-12",
+      "q": "Explain how a steroid hormone can change gene expression in a target cell.",
+      "a": "A steroid hormone is hydrophobic and diffuses through the plasma membrane. It binds to an intracellular receptor in the cytoplasm or nucleus and activates it. The hormone-receptor complex binds to a specific DNA sequence and promotes transcription of particular genes. Translation of the resulting mRNA changes the proteins made by the cell and therefore changes cell activity.",
+      "tags": ["hl", "steroid", "intracellular-receptor", "gene-expression"]
+    },
+    {
+      "id": "C2.1-13",
+      "q": "Explain how oestradiol affects GnRH-secreting cells in the hypothalamus.",
+      "a": "Oestradiol is a steroid hormone, so it can diffuse through the plasma membrane of a target cell in the hypothalamus. It binds to an intracellular oestradiol receptor. The activated hormone-receptor complex binds to specific DNA sequences and regulates transcription associated with GnRH production. At high oestradiol concentrations before ovulation, this promotes GnRH secretion and contributes to positive feedback leading to the LH surge.",
+      "tags": ["hl", "oestradiol", "gnrh", "gene-expression"]
+    },
+    {
+      "id": "C2.1-14",
+      "q": "Explain how progesterone acts on endometrial cells and state the resulting effect.",
+      "a": "Progesterone is a steroid hormone that diffuses into endometrial cells and binds to an intracellular receptor. The activated hormone-receptor complex binds to specific DNA sequences and promotes transcription of genes, including genes involved in growth-factor production. The resulting proteins help develop and maintain the endometrium for possible implantation and pregnancy.",
+      "tags": ["hl", "progesterone", "endometrium", "gene-expression"]
+    },
+    {
+      "id": "C2.1-15",
+      "q": "Distinguish positive and negative feedback, then outline one hormonal example of each.",
+      "a": "Positive feedback increases the original stimulus or pathway response. During labor, uterine contractions stimulate oxytocin release, and oxytocin strengthens contractions, causing further release until birth. Negative feedback opposes a change. When blood glucose rises, insulin promotes glucose uptake and storage; the resulting fall in blood glucose reduces the stimulus for insulin secretion.",
+      "tags": ["hl", "feedback", "homeostasis"]
+    },
+    {
+      "id": "C2.1-16",
+      "q": "Compare the complete signalling routes used by acetylcholine, epinephrine, insulin and a steroid hormone.",
+      "a": "Acetylcholine binds a transmembrane receptor that opens an ion channel, so ion diffusion changes membrane potential. Epinephrine binds a GPCR, activating a G protein, adenylyl cyclase and the second messenger cAMP. Insulin binds a receptor with tyrosine kinase activity, causing phosphorylation and movement of glucose transporter vesicles to the membrane. A steroid crosses the membrane, binds an intracellular receptor and changes transcription. In every case, receptor specificity determines the target cell, but the receptor type determines how the signal is transduced.",
+      "note": "This is the topic’s main comparison: same ligand-receptor principle, four different routes to a response.",
+      "tags": ["hl", "synthesis", "pathways"]
+    }
+  ]
+}

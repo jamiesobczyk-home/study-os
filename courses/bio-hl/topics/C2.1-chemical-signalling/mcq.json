@@ -1,0 +1,317 @@
+{
+  "topic": "C2.1",
+  "questions": [
+    {
+      "id": "C2.1-q01",
+      "stem": "Why does a hormone affect only particular target cells?",
+      "options": [
+        {
+          "text": "Only target cells contain receptors with binding sites for that hormone",
+          "correct": true,
+          "why": "Receptor specificity determines which cells detect the hormone. Cells without the matching receptor don’t begin the pathway."
+        },
+        {
+          "text": "Only target cells are supplied with blood carrying that hormone",
+          "correct": false,
+          "why": "Blood can carry a hormone past many cell types. Exposure doesn’t make a cell a target; the matching receptor does."
+        },
+        {
+          "text": "Target cells convert every arriving hormone into a receptor protein",
+          "correct": false,
+          "why": "The receptor is already a protein made by the target cell. The ligand binds to it rather than becoming it."
+        },
+        {
+          "text": "Target cells admit hormones through any channel in their membrane",
+          "correct": false,
+          "why": "Channels are selective transport proteins, not general entrances for hormones. Many hormones remain outside the cell while signalling."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q02",
+      "stem": "What causes Vibrio fischeri to produce bioluminescence at high population density?",
+      "options": [
+        {
+          "text": "The autoinducer reaches a threshold concentration and changes gene expression",
+          "correct": true,
+          "why": "A dense population produces enough autoinducer for receptor activation. The resulting change in gene expression produces the proteins needed for light."
+        },
+        {
+          "text": "Individual bacteria detect physical contact and begin aerobic respiration",
+          "correct": false,
+          "why": "Quorum sensing depends on a diffusible chemical’s concentration, not cells touching. Aerobic respiration isn’t the density-detection mechanism."
+        },
+        {
+          "text": "The bacteria exhaust the autoinducer and release stored light energy",
+          "correct": false,
+          "why": "The signal accumulates rather than becoming exhausted. Light production follows receptor activation and gene expression."
+        },
+        {
+          "text": "A falling nutrient concentration directly opens light-producing ion channels",
+          "correct": false,
+          "why": "The named mechanism uses an accumulating autoinducer and a threshold response. It isn’t caused by opening ion channels."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q03",
+      "stem": "Which description correctly distinguishes a neurotransmitter from a hormone?",
+      "options": [
+        {
+          "text": "A neurotransmitter diffuses across a synaptic gap, while a hormone is transported in blood",
+          "correct": true,
+          "why": "This distinguishes their usual routes and distances. Both still act by binding to receptors on target cells."
+        },
+        {
+          "text": "A neurotransmitter is always a protein, while a hormone is always a steroid",
+          "correct": false,
+          "why": "Both groups are chemically diverse. Neurotransmitters include amino acids, peptides and amines, while hormones include amines, proteins and steroids."
+        },
+        {
+          "text": "A neurotransmitter enters every target cell, while a hormone remains outside",
+          "correct": false,
+          "why": "Membrane crossing depends on chemical properties, not whether the signal is called a hormone or neurotransmitter. Many neurotransmitters stay outside."
+        },
+        {
+          "text": "A neurotransmitter acts throughout the body, while a hormone acts only locally",
+          "correct": false,
+          "why": "That reverses the usual contrast. Neurotransmitters act across narrow synaptic gaps, while blood can carry hormones to distant targets."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q04",
+      "stem": "Which ligand is most likely to bind to an intracellular receptor?",
+      "options": [
+        {
+          "text": "A hydrophobic steroid that can diffuse through the phospholipid bilayer",
+          "correct": true,
+          "why": "A lipid-soluble steroid can cross the membrane and reach a receptor in the cytoplasm or nucleus."
+        },
+        {
+          "text": "A large hydrophilic protein that remains dissolved in extracellular fluid",
+          "correct": false,
+          "why": "A hydrophilic protein can’t cross the non-polar center of the bilayer. It normally binds to a transmembrane receptor."
+        },
+        {
+          "text": "Acetylcholine released into a synaptic gap beside an ion channel",
+          "correct": false,
+          "why": "Acetylcholine binds to a transmembrane ligand-gated ion channel. It doesn’t cross the postsynaptic membrane to find a receptor."
+        },
+        {
+          "text": "Insulin carried in blood to a receptor with tyrosine kinase activity",
+          "correct": false,
+          "why": "Insulin is a protein hormone and binds to a transmembrane insulin receptor. Its signal is relayed by phosphorylation inside the cell."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q05",
+      "stem": "What directly happens when acetylcholine binds to its postsynaptic receptor?",
+      "options": [
+        {
+          "text": "An ion channel in the receptor opens, allowing positive ions to enter",
+          "correct": true,
+          "why": "The acetylcholine receptor is a ligand-gated ion channel. Positive-ion entry changes the voltage across the postsynaptic membrane."
+        },
+        {
+          "text": "The receptor makes cAMP, which carries acetylcholine into the cytoplasm",
+          "correct": false,
+          "why": "That mixes the acetylcholine pathway with GPCR signalling. Acetylcholine opens the receptor channel and stays outside the cell."
+        },
+        {
+          "text": "Tyrosine phosphorylation moves glucose transporter vesicles toward the membrane",
+          "correct": false,
+          "why": "That describes insulin receptor signalling. The acetylcholine receptor changes ion permeability instead."
+        },
+        {
+          "text": "The receptor enters the nucleus and binds to a specific DNA sequence",
+          "correct": false,
+          "why": "That describes an activated intracellular steroid receptor. An acetylcholine receptor remains in the postsynaptic membrane."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q06",
+      "stem": "What is the role of a G protein after a ligand activates a GPCR?",
+      "options": [
+        {
+          "text": "It relays receptor activation to an effector protein on the cytoplasmic side",
+          "correct": true,
+          "why": "The activated G protein interacts with another membrane-associated protein, such as adenylyl cyclase, to continue the pathway."
+        },
+        {
+          "text": "It transports the extracellular ligand through the phospholipid bilayer",
+          "correct": false,
+          "why": "The ligand usually remains outside. The G protein transfers information from the activated receptor rather than transporting the ligand."
+        },
+        {
+          "text": "It binds directly to DNA and promotes transcription of steroid-response genes",
+          "correct": false,
+          "why": "An activated intracellular receptor can bind specific DNA sequences. A G protein instead relays signals near the plasma membrane."
+        },
+        {
+          "text": "It forms a channel that allows positive ions to enter the postsynaptic cell",
+          "correct": false,
+          "why": "That describes a ligand-gated ion channel such as the acetylcholine receptor. G proteins regulate other proteins inside the cell."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q07",
+      "stem": "Which sequence correctly describes epinephrine signalling through cAMP?",
+      "options": [
+        {
+          "text": "GPCR activation, G protein activation, adenylyl cyclase activation, cAMP production",
+          "correct": true,
+          "why": "The receptor activates the G protein, which activates adenylyl cyclase. That enzyme converts ATP to the second messenger cAMP."
+        },
+        {
+          "text": "Epinephrine entry, intracellular receptor activation, DNA binding, cAMP transcription",
+          "correct": false,
+          "why": "That combines steroid signalling with an impossible final step. Epinephrine stays outside, and cAMP is made from ATP rather than transcribed."
+        },
+        {
+          "text": "Ion channel opening, calcium entry, tyrosine phosphorylation, glucose uptake",
+          "correct": false,
+          "why": "These events belong to other signalling routes. The specified epinephrine pathway uses a GPCR, G protein, adenylyl cyclase and cAMP."
+        },
+        {
+          "text": "Insulin receptor activation, transporter fusion, ATP release, cAMP breakdown",
+          "correct": false,
+          "why": "That begins with insulin signalling and doesn’t describe epinephrine. cAMP production follows adenylyl cyclase activation."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q08",
+      "stem": "Why is cAMP called a second messenger in epinephrine signalling?",
+      "options": [
+        {
+          "text": "It is produced inside the cell after the extracellular ligand activates its receptor",
+          "correct": true,
+          "why": "Epinephrine is the first messenger outside the cell. cAMP relays that signal to intracellular proteins."
+        },
+        {
+          "text": "It is the second hormone released by the adrenal gland during exercise",
+          "correct": false,
+          "why": "cAMP isn’t a hormone released into blood. It’s produced and used inside the target cell."
+        },
+        {
+          "text": "It carries epinephrine through blood before delivering it to target cells",
+          "correct": false,
+          "why": "Epinephrine travels through blood without cAMP carrying it. cAMP appears only after receptor activation."
+        },
+        {
+          "text": "It binds first to the receptor and then passes the receptor to epinephrine",
+          "correct": false,
+          "why": "Epinephrine binds the receptor first. cAMP is produced later on the intracellular side of the pathway."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q09",
+      "stem": "What is the immediate consequence of activating an insulin receptor?",
+      "options": [
+        {
+          "text": "Tyrosine residues on the intracellular receptor region become phosphorylated",
+          "correct": true,
+          "why": "The insulin receptor has tyrosine kinase activity. Its phosphorylation starts the intracellular reaction sequence."
+        },
+        {
+          "text": "The receptor opens a channel through which glucose and insulin enter",
+          "correct": false,
+          "why": "The insulin receptor isn’t a glucose channel. Its signalling pathway moves separate glucose transporters into the membrane."
+        },
+        {
+          "text": "Insulin binds directly to DNA and promotes glucose transporter transcription",
+          "correct": false,
+          "why": "Insulin is a protein hormone that remains outside the cell. Direct DNA binding describes activated intracellular steroid receptors."
+        },
+        {
+          "text": "A G protein activates adenylyl cyclase to make the second messenger cAMP",
+          "correct": false,
+          "why": "That describes the specified epinephrine GPCR pathway. Insulin uses a receptor with tyrosine kinase activity."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q10",
+      "stem": "How does insulin signalling increase glucose entry into a target cell?",
+      "options": [
+        {
+          "text": "It causes vesicles containing glucose transporters to fuse with the plasma membrane",
+          "correct": true,
+          "why": "Fusion adds more glucose transporters to the membrane. Glucose then enters through them by facilitated diffusion."
+        },
+        {
+          "text": "It allows insulin molecules to bind glucose and carry it across the bilayer",
+          "correct": false,
+          "why": "Insulin is a signal rather than a glucose carrier. Membrane transport proteins provide the route for glucose."
+        },
+        {
+          "text": "It converts glucose into a hydrophobic molecule that diffuses through phospholipids",
+          "correct": false,
+          "why": "Glucose remains polar and can’t diffuse freely through the bilayer. Transporter proteins are needed."
+        },
+        {
+          "text": "It opens the insulin receptor as a glucose-selective ligand-gated channel",
+          "correct": false,
+          "why": "The insulin receptor is a receptor tyrosine kinase, not a glucose channel. Separate transporters move to the membrane."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q11",
+      "stem": "What does an activated steroid hormone-receptor complex do?",
+      "options": [
+        {
+          "text": "It binds to specific DNA sequences and regulates gene transcription",
+          "correct": true,
+          "why": "The activated intracellular receptor acts as a regulator of transcription, changing which proteins the target cell produces."
+        },
+        {
+          "text": "It opens an ion channel and changes the postsynaptic membrane potential",
+          "correct": false,
+          "why": "That describes acetylcholine binding to a ligand-gated ion channel. Steroid receptors regulate gene expression."
+        },
+        {
+          "text": "It activates adenylyl cyclase and converts extracellular ATP into cAMP",
+          "correct": false,
+          "why": "That resembles GPCR signalling, although ATP and cAMP remain intracellular. Steroid-receptor complexes act at DNA."
+        },
+        {
+          "text": "It phosphorylates tyrosine and inserts glucose transporters into the membrane",
+          "correct": false,
+          "why": "That describes the insulin receptor pathway. Steroids bind intracellular receptors and regulate transcription."
+        }
+      ]
+    },
+    {
+      "id": "C2.1-q12",
+      "stem": "Which change is an example of positive feedback?",
+      "options": [
+        {
+          "text": "Oxytocin strengthens uterine contractions, which stimulate further oxytocin release",
+          "correct": true,
+          "why": "The response reinforces the initiating stimulus, so the cycle becomes stronger until birth ends it."
+        },
+        {
+          "text": "Insulin lowers blood glucose, reducing the stimulus for further insulin secretion",
+          "correct": false,
+          "why": "That’s negative feedback because the response reduces the original high-glucose stimulus."
+        },
+        {
+          "text": "A neurotransmitter is removed from a synapse after activating its receptor",
+          "correct": false,
+          "why": "Signal removal limits a response, but this statement doesn’t describe a response reinforcing its own stimulus."
+        },
+        {
+          "text": "A G protein hydrolyzes GTP and returns to its inactive state",
+          "correct": false,
+          "why": "GTP hydrolysis switches off G-protein activity. It doesn’t amplify the original stimulus through a feedback loop."
+        }
+      ]
+    }
+  ]
+}

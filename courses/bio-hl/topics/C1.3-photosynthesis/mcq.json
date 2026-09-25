@@ -1,0 +1,317 @@
+{
+  "topic": "C1.3",
+  "questions": [
+    {
+      "id": "C1.3-q01",
+      "stem": "Where does the oxygen gas released during photosynthesis come from?",
+      "options": [
+        {
+          "text": "Carbon dioxide split during carbon fixation",
+          "correct": false,
+          "why": "Carbon dioxide supplies carbon for organic compounds. Carbon fixation doesn't release oxygen gas."
+        },
+        {
+          "text": "Water split by photolysis at photosystem II",
+          "correct": true,
+          "why": "Photolysis produces electrons, protons and oxygen. The oxygen atoms released as O2 came from water."
+        },
+        {
+          "text": "Glucose broken down during the Calvin cycle",
+          "correct": false,
+          "why": "The Calvin cycle builds carbon compounds rather than breaking glucose down. Glucose breakdown belongs to cell respiration."
+        },
+        {
+          "text": "NADP oxidized beside photosystem I",
+          "correct": false,
+          "why": "NADP gains electrons and protons, so it's reduced. That reaction doesn't produce oxygen."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q02",
+      "stem": "Which measurement is shown on an action spectrum?",
+      "options": [
+        {
+          "text": "Photosynthetic rate at different wavelengths of light",
+          "correct": true,
+          "why": "An action spectrum measures how effective each wavelength is at driving photosynthesis."
+        },
+        {
+          "text": "Light absorption by one pigment at different wavelengths",
+          "correct": false,
+          "why": "That's an absorption spectrum. It measures pigment absorption rather than the rate of the whole process."
+        },
+        {
+          "text": "Pigment movement through a solvent over time",
+          "correct": false,
+          "why": "That's chromatography data. It separates pigments according to their movement through two phases."
+        },
+        {
+          "text": "Oxygen absorption by a leaf at different temperatures",
+          "correct": false,
+          "why": "Photosynthesis normally releases oxygen. Temperature-rate data wouldn't be an action spectrum because wavelength isn't varied."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q03",
+      "stem": "A pigment travels 3.0 cm while the solvent front travels 7.5 cm. What is the pigment's Rf value?",
+      "options": [
+        {
+          "text": "0.40",
+          "correct": true,
+          "why": "Rf is pigment distance divided by solvent-front distance, so 3.0 divided by 7.5 equals 0.40."
+        },
+        {
+          "text": "2.50",
+          "correct": false,
+          "why": "This reverses the ratio. The pigment distance belongs in the numerator."
+        },
+        {
+          "text": "4.50",
+          "correct": false,
+          "why": "This subtracts the two distances. Rf is calculated by division, not subtraction."
+        },
+        {
+          "text": "10.50",
+          "correct": false,
+          "why": "This adds the distances. Rf compares pigment movement with solvent movement as a ratio."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q04",
+      "stem": "Why do pigments in a chromatogram travel different distances?",
+      "options": [
+        {
+          "text": "They absorb different wavelengths and therefore receive different amounts of light",
+          "correct": false,
+          "why": "Different light absorption explains pigment function in a leaf. Chromatographic movement depends on interactions with the mobile and stationary phases."
+        },
+        {
+          "text": "They differ in solubility in the solvent and attraction to the stationary phase",
+          "correct": true,
+          "why": "A pigment that favors the mobile solvent moves farther, while stronger attraction to the stationary phase slows it."
+        },
+        {
+          "text": "They contain different numbers of carbon atoms and are separated by respiration",
+          "correct": false,
+          "why": "Chromatography isn't a metabolic reaction. Carbon number alone doesn't explain movement through the two phases."
+        },
+        {
+          "text": "They react with the solvent to form new pigments of different colors",
+          "correct": false,
+          "why": "The goal is to separate the pigments already present. Chemical conversion would prevent reliable identification."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q05",
+      "stem": "Photosynthetic rate stops increasing at high light intensity. What is the best explanation?",
+      "options": [
+        {
+          "text": "The pigments have stopped absorbing light permanently",
+          "correct": false,
+          "why": "A plateau doesn't show permanent damage to the pigments. It shows that added light no longer raises the rate under those conditions."
+        },
+        {
+          "text": "Light has become inhibitory at every intensity tested",
+          "correct": false,
+          "why": "Photoinhibition could lower rate under extreme light, but a level plateau alone doesn't show a decline caused by damage."
+        },
+        {
+          "text": "Another factor has become limiting under these conditions",
+          "correct": true,
+          "why": "Once enough light is available, carbon dioxide concentration, temperature or another factor can restrict the rate."
+        },
+        {
+          "text": "Photosynthesis has stopped because all chlorophyll is saturated with oxygen",
+          "correct": false,
+          "why": "Oxygen saturation of chlorophyll isn't the cause of a normal limiting-factor plateau. Chlorophyll captures light rather than storing oxygen."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q06",
+      "stem": "What is the main advantage of several pigment types in one photosystem?",
+      "options": [
+        {
+          "text": "They absorb a broader range of wavelengths and transfer excitation energy toward the reaction center",
+          "correct": true,
+          "why": "Different pigments extend the usable range of light, and their arrangement channels the captured energy toward reaction-center chlorophyll."
+        },
+        {
+          "text": "They fix several carbon dioxide molecules at once and transfer them directly to rubisco",
+          "correct": false,
+          "why": "Pigments capture light rather than carbon dioxide. Rubisco fixes carbon in the stroma during the Calvin cycle."
+        },
+        {
+          "text": "They split glucose into electrons that replace those lost from the reaction center",
+          "correct": false,
+          "why": "Photolysis of water supplies replacement electrons to photosystem II. Glucose isn't split by a photosystem."
+        },
+        {
+          "text": "They pump protons individually through ATP synthase to produce reduced NADP",
+          "correct": false,
+          "why": "ATP synthase allows protons to move down their gradient and produces ATP. It doesn't produce reduced NADP."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q07",
+      "stem": "Which product of photolysis replaces electrons emitted from photosystem II?",
+      "options": [
+        {
+          "text": "Oxygen",
+          "correct": false,
+          "why": "Oxygen is released as a by-product. It doesn't replace electrons in chlorophyll."
+        },
+        {
+          "text": "Protons",
+          "correct": false,
+          "why": "Protons contribute to the gradient in the thylakoid lumen. They aren't the replacement electrons."
+        },
+        {
+          "text": "Electrons",
+          "correct": true,
+          "why": "Electrons from water replace those emitted by the reaction-center chlorophyll of photosystem II."
+        },
+        {
+          "text": "ATP",
+          "correct": false,
+          "why": "ATP is produced later by chemiosmosis. It isn't a product of photolysis."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q08",
+      "stem": "Which movement directly powers ATP synthase in a chloroplast?",
+      "options": [
+        {
+          "text": "Electrons moving from photosystem II to photosystem I",
+          "correct": false,
+          "why": "Electron movement releases energy used to build the proton gradient. The gradient then powers ATP synthase."
+        },
+        {
+          "text": "Protons moving from the lumen into the stroma",
+          "correct": true,
+          "why": "Protons flow down their electrochemical gradient through ATP synthase, and that flow drives ATP production."
+        },
+        {
+          "text": "Water moving from the stroma into the thylakoid",
+          "correct": false,
+          "why": "Water supplies electrons and protons through photolysis. Bulk water movement through ATP synthase doesn't power the enzyme."
+        },
+        {
+          "text": "Carbon dioxide moving from the stroma into the lumen",
+          "correct": false,
+          "why": "Carbon dioxide is fixed in the stroma. It doesn't cross into the lumen to produce ATP."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q09",
+      "stem": "What happens to an electron at photosystem I?",
+      "options": [
+        {
+          "text": "It is re-excited by light and used in the reduction of NADP",
+          "correct": true,
+          "why": "Light raises the electron to a higher energy level again. The electron then helps reduce NADP."
+        },
+        {
+          "text": "It combines with oxygen to regenerate a molecule of water",
+          "correct": false,
+          "why": "Water is split at photosystem II in the pathway being tested. Oxygen is released rather than used to regenerate water."
+        },
+        {
+          "text": "It enters ATP synthase and phosphorylates ADP directly",
+          "correct": false,
+          "why": "Protons pass through ATP synthase. Electrons help create the proton gradient but don't phosphorylate ADP directly."
+        },
+        {
+          "text": "It binds to RuBP and becomes part of glycerate 3-phosphate",
+          "correct": false,
+          "why": "Carbon dioxide combines with RuBP during carbon fixation. Electrons reach the Calvin cycle through reduced NADP instead."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q10",
+      "stem": "Which statement correctly describes carbon fixation in the Calvin cycle?",
+      "options": [
+        {
+          "text": "RuBP catalyzes the attachment of rubisco to a three-carbon compound",
+          "correct": false,
+          "why": "This swaps enzyme and substrate. Rubisco is the catalyst, and RuBP is a five-carbon carbon dioxide acceptor."
+        },
+        {
+          "text": "Rubisco combines carbon dioxide with RuBP before an unstable six-carbon intermediate splits",
+          "correct": true,
+          "why": "The unstable six-carbon product splits into two molecules of glycerate 3-phosphate."
+        },
+        {
+          "text": "Reduced NADP combines two triose phosphates and releases carbon dioxide",
+          "correct": false,
+          "why": "Reduced NADP supplies reducing power when glycerate 3-phosphate becomes triose phosphate. Carbon fixation consumes carbon dioxide."
+        },
+        {
+          "text": "ATP splits a six-carbon glucose molecule into two molecules of RuBP",
+          "correct": false,
+          "why": "ATP helps regenerate RuBP from Calvin-cycle intermediates. Glucose isn't split to begin the cycle."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q11",
+      "stem": "How are ATP and reduced NADP used when glycerate 3-phosphate becomes triose phosphate?",
+      "options": [
+        {
+          "text": "ATP supplies carbon, while reduced NADP acts as the enzyme",
+          "correct": false,
+          "why": "Carbon comes from carbon dioxide, and rubisco is the enzyme involved in fixation. Neither ATP nor reduced NADP supplies the carbon."
+        },
+        {
+          "text": "ATP supplies hydrogen, while reduced NADP supplies phosphate",
+          "correct": false,
+          "why": "This reverses their roles. Reduced NADP carries electrons and hydrogen, while ATP transfers usable energy."
+        },
+        {
+          "text": "ATP supplies energy, while reduced NADP supplies reducing power",
+          "correct": true,
+          "why": "ATP provides energy for the reactions, and reduced NADP donates electrons and hydrogen needed for reduction."
+        },
+        {
+          "text": "ATP absorbs light, while reduced NADP pumps protons",
+          "correct": false,
+          "why": "Photosynthetic pigments absorb light, and membrane electron carriers support proton pumping. These aren't the Calvin-cycle roles of ATP and reduced NADP."
+        }
+      ]
+    },
+    {
+      "id": "C1.3-q12",
+      "stem": "A plant is moved into darkness. Why does the Calvin cycle stop after existing supplies are used?",
+      "options": [
+        {
+          "text": "Rubisco requires photons to bind directly to its active site",
+          "correct": false,
+          "why": "Rubisco doesn't absorb light to catalyze carbon fixation. The cycle's light dependence comes through ATP and reduced NADP."
+        },
+        {
+          "text": "Carbon dioxide can enter leaves only while light strikes the chloroplast",
+          "correct": false,
+          "why": "Carbon dioxide diffusion isn't powered directly by light. A lack of ATP and reduced NADP stops the pathway."
+        },
+        {
+          "text": "Photolysis begins consuming RuBP instead of regenerating it",
+          "correct": false,
+          "why": "Photolysis splits water, not RuBP. RuBP regeneration occurs within the Calvin cycle and requires ATP."
+        },
+        {
+          "text": "The light-dependent reactions stop supplying ATP and reduced NADP",
+          "correct": true,
+          "why": "The Calvin cycle needs ATP for reduction and RuBP regeneration, and it needs reduced NADP to reduce glycerate 3-phosphate."
+        }
+      ]
+    }
+  ]
+}

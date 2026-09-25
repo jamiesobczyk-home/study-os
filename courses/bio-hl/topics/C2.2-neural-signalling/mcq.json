@@ -1,0 +1,317 @@
+{
+  "topic": "C2.2",
+  "questions": [
+    {
+      "id": "C2.2-q01",
+      "stem": "Which process contributes directly to the negative resting potential of a neuron?",
+      "options": [
+        {
+          "text": "K+ diffuses out through leak channels more readily than Na+ diffuses in",
+          "correct": true,
+          "why": "The resting membrane is more permeable to K+, so more positive charge leaves than enters through leak channels."
+        },
+        {
+          "text": "Na+ diffuses into the neuron through open voltage-gated sodium channels",
+          "correct": false,
+          "why": "Voltage-gated Na+ channels are closed at resting potential. Their opening causes rapid depolarization after threshold."
+        },
+        {
+          "text": "The sodium-potassium pump moves equal numbers of Na+ and K+ ions",
+          "correct": false,
+          "why": "The pump moves unequal numbers: three Na+ out for every two K+ in. Equal movement wouldn’t contribute to the charge difference."
+        },
+        {
+          "text": "Negatively charged ions diffuse freely from the cytoplasm to the outside",
+          "correct": false,
+          "why": "Large intracellular anions generally remain inside. Their retention helps the inside stay negative."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q02",
+      "stem": "What happens immediately after threshold is reached during an action potential?",
+      "options": [
+        {
+          "text": "Voltage-gated Na+ channels open and Na+ enters the axon",
+          "correct": true,
+          "why": "Na+ entry makes the inside rapidly less negative and then positive, producing the rising phase."
+        },
+        {
+          "text": "Voltage-gated K+ channels close and K+ enters the axon",
+          "correct": false,
+          "why": "K+ channels open later, and K+ leaves rather than enters. That movement causes repolarization."
+        },
+        {
+          "text": "The sodium-potassium pump reverses and transports Na+ inward",
+          "correct": false,
+          "why": "The pump doesn’t reverse during an action potential. It continues moving Na+ out and K+ in."
+        },
+        {
+          "text": "Ligand-gated calcium channels release Ca2+ into the synaptic cleft",
+          "correct": false,
+          "why": "Presynaptic Ca2+ channels are voltage-gated, and Ca2+ enters the terminal. It doesn’t carry the signal across the cleft."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q03",
+      "stem": "Which event is mainly responsible for repolarization of an axon membrane?",
+      "options": [
+        {
+          "text": "K+ exits through voltage-gated potassium channels",
+          "correct": true,
+          "why": "Loss of positive K+ charge makes the inside negative again after the action-potential peak."
+        },
+        {
+          "text": "Na+ exits through voltage-gated sodium channels",
+          "correct": false,
+          "why": "Voltage-gated Na+ channels allow Na+ inward during depolarization. They then inactivate."
+        },
+        {
+          "text": "Ca2+ enters through presynaptic calcium channels",
+          "correct": false,
+          "why": "That happens at an axon terminal and triggers neurotransmitter release. It doesn’t repolarize the axon."
+        },
+        {
+          "text": "Cl− leaves through ligand-gated chloride channels",
+          "correct": false,
+          "why": "Inhibitory signalling can involve Cl− entering a postsynaptic cell. That isn't the main repolarizing event."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q04",
+      "stem": "How does an action potential in one axon region cause the next region to reach threshold?",
+      "options": [
+        {
+          "text": "Na+ entering the first region produces local current that depolarizes the adjacent membrane",
+          "correct": true,
+          "why": "Positive charge spreads inside the axon toward the resting region, where it can open voltage-gated Na+ channels."
+        },
+        {
+          "text": "Neurotransmitter diffuses inside the axon and binds to receptors in the next region",
+          "correct": false,
+          "why": "Neurotransmitters cross synaptic clefts between cells. Propagation within an axon uses local electrical currents."
+        },
+        {
+          "text": "The sodium-potassium pump carries the action potential toward the axon terminal",
+          "correct": false,
+          "why": "The pump maintains ion gradients over time. It doesn’t transport an action potential along the axon."
+        },
+        {
+          "text": "K+ entering the first region raises the membrane potential in the adjacent region",
+          "correct": false,
+          "why": "K+ mainly leaves during repolarization. Na+ entry supplies the positive charge driving the local current."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q05",
+      "stem": "Why is transmission across a typical chemical synapse one-way?",
+      "options": [
+        {
+          "text": "Vesicles release neurotransmitter presynaptically, while matching receptors are located postsynaptically",
+          "correct": true,
+          "why": "The unequal placement of release machinery and receptors gives the synapse its direction."
+        },
+        {
+          "text": "Neurotransmitters can diffuse across the synaptic cleft in only one physical direction",
+          "correct": false,
+          "why": "Diffusion itself has no built-in forward direction. The different structures on the two membranes create directionality."
+        },
+        {
+          "text": "Calcium ions repel neurotransmitter away from the postsynaptic membrane after release",
+          "correct": false,
+          "why": "Ca2+ triggers vesicle fusion inside the presynaptic terminal. It doesn’t repel neurotransmitter across the gap."
+        },
+        {
+          "text": "Action potentials can enter axon terminals but cannot occur in postsynaptic neurons",
+          "correct": false,
+          "why": "Postsynaptic neurons can produce action potentials if their membrane reaches threshold. The asymmetrical synapse is what controls direction."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q06",
+      "stem": "What is the role of Ca2+ at a presynaptic terminal?",
+      "options": [
+        {
+          "text": "It enters and triggers fusion of neurotransmitter-containing vesicles with the membrane",
+          "correct": true,
+          "why": "Depolarization opens voltage-gated Ca2+ channels, and incoming Ca2+ acts as the signal for exocytosis."
+        },
+        {
+          "text": "It crosses the cleft and depolarizes the postsynaptic membrane directly",
+          "correct": false,
+          "why": "The neurotransmitter crosses the cleft. Ca2+ acts inside the presynaptic terminal before release."
+        },
+        {
+          "text": "It breaks neurotransmitter molecules down after receptor binding",
+          "correct": false,
+          "why": "Enzymes or reuptake mechanisms remove neurotransmitters. Ca2+ triggers their release."
+        },
+        {
+          "text": "It restores the resting potential by leaving through potassium channels",
+          "correct": false,
+          "why": "K+ exit drives repolarization. Ca2+ has a different role at the presynaptic terminal."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q07",
+      "stem": "Acetylcholine opens receptor channels and produces a small depolarization below threshold. What has occurred?",
+      "options": [
+        {
+          "text": "An excitatory postsynaptic potential",
+          "correct": true,
+          "why": "An EPSP is a graded depolarization that makes an action potential more likely without guaranteeing one."
+        },
+        {
+          "text": "A complete action potential",
+          "correct": false,
+          "why": "Threshold wasn’t reached, so the all-or-nothing opening of voltage-gated Na+ channels didn’t occur."
+        },
+        {
+          "text": "An inhibitory postsynaptic potential",
+          "correct": false,
+          "why": "An IPSP hyperpolarizes the membrane and moves it farther from threshold. This membrane was depolarized."
+        },
+        {
+          "text": "A resting membrane potential",
+          "correct": false,
+          "why": "The potential changed in response to neurotransmitter. Resting potential describes the baseline before that change."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q08",
+      "stem": "Why does myelination increase action-potential conduction speed?",
+      "options": [
+        {
+          "text": "Current spreads beneath myelin, and action potentials are regenerated at nodes of Ranvier",
+          "correct": true,
+          "why": "Myelin reduces ion movement between nodes, so depolarization reaches the next node rapidly."
+        },
+        {
+          "text": "Action potentials travel through myelin without requiring ion movement in the axon",
+          "correct": false,
+          "why": "The current travels in the axon, not through the myelin. Ion movement still regenerates action potentials at nodes."
+        },
+        {
+          "text": "Myelin increases neurotransmitter diffusion between each neighboring section of the axon",
+          "correct": false,
+          "why": "Neurotransmitters work across synapses between cells. Sections of one axon communicate by local current."
+        },
+        {
+          "text": "Every membrane region under the myelin contains additional voltage-gated sodium channels",
+          "correct": false,
+          "why": "The channels are concentrated at nodes rather than spread densely beneath myelin. That arrangement supports saltatory conduction."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q09",
+      "stem": "How does cocaine alter synaptic transmission involving dopamine?",
+      "options": [
+        {
+          "text": "It blocks dopamine reuptake, prolonging dopamine's presence in the synaptic cleft",
+          "correct": true,
+          "why": "Dopamine remains available to bind postsynaptic receptors, so its effect lasts longer."
+        },
+        {
+          "text": "It prevents synaptic vesicles from releasing dopamine into the synaptic cleft",
+          "correct": false,
+          "why": "That would reduce dopamine signalling at the release stage. Cocaine acts mainly by blocking reuptake."
+        },
+        {
+          "text": "It breaks dopamine down before the neurotransmitter reaches its receptor",
+          "correct": false,
+          "why": "That would shorten dopamine signalling. Cocaine causes dopamine to remain in the cleft."
+        },
+        {
+          "text": "It closes every dopamine receptor channel on the postsynaptic membrane",
+          "correct": false,
+          "why": "Cocaine doesn't work by closing all postsynaptic receptors. Its key syllabus mechanism is reuptake inhibition."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q10",
+      "stem": "Which change would make a postsynaptic action potential less likely?",
+      "options": [
+        {
+          "text": "Cl− enters and hyperpolarizes the postsynaptic membrane",
+          "correct": true,
+          "why": "The inside becomes more negative, increasing the depolarization needed to reach threshold."
+        },
+        {
+          "text": "Na+ enters and depolarizes the postsynaptic membrane",
+          "correct": false,
+          "why": "Na+ entry moves the membrane toward threshold and produces an excitatory effect."
+        },
+        {
+          "text": "Several EPSPs arrive close together and undergo summation",
+          "correct": false,
+          "why": "Combined EPSPs increase depolarization and make threshold more likely to be reached."
+        },
+        {
+          "text": "Acetylcholine binds to excitatory postsynaptic receptors",
+          "correct": false,
+          "why": "At an excitatory cholinergic synapse, receptor activation produces an EPSP rather than hyperpolarization."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q11",
+      "stem": "A postsynaptic neuron receives two EPSPs and one IPSP at nearly the same time. What determines whether it fires?",
+      "options": [
+        {
+          "text": "Whether their summed effect brings the membrane potential to threshold",
+          "correct": true,
+          "why": "The neuron integrates depolarizing and hyperpolarizing inputs. It fires only if the net change reaches threshold."
+        },
+        {
+          "text": "Whether the first arriving potential is excitatory rather than inhibitory",
+          "correct": false,
+          "why": "The neuron combines overlapping inputs. The identity of the first signal alone doesn’t determine the outcome."
+        },
+        {
+          "text": "Whether each EPSP has the same amplitude as a complete action potential",
+          "correct": false,
+          "why": "EPSPs are graded potentials and are normally smaller than action potentials. Their combined effect matters."
+        },
+        {
+          "text": "Whether the inhibitory neurotransmitter destroys both excitatory neurotransmitters",
+          "correct": false,
+          "why": "IPSPs oppose EPSPs electrically by hyperpolarizing the membrane. They don’t destroy excitatory transmitter molecules."
+        }
+      ]
+    },
+    {
+      "id": "C2.2-q12",
+      "stem": "Capsaicin activates channels in a free nerve ending. Which sequence can lead to pain perception?",
+      "options": [
+        {
+          "text": "Positive ions enter, threshold is reached, impulses travel to the brain, and pain is perceived",
+          "correct": true,
+          "why": "The receptor converts a chemical stimulus into depolarization, while the brain produces the conscious perception."
+        },
+        {
+          "text": "Negative ions enter, the membrane hyperpolarizes, and the skin itself produces pain",
+          "correct": false,
+          "why": "The relevant channels admit positive ions and depolarize the ending. Pain is perceived in the brain, not in the skin."
+        },
+        {
+          "text": "Capsaicin travels through the sensory axon to activate receptors inside the brain",
+          "correct": false,
+          "why": "Action potentials carry the information to the brain. Capsaicin acts on the nerve ending in the skin."
+        },
+        {
+          "text": "The nerve ending heats the skin until temperature receptors begin producing impulses",
+          "correct": false,
+          "why": "Capsaicin can activate receptor channels without raising skin temperature. The burning feeling is neural perception."
+        }
+      ]
+    }
+  ]
+}

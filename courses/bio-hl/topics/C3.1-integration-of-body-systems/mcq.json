@@ -1,0 +1,317 @@
+{
+  "topic": "C3.1",
+  "questions": [
+    {
+      "id": "C3.1-q01",
+      "stem": "Which statement best describes an emergent property in a multicellular organism?",
+      "options": [
+        {
+          "text": "A whole-organism ability produced by interactions among integrated subsystems",
+          "correct": true,
+          "why": "An emergent property arises from organized interactions among parts. An effective whole-body response can’t be produced by one isolated component."
+        },
+        {
+          "text": "A specialized function that one cell performs without interacting with other cells",
+          "correct": false,
+          "why": "That describes cell specialization in isolation. Emergence depends on components interacting within a larger system."
+        },
+        {
+          "text": "A temporary change in an organ caused by damage to one of its tissues",
+          "correct": false,
+          "why": "That describes a possible effect of injury. Emergent properties are normal system-level abilities created by integration."
+        },
+        {
+          "text": "A structural level placed between an individual organ and the tissue forming it",
+          "correct": false,
+          "why": "Tissues form organs, and organs form body systems. An emergent property is an ability, not another structural level."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q02",
+      "stem": "Which comparison between nervous and hormonal signaling is accurate?",
+      "options": [
+        {
+          "text": "Nervous signals are fast and targeted; hormones travel in blood and act more slowly",
+          "correct": true,
+          "why": "Neurons direct rapid signals toward connected effectors. Hormones circulate in blood and generally produce slower responses in cells with matching receptors."
+        },
+        {
+          "text": "Nervous signals travel in blood, whereas hormones pass directly along myelinated nerve fibres",
+          "correct": false,
+          "why": "The routes have been reversed. Hormones travel in blood, while nerve impulses travel along neurons."
+        },
+        {
+          "text": "Nervous signals always last for days, whereas every hormonal response ends within milliseconds",
+          "correct": false,
+          "why": "The timescales are backwards. Neural responses are usually brief, while hormonal effects commonly last longer."
+        },
+        {
+          "text": "Nervous signals affect every body cell, whereas hormones act only on the gland that secretes them",
+          "correct": false,
+          "why": "Neural output is directed to connected effectors. Hormones can travel widely but act on target cells with suitable receptors."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q03",
+      "stem": "What would be visible in a transverse section of a typical mixed nerve?",
+      "options": [
+        {
+          "text": "One sensory neuron enclosed by a layer of skeletal muscle",
+          "correct": false,
+          "why": "A nerve contains many fibres rather than one neuron. Skeletal muscle can be an effector but doesn’t form the nerve sheath."
+        },
+        {
+          "text": "Myelinated and unmyelinated fibres in a protective sheath",
+          "correct": true,
+          "why": "A nerve is a protected bundle of nerve fibres. A mixed nerve contains fibres belonging to sensory and motor neurons."
+        },
+        {
+          "text": "Only motor neuron cell bodies surrounded by grey matter",
+          "correct": false,
+          "why": "Grey matter containing neuron cell bodies occurs in the central nervous system. A peripheral nerve section mainly shows bundled fibres."
+        },
+        {
+          "text": "A continuous tube carrying neurotransmitter between the brain and muscles",
+          "correct": false,
+          "why": "Neurotransmitters cross individual synapses; they don’t flow through a nerve tube. Electrical impulses travel along the fibres."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q04",
+      "stem": "Which sequence correctly traces a pain withdrawal reflex?",
+      "options": [
+        {
+          "text": "Pain receptor → motor neuron → interneuron → sensory neuron → skeletal muscle",
+          "correct": false,
+          "why": "Sensory input must reach the spinal cord before motor output leaves it. This option reverses the roles of sensory and motor neurons."
+        },
+        {
+          "text": "Pain receptor → sensory neuron → brain → endocrine gland → skeletal muscle",
+          "correct": false,
+          "why": "A spinal reflex doesn’t require an endocrine gland or prior integration by the brain. The spinal interneuron links sensory and motor stages."
+        },
+        {
+          "text": "Pain receptor → interneuron → sensory neuron → spinal cord → skeletal muscle",
+          "correct": false,
+          "why": "The receptor connects with a sensory neuron before the interneuron. Motor output is also missing between the spinal cord and muscle."
+        },
+        {
+          "text": "Pain receptor → sensory neuron → spinal interneuron → motor neuron → skeletal muscle",
+          "correct": true,
+          "why": "The sensory neuron brings input to the spinal cord, the interneuron processes it, and the motor neuron activates the skeletal muscle."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q05",
+      "stem": "Which function belongs primarily to the cerebellum?",
+      "options": [
+        {
+          "text": "Detecting changes in blood carbon dioxide concentration",
+          "correct": false,
+          "why": "Chemoreceptors detect changes in blood chemistry. The cerebellum has a different role in movement."
+        },
+        {
+          "text": "Secreting melatonin during the hours of darkness",
+          "correct": false,
+          "why": "The pineal gland secretes melatonin. The cerebellum doesn’t produce the hormone that modulates sleep."
+        },
+        {
+          "text": "Coordinating muscle contractions and balance",
+          "correct": true,
+          "why": "The cerebellum coordinates the timing and force of muscular activity, helping movements remain smooth and balanced."
+        },
+        {
+          "text": "Integrating the interneuron pathway of a pain withdrawal reflex",
+          "correct": false,
+          "why": "The spinal cord integrates the pain withdrawal reflex. The cerebellum coordinates ongoing movement and balance."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q06",
+      "stem": "Which pattern normally describes melatonin secretion and its effect?",
+      "options": [
+        {
+          "text": "It rises in daylight and directly causes skeletal muscle contraction",
+          "correct": false,
+          "why": "Melatonin normally falls during daylight, and it doesn’t act as a motor signal to skeletal muscle."
+        },
+        {
+          "text": "It rises in darkness and helps establish the daily sleep–wake cycle",
+          "correct": true,
+          "why": "The pineal gland normally secretes more melatonin during darkness. This daily pattern helps prepare the body for sleep."
+        },
+        {
+          "text": "It rises during exercise and increases blood glucose concentration",
+          "correct": false,
+          "why": "That describes part of the response to epinephrine. Melatonin is associated with circadian timing and sleep."
+        },
+        {
+          "text": "It falls in darkness and triggers conscious processing in the cerebral hemispheres",
+          "correct": false,
+          "why": "The secretion pattern is backwards. Melatonin modulates circadian sleep patterns rather than triggering conscious processing."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q07",
+      "stem": "During vigorous exercise, which sequence produces an increase in ventilation rate?",
+      "options": [
+        {
+          "text": "More carbon dioxide → lower blood pH → chemoreceptor input → medulla → stronger respiratory muscle activity",
+          "correct": true,
+          "why": "Carbon dioxide-related pH change provides feedback to the brainstem. The medulla then increases signals to the diaphragm and intercostal muscles."
+        },
+        {
+          "text": "Higher blood pressure → pineal gland stimulation → melatonin release → faster diaphragm contraction",
+          "correct": false,
+          "why": "Melatonin regulates circadian sleep patterns and doesn’t relay cardiovascular feedback to respiratory muscles."
+        },
+        {
+          "text": "Less carbon dioxide → lower blood pH → baroreceptor input → reduced respiratory muscle activity",
+          "correct": false,
+          "why": "Less carbon dioxide would tend to raise blood pH. Baroreceptors monitor pressure rather than the chemical change described."
+        },
+        {
+          "text": "More oxygen → spinal pain receptor stimulation → motor output → slower intercostal muscle contraction",
+          "correct": false,
+          "why": "Pain receptors aren’t the sensors in ventilation feedback. Chemoreceptors monitor blood chemistry and signal the brainstem."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q08",
+      "stem": "Which division of control correctly describes movement through the digestive system?",
+      "options": [
+        {
+          "text": "The enteric nervous system voluntarily initiates swallowing, while the cerebral hemispheres control all later contractions",
+          "correct": false,
+          "why": "The control assignments are reversed. Swallowing can be initiated voluntarily, while later peristalsis is controlled involuntarily by the enteric nervous system."
+        },
+        {
+          "text": "The central nervous system controls every contraction voluntarily from swallowing through egestion",
+          "correct": false,
+          "why": "Most movement through the gut occurs without voluntary control. The enteric nervous system coordinates the intervening peristaltic waves."
+        },
+        {
+          "text": "The central nervous system controls the voluntary endpoints, while the enteric nervous system controls intervening peristalsis",
+          "correct": true,
+          "why": "Initiation of swallowing and egestion can be voluntary. Between them, enteric circuits coordinate involuntary peristalsis."
+        },
+        {
+          "text": "The endocrine system contracts skeletal muscle throughout the gut, while nerves control only hormone release",
+          "correct": false,
+          "why": "Peristalsis involves gut-wall smooth muscle coordinated by the enteric nervous system. It isn’t a chain of skeletal muscle contractions."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q09",
+      "stem": "A shoot receives light from one side and bends toward it. What directly causes the curvature?",
+      "options": [
+        {
+          "text": "Cells on the shaded side elongate more than cells on the illuminated side",
+          "correct": true,
+          "why": "An auxin gradient promotes greater elongation on the shaded side. Unequal growth makes the shoot curve toward the light."
+        },
+        {
+          "text": "Cells on the illuminated side divide rapidly while shaded cells stop growing",
+          "correct": false,
+          "why": "The expected mechanism depends on unequal cell elongation, not a contrast between rapid mitosis and complete growth arrest."
+        },
+        {
+          "text": "The whole shoot moves toward the light without changing its growth rate",
+          "correct": false,
+          "why": "Phototropism is directional growth, not locomotion of the whole plant. Different elongation rates produce the curve."
+        },
+        {
+          "text": "Auxin contracts cellulose fibres on the illuminated side of the shoot",
+          "correct": false,
+          "why": "Auxin promotes wall loosening and elongation on the shaded side. It doesn’t contract cellulose fibres."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q10",
+      "stem": "How does auxin promote elongation of shoot cells?",
+      "options": [
+        {
+          "text": "It raises apoplast pH, strengthening cellulose cross-links so turgor pressure increases",
+          "correct": false,
+          "why": "The pH change is backwards, and stronger cross-links would resist expansion. Auxin promotes acidification and wall loosening."
+        },
+        {
+          "text": "It removes water from the cell, causing the cell wall to bend toward the vacuole",
+          "correct": false,
+          "why": "Water loss reduces turgor and doesn’t explain auxin-driven elongation. Expanding cells need a loosened wall acted on by internal pressure."
+        },
+        {
+          "text": "It stimulates lignin deposition, making the primary wall rigid enough to lengthen",
+          "correct": false,
+          "why": "Lignification makes walls more rigid and less able to elongate. Auxin acts through acidification and wall loosening."
+        },
+        {
+          "text": "It triggers H+ secretion into the apoplast, loosening cell-wall cross-links",
+          "correct": true,
+          "why": "Acidification loosens links within the wall, allowing it to extend as turgor pressure acts on the cell."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q11",
+      "stem": "How can coordinated placement of auxin efflux carriers create an auxin gradient?",
+      "options": [
+        {
+          "text": "Carriers on one side of each cell direct auxin through the tissue",
+          "correct": true,
+          "why": "Asymmetric carrier placement gives auxin transport a consistent direction from cell to cell, allowing it to accumulate in one region."
+        },
+        {
+          "text": "Carriers destroy auxin on the illuminated side and synthesize it on the shaded side",
+          "correct": false,
+          "why": "Efflux carriers transport auxin out of cells; they neither destroy nor synthesize the hormone."
+        },
+        {
+          "text": "Carriers open pores that let all plant hormones diffuse equally in every direction",
+          "correct": false,
+          "why": "Equal movement in every direction wouldn’t maintain a gradient. The important feature is directional efflux caused by asymmetric placement."
+        },
+        {
+          "text": "Carriers bind light and pull auxin molecules mechanically toward the light source",
+          "correct": false,
+          "why": "Auxin efflux carriers are transport proteins, not light receptors or mechanical motors pulling molecules toward light."
+        }
+      ]
+    },
+    {
+      "id": "C3.1-q12",
+      "stem": "Why is ethylene production during fruit ripening an example of positive feedback?",
+      "options": [
+        {
+          "text": "Ethylene slows ripening until the fruit’s internal conditions return to a set point",
+          "correct": false,
+          "why": "That would oppose the initial change and resemble negative feedback. Ethylene amplifies ripening instead."
+        },
+        {
+          "text": "Ethylene promotes ripening, and ripening stimulates further ethylene production",
+          "correct": true,
+          "why": "Each part of the loop strengthens the other, so the response accelerates and neighboring regions can ripen together."
+        },
+        {
+          "text": "Ethylene is consumed during ripening, causing its concentration to decrease continuously",
+          "correct": false,
+          "why": "A falling signal wouldn’t describe the amplifying loop. Ripening leads to increased ethylene production."
+        },
+        {
+          "text": "Ethylene transports cytokinin from roots and auxin from shoots at equal rates",
+          "correct": false,
+          "why": "That confuses two examples of plant integration. Ethylene regulates ripening rather than transporting auxin or cytokinin."
+        }
+      ]
+    }
+  ]
+}

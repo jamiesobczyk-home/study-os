@@ -1,0 +1,369 @@
+{
+  "topic": "C3.2",
+  "questions": [
+    {
+      "id": "C3.2-q01",
+      "stem": "Which statement best defines a pathogen?",
+      "options": [
+        {
+          "text": "Any microorganism living in or on a human body",
+          "correct": false,
+          "why": "Many microorganisms in and on the body are harmless or beneficial. Disease-causing ability is what makes an agent a pathogen."
+        },
+        {
+          "text": "A disease-causing organism or infectious agent",
+          "correct": true,
+          "why": "Pathogens cause infectious disease. In this topic, the term mainly covers viruses, bacteria, fungi and protists."
+        },
+        {
+          "text": "Any foreign molecule that stimulates antibody production",
+          "correct": false,
+          "why": "That describes an antigen. An antigen is a molecule, while a pathogen is the disease-causing agent."
+        },
+        {
+          "text": "A bacterium that has developed antibiotic resistance",
+          "correct": false,
+          "why": "A resistant bacterium may be pathogenic, but resistance isn't part of the definition. Many pathogens aren't bacteria."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q02",
+      "stem": "How do mucous membranes in the respiratory tract provide a primary defense?",
+      "options": [
+        {
+          "text": "They secrete antibodies that kill every inhaled pathogen",
+          "correct": false,
+          "why": "Antibodies belong to the adaptive response and are antigen-specific. Mucous membranes mainly prevent entry by trapping material."
+        },
+        {
+          "text": "They release antibiotics that block bacterial cell-wall production",
+          "correct": false,
+          "why": "Antibiotics are treatments directed at bacterial processes. They aren't the main protective secretion of a mucous membrane."
+        },
+        {
+          "text": "They trap pathogens in mucus, which cilia move toward the throat",
+          "correct": true,
+          "why": "Sticky mucus traps incoming material, and ciliary movement carries it away from vulnerable lung tissue."
+        },
+        {
+          "text": "They expose pathogens to plasma cells circulating through the airway",
+          "correct": false,
+          "why": "Plasma cells secrete antibodies after adaptive activation. This option misses the barrier function of mucus and cilia."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q03",
+      "stem": "Which event directly produces the fibers of a blood clot?",
+      "options": [
+        {
+          "text": "Platelets convert fibrin into soluble fibrinogen",
+          "correct": false,
+          "why": "The direction is backwards. Soluble fibrinogen is converted into insoluble fibrin."
+        },
+        {
+          "text": "Thrombin converts fibrinogen into insoluble fibrin",
+          "correct": true,
+          "why": "Fibrin forms the mesh that stabilizes the plug and traps erythrocytes at the wound."
+        },
+        {
+          "text": "Phagocytes digest fibrinogen and release clotting factors",
+          "correct": false,
+          "why": "Phagocytes digest foreign material. Platelets and damaged tissue supply clotting factors in this sequence."
+        },
+        {
+          "text": "Antibodies bind erythrocytes into an insoluble network",
+          "correct": false,
+          "why": "Antibodies bind specific antigens in adaptive immunity. Fibrin, rather than antibody, forms the clotting network."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q04",
+      "stem": "Which feature belongs to adaptive immunity but not innate immunity?",
+      "options": [
+        {
+          "text": "Recognition of broad categories of foreign material",
+          "correct": false,
+          "why": "That describes innate immunity. Its response isn't tailored to one particular antigen."
+        },
+        {
+          "text": "Engulfment of pathogens by phagocytic leucocytes",
+          "correct": false,
+          "why": "Phagocytosis is an innate response. It doesn't create antigen-specific memory."
+        },
+        {
+          "text": "A response that remains unchanged throughout life",
+          "correct": false,
+          "why": "That is characteristic of innate immunity. Adaptive responses improve after exposure because memory cells remain."
+        },
+        {
+          "text": "Retention of antigen-specific memory cells after exposure",
+          "correct": true,
+          "why": "Memory cells allow a faster and larger response when the same antigen appears again."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q05",
+      "stem": "What happens during phagocytosis of a bacterium?",
+      "options": [
+        {
+          "text": "A phagocyte surrounds it, encloses it in a vesicle and digests it using lysosomal enzymes",
+          "correct": true,
+          "why": "Engulfment occurs by endocytosis, after which lysosomes supply hydrolytic enzymes to the vesicle."
+        },
+        {
+          "text": "A plasma cell surrounds it, encloses it in a nucleus and digests it using antibodies",
+          "correct": false,
+          "why": "Plasma cells secrete antibodies and don't engulf bacteria. Antibodies bind antigens rather than digesting pathogens."
+        },
+        {
+          "text": "A platelet surrounds it, traps it in fibrinogen and digests it using thrombin",
+          "correct": false,
+          "why": "Platelets and thrombin belong to clotting. They seal wounds rather than carrying out phagocytosis."
+        },
+        {
+          "text": "A helper T-cell surrounds it, encloses it in mucus and digests it using cytokines",
+          "correct": false,
+          "why": "Helper T-cells signal other immune cells using cytokines. They don't engulf pathogens or produce mucus."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q06",
+      "stem": "What must happen before a specific B-lymphocyte is fully activated?",
+      "options": [
+        {
+          "text": "It must engulf any pathogen and receive a signal from a platelet",
+          "correct": false,
+          "why": "Engulfing broad categories of pathogen describes phagocytes. Platelets provide clotting factors, not B-cell activation."
+        },
+        {
+          "text": "It must bind a specific antibody and receive thrombin from a helper T-cell",
+          "correct": false,
+          "why": "A B-cell recognizes antigen, not an antibody supplied for activation. Helper T-cells release cytokines, not thrombin."
+        },
+        {
+          "text": "It must encounter its specific antigen and receive signals from a matching activated helper T-cell",
+          "correct": true,
+          "why": "Specific antigen recognition and helper T-cell contact and cytokines together activate the B-cell."
+        },
+        {
+          "text": "It must divide into plasma cells before it encounters a specific antigen",
+          "correct": false,
+          "why": "The order is reversed. Antigen recognition and helper signals activate the B-cell before clonal expansion and differentiation."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q07",
+      "stem": "Why does an activated B-lymphocyte undergo repeated mitosis?",
+      "options": [
+        {
+          "text": "To produce many cells with the same antigen specificity",
+          "correct": true,
+          "why": "Clonal expansion creates enough matching cells to form antibody-secreting plasma cells and memory cells."
+        },
+        {
+          "text": "To produce antibodies with many unrelated antigen specificities",
+          "correct": false,
+          "why": "One activated clone keeps the same specificity. Different B-cell types are needed for unrelated antigens."
+        },
+        {
+          "text": "To turn the pathogen into a harmless memory cell",
+          "correct": false,
+          "why": "Memory cells are host lymphocytes, not modified pathogens. They remain after the response."
+        },
+        {
+          "text": "To replace helper T-cells destroyed during every infection",
+          "correct": false,
+          "why": "B-cell cloning supplies B-cell descendants. It doesn't replace a different lymphocyte type."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q08",
+      "stem": "Why is the secondary immune response usually faster than the primary response?",
+      "options": [
+        {
+          "text": "The innate immune system permanently changes after the first infection",
+          "correct": false,
+          "why": "The innate system doesn't develop antigen-specific memory. The difference comes from adaptive memory cells."
+        },
+        {
+          "text": "Antibiotics remain in the blood after the first infection",
+          "correct": false,
+          "why": "Immune memory doesn't depend on retained antibiotics. Antibiotics are external treatments for bacterial infections."
+        },
+        {
+          "text": "The pathogen loses all its antigens during the first infection",
+          "correct": false,
+          "why": "The later response still depends on recognition of the same antigen. Losing it would prevent that recognition."
+        },
+        {
+          "text": "Long-lived memory cells specific to the antigen are already present",
+          "correct": true,
+          "why": "These cells can expand rapidly and generate a larger antibody response after another exposure to the same antigen."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q09",
+      "stem": "Which statement correctly distinguishes HIV from AIDS?",
+      "options": [
+        {
+          "text": "HIV is a bacterium, while AIDS is the antibiotic used against it",
+          "correct": false,
+          "why": "HIV is a virus, and AIDS isn't a treatment. Antiviral medicines can suppress HIV."
+        },
+        {
+          "text": "HIV is a virus, while AIDS is the immune-deficiency syndrome it can cause",
+          "correct": true,
+          "why": "HIV destroys helper T-cells, and severe resulting loss of immune function is described as AIDS."
+        },
+        {
+          "text": "HIV is an antibody, while AIDS is the antigen to which it binds",
+          "correct": false,
+          "why": "Neither term names an antibody or antigen. One is a virus and the other is a syndrome."
+        },
+        {
+          "text": "HIV is an opportunistic infection, while AIDS is a helper T-cell",
+          "correct": false,
+          "why": "HIV causes the immune damage that permits opportunistic infections. AIDS isn't a type of cell."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q10",
+      "stem": "Why can an antibiotic that blocks bacterial cell-wall synthesis fail against a virus?",
+      "options": [
+        {
+          "text": "Viruses have cellulose cell walls that the antibiotic cannot enter",
+          "correct": false,
+          "why": "Viruses have no cell wall. Cellulose walls occur in plants, not viruses."
+        },
+        {
+          "text": "Viruses contain resistant plasma cells that remove the antibiotic",
+          "correct": false,
+          "why": "Plasma cells belong to the human immune system. They aren't components of viruses."
+        },
+        {
+          "text": "Viruses reproduce too quickly for any chemical treatment to work",
+          "correct": false,
+          "why": "Some antiviral medicines can suppress viral reproduction. Speed isn't why this antibiotic fails."
+        },
+        {
+          "text": "Viruses lack bacterial cell walls and use host cells to reproduce",
+          "correct": true,
+          "why": "The antibiotic's target is absent from a virus, so blocking bacterial wall synthesis can't stop viral replication."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q11",
+      "stem": "A bacterial population contains a few resistant cells before antibiotic treatment. What will treatment most directly do?",
+      "options": [
+        {
+          "text": "Cause every bacterium to develop the same resistance mutation",
+          "correct": false,
+          "why": "Mutations aren't directed by need. Treatment selects among variants already present."
+        },
+        {
+          "text": "Kill more susceptible bacteria, increasing the resistant fraction",
+          "correct": true,
+          "why": "Differential survival leaves resistant bacteria to reproduce, so resistance becomes more common."
+        },
+        {
+          "text": "Make the patient’s cells resistant to later antibiotic doses",
+          "correct": false,
+          "why": "Resistance is a heritable bacterial characteristic. The patient's body isn't the evolving bacterial population."
+        },
+        {
+          "text": "Convert the antibiotic into a vaccine against the bacteria",
+          "correct": false,
+          "why": "Vaccines stimulate antigen-specific immune memory. An antibiotic acts directly on bacterial processes."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q12",
+      "stem": "Which example is a zoonotic transmission route?",
+      "options": [
+        {
+          "text": "Rabies virus passing to a human through an infected dog’s bite",
+          "correct": true,
+          "why": "This is direct transfer of an infectious agent from another animal species to a human."
+        },
+        {
+          "text": "A resistance allele passing to daughter bacteria during binary fission",
+          "correct": false,
+          "why": "That is inheritance within a bacterial population. It isn't transfer of disease from an animal to a human."
+        },
+        {
+          "text": "HIV passing between humans through contaminated blood",
+          "correct": false,
+          "why": "This is human-to-human transmission. It doesn't describe the animal-to-human transfer required here."
+        },
+        {
+          "text": "An antibody passing from a plasma cell into blood plasma",
+          "correct": false,
+          "why": "That is antibody secretion inside one person. No infectious disease crosses between species."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q13",
+      "stem": "How can a nucleic-acid vaccine lead to immune memory?",
+      "options": [
+        {
+          "text": "Its DNA or RNA codes for an antigen that stimulates an adaptive response",
+          "correct": true,
+          "why": "Host cells produce the antigen, allowing antigen-specific lymphocytes to respond and memory cells to form."
+        },
+        {
+          "text": "Its DNA permanently replaces the recipient’s genes for antibody production",
+          "correct": false,
+          "why": "Vaccination doesn't require permanent replacement of the recipient's genome. The nucleic acid supplies instructions for an antigen."
+        },
+        {
+          "text": "Its RNA acts as an antibiotic that destroys every bacterial pathogen",
+          "correct": false,
+          "why": "The vaccine stimulates adaptive immunity to a specific antigen. It isn't a broad antibacterial drug."
+        },
+        {
+          "text": "Its nucleic acid becomes a supply of ready-made memory cells",
+          "correct": false,
+          "why": "Memory cells are living lymphocytes produced by the immune response. Nucleic acid isn't converted into cells."
+        }
+      ]
+    },
+    {
+      "id": "C3.2-q14",
+      "stem": "Cases in a city rise from 400 in week 1 to 500 in week 2. What is the percentage change?",
+      "options": [
+        {
+          "text": "20% increase, calculated using 500 as the denominator",
+          "correct": false,
+          "why": "Percentage change uses the old value as the denominator. Dividing 100 by 500 gives the wrong reference."
+        },
+        {
+          "text": "22.2% increase, calculated using the mean of both values",
+          "correct": false,
+          "why": "Using the mean calculates percentage difference. This question compares a new value with an old value over time."
+        },
+        {
+          "text": "25% increase, calculated using 400 as the denominator",
+          "correct": true,
+          "why": "The increase is 100, and 100 divided by the original 400 is 0.25, or 25%."
+        },
+        {
+          "text": "125% increase, calculated by dividing 500 by 400",
+          "correct": false,
+          "why": "That calculation shows the new value is 125% of the old value. The increase itself is 25%."
+        }
+      ]
+    }
+  ]
+}

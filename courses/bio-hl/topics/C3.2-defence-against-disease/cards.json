@@ -1,0 +1,127 @@
+{
+  "topic": "C3.2",
+  "title": "Defence against disease",
+  "cards": [
+    {
+      "id": "C3.2-01",
+      "q": "Define a pathogen and name the four main groups included in the term in this topic.",
+      "a": "A pathogen is a disease-causing organism or infectious agent. The term is typically used for viruses, bacteria, fungi and protists that cause infectious disease.",
+      "note": "Don’t call every microorganism a pathogen. Many bacteria, fungi and protists don’t cause disease.",
+      "tags": ["core", "pathogens"]
+    },
+    {
+      "id": "C3.2-02",
+      "q": "Explain how skin and mucous membranes prevent pathogens from entering body tissues.",
+      "a": "Intact skin forms a physical barrier of tightly packed outer cells and also provides chemical defenses that inhibit pathogens. At openings not covered by skin, mucous membranes secrete sticky mucus that traps pathogens. In parts of the respiratory tract, cilia move the mucus and trapped pathogens toward the throat for removal.",
+      "tags": ["core", "barriers", "primary-defense"]
+    },
+    {
+      "id": "C3.2-03",
+      "q": "Outline the complete blood-clotting sequence that seals a cut in the skin.",
+      "a": "Platelets adhere at the damaged site and release clotting factors. A cascade of reactions produces thrombin. Thrombin catalyzes the conversion of soluble fibrinogen into insoluble fibrin. Fibrin forms a mesh that traps erythrocytes and strengthens the platelet plug, producing a clot that limits blood loss and pathogen entry.",
+      "note": "Fibrinogen is soluble and fibrin is insoluble. Thrombin is the enzyme that converts one into the other.",
+      "tags": ["core", "clotting", "barriers"]
+    },
+    {
+      "id": "C3.2-04",
+      "q": "Distinguish the innate immune system from the adaptive immune system in three ways.",
+      "a": "The innate immune system responds to broad categories of pathogen, acts without prior exposure and doesn’t develop a more effective response during the organism’s life. The adaptive immune system recognizes particular antigens, uses antigen-specific lymphocytes and retains memory cells, so a later response to the same antigen is faster and larger.",
+      "note": "Innate doesn’t mean unimportant, and adaptive doesn’t mean immediate.",
+      "tags": ["core", "innate-immunity", "adaptive-immunity"]
+    },
+    {
+      "id": "C3.2-05",
+      "q": "Explain how a phagocyte controls an infection after recognizing foreign material.",
+      "a": "The phagocyte surrounds the pathogen with its plasma membrane and engulfs it by endocytosis. The pathogen becomes enclosed in a vesicle. Lysosomes fuse with the vesicle and release hydrolytic enzymes, which digest the pathogen.",
+      "tags": ["core", "innate-immunity", "phagocytosis"]
+    },
+    {
+      "id": "C3.2-06",
+      "q": "Explain the relationship among an antigen, an antibody and an antigen-specific B-lymphocyte.",
+      "a": "An antigen is a molecule recognized as foreign that can trigger antibody production. Each type of B-lymphocyte has receptors with one antigen specificity and can produce antibodies with the same specificity. When the matching B-cell is activated, its plasma-cell descendants secrete antibodies that bind to that antigen.",
+      "note": "An antigen isn’t the whole pathogen, and an antibody doesn’t bind equally well to every antigen.",
+      "tags": ["core", "antigens", "antibodies", "b-cells"]
+    },
+    {
+      "id": "C3.2-07",
+      "q": "State the two signals needed to activate a B-lymphocyte, then explain the helper T-cell’s role.",
+      "a": "A B-lymphocyte must interact with its specific antigen and receive contact and cytokine signals from an activated helper T-lymphocyte that recognizes the same antigen. The helper T-cell’s cytokines complete activation of the matching B-cell, allowing it to divide and differentiate.",
+      "note": "Contact with an antigen alone doesn’t complete B-cell activation in the model required here.",
+      "tags": ["core", "adaptive-immunity", "b-cells", "helper-t-cells"]
+    },
+    {
+      "id": "C3.2-08",
+      "q": "Explain why an activated B-lymphocyte undergoes clonal expansion and what its clone becomes.",
+      "a": "Only small numbers of B-cells can respond to any one antigen. After activation, the matching B-cell divides repeatedly by mitosis to produce a clone with the same antigen specificity. Most cells differentiate into plasma cells that secrete large quantities of the antibody, while some become long-lived memory B-cells.",
+      "tags": ["core", "clonal-expansion", "plasma-cells", "memory-cells"]
+    },
+    {
+      "id": "C3.2-09",
+      "q": "Compare the primary and secondary immune responses and explain how memory cells produce immunity.",
+      "a": "During a primary response, the few matching lymphocytes must first be activated and cloned, so antibody production is relatively slow and symptoms may develop. Some activated lymphocytes remain as long-lived memory cells. On later exposure to the same antigen, these cells respond faster and produce a larger antibody response, often eliminating the infection before serious symptoms occur.",
+      "note": "Memory is antigen-specific. Memory cells against one pathogen don’t provide automatic immunity to another.",
+      "tags": ["core", "immune-memory", "primary-response", "secondary-response"]
+    },
+    {
+      "id": "C3.2-10",
+      "q": "State which body fluids can transmit HIV and give three routes by which transmission can occur.",
+      "a": "HIV can be transmitted in blood, semen, vaginal fluids, rectal fluids and breast milk. Routes include unprotected sexual contact, sharing contaminated needles, transfusion with unscreened infected blood, and transmission during pregnancy, childbirth or breastfeeding. HIV isn’t transmitted through ordinary contact, saliva, sweat, tears or mosquito bites.",
+      "tags": ["core", "hiv", "transmission"]
+    },
+    {
+      "id": "C3.2-11",
+      "q": "Explain the causal chain from HIV infection to AIDS and opportunistic infections.",
+      "a": "HIV infects helper T-lymphocytes by interacting with CD4 molecules and eventually destroys these cells. With fewer helper T-cells, B-cells and other immune cells receive less activation, so effective adaptive responses become difficult to produce. Severe immune deficiency is called AIDS, and it allows opportunistic infections to occur more often or more severely.",
+      "note": "Correct the misconception: HIV is the virus, while AIDS is a syndrome that can result from advanced HIV infection.",
+      "tags": ["core", "hiv", "aids", "helper-t-cells", "misconception"]
+    },
+    {
+      "id": "C3.2-12",
+      "q": "Explain how an antibiotic can harm bacteria without causing the same effect in human cells, and why it can’t treat a viral infection.",
+      "a": "Antibiotics exploit differences between bacterial prokaryotic cells and human eukaryotic cells. For example, an antibiotic may inhibit bacterial cell-wall synthesis or bacterial protein synthesis. Viruses lack cell walls, ribosomes and their own metabolism, and they reproduce using host-cell machinery, so these bacterial targets are absent.",
+      "note": "Antibiotics target bacterial features or processes. They don’t kill viruses.",
+      "tags": ["core", "antibiotics", "bacteria", "viruses"]
+    },
+    {
+      "id": "C3.2-13",
+      "q": "Explain, by natural selection, how a bacterial population becomes resistant to an antibiotic.",
+      "a": "Random mutation produces heritable variation, and a few bacteria may already carry an allele that gives resistance. The antibiotic kills or inhibits susceptible bacteria, while resistant bacteria survive. They reproduce by binary fission and pass the resistance allele to descendants, so its frequency increases. Repeated exposure to different antibiotics can select strains resistant to several drugs.",
+      "note": "The antibiotic doesn’t create a useful mutation because the bacteria need one. It selects resistant variants that already exist.",
+      "tags": ["core", "antibiotic-resistance", "natural-selection"]
+    },
+    {
+      "id": "C3.2-14",
+      "q": "Define zoonosis and illustrate four different animal-to-human transmission routes with named examples.",
+      "a": "A zoonosis is an infectious disease that can transfer from another animal species to humans. Rabies virus can be transmitted in saliva through the bite of an infected dog or wild mammal. Mycobacterium bovis can pass from cattle in unpasteurized milk, infected meat or aerosols. Japanese encephalitis virus can pass from pigs or wading birds to humans through Culex mosquitoes. COVID-19 is included as a recently emerged disease of animal origin, although its precise original animal route hasn’t been established.",
+      "tags": ["core", "zoonoses", "transmission"]
+    },
+    {
+      "id": "C3.2-15",
+      "q": "Explain how vaccination produces immunity without causing the disease.",
+      "a": "A vaccine supplies pathogen antigens or DNA or RNA containing sequences that code for antigens. The antigens stimulate a primary adaptive immune response, including activation and cloning of antigen-specific lymphocytes. Plasma cells produce antibodies and memory cells remain. Later exposure to the pathogen triggers a faster, larger secondary response without the vaccine having caused the disease.",
+      "note": "A vaccine stimulates the person’s immune system. The vaccine itself doesn’t become an antibody.",
+      "tags": ["core", "vaccination", "immune-memory"]
+    },
+    {
+      "id": "C3.2-16",
+      "q": "Explain how herd immunity can protect a person who hasn’t developed immunity.",
+      "a": "When a sufficiently high proportion of a population is immune to a pathogen, infected people are less likely to encounter susceptible hosts. Chains of transmission are interrupted, epidemics become less likely and a non-immune person has a lower risk of exposure. The required immune proportion is higher for more transmissible pathogens.",
+      "note": "Herd immunity lowers risk; it doesn’t make each non-immune individual biologically immune.",
+      "tags": ["core", "herd-immunity", "populations"]
+    },
+    {
+      "id": "C3.2-17",
+      "q": "Distinguish percentage change from percentage difference and give the formula for each.",
+      "a": "Percentage change compares an old value with a new value over time: (new value − old value) ÷ old value × 100. A negative result shows a decrease. Percentage difference compares two equivalent values without treating either as the starting value: |value 1 − value 2| ÷ [(value 1 + value 2) ÷ 2] × 100.",
+      "note": "The denominators differ. Percentage change uses the old value, while percentage difference uses the mean.",
+      "tags": ["core", "data-analysis", "covid-19"]
+    },
+    {
+      "id": "C3.2-18",
+      "q": "Construct a causal chain from a pathogen crossing the skin to individual immunity and reduced transmission through a population.",
+      "a": "A break in the skin allows a pathogen to enter, while clotting helps seal the breach. Phagocytes provide a broad innate response by engulfing pathogens. Antigens from the pathogen select matching helper T-cells and B-cells; helper T-cell signals activate the B-cells, which clone and form antibody-secreting plasma cells and memory cells. Memory cells enable a faster secondary response. Vaccination creates this memory before disease, and high immunity across a population interrupts transmission and contributes to herd immunity.",
+      "note": "Keep the levels separate: barriers prevent entry, innate defenses respond broadly, adaptive defenses are specific, and herd immunity describes transmission through a population.",
+      "tags": ["core", "synthesis", "immunity", "vaccination", "herd-immunity"]
+    }
+  ]
+}

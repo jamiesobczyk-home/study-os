@@ -1,0 +1,317 @@
+{
+  "topic": "C1.1",
+  "questions": [
+    {
+      "id": "C1.1-q01",
+      "stem": "Which statement defines an enzyme’s role as a catalyst?",
+      "options": [
+        {
+          "text": "It increases reaction rate without being used up",
+          "correct": true,
+          "why": "An enzyme can take part in repeated catalytic cycles because it’s regenerated after product release."
+        },
+        {
+          "text": "It supplies the chemical energy required by reactants",
+          "correct": false,
+          "why": "Enzymes don’t supply energy. They lower the activation-energy barrier for a reaction."
+        },
+        {
+          "text": "It changes the reaction’s products into lower-energy substances",
+          "correct": false,
+          "why": "A catalyst doesn’t change which products form or their energy. It changes the pathway and rate."
+        },
+        {
+          "text": "It shifts the equilibrium permanently toward product formation",
+          "correct": false,
+          "why": "Enzymes speed forward and reverse reactions without changing the equilibrium position."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q02",
+      "stem": "Which process is catabolic?",
+      "options": [
+        {
+          "text": "Formation of glycogen from glucose monomers",
+          "correct": false,
+          "why": "This builds a polysaccharide from smaller molecules, so it’s anabolic."
+        },
+        {
+          "text": "Synthesis of a polypeptide from amino acids",
+          "correct": false,
+          "why": "This constructs a macromolecule and requires an energy input, so it’s anabolic."
+        },
+        {
+          "text": "Oxidation of glucose during cell respiration",
+          "correct": true,
+          "why": "Respiration breaks down and oxidizes an organic substrate, releasing energy for cellular use."
+        },
+        {
+          "text": "Production of carbohydrates during photosynthesis",
+          "correct": false,
+          "why": "Photosynthesis builds carbon compounds using an energy input, so it’s anabolic."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q03",
+      "stem": "What happens during induced-fit binding?",
+      "options": [
+        {
+          "text": "The enzyme and substrate change conformation as they interact",
+          "correct": true,
+          "why": "Binding causes conformational changes that position catalytic groups and make reaction more likely."
+        },
+        {
+          "text": "The rigid active site admits every substrate of the correct size",
+          "correct": false,
+          "why": "Active sites aren’t rigid, and binding depends on chemical properties as well as size."
+        },
+        {
+          "text": "The substrate changes permanently before reaching the active site",
+          "correct": false,
+          "why": "The interaction begins when the substrate binds. Product formation follows inside the enzyme–substrate complex."
+        },
+        {
+          "text": "The enzyme unfolds completely and wraps around its substrate",
+          "correct": false,
+          "why": "Induced fit is a limited conformational change. Complete unfolding would disrupt the active site."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q04",
+      "stem": "Why is an enzyme-catalyzed reaction slow at a low temperature?",
+      "options": [
+        {
+          "text": "Substrates permanently occupy all available active sites",
+          "correct": false,
+          "why": "That describes saturation at high substrate concentration. It isn’t an effect of low temperature."
+        },
+        {
+          "text": "The enzyme’s peptide bonds are hydrolyzed by cold",
+          "correct": false,
+          "why": "Low temperature doesn’t normally hydrolyze the enzyme’s primary structure."
+        },
+        {
+          "text": "Molecules move more slowly, producing fewer successful collisions",
+          "correct": true,
+          "why": "Lower kinetic energy reduces collision frequency and the proportion of collisions with enough energy."
+        },
+        {
+          "text": "The reaction develops a larger overall energy change",
+          "correct": false,
+          "why": "Temperature doesn’t explain the low rate by changing the energy difference between reactants and products."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q05",
+      "stem": "A reaction rate stops increasing at a very high substrate concentration. What limits the rate?",
+      "options": [
+        {
+          "text": "The availability of unoccupied enzyme active sites",
+          "correct": true,
+          "why": "The enzymes are saturated, so enzyme concentration limits how many catalytic cycles can occur per second."
+        },
+        {
+          "text": "The substrate’s inability to move through the solution",
+          "correct": false,
+          "why": "Substrate molecules still move and collide. Most active sites are already occupied as often as possible."
+        },
+        {
+          "text": "The denaturation of enzymes by substrate collisions",
+          "correct": false,
+          "why": "Frequent substrate collisions don’t explain this plateau. Active-site saturation does."
+        },
+        {
+          "text": "The disappearance of activation energy from the reaction",
+          "correct": false,
+          "why": "The reaction still has an activation-energy barrier. The enzyme lowers it but doesn’t remove it."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q06",
+      "stem": "A student records oxygen volume every 10 seconds during a catalase reaction. How should the initial reaction rate be found?",
+      "options": [
+        {
+          "text": "Divide the final oxygen volume by the final temperature",
+          "correct": false,
+          "why": "Temperature isn’t the time interval. This calculation can’t produce a reaction rate."
+        },
+        {
+          "text": "Find the gradient of the oxygen-volume graph near time zero",
+          "correct": true,
+          "why": "The initial gradient gives change in product volume per unit time before conditions change substantially."
+        },
+        {
+          "text": "Average all oxygen volumes without using elapsed time",
+          "correct": false,
+          "why": "A mean volume isn’t a rate because it contains no change per unit time."
+        },
+        {
+          "text": "Use the steepest gradient after the reaction has finished",
+          "correct": false,
+          "why": "After the reaction finishes, the gradient approaches zero. The initial section supplies the initial rate."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q07",
+      "stem": "Which statement about enzyme activation energy is accurate?",
+      "options": [
+        {
+          "text": "The enzyme lowers the energy of both reactants and products",
+          "correct": false,
+          "why": "Their energy levels remain unchanged. The enzyme lowers the barrier between them."
+        },
+        {
+          "text": "The enzyme provides an alternative pathway with a lower barrier",
+          "correct": true,
+          "why": "More reacting molecules can overcome the lower activation-energy barrier at the same temperature."
+        },
+        {
+          "text": "The enzyme raises molecular kinetic energy without heating",
+          "correct": false,
+          "why": "Enzymes don’t increase kinetic energy. Their effect comes from an alternative reaction pathway."
+        },
+        {
+          "text": "The enzyme removes the need to weaken substrate bonds",
+          "correct": false,
+          "why": "Substrate bonds still need to be strained, weakened or broken during reaction."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q08",
+      "stem": "Which pair contains one linear and one cyclical metabolic pathway, in that order?",
+      "options": [
+        {
+          "text": "Krebs cycle and glycolysis",
+          "correct": false,
+          "why": "The order is reversed. The Krebs cycle is cyclical, while glycolysis is linear."
+        },
+        {
+          "text": "Calvin cycle and Krebs cycle",
+          "correct": false,
+          "why": "Both regenerate an acceptor molecule and are cyclical pathways."
+        },
+        {
+          "text": "Glycolysis and Krebs cycle",
+          "correct": true,
+          "why": "Glycolysis converts an initial substrate through a linear sequence, while the Krebs cycle regenerates an acceptor."
+        },
+        {
+          "text": "Glycolysis and protein digestion",
+          "correct": false,
+          "why": "Glycolysis is linear, but protein digestion isn’t the required example of a cyclical pathway."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q09",
+      "stem": "Why can increasing substrate concentration overcome competitive inhibition?",
+      "options": [
+        {
+          "text": "Substrate binding permanently changes the inhibitor’s structure",
+          "correct": false,
+          "why": "The inhibitor doesn’t need to be chemically changed. Substrate and inhibitor compete through reversible binding."
+        },
+        {
+          "text": "More substrate increases its chance of occupying the active site",
+          "correct": true,
+          "why": "At high substrate concentration, substrate is more likely than inhibitor to bind during each available opportunity."
+        },
+        {
+          "text": "Extra substrate creates additional allosteric sites on the enzyme",
+          "correct": false,
+          "why": "Substrate concentration doesn’t create binding sites. Competitive inhibition occurs at existing active sites."
+        },
+        {
+          "text": "More substrate converts competitive inhibition into non-competitive inhibition",
+          "correct": false,
+          "why": "The inhibitor’s binding site and mechanism don’t change when substrate concentration rises."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q10",
+      "stem": "Why can’t extra substrate restore the original maximum rate during non-competitive inhibition?",
+      "options": [
+        {
+          "text": "The inhibitor has permanently hydrolyzed every substrate molecule",
+          "correct": false,
+          "why": "A non-competitive inhibitor acts on the enzyme, not by destroying all substrate."
+        },
+        {
+          "text": "The inhibitor occupies the active site more strongly than substrate",
+          "correct": false,
+          "why": "That describes competition at the active site. A non-competitive inhibitor binds elsewhere."
+        },
+        {
+          "text": "Allosteric binding leaves fewer enzymes with functional active sites",
+          "correct": true,
+          "why": "The inhibitor changes active-site conformation, so extra substrate can’t make those inhibited enzymes catalyze normally."
+        },
+        {
+          "text": "The added substrate lowers the solution temperature below optimum",
+          "correct": false,
+          "why": "Adding substrate doesn’t inherently lower temperature. The rate stays reduced because of enzyme conformation."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q11",
+      "stem": "How does accumulated isoleucine regulate its own synthesis?",
+      "options": [
+        {
+          "text": "It hydrolyzes threonine before the pathway can begin",
+          "correct": false,
+          "why": "Isoleucine regulates an enzyme. It doesn’t remove threonine by hydrolysis."
+        },
+        {
+          "text": "It irreversibly binds to every enzyme in the pathway",
+          "correct": false,
+          "why": "Feedback inhibition is reversible and targets an early regulatory enzyme rather than every enzyme."
+        },
+        {
+          "text": "It competes with threonine for the first active site",
+          "correct": false,
+          "why": "The required mechanism is allosteric feedback inhibition, not active-site competition with threonine."
+        },
+        {
+          "text": "It binds allosterically to threonine deaminase and slows the first step",
+          "correct": true,
+          "why": "The end product inhibits the first enzyme, reducing pathway activity until isoleucine concentration falls."
+        }
+      ]
+    },
+    {
+      "id": "C1.1-q12",
+      "stem": "What is the direct effect of penicillin binding to bacterial transpeptidase?",
+      "options": [
+        {
+          "text": "Irreversible enzyme inactivation and reduced peptidoglycan cross-linking",
+          "correct": true,
+          "why": "Penicillin forms a covalent attachment at the active site, so transpeptidase can’t catalyze normal wall cross-linking."
+        },
+        {
+          "text": "Reversible competition followed by increased wall synthesis",
+          "correct": false,
+          "why": "Penicillin’s mechanism-based inhibition is irreversible, and wall cross-linking decreases."
+        },
+        {
+          "text": "Immediate hydrolysis of every existing peptidoglycan strand",
+          "correct": false,
+          "why": "Penicillin blocks new cross-linking. It doesn’t directly digest every existing strand."
+        },
+        {
+          "text": "Allosteric activation of enzymes that produce bacterial membranes",
+          "correct": false,
+          "why": "Penicillin inhibits a cell-wall transpeptidase at its active site. It doesn’t activate membrane synthesis."
+        }
+      ]
+    }
+  ]
+}
