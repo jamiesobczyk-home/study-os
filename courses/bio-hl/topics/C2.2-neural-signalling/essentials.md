@@ -7,7 +7,7 @@
 - [ ] Identify the cell body, dendrites and axon of a neuron, and connect each structure to the direction in which it carries information.
 - [ ] Explain how ATP-powered pumping and selective ion movement establish a negative resting potential across a neuron's plasma membrane.
 - [ ] Explain why a nerve impulse is an electrical action potential rather than a flow of electricity through an axon like a wire.
-- [ ] Explain how axon diameter and myelination affect conduction speed, and interpret correlations involving conduction speed, including \(r\) and \(R^2\).
+- [ ] Explain how axon diameter and myelination affect conduction speed, and interpret correlations involving conduction speed, including r and R².
 - [ ] Distinguish the presynaptic neuron, synaptic cleft and postsynaptic cell, and explain why transmission across a typical chemical synapse is one-way.
 - [ ] Explain how depolarization of a presynaptic terminal causes calcium ion entry and neurotransmitter release by exocytosis.
 - [ ] Explain how acetylcholine produces an excitatory postsynaptic potential after crossing a synapse.
